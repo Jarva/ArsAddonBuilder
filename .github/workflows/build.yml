@@ -3,6 +3,9 @@ name: Build Repositories
 on:
   workflow_dispatch:
 
+env:
+  JAVA_VERSION: 17
+
 permissions:
   contents: write
 
