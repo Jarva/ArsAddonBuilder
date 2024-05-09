@@ -1,3 +1,5 @@
+name: Sync Addons
+
 on:
   workflow_dispatch:
   schedule:
