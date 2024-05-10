@@ -31,7 +31,14 @@ jobs:
       matrix:
         dir: ${{ fromJSON(needs.find.outputs.matrix) }}    
     steps:
-      - run: ls
+      - shell: bash
+        run: ls -lah
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup submodules
+        shell: bash
+        run: |
+          git submodule update --init --remote --recursive
       - uses: actions/setup-java@v4
         with:
           java-version: ${{ env.JAVA_VERSION }}
