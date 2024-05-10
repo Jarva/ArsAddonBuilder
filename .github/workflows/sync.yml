@@ -16,7 +16,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        submodules: true
+        submodules: 'recursive'
     - name: Git Submodule Update
       run: |
         git submodule foreach "git show-ref"
