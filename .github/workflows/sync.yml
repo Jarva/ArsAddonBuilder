@@ -19,9 +19,10 @@ jobs:
         submodules: true
     - name: Git Submodule Update
       run: |
-        git submodule update --remote --recursive
+        git submodule foreach "git show-ref"
         git submodule foreach "git fetch --all"
         git pull --recurse-submodules
+        git submodule update --remote --recursive
     - name: Commit update
       shell: bash
       run: |
