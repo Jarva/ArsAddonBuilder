@@ -1,20 +1,20 @@
 [submodule "Ars-Nouveau"]
 	path = Ars-Nouveau
-	url = git@github.com:baileyholl/Ars-Nouveau.git
+	url = https://github.com/baileyholl/Ars-Nouveau.git
 	branch = 1.20
 [submodule "Ars-Additions"]
 	path = Ars-Additions
-	url = git@github.com:Jarva/Ars-Additions.git
+	url = https://github.com/Jarva/Ars-Additions.git
 	branch = 1.20.1
 [submodule "Ars-Elemental"]
 	path = Ars-Elemental
-	url = git@github.com:Alexthw46/Ars-Elemental.git
+	url = https://github.com/Alexthw46/Ars-Elemental.git
 	branch = 1.20.x
 [submodule "TooManyGlyphs"]
 	path = TooManyGlyphs
-	url = git@github.com:DerringersMods/TooManyGlyphs.git
+	url = https://github.com/DerringersMods/TooManyGlyphs.git
 	branch = 1.20.x
 [submodule "NotEnoughGlyphs"]
 	path = NotEnoughGlyphs
-	url = git@github.com:Alexthw46/NotEnoughGlyphs.git
+	url = https://github.com/Alexthw46/NotEnoughGlyphs.git
 	branch = 1.20
