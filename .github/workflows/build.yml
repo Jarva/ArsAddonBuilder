@@ -23,7 +23,7 @@ jobs:
           git submodule update --init --remote --recursive
       - id: find
         shell: bash
-        run: echo "matrix=$(find . -type d -not -path "." -exec test -e '{}/.git' ';' -print -prune | jq -R -s -c 'split("\n")[:-1]')" >> "$GITHUB_OUTPUT"
+        run: echo "matrix=$(find . -type d -not -path "." -exec test -e '{}/.git' ';' -exec basename {} \; -prune | jq -R -s -c 'split("\n")[:-1]')" >> "$GITHUB_OUTPUT"
   build:
     runs-on: ubuntu-latest
     needs: find
@@ -47,4 +47,3 @@ jobs:
         uses: gradle/gradle-build-action@v2
         with:
           arguments: clean runData
-          build-root-directory: ${{ matrix.dir }}
