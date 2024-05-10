@@ -28,6 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: find
     strategy:
+      fail-fast: false
       matrix:
         dir: ${{ fromJSON(needs.find.outputs.matrix) }}    
     steps:
