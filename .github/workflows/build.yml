@@ -30,9 +30,6 @@ jobs:
     strategy:
       matrix:
         dir: ${{ fromJSON(needs.find.outputs.matrix) }}    
-    defaults:
-      run:
-        working-directory: ${{ matrix.dir }}
     steps:
       - run: ls
       - uses: actions/setup-java@v4
@@ -48,3 +45,4 @@ jobs:
         uses: gradle/gradle-build-action@v2
         with:
           arguments: clean runData
+          build-root-directory: ${{ matrix.dir }}
