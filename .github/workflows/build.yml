@@ -31,14 +31,15 @@ jobs:
       matrix:
         dir: ${{ fromJSON(needs.find.outputs.matrix) }}    
     steps:
-      - shell: bash
-        run: ls -lah
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup submodules
         shell: bash
+        env:
+          DIRECTORY: ${{ matrix.dir }}
         run: |
           git submodule update --init --remote --recursive
+          chmod +x $DIRECTORY/gradlew
       - uses: actions/setup-java@v4
         with:
           java-version: ${{ env.JAVA_VERSION }}
