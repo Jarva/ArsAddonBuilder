@@ -39,9 +39,12 @@ jobs:
           java-version: ${{ env.JAVA_VERSION }}
           distribution: "temurin"
       - shell: bash
+        env:
+          WORKDIR: ${{ matrix.dir }}
         run: |
           mkdir -p ~/.gradle/caches/fabric-loom/assets
       - name: Setup and Build with Gradle
         uses: gradle/gradle-build-action@v2
         with:
           arguments: clean runData
+          build-root-directory: ${{ matrix.dir }}
