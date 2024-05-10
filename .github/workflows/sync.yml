@@ -15,14 +15,10 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-      with:
-        submodules: 'recursive'
     - name: Git Submodule Update
       run: |
-        git submodule foreach "git show-ref"
-        git submodule foreach "git fetch --all"
+        git submodule update --init --remote --recursive
         git pull --recurse-submodules
-        git submodule update --remote --recursive
     - name: Commit update
       shell: bash
       run: |
