@@ -45,6 +45,7 @@ jobs:
         with:
           java-version: ${{ env.JAVA_VERSION }}
           distribution: "temurin"
+          cache: gradle
       - shell: bash
         run: |
           mkdir -p ~/.gradle/caches/fabric-loom/assets
