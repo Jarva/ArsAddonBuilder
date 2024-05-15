@@ -61,18 +61,7 @@ jobs:
         uses: up9cloud/action-rsync@v1.4
         env:
           MODE: local
-          SOURCE: ${{ matrix.dir }}/src/main/resources/
-          TARGET: resources/${{ matrix.dir }}
-          VERBOSE: true
-          PRE_SCRIPT: |
-            echo start at:
-            date -u
-          POST_SCRIPT: "echo done at: && date -u"
-      - name: Action - rsync
-        uses: up9cloud/action-rsync@v1.4
-        env:
-          MODE: local
-          SOURCE: ${{ matrix.dir }}/src/generated/
+          SOURCE: "${{ matrix.dir }}/src/main/resources/ ${{ matrix.dir }}/src/generated/"
           TARGET: resources/${{ matrix.dir }}
           VERBOSE: true
           PRE_SCRIPT: |
