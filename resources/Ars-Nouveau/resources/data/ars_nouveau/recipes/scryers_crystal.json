@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "tag": "forge:gems/source"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:scryers_crystal"
+  }
+}

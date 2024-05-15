@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:green_archwood_log"
+    },
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "tag": "forge:storage_blocks/coal"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:ritual_burrowing"
+  }
+}
