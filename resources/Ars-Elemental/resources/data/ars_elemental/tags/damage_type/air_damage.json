@@ -1,0 +1,16 @@
+{
+  "values": [
+    "#minecraft:is_lightning",
+    "minecraft:fall",
+    "minecraft:fly_into_wall",
+    "minecraft:sonic_boom",
+    {
+      "id": "ars_elemental:spark",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:windshear",
+      "required": false
+    }
+  ]
+}
