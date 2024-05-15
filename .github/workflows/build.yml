@@ -68,3 +68,11 @@ jobs:
             echo start at:
             date -u
           POST_SCRIPT: "echo done at: && date -u"
+      - id: find
+        shell: bash
+        env:
+          PROJECT: ${{ matrix.dir }}
+        run: echo "project_hash=$(git ls-tree --object-only HEAD $PROJECT)" >> "$GITHUB_OUTPUT"
+      - uses: GuillaumeFalourd/git-commit-push@v1.3
+        with:
+          commit_message: "feat: update ${{ matrix.dir }} to ${{ steps.find.outputs.project_hash }}"
