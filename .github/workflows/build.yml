@@ -50,8 +50,12 @@ jobs:
           WORKDIR: ${{ matrix.dir }}
         run: |
           mkdir -p ~/.gradle/caches/fabric-loom/assets
-      - name: Setup and Build with Gradle
-        uses: gradle/gradle-build-action@v2
+      - name: retry action
+        uses: Wandalen/wretry.action@v3.5.0
         with:
-          arguments: clean runData
-          build-root-directory: ${{ matrix.dir }}
+          attempt_limit: 3
+          attempt_delay: 2000
+          action: gradle/gradle-build-action@v2
+          with: |
+            arguments: clean runData
+            build-root-directory: ${{ matrix.dir }}
