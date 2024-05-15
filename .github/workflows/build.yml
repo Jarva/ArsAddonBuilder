@@ -73,6 +73,7 @@ jobs:
         env:
           PROJECT: ${{ matrix.dir }}
         run: echo "project_hash=$(git ls-tree --object-only HEAD $PROJECT)" >> "$GITHUB_OUTPUT"
-      - uses: GuillaumeFalourd/git-commit-push@v1.3
+      - uses: Jarva/git-commit-push@main
         with:
+          pull: true
           commit_message: "feat: update ${{ matrix.dir }} to ${{ steps.find.outputs.project_hash }}"
