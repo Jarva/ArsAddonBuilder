@@ -15,14 +15,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-    - name: Git Submodule Update
+    - name: Sync Projects
       run: |
-        git submodule update --init --remote --recursive
-        git pull --recurse-submodules
-    - name: Commit update
-      shell: bash
-      run: |
-        git config --global user.name 'Git bot'
-        git config --global user.email 'bot@noreply.github.com'
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        git commit -am "Auto updated submodule references" && git push || echo "No changes to commit"
+        ./scripts/sync.sh
+    - uses: GuillaumeFalourd/git-commit-push@v1.3
+      with:
+        commit_message: "ci: bump version"
