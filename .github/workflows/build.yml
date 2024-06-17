@@ -3,8 +3,8 @@ name: Build Repositories
 on:
   workflow_dispatch:
   push:
-    branches:
-      - 1.20
+    paths:
+      - 'projects/**'
 
 env:
   JAVA_VERSION: 17
