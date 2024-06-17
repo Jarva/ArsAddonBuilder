@@ -40,7 +40,7 @@ jobs:
       - id: info
         run: |
           echo "MODULE=$(jq -c . < ${{ matrix.file }})" >> $GITHUB_OUTPUT
-          echo "DIR=$(basename ${{ matrix.file }})" >> $GITHUB_OUTPUT
+          echo "DIR=$(basename ${{ matrix.file }} .json)" >> $GITHUB_OUTPUT
       - run: |
           mkdir -p build/${{ steps.info.outputs.DIR }}
       - uses: actions/checkout@v4
