@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "starbunclemania:fluid_jar"
+    },
+    {
+      "item": "ars_nouveau:relay"
+    }
+  ],
+  "result": {
+    "item": "starbunclemania:source_condenser"
+  }
+}
