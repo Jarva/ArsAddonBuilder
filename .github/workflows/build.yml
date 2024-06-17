@@ -72,7 +72,14 @@ jobs:
           with: |
             arguments: clean runData
             build-root-directory: build/${{ steps.info.outputs.DIR }}
+      - name: Mark Resources Outdated
+        if: failure()
+        shell: bash
+        run: |
+          mkdir -p resources/${{ steps.info.outputs.DIR }}
+          touch resources/${{ steps.info.outputs.DIR }}/.outdated
       - name: Action - rsync
+        if: success()
         uses: up9cloud/action-rsync@v1.4
         env:
           MODE: local
@@ -80,10 +87,12 @@ jobs:
           TARGET: resources/${{ steps.info.outputs.DIR }}
           VERBOSE: true
           PRE_SCRIPT: |
+            rm -rf resources/${{ steps.info.outputs.DIR }}
             echo start at:
             date -u
           POST_SCRIPT: "echo done at: && date -u"
       - uses: Jarva/git-commit-push@main
+        if: success() || failure()
         with:
           pull: true
           commit_message: "feat: update ${{ matrix.file }} to ${{ fromJson(steps.info.outputs.MODULE).hash }}"
