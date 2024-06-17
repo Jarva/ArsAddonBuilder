@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ars_additions:cracked_polished_sourcestone"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:sourcestone"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:block_ignore",
+      "blocks": [
+        {
+          "Name": "minecraft:air"
+        },
+        {
+          "Name": "minecraft:structure_void"
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:block_rot",
+      "integrity": 0.7,
+      "rottable_blocks": ["ars_nouveau:sourcestone"]
+    },
+    {
+      "processor_type": "minecraft:block_age",
+      "mossiness": 0.5
+    }
+  ]
+}

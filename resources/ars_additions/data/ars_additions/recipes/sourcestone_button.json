@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:sourcestone"
+    }
+  ],
+  "result": {
+    "item": "ars_additions:sourcestone_button"
+  }
+}
