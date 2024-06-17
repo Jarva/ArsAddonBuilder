@@ -46,7 +46,7 @@ jobs:
       - uses: actions/checkout@v4
         name: Checkout module
         with:
-          repository: ${{ fromJson(steps.info.outputs.MODULE).url }}
+          repository: ${{ fromJson(steps.info.outputs.MODULE).repo }}
           ref: ${{ fromJson(steps.info.outputs.MODULE).branch }}
           path: build/${{ steps.info.outputs.DIR }}
       - name: Setup gradle
