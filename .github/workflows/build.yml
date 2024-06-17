@@ -82,7 +82,7 @@ jobs:
         shell: bash
         run: |
           mkdir -p resources/${{ steps.info.outputs.DIR }}
-          touch resources/${{ steps.info.outputs.DIR }}/.outdated
+          echo ${{ fromJson(steps.info.outputs.MODULE).hash }} > resources/${{ steps.info.outputs.DIR }}/.outdated
       - name: Action - rsync
         if: success()
         uses: up9cloud/action-rsync@v1.4
