@@ -1,0 +1,4 @@
+// 1.19.2	2024-06-17T17:56:32.792930036	Tags for minecraft:block
+07dc8e6360f09661ec4efefd5b55da6b90a25cff data/minecraft/tags/blocks/buttons.json
+f05cd860fb79b6f1243f4b9a9d901f633ce27514 data/minecraft/tags/blocks/mineable/pickaxe.json
+f1a95fc5e8e87e008eb8ba1e89e83a13a0daa260 data/minecraft/tags/blocks/walls.json
