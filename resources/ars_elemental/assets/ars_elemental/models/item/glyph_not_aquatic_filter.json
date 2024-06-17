@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "ars_nouveau:item/filter",
-    "layer1": "ars_nouveau:item/aquatic_f",
-    "layer2": "ars_nouveau:item/filter_deny"
-  }
-}

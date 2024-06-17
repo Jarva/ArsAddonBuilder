@@ -100,4 +100,4 @@ jobs:
         if: success() || failure()
         with:
           pull: true
-          commit_message: "feat: update ${{ matrix.file }} to ${{ fromJson(steps.info.outputs.MODULE).hash }}"
+          commit_message: "ci: update ${{ steps.info.outputs.DIR }} to ${{ fromJson(steps.info.outputs.MODULE).hash }}"

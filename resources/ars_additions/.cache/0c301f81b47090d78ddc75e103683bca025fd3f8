@@ -1,7 +1,0 @@
-// 1.20.1	2024-06-17T16:07:36.339527642	Tags for minecraft:block mod id ars_additions
-07dc8e6360f09661ec4efefd5b55da6b90a25cff data/minecraft/tags/blocks/buttons.json
-70e8fe3698ee18c3528c6cff0e9aa93612c4c2ef data/minecraft/tags/blocks/doors.json
-7e3a925a5a5a25e0eadaab19bd00cda1f2661fdf data/minecraft/tags/blocks/mineable/pickaxe.json
-aa53f6ffe150f7773f2b8902a248e9224ccfa1f1 data/minecraft/tags/blocks/trapdoors.json
-f1a95fc5e8e87e008eb8ba1e89e83a13a0daa260 data/minecraft/tags/blocks/walls.json
-2664e2559714dc27cf4983fd220fb9a1e8ecf847 data/minecraft/tags/blocks/wool_carpets.json
