@@ -66,15 +66,14 @@ jobs:
       - shell: bash
         run: |
           mkdir -p ~/.gradle/caches/fabric-loom/assets
+      - uses: gradle/actions/setup-gradle@v3
       - name: retry action
         uses: Wandalen/wretry.action@v3.5.0
         with:
           attempt_limit: 3
           attempt_delay: 2000
-          action: gradle/gradle-build-action@v2
-          with: |
-            arguments: clean runData
-            build-root-directory: build/${{ steps.info.outputs.DIR }}
+          current_path: build/${{ steps.info.outputs.DIR }}
+          command: ./gradlew clean runData
       - name: Mark Resources Outdated
         if: failure()
         shell: bash
