@@ -12,12 +12,19 @@ jobs:
   sync:
     name: 'Submodules Sync'
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        branch: ["1.20"]
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+      with:
+        ref: ${{ matrix.branch }}
     - name: Sync Projects
       run: |
         ./scripts/sync.sh
-    - uses: GuillaumeFalourd/git-commit-push@v1.3
+    - uses: Jarva/git-commit-push@main
       with:
-        commit_message: "ci: bump version"
+        pull: true
+        commit_message: "ci: bump versions"
