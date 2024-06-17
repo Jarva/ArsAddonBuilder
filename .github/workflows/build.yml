@@ -83,12 +83,7 @@ jobs:
             echo start at:
             date -u
           POST_SCRIPT: "echo done at: && date -u"
-      - id: find
-        shell: bash
-        env:
-          PROJECT: ${{ steps.info.outputs.DIR }}
-        run: echo "project_hash=$(git ls-tree --object-only HEAD $PROJECT)" >> "$GITHUB_OUTPUT"
       - uses: Jarva/git-commit-push@main
         with:
           pull: true
-          commit_message: "feat: update ${{ matrix.file }} to ${{ steps.find.outputs.project_hash }}"
+          commit_message: "feat: update ${{ matrix.file }} to ${{ fromJson(steps.info.outputs.MODULE).hash }}"
