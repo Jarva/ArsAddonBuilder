@@ -30,7 +30,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        file: ${{ fromJSON(needs.find.outputs.matrix) }}    
+        file: ${{ needs.find.outputs.matrix }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
