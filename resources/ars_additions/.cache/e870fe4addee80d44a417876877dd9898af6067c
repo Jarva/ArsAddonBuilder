@@ -1,0 +1,5 @@
+// 1.20.1	2024-06-17T01:19:40.598528033	Tags for minecraft:item mod id ars_additions
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/ars_additions/tags/items/forgotten_knowledge.json
+7b14e2f8272f7ea3f3b0183823fd14779b7971db data/ars_nouveau/tags/items/ritual_loot_blacklist.json
+7b14e2f8272f7ea3f3b0183823fd14779b7971db data/ars_nouveau/tags/items/ritual_trade_blacklist.json
+f6bbd61c116310f35cbdad4dcd1453d93c4d8752 data/minecraft/tags/items/bookshelf_books.json
