@@ -1,0 +1,48 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:sculk"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_trinkets:purple_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_trinkets:purple_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:tnt"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:tnt"
+      }
+    }
+  ],
+  "output": "ars_trinkets:glyph_sound_boom"
+}

@@ -1,0 +1,53 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_trinkets:white_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_trinkets:white_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_trinkets:white_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:enchanted_book"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:experience_bottle"
+      }
+    }
+  ],
+  "output": "ars_trinkets:glyph_exp_sac"
+}
