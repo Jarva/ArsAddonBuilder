@@ -1,0 +1,51 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "ars_trinkets:gold_essence"
+  },
+  "output": "ars_trinkets:crystal_essence",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "ars_trinkets:gold_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_trinkets:gold_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_trinkets:gold_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_trinkets:gold_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_trinkets:gold_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_trinkets:gold_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:amethyst_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:amethyst_block"
+      }
+    }
+  ],
+  "source": 160
+}
