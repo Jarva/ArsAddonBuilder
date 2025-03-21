@@ -58,9 +58,9 @@ jobs:
         with:
           list-files: json
           base: ${{ github.ref }}
-          filters: |
-            changed:
-              - 'projects/*.json'
+          # filters: |
+          #   changed:
+          #     - 'projects/*.json'
   build:
     runs-on: ubuntu-latest
     needs: [build-doc-exporter, find]
