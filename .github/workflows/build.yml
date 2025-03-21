@@ -111,9 +111,6 @@ jobs:
       - name: Create mods folder
         run: |
           mkdir -p run/mods
-      - name: Download Ars Nouveau
-        run: |
-          cd run/mods
       - name: Download dependencies
         run: |
           cd run/mods
@@ -122,7 +119,7 @@ jobs:
           fi
           curl -LO "${{ env.CURIOS_URL }}"
           curl -LO "${{ env.PATCHOULI_URL }}"
-          curl -LO "${{ env.GECKO_LIB_URL }}"
+          curl -LO "${{ env.GECKOLIB_URL }}"
       - name: Stage mod for test client
         run: |
           cp build/${{ steps.info.outputs.DIR }}/build/libs/*.jar run/mods
