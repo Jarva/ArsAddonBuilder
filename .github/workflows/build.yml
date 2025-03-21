@@ -107,7 +107,7 @@ jobs:
       - name: Stage mod for test client
         run: |
           mkdir -p run/mods
-          cp build/libs/*.jar run/mods
+          cp build/${{ steps.info.outputs.DIR }}/build/libs/*.jar run/mods
       - name: Download doc-exporter jar to mods folder
         uses: actions/download-artifact@v4
         with:
@@ -129,29 +129,16 @@ jobs:
           echo ${{ fromJson(steps.info.outputs.MODULE).hash }} > resources/${{ steps.info.outputs.DIR }}/.outdated
           mkdir -p wiki/${{ steps.info.outputs.DIR }}
           echo ${{ fromJson(steps.info.outputs.MODULE).hash }} > wiki/${{ steps.info.outputs.DIR }}/.outdated
-      - name: Action - rsync resources
+      - name: Action - rsync
         if: success()
         uses: up9cloud/action-rsync@v1.4
         env:
           MODE: local
-          SOURCE: "build/${{ steps.info.outputs.DIR }}/src/main/resources/ build/${{ steps.info.outputs.DIR }}/src/generated/"
+          SOURCE: "build/${{ steps.info.outputs.DIR }}/src/main/resources/ build/${{ steps.info.outputs.DIR }}/src/generated/ wiki"
           TARGET: resources/${{ steps.info.outputs.DIR }}
           VERBOSE: true
           PRE_SCRIPT: |
             rm -rf resources/${{ steps.info.outputs.DIR }}
-            echo start at:
-            date -u
-          POST_SCRIPT: "echo done at: && date -u"
-      - name: Action - rsync wikis
-        if: success()
-        uses: up9cloud/action-rsync@v1.4
-        env:
-          MODE: local
-          SOURCE: "build/${{ steps.info.outputs.DIR }}/wiki/"
-          TARGET: wiki/${{ steps.info.outputs.DIR }}
-          VERBOSE: true
-          PRE_SCRIPT: |
-            rm -rf wiki/${{ steps.info.outputs.DIR }}
             echo start at:
             date -u
           POST_SCRIPT: "echo done at: && date -u"
