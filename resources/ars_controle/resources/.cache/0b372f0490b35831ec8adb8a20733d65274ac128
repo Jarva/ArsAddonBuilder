@@ -1,0 +1,10 @@
+// 1.21.1	2025-03-21T15:12:27.80259775	Block States: ars_controle
+a33f50bc4d5fa0c03d5baf5c2af4d44c6ce8fdc9 assets/ars_controle/models/item/glyph_filter_above.json
+9feb0aee010252d47323ced02d2cf22efa01a764 assets/ars_controle/models/item/glyph_filter_below.json
+f1a79ac4bdc7aa3363f5d2e9527dca07acf0f0f1 assets/ars_controle/models/item/glyph_filter_level.json
+aa6f8c1f7c65d84ea39137dabbe930b33ad162e7 assets/ars_controle/models/item/glyph_filter_not.json
+a52f8e58218b19b4c86617731191c257cbca55e7 assets/ars_controle/models/item/glyph_filter_or.json
+3d4cbec3ebc273ebbcfdda6a92c2ec5861377bed assets/ars_controle/models/item/glyph_filter_random.json
+1c42c02d25627a5f977162748abf397758dc2372 assets/ars_controle/models/item/glyph_filter_xnor.json
+8c5fe7147b738bb80d03df63c9bcf1b2d7ba2413 assets/ars_controle/models/item/glyph_filter_xor.json
+9cb3cf666c4c9944ed26ff8a063da0d1e685b8f1 assets/ars_controle/models/item/glyph_precise_delay.json

@@ -1,0 +1,10 @@
+// 1.21.1	2025-03-21T15:12:27.804148161	Ars Controle Glyph Recipes
+9885e7b28bace252ccc62e8d4077a74ac3e4b132 data/ars_controle/recipe/glyph_filter_above.json
+587a1a90b8b1f8f914e0139829678a8550fc4ab0 data/ars_controle/recipe/glyph_filter_below.json
+0b8c162272b2a20b547ded236bbf98f2580c1a75 data/ars_controle/recipe/glyph_filter_level.json
+90b4107e5936342226cfab1b3015027636fe6f43 data/ars_controle/recipe/glyph_filter_not.json
+8a6983cc849547516cb3aa7526e85c858d250329 data/ars_controle/recipe/glyph_filter_or.json
+7542ac8c0497c4b38ad3eb64b1937e6bd68b9e6a data/ars_controle/recipe/glyph_filter_random.json
+88ca0fa6e136e3712411af7990691dd88233d007 data/ars_controle/recipe/glyph_filter_xnor.json
+327c6f2398fdc2a9f09242a3ea21a72f1e37b198 data/ars_controle/recipe/glyph_filter_xor.json
+80bd7ff8bc86fe78a8e6387c2b5c44d6578bcb11 data/ars_controle/recipe/glyph_precise_delay.json
