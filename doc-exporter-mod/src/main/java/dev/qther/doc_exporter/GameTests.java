@@ -10,10 +10,13 @@ import net.neoforged.neoforge.gametest.PrefixGameTestTemplate;
 @GameTestHolder(DocExporter.MODID)
 public class GameTests {
     @PrefixGameTestTemplate(false)
-    @GameTest(template = "empty")
+    @GameTest(template = "empty", batch = "defaultBatch")
     public static void exportDocs(GameTestHelper helper) {
         for (var mod : ModList.get().getMods()) {
+            DocExporter.LOGGER.info("Exporting docs for {} @ {}", mod.getModId(), mod.getVersion());
             Minecraft.getInstance().getConnection().sendCommand("ars-doc-export " + mod.getModId());
         }
+
+        helper.runAfterDelay(10 * 20, helper::succeed);
     }
 }
