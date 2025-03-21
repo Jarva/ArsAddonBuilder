@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=east": {
-      "model": "farmersdelight:block/cutting_board",
+      "model": "starbunclemania:block/wixie_cutting_board",
       "y": 90
     },
     "facing=north": {
-      "model": "farmersdelight:block/cutting_board"
+      "model": "starbunclemania:block/wixie_cutting_board"
     },
     "facing=south": {
-      "model": "farmersdelight:block/cutting_board",
+      "model": "starbunclemania:block/wixie_cutting_board",
       "y": 180
     },
     "facing=west": {
-      "model": "farmersdelight:block/cutting_board",
+      "model": "starbunclemania:block/wixie_cutting_board",
       "y": 270
     }
   }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "pattern": [
+    "WWF",
+    "WWF"
+  ],
+  "result": {
+    "count": 1,
+    "id": "starbunclemania:sea_bunny"
+  }
+}
