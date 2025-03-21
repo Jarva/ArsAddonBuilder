@@ -29,12 +29,9 @@ jobs:
         run: |
           mkdir -p ~/.gradle/caches/fabric-loom/assets
       - uses: gradle/actions/setup-gradle@v3
-      - name: retry action
-        uses: Wandalen/wretry.action@v3.5.0
-        with:
-          attempt_limit: 3
-          attempt_delay: 2000
-          command: ./gradlew clean build
+      - name: Build mod
+        run: |
+          ./gradlew clean build
       - uses: actions/upload-artifact@v4
         with:
           name: doc-exporter-jar
