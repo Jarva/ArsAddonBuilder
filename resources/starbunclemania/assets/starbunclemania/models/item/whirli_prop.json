@@ -1,0 +1,123 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "starbunclemania:item/whirlisprig"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [7, 8.5, 7],
+			"to": [9, 9.5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 10, 1, 10.5], "texture": "#0"},
+				"east": {"uv": [1, 10, 2, 10.5], "texture": "#0"},
+				"south": {"uv": [2, 10, 3, 10.5], "texture": "#0"},
+				"west": {"uv": [10, 9, 11, 9.5], "texture": "#0"},
+				"up": {"uv": [7, 9.5, 6, 8.5], "texture": "#0"},
+				"down": {"uv": [10.5, 5, 9.5, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "propellor1",
+			"from": [8, 9.6, 7.9],
+			"to": [17, 9.6, 11.9],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.1, 9.2, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 4.5, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 4.5, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 0], "texture": "#0"},
+				"up": {"uv": [7, 12, 16, 16], "texture": "#0"},
+				"down": {"uv": [9.5, 0, 0, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "propellor2",
+			"from": [-0.57612, 9.58268, 4.3],
+			"to": [8.42388, 9.58268, 8.3],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [7.7, 9.7, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 4.5, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 4.5, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 0], "texture": "#0"},
+				"up": {"uv": [9.5, 4, 0, 0], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [9.5, 0, 0, 4], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 175, 0],
+			"translation": [0, -1.75, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"head": {
+			"translation": [0, 5.5, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "sylph",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "head",
+					"origin": [8, 3.5, 8],
+					"color": 1,
+					"children": [
+						0,
+						{
+							"name": "propellers",
+							"origin": [8, 9.5, 8],
+							"color": 2,
+							"children": [
+								{
+									"name": "propellor1",
+									"origin": [8, 9.5, 8],
+									"color": 3,
+									"children": [1]
+								},
+								{
+									"name": "propellor2",
+									"origin": [8, 9.5, 8],
+									"color": 4,
+									"children": [2]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
