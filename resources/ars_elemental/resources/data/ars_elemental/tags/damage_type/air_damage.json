@@ -5,7 +5,7 @@
     "minecraft:fly_into_wall",
     "minecraft:sonic_boom",
     {
-      "id": "ars_elemental:spark",
+      "id": "ars_elemental:beheading",
       "required": false
     },
     {
