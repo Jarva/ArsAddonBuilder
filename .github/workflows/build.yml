@@ -25,6 +25,10 @@ jobs:
         with:
           java-version: ${{ env.JAVA_VERSION }}
           distribution: "temurin"
+          cache: gradle
+          cache-dependency-path: |
+            doc-exporter-mod/*.gradle*
+            doc-exporter-mod/**/gradle-wrapper.properties
       - shell: bash
         run: |
           mkdir -p ~/.gradle/caches/fabric-loom/assets
@@ -35,7 +39,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: doc-exporter-jar
-          path: build/libs/*.jar
+          path: doc-exporter-mod/build/libs/*.jar
   find:
     runs-on: ubuntu-latest
     outputs:
@@ -123,7 +127,9 @@ jobs:
         run: |
           mkdir -p resources/${{ steps.info.outputs.DIR }}
           echo ${{ fromJson(steps.info.outputs.MODULE).hash }} > resources/${{ steps.info.outputs.DIR }}/.outdated
-      - name: Action - rsync
+          mkdir -p wiki/${{ steps.info.outputs.DIR }}
+          echo ${{ fromJson(steps.info.outputs.MODULE).hash }} > wiki/${{ steps.info.outputs.DIR }}/.outdated
+      - name: Action - rsync resources
         if: success()
         uses: up9cloud/action-rsync@v1.4
         env:
@@ -133,6 +139,19 @@ jobs:
           VERBOSE: true
           PRE_SCRIPT: |
             rm -rf resources/${{ steps.info.outputs.DIR }}
+            echo start at:
+            date -u
+          POST_SCRIPT: "echo done at: && date -u"
+      - name: Action - rsync wikis
+        if: success()
+        uses: up9cloud/action-rsync@v1.4
+        env:
+          MODE: local
+          SOURCE: "build/${{ steps.info.outputs.DIR }}/wiki/"
+          TARGET: wiki/${{ steps.info.outputs.DIR }}
+          VERBOSE: true
+          PRE_SCRIPT: |
+            rm -rf wiki/${{ steps.info.outputs.DIR }}
             echo start at:
             date -u
           POST_SCRIPT: "echo done at: && date -u"
