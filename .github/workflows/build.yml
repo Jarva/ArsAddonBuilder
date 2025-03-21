@@ -8,6 +8,9 @@ on:
 
 env:
   JAVA_VERSION: 21
+  ARS_URL: https://modmaven.dev/com/hollingsworth/ars_nouveau/ars_nouveau-1.21.1/5.7.1.1026/ars_nouveau-1.21.1-5.7.1.1026-all.jar
+  CURIOS_URL: https://maven.theillusivec4.top/top/theillusivec4/curios/curios-neoforge/9.3.1+1.21.1/curios-neoforge-9.3.1+1.21.1.jar
+  PATCHOULI_URL: https://maven.blamejared.com/vazkii/patchouli/Patchouli/1.21-89-NEOFORGE-SNAPSHOT/Patchouli-1.21-89-NEOFORGE-20250206.161729-1.jar
 
 permissions:
   contents: write
@@ -104,9 +107,24 @@ jobs:
           attempt_delay: 2000
           current_path: build/${{ steps.info.outputs.DIR }}
           command: ./gradlew clean runData build
-      - name: Stage mod for test client
+      - name: Create mods folder
         run: |
           mkdir -p run/mods
+      - name: Download Ars Nouveau
+        run: |
+          [ "${{ steps.info.outputs.DIR }}" -eq "ars_nouveau" ] && exit 0
+          cd run/mods
+          curl -LO "${{ env.ARS_URL }}"
+      - name: Download Curios
+        run: |
+          cd run/mods
+          curl -LO "${{ env.CURIOS_URL }}"
+      - name: Download Patchouli
+        run: |
+          cd run/mods
+          curl -LO "${{ env.PATCHOULI_URL }}"
+      - name: Stage mod for test client
+        run: |
           cp build/${{ steps.info.outputs.DIR }}/build/libs/*.jar run/mods
       - name: Download doc-exporter jar to mods folder
         uses: actions/download-artifact@v4
