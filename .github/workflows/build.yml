@@ -113,17 +113,16 @@ jobs:
           mkdir -p run/mods
       - name: Download Ars Nouveau
         run: |
-          [ "${{ steps.info.outputs.DIR }}" -eq "ars_nouveau" ] && exit 0
           cd run/mods
-          curl -LO "${{ env.ARS_URL }}"
-      - name: Download Curios
+      - name: Download dependencies
         run: |
           cd run/mods
+          if [ "${{ steps.info.outputs.DIR }}" != "ars_nouveau" ]; then
+              curl -LO "${{ env.ARS_URL }}"
+          fi
           curl -LO "${{ env.CURIOS_URL }}"
-      - name: Download Patchouli
-        run: |
-          cd run/mods
           curl -LO "${{ env.PATCHOULI_URL }}"
+          curl -LO "${{ env.GECKO_LIB_URL }}"
       - name: Stage mod for test client
         run: |
           cp build/${{ steps.info.outputs.DIR }}/build/libs/*.jar run/mods
