@@ -1,0 +1,2 @@
+onboardAccessibility:false
+pauseOnLostFocus:false
