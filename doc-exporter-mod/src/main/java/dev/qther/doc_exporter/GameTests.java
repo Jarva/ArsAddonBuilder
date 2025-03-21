@@ -18,8 +18,8 @@ public class GameTests {
     public static void exportDocs(GameTestHelper helper) throws IOException {
         for (var mod : ModList.get().getMods()) {
             DocExporter.LOGGER.info("Exporting docs for {} @ {}", mod.getModId(), mod.getVersion());
-            Files.createDirectories(Path.of("../../wiki/" + mod.getModId() + "/categories"));
-            Files.createDirectories(Path.of("../../wiki/" + mod.getModId() + "/entries"));
+            Files.createDirectories(Path.of("./wiki/" + mod.getModId() + "/categories"));
+            Files.createDirectories(Path.of("./wiki/" + mod.getModId() + "/entries"));
             Minecraft.getInstance().getConnection().sendCommand("ars-doc-export " + mod.getModId());
         }
 
@@ -27,9 +27,9 @@ public class GameTests {
             for (var mod : ModList.get().getMods()) {
                 DocExporter.LOGGER.info("Cleaning docs for {} @ {}", mod.getModId(), mod.getVersion());
                 try {
-                    deleteDirIfEmpty("../../wiki/" + mod.getModId() + "/categories");
-                    deleteDirIfEmpty("../../wiki/" + mod.getModId() + "/entries");
-                    deleteDirIfEmpty("../../wiki/" + mod.getModId());
+                    deleteDirIfEmpty("./wiki/" + mod.getModId() + "/categories");
+                    deleteDirIfEmpty("./wiki/" + mod.getModId() + "/entries");
+                    deleteDirIfEmpty("./wiki/" + mod.getModId());
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }

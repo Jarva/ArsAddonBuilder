@@ -4,7 +4,8 @@
   "package": "dev.qther.doc_exporter.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "GameTestHooksMixin"
+    "GameTestHooksMixin",
+    "PathMixin"
   ],
   "client": [
   ],
