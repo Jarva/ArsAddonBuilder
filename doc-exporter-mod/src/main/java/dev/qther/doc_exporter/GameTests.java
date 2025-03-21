@@ -15,7 +15,7 @@ import java.time.Duration;
 @GameTestHolder(DocExporter.MODID)
 public class GameTests {
     @PrefixGameTestTemplate(false)
-    @GameTest(template = "empty", timeoutTicks = Integer.MAX_VALUE)
+    @GameTest(template = "clientgametest:empty", timeoutTicks = Integer.MAX_VALUE)
     public static void exportDocs(GameTestHelper helper) throws IOException {
         for (var mod : ModList.get().getMods()) {
             DocExporter.LOGGER.info("Exporting docs for {} @ {}", mod.getModId(), mod.getVersion());
