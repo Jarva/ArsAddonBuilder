@@ -10,6 +10,7 @@ import net.neoforged.neoforge.gametest.PrefixGameTestTemplate;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.time.Duration;
 
 @GameTestHolder(DocExporter.MODID)
 public class GameTests {
@@ -23,7 +24,13 @@ public class GameTests {
             Minecraft.getInstance().getConnection().sendCommand("ars-doc-export " + mod.getModId());
         }
 
-        helper.runAfterDelay(20, () -> {
+        new Thread(() -> {
+            try {
+                Thread.sleep(Duration.ofSeconds(3));
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+
             for (var mod : ModList.get().getMods()) {
                 DocExporter.LOGGER.info("Cleaning docs for {} @ {}", mod.getModId(), mod.getVersion());
                 try {
@@ -35,7 +42,7 @@ public class GameTests {
                 }
             }
             helper.succeed();
-        });
+        }).start();
     }
 
     static void deleteDirIfEmpty(String pathStr) throws IOException {
