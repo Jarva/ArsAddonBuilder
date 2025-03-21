@@ -5,7 +5,7 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "GameTestHooksMixin",
-    "PathMixin"
+    "DocExporterMixin"
   ],
   "client": [
   ],
