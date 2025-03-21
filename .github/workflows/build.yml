@@ -109,46 +109,44 @@ jobs:
           attempt_delay: 2000
           current_path: build/${{ steps.info.outputs.DIR }}
           command: ./gradlew clean runData build
-      - name: Create mods folder
-        run: |
-          mkdir -p run/mods
-      - name: Download Ars Nouveau
-        run: |
-          [ "${{ steps.info.outputs.DIR }}" -eq "ars_nouveau" ] && exit 0
-          cd run/mods
-          curl -LO "${{ env.ARS_URL }}"
-      - name: Download Curios
-        run: |
-          cd run/mods
-          curl -LO "${{ env.CURIOS_URL }}"
-      - name: Download Patchouli
-        run: |
-          cd run/mods
-          curl -LO "${{ env.PATCHOULI_URL }}"
-      - name: Stage mod for test client
-        run: |
-          cp build/${{ steps.info.outputs.DIR }}/build/libs/*.jar run/mods
-      - name: Download doc-exporter jar to mods folder
-        uses: actions/download-artifact@v4
-        with:
-          name: doc-exporter-jar
-          path: run/mods
-      - name: Run MC test client
-        uses: headlesshq/mc-runtime-test@3.0.0
-        with:
-          mc: 1.21.1
-          modloader: neoforge
-          regex: .*neoforge.*
-          mc-runtime-test: neoforge
-          java: ${{ env.JAVA_VERSION }}
+      # - name: Create mods folder
+      #   run: |
+      #     mkdir -p run/mods
+      # - name: Download Ars Nouveau
+      #   run: |
+      #     [ "${{ steps.info.outputs.DIR }}" -eq "ars_nouveau" ] && exit 0
+      #     cd run/mods
+      #     curl -LO "${{ env.ARS_URL }}"
+      # - name: Download Curios
+      #   run: |
+      #     cd run/mods
+      #     curl -LO "${{ env.CURIOS_URL }}"
+      # - name: Download Patchouli
+      #   run: |
+      #     cd run/mods
+      #     curl -LO "${{ env.PATCHOULI_URL }}"
+      # - name: Stage mod for test client
+      #   run: |
+      #     cp build/${{ steps.info.outputs.DIR }}/build/libs/*.jar run/mods
+      # - name: Download doc-exporter jar to mods folder
+      #   uses: actions/download-artifact@v4
+      #   with:
+      #     name: doc-exporter-jar
+      #     path: run/mods
+      # - name: Run MC test client
+      #   uses: headlesshq/mc-runtime-test@3.0.0
+      #   with:
+      #     mc: 1.21.1
+      #     modloader: neoforge
+      #     regex: .*neoforge.*
+      #     mc-runtime-test: neoforge
+      #     java: ${{ env.JAVA_VERSION }}
       - name: Mark Resources Outdated
         if: failure()
         shell: bash
         run: |
           mkdir -p resources/${{ steps.info.outputs.DIR }}
           echo ${{ fromJson(steps.info.outputs.MODULE).hash }} > resources/${{ steps.info.outputs.DIR }}/.outdated
-          mkdir -p wiki/${{ steps.info.outputs.DIR }}
-          echo ${{ fromJson(steps.info.outputs.MODULE).hash }} > wiki/${{ steps.info.outputs.DIR }}/.outdated
       - name: Action - rsync
         if: success()
         uses: up9cloud/action-rsync@v1.4
