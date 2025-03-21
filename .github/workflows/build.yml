@@ -10,7 +10,7 @@ env:
   JAVA_VERSION: 21
   ARS_URL: https://modmaven.dev/com/hollingsworth/ars_nouveau/ars_nouveau-1.21.1/5.7.1.1026/ars_nouveau-1.21.1-5.7.1.1026-all.jar
   CURIOS_URL: https://maven.theillusivec4.top/top/theillusivec4/curios/curios-neoforge/9.3.1+1.21.1/curios-neoforge-9.3.1+1.21.1.jar
-  PATCHOULI_URL: https://maven.blamejared.com/vazkii/patchouli/Patchouli/1.21-89-NEOFORGE-SNAPSHOT/Patchouli-1.21-89-NEOFORGE-20250206.161729-1.jar
+  PATCHOULI_URL: https://github.com/VazkiiMods/Patchouli/releases/download/release-1.21-88/Patchouli-1.21-88-NEOFORGE.jar
   GECKOLIB_URL: https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/software/bernie/geckolib/geckolib-neoforge-1.21.1/4.7.4.1/geckolib-neoforge-1.21.1-4.7.4.1.jar
 
 permissions:
