@@ -1,11 +1,17 @@
-// 1.20.1	2023-06-30T14:49:51.7984578	Ars Elemental Block Tags
-9764206a29734fcec0ce6859c04d754c36205280 data/ars_nouveau/tags/blocks/magic_saplings.json
-525c1a35787919fd6060975646b2c0a2a41ca910 data/minecraft/tags/blocks/leaves.json
-525c1a35787919fd6060975646b2c0a2a41ca910 data/minecraft/tags/blocks/leaves/archwood_leaves.json
-caaa7216f05586fbce67c6d354118a6f75faebe4 data/minecraft/tags/blocks/logs.json
-caaa7216f05586fbce67c6d354118a6f75faebe4 data/minecraft/tags/blocks/logs_that_burn.json
-caaa7216f05586fbce67c6d354118a6f75faebe4 data/minecraft/tags/blocks/mineable/axe.json
-525c1a35787919fd6060975646b2c0a2a41ca910 data/minecraft/tags/blocks/mineable/hoe.json
-52e3f370a2e4c0809d6b723f4966ba92a3b8fde0 data/minecraft/tags/blocks/mineable/pickaxe.json
-665933f499b9aec69ebab78cb20edbb87335f518 data/minecraft/tags/blocks/needs_stone_tool.json
-9764206a29734fcec0ce6859c04d754c36205280 data/minecraft/tags/blocks/saplings.json
+// 1.21.1	2025-03-21T13:33:49.1949142	Ars Elemental Block Tags
+5e3244c6bdbcf39d4626b444c800986b05852064 data/ars_elemental/tags/block/aquarium_bonus.json
+caaa7216f05586fbce67c6d354118a6f75faebe4 data/ars_elemental/tags/block/logs/flashing_archwood.json
+1debdb7b55c4191b833ea9a9d8aef27e7cd26ff8 data/ars_nouveau/tags/block/magic_plants.json
+9764206a29734fcec0ce6859c04d754c36205280 data/ars_nouveau/tags/block/magic_saplings.json
+94a4d749a377695966e081e59ea56cb6f0d8c1fe data/c/tags/block/stripped_logs.json
+c63f828ff4bfc7df8bd18cf26ecd39040ac28049 data/c/tags/block/stripped_woods.json
+525c1a35787919fd6060975646b2c0a2a41ca910 data/minecraft/tags/block/leaves.json
+525c1a35787919fd6060975646b2c0a2a41ca910 data/minecraft/tags/block/leaves/archwood_leaves.json
+caaa7216f05586fbce67c6d354118a6f75faebe4 data/minecraft/tags/block/logs.json
+caaa7216f05586fbce67c6d354118a6f75faebe4 data/minecraft/tags/block/logs_that_burn.json
+caaa7216f05586fbce67c6d354118a6f75faebe4 data/minecraft/tags/block/mineable/axe.json
+525c1a35787919fd6060975646b2c0a2a41ca910 data/minecraft/tags/block/mineable/hoe.json
+7f7052392d3556bec2b355e662734f071e65983f data/minecraft/tags/block/mineable/pickaxe.json
+d43846661d9cc4b0b852202118c6f6b26284d23a data/minecraft/tags/block/needs_stone_tool.json
+9764206a29734fcec0ce6859c04d754c36205280 data/minecraft/tags/block/saplings.json
+716692114c385ddb9ea9df23970daf27982e2c85 data/sereneseasons/tags/block/summer_crops.json

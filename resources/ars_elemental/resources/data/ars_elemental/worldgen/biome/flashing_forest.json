@@ -6,7 +6,7 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.9,
+  "downfall": 0.8,
   "effects": {
     "fog_color": 12638463,
     "foliage_color": 13084948,
@@ -35,7 +35,7 @@
     ],
     [
       "minecraft:amethyst_geode",
-      "minecraft:forest_rock",
+      "ars_elemental:quartz_rock_placed",
       "ars_nouveau:placed_lights"
     ],
     [
@@ -64,6 +64,7 @@
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
@@ -84,14 +85,15 @@
       "minecraft:glow_lichen",
       "minecraft:forest_flowers",
       "minecraft:patch_large_fern",
-      "minecraft:trees_plains",
+      "minecraft:trees_windswept_hills",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "ars_elemental:cluster_flashing_archwood",
       "ars_nouveau:mojang_grass",
-      "ars_nouveau:mojang_flowers"
+      "ars_nouveau:mojang_flowers",
+      "ars_elemental:scattered_sparkflowers"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -153,10 +155,22 @@
         "weight": 8
       },
       {
+        "type": "minecraft:rabbit",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 6
+      },
+      {
         "type": "ars_elemental:flashing_weald_walker",
         "maxCount": 3,
         "minCount": 1,
-        "weight": 3
+        "weight": 10
+      },
+      {
+        "type": "minecraft:goat",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 6
       }
     ],
     "misc": [],
@@ -165,13 +179,13 @@
         "type": "minecraft:spider",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 100
+        "weight": 60
       },
       {
         "type": "minecraft:zombie",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 95
+        "weight": 20
       },
       {
         "type": "minecraft:zombie_villager",
@@ -183,19 +197,19 @@
         "type": "minecraft:skeleton",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 100
+        "weight": 60
       },
       {
         "type": "minecraft:creeper",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 100
+        "weight": 60
       },
       {
         "type": "minecraft:slime",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 100
+        "weight": 40
       },
       {
         "type": "minecraft:enderman",
@@ -205,6 +219,18 @@
       },
       {
         "type": "minecraft:witch",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "ars_elemental:air_mage",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 4
+      },
+      {
+        "type": "minecraft:breeze",
         "maxCount": 1,
         "minCount": 1,
         "weight": 5

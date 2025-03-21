@@ -1,4 +1,4 @@
-// 1.20.1	2023-06-30T14:49:51.7874577	Ars Elemental Item Models
+// 1.21.1	2025-01-05T17:18:29.2276232	Ars Elemental Item Models
 a5b2cd6b765fcd98484c5cad23aa0a2775ae7d1a assets/ars_elemental/models/item/advanced_prism.json
 43734dccea8eb5c4ed28aba4b1239c6ab9241405 assets/ars_elemental/models/item/air_bangle.json
 4effb972e3d0fda927a6663b513396158592b9ae assets/ars_elemental/models/item/air_boots.json
@@ -9,6 +9,7 @@ a5b2cd6b765fcd98484c5cad23aa0a2775ae7d1a assets/ars_elemental/models/item/advanc
 f76249799ea44b24f5a7d1d72fa8f0e7d3d7315b assets/ars_elemental/models/item/air_robes.json
 2669502bb6936a273700592c0608aba0beb89194 assets/ars_elemental/models/item/air_turret.json
 5bf4803f9d27ac7f3b38a81ba33e8206ac33acbc assets/ars_elemental/models/item/air_upstream.json
+532e8d7811b9bfc0bee90899bd01a27564dfb3f4 assets/ars_elemental/models/item/anima_bangle.json
 c4ba07c5c7130e9734c1ea3691ac71eaed4c97f9 assets/ars_elemental/models/item/anima_caster_tome.json
 c23ded919ec2e7048013124b58167bcaff925569 assets/ars_elemental/models/item/anima_essence.json
 4a6fa79090a4ec5637e757aa4d1f0a8b219016f2 assets/ars_elemental/models/item/aqua_boots.json
@@ -16,7 +17,6 @@ f93b93df834cd0cd38da310473cbd4358199669e assets/ars_elemental/models/item/aqua_h
 6edacc4a92515b78fdc6edc949565934596554f8 assets/ars_elemental/models/item/aqua_leggings.json
 a6f4862cb5edf7b396834e19e3f48f2979eb3175 assets/ars_elemental/models/item/aqua_robes.json
 5d62036867bfe8af37005aef074c35a8e76f96d4 assets/ars_elemental/models/item/base_bangle.json
-5c4950466d5186118ff69f6674bdc3765379b047 assets/ars_elemental/models/item/caster_bag.json
 e679315b353940bdbd2256fb1d81afe6febcf2f3 assets/ars_elemental/models/item/curio_bag.json
 c307a1c7c459c68c9fe602cb560cb22c05070582 assets/ars_elemental/models/item/debug.json
 372c93f5a7ab30fe2433efa4cec04f362c0fda87 assets/ars_elemental/models/item/earth_bangle.json
@@ -43,16 +43,19 @@ e326e14fa8470667a133916991e22ce84ebcc6d8 assets/ars_elemental/models/item/lesser
 3c095e71ede593ddf9b6f0f58860c89088cd4300 assets/ars_elemental/models/item/lesser_fire_focus.json
 3bfebea068e4b6e7807981deb4f88fa473c4af56 assets/ars_elemental/models/item/lesser_water_focus.json
 7597c3bb234a009b508f61a87be206ac51cd2f01 assets/ars_elemental/models/item/magma_upstream.json
+8d9173fbf1b04a66dffcbf7e6a1413cfb8bbe345 assets/ars_elemental/models/item/manipulation_caster_tome.json
 1d82cf56d8a55f131bdb013325ca405784d4d036 assets/ars_elemental/models/item/manipulation_turret.json
 ed40950dfbebf15fbb9395bc4a141fdc692d3404 assets/ars_elemental/models/item/mark_of_mastery.json
 12e40d6e25ac2983ae7ba220b5317a5d24f5447b assets/ars_elemental/models/item/mermaid_rock.json
 97d103aedc6c499fa3eb1447fae55ceb83c0c877 assets/ars_elemental/models/item/necrotic_focus.json
 aac5a91982593f22b9053427218dd70a7ea9f0c1 assets/ars_elemental/models/item/siren_charm.json
 ca6c942497aa4b3535e7b1540b4fc7316b4e6497 assets/ars_elemental/models/item/siren_shards.json
+aa45ced2733ba2c1d0fdd74da3133c8b87776ea6 assets/ars_elemental/models/item/sparkflower.json
 a623d36e9c7fe315a4d4a1088e1a52dd940fcc4e assets/ars_elemental/models/item/spell_mirror.json
 6bfa4a13b01122658e1f5e25e4ccbf9af013bdda assets/ars_elemental/models/item/spore_blossom_up.json
 38c3965a9f5fbd4f849f79af9dec6381165041a4 assets/ars_elemental/models/item/stripped_yellow_archwood.json
 a8b3d73e61921978062232ab2aed908fb1c65e39 assets/ars_elemental/models/item/stripped_yellow_archwood_log.json
+afd0ced11d036f6d2194d7a22e2a7623d0b1bad1 assets/ars_elemental/models/item/summon_bangle.json
 0606a07d3a31b73418fb397eb428d5f5c18519b0 assets/ars_elemental/models/item/water_bangle.json
 03c3057e946e871ffd144ee9d4438d6b167faaa9 assets/ars_elemental/models/item/water_caster_tome.json
 6a31b089a16e82510e68672fe0d8f255b634d84b assets/ars_elemental/models/item/water_focus.json
