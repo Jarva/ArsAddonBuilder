@@ -1,0 +1,24 @@
+{
+  "id": "minecraft:protection",
+  "order": 100,
+  "icon": "minecraft:enchanted_book",
+  "title": "Protection",
+  "category": "ars_nouveau:enchanting",
+  "pages": [
+    {
+      "recipe_1": "ars_nouveau:protection_1"
+    },
+    {
+      "recipe_1": "ars_nouveau:protection_2"
+    },
+    {
+      "recipe_1": "ars_nouveau:protection_3"
+    },
+    {
+      "recipe_1": "ars_nouveau:protection_4"
+    },
+    {
+      "recipe_1": "ars_nouveau:protection_5"
+    }
+  ]
+}
