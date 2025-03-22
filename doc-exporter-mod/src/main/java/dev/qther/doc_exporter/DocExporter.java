@@ -1,6 +1,5 @@
 package dev.qther.doc_exporter;
 
-import com.hollingsworth.arsnouveau.setup.registry.Documentation;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -26,12 +25,11 @@ public class DocExporter {
     }
 
     public void onDocFinish(LevelTickEvent.Post event) {
-        if (exported) {
+        if (event.getLevel().isClientSide || exported || event.getLevel().getGameTime() < 5) {
             return;
         }
         exported = true;
 
-        Documentation.initOnWorldReload();
         for (var mod : ModList.get().getMods()) {
             DocExporter.LOGGER.info("Exporting docs for {} @ {} to {}", mod.getModId(), mod.getVersion(), Path.of("../wiki/" + mod.getModId()).toAbsolutePath());
             try {
