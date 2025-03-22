@@ -1,0 +1,14 @@
+{
+  "id": "ars_additions:ritual_locate_structure",
+  "order": 100,
+  "icon": "ars_additions:ritual_locate_structure",
+  "title": "Locate Structure",
+  "category": "ars_nouveau:ritual_index",
+  "pages": [
+    {
+      "title": "Locate Structure",
+      "description": "Locate a nearby structure based on the augments.",
+      "icon": "ars_additions:ritual_locate_structure"
+    }
+  ]
+}
