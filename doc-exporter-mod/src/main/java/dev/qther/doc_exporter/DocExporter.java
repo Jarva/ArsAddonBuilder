@@ -25,7 +25,7 @@ public class DocExporter {
         NeoForge.EVENT_BUS.addListener(EventPriority.LOWEST, this::onDocFinish);
     }
 
-    public void onDocFinish(LevelTickEvent event) {
+    public void onDocFinish(LevelTickEvent.Post event) {
         if (exported) {
             return;
         }
