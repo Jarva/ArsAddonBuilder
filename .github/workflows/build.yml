@@ -159,6 +159,11 @@ jobs:
       - name: Remove old wiki
         run: |
           rm -rf wiki/*
+      - name: Setup Java ${{ env.JAVA_VERSION }}
+        uses: actions/setup-java@v4
+        with:
+          java-version: ${{ env.JAVA_VERSION }}
+          distribution: "temurin"
       - name: Export docs using headless client
         uses: headlesshq/mc-runtime-test@3.0.0
         with:
