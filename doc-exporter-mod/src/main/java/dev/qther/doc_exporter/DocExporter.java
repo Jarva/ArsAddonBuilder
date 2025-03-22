@@ -1,12 +1,13 @@
 package dev.qther.doc_exporter;
 
-import com.hollingsworth.arsnouveau.api.documentation.ReloadDocumentationEvent;
+import com.hollingsworth.arsnouveau.setup.registry.Documentation;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.event.tick.LevelTickEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,12 +25,13 @@ public class DocExporter {
         NeoForge.EVENT_BUS.addListener(EventPriority.LOWEST, this::onDocFinish);
     }
 
-    public void onDocFinish(ReloadDocumentationEvent.Post event) {
+    public void onDocFinish(LevelTickEvent event) {
         if (exported) {
             return;
         }
         exported = true;
 
+        Documentation.initOnWorldReload();
         for (var mod : ModList.get().getMods()) {
             DocExporter.LOGGER.info("Exporting docs for {} @ {} to {}", mod.getModId(), mod.getVersion(), Path.of("../wiki/" + mod.getModId()).toAbsolutePath());
             try {
