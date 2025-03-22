@@ -1,0 +1,16 @@
+// 1.21.1	2025-03-22T02:09:51.407292404	Tags for minecraft:worldgen/structure mod id ars_additions
+8430db5aad8a63c53e57cb241c8b9287047516e7 data/ars_additions/tags/worldgen/structure/ancient_city.json
+1d77e12b29c0993e3de4bcecbbd80bcda4aea903 data/ars_additions/tags/worldgen/structure/bastion.json
+2c546cc2106567730d985ae6d57c9aadb71a8945 data/ars_additions/tags/worldgen/structure/desert_temple.json
+ccd0e55231abe041ae6802ca8cadeb515138fe93 data/ars_additions/tags/worldgen/structure/end_city.json
+090cbcc0e9c2598e7b31fa0521bb13f19def45a6 data/ars_additions/tags/worldgen/structure/igloo.json
+b44de3e18e986f3c971c6171c7d2c864517c2f06 data/ars_additions/tags/worldgen/structure/jungle_temple.json
+5e903019f12e88832a1c3a8c23c15a560fe2efc8 data/ars_additions/tags/worldgen/structure/monument.json
+13fbe20a75bbf4a90f1f31a2f036bcd23021fc29 data/ars_additions/tags/worldgen/structure/nether_fortress.json
+c374b5763403e3c671ff7fd91e33e07bd988a22e data/ars_additions/tags/worldgen/structure/on_explorer_warp_scroll.json
+0248751c0a971648ff86a78834352abd896a6ead data/ars_additions/tags/worldgen/structure/pillager_outpost.json
+eb43d49079ed2e704d0557f7796a3370c0483b48 data/ars_additions/tags/worldgen/structure/ruined_portals.json
+b953e264d86c86b3b709168a93c635b7c6b31fcc data/ars_additions/tags/worldgen/structure/stronghold.json
+4bfa65c59c724704c50c07bb831e08071e4450d6 data/ars_additions/tags/worldgen/structure/trail_ruins.json
+26314af443a7cdcf734a9d9cc85b04333828e789 data/ars_additions/tags/worldgen/structure/trial_chambers.json
+fc63d0ff7e2240ae114943aa734e94bd4c2c21ad data/ars_additions/tags/worldgen/structure/witch_hut.json
