@@ -1,6 +1,6 @@
 build
 
-headlessmc-launcher*.jar
-HeadlessMC/
-run/
-wiki/
+/headlessmc-launcher*.jar
+/HeadlessMC/
+/run/
+/wiki/
