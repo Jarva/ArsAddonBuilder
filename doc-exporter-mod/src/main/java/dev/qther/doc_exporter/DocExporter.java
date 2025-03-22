@@ -31,7 +31,7 @@ public class DocExporter {
         exported = true;
 
         for (var mod : ModList.get().getMods()) {
-            DocExporter.LOGGER.info("Exporting docs for {} @ {}", mod.getModId(), mod.getVersion());
+            DocExporter.LOGGER.info("Exporting docs for {} @ {} to {}", mod.getModId(), mod.getVersion(), Path.of("../wiki/" + mod.getModId()).toAbsolutePath());
             try {
                 Files.createDirectories(Path.of("../wiki/" + mod.getModId() + "/categories"));
                 Files.createDirectories(Path.of("../wiki/" + mod.getModId() + "/entries"));
