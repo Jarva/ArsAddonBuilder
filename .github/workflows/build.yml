@@ -8,7 +8,6 @@ on:
 
 env:
   JAVA_VERSION: 21
-  ARS_URL: https://modmaven.dev/com/hollingsworth/ars_nouveau/ars_nouveau-1.21.1/5.7.1.1026/ars_nouveau-1.21.1-5.7.1.1026-all.jar
   CURIOS_URL: https://maven.theillusivec4.top/top/theillusivec4/curios/curios-neoforge/9.3.1+1.21.1/curios-neoforge-9.3.1+1.21.1.jar
   PATCHOULI_URL: https://github.com/VazkiiMods/Patchouli/releases/download/release-1.21-88/Patchouli-1.21-88-NEOFORGE.jar
   GECKOLIB_URL: https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/software/bernie/geckolib/geckolib-neoforge-1.21.1/4.7.4.1/geckolib-neoforge-1.21.1-4.7.4.1.jar
@@ -108,46 +107,22 @@ jobs:
           attempt_delay: 2000
           current_path: build/${{ steps.info.outputs.DIR }}
           command: ./gradlew clean runData build
-      - name: Create mods folder
-        run: |
-          mkdir -p run/mods
-      - name: Download dependencies
-        run: |
-          cd run/mods
-          if [ "${{ steps.info.outputs.DIR }}" != "ars_nouveau" ]; then
-              curl -LO "${{ env.ARS_URL }}"
-          fi
-          curl -LO "${{ env.CURIOS_URL }}"
-          curl -LO "${{ env.PATCHOULI_URL }}"
-          curl -LO "${{ env.GECKOLIB_URL }}"
-      - name: Stage mod for test client
-        run: |
-          cp build/${{ steps.info.outputs.DIR }}/build/libs/*.jar run/mods
-      - name: Download doc-exporter jar to mods folder
-        uses: actions/download-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
-          name: doc-exporter-jar
-          path: run/mods
-      - name: Run MC test client
-        uses: headlesshq/mc-runtime-test@3.0.0
-        with:
-          mc: 1.21.1
-          modloader: neoforge
-          regex: .*neoforge.*
-          mc-runtime-test: neoforge
-          java: ${{ env.JAVA_VERSION }}
+          name: addon-${{ steps.info.outputs.DIR }}-jar
+          path: build/${{ steps.info.outputs.DIR }}/build/libs/*.jar
       - name: Mark Resources Outdated
         if: failure()
         shell: bash
         run: |
           mkdir -p resources/${{ steps.info.outputs.DIR }}
           echo ${{ fromJson(steps.info.outputs.MODULE).hash }} > resources/${{ steps.info.outputs.DIR }}/.outdated
-      - name: Action - rsync
+      - name: Action - rsync data and resources
         if: success()
         uses: up9cloud/action-rsync@v1.4
         env:
           MODE: local
-          SOURCE: "build/${{ steps.info.outputs.DIR }}/src/main/resources/ build/${{ steps.info.outputs.DIR }}/src/generated/ wiki"
+          SOURCE: "build/${{ steps.info.outputs.DIR }}/src/main/resources/ build/${{ steps.info.outputs.DIR }}/src/generated/"
           TARGET: resources/${{ steps.info.outputs.DIR }}
           VERBOSE: true
           PRE_SCRIPT: |
@@ -160,3 +135,40 @@ jobs:
         with:
           pull: true
           commit_message: "feat: update ${{ matrix.file }} to ${{ fromJson(steps.info.outputs.MODULE).hash }}"
+  export-wiki:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Create mods folder
+        run: |
+          mkdir -p run/mods
+      - name: Download dependencies
+        run: |
+          cd run/mods
+          curl -LO "${{ env.CURIOS_URL }}"
+          curl -LO "${{ env.PATCHOULI_URL }}"
+          curl -LO "${{ env.GECKOLIB_URL }}"
+      - name: Download mod jars
+        uses: actions/download-artifact@v4
+        with:
+          path: run/mods
+          pattern: '*-jar'
+          merge-multiple: true
+      - name: Remove old wiki
+        run: |
+          rm -rf wiki/*
+      - name: Export docs using headless client
+        uses: headlesshq/mc-runtime-test@3.0.0
+        with:
+          mc: 1.21.1
+          modloader: neoforge
+          regex: .*neoforge.*
+          mc-runtime-test: neoforge
+          java: ${{ env.JAVA_VERSION }}
+      - uses: Jarva/git-commit-push@main
+        if: success() || failure()
+        with:
+          pull: true
+          commit_message: "feat: update wiki"
