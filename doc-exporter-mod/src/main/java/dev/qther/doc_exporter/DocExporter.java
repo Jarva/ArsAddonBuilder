@@ -1,12 +1,13 @@
 package dev.qther.doc_exporter;
 
+import net.minecraft.client.Minecraft;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.event.tick.LevelTickEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,8 +25,9 @@ public class DocExporter {
         NeoForge.EVENT_BUS.addListener(EventPriority.LOWEST, this::onDocFinish);
     }
 
-    public void onDocFinish(LevelTickEvent.Post event) {
-        if (event.getLevel().isClientSide || exported || event.getLevel().getGameTime() < 5) {
+    public void onDocFinish(ClientTickEvent.Post event) {
+        var level = Minecraft.getInstance().level;
+        if (level == null || level.getGameTime() < 5 || exported) {
             return;
         }
         exported = true;
