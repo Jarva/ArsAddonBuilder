@@ -1,0 +1,17 @@
+{
+  "id": "ars_elemental:ritual_attraction",
+  "order": 100,
+  "icon": "ars_elemental:ritual_attraction",
+  "title": "Attraction",
+  "category": "ars_nouveau:ritual_index",
+  "pages": [
+    {
+      "title": "Attraction",
+      "description": "Make the brazier act as a magnet for entities in a 8 blocks radius. Won\u0027t work on players and bosses.",
+      "icon": "ars_elemental:ritual_attraction"
+    },
+    {
+      "recipe_1": "ars_elemental:ritual_attraction"
+    }
+  ]
+}
