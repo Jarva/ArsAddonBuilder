@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-26T01:10:56.140485235	Tags for minecraft:item mod id ars_nouveau
+// 1.21.1	2025-03-31T03:10:48.593481391	Tags for minecraft:item mod id ars_nouveau
 bde6ca31173d1f22d5f6fe355dc90c9faa35b239 data/ars_nouveau/tags/item/golem/shard.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/ars_nouveau/tags/item/interact_jar_blacklist.json
 34d15c38f18259717037b1082f2b99283d4f0c75 data/ars_nouveau/tags/item/magic_armor.json
@@ -47,6 +47,7 @@ a01909919207615cda1bb44f33db287efa02333b data/minecraft/tags/item/doors.json
 46865d605d1c44b2ab5023e21848213c969eec08 data/minecraft/tags/item/enchantable/bow.json
 d856556e7a50694e4fafc11b5b85240ad831548b data/minecraft/tags/item/enchantable/crossbow.json
 877c63c507be1e55a9f5eeed6e73dfabea015dab data/minecraft/tags/item/enchantable/durability.json
+419783a7134e5338d23aca0593ee521db6471898 data/minecraft/tags/item/enchantable/fishing.json
 87c0ae6c7a718897569f2f2b4d81fdcf8e9b269b data/minecraft/tags/item/fences.json
 7cd7cc4cccddd379c15c35250e14c5fa8d0e1152 data/minecraft/tags/item/foot_armor.json
 e280ef529f66db091a577da753b71a5dbbf7490f data/minecraft/tags/item/head_armor.json
