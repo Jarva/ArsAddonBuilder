@@ -7,6 +7,24 @@
   "pages": [
     {
       "description": "Having these threads on the spellbinder will allow to cast spells as if the focus was equipped."
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_summon_focus"
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_shaper_focus"
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_fire_focus"
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_air_focus"
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_earth_focus"
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_water_focus"
     }
   ]
 }

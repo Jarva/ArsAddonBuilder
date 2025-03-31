@@ -1,0 +1,20 @@
+{
+  "id": "ars_elemental:necrotic_focus",
+  "order": 100,
+  "icon": "ars_elemental:necrotic_focus",
+  "title": "Focus of Necromancy",
+  "category": "ars_nouveau:spell_casting",
+  "pages": [
+    {
+      "title": "Focus of Necromancy",
+      "description": "Summoned Wolves, Undead and Vexes seems unchanged at first, but if they die while the summoner wear this focus they will rise from death once, filled with blood lust. These undead summons will cast Homing spells when you do and heal you every time they kill an enemy.",
+      "icon": "ars_elemental:necrotic_focus"
+    },
+    {
+      "recipe_1": "ars_elemental:necrotic_focus"
+    },
+    {
+      "description": "ars_elemental.page1.necro_focus"
+    }
+  ]
+}

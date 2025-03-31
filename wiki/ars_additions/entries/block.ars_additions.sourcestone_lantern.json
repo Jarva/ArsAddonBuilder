@@ -1,0 +1,17 @@
+{
+  "id": "ars_additions:block.ars_additions.sourcestone_lantern",
+  "order": 100,
+  "icon": "ars_additions:sourcestone_lantern",
+  "title": "Ruined Warp Portals",
+  "category": "ars_nouveau:field_guide",
+  "pages": [
+    {
+      "description": "Ruined Warp Portals can be found scattered around the world, displaying an Ancient Warp Portal that has degraded over time. Accompanying these portals is a chest containing an Explorer\u0027s Warp Scroll. This scroll remains heavily imbued with magic after all these years and can activate the repaired portal with no additional source required."
+    },
+    {
+      "title": "Explorer\u0027s Warp Scroll",
+      "description": "",
+      "icon": "ars_additions:exploration_warp_scroll"
+    }
+  ]
+}

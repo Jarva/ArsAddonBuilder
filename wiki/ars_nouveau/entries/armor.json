@@ -333,6 +333,42 @@
       }
     },
     {
+      "recipe_1": "ars_nouveau:sorcerer_hood"
+    },
+    {
+      "recipe_1": "ars_nouveau:sorcerer_robes"
+    },
+    {
+      "recipe_1": "ars_nouveau:sorcerer_leggings"
+    },
+    {
+      "recipe_1": "ars_nouveau:sorcerer_boots"
+    },
+    {
+      "recipe_1": "ars_nouveau:arcanist_hood"
+    },
+    {
+      "recipe_1": "ars_nouveau:arcanist_robes"
+    },
+    {
+      "recipe_1": "ars_nouveau:arcanist_leggings"
+    },
+    {
+      "recipe_1": "ars_nouveau:arcanist_boots"
+    },
+    {
+      "recipe_1": "ars_nouveau:battlemage_hood"
+    },
+    {
+      "recipe_1": "ars_nouveau:battlemage_robes"
+    },
+    {
+      "recipe_1": "ars_nouveau:battlemage_leggings"
+    },
+    {
+      "recipe_1": "ars_nouveau:battlemage_boots"
+    },
+    {
       "related": [
         "ars_nouveau:armor_upgrading"
       ]
