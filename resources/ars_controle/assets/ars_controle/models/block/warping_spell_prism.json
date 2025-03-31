@@ -1,0 +1,7 @@
+{
+  "credit": "Modified from Ars Nouveau (LGPL3.0) Spell Prism textures which were made with Blockbench",
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ars_controle:block/warping_spell_prism"
+  }
+}

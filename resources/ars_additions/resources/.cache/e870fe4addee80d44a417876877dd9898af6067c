@@ -1,0 +1,12 @@
+// 1.21.1	2025-03-31T03:58:28.915737894	Tags for minecraft:item mod id ars_additions
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/ars_additions/tags/item/forgotten_knowledge.json
+d574457fb59e80f6dba71cbca0dbed807d5d55ee data/ars_additions/tags/item/spellweave_compatible.json
+c417d25dbf09fa35316563dab44086ea9c57398f data/ars_nouveau/tags/item/boot.json
+b11f943ffa45a788b39c9d51e5bd83e321044249 data/ars_nouveau/tags/item/hood.json
+4106122c7c1fbe11b433269a6ae8ce58fe1926d5 data/ars_nouveau/tags/item/legs.json
+7b14e2f8272f7ea3f3b0183823fd14779b7971db data/ars_nouveau/tags/item/ritual_loot_blacklist.json
+7b14e2f8272f7ea3f3b0183823fd14779b7971db data/ars_nouveau/tags/item/ritual_trade_blacklist.json
+debde73c045884d2f3335478b8e70e443135fe48 data/ars_nouveau/tags/item/robe.json
+f431c2b48e490e332eef4e28729b9328ad3d2c37 data/curios/tags/item/belt.json
+017e7c9c08a89d6d7bd8a8be7baa68f74855f803 data/curios/tags/item/charm.json
+f6bbd61c116310f35cbdad4dcd1453d93c4d8752 data/minecraft/tags/item/bookshelf_books.json

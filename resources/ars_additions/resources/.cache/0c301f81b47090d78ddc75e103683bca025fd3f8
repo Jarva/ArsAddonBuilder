@@ -1,0 +1,10 @@
+// 1.21.1	2025-03-31T03:58:28.924528301	Tags for minecraft:block mod id ars_additions
+df3ceb369835c6795542dc4d94e20ba51c8e88ff data/ars_nouveau/tags/block/an_decorative.json
+f324a130d6d8683502003a130d09fc99c221670b data/c/tags/block/relocation_not_supported.json
+f324a130d6d8683502003a130d09fc99c221670b data/carryon/tags/block/block_blacklist.json
+07dc8e6360f09661ec4efefd5b55da6b90a25cff data/minecraft/tags/block/buttons.json
+70e8fe3698ee18c3528c6cff0e9aa93612c4c2ef data/minecraft/tags/block/doors.json
+95cf9c185a40ac075aad10444fd90d297b8e0d7e data/minecraft/tags/block/mineable/pickaxe.json
+aa53f6ffe150f7773f2b8902a248e9224ccfa1f1 data/minecraft/tags/block/trapdoors.json
+f1a95fc5e8e87e008eb8ba1e89e83a13a0daa260 data/minecraft/tags/block/walls.json
+2664e2559714dc27cf4983fd220fb9a1e8ecf847 data/minecraft/tags/block/wool_carpets.json

@@ -1,0 +1,16 @@
+{
+  "type": "ars_nouveau:glyph",
+  "exp": 27,
+  "inputs": [
+    {
+      "item": "ars_nouveau:allow_scroll"
+    },
+    {
+      "item": "minecraft:redstone_torch"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "ars_controle:glyph_filter_not"
+  }
+}

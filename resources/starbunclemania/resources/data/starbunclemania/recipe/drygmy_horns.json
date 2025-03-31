@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    "W": {
+      "item": "minecraft:brown_wool"
+    }
+  },
+  "pattern": [
+    "W W",
+    "W W",
+    " F "
+  ],
+  "result": {
+    "count": 1,
+    "id": "starbunclemania:drygmy_horns"
+  }
+}

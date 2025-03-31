@@ -1,0 +1,18 @@
+{
+  "id": "minecraft:quick_charge",
+  "order": 100,
+  "icon": "minecraft:enchanted_book",
+  "title": "Quick Charge",
+  "category": "ars_nouveau:enchanting",
+  "pages": [
+    {
+      "recipe_1": "ars_nouveau:quick_charge_1"
+    },
+    {
+      "recipe_1": "ars_nouveau:quick_charge_2"
+    },
+    {
+      "recipe_1": "ars_nouveau:quick_charge_3"
+    }
+  ]
+}

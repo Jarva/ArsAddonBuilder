@@ -1,0 +1,18 @@
+{
+  "type": "ars_nouveau:caster_tome",
+  "color": {
+    "b": 250,
+    "g": 50,
+    "id": "ars_nouveau:constant",
+    "r": 50
+  },
+  "flavour_text": "It's not easy to heal while you're a meat popsicle.",
+  "name": "Frostbite",
+  "sound": {},
+  "spell": [
+    "ars_elemental:glyph_homing_projectile",
+    "ars_nouveau:glyph_freeze",
+    "ars_nouveau:glyph_cold_snap"
+  ],
+  "tome_type": "ars_elemental:water_caster_tome"
+}

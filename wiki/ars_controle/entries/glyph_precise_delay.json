@@ -1,0 +1,18 @@
+{
+  "id": "ars_controle:glyph_precise_delay",
+  "order": 100,
+  "icon": "ars_controle:glyph_precise_delay",
+  "title": "Precise Delay",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Precise Delay",
+      "description": "Delays the remainder of the spell by (2 ^ Extend Time Augments) ticks",
+      "icon": "ars_controle:glyph_precise_delay",
+      "tier": 2
+    },
+    {
+      "recipe_1": "ars_controle:glyph_precise_delay"
+    }
+  ]
+}
