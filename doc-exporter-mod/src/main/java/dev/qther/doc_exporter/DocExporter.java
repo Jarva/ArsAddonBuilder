@@ -94,7 +94,7 @@ public class DocExporter {
                 Codec.STRING.fieldOf("localizationKey").forGetter(AbstractSpellPart::getLocalizationKey),
                 Codec.STRING.fieldOf("name").forGetter(AbstractSpellPart::getName),
                 ResourceLocation.CODEC.fieldOf("texture").forGetter(p -> Minecraft.getInstance().getItemRenderer().getItemModelShaper().getItemModel(p.glyphItem).getParticleIcon(ModelData.EMPTY).contents().name()),
-                Codec.BOOL.fieldOf("animated").forGetter(p -> AnimationLoader.INSTANCE.getAnimation(Minecraft.getInstance().getItemRenderer().getItemModelShaper().getItemModel(p.glyphItem).getParticleIcon(ModelData.EMPTY).contents().name()) != null),
+                Codec.BOOL.fieldOf("animated").forGetter(p -> Minecraft.getInstance().getItemRenderer().getItemModelShaper().getItemModel(p.glyphItem).getParticleIcon(ModelData.EMPTY).contents().getUniqueFrames().skip(1).anyMatch(i -> true)),
                 schoolCodec.listOf().fieldOf("spellSchools").forGetter(p -> p.spellSchools),
                 Defaults.CODEC.fieldOf("defaults").forGetter(Defaults::new),
                 ComponentSerialization.CODEC.fieldOf("typeName").forGetter(AbstractSpellPart::getTypeName),
