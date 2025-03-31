@@ -4,6 +4,7 @@ import com.hollingsworth.arsnouveau.api.registry.GlyphRegistry;
 import com.hollingsworth.arsnouveau.api.spell.AbstractAugment;
 import com.hollingsworth.arsnouveau.api.spell.AbstractSpellPart;
 import com.hollingsworth.arsnouveau.api.spell.SpellSchool;
+import com.hollingsworth.arsnouveau.common.spell.effect.EffectBreak;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.DataResult;
 import com.mojang.serialization.JsonOps;
@@ -11,6 +12,8 @@ import com.mojang.serialization.codecs.RecordCodecBuilder;
 import dev.qther.doc_exporter.mixin.AugmentCostsAccessor;
 import dev.qther.doc_exporter.mixin.AugmentLimitsAccessor;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.ItemRenderer;
+import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.locale.Language;
 import net.minecraft.network.chat.ComponentSerialization;
 import net.minecraft.resources.ResourceLocation;
@@ -20,6 +23,7 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.client.event.ClientTickEvent;
+import net.neoforged.neoforge.client.model.data.ModelData;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.common.util.NeoForgeExtraCodecs;
 import org.slf4j.Logger;
@@ -87,6 +91,7 @@ public class DocExporter {
                 ResourceLocation.CODEC.fieldOf("registryName").forGetter(AbstractSpellPart::getRegistryName),
                 Codec.STRING.fieldOf("localizationKey").forGetter(AbstractSpellPart::getLocalizationKey),
                 Codec.STRING.fieldOf("name").forGetter(AbstractSpellPart::getName),
+                ResourceLocation.CODEC.fieldOf("texture").forGetter(p -> Minecraft.getInstance().getItemRenderer().getItemModelShaper().getModelManager().getModel(ModelResourceLocation.inventory(p.getRegistryName())).getParticleIcon(ModelData.EMPTY).contents().name()),
                 schoolCodec.listOf().fieldOf("spellSchools").forGetter(p -> p.spellSchools),
                 Defaults.CODEC.fieldOf("defaults").forGetter(Defaults::new),
                 ComponentSerialization.CODEC.fieldOf("typeName").forGetter(AbstractSpellPart::getTypeName),
@@ -100,7 +105,7 @@ public class DocExporter {
                     }
                     return classes;
                 })
-        ).apply(instance, (a, b, c, d, e, f, g, h) -> {
+        ).apply(instance, (a, b, c, d, e, f, g, h, i) -> {
             throw new RuntimeException("cannot decode AbstractSpellPart");
         }));
 
@@ -122,7 +127,7 @@ public class DocExporter {
             Files.createDirectories(Path.of("../lang/"));
 
             for (var langCode : Minecraft.getInstance().getLanguageManager().getLanguages().keySet()) {
-                var glyphsPath = Path.of("../lang/" + langCode + ".json");
+                var langPath = Path.of("../lang/" + langCode + ".json");
 
                 LOGGER.info("Exporting language {}", langCode);
                 try {
@@ -131,7 +136,7 @@ public class DocExporter {
                     LOGGER.error("could not load language {}", langCode, e);
                     continue;
                 }
-                try (var writer = Files.newBufferedWriter(glyphsPath, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
+                try (var writer = Files.newBufferedWriter(langPath, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
                     var json = s2sMapCodec.encodeStart(JsonOps.INSTANCE, Language.getInstance().getLanguageData());
                     writer.append(json.getOrThrow().toString());
                 }
