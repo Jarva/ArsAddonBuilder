@@ -1,0 +1,17 @@
+{
+  "id": "ars_nouveau:block.starbunclemania.fluid_jar",
+  "order": 100,
+  "icon": "starbunclemania:fluid_jar",
+  "title": "Fluid Containment Jar",
+  "category": "ars_nouveau:source",
+  "pages": [
+    {
+      "title": "Fluid Containment Jar",
+      "description": "A tank made from cascading archwood logs that can hold up to 16 buckets of fluid. If used to store a potion fluid and a potion jar is placed above it, the fluid will be converted to the jar for flask/melding use.",
+      "icon": "starbunclemania:fluid_jar"
+    },
+    {
+      "recipe_1": "starbunclemania:fluid_jar"
+    }
+  ]
+}
