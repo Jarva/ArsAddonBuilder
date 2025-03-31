@@ -23,6 +23,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.client.entity.animation.json.AnimationLoader;
 import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.neoforge.client.model.data.ModelData;
 import net.neoforged.neoforge.common.NeoForge;
@@ -93,15 +94,7 @@ public class DocExporter {
                 Codec.STRING.fieldOf("localizationKey").forGetter(AbstractSpellPart::getLocalizationKey),
                 Codec.STRING.fieldOf("name").forGetter(AbstractSpellPart::getName),
                 ResourceLocation.CODEC.fieldOf("texture").forGetter(p -> Minecraft.getInstance().getItemRenderer().getItemModelShaper().getItemModel(p.glyphItem).getParticleIcon(ModelData.EMPTY).contents().name()),
-                Codec.BOOL.fieldOf("animated").forGetter(p ->
-                        Minecraft.getInstance().getResourceManager().getResource(Minecraft.getInstance().getItemRenderer().getItemModelShaper().getItemModel(p.glyphItem).getParticleIcon(ModelData.EMPTY).contents().name()).map(m -> {
-                            try {
-                                return m.metadata().getSection(AnimationMetadataSection.SERIALIZER).isPresent();
-                            } catch (IOException e) {
-                                throw new RuntimeException(e);
-                            }
-                        }).orElse(false)
-                ),
+                Codec.BOOL.fieldOf("animated").forGetter(p -> AnimationLoader.INSTANCE.getAnimation(Minecraft.getInstance().getItemRenderer().getItemModelShaper().getItemModel(p.glyphItem).getParticleIcon(ModelData.EMPTY).contents().name()) != null),
                 schoolCodec.listOf().fieldOf("spellSchools").forGetter(p -> p.spellSchools),
                 Defaults.CODEC.fieldOf("defaults").forGetter(Defaults::new),
                 ComponentSerialization.CODEC.fieldOf("typeName").forGetter(AbstractSpellPart::getTypeName),
