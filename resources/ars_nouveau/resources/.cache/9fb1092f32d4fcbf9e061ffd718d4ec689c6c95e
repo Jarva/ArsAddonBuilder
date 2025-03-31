@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-26T01:10:56.142893595	Recipes
+// 1.21.1	2025-03-31T03:10:48.596100326	Recipes
 a76e5d9eef406841f56740535ec2afdd509de507 data/ars_nouveau/advancement/recipes/building_blocks/archwood_button.json
 443515bb80018fbe37a128cb6849f5e818be315d data/ars_nouveau/advancement/recipes/building_blocks/archwood_door.json
 4dfc3afae271aae8423d20dedb67dc601ff71fa0 data/ars_nouveau/advancement/recipes/building_blocks/archwood_fence.json
@@ -200,6 +200,7 @@ bb32cde2de07df7f88b2ebc92986f1d4b3c14679 data/ars_nouveau/advancement/recipes/mi
 4da9eef356a8e78fbc35c6d64e12fc70cd2a2a2c data/ars_nouveau/advancement/recipes/misc/redstone_relay.json
 f230680eb5c4b413a6dab4982a27632136878308 data/ars_nouveau/advancement/recipes/misc/relay.json
 96008186e68872c56e524c819bdd1d8b6a98657c data/ars_nouveau/advancement/recipes/misc/repository.json
+46fb23bd55a9e21d92217e3720b41c895ca50726 data/ars_nouveau/advancement/recipes/misc/repository_controller.json
 f1fd2db5b3d12da41f0453b5473b8009b1451d1e data/ars_nouveau/advancement/recipes/misc/reset_stable_warp_scroll.json
 d6646d684d97610b9de0796456f8ccc8785fb86d data/ars_nouveau/advancement/recipes/misc/reset_warp_scroll.json
 6e07b1ac1089cb77c8d52e4b7eb51f382077bfa0 data/ars_nouveau/advancement/recipes/misc/ring_of_potential.json
@@ -424,6 +425,7 @@ ea63cf7bea666ed17912b8fae45be7eaa3ed7288 data/ars_nouveau/recipe/purple_archwood
 616946e3adf199d9d3c0707aeeb85982b10fce49 data/ars_nouveau/recipe/redstone_relay.json
 25d2e36480a9d7d823739df070b6a2442fc00c7c data/ars_nouveau/recipe/relay.json
 a67d41e3479aca3091003352a993477e07d36c7d data/ars_nouveau/recipe/repository.json
+c9875adbf19cb37c8b4a2ac4c73ce0e44c4be749 data/ars_nouveau/recipe/repository_controller.json
 d69b689c9d3d9beacb19470d85ae0563d16eaf21 data/ars_nouveau/recipe/reset_stable_warp_scroll.json
 e4fa6ed6a2cb95d4d609eb9f63342b4ff0cbaad9 data/ars_nouveau/recipe/reset_warp_scroll.json
 edb21a2954e2ad301954256943914108e3659ef3 data/ars_nouveau/recipe/ring_of_potential.json

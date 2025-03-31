@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-26T01:10:56.138208962	Apparatus
+// 1.21.1	2025-03-31T03:10:48.590910817	Apparatus
 54b2918a0b959ae3e055dae2681322a8800177a2 data/ars_nouveau/recipe/alakarkinos_charm.json
 adc3e3b582ab4d1fd6f29537bddaaecb9eaa0c2d data/ars_nouveau/recipe/alchemists_crown.json
 9a7fefa487b159935c1f620dc9516a6600fb0d4b data/ars_nouveau/recipe/amulet_of_mana_boost.json
@@ -35,6 +35,8 @@ ba94b8d4ebbb4ed60256abd9e23a5b354b297a66 data/ars_nouveau/recipe/efficiency_2.js
 29aa663334fce55ba539ea2d63bd10bb8c82be88 data/ars_nouveau/recipe/efficiency_4.json
 ffd676653c81de14822f5859347f245b4cc0ce25 data/ars_nouveau/recipe/efficiency_5.json
 1177e27111938b858fe4cbe43a3c8267e315c57c data/ars_nouveau/recipe/enchanters_eye.json
+8df4857acf66a00c9fd8bfe6452293e7a0adc9df data/ars_nouveau/recipe/enchanters_fishing_rod.json
+66230980b9825f9969dd5e5f867bb4e85b1df08f data/ars_nouveau/recipe/enchanters_gauntlet.json
 67be8410e6968e09ed0eb852bda93a0932a77d11 data/ars_nouveau/recipe/enchanters_mirror.json
 321f4d386c03038ff92a9233c1c6898123bdd80d data/ars_nouveau/recipe/enchanters_shield.json
 f2c4f98facacbc8b2e4e322e99af3eaa56c16c07 data/ars_nouveau/recipe/enchanters_sword.json
