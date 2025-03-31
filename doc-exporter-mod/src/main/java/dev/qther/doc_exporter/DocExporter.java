@@ -13,6 +13,7 @@ import dev.qther.doc_exporter.mixin.AugmentCostsAccessor;
 import dev.qther.doc_exporter.mixin.AugmentLimitsAccessor;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.ItemRenderer;
+import net.minecraft.client.resources.metadata.animation.AnimationMetadataSection;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.locale.Language;
 import net.minecraft.network.chat.ComponentSerialization;
@@ -91,7 +92,16 @@ public class DocExporter {
                 ResourceLocation.CODEC.fieldOf("registryName").forGetter(AbstractSpellPart::getRegistryName),
                 Codec.STRING.fieldOf("localizationKey").forGetter(AbstractSpellPart::getLocalizationKey),
                 Codec.STRING.fieldOf("name").forGetter(AbstractSpellPart::getName),
-                ResourceLocation.CODEC.fieldOf("texture").forGetter(p -> Minecraft.getInstance().getItemRenderer().getItemModelShaper().getModelManager().getModel(ModelResourceLocation.inventory(p.getRegistryName())).getParticleIcon(ModelData.EMPTY).contents().name()),
+                ResourceLocation.CODEC.fieldOf("texture").forGetter(p -> Minecraft.getInstance().getItemRenderer().getItemModelShaper().getItemModel(p.glyphItem).getParticleIcon(ModelData.EMPTY).contents().name()),
+                Codec.BOOL.fieldOf("animated").forGetter(p ->
+                        Minecraft.getInstance().getResourceManager().getResource(Minecraft.getInstance().getItemRenderer().getItemModelShaper().getItemModel(p.glyphItem).getParticleIcon(ModelData.EMPTY).contents().name()).map(m -> {
+                            try {
+                                return m.metadata().getSection(AnimationMetadataSection.SERIALIZER).isPresent();
+                            } catch (IOException e) {
+                                throw new RuntimeException(e);
+                            }
+                        }).orElse(false)
+                ),
                 schoolCodec.listOf().fieldOf("spellSchools").forGetter(p -> p.spellSchools),
                 Defaults.CODEC.fieldOf("defaults").forGetter(Defaults::new),
                 ComponentSerialization.CODEC.fieldOf("typeName").forGetter(AbstractSpellPart::getTypeName),
@@ -105,7 +115,7 @@ public class DocExporter {
                     }
                     return classes;
                 })
-        ).apply(instance, (a, b, c, d, e, f, g, h, i) -> {
+        ).apply(instance, (a, b, c, d, e, f, g, h, i, j) -> {
             throw new RuntimeException("cannot decode AbstractSpellPart");
         }));
 
@@ -148,7 +158,8 @@ public class DocExporter {
 
         try {
             loadLanguage("en_us");
-        } catch (Exception ignored) {}
+        } catch (Exception ignored) {
+        }
 
         // Exit
         Minecraft.getInstance().stop();
