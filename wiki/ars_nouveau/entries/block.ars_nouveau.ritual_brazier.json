@@ -11,9 +11,6 @@
       "icon": "ars_nouveau:ritual_brazier"
     },
     {
-      "recipe_1": "ars_nouveau:ritual_brazier"
-    },
-    {
       "related": [
         "ars_controle:item.ars_controle.portable_brazier_relay"
       ]

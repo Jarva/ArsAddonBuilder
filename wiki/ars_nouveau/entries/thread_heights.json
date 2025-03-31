@@ -9,9 +9,6 @@
       "title": "Thread of Heights",
       "description": "Allows you to jump higher and increases how far you may fall before taking damage.",
       "icon": "ars_nouveau:thread_heights"
-    },
-    {
-      "recipe_1": "ars_nouveau:thread_heights"
     }
   ]
 }

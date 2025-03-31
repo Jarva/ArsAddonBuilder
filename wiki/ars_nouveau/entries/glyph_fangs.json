@@ -10,9 +10,6 @@
       "description": "Summons Evoker Fangs in the direction where the spell was targeted. Using fangs on your self will spawn them in an area around you.",
       "icon": "ars_nouveau:glyph_fangs",
       "tier": 3
-    },
-    {
-      "recipe_1": "ars_nouveau:glyph_fangs"
     }
   ]
 }

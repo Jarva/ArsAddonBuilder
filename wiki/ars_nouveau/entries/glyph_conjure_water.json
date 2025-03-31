@@ -10,9 +10,6 @@
       "description": "Places water at a location or extinguishes entities on fire. If augmented with extend time, it will keep entities wet for a longer period of time.",
       "icon": "ars_nouveau:glyph_conjure_water",
       "tier": 2
-    },
-    {
-      "recipe_1": "ars_nouveau:glyph_conjure_water"
     }
   ]
 }

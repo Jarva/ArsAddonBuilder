@@ -10,9 +10,6 @@
       "description": "Launches the target in the direction they are looking. Amplification will increase the distance moved.",
       "icon": "ars_nouveau:glyph_leap",
       "tier": 1
-    },
-    {
-      "recipe_1": "ars_nouveau:glyph_leap"
     }
   ]
 }

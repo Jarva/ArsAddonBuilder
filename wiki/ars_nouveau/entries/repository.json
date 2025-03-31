@@ -11,10 +11,6 @@
       "icon": "ars_nouveau:repository"
     },
     {
-      "recipe_1": "ars_nouveau:repository",
-      "recipe_2": "ars_nouveau:archwood_chest"
-    },
-    {
       "related": [
         "ars_nouveau:storage_lectern",
         "ars_nouveau:repository_controller"

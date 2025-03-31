@@ -9,9 +9,6 @@
       "title": "Warping",
       "description": "Warps all nearby entities to the location on a warp scroll. Before starting the ritual, you must first augment the ritual with an inscribed Warp Scroll.",
       "icon": "ars_nouveau:ritual_warping"
-    },
-    {
-      "recipe_1": "ars_nouveau:ritual_warping"
     }
   ]
 }
