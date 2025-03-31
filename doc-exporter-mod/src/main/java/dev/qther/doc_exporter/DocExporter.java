@@ -49,7 +49,7 @@ public class DocExporter {
 
     public void postTick(ClientTickEvent.Post event) {
         var level = Minecraft.getInstance().level;
-        if (level == null || level.getGameTime() < 5 || exported) {
+        if (level == null || level.getGameTime() < 20 || exported) {
             return;
         }
         exported = true;
