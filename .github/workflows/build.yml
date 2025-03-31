@@ -187,6 +187,7 @@ jobs:
           regex: .*neoforge.*
           mc-runtime-test: neoforge
           java: ${{ env.JAVA_VERSION }}
+          xvfb: false
       - uses: Jarva/git-commit-push@main
         if: success() || failure()
         with:
