@@ -10,7 +10,9 @@ import com.mojang.serialization.JsonOps;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import dev.qther.doc_exporter.mixin.AugmentCostsAccessor;
 import dev.qther.doc_exporter.mixin.AugmentLimitsAccessor;
+import dev.qther.doc_exporter.mixin.LanguageHookAccessor;
 import net.minecraft.client.Minecraft;
+import net.minecraft.locale.Language;
 import net.minecraft.network.chat.ComponentSerialization;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.bus.api.EventPriority;
@@ -115,6 +117,25 @@ public class DocExporter {
             }
         } catch (IOException | IllegalStateException e) {
             LOGGER.error("could not create glyphs file", e);
+        }
+
+        // Export lang
+        var langInstance = Language.getInstance();
+        var s2sMapCodec = Codec.unboundedMap(Codec.STRING, Codec.STRING);
+        try {
+            Files.createDirectories(Path.of("../lang/"));
+
+            for (var lang : Minecraft.getInstance().getLanguageManager().getLanguages().keySet()) {
+                var glyphsPath = Path.of("../lang/" + lang + ".json");
+                LanguageHookAccessor.invokeLoadLanguage(lang, Minecraft.getInstance().getSingleplayerServer());
+
+                try (var writer = Files.newBufferedWriter(glyphsPath, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
+                    var json = s2sMapCodec.encodeStart(JsonOps.INSTANCE, langInstance.getLanguageData());
+                    writer.append(json.getOrThrow().toString());
+                }
+            }
+        } catch (IOException | IllegalStateException e) {
+            LOGGER.error("could not create lang files", e);
         }
     }
 
