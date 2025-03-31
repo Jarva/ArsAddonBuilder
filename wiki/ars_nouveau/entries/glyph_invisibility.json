@@ -10,6 +10,9 @@
       "description": "Causes the target to turn invisible for a short time.",
       "icon": "ars_nouveau:glyph_invisibility",
       "tier": 2
+    },
+    {
+      "recipe_1": "ars_nouveau:glyph_invisibility"
     }
   ]
 }

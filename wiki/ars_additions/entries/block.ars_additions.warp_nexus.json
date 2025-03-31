@@ -1,0 +1,22 @@
+{
+  "id": "ars_additions:block.ars_additions.warp_nexus",
+  "order": 100,
+  "icon": "ars_additions:warp_nexus",
+  "title": "Nexus Tower",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "description": "Nexus Towers are located on converging points of Source Leylines allowing them to harness the natural source in the world to allow easier transportation around the realm."
+    },
+    {
+      "title": "Warp Nexus",
+      "description": "These towers use this natural source via their Warp Nexus, an ancient waystone containing a Nexus Scroll bound to the towers location.",
+      "icon": "ars_additions:warp_nexus"
+    },
+    {
+      "related": [
+        "ars_additions:warp_nexus"
+      ]
+    }
+  ]
+}

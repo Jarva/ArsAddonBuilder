@@ -11,6 +11,10 @@
       "icon": "ars_nouveau:mimic_scroll"
     },
     {
+      "recipe_1": "ars_nouveau:blank_parchment",
+      "recipe_2": "ars_nouveau:mimic_scroll"
+    },
+    {
       "related": [
         "ars_nouveau:deny_scroll",
         "ars_nouveau:allow_scroll",

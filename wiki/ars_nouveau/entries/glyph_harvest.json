@@ -10,6 +10,9 @@
       "description": "When used on grown crops, this spell will obtain the fully grown product without destroying the plant.",
       "icon": "ars_nouveau:glyph_harvest",
       "tier": 1
+    },
+    {
+      "recipe_1": "ars_nouveau:glyph_harvest"
     }
   ]
 }
