@@ -10,7 +10,6 @@ import com.mojang.serialization.JsonOps;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import dev.qther.doc_exporter.mixin.AugmentCostsAccessor;
 import dev.qther.doc_exporter.mixin.AugmentLimitsAccessor;
-import dev.qther.doc_exporter.mixin.LanguageHookAccessor;
 import net.minecraft.client.Minecraft;
 import net.minecraft.locale.Language;
 import net.minecraft.network.chat.ComponentSerialization;
@@ -30,10 +29,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.concurrent.ExecutionException;
 import java.util.stream.Collectors;
 
 @Mod(DocExporter.MODID)
@@ -120,23 +117,36 @@ public class DocExporter {
         }
 
         // Export lang
-        var langInstance = Language.getInstance();
         var s2sMapCodec = Codec.unboundedMap(Codec.STRING, Codec.STRING);
         try {
             Files.createDirectories(Path.of("../lang/"));
 
-            for (var lang : Minecraft.getInstance().getLanguageManager().getLanguages().keySet()) {
-                var glyphsPath = Path.of("../lang/" + lang + ".json");
-                LanguageHookAccessor.invokeLoadLanguage(lang, Minecraft.getInstance().getSingleplayerServer());
+            for (var langCode : Minecraft.getInstance().getLanguageManager().getLanguages().keySet()) {
+                var glyphsPath = Path.of("../lang/" + langCode + ".json");
 
+                LOGGER.info("Exporting language {}", langCode);
+                try {
+                    loadLanguage(langCode);
+                } catch (Exception e) {
+                    LOGGER.error("could not load language {}", langCode, e);
+                    continue;
+                }
                 try (var writer = Files.newBufferedWriter(glyphsPath, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
-                    var json = s2sMapCodec.encodeStart(JsonOps.INSTANCE, langInstance.getLanguageData());
+                    var json = s2sMapCodec.encodeStart(JsonOps.INSTANCE, Language.getInstance().getLanguageData());
                     writer.append(json.getOrThrow().toString());
                 }
+                LOGGER.info("Exported language {}", langCode);
             }
         } catch (IOException | IllegalStateException e) {
             LOGGER.error("could not create lang files", e);
         }
+
+        try {
+            loadLanguage("en_us");
+        } catch (Exception ignored) {}
+
+        // Exit
+        Minecraft.getInstance().stop();
     }
 
     static void deleteDirIfEmpty(String pathStr) throws IOException {
@@ -181,5 +191,12 @@ public class DocExporter {
         ).apply(instance, (a, b, c, d, e, f, g) -> {
             throw new RuntimeException("cannot decode Defaults");
         }));
+    }
+
+    static void loadLanguage(String langCode) throws ExecutionException, InterruptedException {
+        var mc = Minecraft.getInstance();
+        mc.getLanguageManager().setSelected(langCode);
+        mc.options.languageCode = langCode;
+        mc.getLanguageManager().onResourceManagerReload(mc.getResourceManager());
     }
 }
