@@ -10,9 +10,6 @@
       "description": "Grants the Glide effect, allowing the wearer to fly as if they were wearing an Elytra. ",
       "icon": "ars_nouveau:glyph_glide",
       "tier": 3
-    },
-    {
-      "recipe_1": "ars_nouveau:glyph_glide"
     }
   ]
 }

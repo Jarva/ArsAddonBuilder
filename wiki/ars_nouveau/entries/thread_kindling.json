@@ -9,9 +9,6 @@
       "title": "Thread of Kindling",
       "description": "Damaging effects cause the target to burn for a short duration before the effect resolves. Burn time is increased by 5 seconds per level.",
       "icon": "ars_nouveau:thread_kindling"
-    },
-    {
-      "recipe_1": "ars_nouveau:thread_kindling"
     }
   ]
 }

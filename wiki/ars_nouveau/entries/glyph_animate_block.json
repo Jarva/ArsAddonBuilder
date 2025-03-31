@@ -10,9 +10,6 @@
       "description": "Animates a block to fight for you. The animated block will convert to a falling block when it dies. Costs a large amount of mana, but does not grant Summoning Sickness",
       "icon": "ars_nouveau:glyph_animate_block",
       "tier": 2
-    },
-    {
-      "recipe_1": "ars_nouveau:glyph_animate_block"
     }
   ]
 }

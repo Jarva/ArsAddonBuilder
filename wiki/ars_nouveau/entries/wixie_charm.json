@@ -11,9 +11,6 @@
       "icon": "ars_nouveau:wixie_charm"
     },
     {
-      "recipe_1": "ars_nouveau:wixie_charm"
-    },
-    {
       "description": "To select an item for crafting, use your item or block on the Wixie Cauldron.",
       "entity_type": "ars_nouveau:wixie"
     },

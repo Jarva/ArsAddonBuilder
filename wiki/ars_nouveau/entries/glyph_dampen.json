@@ -10,9 +10,6 @@
       "description": "Decreases the power of most spells.",
       "icon": "ars_nouveau:glyph_dampen",
       "tier": 2
-    },
-    {
-      "recipe_1": "ars_nouveau:glyph_dampen"
     }
   ]
 }

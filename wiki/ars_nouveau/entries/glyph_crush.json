@@ -10,9 +10,6 @@
       "description": "Turns stone into gravel, and gravel into sand. Will also crush flowers into bonus dye. Need Sensitive to work on items. For full recipe support, see JEI. Will also harm entities and deals bonus damage to entities that are swimming.",
       "icon": "ars_nouveau:glyph_crush",
       "tier": 2
-    },
-    {
-      "recipe_1": "ars_nouveau:glyph_crush"
     }
   ]
 }
