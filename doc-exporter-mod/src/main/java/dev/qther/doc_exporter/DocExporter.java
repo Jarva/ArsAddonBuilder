@@ -1,6 +1,18 @@
 package dev.qther.doc_exporter;
 
+import com.hollingsworth.arsnouveau.api.registry.GlyphRegistry;
+import com.hollingsworth.arsnouveau.api.spell.AbstractAugment;
+import com.hollingsworth.arsnouveau.api.spell.AbstractSpellPart;
+import com.hollingsworth.arsnouveau.api.spell.SpellSchool;
+import com.mojang.serialization.Codec;
+import com.mojang.serialization.DataResult;
+import com.mojang.serialization.JsonOps;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
+import dev.qther.doc_exporter.mixin.AugmentCostsAccessor;
+import dev.qther.doc_exporter.mixin.AugmentLimitsAccessor;
 import net.minecraft.client.Minecraft;
+import net.minecraft.network.chat.ComponentSerialization;
+import net.minecraft.resources.ResourceLocation;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -8,12 +20,19 @@ import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.common.util.NeoForgeExtraCodecs;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 @Mod(DocExporter.MODID)
 public class DocExporter {
@@ -22,16 +41,17 @@ public class DocExporter {
     public boolean exported = false;
 
     public DocExporter(IEventBus modEventBus, ModContainer modContainer) {
-        NeoForge.EVENT_BUS.addListener(EventPriority.LOWEST, this::onDocFinish);
+        NeoForge.EVENT_BUS.addListener(EventPriority.LOWEST, this::postTick);
     }
 
-    public void onDocFinish(ClientTickEvent.Post event) {
+    public void postTick(ClientTickEvent.Post event) {
         var level = Minecraft.getInstance().level;
         if (level == null || level.getGameTime() < 5 || exported) {
             return;
         }
         exported = true;
 
+        // Export docs
         for (var mod : ModList.get().getMods()) {
             DocExporter.LOGGER.info("Exporting docs for {} @ {} to {}", mod.getModId(), mod.getVersion(), Path.of("../wiki/" + mod.getModId()).toAbsolutePath());
             try {
@@ -53,6 +73,49 @@ public class DocExporter {
                 return;
             }
         }
+
+        // Export glyphs
+        Codec<SpellSchool> schoolCodec = Codec.recursive(SpellSchool.class.getSimpleName(), rec -> RecordCodecBuilder.create(instance -> instance.group(
+                Codec.STRING.fieldOf("id").forGetter(SpellSchool::getId),
+                NeoForgeExtraCodecs.setOf(rec).fieldOf("subschools").forGetter(SpellSchool::getSubSchools)
+        ).apply(instance, (id, subschools) -> {
+            var school = new SpellSchool(id);
+            school.setSubSchools(subschools);
+            return school;
+        })));
+
+        Codec<AbstractSpellPart> spellPartCodec = RecordCodecBuilder.create(instance -> instance.group(
+                ResourceLocation.CODEC.fieldOf("registryName").forGetter(AbstractSpellPart::getRegistryName),
+                Codec.STRING.fieldOf("localizationKey").forGetter(AbstractSpellPart::getLocalizationKey),
+                Codec.STRING.fieldOf("name").forGetter(AbstractSpellPart::getName),
+                schoolCodec.listOf().fieldOf("spellSchools").forGetter(p -> p.spellSchools),
+                Defaults.CODEC.fieldOf("defaults").forGetter(Defaults::new),
+                ComponentSerialization.CODEC.fieldOf("typeName").forGetter(AbstractSpellPart::getTypeName),
+                Codec.INT.fieldOf("typeIndex").forGetter(AbstractSpellPart::getTypeIndex),
+                Codec.STRING.listOf().fieldOf("classes").forGetter(p -> {
+                    List<String> classes = new ArrayList<>();
+                    Class<?> clazz = p.getClass();
+                    while (clazz != AbstractSpellPart.class) {
+                        classes.add(clazz.getCanonicalName());
+                        clazz = clazz.getSuperclass();
+                    }
+                    return classes;
+                })
+        ).apply(instance, (a, b, c, d, e, f, g, h) -> {
+            throw new RuntimeException("cannot decode AbstractSpellPart");
+        }));
+
+        var spellpartMapCodec = Codec.unboundedMap(ResourceLocation.CODEC, spellPartCodec);
+
+        try {
+            var glyphsPath = Path.of("../glyphs.json");
+            try (var writer = Files.newBufferedWriter(glyphsPath, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
+                var json = spellpartMapCodec.encodeStart(JsonOps.INSTANCE, GlyphRegistry.getSpellpartMap());
+                writer.append(json.getOrThrow().toString());
+            }
+        } catch (IOException | IllegalStateException e) {
+            LOGGER.error("could not create glyphs file", e);
+        }
     }
 
     static void deleteDirIfEmpty(String pathStr) throws IOException {
@@ -62,5 +125,40 @@ public class DocExporter {
                 Files.deleteIfExists(path);
             }
         }
+    }
+
+    public record AugmentDetails(AbstractSpellPart part) {
+        public static Codec<AugmentDetails> CODEC = RecordCodecBuilder.create(instance -> instance.group(
+                NeoForgeExtraCodecs.setOf(ResourceLocation.CODEC.comapFlatMap(id -> {
+                    if (GlyphRegistry.getSpellPart(id) instanceof AbstractAugment augment) {
+                        return DataResult.success(augment);
+                    }
+                    return DataResult.error(() -> id + " is not an augment");
+                }, AbstractSpellPart::getRegistryName)).fieldOf("compatible").forGetter(p -> p.part.compatibleAugments),
+                Codec.unboundedMap(ResourceLocation.CODEC.comapFlatMap(id -> {
+                    if (GlyphRegistry.getSpellPart(id) instanceof AbstractAugment augment) {
+                        return DataResult.success(augment);
+                    }
+                    return DataResult.error(() -> id + " is not an augment");
+                }, AbstractSpellPart::getRegistryName), ComponentSerialization.CODEC).fieldOf("descriptions").forGetter(p -> p.part.augmentDescriptions.entrySet().stream().filter(e -> p.part.compatibleAugments.contains(e.getKey())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue))),
+                Codec.unboundedMap(ResourceLocation.CODEC, Codec.INT).fieldOf("costs").forGetter(p -> p.part.augmentCosts == null ? new HashMap<>() : ((AugmentCostsAccessor) p.part.augmentCosts).invokeParseAugmentCosts().entrySet().stream().filter(e -> p.part.compatibleAugments.contains(e.getKey())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue))),
+                Codec.unboundedMap(ResourceLocation.CODEC, Codec.INT).fieldOf("limits").forGetter(p -> p.part.augmentLimits == null ? new HashMap<>() : ((AugmentLimitsAccessor) p.part.augmentLimits).invokeParseAugmentLimits().entrySet().stream().filter(e -> p.part.compatibleAugments.contains(e.getKey())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue)))
+        ).apply(instance, (a, b, c, d) -> {
+            throw new RuntimeException("cannot decode AugmentDetails");
+        }));
+    }
+
+    public record Defaults(AbstractSpellPart part) {
+        public static Codec<Defaults> CODEC = RecordCodecBuilder.create(instance -> instance.group(
+                Codec.INT.fieldOf("tier").forGetter(p -> p.part.defaultTier().value),
+                Codec.INT.fieldOf("cost").forGetter(p -> p.part.getCastingCost()),
+                Codec.BOOL.fieldOf("enabled").forGetter(p -> p.part.isEnabled()),
+                Codec.BOOL.fieldOf("starter").forGetter(p -> p.part.defaultedStarterGlyph()),
+                Codec.INT.fieldOf("perSpellLimit").forGetter(p -> p.part.PER_SPELL_LIMIT == null ? Integer.MAX_VALUE : p.part.PER_SPELL_LIMIT.get()),
+                AugmentDetails.CODEC.fieldOf("augments").forGetter(p -> new AugmentDetails(p.part)),
+                NeoForgeExtraCodecs.setOf(ResourceLocation.CODEC).fieldOf("invalidCombinations").forGetter(p -> p.part.invalidCombinations.parseComboLimits())
+        ).apply(instance, (a, b, c, d, e, f, g) -> {
+            throw new RuntimeException("cannot decode Defaults");
+        }));
     }
 }

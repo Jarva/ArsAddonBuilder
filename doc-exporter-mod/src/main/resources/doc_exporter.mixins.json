@@ -4,8 +4,10 @@
   "package": "dev.qther.doc_exporter.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "GameTestHooksMixin",
-    "DocExporterMixin"
+    "AugmentCostsAccessor",
+    "AugmentLimitsAccessor",
+    "DocExporterMixin",
+    "GameTestHooksMixin"
   ],
   "client": [
   ],
