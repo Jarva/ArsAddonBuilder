@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:blast_protection",
+  "order": 100,
+  "icon": "minecraft:enchanted_book",
+  "title": "Blast Protection",
+  "category": "ars_nouveau:enchanting",
+  "pages": [
+    {
+      "recipe_1": "ars_nouveau:blast_protection_1"
+    },
+    {
+      "recipe_1": "ars_nouveau:blast_protection_2"
+    },
+    {
+      "recipe_1": "ars_nouveau:blast_protection_3"
+    },
+    {
+      "recipe_1": "ars_nouveau:blast_protection_4"
+    }
+  ]
+}

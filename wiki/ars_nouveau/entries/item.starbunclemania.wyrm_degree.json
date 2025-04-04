@@ -1,0 +1,17 @@
+{
+  "id": "ars_nouveau:item.starbunclemania.wyrm_degree",
+  "order": 100,
+  "icon": "starbunclemania:wyrm_degree",
+  "title": "Wyrm Degree",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "title": "Wyrm Degree",
+      "description": "Allows Starbuncles to insert/extract items from a specific side with Direction Scrolls.",
+      "icon": "starbunclemania:wyrm_degree"
+    },
+    {
+      "recipe_1": "starbunclemania:wyrm_degree"
+    }
+  ]
+}
