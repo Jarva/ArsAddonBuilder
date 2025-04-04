@@ -1,0 +1,15 @@
+{
+  "id": "ars_additions:item.ars_additions.handy_haversack",
+  "order": 100,
+  "icon": "ars_additions:handy_haversack",
+  "title": "Handy Haversack",
+  "category": "ars_nouveau:items",
+  "pages": [
+    {
+      "description": "After binding the Handy Haversack to a container, you can right-click items onto the haversack to deposit them into that container from anywhere. When the container is unloaded the haversack will close and not accept any items. You can automate the depositing of items by adding items to its filters. Use the haversack with an item in your off hand, or scribe the haversack using a Scribe\u0027s table with the item you wish to add."
+    },
+    {
+      "recipe_1": "ars_additions:handy_haversack"
+    }
+  ]
+}
