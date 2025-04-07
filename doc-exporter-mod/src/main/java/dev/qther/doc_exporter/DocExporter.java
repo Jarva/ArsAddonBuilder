@@ -4,14 +4,17 @@ import com.hollingsworth.arsnouveau.api.registry.GlyphRegistry;
 import com.hollingsworth.arsnouveau.api.spell.AbstractAugment;
 import com.hollingsworth.arsnouveau.api.spell.AbstractSpellPart;
 import com.hollingsworth.arsnouveau.api.spell.SpellSchool;
+import com.hollingsworth.arsnouveau.common.spell.effect.EffectBreak;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.DataResult;
 import com.mojang.serialization.JsonOps;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import dev.qther.doc_exporter.mixin.AugmentCostsAccessor;
 import dev.qther.doc_exporter.mixin.AugmentLimitsAccessor;
-import dev.qther.doc_exporter.mixin.LanguageHookAccessor;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.ItemRenderer;
+import net.minecraft.client.resources.metadata.animation.AnimationMetadataSection;
+import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.locale.Language;
 import net.minecraft.network.chat.ComponentSerialization;
 import net.minecraft.resources.ResourceLocation;
@@ -20,7 +23,9 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.client.entity.animation.json.AnimationLoader;
 import net.neoforged.neoforge.client.event.ClientTickEvent;
+import net.neoforged.neoforge.client.model.data.ModelData;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.common.util.NeoForgeExtraCodecs;
 import org.slf4j.Logger;
@@ -30,10 +35,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.concurrent.ExecutionException;
 import java.util.stream.Collectors;
 
 @Mod(DocExporter.MODID)
@@ -48,7 +51,7 @@ public class DocExporter {
 
     public void postTick(ClientTickEvent.Post event) {
         var level = Minecraft.getInstance().level;
-        if (level == null || level.getGameTime() < 5 || exported) {
+        if (level == null || level.getGameTime() < 20 || exported) {
             return;
         }
         exported = true;
@@ -90,6 +93,8 @@ public class DocExporter {
                 ResourceLocation.CODEC.fieldOf("registryName").forGetter(AbstractSpellPart::getRegistryName),
                 Codec.STRING.fieldOf("localizationKey").forGetter(AbstractSpellPart::getLocalizationKey),
                 Codec.STRING.fieldOf("name").forGetter(AbstractSpellPart::getName),
+                ResourceLocation.CODEC.fieldOf("texture").forGetter(p -> Minecraft.getInstance().getItemRenderer().getItemModelShaper().getItemModel(p.glyphItem).getParticleIcon(ModelData.EMPTY).contents().name()),
+                Codec.BOOL.fieldOf("animated").forGetter(p -> Minecraft.getInstance().getItemRenderer().getItemModelShaper().getItemModel(p.glyphItem).getParticleIcon(ModelData.EMPTY).contents().getUniqueFrames().skip(1).anyMatch(i -> true)),
                 schoolCodec.listOf().fieldOf("spellSchools").forGetter(p -> p.spellSchools),
                 Defaults.CODEC.fieldOf("defaults").forGetter(Defaults::new),
                 ComponentSerialization.CODEC.fieldOf("typeName").forGetter(AbstractSpellPart::getTypeName),
@@ -103,7 +108,7 @@ public class DocExporter {
                     }
                     return classes;
                 })
-        ).apply(instance, (a, b, c, d, e, f, g, h) -> {
+        ).apply(instance, (a, b, c, d, e, f, g, h, i, j) -> {
             throw new RuntimeException("cannot decode AbstractSpellPart");
         }));
 
@@ -120,23 +125,37 @@ public class DocExporter {
         }
 
         // Export lang
-        var langInstance = Language.getInstance();
         var s2sMapCodec = Codec.unboundedMap(Codec.STRING, Codec.STRING);
         try {
             Files.createDirectories(Path.of("../lang/"));
 
-            for (var lang : Minecraft.getInstance().getLanguageManager().getLanguages().keySet()) {
-                var glyphsPath = Path.of("../lang/" + lang + ".json");
-                LanguageHookAccessor.invokeLoadLanguage(lang, Minecraft.getInstance().getSingleplayerServer());
+            for (var langCode : Minecraft.getInstance().getLanguageManager().getLanguages().keySet()) {
+                var langPath = Path.of("../lang/" + langCode + ".json");
 
-                try (var writer = Files.newBufferedWriter(glyphsPath, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
-                    var json = s2sMapCodec.encodeStart(JsonOps.INSTANCE, langInstance.getLanguageData());
+                LOGGER.info("Exporting language {}", langCode);
+                try {
+                    loadLanguage(langCode);
+                } catch (Exception e) {
+                    LOGGER.error("could not load language {}", langCode, e);
+                    continue;
+                }
+                try (var writer = Files.newBufferedWriter(langPath, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
+                    var json = s2sMapCodec.encodeStart(JsonOps.INSTANCE, Language.getInstance().getLanguageData());
                     writer.append(json.getOrThrow().toString());
                 }
+                LOGGER.info("Exported language {}", langCode);
             }
         } catch (IOException | IllegalStateException e) {
             LOGGER.error("could not create lang files", e);
         }
+
+        try {
+            loadLanguage("en_us");
+        } catch (Exception ignored) {
+        }
+
+        // Exit
+        Minecraft.getInstance().stop();
     }
 
     static void deleteDirIfEmpty(String pathStr) throws IOException {
@@ -181,5 +200,12 @@ public class DocExporter {
         ).apply(instance, (a, b, c, d, e, f, g) -> {
             throw new RuntimeException("cannot decode Defaults");
         }));
+    }
+
+    static void loadLanguage(String langCode) throws ExecutionException, InterruptedException {
+        var mc = Minecraft.getInstance();
+        mc.getLanguageManager().setSelected(langCode);
+        mc.options.languageCode = langCode;
+        mc.getLanguageManager().onResourceManagerReload(mc.getResourceManager());
     }
 }

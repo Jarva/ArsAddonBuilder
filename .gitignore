@@ -3,3 +3,5 @@ build
 /headlessmc-launcher*.jar
 /HeadlessMC/
 /run/
+
+**/resources/.cache/

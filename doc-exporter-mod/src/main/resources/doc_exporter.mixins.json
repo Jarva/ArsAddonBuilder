@@ -7,8 +7,7 @@
     "AugmentCostsAccessor",
     "AugmentLimitsAccessor",
     "DocExporterMixin",
-    "GameTestHooksMixin",
-    "LanguageHookAccessor"
+    "GameTestHooksMixin"
   ],
   "client": [
   ],
