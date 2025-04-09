@@ -1,0 +1,13 @@
+{
+  "id": "ars_elemental:ars_elemental.armor_set.aqua",
+  "order": 10,
+  "icon": "ars_elemental:aqua_hat",
+  "title": "Aquamancer\u0027s Set",
+  "category": "ars_nouveau:armor",
+  "pages": [
+    {
+      "title": "Aquamancer\u0027s Set",
+      "description": "Attuned to the School of Water, each piece of this armor will amplify water glyphs, make them cheaper and reduce damage related to water, like drowning, freezing and lightning.$(br)When all the pieces are equipped, the damage reduced is converted into mana and refill air if about to drown."
+    }
+  ]
+}
