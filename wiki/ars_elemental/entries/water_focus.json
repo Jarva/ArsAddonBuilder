@@ -1,0 +1,23 @@
+{
+  "id": "ars_elemental:water_focus",
+  "order": 100,
+  "icon": "ars_elemental:water_focus",
+  "title": "Focus of Water",
+  "category": "ars_nouveau:spell_casting",
+  "pages": [
+    {
+      "title": "Focus of Water",
+      "description": "This spell focus is attuned to the school of Water. While equipped, the glyphs of this school will be amplified and discounted. The lesser focus, as a drawback, will weaken glyphs of the other elemental schools. The major focus will also grant Mana Regen I while the wearer is wet or Mana Regen II and Dolphin Grace while swimming.",
+      "icon": "ars_elemental:water_focus"
+    },
+    {
+      "recipe_1": "ars_elemental:lesser_water_focus"
+    },
+    {
+      "description": "This focus empowers Freeze, adding Freezing buildups to the target and eventually Frozen status for a short time, stopping the target from healing. If used after Conjure Water, the conjured water will become ice. Summon Steed will be changed to summon a rideable Dolphin, time your jumps out of the water to build up speed. All Drowning damage against water creatures will be converted to magic."
+    },
+    {
+      "recipe_1": "ars_elemental:water_focus"
+    }
+  ]
+}
