@@ -1,0 +1,17 @@
+{
+  "id": "ars_elemental:ritual_repulsion",
+  "order": 100,
+  "icon": "ars_elemental:ritual_repulsion",
+  "title": "Repulsion",
+  "category": "ars_nouveau:ritual_index",
+  "pages": [
+    {
+      "title": "Repulsion",
+      "description": "Repel all mobs in a 15 block radius. Can be augmented with a bone to repel only undead mobs. Won\u0027t work on player and bosses.",
+      "icon": "ars_elemental:ritual_repulsion"
+    },
+    {
+      "recipe_1": "ars_elemental:ritual_repulsion"
+    }
+  ]
+}
