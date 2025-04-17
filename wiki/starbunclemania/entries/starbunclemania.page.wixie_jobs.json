@@ -10,6 +10,9 @@
     },
     {
       "description": "Place a Wixie on a stonecutter or on a cutting board to have it use their cutting recipes for craftings."
+    },
+    {
+      "description": "Place a Wixie on a fluid jar to convert it to a different type of cauldron. The Mixer has two internal tanks, for water and milk, to avoid using buckets in recipes. Only works for crafting table recipes, will always consume only one unit of the fluid needed."
     }
   ]
 }
