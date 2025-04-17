@@ -4,8 +4,13 @@
   "compatibilityLevel": "JAVA_21",
   "refmap": "starbunclemania.refmap.json",
   "mixins": [
+    "MobJarCapability",
     "StarbyBrainFix",
+    "WixieCauldronTileAccessor",
     "WixieCharmMixin"
+  ],
+  "client": [
+    "MobJarRendererMixin"
   ],
   "minVersion": "0.8"
 }
