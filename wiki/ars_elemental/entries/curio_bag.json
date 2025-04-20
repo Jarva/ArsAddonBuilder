@@ -1,0 +1,20 @@
+{
+  "id": "ars_elemental:curio_bag",
+  "order": 100,
+  "icon": "ars_elemental:curio_bag",
+  "title": "Trinkets Pouch",
+  "category": "ars_nouveau:items",
+  "pages": [
+    {
+      "title": "Trinkets Pouch",
+      "description": "All those magical trinkets can easily clutter your inventory, but fear not! Using some magebloom fiber you can make a magic pouch to store items. You can also open it with $(k:ars_elemental.open_pouch) while in the hotbar or in a curio slot. You can further upgrade it into the Spellcaster bag, which is larger and can be dyed.",
+      "icon": "ars_elemental:curio_bag"
+    },
+    {
+      "recipe_1": "ars_elemental:curio_bag"
+    },
+    {
+      "recipe_1": "ars_elemental:caster_bag"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ars_elemental:glyph_arc_projectile",
+  "order": 100,
+  "icon": "ars_elemental:glyph_arc_projectile",
+  "title": "Arc Projectile",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Arc Projectile",
+      "description": "This projectile is affected by gravity. Every Pierce applied will make it bounce one time when it hit the ground.",
+      "icon": "ars_elemental:glyph_arc_projectile",
+      "tier": 2
+    },
+    {
+      "recipe_1": "ars_elemental:glyph_arc_projectile"
+    }
+  ]
+}
