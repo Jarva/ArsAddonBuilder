@@ -1,0 +1,26 @@
+{
+  "id": "ars_elemental:earth_focus",
+  "order": 100,
+  "icon": "ars_elemental:earth_focus",
+  "title": "Focus of Earth",
+  "category": "ars_nouveau:spell_casting",
+  "pages": [
+    {
+      "title": "Focus of Earth",
+      "description": "This spell focus is attuned to the school of Earth. While equipped, the glyphs of this school will be amplified and discounted. The lesser focus, as a drawback, will weaken glyphs of the other elemental schools. The major focus also grants Mana Regen I while the wearer stand under Y 0.",
+      "icon": "ars_elemental:earth_focus"
+    },
+    {
+      "recipe_1": "ars_elemental:lesser_earth_focus"
+    },
+    {
+      "description": "This focus empowers Poison Spores and Grow, dealing damage to undead with a chance of spawning a spore blossom, and Gravity, when augmented with Sensitive, changing it to create a gravity field that pull entities towards its center (filter-compatible) , also offers knockback resistance and boosts natural"
+    },
+    {
+      "description": "and instant healing by 1.5."
+    },
+    {
+      "recipe_1": "ars_elemental:earth_focus"
+    }
+  ]
+}
