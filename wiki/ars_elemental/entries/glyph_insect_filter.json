@@ -1,0 +1,18 @@
+{
+  "id": "ars_elemental:glyph_insect_filter",
+  "order": 100,
+  "icon": "ars_elemental:glyph_insect_filter",
+  "title": "Filter:Insect",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Filter:Insect",
+      "description": "Stops the spell from resolving if target an arthropod creature",
+      "icon": "ars_elemental:glyph_insect_filter",
+      "tier": 1
+    },
+    {
+      "recipe_1": "ars_elemental:glyph_insect_filter"
+    }
+  ]
+}
