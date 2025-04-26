@@ -1,0 +1,75 @@
+{
+  "id": "ars_additions:item.ars_additions.fire_resistance_charm",
+  "order": 100,
+  "icon": "ars_additions:fire_resistance_charm",
+  "title": "Charms",
+  "category": "ars_nouveau:items",
+  "pages": [
+    {
+      "description": "Charms are a set of curios enchanted with strong protection magics. They range from allowing you to walk on Powdered Snow, to saving you from the Warden\u0027s powerful Sonic Boom. Each charm has a specific amount of charges available to protect you. Once the charges have been depleted, pop them into an Imbuement"
+    },
+    {
+      "description": "chamber to charge them back up."
+    },
+    {
+      "title": "Darkvision",
+      "description": "This handy little charm imbues you with Night Vision when you\u0027re in a low-light environment.",
+      "icon": "ars_additions:night_vision_charm"
+    },
+    {
+      "title": "Decay\u0027s End",
+      "description": "Forged in the fires of the Nether by a Wither Skeleton mage in hopes of curing themself, this charm allows you to shrug off the the effects of Wither.",
+      "icon": "ars_additions:wither_protection_charm"
+    },
+    {
+      "title": "Emberward",
+      "description": "This charm enables you to walk through fire and swim in lava.",
+      "icon": "ars_additions:fire_resistance_charm"
+    },
+    {
+      "title": "Ender Serenity",
+      "description": "This charm protects you from the angering gaze of the Enderman.",
+      "icon": "ars_additions:ender_mask_charm"
+    },
+    {
+      "title": "Featherlight",
+      "description": "Upon falling further than 3 blocks, this charm will activate to grant you the blessing of feather fall.",
+      "icon": "ars_additions:fall_prevention_charm"
+    },
+    {
+      "title": "Gilded Friendship",
+      "description": "This charm of pure gold is used to peruse Bastions and interact with Piglin Brutes without drawing aggression.",
+      "icon": "ars_additions:golden_charm"
+    },
+    {
+      "title": "Ocean\u0027s Breath",
+      "description": "After your air bubbles have been depleted, this charm will allow you to keep breathing underwater.",
+      "icon": "ars_additions:water_breathing_charm"
+    },
+    {
+      "title": "Resonant Shield",
+      "description": "Crafted by an Ancient Mage, this charm protects you from the sonic rage of the Warden.",
+      "icon": "ars_additions:sonic_boom_protection_charm"
+    },
+    {
+      "title": "Second Wind",
+      "description": "This charm provides the gift of the Second Wind, allowing you to keep going upon receiving fatal damage.",
+      "icon": "ars_additions:undying_charm"
+    },
+    {
+      "title": "Snowstride",
+      "description": "This charm keeps you afloat over powdered snow, allowing you to walk over it without fear.",
+      "icon": "ars_additions:powdered_snow_walk_charm"
+    },
+    {
+      "title": "Unyielding Magic",
+      "description": "This charm allows you to shrug off a Dispel, and keep all your powerful buffs active.",
+      "icon": "ars_additions:dispel_protection_charm"
+    },
+    {
+      "title": "Void\u0027s Salvation",
+      "description": "Once activated this charm will activate its warp magics and teleport you back to the last safe space you were on.",
+      "icon": "ars_additions:void_protection_charm"
+    }
+  ]
+}

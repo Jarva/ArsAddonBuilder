@@ -1,0 +1,18 @@
+{
+  "id": "ars_additions:glyph_mark",
+  "order": 100,
+  "icon": "ars_additions:glyph_mark",
+  "title": "Mark",
+  "category": "ars_nouveau:glyphs_tier_three",
+  "pages": [
+    {
+      "title": "Mark",
+      "description": "Marks the target and stores the mark in a Reliquary.",
+      "icon": "ars_additions:glyph_mark",
+      "tier": 3
+    },
+    {
+      "recipe_1": "ars_additions:glyph_mark"
+    }
+  ]
+}

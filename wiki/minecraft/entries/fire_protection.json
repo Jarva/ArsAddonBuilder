@@ -1,0 +1,24 @@
+{
+  "id": "minecraft:fire_protection",
+  "order": 100,
+  "icon": "minecraft:enchanted_book",
+  "title": "Fire Protection",
+  "category": "ars_nouveau:enchanting",
+  "pages": [
+    {
+      "recipe_1": "ars_nouveau:fire_protection_1"
+    },
+    {
+      "recipe_1": "ars_nouveau:fire_protection_2"
+    },
+    {
+      "recipe_1": "ars_nouveau:fire_protection_3"
+    },
+    {
+      "recipe_1": "ars_nouveau:fire_protection_4"
+    },
+    {
+      "recipe_1": "ars_nouveau:fire_protection_5"
+    }
+  ]
+}
