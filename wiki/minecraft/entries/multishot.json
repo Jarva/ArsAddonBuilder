@@ -1,0 +1,12 @@
+{
+  "id": "minecraft:multishot",
+  "order": 100,
+  "icon": "minecraft:enchanted_book",
+  "title": "Multishot",
+  "category": "ars_nouveau:enchanting",
+  "pages": [
+    {
+      "recipe_1": "ars_nouveau:multishot_1"
+    }
+  ]
+}
