@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#minecraft:is_overworld",
+      {
+        "type": "neoforge:not",
+        "value": "#ars_nouveau:archwood_biome"
+      }
+    ]
+  },
+  "features": "#ars_elemental:flashing_archwood",
+  "step": "vegetal_decoration"
+}

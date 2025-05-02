@@ -1,0 +1,23 @@
+{
+  "type": "ars_nouveau:caster_tome",
+  "color": {
+    "b": 26,
+    "g": 255,
+    "id": "ars_nouveau:constant",
+    "r": 255
+  },
+  "flavour_text": "Way worse than being shulked, wind feels sharp today.",
+  "name": "Shulkium Leviosa",
+  "sound": {},
+  "spell": [
+    "ars_nouveau:glyph_projectile",
+    "ars_nouveau:glyph_launch",
+    "ars_nouveau:glyph_extend_time",
+    "ars_nouveau:glyph_extend_time",
+    "ars_nouveau:glyph_delay",
+    "ars_nouveau:glyph_wind_shear",
+    "ars_nouveau:glyph_delay",
+    "ars_nouveau:glyph_wind_shear"
+  ],
+  "tome_type": "ars_elemental:air_caster_tome"
+}
