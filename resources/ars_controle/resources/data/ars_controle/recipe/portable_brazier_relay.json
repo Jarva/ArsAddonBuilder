@@ -1,0 +1,38 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "tag": "c:ender_pearls"
+    },
+    {
+      "tag": "c:ender_pearls"
+    },
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "ars_nouveau:wilden_tribute"
+    }
+  ],
+  "reagent": {
+    "item": "ars_nouveau:brazier_relay"
+  },
+  "result": {
+    "count": 1,
+    "id": "ars_controle:portable_brazier_relay"
+  },
+  "sourceCost": 0
+}
