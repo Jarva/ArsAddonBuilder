@@ -1,0 +1,25 @@
+{
+  "parent": "ars_nouveau:wixie_charm",
+  "criteria": {
+    "wixie_mixer": {
+      "trigger": "starbunclemania:wixie_mix"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "starbunclemania.adv.desc.wixie_mixer"
+    },
+    "icon": {
+      "count": 1,
+      "id": "starbunclemania:mixer_wixie_cauldron"
+    },
+    "title": {
+      "translate": "starbunclemania.adv.title.wixie_mixer"
+    }
+  },
+  "requirements": [
+    [
+      "wixie_mixer"
+    ]
+  ]
+}

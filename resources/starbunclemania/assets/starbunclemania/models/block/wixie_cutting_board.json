@@ -1,0 +1,7 @@
+{
+  "parent": "farmersdelight:block/cutting_board",
+  "textures": {
+    "particle": "starbunclemania:block/wixie_cutting_board",
+    "top": "starbunclemania:block/wixie_cutting_board"
+  }
+}

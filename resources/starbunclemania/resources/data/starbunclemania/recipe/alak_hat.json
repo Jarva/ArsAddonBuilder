@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    "S": {
+      "item": "minecraft:sandstone"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "S S",
+    "SFS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "starbunclemania:alak_hat"
+  }
+}
