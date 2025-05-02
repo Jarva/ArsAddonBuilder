@@ -1,0 +1,12 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "parent": "item/generated",
+  "base": {
+    "parent": "not_enough_glyphs:item/thread_cheap_damage"
+  },
+  "perspectives": {
+    "ground": {
+      "parent": "not_enough_glyphs:item/thread_cheap_damage_icon"
+    }
+  }
+}
