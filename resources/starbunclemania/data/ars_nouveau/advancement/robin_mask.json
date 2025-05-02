@@ -1,0 +1,32 @@
+{
+  "parent": "ars_nouveau:starbuncle_shades",
+  "criteria": {
+    "has_robin_mask": {
+      "conditions": {
+        "items": [
+          {
+            "items": "starbunclemania:robin_mask"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "starbunclemania.adv.desc.robin_mask"
+    },
+    "icon": {
+      "count": 1,
+      "id": "starbunclemania:robin_mask"
+    },
+    "title": {
+      "translate": "starbunclemania.adv.title.robin_mask"
+    }
+  },
+  "requirements": [
+    [
+      "has_robin_mask"
+    ]
+  ]
+}
