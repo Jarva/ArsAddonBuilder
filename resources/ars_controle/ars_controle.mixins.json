@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8.3",
+  "compatibilityLevel": "JAVA_17",
+  "package": "dev.qther.ars_controle.mixin",
+  "plugin": "dev.qther.ars_controle.mixin.ArsControleMixinPlugin",
+  "mixins": [
+    "AbstractRitualInvoker",
+    "AbstractRitualMixin",
+    "ComparatorBlockMixin",
+    "RitualBrazierTileMixin",
+    "RitualEventQueueMixin",
+    "StandardSpellValidatorMixin"
+  ],
+  "client": [
+    "LevelRendererInvoker"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
