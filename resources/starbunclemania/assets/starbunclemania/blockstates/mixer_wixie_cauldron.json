@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "converted=false": {
+      "model": "starbunclemania:block/fluid_jar"
+    },
+    "converted=true": {
+      "model": "starbunclemania:block/wixie_mixer"
+    }
+  }
+}
