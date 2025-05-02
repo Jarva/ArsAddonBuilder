@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "package": "alexthw.ars_elemental.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "ars_elemental.refmap.json",
+  "mixins": [
+    "ChillingPerkMixin",
+    "CutMixin",
+    "DocumentationMixin",
+    "DynamicLightMixin",
+    "EvaporateMixin",
+    "FlareMixin",
+    "FoxInvoker",
+    "GrowMixin",
+    "ItemEntityMixin",
+    "KindlingPerkMixin",
+    "LightningMixin",
+    "RitualAwakeningMixin",
+    "ServerLevelMixin",
+    "SpellSchoolAccessor",
+    "TurretAccessor",
+    "ZombieInvoker"
+  ],
+  "minVersion": "0.8",
+  "client": [
+    "EntityRenderDispatcherMixin",
+    "SpellBookTextureMixin"
+  ]
+}
