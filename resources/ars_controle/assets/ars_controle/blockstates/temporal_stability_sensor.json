@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ars_controle:block/temporal_stability_sensor"
+    }
+  }
+}
