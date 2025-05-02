@@ -137,7 +137,7 @@ jobs:
         uses: up9cloud/action-rsync@v1.4
         env:
           MODE: local
-          SOURCE: "build/${{ steps.info.outputs.DIR }}/src/main/resources/ build/${{ steps.info.outputs.DIR }}/src/generated/resources"
+          SOURCE: "build/${{ steps.info.outputs.DIR }}/src/main/resources/ build/${{ steps.info.outputs.DIR }}/src/generated/resources/"
           TARGET: resources/${{ steps.info.outputs.DIR }}
           VERBOSE: true
           PRE_SCRIPT: |
