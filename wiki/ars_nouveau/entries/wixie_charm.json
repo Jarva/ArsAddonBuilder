@@ -7,11 +7,11 @@
   "pages": [
     {
       "title": "Wixie Charm",
-      "description": "A Wixie can automatically craft items for you at the expense of source. To obtain a Wixie Token, cast Dispel on a Witch while it is half health or less. Once you have obtained a Wixie Charm, use it on a Cauldron to summon your Wixie. A Wixie can be dyed Red,",
+      "description": "A Wixie can  automatically craft  items for you at the  expense of source.  To obtain a Wixie  Token, cast Dispel  on a Witch while it  is half health or  less. Once you have  obtained a Wixie  Charm, use it on a  Cauldron to summon  your Wixie. A Wixie  can be dyed Red,",
       "icon": "ars_nouveau:wixie_charm"
     },
     {
-      "description": "White, Black, Blue, or Green."
+      "description": "White, Black, Blue,  or Green."
     },
     {
       "recipe_1": "ars_nouveau:wixie_charm"

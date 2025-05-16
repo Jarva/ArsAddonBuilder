@@ -7,11 +7,11 @@
   "pages": [
     {
       "title": "Armor Upgrading",
-      "description": "Magical armor can be upgraded with Threads to provide additional effects. Each type of armor has a different number of slots, and those slots vary in size. Larger slots will increase the power of threads, and some threads require a slot of a certain size or",
+      "description": "Magical armor can be  upgraded with  Threads to provide  additional effects.  Each type of armor  has a different  number of slots, and  those slots vary in  size. Larger slots  will increase the  power of threads,  and some threads  require a slot of a  certain size or",
       "icon": "ars_nouveau:arcanist_hood"
     },
     {
-      "description": "larger. To apply threads, see the section on the Alteration Table."
+      "description": "larger. To apply  threads, see the  section on the  Alteration Table."
     },
     {
       "title": "Armor Tiers",

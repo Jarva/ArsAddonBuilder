@@ -7,11 +7,11 @@
   "pages": [
     {
       "title": "Drygmy Charm",
-      "description": "Drygmys are often found following and tending to animals around it. They can be found anywhere, though somewhat rarely. Drygmys can be given a home in the world, and will produce items from nearby monsters and animals as if they were slain, without harming them. A wild",
+      "description": "Drygmys are often  found following and  tending to animals  around it. They can  be found anywhere,  though somewhat  rarely. Drygmys can  be given a home in  the world, and will  produce items from  nearby monsters and  animals as if they  were slain, without  harming them. A wild",
       "icon": "ars_nouveau:drygmy_charm"
     },
     {
-      "description": "drygmy may be befriended by throwing a Wilden Horn near it! You may dye a Drygmy Cyan, Orange, or Brown."
+      "description": "drygmy may be  befriended by  throwing a Wilden  Horn near it! You may  dye a Drygmy Cyan,  Orange, or Brown."
     },
     {
       "recipe_1": "ars_nouveau:drygmy_charm"

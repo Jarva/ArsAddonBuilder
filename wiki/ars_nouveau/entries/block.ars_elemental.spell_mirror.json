@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Spell Mirror",
-      "description": "Mirror similar to a Spell Prism that can be placed on walls, floor and ceiling. If a spell projectile hits the mirror, it will be reflected by with a mirrored angle.",
+      "description": "Mirror similar to a  Spell Prism that can  be placed on walls,  floor and ceiling.  If a spell  projectile hits the  mirror, it will be  reflected by with a  mirrored angle.",
       "icon": "ars_elemental:spell_mirror"
     },
     {

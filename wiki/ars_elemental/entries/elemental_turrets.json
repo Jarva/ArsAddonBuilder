@@ -6,7 +6,7 @@
   "category": "ars_nouveau:crafting",
   "pages": [
     {
-      "description": "Enchanted Turrets can be imbued with the power of an elemental focus to gift them a fractions of its abilities. Spells shot by these turrets will trigger the combos of the corresponding focus and will be discounted by 65 % if the spell contains a glyph of the matching elemental school."
+      "description": "Enchanted Turrets  can be imbued with  the power of an  elemental focus to  gift them a  fractions of its  abilities. Spells  shot by these  turrets will trigger  the combos of the  corresponding focus  and will be  discounted by 65 % if  the spell contains a  glyph of the  matching elemental  school."
     },
     {
       "recipe_1": "ars_elemental:fire_turret"

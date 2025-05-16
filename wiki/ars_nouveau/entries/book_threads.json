@@ -6,7 +6,7 @@
   "category": "ars_nouveau:spell_casting",
   "pages": [
     {
-      "description": "The book threads are at the core of the spellbinder. They allow to give your binder special properties and effects, similar to how Armor Threads work. You can use an Alteration Table to slot up to two threads into the Spell Binder."
+      "description": "The book threads are  at the core of the  spellbinder. They  allow to give your  binder special  properties and  effects, similar to  how Armor Threads  work. You can use an  Alteration Table to  slot up to two  threads into the  Spell Binder."
     },
     {
       "recipe_1": "ars_nouveau:blank_thread"

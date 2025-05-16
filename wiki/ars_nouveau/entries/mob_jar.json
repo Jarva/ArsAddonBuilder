@@ -7,11 +7,11 @@
   "pages": [
     {
       "title": "Containment Jar",
-      "description": "Allows you to capture and store mobs for transportation or decoration. To capture a mob, you must perform a Ritual of Containment. See the Ritual of Containment for more info. To release a mob, cast Dispel on the jar and the mob",
+      "description": "Allows you to  capture and store  mobs for  transportation or  decoration. To  capture a mob, you  must perform a  Ritual of  Containment. See the  Ritual of  Containment for more  info. To release a  mob, cast Dispel on  the jar and the mob",
       "icon": "ars_nouveau:mob_jar"
     },
     {
-      "description": "will be released above the jar. Note Blocks placed above a jar will play an ambient sound of the mob inside."
+      "description": "will be released  above the jar. Note  Blocks placed above  a jar will play an  ambient sound of the  mob inside."
     },
     {
       "title": "Functionality",

@@ -7,11 +7,11 @@
   "pages": [
     {
       "title": "Volcanic Sourcelink",
-      "description": "The Volcanic Sourcelink generates Source by consuming burnable items. Archwood logs will generate bonus Source, with Blazing Archwood generating the most. As the Volcanic Sourcelink produces Source, it also produces heat, converting stone into magma blocks",
+      "description": "The Volcanic  Sourcelink generates  Source by consuming  burnable items.  Archwood logs will  generate bonus  Source, with Blazing  Archwood generating  the most. As the  Volcanic Sourcelink  produces Source, it  also produces heat,  converting stone  into magma blocks",
       "icon": "ars_nouveau:volcanic_sourcelink"
     },
     {
-      "description": "and then lava. The Volcanic Sourcelink automatically outputs to nearby jars, starting with the one closest to it."
+      "description": "and then lava. The  Volcanic Sourcelink  automatically  outputs to nearby  jars, starting with  the one closest to  it."
     },
     {
       "title": "Active Generation",

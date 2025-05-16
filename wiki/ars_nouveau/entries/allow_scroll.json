@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Item Scroll: Allow",
-      "description": "Provides a list of items to automation related entities. To inscribe an item, place on the Scribes Table and use blocks and items on the table while sneaking. When given to a Starbuncle, the Starbuncle will only pickup and take items on the scroll.",
+      "description": "Provides a list of  items to automation  related entities. To  inscribe an item,  place on the Scribes  Table and use blocks  and items on the  table while  sneaking. When given  to a Starbuncle, the  Starbuncle will only  pickup and take  items on the scroll.",
       "icon": "ars_nouveau:allow_scroll"
     },
     {
