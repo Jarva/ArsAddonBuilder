@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Spell Prism",
-      "description": "When a projectile spell hits this block, it is redirected the direction the block is facing. Spell Prisms will send a signal to nearby Observers if a spell is redirected.",
+      "description": "When a projectile  spell hits this  block, it is  redirected the  direction the block  is facing. Spell  Prisms will send a  signal to nearby  Observers if a spell  is redirected.",
       "icon": "ars_nouveau:spell_prism"
     },
     {

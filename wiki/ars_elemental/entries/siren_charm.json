@@ -15,10 +15,10 @@
       "entity_type": "ars_elemental:siren_entity"
     },
     {
-      "description": "The Shrine will slowly generate fishing loot items over time, asking for source after each cycle. The number of items and chance of getting a treasure will increase if many different water animals and plants are near the Shrine. You should build an aquarium or pond around the Shrine, to let your sirens"
+      "description": "The Shrine will  slowly generate  fishing loot items  over time, asking  for source after  each cycle. The  number of items and  chance of getting a  treasure will  increase if many  different water  animals and plants  are near the Shrine.  You should build an  aquarium or pond  around the Shrine,  to let your sirens"
     },
     {
-      "description": "have fun. [Note: it will take some time to update the score]."
+      "description": "have fun. [Note: it  will take some time  to update the  score]."
     }
   ]
 }

@@ -6,13 +6,13 @@
   "category": "ars_nouveau:crafting",
   "pages": [
     {
-      "description": "Allows Starbuncles to transport fluids. Once wearing the accessory, use the Dominion wand to connect them between tanks."
+      "description": "Allows Starbuncles  to transport fluids.  Once wearing the  accessory, use the  Dominion wand to  connect them between  tanks."
     },
     {
       "recipe_1": "starbunclemania:star_bucket"
     },
     {
-      "description": "Provides a filter to Starbuncle fluid automations. Works like the item counterpart, used on a starbuncle or placed in an item frame on the tank."
+      "description": "Provides a filter to  Starbuncle fluid  automations. Works  like the item  counterpart, used on  a starbuncle or  placed in an item  frame on the tank."
     },
     {
       "recipe_1": "starbunclemania:fluid_scroll_allow"

@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Source Relay: Warper",
-      "description": "Operates similar to the Source Relay: Splitter but can teleport source an endless distance between other Warp relays. For distances beyond 30 blocks, there is a chance that some source will be lost during warp.",
+      "description": "Operates similar to  the Source Relay:  Splitter but can  teleport source an  endless distance  between other Warp  relays. For  distances beyond 30  blocks, there is a  chance that some  source will be lost  during warp.",
       "icon": "ars_nouveau:relay_warp"
     },
     {

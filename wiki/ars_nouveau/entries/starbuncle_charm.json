@@ -7,11 +7,11 @@
   "pages": [
     {
       "title": "Starbuncle Charm",
-      "description": "Starbuncles naturally appear in wooded areas in search of golden nuggets. While Starbuncles are normally afraid of humans, they will allow someone to approach if they are holding a gold nugget. When a Starbuncle has picked up a golden",
+      "description": "Starbuncles  naturally appear in  wooded areas in  search of golden  nuggets. While  Starbuncles are  normally afraid of  humans, they will  allow someone to  approach if they are  holding a gold  nugget. When a  Starbuncle has  picked up a golden",
       "icon": "ars_nouveau:starbuncle_charm"
     },
     {
-      "description": "nugget, it will vanish from this world and leave behind a Starbuncle Token."
+      "description": "nugget, it will  vanish from this  world and leave  behind a Starbuncle  Token."
     },
     {
       "recipe_1": "ars_nouveau:starbuncle_charm"

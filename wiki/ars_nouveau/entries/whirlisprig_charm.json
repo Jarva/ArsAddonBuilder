@@ -7,11 +7,11 @@
   "pages": [
     {
       "title": "Whirlisprig Charm",
-      "description": "Whirlisprigs are curious nature sprites that are exclusively found in forested areas. Summoned Whirlisprigs can be given a home in the world, and will begin producing natural materials including wood, crops, seeds, and flowers that exist",
+      "description": "Whirlisprigs are  curious nature  sprites that are  exclusively found in  forested areas.  Summoned  Whirlisprigs can be  given a home in the  world, and will  begin producing  natural materials  including wood,  crops, seeds, and  flowers that exist",
       "icon": "ars_nouveau:whirlisprig_charm"
     },
     {
-      "description": "around them. Wild Whirlisprigs can be befriended and will drop Whirlisprig Tokens if a tree is grown near them."
+      "description": "around them. Wild  Whirlisprigs can be  befriended and will  drop Whirlisprig  Tokens if a tree is  grown near them."
     },
     {
       "recipe_1": "ars_nouveau:whirlisprig_charm"

@@ -7,14 +7,14 @@
   "pages": [
     {
       "title": "How to Enchant",
-      "description": "The Enchanting Apparatus may add new enchantments or upgrade existing ones by using Source and items. To begin, select a level 1 enchantment and add its items to the pedestals. Place a jar of Source nearby, and use the item you want to enchant on the",
+      "description": "The Enchanting  Apparatus may add  new enchantments or  upgrade existing  ones by using Source  and items. To begin,  select a level 1  enchantment and add  its items to the  pedestals. Place a  jar of Source  nearby, and use the  item you want to  enchant on the",
       "icon": "ars_nouveau:enchanting_apparatus"
     },
     {
-      "description": "apparatus. The apparatus may only apply enchantments that are valid to the item you have given it."
+      "description": "apparatus. The  apparatus may only  apply enchantments  that are valid to the  item you have given  it."
     },
     {
-      "description": "To apply a level 2 or higher enchantment, the item must already have the previous level. For example, to apply Smite 3, the item must already have Smite 2."
+      "description": "To apply a level 2 or  higher enchantment,  the item must  already have the  previous level. For  example, to apply  Smite 3, the item  must already have  Smite 2."
     },
     {
       "related": [
