@@ -1,7 +1,7 @@
 {
   "ars_controle.augment_desc.glyph_filter_random_glyph_amplify": "Increases the chance of resolving",
   "ars_controle.augment_desc.glyph_filter_random_glyph_dampen": "Decreases the chance of resolving",
-  "ars_controle.augment_desc.glyph_precise_delay_glyph_extend_time": "Doubles the delay",
+  "ars_controle.augment_desc.glyph_precise_delay_glyph_extend_time": "Подвоює затримку",
   "ars_controle.config.enhanced_spellbook_controls": "Enhanced Spell Book Controls",
   "ars_controle.config.search_bar": "Search Bar",
   "ars_controle.config.search_bar.clear_on_auto_focus": "Clear on Auto-Focus",
