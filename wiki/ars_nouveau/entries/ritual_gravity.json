@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Gravity",
-      "description": "Grants nearby players the Gravity effect, forcing them to the ground for a short time. If the player is nearby, this ritual will refresh their gravity debuff. Each time this ritual grants or refreshes gravity, it will expend source from nearby jars.",
+      "description": "Grants nearby  players the Gravity  effect, forcing them  to the ground for a  short time. If the  player is nearby,  this ritual will  refresh their  gravity debuff. Each  time this ritual  grants or refreshes  gravity, it will  expend source from  nearby jars.",
       "icon": "ars_nouveau:ritual_gravity"
     },
     {

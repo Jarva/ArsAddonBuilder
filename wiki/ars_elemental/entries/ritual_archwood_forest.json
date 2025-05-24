@@ -7,8 +7,11 @@
   "pages": [
     {
       "title": "Conjure Island: Archwood Forest",
-      "description": "Creates an island of grass and dirt in a circle around the ritual, converting the area to an Archwood Forest. Augmenting with an Elemental Archfruit with convert to a thematic forest. The island will generate with a radius of 7 blocks. Augmenting the ritual with Source Gems will increase the radius by 1 for each gem. Source must be provided nearby as blocks are generated.",
+      "description": "Creates an island of  grass and dirt in a  circle around the  ritual, converting  the area to an  Archwood Forest.  Augmenting with an  Elemental Archfruit  with convert to a  thematic forest. The  island will generate  with a radius of 7  blocks. Augmenting  the ritual with",
       "icon": "ars_elemental:ritual_archwood_forest"
+    },
+    {
+      "description": "Source Gems will  increase the radius  by 1 for each gem.  Source must be  provided nearby as  blocks are  generated."
     },
     {
       "recipe_1": "ars_elemental:ritual_archwood_forest"

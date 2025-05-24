@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Locate Structure",
-      "description": "Locate a nearby structure based on the augments.",
+      "description": "Locate a nearby  structure based on  the augments.",
       "icon": "ars_additions:ritual_locate_structure"
     }
   ]

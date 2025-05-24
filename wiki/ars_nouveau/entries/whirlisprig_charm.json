@@ -22,19 +22,25 @@
     },
     {
       "title": "Summoning",
-      "description": "To summon a Whirlisprig, use a Whirlisprig charm on any flower. Whirlisprigs consider their home to be 10 blocks in any direction from the flower. Whirlisprigs require source nearby to operate, and will only generate items if there is a chest placed next to the flower. You can get your charm back by using Dispel on a Whirlisprig. They may be given orange, yellow, white, or green dye."
+      "description": "To summon a  Whirlisprig, use a  Whirlisprig charm on  any flower.  Whirlisprigs  consider their home  to be 10 blocks in  any direction from  the flower.  Whirlisprigs require  source nearby to  operate, and will  only generate items  if there is a chest"
+    },
+    {
+      "description": "placed next to the  flower. You can get  your charm back by  using Dispel on a  Whirlisprig. They  may be given orange,  yellow, white, or  green dye."
     },
     {
       "title": "Happiness",
-      "description": "Summoned Whirlisprigs must be happy in order to produce materials, and their mood is determined by the number and diversity of natural materials in their home. You may use blocks on the Whirlisprig to gain additional info if a Whirlisprig would enjoy that block in their home. Interacting with the Whirlisprig with an empty hand will give you additional info on the Whirlisprig\u0027s happiness."
+      "description": "Summoned  Whirlisprigs must be  happy in order to  produce materials,  and their mood is  determined by the  number and diversity  of natural materials  in their home. You  may use blocks on the  Whirlisprig to gain  additional info if a  Whirlisprig would  enjoy that block in"
+    },
+    {
+      "description": "their home.  Interacting with the  Whirlisprig with an  empty hand will give  you additional info  on the Whirlisprig\u0027s  happiness."
     },
     {
       "title": "Important",
-      "description": "Note: It can take several minutes for a Whirlisprig to update its mood after placing a block. Whirlisprigs value diversity, and too much of one block will no longer count."
+      "description": "Note: It can take  several minutes for  a Whirlisprig to  update its mood  after placing a  block. Whirlisprigs  value diversity, and  too much of one block  will no longer  count."
     },
     {
       "title": "Production",
-      "description": "Drop rates are determined by happiness, diversity, and the proportions of blocks in a Whirlisprig home. For example, to generate a lot of logs, grow more trees. To gain more seeds and crop harvests, plant more crops."
+      "description": "Drop rates are  determined by  happiness,  diversity, and the  proportions of  blocks in a  Whirlisprig home.  For example, to  generate a lot of  logs, grow more  trees. To gain more  seeds and crop  harvests, plant more  crops."
     }
   ]
 }

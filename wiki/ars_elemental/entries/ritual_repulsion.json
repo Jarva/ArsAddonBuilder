@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Repulsion",
-      "description": "Repel all mobs in a 15 block radius. Can be augmented with a bone to repel only undead mobs. Won\u0027t work on player and bosses.",
+      "description": "Repel all mobs in a  15 block radius. Can  be augmented with a  bone to repel only  undead mobs. Won\u0027t  work on player and  bosses.",
       "icon": "ars_elemental:ritual_repulsion"
     },
     {

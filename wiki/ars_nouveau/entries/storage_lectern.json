@@ -15,15 +15,24 @@
     },
     {
       "title": "Advanced Usage",
-      "description": "Items can be automatically inserted into the lectern by placing them into an unbound inventory that is adjacent to the lectern. You may also link a lectern to the \u0027main\u0027 lectern in order to extend the view and access of the original lectern, these lecterns can be chained together within 30 blocks indefinitely. Once a lectern is linked to another lectern, it will no longer be able to connect to inventories or accept bookwyrms."
+      "description": "Items can be  automatically  inserted into the  lectern by placing  them into an unbound  inventory that is  adjacent to the  lectern. You may  also link a lectern  to the \u0027main\u0027  lectern in order to  extend the view and  access of the  original lectern,"
+    },
+    {
+      "description": "these lecterns can  be chained together  within 30 blocks  indefinitely. Once a  lectern is linked to  another lectern, it  will no longer be  able to connect to  inventories or  accept bookwyrms."
     },
     {
       "title": "Storage Tabs",
-      "description": "Linked inventories that are named will create a tab in the Storage Lectern, allowing you to view and manipulate all inventories that share that name. Unlike normal chests, Repositories will preserve their name when dropped. The Name Effect can also name inventories placed in the world."
+      "description": "Linked inventories  that are named will  create a tab in the  Storage Lectern,  allowing you to view  and manipulate all  inventories that  share that name.  Unlike normal  chests, Repositories  will preserve their  name when dropped.  The Name Effect can  also name"
+    },
+    {
+      "description": "inventories placed  in the world."
     },
     {
       "title": "Performance",
-      "description": "Repository Catalogs should be used when possible for large or frequent item automations involving the storage lectern. Repository catalogs are bound to a single location that exposes all connected repositories, and is optimized for server performance over other large slot inventories or chests."
+      "description": "Repository Catalogs  should be used when  possible for large  or frequent item  automations  involving the  storage lectern.  Repository catalogs  are bound to a single  location that  exposes all  connected  repositories, and is  optimized for server"
+    },
+    {
+      "description": "performance over  other large slot  inventories or  chests."
     },
     {
       "recipe_1": "ars_nouveau:storage_lectern"

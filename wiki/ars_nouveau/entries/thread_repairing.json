@@ -7,8 +7,11 @@
   "pages": [
     {
       "title": "Thread of Repairing",
-      "description": "Allows the wearer to repair ANY magical armor or enchanters item by consuming Mana over time. Additional levels increase the speed at which the items repair. This perk applies to all relevant items, not only the item with this perk. When in a slot of level 3 or higher, it makes all equipped magical armor unbreakable.",
+      "description": "Allows the wearer to  repair ANY magical  armor or enchanters  item by consuming  Mana over time.  Additional levels  increase the speed  at which the items  repair. This perk  applies to all  relevant items, not  only the item with  this perk. When in a  slot of level 3 or",
       "icon": "ars_nouveau:thread_repairing"
+    },
+    {
+      "description": "higher, it makes all  equipped magical  armor unbreakable."
     },
     {
       "recipe_1": "ars_nouveau:thread_repairing"

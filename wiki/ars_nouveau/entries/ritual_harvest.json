@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Harvest",
-      "description": "Casts the Harvest effect on nearby crops. Consumes source each time a set of crops are harvested. If an inventory is adjacent to the brazier, the items will be deposited in them before dropping on the ground.",
+      "description": "Casts the Harvest  effect on nearby  crops. Consumes  source each time a  set of crops are  harvested. If an  inventory is  adjacent to the  brazier, the items  will be deposited in  them before dropping  on the ground.",
       "icon": "ars_nouveau:ritual_harvest"
     },
     {

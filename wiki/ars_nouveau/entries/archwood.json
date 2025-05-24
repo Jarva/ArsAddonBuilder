@@ -15,22 +15,22 @@
     },
     {
       "title": "Bombegranate",
-      "description": "A fruit that packs an explosive punch. Can be brewed into a Potion of Blasting, causing the target to explode when the duration ends.",
+      "description": "A fruit that packs an  explosive punch. Can  be brewed into a  Potion of Blasting,  causing the target  to explode when the  duration ends.",
       "icon": "ars_nouveau:bombegranate_pod"
     },
     {
       "title": "Mendosteen",
-      "description": "A fruit that can be brewed into a Potion of Recovery, increases the amount of healing received from all sources.",
+      "description": "A fruit that can be  brewed into a Potion  of Recovery,  increases the amount  of healing received  from all sources.",
       "icon": "ars_nouveau:mendosteen_pod"
     },
     {
       "title": "Frostaya",
-      "description": "A fruit that can be brewed into a Potion of Freezing, freezing the target over time.",
+      "description": "A fruit that can be  brewed into a Potion  of Freezing,  freezing the target  over time.",
       "icon": "ars_nouveau:frostaya_pod"
     },
     {
       "title": "Bastion Fruit",
-      "description": "A fruit that can be brewed into a Potion of Defence, reducing the amount of damage taken.",
+      "description": "A fruit that can be  brewed into a Potion  of Defence, reducing  the amount of damage  taken.",
       "icon": "ars_nouveau:bastion_pod"
     },
     {

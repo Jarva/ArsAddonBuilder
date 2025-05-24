@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Restoration",
-      "description": "Heals nearby entities or harms undead over time. Additionally, Zombie Villagers will be instantly cured, and the resulting villager will offer discounts if a player was nearby. This ritual requires source to operate.",
+      "description": "Heals nearby  entities or harms  undead over time.  Additionally, Zombie  Villagers will be  instantly cured, and  the resulting  villager will offer  discounts if a  player was nearby.  This ritual requires  source to operate.",
       "icon": "ars_nouveau:ritual_restoration"
     },
     {

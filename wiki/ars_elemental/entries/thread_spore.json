@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Thread of Spores",
-      "description": "Damaging effects cause the target to be poisoned or hungry for a short duration before the effect resolves.",
+      "description": "Damaging effects  cause the target to  be poisoned or  hungry for a short  duration before the  effect resolves.",
       "icon": "ars_elemental:thread_spore"
     },
     {

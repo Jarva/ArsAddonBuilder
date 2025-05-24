@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Zapping",
-      "description": "Calls lightning on entities that approach the ritual area of effect. Will target players if augmented with Air Essence. [11x7x11 cube centered on the brazier].",
+      "description": "Calls lightning on  entities that  approach the ritual  area of effect. Will  target players if  augmented with Air  Essence. [11x7x11  cube centered on the  brazier].",
       "icon": "ars_elemental:ritual_tesla_coil"
     },
     {

@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Forestation - Archwood",
-      "description": "Places grown Archwood Trees, and applies bonemeal in a 7x7 (circular) area. Augmenting with a source gem will increase the radius by 1 for each gem. Augmenting with a specific archwood sapling will spawn resources tied to its biome.",
+      "description": "Places grown  Archwood Trees, and  applies bonemeal in  a 7x7 (circular)  area. Augmenting  with a source gem  will increase the  radius by 1 for each  gem. Augmenting with  a specific archwood  sapling will spawn  resources tied to  its biome.",
       "icon": "ars_elemental:ritual_archwood_forestation"
     },
     {
