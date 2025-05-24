@@ -7,8 +7,11 @@
   "pages": [
     {
       "title": "Conjure Island: Desert",
-      "description": "Creates an island of sand and sandstone in a circle around the ritual, converting the area to Desert. The island will generate with a radius of 7 blocks. Augmenting the ritual with Source Gems will increase the radius by 1 for each gem. Source must be provided nearby as blocks are generated. Augmenting with Terracotta will create Badlands instead.",
+      "description": "Creates an island of  sand and sandstone  in a circle around  the ritual,  converting the area  to Desert. The  island will generate  with a radius of 7  blocks. Augmenting  the ritual with  Source Gems will  increase the radius  by 1 for each gem.  Source must be",
       "icon": "ars_nouveau:ritual_conjure_island_desert"
+    },
+    {
+      "description": "provided nearby as  blocks are  generated.  Augmenting with  Terracotta will  create Badlands  instead."
     },
     {
       "recipe_1": "ars_nouveau:ritual_conjure_island_desert"

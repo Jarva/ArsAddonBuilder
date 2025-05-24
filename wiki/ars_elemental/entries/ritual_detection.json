@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Detection",
-      "description": "Makes all monsters in a 128 blocks radius glow for 10 minutes.",
+      "description": "Makes all monsters  in a 128 blocks  radius glow for 10  minutes.",
       "icon": "ars_elemental:ritual_detection"
     },
     {

@@ -7,8 +7,11 @@
   "pages": [
     {
       "title": "Bound Script: Bookwyrm",
-      "description": "A Bookwyrm will automatically pickup nearby items and exp orbs within 5 blocks of the player. Thrown items will not be picked up. Use of the familiar hotkey is recommended to turn the magnet on and off as needed. Obtained by performing the Ritual of Binding near a Bookwyrm.",
+      "description": "A Bookwyrm will  automatically pickup  nearby items and exp  orbs within 5 blocks  of the player.  Thrown items will  not be picked up. Use  of the familiar  hotkey is  recommended to turn  the magnet on and off  as needed. Obtained  by performing the  Ritual of Binding",
       "icon": "ars_nouveau:familiar_bookwyrm"
+    },
+    {
+      "description": "near a Bookwyrm."
     }
   ]
 }

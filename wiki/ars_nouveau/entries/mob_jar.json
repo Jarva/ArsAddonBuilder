@@ -15,7 +15,10 @@
     },
     {
       "title": "Functionality",
-      "description": "Many entities can be interacted with inside the jar and will continue to simulate while inside the jar. Some examples include: chickens will lay eggs, sheep can be sheared, cows can be milked, and some mobs like the Blaze will turn the jar into a light source. Experiment with a variety of mobs to create aesthetic and functional farms. Drygmys will also treat the jar as if it were a normal entity in the area."
+      "description": "Many entities can be  interacted with  inside the jar and  will continue to  simulate while  inside the jar. Some  examples include:  chickens will lay  eggs, sheep can be  sheared, cows can be  milked, and some  mobs like the Blaze  will turn the jar  into a light source."
+    },
+    {
+      "description": "Experiment with a  variety of mobs to  create aesthetic and  functional farms.  Drygmys will also  treat the jar as if  it were a normal  entity in the area."
     },
     {
       "description": "Can be traded with in a jar, periodically resetting its trades.",
@@ -27,7 +30,10 @@
     },
     {
       "title": "Allay Behavior",
-      "description": "A jarred Allay can pickup and deposit items within 5 blocks of the jar. Giving an Allay an item will cause it to only pickup that item. Giving an Allay an Item Scroll will pickup any item that matches the scroll. Items will be deposited into inventories placed adjacent to the jar. Allays will also respect any filters placed on the adjacent inventories."
+      "description": "A jarred Allay can  pickup and deposit  items within 5  blocks of the jar.  Giving an Allay an  item will cause it to  only pickup that  item. Giving an  Allay an Item Scroll  will pickup any item  that matches the  scroll. Items will  be deposited into  inventories placed"
+    },
+    {
+      "description": "adjacent to the jar.  Allays will also  respect any filters  placed on the  adjacent  inventories."
     },
     {
       "description": "",

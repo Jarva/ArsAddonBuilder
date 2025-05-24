@@ -7,8 +7,11 @@
   "pages": [
     {
       "title": "Bound Script: Flarecannon",
-      "description": "A Flarecannon Familiar increases the damage of Fire spells by 2 and reduce projectile-based spells cost by 20%. You can feed it a Magma Cream to get a short Fire Resistance buff. Obtained by performing the Ritual of Binding near a Flarecannon.",
+      "description": "A Flarecannon  Familiar increases  the damage of Fire  spells by 2 and  reduce  projectile-based  spells cost by 20%.  You can feed it a  Magma Cream to get a  short Fire  Resistance buff.  Obtained by  performing the  Ritual of Binding",
       "icon": "ars_elemental:firenando_familiar"
+    },
+    {
+      "description": "near a Flarecannon."
     }
   ]
 }

@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Containment",
-      "description": "Captures a nearby entity and places it into any nearby placed Containment Jars. After the first capture, this ritual requires additional source to continue. Mobs and jars must be within 3 blocks of the brazier.",
+      "description": "Captures a nearby  entity and places it  into any nearby  placed Containment  Jars. After the  first capture, this  ritual requires  additional source to  continue. Mobs and  jars must be within 3  blocks of the  brazier.",
       "icon": "ars_nouveau:ritual_containment"
     },
     {

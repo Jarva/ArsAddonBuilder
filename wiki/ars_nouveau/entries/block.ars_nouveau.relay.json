@@ -7,8 +7,11 @@
   "pages": [
     {
       "title": "Source Relay",
-      "description": "Enables the transport of source between Source Jars and other Source Relays. To pull source from jars, use the Dominion Wand on the jar, and then on the relay. To send between relays or from a relay to a jar, use the wand on the relay and then the target you wish to send source to. Relays may only reach up to 30 blocks away. To clear connections, sneak while using the Dominion Wand on the relay.",
+      "description": "Enables the  transport of source  between Source Jars  and other Source  Relays. To pull  source from jars,  use the Dominion  Wand on the jar, and  then on the relay. To  send between relays  or from a relay to a  jar, use the wand on  the relay and then  the target you wish",
       "icon": "ars_nouveau:relay"
+    },
+    {
+      "description": "to send source to.  Relays may only  reach up to 30 blocks  away. To clear  connections, sneak  while using the  Dominion Wand on the  relay."
     },
     {
       "recipe_1": "ars_nouveau:relay",
