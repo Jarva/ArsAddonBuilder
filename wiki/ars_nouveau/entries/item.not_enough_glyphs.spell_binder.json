@@ -1,0 +1,23 @@
+{
+  "id": "ars_nouveau:item.not_enough_glyphs.spell_binder",
+  "order": 95,
+  "icon": "not_enough_glyphs:spell_binder",
+  "title": "Spell Binder",
+  "category": "ars_nouveau:spell_casting",
+  "pages": [
+    {
+      "title": "Spell Binder",
+      "description": "not_enough_glyphs.p age.spell_binder",
+      "icon": "not_enough_glyphs:spell_binder"
+    },
+    {
+      "recipe_1": "not_enough_glyphs:spell_binder"
+    },
+    {
+      "related": [
+        "ars_nouveau:book_threads",
+        "ars_nouveau:focus_threads"
+      ]
+    }
+  ]
+}

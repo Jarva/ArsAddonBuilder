@@ -1,0 +1,21 @@
+{
+  "id": "ars_additions:item.ars_additions.stabilized_warp_index",
+  "order": 100,
+  "icon": "ars_additions:stabilized_warp_index",
+  "title": "Warp Indexes",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "description": "Warp Indexes are  used to remotely  access your Storage  Lecterns. The Warp  Index allows you to  access your Storage  Lectern anywhere  within the same  dimension. The  Stabilized Warp  Index does not have  the same limitation  and will work in any  dimension. Both of  these Warp Indexes  require your Storage  Lectern to be"
+    },
+    {
+      "description": "chunk-loaded."
+    },
+    {
+      "related": [
+        "ars_nouveau:storage_lectern",
+        "ars_nouveau:bookwyrm_charm"
+      ]
+    }
+  ]
+}
