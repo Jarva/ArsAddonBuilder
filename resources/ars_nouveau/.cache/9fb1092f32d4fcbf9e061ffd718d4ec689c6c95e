@@ -1,4 +1,4 @@
-// 1.21.1	2025-05-28T00:28:42.855942177	Recipes
+// 1.21.1	2025-05-29T00:28:45.852010464	Recipes
 a76e5d9eef406841f56740535ec2afdd509de507 data/ars_nouveau/advancement/recipes/building_blocks/archwood_button.json
 443515bb80018fbe37a128cb6849f5e818be315d data/ars_nouveau/advancement/recipes/building_blocks/archwood_door.json
 4dfc3afae271aae8423d20dedb67dc601ff71fa0 data/ars_nouveau/advancement/recipes/building_blocks/archwood_fence.json
@@ -322,7 +322,7 @@ b3b729af157d37ce8fd800f06eb9723237fa6fde data/ars_nouveau/recipe/arcane_platform
 986ff47f53636936ffd6e0f074ec802862d96e12 data/ars_nouveau/recipe/archwood_stairs.json
 e27acf9a62c7ac6edd984df1f526089bb5d8c768 data/ars_nouveau/recipe/archwood_to_chest.json
 4d6c7d5c0e64d0486d365377417117d5edb382c4 data/ars_nouveau/recipe/archwood_trapdoor.json
-070218531b558d958ec66fb476b7b96fb63185de data/ars_nouveau/recipe/ars_stencil.json
+6935e8608d8bdfd9dc1daf37c539df853dafe7ad data/ars_nouveau/recipe/ars_stencil.json
 3f5387933813f70e39762ca4cd794fa504f82e89 data/ars_nouveau/recipe/basic_spell_turret.json
 3f02484503164b7f44213707a3a73ce343d3d662 data/ars_nouveau/recipe/bastion_to_purple.json
 86f7be9a035d695bc99e98fc90d070a3c92e7935 data/ars_nouveau/recipe/blank_parchment.json
