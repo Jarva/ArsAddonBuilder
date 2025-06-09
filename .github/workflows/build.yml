@@ -10,9 +10,6 @@ on:
 
 env:
   JAVA_VERSION: 21
-  CURIOS_URL: https://maven.theillusivec4.top/top/theillusivec4/curios/curios-neoforge/9.3.1+1.21.1/curios-neoforge-9.3.1+1.21.1.jar
-  PATCHOULI_URL: https://github.com/VazkiiMods/Patchouli/releases/download/release-1.21-88/Patchouli-1.21-88-NEOFORGE.jar
-  GECKOLIB_URL: https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/software/bernie/geckolib/geckolib-neoforge-1.21.1/4.7.4.1/geckolib-neoforge-1.21.1-4.7.4.1.jar
 
 permissions:
   contents: write
@@ -130,18 +127,18 @@ jobs:
         if: failure()
         shell: bash
         run: |
-          mkdir -p resources/${{ steps.info.outputs.DIR }}
-          echo ${{ fromJson(steps.info.outputs.MODULE).hash }} > resources/${{ steps.info.outputs.DIR }}/.outdated
+          mkdir -p output/resources/${{ steps.info.outputs.DIR }}
+          echo ${{ fromJson(steps.info.outputs.MODULE).hash }} > output/resources/${{ steps.info.outputs.DIR }}/.outdated
       - name: Action - rsync data and resources
         if: success()
         uses: up9cloud/action-rsync@v1.4
         env:
           MODE: local
           SOURCE: "build/${{ steps.info.outputs.DIR }}/src/main/resources/ build/${{ steps.info.outputs.DIR }}/src/generated/resources/"
-          TARGET: resources/${{ steps.info.outputs.DIR }}
+          TARGET: output/resources/${{ steps.info.outputs.DIR }}
           VERBOSE: true
           PRE_SCRIPT: |
-            rm -rf resources/${{ steps.info.outputs.DIR }}
+            rm -rf output/resources/${{ steps.info.outputs.DIR }}
             echo start at:
             date -u
           POST_SCRIPT: "echo done at: && date -u"
@@ -163,9 +160,7 @@ jobs:
       - name: Download dependencies
         run: |
           cd run/mods
-          curl -LO "${{ env.CURIOS_URL }}"
-          curl -LO "${{ env.PATCHOULI_URL }}"
-          curl -LO "${{ env.GECKOLIB_URL }}"
+          cat ../../dependencies.json | jq -r 'keys[] as $key | .[$key]' | while read -r dependency; do curl -LO "$dependency"; done
       - name: Download mod jars
         uses: actions/download-artifact@v4
         with:

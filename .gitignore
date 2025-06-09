@@ -6,4 +6,4 @@ build
 /HeadlessMC/
 /run/
 
-**/resources/.cache/
+**/output/resources/.cache/

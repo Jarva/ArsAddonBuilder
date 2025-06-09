@@ -115,7 +115,7 @@ public class DocExporter {
         var spellpartMapCodec = Codec.unboundedMap(ResourceLocation.CODEC, spellPartCodec);
 
         try {
-            var glyphsPath = Path.of("../glyphs.json");
+            var glyphsPath = Path.of("../output/glyphs.json");
             try (var writer = Files.newBufferedWriter(glyphsPath, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
                 var json = spellpartMapCodec.encodeStart(JsonOps.INSTANCE, GlyphRegistry.getSpellpartMap());
                 writer.append(json.getOrThrow().toString());
@@ -130,7 +130,7 @@ public class DocExporter {
             Files.createDirectories(Path.of("../lang/"));
 
             for (var langCode : Minecraft.getInstance().getLanguageManager().getLanguages().keySet()) {
-                var langPath = Path.of("../lang/" + langCode + ".json");
+                var langPath = Path.of("../output/lang/" + langCode + ".json");
 
                 LOGGER.info("Exporting language {}", langCode);
                 try {
