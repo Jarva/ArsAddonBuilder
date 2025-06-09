@@ -58,10 +58,10 @@ public class DocExporter {
 
         // Export docs
         for (var mod : ModList.get().getMods()) {
-            DocExporter.LOGGER.info("Exporting docs for {} @ {} to {}", mod.getModId(), mod.getVersion(), Path.of("../wiki/" + mod.getModId()).toAbsolutePath());
+            DocExporter.LOGGER.info("Exporting docs for {} @ {} to {}", mod.getModId(), mod.getVersion(), Path.of("../output/wiki/" + mod.getModId()).toAbsolutePath());
             try {
-                Files.createDirectories(Path.of("../wiki/" + mod.getModId() + "/categories"));
-                Files.createDirectories(Path.of("../wiki/" + mod.getModId() + "/entries"));
+                Files.createDirectories(Path.of("../output/wiki/" + mod.getModId() + "/categories"));
+                Files.createDirectories(Path.of("../output/wiki/" + mod.getModId() + "/entries"));
             } catch (IOException e) {
                 LOGGER.error("could not create wiki directories", e);
                 return;
@@ -70,9 +70,9 @@ public class DocExporter {
 
             LOGGER.info("Cleaning docs for {} @ {}", mod.getModId(), mod.getVersion());
             try {
-                deleteDirIfEmpty("../wiki/" + mod.getModId() + "/categories");
-                deleteDirIfEmpty("../wiki/" + mod.getModId() + "/entries");
-                deleteDirIfEmpty("../wiki/" + mod.getModId());
+                deleteDirIfEmpty("../output/wiki/" + mod.getModId() + "/categories");
+                deleteDirIfEmpty("../output/wiki/" + mod.getModId() + "/entries");
+                deleteDirIfEmpty("../output/wiki/" + mod.getModId());
             } catch (IOException e) {
                 LOGGER.error("could not create wiki directories", e);
                 return;

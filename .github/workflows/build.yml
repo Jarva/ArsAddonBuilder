@@ -170,7 +170,7 @@ jobs:
           rm *-sources.jar
       - name: Remove old wiki
         run: |
-          rm -rf wiki/*
+          rm -rf output/wiki/*
       - name: Setup Java ${{ env.JAVA_VERSION }}
         uses: actions/setup-java@v4
         with:
