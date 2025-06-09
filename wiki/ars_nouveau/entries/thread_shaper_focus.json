@@ -1,0 +1,17 @@
+{
+  "id": "ars_nouveau:thread_shaper_focus",
+  "order": 100,
+  "icon": "ars_nouveau:thread_shaper_focus",
+  "title": "BlockShaping Focus",
+  "category": "ars_nouveau:armor",
+  "pages": [
+    {
+      "title": "Book Thread : BlockShaping Focus",
+      "description": "Thread for the  spellbinder. Will  cast spells as if the  blockshaping focus  was equipped.",
+      "icon": "ars_nouveau:thread_shaper_focus"
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_shaper_focus"
+    }
+  ]
+}

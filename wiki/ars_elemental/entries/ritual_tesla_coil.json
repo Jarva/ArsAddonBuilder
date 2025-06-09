@@ -1,0 +1,17 @@
+{
+  "id": "ars_elemental:ritual_tesla_coil",
+  "order": 100,
+  "icon": "ars_elemental:ritual_tesla_coil",
+  "title": "Zapping",
+  "category": "ars_nouveau:ritual_index",
+  "pages": [
+    {
+      "title": "Zapping",
+      "description": "Calls lightning on  entities that  approach the ritual  area of effect. Will  target players if  augmented with Air  Essence. [11x7x11  cube centered on the  brazier].",
+      "icon": "ars_elemental:ritual_tesla_coil"
+    },
+    {
+      "recipe_1": "ars_elemental:ritual_tesla_coil"
+    }
+  ]
+}
