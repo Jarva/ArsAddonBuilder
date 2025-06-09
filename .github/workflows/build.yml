@@ -157,16 +157,17 @@ jobs:
       - name: Create mods folder
         run: |
           mkdir -p run/mods
-      - name: Download dependencies
-        run: |
-          cd run/mods
-          cat ../../dependencies.json | jq -r 'keys[] as $key | .[$key]' | while read -r dependency; do curl -LO "$dependency"; done
       - name: Download mod jars
         uses: actions/download-artifact@v4
         with:
           path: run/mods
           pattern: '*-jar'
           merge-multiple: true
+      - name: Download dependencies
+        run: |
+          cd run/mods
+          cat ../../dependencies.json | jq -r 'keys[] as $key | .[$key]' | while read -r dependency; do curl -LO "$dependency"; done
+          rm *-sources.jar
       - name: Remove old wiki
         run: |
           rm -rf wiki/*
