@@ -1,0 +1,28 @@
+{
+  "id": "ars_nouveau:starbunclemania.page.item_transfer",
+  "order": 100,
+  "icon": "starbunclemania:wyrm_degree",
+  "title": "Advanced Item Transfer",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "title": "Wyrm Degree",
+      "description": "Allows Starbuncles to insert/extract items from a specific side with Direction Scrolls.",
+      "icon": "starbunclemania:wyrm_degree"
+    },
+    {
+      "title": "Square Robin Mask",
+      "description": "Allows Starbuncles to round-robin items between inventories. While wearing the accessory, the Starbuncle will only pickup items from the ground. Each stacked starbuncle will carry maxStack/numDestInventories items, before moving to the next inventory.",
+      "icon": "starbunclemania:robin_mask"
+    },
+    {
+      "recipe_1": "starbunclemania:wyrm_degree",
+      "recipe_2": "starbunclemania:robin_mask"
+    },
+    {
+      "related": [
+        "ars_nouveau:item.starbunclemania.direction_scroll"
+      ]
+    }
+  ]
+}

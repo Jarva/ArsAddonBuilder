@@ -1,0 +1,26 @@
+{
+  "id": "ars_nouveau:item.not_enough_glyphs.spell_binder",
+  "order": 95,
+  "icon": "not_enough_glyphs:spell_binder",
+  "title": "Spell Binder",
+  "category": "ars_nouveau:spell_casting",
+  "pages": [
+    {
+      "title": "Spell Binder",
+      "description": "An alternative to  the traditional  spellcasting, the  spellbinder is a  tool that allows to  cast spells from the  spell parchemnts and  caster tomes put  inside it. The left  side will hold the 10  spells for the  radial menu (V),  while the right side  allow to keep",
+      "icon": "not_enough_glyphs:spell_binder"
+    },
+    {
+      "description": "additional 15 spells  to switch when  needed."
+    },
+    {
+      "recipe_1": "not_enough_glyphs:spell_binder"
+    },
+    {
+      "related": [
+        "ars_nouveau:book_threads",
+        "ars_nouveau:focus_threads"
+      ]
+    }
+  ]
+}
