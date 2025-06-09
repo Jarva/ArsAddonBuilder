@@ -1,5 +1,7 @@
 build
 
+.vscode/
+
 /headlessmc-launcher*.jar
 /HeadlessMC/
 /run/
