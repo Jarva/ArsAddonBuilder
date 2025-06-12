@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-11T00:29:22.168524927	Tags for minecraft:item mod id ars_nouveau
+// 1.21.1	2025-06-12T00:32:08.735759383	Tags for minecraft:item mod id ars_nouveau
 bde6ca31173d1f22d5f6fe355dc90c9faa35b239 data/ars_nouveau/tags/item/golem/shard.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/ars_nouveau/tags/item/interact_jar_blacklist.json
 34d15c38f18259717037b1082f2b99283d4f0c75 data/ars_nouveau/tags/item/magic_armor.json
@@ -29,12 +29,15 @@ f36268e9375442e51cbf98f2c4d573082aa56378 data/c/tags/item/fruits/berry.json
 0fab28203f8c9e1daa9c635ecb6c026ba0be0ba1 data/c/tags/item/gems.json
 0fab28203f8c9e1daa9c635ecb6c026ba0be0ba1 data/c/tags/item/gems/source.json
 f8f647d2f880955435d323e3c61b7d789d06d59c data/c/tags/item/logs/archwood.json
+2d0d8f9ff7d0410f0072277998fb42971a1b0ecc data/c/tags/item/logs/archwood_stripped.json
 a350e3112294fc7f7f26561673046c76017f3198 data/c/tags/item/music_discs.json
 f898aac12b01b598949701b1f6e45aa0cd1d9a25 data/c/tags/item/planks/archwood.json
 3737e6b65e87993bd971b233c3aca5088721eb32 data/c/tags/item/seeds.json
 6febc815f11d70abf442be0be941a9132ddd072d data/c/tags/item/storage_blocks.json
 fbb0fe25e25b7fd86df64c2f168425efedf11710 data/c/tags/item/storage_blocks/quartz.json
 6febc815f11d70abf442be0be941a9132ddd072d data/c/tags/item/storage_blocks/source.json
+716bf8c669d109baf0a41186b8482f61c77c3e4c data/c/tags/item/stripped_logs.json
+fa3739699c153f8058af84e3909b97ddba49129b data/c/tags/item/stripped_woods.json
 46865d605d1c44b2ab5023e21848213c969eec08 data/c/tags/item/tools/bow.json
 d856556e7a50694e4fafc11b5b85240ad831548b data/c/tags/item/tools/crossbow.json
 419783a7134e5338d23aca0593ee521db6471898 data/c/tags/item/tools/fishing_rod.json
