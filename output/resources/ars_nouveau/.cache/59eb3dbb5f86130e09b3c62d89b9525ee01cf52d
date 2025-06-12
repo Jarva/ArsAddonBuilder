@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-11T00:29:22.158650527	Loot Tables
+// 1.21.1	2025-06-12T00:32:08.719771194	Loot Tables
 4f70eae621815da8d08d3ea0b9fd479b48bad2d3 data/ars_nouveau/loot_table/blocks/agronomic_sourcelink.json
 8a6d60f2b39de0408c7e4537b53e866a04236d22 data/ars_nouveau/loot_table/blocks/alchemical_sourcelink.json
 8bdff8a0a49a9f3f21a822eb1d1d01a950d6ad1a data/ars_nouveau/loot_table/blocks/alteration_table.json
@@ -11,9 +11,11 @@ e8985e027de224f13721125c4b09d65713f97dc5 data/ars_nouveau/loot_table/blocks/arch
 26b9292b4a83dd617d39b696cec4135427498a63 data/ars_nouveau/loot_table/blocks/archwood_fence.json
 9f049cc2f08417b7eca511cf243c4f0fd02defc4 data/ars_nouveau/loot_table/blocks/archwood_fence_gate.json
 04086022de397555e18d65bfc013c90cdd422a9d data/ars_nouveau/loot_table/blocks/archwood_grate.json
+89dd3de9bff70f7484d1edf1199b8f570b58c84b data/ars_nouveau/loot_table/blocks/archwood_hanging_sign.json
 f9e27d9666e987dd258f4f7eae3e26e76af37a8b data/ars_nouveau/loot_table/blocks/archwood_planks.json
 e81dd438da4fefc94c36ba7ca66cdc96eb894fbf data/ars_nouveau/loot_table/blocks/archwood_pressure_plate.json
 34474b1ab19734300b3340f1fc93b35a3f236130 data/ars_nouveau/loot_table/blocks/archwood_sconce.json
+ae531911f227015806100fe40611f21db5f62b8b data/ars_nouveau/loot_table/blocks/archwood_sign.json
 9b6046d339e837e294f50722c066fd2b9ba4ca1c data/ars_nouveau/loot_table/blocks/archwood_slab.json
 c175159946f8e1a1d9777625b1a565012f9ea1ac data/ars_nouveau/loot_table/blocks/archwood_stairs.json
 241b4a83e94824d1d28d5203a3873d25b731f016 data/ars_nouveau/loot_table/blocks/archwood_trapdoor.json
