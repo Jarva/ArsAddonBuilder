@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-20T00:28:38.86244562	Ars Nouveau Item Models
+// 1.21.1	2025-06-22T00:35:17.604083027	Ars Nouveau Item Models
 11ee554b11a3a830e89b742762e5b754c2ecb5ee assets/ars_nouveau/models/item/agronomic_sourcelink.json
 20a434b964b88bc010c17e0616f2c2601b53479d assets/ars_nouveau/models/item/alakarkinos_charm.json
 533b61aabca43719a266cddda3b7ec426135e5e6 assets/ars_nouveau/models/item/alakarkinos_hat.json
@@ -94,6 +94,7 @@ b348998e3b6f8de7e17e910fa81ddcf3b4809476 assets/ars_nouveau/models/item/glyph_pa
 1c5bddc31dfc2beb8898de056ec11219e5fb64a1 assets/ars_nouveau/models/item/glyph_pickup.json
 0b8d3bc964187373a08a2f9ca02665f5485eb410 assets/ars_nouveau/models/item/glyph_pierce.json
 9ba86517b6eff6389269b76ef79b0c30cdaa7d83 assets/ars_nouveau/models/item/glyph_place_block.json
+b6b48a384ba879511dc9e828d385d1403da56d1b assets/ars_nouveau/models/item/glyph_prestidigitation.json
 7b5f192bbbfab3508efba29f9c2c99f7cb34792f assets/ars_nouveau/models/item/glyph_projectile.json
 4aae4d9c31df4e7c77ab9281b31bd227a249c7fa assets/ars_nouveau/models/item/glyph_pull.json
 5dea560185bf354975f8f94bd56a7e3623080c68 assets/ars_nouveau/models/item/glyph_randomize.json
