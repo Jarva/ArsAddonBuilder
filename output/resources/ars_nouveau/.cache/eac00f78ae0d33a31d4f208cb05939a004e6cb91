@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-23T04:09:44.691790995	AN tags
+// 1.21.1	2025-06-24T00:32:01.474888676	AN tags
 5823b6fde732b358b200753a53df36243488a571 data/ars_nouveau/tags/block/an_decorative.json
 eba19304fe4b26196ee775954d8df6341df49a5a data/ars_nouveau/tags/block/an_false_occlusion.json
 de95bc21249101b079255a1a00274f60d55e0602 data/ars_nouveau/tags/block/blazing_logs.json
@@ -24,7 +24,7 @@ ce9ccf92ade8cd330c990516ee0f8a30c35adea9 data/ars_nouveau/tags/block/magic_sapli
 f5e3f6895ab28e98f84db162bb5a7ec0d8484aae data/ars_nouveau/tags/block/summon_bed.json
 449d2dab531ac4032acb37910e9a380d07431391 data/ars_nouveau/tags/block/summon_sleepable.json
 47f1f23357a86b9184362224b5c7095555f6846d data/ars_nouveau/tags/block/vexing_logs.json
-981d908724ea5e1adc2db78de0da831bd18cdb1b data/ars_nouveau/tags/block/whirlisprig/greatly_likes.json
+a0138d320d3a79be9d15344d53cc17a70390375a data/ars_nouveau/tags/block/whirlisprig/greatly_likes.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/ars_nouveau/tags/block/whirlisprig/kinda_likes.json
 f36268e9375442e51cbf98f2c4d573082aa56378 data/c/tags/block/bushes.json
 2f9b7e099208b0e404e0f81c89f2a368e5d909da data/c/tags/block/chests.json
