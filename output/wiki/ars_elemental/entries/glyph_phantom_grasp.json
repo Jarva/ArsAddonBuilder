@@ -1,0 +1,18 @@
+{
+  "id": "ars_elemental:glyph_phantom_grasp",
+  "order": 100,
+  "icon": "ars_elemental:glyph_phantom_grasp",
+  "title": "Phantom Grasp",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Phantom Grasp",
+      "description": "Heals a small amount of health to undead. When used on living beings, the spell will deal an equal amount of magic and exhaustion damage, depleting their saturation or hunger.",
+      "icon": "ars_elemental:glyph_phantom_grasp",
+      "tier": 2
+    },
+    {
+      "recipe_1": "ars_elemental:glyph_phantom_grasp"
+    }
+  ]
+}

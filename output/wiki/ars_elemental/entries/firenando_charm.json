@@ -1,0 +1,18 @@
+{
+  "id": "ars_elemental:firenando_charm",
+  "order": 100,
+  "icon": "ars_elemental:firenando_charm",
+  "title": "Flarecannon Charm",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "title": "Flarecannon Charm",
+      "description": "The Flarecannon can be used as a wandering sentry, like the weald walkers. It will shoot flare homing projectiles at enemies and patrol around the area assigned using the dominion wand. Soul Sand and Magma blocks can be used to change appearance. If defeated, it can be reactivated with blaze powder or magma cream. Friends call it Firenando.",
+      "icon": "ars_elemental:firenando_charm"
+    },
+    {
+      "description": "",
+      "entity_type": "ars_elemental:firenando_entity"
+    }
+  ]
+}
