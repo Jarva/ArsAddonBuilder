@@ -1,0 +1,12 @@
+{
+  "id": "ars_elemental:soulbound",
+  "order": 100,
+  "icon": "minecraft:enchanted_book",
+  "title": "Soulbound",
+  "category": "ars_nouveau:enchanting",
+  "pages": [
+    {
+      "recipe_1": "ars_elemental:soulbound_1"
+    }
+  ]
+}
