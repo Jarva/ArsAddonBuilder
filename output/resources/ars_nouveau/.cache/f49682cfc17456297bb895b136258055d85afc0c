@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-26T00:32:38.861667205	ArsNouveau: Json Datagen
+// 1.21.1	2025-06-27T00:29:20.444293263	ArsNouveau: Json Datagen
 e59d0832c1d168df4772338fe24485c4b6b94723 data/ars_nouveau/recipe/dye_apprentice_spell_book.json
 d89b9456df55cd4bd1c30fa9fa253ac31fc7bf37 data/ars_nouveau/recipe/dye_arcanist_boots.json
 9e0bcbe43d8ea6f0c1d354eb28878c8053ebe006 data/ars_nouveau/recipe/dye_arcanist_hood.json
@@ -9,8 +9,15 @@ d89b9456df55cd4bd1c30fa9fa253ac31fc7bf37 data/ars_nouveau/recipe/dye_arcanist_bo
 172bcb20f3c1e37210dc0049f021bdbb1cb4db09 data/ars_nouveau/recipe/dye_battlemage_hood.json
 ee135fc9c4739d1c73fb8e98288a5b24c6f518a6 data/ars_nouveau/recipe/dye_battlemage_leggings.json
 f6099c592818ed29dc459e38f1e3da1a682da357 data/ars_nouveau/recipe/dye_battlemage_robes.json
+7ab40997544f1d97dae9beff05b3a7013203de47 data/ars_nouveau/recipe/dye_creative_spell_book.json
+603434e1d6ff0dcc07d1e27f6c08cc734c92557f data/ars_nouveau/recipe/dye_enchanters_eye.json
+1e923b8d600b7670484dff59d038f7cb77a7067f data/ars_nouveau/recipe/dye_enchanters_sword.json
 4bbbd1b2d5198c2c905ba478db19c3c89088130e data/ars_nouveau/recipe/dye_novice_spell_book.json
 30f621c895fd77d008e986f9e4270a3a6f814f2a data/ars_nouveau/recipe/dye_sorcerer_boots.json
 afc5b6ee4ae0d417f1577d42b7fc8b9ab8b59207 data/ars_nouveau/recipe/dye_sorcerer_hood.json
 64d136a9e98f5a1900692bd5fd5338f2b2691101 data/ars_nouveau/recipe/dye_sorcerer_leggings.json
 5b91e0567ec0850bc91d899bfa91fc74faae4627 data/ars_nouveau/recipe/dye_sorcerer_robes.json
+12b0d9cb88c96d2c6ff7048ac756af535a68bc63 data/ars_nouveau/recipe/dye_spell_bow.json
+2c8347a8a6fa40c8b39fc0eb63b349d66c1f6c21 data/ars_nouveau/recipe/dye_spell_crossbow.json
+11b57ff054cf9e1b9b1437b9aa6213f30539695c data/ars_nouveau/recipe/dye_spell_parchment.json
+80afbcae23ac024515f68e73a41b46ec38a19b77 data/ars_nouveau/recipe/dye_wand.json
