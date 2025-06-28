@@ -1,9 +1,9 @@
-// 1.21.1	2025-06-27T00:29:20.426105794	Ars Nouveau Caster Tomes Datagen
+// 1.21.1	2025-06-28T00:28:10.007509214	Ars Nouveau Caster Tomes Datagen
 ab9cf50e4958592dcee6f5dae6d6bad2e7fe08ab data/ars_nouveau/recipe/tomes/alex_tome.json
 dae41a867bde9258624fe4676128e8140f2e7fe4 data/ars_nouveau/recipe/tomes/arachne_tome.json
 71e004bfa5837d293c6ee00dd9fd99493b9b9aba data/ars_nouveau/recipe/tomes/aurellia_tome.json
 2027d79f560de6a1a7829a478f64ccd8f1723bc2 data/ars_nouveau/recipe/tomes/bailey_tome.json
-c8d105eedde75552498cb119737df8e96c662fd9 data/ars_nouveau/recipe/tomes/beepsterr_tome.json
+d1e36d6317d387b3a17e9b1681f63243e7ecc152 data/ars_nouveau/recipe/tomes/beepsterr_tome.json
 98bb7cbe672169ce07db7eec25837956a1966dcb data/ars_nouveau/recipe/tomes/bugcolez_tome.json
 0be05276a18b4cac328dc05898e560b28f7e3a31 data/ars_nouveau/recipe/tomes/chems_tome.json
 d975f667f8c7de86a8fc5dcc4cc2d07e4ff38096 data/ars_nouveau/recipe/tomes/chosenarchitect_tome.json
@@ -35,6 +35,7 @@ d709ea8b46d9d67ee0095740a84645f80e5e1260 data/ars_nouveau/recipe/tomes/toxin_tom
 966bfe77dcd335285472bd8b7a1b07e88555fd14 data/ars_nouveau/recipe/tomes/uni_tome.json
 902b87a75b3feb454c214088587be3aacf8974a5 data/ars_nouveau/recipe/tomes/vault_tome.json
 04a2e3eb1f94ccad819d6f6cf49a6b1e23e6ab1b data/ars_nouveau/recipe/tomes/warp_impact_tome.json
+c555c87b6d82e72f4f02f0c000fe46e7efa7dc21 data/ars_nouveau/recipe/tomes/worsecookie_tome.json
 f854283682fc7abb17dc158e8383073b07ae96f0 data/ars_nouveau/recipe/tomes/xacris_2_tome.json
 4b725a8d4df69200a345a12a58e432979883470e data/ars_nouveau/recipe/tomes/xacris_tome.json
 61ac4334cc4de3037b7e803112439361f8d7800d data/ars_nouveau/recipe/tomes/yeet_tome.json
