@@ -1,0 +1,18 @@
+{
+  "id": "not_enough_glyphs:glyph_contingency_death",
+  "order": 100,
+  "icon": "not_enough_glyphs:glyph_contingency_death",
+  "title": "Contingency: Death",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Contingency: Death",
+      "description": "The contingency will trigger after the target\u0027s death. It will still trigger if the target survives with a totem.",
+      "icon": "not_enough_glyphs:glyph_contingency_death",
+      "tier": 2
+    },
+    {
+      "recipe_1": "not_enough_glyphs:glyph_contingency_death"
+    }
+  ]
+}
