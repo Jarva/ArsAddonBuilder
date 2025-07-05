@@ -1,0 +1,20 @@
+{
+  "id": "ars_nouveau:prestidigitation",
+  "order": 100,
+  "icon": "ars_nouveau:glyph_prestidigitation",
+  "title": "Illusory Items",
+  "category": "ars_nouveau:items",
+  "pages": [
+    {
+      "title": "Illusory Items",
+      "description": "Prestidigitation can  be applied to Items,  causing them to emit  particles when held  or worn. Particle  settings are  determined by the  Prestidigitation  glyph settings for  the spell contained  within the Spell  Parchment when used  in the apparatus. To  remove",
+      "icon": "ars_nouveau:glyph_prestidigitation"
+    },
+    {
+      "description": "Prestidigitation,  use an Abjuration  Essence on the  Scribes Table with  the enchanted item  inside it."
+    },
+    {
+      "recipe_1": "ars_nouveau:prestidigitation"
+    }
+  ]
+}
