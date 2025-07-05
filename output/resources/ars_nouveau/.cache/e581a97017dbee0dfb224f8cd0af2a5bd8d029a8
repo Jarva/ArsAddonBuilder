@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-04T00:29:13.655989374	Apparatus
+// 1.21.1	2025-07-05T00:28:00.714264158	Apparatus
 54b2918a0b959ae3e055dae2681322a8800177a2 data/ars_nouveau/recipe/alakarkinos_charm.json
 adc3e3b582ab4d1fd6f29537bddaaecb9eaa0c2d data/ars_nouveau/recipe/alchemists_crown.json
 9a7fefa487b159935c1f620dc9516a6600fb0d4b data/ars_nouveau/recipe/amulet_of_mana_boost.json
@@ -87,6 +87,7 @@ ff7e61b9d71beeaa6302dbe370092d51df402468 data/ars_nouveau/recipe/power_1.json
 2d327c178a3ec18a8b01c9f636c0de93662f8a6e data/ars_nouveau/recipe/power_3.json
 cf7a139ec7b47cd2615d1f0089b8f9ed0bcc4f30 data/ars_nouveau/recipe/power_4.json
 a9943800ea132c316e5fe74cd0a0f0a9426598c0 data/ars_nouveau/recipe/power_5.json
+67a0d61e8424e8ae1e07185196e9631bd9f06270 data/ars_nouveau/recipe/prestidigitation.json
 99a5914a2a5cf47da0b4afcb21ef7e5791bfd54f data/ars_nouveau/recipe/projectile_protection_1.json
 7587503e049e9a42740dd0e9ee6d7bfd5d422241 data/ars_nouveau/recipe/projectile_protection_2.json
 c017a730e2d6fd8c4dc8f67e1dd7f8b029e1f113 data/ars_nouveau/recipe/projectile_protection_3.json
