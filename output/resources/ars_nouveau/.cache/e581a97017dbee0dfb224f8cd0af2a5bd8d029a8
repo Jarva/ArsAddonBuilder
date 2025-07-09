@@ -1,4 +1,4 @@
-// 1.21.1	2025-07-08T00:29:05.171903284	Apparatus
+// 1.21.1	2025-07-09T00:30:14.578911124	Apparatus
 54b2918a0b959ae3e055dae2681322a8800177a2 data/ars_nouveau/recipe/alakarkinos_charm.json
 adc3e3b582ab4d1fd6f29537bddaaecb9eaa0c2d data/ars_nouveau/recipe/alchemists_crown.json
 9a7fefa487b159935c1f620dc9516a6600fb0d4b data/ars_nouveau/recipe/amulet_of_mana_boost.json
@@ -24,6 +24,7 @@ db6cc03b8c0827571f8ed1b4ff28e560a00f624d data/ars_nouveau/recipe/battlemage_hood
 a2ad8a49fe6cba6e11d13dc9f324647c674569b3 data/ars_nouveau/recipe/blast_protection_3.json
 7965036dc90156eb95997759a6c0f90b8870b534 data/ars_nouveau/recipe/blast_protection_4.json
 46bcd2e3d2267631de94dee8d44076cf5481332b data/ars_nouveau/recipe/brazier_relay.json
+d9d3851e5b40dac76e2bf1dd7a58783259800d01 data/ars_nouveau/recipe/decor_blossom.json
 e6f0a11f58915ff515855bc56c4f606e70d88f87 data/ars_nouveau/recipe/depth_strider_1.json
 a67db7bb1da0c861575559510bc83547803ae35e data/ars_nouveau/recipe/depth_strider_2.json
 38d04b9b2faf0bc989bfd23fc735633957c22d16 data/ars_nouveau/recipe/depth_strider_3.json
