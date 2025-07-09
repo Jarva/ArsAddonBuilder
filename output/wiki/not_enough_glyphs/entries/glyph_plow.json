@@ -1,0 +1,18 @@
+{
+  "id": "not_enough_glyphs:glyph_plow",
+  "order": 100,
+  "icon": "not_enough_glyphs:glyph_plow",
+  "title": "Plow",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Plow",
+      "description": "Simulate the use of an Hoe on blocks.",
+      "icon": "not_enough_glyphs:glyph_plow",
+      "tier": 1
+    },
+    {
+      "recipe_1": "not_enough_glyphs:glyph_plow"
+    }
+  ]
+}
