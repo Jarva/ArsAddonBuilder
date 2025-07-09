@@ -1,0 +1,17 @@
+{
+  "id": "ars_nouveau:item.starbunclemania.star_saddle",
+  "order": 100,
+  "icon": "starbunclemania:star_saddle",
+  "title": "Starddle [WIP]",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "title": "Starddle [WIP]",
+      "description": "Allows Starbuncles to transport players. While wearing the accessory, the Starbuncle becomes big enough to be rideable. [Still a bit wip, might be a bit wonky]",
+      "icon": "starbunclemania:star_saddle"
+    },
+    {
+      "recipe_1": "starbunclemania:star_saddle"
+    }
+  ]
+}
