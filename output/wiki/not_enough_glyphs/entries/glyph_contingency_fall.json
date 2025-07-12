@@ -1,0 +1,18 @@
+{
+  "id": "not_enough_glyphs:glyph_contingency_fall",
+  "order": 100,
+  "icon": "not_enough_glyphs:glyph_contingency_fall",
+  "title": "Contingency: Fall",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Contingency: Fall",
+      "description": "The contingency will trigger after the target is in free fall for enough time, casting the spell contained within. Base at 5 blocks and increases/decreases by 1 per Amplify/Dampen.",
+      "icon": "not_enough_glyphs:glyph_contingency_fall",
+      "tier": 2
+    },
+    {
+      "recipe_1": "not_enough_glyphs:glyph_contingency_fall"
+    }
+  ]
+}
