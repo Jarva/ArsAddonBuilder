@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Conflagrate",
-      "description": "When it hits a target on fire, it causes a detonation that deals damage to all entities in range. That explosion might spread explosive powder on them, causing them to explode after a while.",
+      "description": "When it hits a target on fire, it causes a detonation that deals damage to all entities in range and sets them on fire. That explosion might spread explosive powder on them, causing them to explode after a while.",
       "icon": "ars_elemental:glyph_conflagrate",
       "tier": 3
     },
