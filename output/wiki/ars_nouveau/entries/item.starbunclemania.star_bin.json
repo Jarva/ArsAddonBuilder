@@ -1,0 +1,17 @@
+{
+  "id": "ars_nouveau:item.starbunclemania.star_bin",
+  "order": 100,
+  "icon": "starbunclemania:star_bin",
+  "title": "StarBin",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "title": "StarBin",
+      "description": "Allows Starbuncles to embrace their inner raccoon and trash items. While wearing the accessory the Starbuncle will void any nearby item on the ground.",
+      "icon": "starbunclemania:star_bin"
+    },
+    {
+      "recipe_1": "starbunclemania:star_bin"
+    }
+  ]
+}
