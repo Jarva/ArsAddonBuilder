@@ -1,0 +1,12 @@
+{
+  "id": "minecraft:infinity",
+  "order": 100,
+  "icon": "minecraft:enchanted_book",
+  "title": "Infinity",
+  "category": "ars_nouveau:enchanting",
+  "pages": [
+    {
+      "recipe_1": "ars_nouveau:infinity_1"
+    }
+  ]
+}

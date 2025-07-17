@@ -1,0 +1,21 @@
+{
+  "id": "ars_nouveau:glyph_ignite",
+  "order": 100,
+  "icon": "ars_nouveau:glyph_ignite",
+  "title": "Ignite",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Ignite",
+      "description": "Sets blocks and mobs on fire for a short time. Sensitive will summon Mage Fire, a shorter lived fire that will not spread or destroy blocks.",
+      "icon": "ars_nouveau:glyph_ignite",
+      "tier": 1
+    },
+    {
+      "recipe_1": "ars_nouveau:glyph_ignite"
+    },
+    {
+      "description": "Using Ignite on ice blocks will melt them. While wearing a Fire Focus, ignite will inflict Magic Burn. The magic flames can bypass the resistance to fire innate of some mobs or acquired from portions. It slightly decrease damage taken from earth, but let magic damage pierce through some of the armor."
+    }
+  ]
+}
