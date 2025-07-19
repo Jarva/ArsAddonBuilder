@@ -1,7 +1,4 @@
 {
-  "ars_controle.augment_desc.glyph_filter_random_glyph_amplify": "Augmente les chances de résolution",
-  "ars_controle.augment_desc.glyph_filter_random_glyph_dampen": "Diminue les chances de résolution",
-  "ars_controle.augment_desc.glyph_precise_delay_glyph_extend_time": "Double le délai",
   "ars_controle.config.enhanced_spellbook_controls": "Contrôles améliorés du livre de sorts",
   "ars_controle.config.search_bar": "Barre de recherche",
   "ars_controle.config.search_bar.clear_on_auto_focus": "Effacer sur la mise au point automatique",
@@ -58,6 +55,9 @@
   "ars_controle.target.set.entity": "Définir la cible sur %s dans %s.",
   "ars_controle.target.set.none": "Cible effacée.",
   "ars_controle.target.set.self": "Définir la cible sur vous-même.",
+  "ars_nouveau.augment_desc.glyph_filter_random_glyph_amplify": "Augmente les chances de résolution",
+  "ars_nouveau.augment_desc.glyph_filter_random_glyph_dampen": "Diminue les chances de résolution",
+  "ars_nouveau.augment_desc.glyph_precise_delay_glyph_extend_time": "Double le délai",
   "ars_nouveau.page1.block.ars_controle.scroll_holder": "Le Porte-Parchemin de Téléportation permet d’ouvrir et de fermer facilement des portails de téléportation vers les destinations de votre choix. Il suffit de remplacer un des blocs du cadre du portail par un Porte-Parchemin de Téléportation orienté correctement, puis d’y insérer un Parchemin de Téléportation, à condition d’avoir de la Source dans un rayon de 10 blocs.",
   "ars_nouveau.page1.block.ars_controle.scryers_linkage": "Le Lien du Devin permet de se connecter à un autre bloc, autorisant les machines à interagir avec ce bloc lié à distance. Il peut transférer des objets, des liquides, de l’énergie, de la redstone, et quelques autres éléments. Pour le configurer, utilisez d’abord une Baguette de Domination sur le bloc que vous souhaitez lier, puis sur le Lien du Devin.",
   "ars_nouveau.page1.block.ars_controle.temporal_stability_sensor": "Le Capteur de Stabilité Temporelle indique à quel point le temps du monde est instable. En le connectant à un comparateur, vous pouvez savoir à quel point le monde est proche de subir du lag : plus le signal de redstone est élevé, plus le lag est imminent. Vous pouvez l’utiliser pour désactiver automatiquement des fermes et ainsi éviter que le serveur ne ralentisse.",
