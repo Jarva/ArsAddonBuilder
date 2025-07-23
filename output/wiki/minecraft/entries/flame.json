@@ -1,0 +1,12 @@
+{
+  "id": "minecraft:flame",
+  "order": 100,
+  "icon": "minecraft:enchanted_book",
+  "title": "Flame",
+  "category": "ars_nouveau:enchanting",
+  "pages": [
+    {
+      "recipe_1": "ars_nouveau:flame_1"
+    }
+  ]
+}
