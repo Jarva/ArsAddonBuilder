@@ -1,0 +1,20 @@
+{
+  "id": "ars_controle:block.ars_controle.scryers_linkage",
+  "order": 100,
+  "icon": "ars_controle:scryers_linkage",
+  "title": "Scryer\u0027s Linkage",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "title": "Scryer\u0027s Linkage",
+      "description": "The Scryer\u0027s Linkage  links to another  block, allowing  machines to interact  with its linked  block from distance  places. It is  capable of linking  items, liquids,  energy, redstone,  and a few other  things. To configure  it, use a Dominion  Wand first on the",
+      "icon": "ars_controle:scryers_linkage"
+    },
+    {
+      "description": "block you want to  link to, then on the  linkage."
+    },
+    {
+      "recipe_1": "ars_controle:scryers_linkage"
+    }
+  ]
+}

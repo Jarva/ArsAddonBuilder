@@ -1,0 +1,18 @@
+{
+  "id": "ars_technica:glyph_fuse",
+  "order": 100,
+  "icon": "ars_technica:glyph_fuse",
+  "title": "Fuse",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Fuse",
+      "description": "Fuses item entities by slamming them together at breakneck speed. Use Smelt for heated mixing or use Superheat for super-heated mixing (if enabled in config)",
+      "icon": "ars_technica:glyph_fuse",
+      "tier": 1
+    },
+    {
+      "recipe_1": "ars_technica:glyph_fuse"
+    }
+  ]
+}
