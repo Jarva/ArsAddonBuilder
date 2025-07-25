@@ -1,0 +1,18 @@
+{
+  "id": "ars_technica:glyph_telefeast",
+  "order": 100,
+  "icon": "ars_technica:glyph_telefeast",
+  "title": "Telefeast",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Telefeast",
+      "description": "Consumes the first edible/potion, or some amount of liquid, found in the container/tank this was cast on.",
+      "icon": "ars_technica:glyph_telefeast",
+      "tier": 2
+    },
+    {
+      "recipe_1": "ars_technica:glyph_telefeast"
+    }
+  ]
+}
