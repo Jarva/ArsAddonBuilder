@@ -1,0 +1,17 @@
+{
+  "id": "ars_nouveau:thread_summon_focus",
+  "order": 100,
+  "icon": "ars_nouveau:thread_summon_focus",
+  "title": "Summoning Focus",
+  "category": "ars_nouveau:armor",
+  "pages": [
+    {
+      "title": "Book Thread : Summoning Focus",
+      "description": "Thread for the  spellbinder. Will  enable glyph combos  as if the summoning  focus was equipped.",
+      "icon": "ars_nouveau:thread_summon_focus"
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_summon_focus"
+    }
+  ]
+}
