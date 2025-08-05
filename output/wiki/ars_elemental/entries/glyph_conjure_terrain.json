@@ -1,0 +1,18 @@
+{
+  "id": "ars_elemental:glyph_conjure_terrain",
+  "order": 100,
+  "icon": "ars_elemental:glyph_conjure_terrain",
+  "title": "Conjure Terrain",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Conjure Terrain",
+      "description": "Places Dirt or other terrain blocks. Can be augmented with AoE and Pierce to place more blocks, one Amplify to place cobblestone, two for cobbled deepslate, or one of the following combinations: Followed by ConjureWater, it will place Mud. If augmented with Amplify(s) and followed by Smelt, it will place Stone or Deepslate. If followed by Crush it will place Sand or, if amplified, Sandstone.",
+      "icon": "ars_elemental:glyph_conjure_terrain",
+      "tier": 1
+    },
+    {
+      "recipe_1": "ars_elemental:glyph_conjure_terrain"
+    }
+  ]
+}

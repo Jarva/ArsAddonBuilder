@@ -1,0 +1,18 @@
+{
+  "id": "ars_technica:glyph_carve",
+  "order": 100,
+  "icon": "ars_technica:glyph_carve",
+  "title": "Carve",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Carve",
+      "description": "Cuts identical item entities, crafting them into stairs. Works on stone and wood only",
+      "icon": "ars_technica:glyph_carve",
+      "tier": 1
+    },
+    {
+      "recipe_1": "ars_technica:glyph_carve"
+    }
+  ]
+}
