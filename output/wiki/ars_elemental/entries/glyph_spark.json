@@ -1,0 +1,18 @@
+{
+  "id": "ars_elemental:glyph_spark",
+  "order": 100,
+  "icon": "ars_elemental:glyph_spark",
+  "title": "Spark",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Spark",
+      "description": "Damages the target with a spark of static energy and shocks it. Deals more damage to wet entities",
+      "icon": "ars_elemental:glyph_spark",
+      "tier": 1
+    },
+    {
+      "recipe_1": "ars_elemental:glyph_spark"
+    }
+  ]
+}
