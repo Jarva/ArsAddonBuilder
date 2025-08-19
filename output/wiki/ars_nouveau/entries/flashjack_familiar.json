@@ -1,0 +1,14 @@
+{
+  "id": "ars_nouveau:flashjack_familiar",
+  "order": 100,
+  "icon": "ars_nouveau:flashjack_familiar",
+  "title": "Flashjack Familiar",
+  "category": "ars_nouveau:familiars",
+  "pages": [
+    {
+      "title": "Bound Script: ars_nouveau.familiar_name.flashjack_familiar",
+      "description": "ars_nouveau.familia r_desc.flashjack_fa miliar",
+      "icon": "ars_nouveau:flashjack_familiar"
+    }
+  ]
+}
