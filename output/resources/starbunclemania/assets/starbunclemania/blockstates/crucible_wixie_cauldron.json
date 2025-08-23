@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "eidolon:item/crucible"
+      "model": "eidolon_repraised:item/crucible"
     }
   }
 }

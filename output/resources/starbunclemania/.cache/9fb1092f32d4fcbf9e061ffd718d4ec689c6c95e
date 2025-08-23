@@ -1,4 +1,4 @@
-// 1.21.1	2025-04-17T00:07:15.870066	Recipes
+// 1.21.1	2025-08-23T01:05:38.0207938	Recipes
 a76c8a3188f56b65ac37e0609e09c17955a0458c data/starbunclemania/advancement/recipes/misc/alak_hat.json
 23576f7124dec18018457f59a17dbc7c41178f80 data/starbunclemania/advancement/recipes/misc/chef_hat.json
 0c06b8a7f82847729e3c92bedbea75ee770920ff data/starbunclemania/advancement/recipes/misc/clear_fluid_allow.json
@@ -29,7 +29,7 @@ f73a15f54cea053e91da172bbde18c6de5cf21be data/starbunclemania/recipe/clear_fluid
 3cd7a6abe6d70bcfb89e8d89f669968109fbcab2 data/starbunclemania/recipe/fluid_jar.json
 69d006564374c18a8365f9573c7d270494481b6c data/starbunclemania/recipe/fluid_scroll_allow.json
 ed49595aafac98c2c6f7d0342e8a9a836faaa0e8 data/starbunclemania/recipe/fluid_scroll_deny.json
-be04c9b62defcf8bacc5613662dba3ad2caddedf data/starbunclemania/recipe/fluid_sourcelink.json
+82c3ac00fe06a140d0e19e65e0acb03b6456ce2c data/starbunclemania/recipe/fluid_sourcelink.json
 69d3b13dcbc1e7508d5baf9f0609f7c4f955290e data/starbunclemania/recipe/robin_mask.json
 e3d1b5da5bac44aeba44166984a58d12f053ec4d data/starbunclemania/recipe/sea_bunny.json
 cd388e53b0351d2817685e0e0b2028c152082e98 data/starbunclemania/recipe/source_condenser.json
