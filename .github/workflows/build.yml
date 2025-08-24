@@ -27,17 +27,13 @@ jobs:
         with:
           java-version: ${{ env.JAVA_VERSION }}
           distribution: "temurin"
-          cache: gradle
-          cache-dependency-path: |
-            doc-exporter-mod/*.gradle*
-            doc-exporter-mod/**/gradle-wrapper.properties
       - shell: bash
         run: |
           mkdir -p ~/.gradle/caches/fabric-loom/assets
       - uses: gradle/actions/setup-gradle@v3
       - name: Build mod
         run: |
-          ./gradlew clean build
+          ./gradlew build
       - uses: actions/upload-artifact@v4
         with:
           name: doc-exporter-jar
@@ -104,10 +100,6 @@ jobs:
         with:
           java-version: ${{ env.JAVA_VERSION }}
           distribution: "temurin"
-          cache: gradle
-          cache-dependency-path: |
-            build/${{ steps.info.outputs.DIR }}/*.gradle*
-            build/${{ steps.info.outputs.DIR }}/**/gradle-wrapper.properties
       - shell: bash
         run: |
           mkdir -p ~/.gradle/caches/fabric-loom/assets
@@ -118,7 +110,7 @@ jobs:
           attempt_limit: 3
           attempt_delay: 2000
           current_path: build/${{ steps.info.outputs.DIR }}
-          command: ./gradlew clean runData build
+          command: ./gradlew runData build
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.info.outputs.DIR }}-jar
@@ -142,15 +134,75 @@ jobs:
             echo start at:
             date -u
           POST_SCRIPT: "echo done at: && date -u"
-      - name: Push Commit
-        if: ${{ failure() || success() }}
-        uses: Jarva/git-commit-push@main
+      - name: Create Patch and Commit Message if changed
+        shell: bash
+        run: |
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --global user.name "${{ github.actor }}"
+          COMMIT_MSG="feat: update ${{ matrix.file }} to ${{ fromJson(steps.info.outputs.MODULE).hash }}"
+          git diff > build/${{ steps.info.outputs.DIR }}.patch || true
+          PATCH_SIZE=$(stat -c%s "build/${{ steps.info.outputs.DIR }}.patch" || echo 0)
+          if [[ "$PATCH_SIZE" -eq "0" ]]; then
+            echo "No changes to save as patch."
+            rm build/${{ steps.info.outputs.DIR }}.patch
+          else
+            echo "$COMMIT_MSG" > build/${{ steps.info.outputs.DIR }}.msg
+          fi
+      - uses: actions/upload-artifact@v4
+        if: exists('build/${{ steps.info.outputs.DIR }}.patch')
         with:
-          pull: true
-          commit_message: "feat: update ${{ matrix.file }} to ${{ fromJson(steps.info.outputs.MODULE).hash }}"
+          name: patch-${{ steps.info.outputs.DIR }}
+          path: |
+            build/${{ steps.info.outputs.DIR }}.patch
+            build/${{ steps.info.outputs.DIR }}.msg
+  apply-patches:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download all patch artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: patches
+          pattern: patch-*
+
+      - name: List patches
+        id: list_patches
+        run: |
+          find patches -name "*.patch" -type f | sort > patches/patch_list.txt
+
+      - name: Apply patches and commit individually
+        run: |
+          set -e
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --global user.name "${{ github.actor }}"
+          PATCH_COUNT=0
+          while IFS= read -r patchfile; do
+            if [ ! -s "$patchfile" ]; then continue; fi
+            msgfile="${patchfile%.patch}.msg"
+            if [ ! -s "$msgfile" ]; then
+              echo "Patch $patchfile missing message file $msgfile, skipping."
+              continue
+            fi
+            echo "Applying $patchfile"
+            git apply "$patchfile"
+            git add .
+            COMMIT_MSG=$(cat "$msgfile")
+            git commit -m "$COMMIT_MSG"
+            PATCH_COUNT=$((PATCH_COUNT+1))
+          done < patches/patch_list.txt
+          if [ "$PATCH_COUNT" -eq 0 ]; then
+            echo "No patches to commit."
+            exit 0
+          fi
+          git pull --rebase
+          git push
+
   run-and-export:
     runs-on: ubuntu-latest
-    needs: [build-doc-exporter, build]
+    needs: [build-doc-exporter, apply-patches]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
