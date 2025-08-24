@@ -1,0 +1,84 @@
+diff --git a/output/resources/ars_controle/.cache/0b372f0490b35831ec8adb8a20733d65274ac128 b/output/resources/ars_controle/.cache/0b372f0490b35831ec8adb8a20733d65274ac128
+index d455c99..94f0ebb 100644
+--- a/output/resources/ars_controle/.cache/0b372f0490b35831ec8adb8a20733d65274ac128
++++ b/output/resources/ars_controle/.cache/0b372f0490b35831ec8adb8a20733d65274ac128
+@@ -1,4 +1,4 @@
+-// 1.21.1	2025-08-24T10:27:17.489494237	Block States: ars_controle
++// 1.21.1	2025-08-24T22:07:43.302564966	Block States: ars_controle
+ a33f50bc4d5fa0c03d5baf5c2af4d44c6ce8fdc9 assets/ars_controle/models/item/glyph_filter_above.json
+ 9feb0aee010252d47323ced02d2cf22efa01a764 assets/ars_controle/models/item/glyph_filter_below.json
+ f1a79ac4bdc7aa3363f5d2e9527dca07acf0f0f1 assets/ars_controle/models/item/glyph_filter_level.json
+diff --git a/output/resources/ars_controle/.cache/0e7dbe816b4c4aafc13f8f7fc39d799f82222d58 b/output/resources/ars_controle/.cache/0e7dbe816b4c4aafc13f8f7fc39d799f82222d58
+index dee0c5a..0869ae5 100644
+--- a/output/resources/ars_controle/.cache/0e7dbe816b4c4aafc13f8f7fc39d799f82222d58
++++ b/output/resources/ars_controle/.cache/0e7dbe816b4c4aafc13f8f7fc39d799f82222d58
+@@ -1,4 +1,4 @@
+-// 1.21.1	2025-08-24T10:27:17.490766633	Tags for minecraft:item mod id ars_controle
++// 1.21.1	2025-08-24T22:07:43.303948329	Tags for minecraft:item mod id ars_controle
+ a58fcd554d087b003ec1e7285ad444e460580497 data/ars_controle/tags/item/ritual_blacklist.json
+ 883eea7676a50c7d47e01f85b7200307c858a3ac data/c/tags/item/enchantables.json
+ 883eea7676a50c7d47e01f85b7200307c858a3ac data/c/tags/item/tools.json
+diff --git a/output/resources/ars_controle/.cache/30991e385ecb204e137bb9529ecb3b9a169430f5 b/output/resources/ars_controle/.cache/30991e385ecb204e137bb9529ecb3b9a169430f5
+index c1a484d..6cb4d2e 100644
+--- a/output/resources/ars_controle/.cache/30991e385ecb204e137bb9529ecb3b9a169430f5
++++ b/output/resources/ars_controle/.cache/30991e385ecb204e137bb9529ecb3b9a169430f5
+@@ -1,4 +1,4 @@
+-// 1.21.1	2025-08-24T10:27:17.491392638	Ars Controle Glyph Recipes
++// 1.21.1	2025-08-24T22:07:43.30782177	Ars Controle Glyph Recipes
+ 9885e7b28bace252ccc62e8d4077a74ac3e4b132 data/ars_controle/recipe/glyph_filter_above.json
+ 587a1a90b8b1f8f914e0139829678a8550fc4ab0 data/ars_controle/recipe/glyph_filter_below.json
+ 0b8c162272b2a20b547ded236bbf98f2580c1a75 data/ars_controle/recipe/glyph_filter_level.json
+diff --git a/output/resources/ars_controle/.cache/34f275d2546f60d2bbec188f6bc22542c5f653ee b/output/resources/ars_controle/.cache/34f275d2546f60d2bbec188f6bc22542c5f653ee
+index b53057e..a0c7ceb 100644
+--- a/output/resources/ars_controle/.cache/34f275d2546f60d2bbec188f6bc22542c5f653ee
++++ b/output/resources/ars_controle/.cache/34f275d2546f60d2bbec188f6bc22542c5f653ee
+@@ -1 +1 @@
+-// 1.21.1	2025-08-24T10:27:17.491820871	Ars Controle Imbuement
++// 1.21.1	2025-08-24T22:07:43.308425095	Ars Controle Imbuement
+diff --git a/output/resources/ars_controle/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d b/output/resources/ars_controle/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d
+index 650ca8d..2a0fed5 100644
+--- a/output/resources/ars_controle/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d
++++ b/output/resources/ars_controle/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d
+@@ -1,4 +1,4 @@
+-// 1.21.1	2025-08-24T10:27:17.490960528	Loot Tables
++// 1.21.1	2025-08-24T22:07:43.307337458	Loot Tables
+ de7cc44e9452630b8826d02573bd8fa9ebd9882e data/ars_controle/loot_table/blocks/scroll_holder.json
+ 7144db923438c9ac4dfdce77d2d90a07c09e5271 data/ars_controle/loot_table/blocks/scryers_linkage.json
+ 30de5a6a4ac2fd98f333765f39942038d8bc789f data/ars_controle/loot_table/blocks/temporal_stability_sensor.json
+diff --git a/output/resources/ars_controle/.cache/617c61de25931dad590b77acc546527f49d19cff b/output/resources/ars_controle/.cache/617c61de25931dad590b77acc546527f49d19cff
+index 24d2b5a..94747a7 100644
+--- a/output/resources/ars_controle/.cache/617c61de25931dad590b77acc546527f49d19cff
++++ b/output/resources/ars_controle/.cache/617c61de25931dad590b77acc546527f49d19cff
+@@ -1,4 +1,4 @@
+-// 1.21.1	2025-08-24T10:27:17.492250747	Ars Controle Apparatus
++// 1.21.1	2025-08-24T22:07:43.308575799	Ars Controle Apparatus
+ 9bdfbd423659e35a0b7a0198d7ccd0f22bba2f06 data/ars_controle/recipe/portable_brazier_relay.json
+ b611174a59eb9dd94c8048f0c9f5c7516dde58dc data/ars_controle/recipe/remote.json
+ 366bcc716a18646013943a2b07843ea5e76a2c3e data/ars_controle/recipe/scryers_linkage.json
+diff --git a/output/resources/ars_controle/.cache/6fee153df8bac89e36c531cf9321f8f4cb5344a3 b/output/resources/ars_controle/.cache/6fee153df8bac89e36c531cf9321f8f4cb5344a3
+index 18d0a60..507e8e2 100644
+--- a/output/resources/ars_controle/.cache/6fee153df8bac89e36c531cf9321f8f4cb5344a3
++++ b/output/resources/ars_controle/.cache/6fee153df8bac89e36c531cf9321f8f4cb5344a3
+@@ -1,4 +1,4 @@
+-// 1.21.1	2025-08-24T10:27:17.491636193	Ars Controle tags
++// 1.21.1	2025-08-24T22:07:43.308217174	Ars Controle tags
+ f9e405134ffc415db0b66f092024e31946af2b98 data/ars_controle/tags/block/scryers_linkage_blacklist.json
+ 6bb317c2d35a35bc24bc61f18d70d3879ca5544e data/ars_nouveau/tags/block/an_decorative.json
+ fda0fc7205f9b5abf32e73c0e85686d17e0b6e53 data/minecraft/tags/block/mineable/pickaxe.json
+diff --git a/output/resources/ars_controle/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e b/output/resources/ars_controle/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e
+index cfb21c6..75be1ab 100644
+--- a/output/resources/ars_controle/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e
++++ b/output/resources/ars_controle/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e
+@@ -1,3 +1,3 @@
+-// 1.21.1	2025-08-24T10:27:17.491190979	Recipes
++// 1.21.1	2025-08-24T22:07:43.307607266	Recipes
+ dbae40ebc40d1a8f80c49f42a798f8674fd002fb data/ars_controle/advancement/recipes/misc/scroll_holder.json
+ 1f0f05a516b6877c8a4d29d762b91058269145bf data/ars_controle/recipe/scroll_holder.json
+diff --git a/output/resources/ars_controle/.cache/cc4c4dbaff9bda9bbb0539ed6ef19aa8b75c70ae b/output/resources/ars_controle/.cache/cc4c4dbaff9bda9bbb0539ed6ef19aa8b75c70ae
+index 5e6918c..14551f6 100644
+--- a/output/resources/ars_controle/.cache/cc4c4dbaff9bda9bbb0539ed6ef19aa8b75c70ae
++++ b/output/resources/ars_controle/.cache/cc4c4dbaff9bda9bbb0539ed6ef19aa8b75c70ae
+@@ -1,2 +1,2 @@
+-// 1.21.1	2025-08-24T10:27:17.490588878	Languages: en_us for mod: ars_controle
++// 1.21.1	2025-08-24T22:07:43.303751469	Languages: en_us for mod: ars_controle
+ ef40b3ae6c4840d0fb15caa5ffb965ef304621a6 assets/ars_controle/lang/en_us.json
