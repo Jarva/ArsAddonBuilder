@@ -19,33 +19,63 @@ jobs:
       run:
         working-directory: ./doc-exporter-mod
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+
+      - name: Get last commit hash for doc-exporter-mod
+        id: exporter_hash
+        shell: bash
+        run: |
+          HASH=$(git log -n 1 --pretty=format:%h -- doc-exporter-mod)
+          echo "hash=$HASH" >> $GITHUB_OUTPUT
+
+      - name: Restore exporter jar from cache (early-exit if hit)
+        id: exporter_cache
+        uses: actions/cache@v4
+        with:
+          path: doc-exporter-mod/build/libs/
+          key: doc-exporter-jar-${{ steps.exporter_hash.outputs.hash }}
+
+      - name: Finish early if cache hit
+        if: steps.exporter_cache.outputs.cache-hit == 'true'
+        run: |
+          echo "Cached exporter jar found. Finishing job early."
+          exit 0
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
         with:
           java-version: ${{ env.JAVA_VERSION }}
           distribution: "temurin"
-      - shell: bash
+
+      - name: Create gradle cache for assets
+        shell: bash
         run: |
           mkdir -p ~/.gradle/caches/fabric-loom/assets
-      - uses: gradle/actions/setup-gradle@v3
-      - name: Build mod
-        run: |
-          ./gradlew build
-      - uses: actions/upload-artifact@v4
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: Build doc-exporter mod
+        run: ./gradlew build
+
+      - name: Save exporter jar to cache
+        uses: actions/cache/save@v4
         with:
-          name: doc-exporter-jar
-          path: doc-exporter-mod/build/libs/*.jar
+          path: doc-exporter-mod/build/libs/
+          key: doc-exporter-jar-${{ steps.exporter_hash.outputs.hash }}
+
   find:
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.filter.outputs.MATRIX }}
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
       - id: filter
         run: |
           echo "MATRIX=$(ls projects | sed -E 's/(^|$)/"/g' | jq -cs 'map("projects/\(.)")')" >> $GITHUB_OUTPUT
+
   build:
     runs-on: ubuntu-latest
     needs: [find]
@@ -54,34 +84,45 @@ jobs:
       matrix:
         file: ${{ fromJson(needs.find.outputs.matrix) }}
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+
       - id: info
         run: |
           echo "MODULE=$(jq -c . < ${{ matrix.file }})" >> $GITHUB_OUTPUT
           echo "DIR=$(basename ${{ matrix.file }} .json)" >> $GITHUB_OUTPUT
-      - run: |
+
+      - name: Prepare build directory
+        run: |
           mkdir -p build/${{ steps.info.outputs.DIR }}
-      - uses: actions/checkout@v4
-        name: Checkout module
+
+      - name: Checkout module
+        uses: actions/checkout@v4
         with:
           repository: ${{ fromJson(steps.info.outputs.MODULE).repo }}
           ref: ${{ fromJson(steps.info.outputs.MODULE).branch }}
           path: build/${{ steps.info.outputs.DIR }}
-      - name: Setup gradle
+
+      - name: Setup Gradle wrapper permissions
         shell: bash
         env:
           DIRECTORY: build/${{ steps.info.outputs.DIR }}
-        run: |
-          chmod +x $DIRECTORY/gradlew
-      - uses: actions/setup-java@v4
+        run: chmod +x $DIRECTORY/gradlew
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
         with:
           java-version: ${{ env.JAVA_VERSION }}
           distribution: "temurin"
-      - shell: bash
+
+      - name: Prepare gradle asset cache
+        shell: bash
         run: |
           mkdir -p ~/.gradle/caches/fabric-loom/assets
-      - uses: gradle/actions/setup-gradle@v3
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+
       - name: Build project
         uses: Wandalen/wretry.action@v3.8.0
         with:
@@ -89,17 +130,21 @@ jobs:
           attempt_delay: 2000
           current_path: build/${{ steps.info.outputs.DIR }}
           command: ./gradlew runData build
-      - uses: actions/upload-artifact@v4
+
+      - name: Upload built jar
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.info.outputs.DIR }}-jar
           path: build/${{ steps.info.outputs.DIR }}/build/libs/*.jar
+
       - name: Mark Resources Outdated
         if: failure()
         shell: bash
         run: |
           mkdir -p output/resources/${{ steps.info.outputs.DIR }}
           echo ${{ fromJson(steps.info.outputs.MODULE).hash }} > output/resources/${{ steps.info.outputs.DIR }}/.outdated
-      - name: Action - rsync data and resources
+
+      - name: Rsync data and resources
         if: success()
         uses: up9cloud/action-rsync@v1.4
         env:
@@ -112,6 +157,7 @@ jobs:
             echo start at:
             date -u
           POST_SCRIPT: "echo done at: && date -u"
+
       - name: Create Patch and Commit Message if changed
         shell: bash
         run: |
@@ -126,18 +172,21 @@ jobs:
           else
             echo "$COMMIT_MSG" > build/${{ steps.info.outputs.DIR }}.msg
           fi
-      - uses: actions/upload-artifact@v4
+
+      - name: Upload patch artifact (if exists)
         if: exists('build/${{ steps.info.outputs.DIR }}.patch')
+        uses: actions/upload-artifact@v4
         with:
           name: patch-${{ steps.info.outputs.DIR }}
           path: |
             build/${{ steps.info.outputs.DIR }}.patch
             build/${{ steps.info.outputs.DIR }}.msg
+
   apply-patches:
     runs-on: ubuntu-latest
     needs: [build]
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Download all patch artifacts
@@ -177,34 +226,56 @@ jobs:
           fi
           git pull --rebase
           git push
+
   run-and-export:
     runs-on: ubuntu-latest
     needs: [build-doc-exporter, apply-patches]
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Create mods folder
+
+      - name: Get last commit hash for doc-exporter-mod
+        id: exporter_hash
+        shell: bash
         run: |
-          mkdir -p run/mods
+          HASH=$(git log -n 1 --pretty=format:%h -- doc-exporter-mod)
+          echo "hash=$HASH" >> $GITHUB_OUTPUT
+
+      - name: Restore exporter jar from cache
+        id: exporter_cache
+        uses: actions/cache@v4
+        with:
+          path: doc-exporter-mod/build/libs/
+          key: doc-exporter-jar-${{ steps.exporter_hash.outputs.hash }}
+
+      - name: Create mods folder
+        run: mkdir -p run/mods
+
+      - name: Copy cached exporter jar to mods
+        run: cp doc-exporter-mod/build/libs/*.jar run/mods/
+
       - name: Download mod jars
         uses: actions/download-artifact@v4
         with:
           path: run/mods
           pattern: '*-jar'
           merge-multiple: true
+
       - name: Download dependencies
         run: |
           cd run/mods
           cat ../../dependencies.json | jq -r 'keys[] as $key | .[$key]' | while read -r dependency; do curl -LO "$dependency"; done
           rm *-sources.jar
-      - name: Remove old wiki
-        run: |
-          rm -rf output/wiki/*
-      - name: Setup Java ${{ env.JAVA_VERSION }}
+
+      - name: Remove old wiki output
+        run: rm -rf output/wiki/*
+
+      - name: Setup Java
         uses: actions/setup-java@v4
         with:
           java-version: ${{ env.JAVA_VERSION }}
           distribution: "temurin"
+
       - name: Export docs using headless client
         uses: headlesshq/mc-runtime-test@3.0.0
         with:
@@ -214,8 +285,10 @@ jobs:
           mc-runtime-test: neoforge
           java: ${{ env.JAVA_VERSION }}
           xvfb: false
-      - uses: Jarva/git-commit-push@main
+
+      - name: Commit and push updated runtime resources
         if: success() || failure()
+        uses: Jarva/git-commit-push@main
         with:
           pull: true
           commit_message: "feat: update runtime resources"
