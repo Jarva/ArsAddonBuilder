@@ -29,7 +29,6 @@ jobs:
     - name: Sync Projects
       run: |
         ./scripts/sync.sh
-    - uses: Jarva/git-commit-push@main
+    - uses: GuillaumeFalourd/git-commit-push@v1.3
       with:
-        pull: true
         commit_message: "ci: bump versions"
