@@ -164,7 +164,7 @@ jobs:
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git config --global user.name "${{ github.actor }}"
           COMMIT_MSG="feat: update ${{ matrix.file }} to ${{ fromJson(steps.info.outputs.MODULE).hash }}"
-          git diff > build/${{ steps.info.outputs.DIR }}.patch || true
+          git diff --binary > build/${{ steps.info.outputs.DIR }}.patch || true
           PATCH_SIZE=$(stat -c%s "build/${{ steps.info.outputs.DIR }}.patch" || echo 0)
           if [[ "$PATCH_SIZE" -eq "0" ]]; then
             echo "No changes to save as patch."
