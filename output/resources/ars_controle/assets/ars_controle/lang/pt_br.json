@@ -1,7 +1,4 @@
 {
-  "ars_controle.augment_desc.glyph_filter_random_glyph_amplify": "Aumenta a chance de resolução",
-  "ars_controle.augment_desc.glyph_filter_random_glyph_dampen": "Diminui a chance de resolução",
-  "ars_controle.augment_desc.glyph_precise_delay_glyph_extend_time": "Dobra o atraso",
   "ars_controle.config.enhanced_spellbook_controls": "Controles Aprimorados do Livro de Feitiços",
   "ars_controle.config.search_bar": "Barra de Pesquisa",
   "ars_controle.config.search_bar.clear_on_auto_focus": "Limpar ao Focar Automaticamente",
@@ -58,6 +55,9 @@
   "ars_controle.target.set.entity": "Alvo definido para %s em %s.",
   "ars_controle.target.set.none": "Alvo removido.",
   "ars_controle.target.set.self": "Alvo definido para si mesmo.",
+  "ars_nouveau.augment_desc.glyph_filter_random_glyph_amplify": "Aumenta a chance de resolução",
+  "ars_nouveau.augment_desc.glyph_filter_random_glyph_dampen": "Diminui a chance de resolução",
+  "ars_nouveau.augment_desc.glyph_precise_delay_glyph_extend_time": "Dobra o atraso",
   "ars_nouveau.page1.block.ars_controle.scroll_holder": "O Suporte de Pergaminho de Teleporte permite que você abra e feche facilmente portais de teleporte para seus destinos desejados. Simplesmente substitua uma das molduras do seu portal por um Suporte de Pergaminho de Teleporte em uma direção apropriada e insira um Pergaminho de Teleporte enquanto tiver alguma Fonte a até 10 blocos de distância.",
   "ars_nouveau.page1.block.ars_controle.scryers_linkage": "A Conexão do Vidente se conecta a outro bloco, permitindo que máquinas interajam com o bloco conectado à distância. É capaz de conectar itens, líquidos, energia, redstone e algumas outras coisas. Para configurá-lo, use uma Varinha do Domínio primeiro no bloco ao qual você quer se conectar, e depois na conexão.",
   "ars_nouveau.page1.block.ars_controle.temporal_stability_sensor": "O Sensor de Estabilidade Temporal mostra o quão instável o tempo do mundo está. Usando um comparador, você pode descobrir o quão perto o mundo está de ter lag, com uma saída de redstone mais alta significando que o mundo está mais perto de ter lag. Você pode usar isso para desligar fazendas automaticamente para evitar que o servidor tenha lag.",
