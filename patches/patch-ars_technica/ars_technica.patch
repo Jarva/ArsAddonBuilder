@@ -1,98 +1,98 @@
 diff --git a/output/resources/ars_technica/.cache/22da3953f3116aa5b47c423c1c5be808e60c1d2a b/output/resources/ars_technica/.cache/22da3953f3116aa5b47c423c1c5be808e60c1d2a
-index bc28457..74ba784 100644
+index 74ba784..3e74820 100644
 --- a/output/resources/ars_technica/.cache/22da3953f3116aa5b47c423c1c5be808e60c1d2a
 +++ b/output/resources/ars_technica/.cache/22da3953f3116aa5b47c423c1c5be808e60c1d2a
 @@ -1,4 +1,4 @@
--// 1.21.1	2025-08-24T22:08:01.00734749	Ars Technica Item Tags
-+// 1.21.1	2025-08-24T22:24:11.065534515	Ars Technica Item Tags
+-// 1.21.1	2025-08-24T22:24:11.065534515	Ars Technica Item Tags
++// 1.21.1	2025-08-24T23:03:22.993570631	Ars Technica Item Tags
  3fca767173f493dff3d7c168e2702893adea3ab6 data/ars_nouveau/tags/item/boot.json
  0da159b75e3302eb2021deb39a87aee81c753edc data/ars_nouveau/tags/item/hood.json
  6e439df9a1596efedd41ecc4cd495e078921cd5c data/ars_nouveau/tags/item/legs.json
 diff --git a/output/resources/ars_technica/.cache/517eac083826bd5ce5d6f961993b6ed4c5beb7af b/output/resources/ars_technica/.cache/517eac083826bd5ce5d6f961993b6ed4c5beb7af
-index 4d9a75e..b18430f 100644
+index b18430f..166cb0c 100644
 --- a/output/resources/ars_technica/.cache/517eac083826bd5ce5d6f961993b6ed4c5beb7af
 +++ b/output/resources/ars_technica/.cache/517eac083826bd5ce5d6f961993b6ed4c5beb7af
 @@ -1,3 +1,3 @@
--// 1.21.1	2025-08-24T22:08:01.007915008	Create Grinding Recipes
-+// 1.21.1	2025-08-24T22:24:11.06752319	Create Grinding Recipes
+-// 1.21.1	2025-08-24T22:24:11.06752319	Create Grinding Recipes
++// 1.21.1	2025-08-24T23:03:22.99416563	Create Grinding Recipes
  f8bfc24a4f8bcee0c64a65b5bded179b3ac687f8 data/create_enchantment_industry/recipe/grinding/ars_technica/gargantuan_experience_gem.json
  8b479b9523be79ac1026dd20cf3236a15e1da06f data/create_enchantment_industry/recipe/grinding/ars_technica/giant_experience_gem.json
 diff --git a/output/resources/ars_technica/.cache/579920af1e0f73cc25de3d97b6dce8860a0495ac b/output/resources/ars_technica/.cache/579920af1e0f73cc25de3d97b6dce8860a0495ac
-index b9abf42..44b0662 100644
+index 44b0662..f16be7d 100644
 --- a/output/resources/ars_technica/.cache/579920af1e0f73cc25de3d97b6dce8860a0495ac
 +++ b/output/resources/ars_technica/.cache/579920af1e0f73cc25de3d97b6dce8860a0495ac
 @@ -1,4 +1,4 @@
--// 1.21.1	2025-08-24T22:08:01.008079124	Example Apparatus
-+// 1.21.1	2025-08-24T22:24:11.067694962	Example Apparatus
+-// 1.21.1	2025-08-24T22:24:11.067694962	Example Apparatus
++// 1.21.1	2025-08-24T23:03:22.994393324	Example Apparatus
  09f2e6ad0fa1a632185c9f5f32306457ea17a3f1 data/ars_technica/recipe/blank_disc.json
  5bbd85ace804da46821977a6436410ca057e64d2 data/ars_technica/recipe/calibrated_precision_mechanism.json
  2306a02e63bdcd4f773034b02a02944fdccac786 data/ars_technica/recipe/mark_of_technomancy.json
 diff --git a/output/resources/ars_technica/.cache/7d3f81efd95f45344e7ea48b0ab9670d760ce60b b/output/resources/ars_technica/.cache/7d3f81efd95f45344e7ea48b0ab9670d760ce60b
-index 598e8f2..b89dbbe 100644
+index b89dbbe..04069ce 100644
 --- a/output/resources/ars_technica/.cache/7d3f81efd95f45344e7ea48b0ab9670d760ce60b
 +++ b/output/resources/ars_technica/.cache/7d3f81efd95f45344e7ea48b0ab9670d760ce60b
 @@ -1,4 +1,4 @@
--// 1.21.1	2025-08-24T22:08:01.008292021	Dye Recipes
-+// 1.21.1	2025-08-24T22:24:11.067950449	Dye Recipes
+-// 1.21.1	2025-08-24T22:24:11.067950449	Dye Recipes
++// 1.21.1	2025-08-24T23:03:22.994643931	Dye Recipes
  7d96d7c7b08827ec840d2c66cead10e118354fb5 data/ars_technica/recipe/dye_techno_boots.json
  1d9cb5bf99a2f3b7d329782371877cbacc2724ee data/ars_technica/recipe/dye_techno_hat.json
  5c022ea6165b0660667ea9c45b8a057bcf82938c data/ars_technica/recipe/dye_techno_leggings.json
 diff --git a/output/resources/ars_technica/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e b/output/resources/ars_technica/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e
-index 2c1124e..65d640f 100644
+index 65d640f..5bc3daa 100644
 --- a/output/resources/ars_technica/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e
 +++ b/output/resources/ars_technica/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e
 @@ -1,4 +1,4 @@
--// 1.21.1	2025-08-24T22:08:01.007072007	Recipes
-+// 1.21.1	2025-08-24T22:24:11.063654363	Recipes
+-// 1.21.1	2025-08-24T22:24:11.063654363	Recipes
++// 1.21.1	2025-08-24T23:03:22.99122455	Recipes
  5a99b1c1339d37166769d31de8972f8b3ec11fba data/ars_technica/advancement/recipes/misc/gargantuan_experience_gem.json
  02aa1e67e073f820e3561a61eebd12ff2cb44437 data/ars_technica/advancement/recipes/misc/giant_experience_gem.json
  ba95cc277905fdfb0171d1d3ed3bbf0404176205 data/ars_technica/advancement/recipes/misc/giant_from_gargantuan_experience_gem.json
 diff --git a/output/resources/ars_technica/.cache/a5cf2315ec32a91b366b6aebdbb4d961119ab0fd b/output/resources/ars_technica/.cache/a5cf2315ec32a91b366b6aebdbb4d961119ab0fd
-index 3e4b299..8417512 100644
+index 8417512..a23f97d 100644
 --- a/output/resources/ars_technica/.cache/a5cf2315ec32a91b366b6aebdbb4d961119ab0fd
 +++ b/output/resources/ars_technica/.cache/a5cf2315ec32a91b366b6aebdbb4d961119ab0fd
 @@ -1,4 +1,4 @@
--// 1.21.1	2025-08-24T22:08:01.006845585	Armor Upgrade Recipes
-+// 1.21.1	2025-08-24T22:24:11.063418001	Armor Upgrade Recipes
+-// 1.21.1	2025-08-24T22:24:11.063418001	Armor Upgrade Recipes
++// 1.21.1	2025-08-24T23:03:22.990989011	Armor Upgrade Recipes
  91e6c261f98e862dbf8bbc7727bcef412108ec7c data/ars_technica/recipe/technomancer_boots.json
  e7f228898e7095c48d243cfdf42a2d4f4e1e1e50 data/ars_technica/recipe/technomancer_boots_default.json
  f2191cc0fcd8e7a07385c1aeb5fa263ad3696bcf data/ars_technica/recipe/technomancer_chestplate.json
 diff --git a/output/resources/ars_technica/.cache/c390be644ed15f34c16b96fe771fb67714d1d442 b/output/resources/ars_technica/.cache/c390be644ed15f34c16b96fe771fb67714d1d442
-index 20ef182..3503329 100644
+index 3503329..d95a5aa 100644
 --- a/output/resources/ars_technica/.cache/c390be644ed15f34c16b96fe771fb67714d1d442
 +++ b/output/resources/ars_technica/.cache/c390be644ed15f34c16b96fe771fb67714d1d442
 @@ -1,3 +1,3 @@
--// 1.21.1	2025-08-24T22:08:01.005366551	Curios Item Tags
-+// 1.21.1	2025-08-24T22:24:11.062182653	Curios Item Tags
+-// 1.21.1	2025-08-24T22:24:11.062182653	Curios Item Tags
++// 1.21.1	2025-08-24T23:03:22.989739693	Curios Item Tags
  30cf7c6df6c4d4156054d771f5118fdcc18d5377 data/curios/tags/item/an_focus.json
  4e97deefda95dff839eb0db5c5e3dfd6c82025c6 data/curios/tags/item/head.json
 diff --git a/output/resources/ars_technica/.cache/e0116586464a014b825fc7ea7bceba13b18219bc b/output/resources/ars_technica/.cache/e0116586464a014b825fc7ea7bceba13b18219bc
-index 4ca5a44..c3c6e23 100644
+index c3c6e23..eb65f14 100644
 --- a/output/resources/ars_technica/.cache/e0116586464a014b825fc7ea7bceba13b18219bc
 +++ b/output/resources/ars_technica/.cache/e0116586464a014b825fc7ea7bceba13b18219bc
 @@ -1,4 +1,4 @@
--// 1.21.1	2025-08-24T22:08:01.007696171	C Item Tags
-+// 1.21.1	2025-08-24T22:24:11.065843042	C Item Tags
+-// 1.21.1	2025-08-24T22:24:11.065843042	C Item Tags
++// 1.21.1	2025-08-24T23:03:22.993917848	C Item Tags
  5f380f144ebea010327c6716183fc57c4fc4c282 data/c/tags/item/blank_music_disc.json
  0346b0924e599956c468dac9e1d96a4527ed829a data/c/tags/item/consumables/experience_12.json
  7472b5ea175c59dfedb40eb0caf537a10d362af9 data/c/tags/item/consumables/experience_192.json
 diff --git a/output/resources/ars_technica/.cache/e5c5eb35b4ba40351ecb7d9f04c3527f2f5779b0 b/output/resources/ars_technica/.cache/e5c5eb35b4ba40351ecb7d9f04c3527f2f5779b0
-index d335cf7..14285ad 100644
+index 14285ad..63ce15c 100644
 --- a/output/resources/ars_technica/.cache/e5c5eb35b4ba40351ecb7d9f04c3527f2f5779b0
 +++ b/output/resources/ars_technica/.cache/e5c5eb35b4ba40351ecb7d9f04c3527f2f5779b0
 @@ -1,4 +1,4 @@
--// 1.21.1	2025-08-24T22:08:01.008471756	Advancements
-+// 1.21.1	2025-08-24T22:24:11.068118983	Advancements
+-// 1.21.1	2025-08-24T22:24:11.068118983	Advancements
++// 1.21.1	2025-08-24T23:03:22.994847721	Advancements
  2b5791a2ded508af5c65b5a662736841ebacc0b8 data/ars_nouveau/advancement/calibrated_precision_mechanism.json
  c077f6db2b3edca41a68d8eed0c0a79512500c47 data/ars_nouveau/advancement/runic_spanner.json
  098c9986c082c775635965b86727f61e6ca991e4 data/ars_nouveau/advancement/source_motor.json
 diff --git a/output/resources/ars_technica/.cache/f0f2bcace349d412215f006e6183aa56b9316c3c b/output/resources/ars_technica/.cache/f0f2bcace349d412215f006e6183aa56b9316c3c
-index e4cc943..3d1bd1e 100644
+index 3d1bd1e..ad5a402 100644
 --- a/output/resources/ars_technica/.cache/f0f2bcace349d412215f006e6183aa56b9316c3c
 +++ b/output/resources/ars_technica/.cache/f0f2bcace349d412215f006e6183aa56b9316c3c
 @@ -1,4 +1,4 @@
--// 1.21.1	2025-08-24T22:08:01.006510741	Glyph Recipes
-+// 1.21.1	2025-08-24T22:24:11.063124864	Glyph Recipes
+-// 1.21.1	2025-08-24T22:24:11.063124864	Glyph Recipes
++// 1.21.1	2025-08-24T23:03:22.990689233	Glyph Recipes
  553dab1101bc2dceb1ad258aeb478902c0d40ade data/ars_technica/recipe/glyph_apply.json
  7baf010789dcbf379d3ae2694cb32229f9106bd0 data/ars_technica/recipe/glyph_carve.json
  02635125d079d18638c1e8ab3d9de7e1a6543e98 data/ars_technica/recipe/glyph_fuse.json

@@ -1,4 +1,5 @@
 patches/patch-ars_additions/ars_additions.patch
 patches/patch-ars_controle/ars_controle.patch
+patches/patch-ars_elemental/ars_elemental.patch
 patches/patch-ars_nouveau/ars_nouveau.patch
 patches/patch-ars_technica/ars_technica.patch
