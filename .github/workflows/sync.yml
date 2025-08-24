@@ -1,0 +1,58 @@
+name: Sync Latest Changes
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'projects/**'
+  schedule:
+    - cron: "0 0 * * *"
+
+env:
+  JAVA_VERSION: 21
+
+permissions:
+  contents: write
+
+jobs:
+  build-doc-exporter:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./doc-exporter-mod
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          java-version: ${{ env.JAVA_VERSION }}
+          distribution: "temurin"
+      - shell: bash
+        run: |
+          mkdir -p ~/.gradle/caches/fabric-loom/assets
+      - uses: gradle/actions/setup-gradle@v3
+      - name: Build mod
+        run: |
+          ./gradlew build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: doc-exporter-jar
+          path: doc-exporter-mod/build/libs/*.jar
+  sync:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        branch: ["1.21"]
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ matrix.branch }}
+    - name: Sync Projects
+      run: |
+        ./scripts/sync.sh
+    - uses: Jarva/git-commit-push@main
+      with:
+        pull: true
+        commit_message: "ci: bump versions"
