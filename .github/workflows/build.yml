@@ -162,6 +162,7 @@ jobs:
           SOURCE: "build/${{ steps.info.outputs.DIR }}/src/main/resources/ build/${{ steps.info.outputs.DIR }}/src/generated/resources/"
           TARGET: output/resources/${{ steps.info.outputs.DIR }}
           VERBOSE: true
+          ARGS_MORE: "--exclude=**/.cache/** --exclude=*.cache"
           PRE_SCRIPT: |
             rm -rf output/resources/${{ steps.info.outputs.DIR }}
             echo start at:
@@ -227,8 +228,8 @@ jobs:
               continue
             fi
             echo "Applying $patchfile"
-            patch -p1 --binary --input="$patchfile"
-            git add .
+            git apply --index --whitespace=nowarn "$patchfile"
+            git add -A
             COMMIT_MSG=$(cat "$msgfile")
             git commit -m "$COMMIT_MSG"
             PATCH_COUNT=$((PATCH_COUNT+1))
