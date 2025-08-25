@@ -208,6 +208,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Pre-create patch folder
+        run: mkdir -p build/patches
+
       - name: Download all patch artifacts
         uses: actions/download-artifact@v4
         with:
