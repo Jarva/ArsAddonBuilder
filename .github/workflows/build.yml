@@ -280,6 +280,18 @@ jobs:
           pattern: '*-jar'
           merge-multiple: true
 
+      - name: Compute release hash
+        id: release_hash
+        shell: bash
+        run: |
+          echo "hash=$(git rev-parse --short HEAD || true)" >> "$GITHUB_OUTPUT"
+      - name: Publish Jars
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.release_hash.outputs.hash }}
+          files: |
+            run/mods/*
+
       - name: Download dependencies
         run: |
           cd run/mods
@@ -306,21 +318,7 @@ jobs:
           xvfb: false
 
       - name: Commit and push updated runtime resources
-        if: always()
         uses: Jarva/git-commit-push@main
         with:
           pull: true
           commit_message: "feat: update runtime resources"
-      - name: Compute release hash
-        id: release_hash
-        if: always()
-        shell: bash
-        run: |
-          echo "hash=$(git rev-parse --short HEAD || true)" >> "$GITHUB_OUTPUT"
-      - name: Publish Jars
-        if: always()
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: ${{ steps.release_hash.outputs.hash }}
-          files: |
-            run/mods/*
