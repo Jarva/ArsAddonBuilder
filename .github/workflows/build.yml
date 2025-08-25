@@ -22,12 +22,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Get last commit hash for doc-exporter-mod
+      - name: Compute content tree hash for doc-exporter-mod
         id: exporter_hash
         shell: bash
         run: |
-          HASH=$(git log -n 1 --pretty=format:%h -- doc-exporter-mod)
-          echo "hash=$HASH" >> $GITHUB_OUTPUT
+          set -e
+          HASH=$(git rev-parse HEAD:doc-exporter-mod || true)
+          if [ -z "$HASH" ]; then
+            # Fallback to full commit hash if tree resolution failed (e.g., repo state unusual)
+            HASH=$(git rev-parse HEAD)
+          fi
+          echo "hash=$HASH" >> "$GITHUB_OUTPUT"
 
       - name: Check exporter jar cache
         id: cache_check
