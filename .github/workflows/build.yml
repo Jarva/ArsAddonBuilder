@@ -158,7 +158,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: build/${{ steps.info.outputs.DIR }}/build/libs/
-          key: ${{ fromJson(steps.info.outputs.MODULE).hash }}
+          key: ${{ steps.info.outputs.DIR }}-${{ fromJson(steps.info.outputs.MODULE).hash }}
 
       - name: Upload built jar
         uses: actions/upload-artifact@v4
