@@ -34,28 +34,31 @@ jobs:
           fi
           echo "hash=$HASH" >> "$GITHUB_OUTPUT"
 
-      - name: Setup Java
-        uses: actions/setup-java@v4
-        with:
-          java-version: ${{ env.JAVA_VERSION }}
-          distribution: "temurin"
-
-      - name: Create gradle cache for assets
-        shell: bash
-        run: |
-          mkdir -p ~/.gradle/caches/fabric-loom/assets
-
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v3
-        with:
-          cache-overwrite-existing: true
-
       - name: Restore exporter jar cache
         id: exporter_cache
         uses: actions/cache/restore@v4
         with:
           path: doc-exporter-mod/build/libs/
           key: doc-exporter-jar-${{ steps.exporter_hash.outputs.hash }}
+
+      - name: Setup Java
+        if: steps.exporter_cache.outputs.cache-hit != 'true'
+        uses: actions/setup-java@v4
+        with:
+          java-version: ${{ env.JAVA_VERSION }}
+          distribution: "temurin"
+
+      - name: Create gradle cache for assets
+        if: steps.exporter_cache.outputs.cache-hit != 'true'
+        shell: bash
+        run: |
+          mkdir -p ~/.gradle/caches/fabric-loom/assets
+
+      - name: Setup Gradle
+        if: steps.exporter_cache.outputs.cache-hit != 'true'
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          cache-overwrite-existing: true
 
       - name: Build doc-exporter mod
         if: steps.exporter_cache.outputs.cache-hit != 'true'
@@ -304,6 +307,14 @@ jobs:
 
       - name: Commit and push updated runtime resources
         if: always()
-        uses: GuillaumeFalourd/git-commit-push@v1.3
+        uses: Jarva/git-commit-push@main
         with:
+          pull: true
           commit_message: "feat: update runtime resources"
+
+      - name: Publish Jars
+        if: always()
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            run/mods/*
