@@ -61,6 +61,8 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
+        with:
+          cache-overwrite-existing: true
 
       - name: Build doc-exporter mod
         run: ./gradlew build
@@ -128,6 +130,8 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
+        with:
+          cache-overwrite-existing: true
 
       - name: Build project
         uses: Wandalen/wretry.action@v3.8.0
