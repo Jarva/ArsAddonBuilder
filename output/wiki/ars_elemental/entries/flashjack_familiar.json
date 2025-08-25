@@ -1,0 +1,14 @@
+{
+  "id": "ars_elemental:flashjack_familiar",
+  "order": 100,
+  "icon": "ars_elemental:flashjack_familiar",
+  "title": "Flashjack Familiar",
+  "category": "ars_nouveau:familiars",
+  "pages": [
+    {
+      "title": "Bound Script: Flashjack",
+      "description": "A Flashjack Familiar  increases the damage  of Lightning spells  by 2 and reduces  movement-based spell  costs by 20%. You can  feed it a Flashpine  to get a short Speed  and Night Vision  buff. Obtained by  performing the  Ritual of Binding  near a Flashjack.",
+      "icon": "ars_elemental:flashjack_familiar"
+    }
+  ]
+}
