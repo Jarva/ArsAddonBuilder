@@ -311,10 +311,17 @@ jobs:
         with:
           pull: true
           commit_message: "feat: update runtime resources"
-
+      - name: Compute release hash
+        id: release_hash
+        if: always()
+        shell: bash
+        run: |
+          echo "hash=$(git rev-parse --short HEAD || true)" >> "$GITHUB_OUTPUT"
       - name: Publish Jars
         if: always()
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ steps.release_hash.outputs.hash }}
+          target_commitish: ${{ steps.release_hash.outputs.hash }}
           files: |
             run/mods/*
