@@ -284,6 +284,9 @@ jobs:
           pattern: '*-jar'
           merge-multiple: true
 
+      - name: Remove sources files
+        run: rm run/mods/*-sources.jar
+
       - name: Compute release hash
         id: release_hash
         shell: bash
