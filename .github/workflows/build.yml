@@ -287,17 +287,11 @@ jobs:
       - name: Remove sources files
         run: rm run/mods/*-sources.jar
 
-      - name: Compute release hash
-        id: release_hash
+      - name: List mods files
+        id: list_mods
         shell: bash
         run: |
-          echo "hash=$(git rev-parse --short HEAD || true)" >> "$GITHUB_OUTPUT"
-      - name: Publish Jars
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: ${{ steps.release_hash.outputs.hash }}
-          files: |
-            run/mods/*
+          echo "files=$(ls -1 run/mods | sort)" >> "$GITHUB_OUTPUT"
 
       - name: Download dependencies
         run: |
@@ -329,3 +323,15 @@ jobs:
         with:
           pull: true
           commit_message: "feat: update runtime resources"
+
+      - name: Compute release hash
+        id: release_hash
+        shell: bash
+        run: |
+          echo "hash=$(git rev-parse --short HEAD || true)" >> "$GITHUB_OUTPUT"
+
+      - name: Publish Jars
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.release_hash.outputs.hash }}
+          files: ${{ steps.list_mods.outputs.files }}
