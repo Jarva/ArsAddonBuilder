@@ -319,9 +319,9 @@ jobs:
           echo "hash=$(git rev-parse --short HEAD || true)" >> "$GITHUB_OUTPUT"
       - name: Publish Jars
         if: always()
-        uses: softprops/action-gh-release@v2
+        uses: ncipollo/release-action@v1
         with:
-          tag_name: ${{ steps.release_hash.outputs.hash }}
-          target_commitish: ${{ steps.release_hash.outputs.hash }}
+          name: ${{ steps.release_hash.outputs.hash }}
+          commit: ${{ steps.release_hash.outputs.hash }}
           files: |
             run/mods/*
