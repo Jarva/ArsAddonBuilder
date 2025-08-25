@@ -206,13 +206,13 @@ jobs:
       - name: Download all patch artifacts
         uses: actions/download-artifact@v4
         with:
-          path: patches
+          path: build/patches
           pattern: patch-*
 
       - name: List patches
         id: list_patches
         run: |
-          find patches -name "*.patch" -type f | sort > patches/patch_list.txt
+          find build/patches -name "*.patch" -type f | sort > build/patches/patch_list.txt
 
       - name: Apply patches and commit individually
         run: |
@@ -233,7 +233,7 @@ jobs:
             COMMIT_MSG=$(cat "$msgfile")
             git commit -m "$COMMIT_MSG"
             PATCH_COUNT=$((PATCH_COUNT+1))
-          done < patches/patch_list.txt
+          done < build/patches/patch_list.txt
           if [ "$PATCH_COUNT" -eq 0 ]; then
             echo "No patches to commit."
             exit 0
