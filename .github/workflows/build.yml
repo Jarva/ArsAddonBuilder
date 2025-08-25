@@ -291,7 +291,14 @@ jobs:
         id: list_mods
         shell: bash
         run: |
-          echo "files=\"$(ls -1 run/mods | sort)\"" >> "$GITHUB_OUTPUT"
+          set -e
+          # Build a newline-delimited list of full paths to files in run/mods
+          FILES=$(find run/mods -maxdepth 1 -type f -printf 'run/mods/%f\n' | sort || true)
+          {
+            echo "files<<__MODS__"
+            printf '%s\n' "$FILES"
+            echo "__MODS__"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Download dependencies
         run: |
