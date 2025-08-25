@@ -13,7 +13,8 @@ public class DocExporterMixin {
     @WrapOperation(method = "export", at = @At(value = "INVOKE", target = "Ljava/nio/file/Path;of(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;"))
     private static Path wikiPath(String first, String[] more, Operation<Path> original) {
         if (more.length == 0) {
-            var replaced = first.replaceFirst("^\\.\\./\\.\\./wiki", "../output/wiki");
+            String baseWiki = dev.qther.doc_exporter.ExportPaths.wikiBase().toString();
+            String replaced = first.replaceFirst("^\\.\\./\\.\\./wiki", baseWiki);
             if (replaced.length() != first.length()) {
                 return original.call(replaced, more);
             }
