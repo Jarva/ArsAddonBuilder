@@ -153,6 +153,10 @@ jobs:
           current_path: build/${{ steps.info.outputs.DIR }}
           command: ./gradlew runData build
 
+      - name: Delete sources jars
+        if: steps.module_cache.outputs.cache-hit != 'true'
+        run: rm build/${{ steps.info.outputs.DIR }}/build/libs/*-sources.jar
+
       - name: Save module jar to cache
         if: steps.module_cache.outputs.cache-hit != 'true'
         uses: actions/cache/save@v4
