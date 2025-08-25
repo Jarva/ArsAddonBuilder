@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "ars_nouveau:block/decor_blossom"
-    }
+    "": { "model": "ars_nouveau:block/decor_blossom" }
   }
 }
