@@ -304,7 +304,6 @@ jobs:
         run: |
           cd run/mods
           cat ../../dependencies.json | jq -r 'keys[] as $key | .[$key]' | while read -r dependency; do curl -LO "$dependency"; done
-          rm *-sources.jar
 
       - name: Remove old wiki output
         run: rm -rf output/wiki/*
