@@ -174,7 +174,10 @@ jobs:
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git config --global user.name "${{ github.actor }}"
           COMMIT_MSG="feat: update ${{ matrix.file }} to ${{ fromJson(steps.info.outputs.MODULE).hash }}"
-          git diff --binary --full-index --no-relative -- . ':(exclude)*.cache*' > build/${{ steps.info.outputs.DIR }}.patch || true
+          git diff --binary --full-index --no-relative -- \
+            . \
+            ':!**/*.cache*' \
+            > build/${{ steps.info.outputs.DIR }}.patch || true
           PATCH_SIZE=$(stat -c%s "build/${{ steps.info.outputs.DIR }}.patch" || echo 0)
           if [[ "$PATCH_SIZE" -eq "0" ]]; then
             echo "No changes to save as patch."
@@ -224,7 +227,7 @@ jobs:
               continue
             fi
             echo "Applying $patchfile"
-            git apply "$patchfile"
+            patch -p1 --binary --input="$patchfile"
             git add .
             COMMIT_MSG=$(cat "$msgfile")
             git commit -m "$COMMIT_MSG"
