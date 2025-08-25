@@ -31,10 +31,11 @@ jobs:
 
       - name: Check exporter jar cache
         id: cache_check
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: doc-exporter-mod/build/libs/
           key: doc-exporter-jar-${{ steps.exporter_hash.outputs.hash }}
+          lookup-only: true
 
   build-doc-exporter:
     runs-on: ubuntu-latest
