@@ -291,7 +291,7 @@ jobs:
         id: list_mods
         shell: bash
         run: |
-          echo "files=$(ls -1 run/mods | sort)" >> "$GITHUB_OUTPUT"
+          echo "files=\"$(ls -1 run/mods | sort)\"" >> "$GITHUB_OUTPUT"
 
       - name: Download dependencies
         run: |
