@@ -285,7 +285,7 @@ jobs:
           merge-multiple: true
 
       - name: Remove sources files
-        run: rm run/mods/*-sources.jar
+        run: rm run/mods/*-sources.jar || true
 
       - name: List mods files
         id: list_mods
