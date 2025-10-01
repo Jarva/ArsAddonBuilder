@@ -30,4 +30,8 @@ public final class ExportPaths {
     public static Path langFile(String langCode) {
         return langBase().resolve(langCode + ".json");
     }
+
+    public static Path animatedTexturesBase() {
+        return BASE.resolve("animated_textures");
+    }
 }

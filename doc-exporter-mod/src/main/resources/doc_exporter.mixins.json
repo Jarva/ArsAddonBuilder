@@ -10,6 +10,9 @@
     "GameTestHooksMixin"
   ],
   "client": [
+    "AnimatedTextureAccessor",
+    "AnimatedTextureFramesAccessor",
+    "FrameInfoAccessor"
   ],
   "injectors": {
     "defaultRequire": 1

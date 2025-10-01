@@ -92,6 +92,19 @@ public class DocExportHelper {
 
         LangExporter.loadLanguage("en_us");
 
+        // Export animated textures
+        try {
+            Path animatedTexturesBase = ExportPaths.animatedTexturesBase();
+            Files.createDirectories(animatedTexturesBase);
+
+            for (IModInfo mod : ModList.get().getMods()) {
+                LOGGER.info("Exporting animated textures for {}", mod.getModId());
+                AnimatedTextureExporter.exportAnimatedTextures(mod.getModId());
+            }
+        } catch (IOException | IllegalStateException e) {
+            LOGGER.error("could not create animated textures", e);
+        }
+
         // Exit
         Minecraft.getInstance().stop();
     }
