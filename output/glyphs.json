@@ -2011,9 +2011,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
@@ -2084,8 +2084,8 @@
         "compatible": [
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
           "ars_nouveau:glyph_duration_down": {
@@ -3367,8 +3367,8 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_sensitive",
+          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen"
@@ -4096,8 +4096,8 @@
         "compatible": [
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
           "ars_nouveau:glyph_duration_down": {
@@ -4363,8 +4363,8 @@
         "compatible": [
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
@@ -5906,8 +5906,8 @@
         "compatible": [
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
           "ars_nouveau:glyph_duration_down": {
@@ -6004,8 +6004,8 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
@@ -6199,8 +6199,8 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
