@@ -2950,8 +2950,8 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_extract",
+          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen"
@@ -4363,8 +4363,8 @@
         "compatible": [
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
