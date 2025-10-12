@@ -19,7 +19,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 /**
- * Exports animated item textures as GIF files using Minecraft's animation system.
+ * Exports animated item textures as APNG files using Minecraft's animation system.
  *
  * <p>This exporter scans all registered items to find those with animated textures,
  * then uses Minecraft's AnimatedTexture to extract frames with proper timing and
@@ -31,6 +31,7 @@ import java.nio.file.Path;
  *   <li>Respects animation timing and frame order from .mcmeta files</li>
  *   <li>Supports interpolation when enabled in the texture's animation settings</li>
  *   <li>Converts ABGR pixel format to ARGB for BufferedImage compatibility</li>
+ *   <li>Outputs APNG (Animated PNG) format for better quality and alpha channel support</li>
  * </ul>
  */
 public class AnimatedTextureExporter {
@@ -56,13 +57,7 @@ public class AnimatedTextureExporter {
      */
     public static void exportAnimatedTextures(String modId) {
         Path outputDir = ExportPaths.BASE.resolve("animated_textures").resolve(modId);
-
-        try {
-            Files.createDirectories(outputDir);
-        } catch (IOException e) {
-            LOGGER.error("Failed to create output directory for animated textures", e);
-            return;
-        }
+        boolean outputDirCreated = false;
 
         int exportedCount = 0;
         Minecraft minecraft = Minecraft.getInstance();
@@ -76,6 +71,15 @@ public class AnimatedTextureExporter {
                 TextureAtlasSprite sprite = getItemSprite(minecraft, item);
 
                 if (isAnimated(sprite)) {
+                    if (!outputDirCreated) {
+                        try {
+                            Files.createDirectories(outputDir);
+                            outputDirCreated = true;
+                        } catch (IOException e) {
+                            LOGGER.error("Failed to create output directory for animated textures", e);
+                            return;
+                        }
+                    }
                     LOGGER.info("Found animated item texture: {}", BuiltInRegistries.ITEM.getKey(item));
                     processAnimatedItem(item, sprite, outputDir);
                     exportedCount++;
@@ -111,25 +115,31 @@ public class AnimatedTextureExporter {
         String itemName = BuiltInRegistries.ITEM.getKey(item).getPath();
 
         try {
+            var spriteContents = sprite.contents();
+            var contentsAccessor = (AnimatedTextureAccessor) spriteContents;
+            var animatedTexture = contentsAccessor.getAnimatedTexture();
+            var animTexAccessor = (AnimatedTextureFramesAccessor) animatedTexture;
+            boolean interpolate = animTexAccessor.getInterpolateFrames();
+
             AnimationFrame[] frames = extractFramesFromSprite(sprite);
-            LOGGER.debug("Processing {} with {} frames", itemName, frames.length);
+            LOGGER.debug("Processing {} with {} frames (interpolated: {})", itemName, frames.length, interpolate);
 
-            Path outputPath = outputDir.resolve(itemName + ".gif");
-            GifGenerator.generateGifFromFrames(frames, outputPath);
+            Path outputPath = outputDir.resolve(itemName + ".png");
+            ApngGenerator.generateApngFromFrames(frames, outputPath, interpolate);
 
-            LOGGER.info("Generated animated GIF: {}", outputPath);
+            LOGGER.info("Generated animated PNG: {}", outputPath);
         } catch (Exception e) {
-            LOGGER.error("Failed to generate GIF for item {}: {}", itemName, e.getMessage(), e);
+            LOGGER.error("Failed to generate APNG for item {}: {}", itemName, e.getMessage(), e);
             writeErrorPlaceholder(outputDir, itemName, e);
         }
     }
 
     private static void writeErrorPlaceholder(Path outputDir, String itemName, Exception error) throws IOException {
         String errorMessage = String.format(
-            "Failed to generate GIF for item: %s. Error: %s",
+            "Failed to generate APNG for item: %s. Error: %s",
             itemName, error.getMessage());
 
-        Path placeholderPath = outputDir.resolve(itemName + ".gif.txt");
+        Path placeholderPath = outputDir.resolve(itemName + ".png.txt");
         Files.writeString(placeholderPath, errorMessage);
     }
 
