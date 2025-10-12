@@ -21,6 +21,8 @@ jobs:
       fail-fast: false
       matrix:
         branch: ["1.21"]
+    outputs:
+      changes_committed: ${{ steps.detect_commit.outputs.changed }}
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -32,3 +34,18 @@ jobs:
     - uses: GuillaumeFalourd/git-commit-push@v1.3
       with:
         commit_message: "ci: bump versions"
+    - name: Detect new commit
+      id: detect_commit
+      run: |
+        post=$(git rev-parse HEAD)
+        if [ "$post" != "${{ github.sha }}" ]; then
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "changed=false" >> "$GITHUB_OUTPUT"
+        fi
+
+  build:
+    needs: sync
+    if: needs.sync.outputs.changes_committed == 'true'
+    uses: ./.github/workflows/build.yml
+    secrets: inherit
