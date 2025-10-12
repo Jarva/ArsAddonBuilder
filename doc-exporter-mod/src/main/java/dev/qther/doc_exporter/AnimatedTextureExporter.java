@@ -1,6 +1,7 @@
 package dev.qther.doc_exporter;
 
 import com.mojang.blaze3d.platform.NativeImage;
+import com.mojang.blaze3d.systems.RenderSystem;
 import dev.qther.doc_exporter.capture.FrameCaptureContext;
 import dev.qther.doc_exporter.mixin.AnimatedTextureAccessor;
 import dev.qther.doc_exporter.mixin.AnimatedTextureFramesAccessor;
@@ -200,6 +201,7 @@ public class AnimatedTextureExporter {
 
         try (FrameCaptureContext capture = FrameCaptureContext.activate()) {
             spriteContents.uploadFirstFrame(0, 0);
+            RenderSystem.replayQueue();
             BufferedImage currentFrame = capture.pollLatest();
             if (currentFrame == null) {
                 currentFrame = copyImage(getFrameImage(frameCache, originalImage, frameWidth, frameHeight, frameRowSize, firstFrameIndex));
@@ -220,6 +222,7 @@ public class AnimatedTextureExporter {
 
                 for (int sub = 1; sub < duration; sub++) {
                     ticker.tickAndUpload(0, 0);
+                    RenderSystem.replayQueue();
                     BufferedImage updated = capture.pollLatest();
                     if (updated != null) {
                         currentFrame = updated;
@@ -229,6 +232,7 @@ public class AnimatedTextureExporter {
 
                 if (frameIdx < frameInfoList.size() - 1) {
                     ticker.tickAndUpload(0, 0);
+                    RenderSystem.replayQueue();
                     BufferedImage nextFrame = capture.pollLatest();
                     int nextIndex = ((FrameInfoAccessor) frameInfoList.get(frameIdx + 1)).getIndex();
                     if (nextFrame == null) {

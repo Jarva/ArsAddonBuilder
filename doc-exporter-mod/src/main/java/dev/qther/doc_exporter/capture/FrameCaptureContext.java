@@ -3,13 +3,15 @@ package dev.qther.doc_exporter.capture;
 import com.mojang.blaze3d.platform.NativeImage;
 
 import java.awt.image.BufferedImage;
-import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+/**
+ * Thread-local helper that records frame uploads while active.
+ */
 public final class FrameCaptureContext implements AutoCloseable {
     private static final ThreadLocal<FrameCaptureContext> ACTIVE = new ThreadLocal<>();
 
-    private final Queue<BufferedImage> capturedFrames = new ConcurrentLinkedQueue<>();
+    private final ConcurrentLinkedQueue<BufferedImage> capturedFrames = new ConcurrentLinkedQueue<>();
 
     private FrameCaptureContext() {
     }
@@ -28,15 +30,15 @@ public final class FrameCaptureContext implements AutoCloseable {
     }
 
     private void capture(NativeImage image, int frameX, int frameY, int width, int height) {
-        if (width <= 0 || height <= 0) {
+        if (width <= 0 || height <= 0 || image == null) {
             return;
         }
 
         BufferedImage frame = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
-                int abgr = image.getPixelRGBA(frameX + x, frameY + y);
-                frame.setRGB(x, y, convertABGRtoARGB(abgr));
+                int rgba = convertABGRtoARGB(image.getPixelRGBA(frameX + x, frameY + y));
+                frame.setRGB(x, y, rgba);
             }
         }
         capturedFrames.add(frame);
