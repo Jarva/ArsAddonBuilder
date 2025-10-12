@@ -315,18 +315,14 @@ jobs:
           distribution: "temurin"
 
       - name: Export docs using headless client
-        uses: Wandalen/wretry.action@v3.8.0
+        uses: headlesshq/mc-runtime-test@3.1.1
         with:
-          attempt_limit: 3
-          attempt_delay: 5000
-          action: headlesshq/mc-runtime-test@3.0.0
-          with: |
-            mc: 1.21.1
-            modloader: neoforge
-            regex: .*neoforge.*
-            mc-runtime-test: neoforge
-            java: ${{ env.JAVA_VERSION }}
-            xvfb: false
+          mc: 1.21.1
+          modloader: neoforge
+          regex: .*neoforge.*
+          mc-runtime-test: neoforge
+          java: ${{ env.JAVA_VERSION }}
+          xvfb: false
 
       - name: Commit and push updated runtime resources
         uses: Jarva/git-commit-push@main
@@ -345,3 +341,17 @@ jobs:
         with:
           tag_name: ${{ steps.release_hash.outputs.hash }}
           files: ${{ steps.list_mods.outputs.files }}
+  retry-on-failure:
+    if: failure() && fromJSON(github.run_attempt) < 3
+    needs: [ run-and-export ]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Jarva/job-id@60a3ded3f9a9371a3c9e127d247838f4a9b843d7
+        id: job-id
+        with:
+          job-name: run-and-export
+          github-token: ${{ github.token }}
+      - env:
+          GH_REPO: ${{ github.repository }}
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run retry-workflow.yml -F run_id=${{ github.run_id }} job_id=${{ steps.job-id.outputs.job-id }}
