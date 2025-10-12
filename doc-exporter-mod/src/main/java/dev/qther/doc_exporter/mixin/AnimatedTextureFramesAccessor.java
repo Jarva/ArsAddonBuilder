@@ -13,4 +13,7 @@ public interface AnimatedTextureFramesAccessor {
 
     @Accessor("interpolateFrames")
     boolean getInterpolateFrames();
+
+    @Accessor("frameRowSize")
+    int getFrameRowSize();
 }

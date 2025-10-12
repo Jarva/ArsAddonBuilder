@@ -1,11 +1,13 @@
 package dev.qther.doc_exporter;
 
 import com.mojang.blaze3d.platform.NativeImage;
+import dev.qther.doc_exporter.capture.FrameCaptureContext;
 import dev.qther.doc_exporter.mixin.AnimatedTextureAccessor;
 import dev.qther.doc_exporter.mixin.AnimatedTextureFramesAccessor;
 import dev.qther.doc_exporter.mixin.FrameInfoAccessor;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.SpriteContents;
+import net.minecraft.client.renderer.texture.SpriteTicker;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Item;
@@ -17,6 +19,10 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Exports animated item textures as APNG files using Minecraft's animation system.
@@ -152,122 +158,135 @@ public class AnimatedTextureExporter {
      * @return Array of AnimationFrames with images and durations from the animation metadata
      */
     private static AnimationFrame[] extractFramesFromSprite(TextureAtlasSprite sprite) {
-        var spriteContents = sprite.contents();
+        SpriteContents spriteContents = sprite.contents();
+        NativeImage originalImage = spriteContents.getOriginalImage();
+        if (originalImage == null) {
+            throw new RuntimeException("Original sprite image is not available");
+        }
+
         int frameWidth = spriteContents.width();
         int frameHeight = spriteContents.height();
 
-        // Access the AnimatedTexture via mixin
-        var contentsAccessor = (AnimatedTextureAccessor) spriteContents;
-        var animatedTexture = contentsAccessor.getAnimatedTexture();
-
+        var animatedTexture = ((AnimatedTextureAccessor) spriteContents).getAnimatedTexture();
         if (animatedTexture == null) {
-            throw new RuntimeException("AnimatedTexture is null for sprite");
+            BufferedImage frame = copyRegion(originalImage, 0, 0, frameWidth, frameHeight);
+            return new AnimationFrame[]{new AnimationFrame(frame, 1)};
         }
 
-        // Get the frame sequence from AnimatedTexture
-        var animTexAccessor = (AnimatedTextureFramesAccessor) animatedTexture;
-        var frameInfoList = animTexAccessor.getFrames();
-        boolean interpolate = animTexAccessor.getInterpolateFrames();
-
-        LOGGER.debug("Extracting {} frames ({}x{} each), interpolation: {}",
-            frameInfoList.size(), frameWidth, frameHeight, interpolate);
-
-        // Get the mipmap containing all frames stacked vertically
-        var mipmapImages = spriteContents.byMipLevel;
-        if (mipmapImages.length == 0) {
-            throw new RuntimeException("No mipmap images available");
+        AnimatedTextureFramesAccessor animationAccessor = (AnimatedTextureFramesAccessor) animatedTexture;
+        List<SpriteContents.FrameInfo> frameInfoList = animationAccessor.getFrames();
+        if (frameInfoList.isEmpty()) {
+            BufferedImage frame = copyRegion(originalImage, 0, 0, frameWidth, frameHeight);
+            return new AnimationFrame[]{new AnimationFrame(frame, 1)};
         }
-        NativeImage sourceImage = mipmapImages[0];
 
-        // Extract frames according to the animation sequence
-        java.util.List<AnimationFrame> frames = new java.util.ArrayList<>();
+        int frameRowSize = Math.max(1, animationAccessor.getFrameRowSize());
+        boolean interpolateFrames = animationAccessor.getInterpolateFrames();
+        Map<Integer, BufferedImage> frameCache = new HashMap<>();
 
-        for (int i = 0; i < frameInfoList.size(); i++) {
-            SpriteContents.FrameInfo frameInfo = frameInfoList.get(i);
-            var frameInfoAccessor = (FrameInfoAccessor) frameInfo;
+        if (!interpolateFrames) {
+            List<AnimationFrame> frames = new ArrayList<>();
+            for (SpriteContents.FrameInfo frameInfo : frameInfoList) {
+                int frameIndex = ((FrameInfoAccessor) frameInfo).getIndex();
+                int duration = Math.max(1, ((FrameInfoAccessor) frameInfo).getTime());
+                BufferedImage image = copyImage(getFrameImage(frameCache, originalImage, frameWidth, frameHeight, frameRowSize, frameIndex));
+                frames.add(new AnimationFrame(image, duration));
+            }
+            return frames.toArray(new AnimationFrame[0]);
+        }
 
-            int frameIndex = frameInfoAccessor.getIndex();
-            int frameDuration = frameInfoAccessor.getTime();
+        List<AnimationFrame> frames = new ArrayList<>();
+        int firstFrameIndex = ((FrameInfoAccessor) frameInfoList.get(0)).getIndex();
 
-            BufferedImage image = extractSingleFrame(sourceImage, frameIndex, frameWidth, frameHeight);
-            frames.add(new AnimationFrame(image, frameDuration));
+        try (FrameCaptureContext capture = FrameCaptureContext.activate()) {
+            spriteContents.uploadFirstFrame(0, 0);
+            BufferedImage currentFrame = capture.pollLatest();
+            if (currentFrame == null) {
+                currentFrame = copyImage(getFrameImage(frameCache, originalImage, frameWidth, frameHeight, frameRowSize, firstFrameIndex));
+            }
 
-            // If interpolation is enabled and there's a next frame, add interpolated frames
-            if (interpolate && i < frameInfoList.size() - 1) {
-                SpriteContents.FrameInfo nextFrameInfo = frameInfoList.get(i + 1);
-                var nextFrameInfoAccessor = (FrameInfoAccessor) nextFrameInfo;
-                int nextFrameIndex = nextFrameInfoAccessor.getIndex();
+            SpriteTicker ticker = spriteContents.createTicker();
+            if (ticker == null) {
+                int duration = Math.max(1, ((FrameInfoAccessor) frameInfoList.get(0)).getTime());
+                frames.add(new AnimationFrame(copyImage(currentFrame), duration));
+                return frames.toArray(new AnimationFrame[0]);
+            }
 
-                BufferedImage nextImage = extractSingleFrame(sourceImage, nextFrameIndex, frameWidth, frameHeight);
+            for (int frameIdx = 0; frameIdx < frameInfoList.size(); frameIdx++) {
+                SpriteContents.FrameInfo frameInfo = frameInfoList.get(frameIdx);
+                int duration = Math.max(1, ((FrameInfoAccessor) frameInfo).getTime());
 
-                // Add one interpolated frame between current and next
-                BufferedImage interpolated = interpolateFrames(image, nextImage, 0.5f);
-                frames.add(new AnimationFrame(interpolated, frameDuration));
+                frames.add(new AnimationFrame(copyImage(currentFrame), 1));
+
+                for (int sub = 1; sub < duration; sub++) {
+                    ticker.tickAndUpload(0, 0);
+                    BufferedImage updated = capture.pollLatest();
+                    if (updated != null) {
+                        currentFrame = updated;
+                    }
+                    frames.add(new AnimationFrame(copyImage(currentFrame), 1));
+                }
+
+                if (frameIdx < frameInfoList.size() - 1) {
+                    ticker.tickAndUpload(0, 0);
+                    BufferedImage nextFrame = capture.pollLatest();
+                    int nextIndex = ((FrameInfoAccessor) frameInfoList.get(frameIdx + 1)).getIndex();
+                    if (nextFrame == null) {
+                        nextFrame = copyImage(getFrameImage(frameCache, originalImage, frameWidth, frameHeight, frameRowSize, nextIndex));
+                    }
+                    currentFrame = nextFrame;
+                }
             }
         }
 
         return frames.toArray(new AnimationFrame[0]);
     }
 
-    /**
-     * Creates an interpolated frame between two images.
-     */
-    private static BufferedImage interpolateFrames(BufferedImage frame1, BufferedImage frame2, float alpha) {
-        int width = frame1.getWidth();
-        int height = frame1.getHeight();
-        BufferedImage result = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
-
-        for (int y = 0; y < height; y++) {
-            for (int x = 0; x < width; x++) {
-                int argb1 = frame1.getRGB(x, y);
-                int argb2 = frame2.getRGB(x, y);
-
-                int a1 = (argb1 >> 24) & 0xFF;
-                int r1 = (argb1 >> 16) & 0xFF;
-                int g1 = (argb1 >> 8) & 0xFF;
-                int b1 = argb1 & 0xFF;
-
-                int a2 = (argb2 >> 24) & 0xFF;
-                int r2 = (argb2 >> 16) & 0xFF;
-                int g2 = (argb2 >> 8) & 0xFF;
-                int b2 = argb2 & 0xFF;
-
-                int a = (int) (a1 * (1 - alpha) + a2 * alpha);
-                int r = (int) (r1 * (1 - alpha) + r2 * alpha);
-                int g = (int) (g1 * (1 - alpha) + g2 * alpha);
-                int b = (int) (b1 * (1 - alpha) + b2 * alpha);
-
-                result.setRGB(x, y, (a << 24) | (r << 16) | (g << 8) | b);
-            }
+    private static BufferedImage getFrameImage(Map<Integer, BufferedImage> cache, NativeImage sourceImage,
+                                               int frameWidth, int frameHeight, int frameRowSize, int frameIndex) {
+        if (frameIndex < 0) {
+            throw new RuntimeException("Negative frame index " + frameIndex);
         }
 
-        return result;
+        BufferedImage cached = cache.get(frameIndex);
+        if (cached != null) {
+            return cached;
+        }
+
+        int framesPerRow = Math.max(1, frameRowSize);
+        int xIndex = frameIndex % framesPerRow;
+        int yIndex = frameIndex / framesPerRow;
+        int xOffset = xIndex * frameWidth;
+        int yOffset = yIndex * frameHeight;
+
+        if (xOffset + frameWidth > sourceImage.getWidth() || yOffset + frameHeight > sourceImage.getHeight()) {
+            throw new RuntimeException("Frame " + frameIndex + " exceeds sprite bounds (" + sourceImage.getWidth() + "x" + sourceImage.getHeight() + ")");
+        }
+
+        BufferedImage frame = copyRegion(sourceImage, xOffset, yOffset, frameWidth, frameHeight);
+        cache.put(frameIndex, frame);
+        return frame;
     }
 
-    /**
-     * Extracts a single frame from the mipmap's vertical strip.
-     *
-     * @param sourceImage The NativeImage containing all frames stacked vertically
-     * @param frameIndex Which frame to extract (0-based)
-     * @param frameWidth Width of a single frame
-     * @param frameHeight Height of a single frame
-     * @return BufferedImage containing the extracted frame with ARGB color format
-     */
-    private static BufferedImage extractSingleFrame(NativeImage sourceImage, int frameIndex, int frameWidth, int frameHeight) {
-        int yOffset = frameIndex * frameHeight;
-        BufferedImage frame = new BufferedImage(frameWidth, frameHeight, BufferedImage.TYPE_INT_ARGB);
-
-        for (int y = 0; y < frameHeight; y++) {
-            for (int x = 0; x < frameWidth; x++) {
-                int sourceY = yOffset + y;
-                if (sourceY < sourceImage.getHeight()) {
-                    int abgr = sourceImage.getPixelRGBA(x, sourceY);
-                    int argb = convertABGRtoARGB(abgr);
-                    frame.setRGB(x, y, argb);
-                }
+    private static BufferedImage copyImage(BufferedImage source) {
+        BufferedImage copy = new BufferedImage(source.getWidth(), source.getHeight(), BufferedImage.TYPE_INT_ARGB);
+        for (int y = 0; y < source.getHeight(); y++) {
+            for (int x = 0; x < source.getWidth(); x++) {
+                copy.setRGB(x, y, source.getRGB(x, y));
             }
         }
+        return copy;
+    }
 
+    private static BufferedImage copyRegion(NativeImage sourceImage, int xOffset, int yOffset, int width, int height) {
+        BufferedImage frame = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+        for (int y = 0; y < height; y++) {
+            for (int x = 0; x < width; x++) {
+                int abgr = sourceImage.getPixelRGBA(xOffset + x, yOffset + y);
+                int argb = convertABGRtoARGB(abgr);
+                frame.setRGB(x, y, argb);
+            }
+        }
         return frame;
     }
 

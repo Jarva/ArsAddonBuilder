@@ -201,31 +201,10 @@ public class ApngGenerator {
 
     private static void computeFrameDelays(AnimatedTextureExporter.AnimationFrame[] frames, boolean interpolated,
                                            int[] delayNumerators, int[] delayDenominators) {
-        if (frames.length == 0) {
-            return;
-        }
-
-        if (!interpolated) {
-            for (int i = 0; i < frames.length; i++) {
-                int ticks = normalizeTickDuration(frames[i].durationTicks);
-                delayNumerators[i] = ticks;
-                delayDenominators[i] = TICKS_PER_SECOND;
-            }
-            return;
-        }
-
-        int i = 0;
-        while (i < frames.length) {
+        for (int i = 0; i < frames.length; i++) {
             int ticks = normalizeTickDuration(frames[i].durationTicks);
-            int framesSharingDuration = Math.min(frames.length - i, 2);
-            int denominator = TICKS_PER_SECOND * framesSharingDuration;
-
-            for (int j = 0; j < framesSharingDuration; j++) {
-                delayNumerators[i + j] = ticks;
-                delayDenominators[i + j] = denominator;
-            }
-
-            i += framesSharingDuration;
+            delayNumerators[i] = ticks;
+            delayDenominators[i] = TICKS_PER_SECOND;
         }
     }
 

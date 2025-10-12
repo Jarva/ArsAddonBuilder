@@ -12,7 +12,8 @@
   "client": [
     "AnimatedTextureAccessor",
     "AnimatedTextureFramesAccessor",
-    "FrameInfoAccessor"
+    "FrameInfoAccessor",
+    "SpriteContentsUploadMixin"
   ],
   "injectors": {
     "defaultRequire": 1
