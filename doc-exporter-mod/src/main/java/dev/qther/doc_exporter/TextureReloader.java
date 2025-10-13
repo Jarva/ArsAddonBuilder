@@ -14,6 +14,8 @@ import org.slf4j.LoggerFactory;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.Locale;
 import java.util.Optional;
 import java.util.zip.CRC32;
@@ -93,8 +95,9 @@ public class TextureReloader {
                     }
                 }
 
-                LOGGER.info("Read {} bytes for {} (CRC32={}, nonZeroBytes={})",
-                    imageBytes.length, texturePath, Long.toHexString(crc32.getValue()), hasNonZeroByte);
+                LOGGER.info("Read {} bytes for {} (CRC32={}, nonZeroBytes={}) header={}",
+                    imageBytes.length, texturePath, Long.toHexString(crc32.getValue()), hasNonZeroByte,
+                    hexSnippet(imageBytes, 16));
 
                 // NativeImage.read() is a pure CPU operation - no OpenGL required
                 NativeImage image = NativeImage.read(new ByteArrayInputStream(imageBytes));
@@ -122,11 +125,13 @@ public class TextureReloader {
                             texturePath, fallbackImage.getWidth(), fallbackImage.getHeight());
                     } else {
                         logTransparentSample(texturePath, fallbackImage);
+                        writeDebugDump(texturePath, imageBytes);
                     }
                     return fallbackImage;
                 }
 
                 LOGGER.error("Failed to decode texture {} using both NativeImage and ImageIO", texturePath);
+                writeDebugDump(texturePath, imageBytes);
                 return null;
             }
         } catch (IOException e) {
@@ -182,5 +187,27 @@ public class TextureReloader {
         int g = (argb >> 8) & 0xFF;
         int b = argb & 0xFF;
         return (a << 24) | (b << 16) | (g << 8) | r;
+    }
+
+    private static String hexSnippet(byte[] data, int length) {
+        int actualLength = Math.min(data.length, length);
+        StringBuilder builder = new StringBuilder(actualLength * 2);
+        for (int i = 0; i < actualLength; i++) {
+            builder.append(String.format(Locale.ROOT, "%02X", data[i]));
+        }
+        return builder.toString();
+    }
+
+    private static void writeDebugDump(ResourceLocation texturePath, byte[] data) {
+        try {
+            Path debugDir = ExportPaths.BASE.resolve("debug/raw")
+                .resolve(texturePath.getNamespace());
+            Path outputPath = debugDir.resolve(texturePath.getPath());
+            Files.createDirectories(outputPath.getParent());
+            Files.write(outputPath, data);
+            LOGGER.warn("Wrote debug copy of {} to {}", texturePath, outputPath.toAbsolutePath());
+        } catch (IOException e) {
+            LOGGER.error("Failed to write debug dump for {}: {}", texturePath, e.getMessage());
+        }
     }
 }
