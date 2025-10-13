@@ -32,6 +32,30 @@ public class TextureReloader {
     private static final Logger LOGGER = LoggerFactory.getLogger(TextureReloader.class);
 
     /**
+     * Reloads a texture as a BufferedImage from resources using Minecraft's ResourceManager.
+     *
+     * <p>This method bypasses the GPU texture loading system and directly reads
+     * the PNG file from resources using ImageIO.read(), which is pure Java
+     * and works reliably in headless environments.</p>
+     *
+     * @param sprite The TextureAtlasSprite to reload texture data for
+     * @return The loaded BufferedImage, or null if loading failed
+     */
+    public static BufferedImage reloadTextureAsBufferedImage(TextureAtlasSprite sprite) {
+        SpriteContents contents = sprite.contents();
+        ResourceLocation name = ((SpriteContentsAccessor) contents).getName();
+
+        // Convert sprite name to texture path
+        ResourceLocation texturePath = ResourceLocation.fromNamespaceAndPath(
+            name.getNamespace(),
+            "textures/" + name.getPath() + ".png"
+        );
+
+        LOGGER.info("Attempting to reload texture: {} -> {}", name, texturePath);
+        return reloadTextureAsBufferedImage(texturePath);
+    }
+
+    /**
      * Reloads a texture from resources using Minecraft's ResourceManager.
      *
      * <p>This method bypasses the GPU texture loading system and directly reads
@@ -107,13 +131,17 @@ public class TextureReloader {
                 // NativeImage.read() is a pure CPU operation - no OpenGL required
                 NativeImage image = NativeImage.read(new ByteArrayInputStream(imageBytes));
                 if (image != null) {
+                    LOGGER.info("NativeImage.read() decoded {} as {}x{} (format: {})",
+                        texturePath, image.getWidth(), image.getHeight(), image.format());
+
                     // Check if the image actually has non-transparent pixels
                     if (hasVisiblePixels(image)) {
-                        LOGGER.info("Successfully reloaded texture: {} ({}x{})",
+                        LOGGER.info("Successfully reloaded texture: {} ({}x{}) - HAS VISIBLE PIXELS",
                             texturePath, image.getWidth(), image.getHeight());
                         return image;
                     }
 
+                    LOGGER.warn("NativeImage.read() succeeded but image appears transparent, will try ImageIO fallback");
                     logTransparentSample(texturePath, image);
                     image.close();
                 } else {
@@ -149,7 +177,17 @@ public class TextureReloader {
         for (int y = 0; y < image.getHeight(); y++) {
             for (int x = 0; x < image.getWidth(); x++) {
                 int pixel = image.getPixelRGBA(x, y);
+                // getPixelRGBA returns ABGR format, so alpha is in the most significant byte
                 int alpha = (pixel >> 24) & 0xFF;
+                if (y == 0 && x < 4 && alpha == 0) {
+                    // Log first few transparent pixels to understand format
+                    LOGGER.debug("Pixel({},{}) = 0x{} (A={}, B={}, G={}, R={})",
+                        x, y, String.format("%08X", pixel),
+                        (pixel >> 24) & 0xFF,
+                        (pixel >> 16) & 0xFF,
+                        (pixel >> 8) & 0xFF,
+                        pixel & 0xFF);
+                }
                 if (alpha > 0) {
                     return true;
                 }
@@ -213,6 +251,57 @@ public class TextureReloader {
             LOGGER.warn("Wrote debug copy of {} to {}", texturePath, outputPath.toAbsolutePath());
         } catch (IOException e) {
             LOGGER.error("Failed to write debug dump for {}: {}", texturePath, e.getMessage());
+        }
+    }
+
+    /**
+     * Reloads a texture as BufferedImage from resources by ResourceLocation.
+     * This uses pure Java ImageIO which works reliably in headless environments.
+     *
+     * @param texturePath The full path to the texture
+     * @return The loaded BufferedImage, or null if loading failed
+     */
+    public static BufferedImage reloadTextureAsBufferedImage(ResourceLocation texturePath) {
+        ResourceManager resourceManager = Minecraft.getInstance().getResourceManager();
+
+        try {
+            Optional<Resource> resourceOpt = resourceManager.getResource(texturePath);
+
+            if (resourceOpt.isEmpty()) {
+                LOGGER.error("Resource not found: {}", texturePath);
+                return null;
+            }
+
+            Resource resource = resourceOpt.get();
+            String sourceInfo = resource.sourcePackId();
+            LOGGER.info("Found resource {} from pack: {}", texturePath, sourceInfo);
+
+            try (var inputStream = resource.open()) {
+                byte[] imageBytes = inputStream.readAllBytes();
+
+                if (imageBytes.length == 0) {
+                    LOGGER.error("Resource stream was empty for: {}", texturePath);
+                    return null;
+                }
+
+                LOGGER.info("Read {} bytes for {} (header: {})",
+                    imageBytes.length, texturePath, hexSnippet(imageBytes, 16));
+
+                // Use ImageIO directly - pure Java, no native code, works reliably in headless
+                BufferedImage image = ImageIO.read(new ByteArrayInputStream(imageBytes));
+                if (image != null) {
+                    LOGGER.info("Successfully loaded texture as BufferedImage: {} ({}x{})",
+                        texturePath, image.getWidth(), image.getHeight());
+                    return image;
+                } else {
+                    LOGGER.error("ImageIO.read() returned null for texture: {}", texturePath);
+                    writeDebugDump(texturePath, imageBytes);
+                    return null;
+                }
+            }
+        } catch (IOException e) {
+            LOGGER.error("Failed to reload texture {}: {}", texturePath, e.getMessage(), e);
+            return null;
         }
     }
 }

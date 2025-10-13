@@ -1,6 +1,5 @@
 package dev.qther.doc_exporter;
 
-import com.mojang.blaze3d.platform.NativeImage;
 import dev.qther.doc_exporter.mixin.AnimatedTextureAccessor;
 import dev.qther.doc_exporter.mixin.AnimatedTextureFramesAccessor;
 import dev.qther.doc_exporter.mixin.FrameInfoAccessor;
@@ -31,10 +30,10 @@ import java.util.Map;
  *
  * <h3>Implementation:</h3>
  * <ul>
+ *   <li>Loads textures using ImageIO (pure Java, works reliably in headless environments)</li>
  *   <li>Frames are extracted from vertical strip textures using AnimatedTexture metadata</li>
  *   <li>Respects animation timing and frame order from .mcmeta files</li>
  *   <li>Supports interpolation when enabled in the texture's animation settings</li>
- *   <li>Converts ABGR pixel format to ARGB for BufferedImage compatibility</li>
  *   <li>Outputs APNG (Animated PNG) format for better quality and alpha channel support</li>
  * </ul>
  */
@@ -161,9 +160,8 @@ public class AnimatedTextureExporter {
     private static AnimationFrame[] extractFramesFromSprite(TextureAtlasSprite sprite) {
         SpriteContents spriteContents = sprite.contents();
 
-        // Reload texture from resources using Minecraft's ResourceManager and NativeImage.read()
-        // This works in headless CI because it doesn't require OpenGL context
-        NativeImage originalImage = TextureReloader.reloadTexture(sprite);
+        // Reload texture from resources using ImageIO (pure Java, works reliably in headless)
+        BufferedImage originalImage = TextureReloader.reloadTextureAsBufferedImage(sprite);
         if (originalImage == null) {
             throw new RuntimeException("Failed to reload sprite texture from resources");
         }
@@ -231,7 +229,7 @@ public class AnimatedTextureExporter {
         return frames.toArray(new AnimationFrame[0]);
     }
 
-    private static BufferedImage getFrameImage(Map<Integer, BufferedImage> cache, NativeImage sourceImage,
+    private static BufferedImage getFrameImage(Map<Integer, BufferedImage> cache, BufferedImage sourceImage,
                                                int frameWidth, int frameHeight, int frameRowSize, int frameIndex) {
         if (frameIndex < 0) {
             throw new RuntimeException("Negative frame index " + frameIndex);
@@ -267,16 +265,10 @@ public class AnimatedTextureExporter {
         return copy;
     }
 
-    private static BufferedImage copyRegion(NativeImage sourceImage, int xOffset, int yOffset, int width, int height) {
-        BufferedImage frame = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
-        for (int y = 0; y < height; y++) {
-            for (int x = 0; x < width; x++) {
-                int abgr = sourceImage.getPixelRGBA(xOffset + x, yOffset + y);
-                int argb = convertABGRtoARGB(abgr);
-                frame.setRGB(x, y, argb);
-            }
-        }
-        return frame;
+    private static BufferedImage copyRegion(BufferedImage sourceImage, int xOffset, int yOffset, int width, int height) {
+        // Extract a sub-region from the source image
+        // BufferedImage to BufferedImage - no format conversion needed!
+        return sourceImage.getSubimage(xOffset, yOffset, width, height);
     }
 
     /**
@@ -337,25 +329,6 @@ public class AnimatedTextureExporter {
         }
 
         return result;
-    }
-
-    /**
-     * Converts a pixel from ABGR format to ARGB format.
-     *
-     * <p>Minecraft's NativeImage stores pixels in ABGR format (Alpha-Blue-Green-Red),
-     * while Java's BufferedImage expects ARGB format (Alpha-Red-Green-Blue).
-     * This method swaps the red and blue channels to perform the conversion.
-     *
-     * @param abgr Pixel in ABGR format (0xAABBGGRR)
-     * @return Pixel in ARGB format (0xAARRGGBB)
-     */
-    private static int convertABGRtoARGB(int abgr) {
-        int a = (abgr >> 24) & 0xFF;
-        int b = (abgr >> 16) & 0xFF;
-        int g = (abgr >> 8) & 0xFF;
-        int r = abgr & 0xFF;
-
-        return (a << 24) | (r << 16) | (g << 8) | b;
     }
 
     /**
