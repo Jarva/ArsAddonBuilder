@@ -6600,8 +6600,8 @@
           "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_accelerate"
         ],
         "descriptions": {
@@ -6699,8 +6699,8 @@
           "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_accelerate"
         ],
         "descriptions": {
