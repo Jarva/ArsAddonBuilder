@@ -1,0 +1,18 @@
+{
+  "id": "ars_technica:glyph_whirl",
+  "order": 100,
+  "icon": "ars_technica:glyph_whirl",
+  "title": "Whirl",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Whirl",
+      "description": "Creates a whirlwind in an area, causing item entities to be centrifuged. Combine with water/flare/smelt/hex to wash/smoke/blast/haunt items",
+      "icon": "ars_technica:glyph_whirl",
+      "tier": 2
+    },
+    {
+      "recipe_1": "ars_technica:glyph_whirl"
+    }
+  ]
+}
