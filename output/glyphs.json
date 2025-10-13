@@ -680,11 +680,11 @@
     ],
     "spellSchools": [
       {
-        "id": "conjuration",
+        "id": "earth",
         "subschools": []
       },
       {
-        "id": "earth",
+        "id": "conjuration",
         "subschools": []
       }
     ],
@@ -694,8 +694,8 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
@@ -752,8 +752,8 @@
         "compatible": [
           "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_randomize"
@@ -1328,8 +1328,8 @@
         "compatible": [
           "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_randomize"
@@ -1573,11 +1573,11 @@
     ],
     "spellSchools": [
       {
-        "id": "earth",
+        "id": "water",
         "subschools": []
       },
       {
-        "id": "water",
+        "id": "earth",
         "subschools": []
       }
     ],
@@ -1588,10 +1588,10 @@
         "compatible": [
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
@@ -1828,11 +1828,11 @@
     ],
     "spellSchools": [
       {
-        "id": "manipulation",
+        "id": "conjuration",
         "subschools": []
       },
       {
-        "id": "conjuration",
+        "id": "manipulation",
         "subschools": []
       }
     ],
@@ -2011,11 +2011,11 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_extract",
-          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_fortune",
+          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_randomize"
         ],
@@ -2084,8 +2084,8 @@
         "compatible": [
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
           "ars_nouveau:glyph_duration_down": {
@@ -2186,8 +2186,8 @@
         "compatible": [
           "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_randomize"
@@ -2343,10 +2343,10 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
@@ -2410,8 +2410,8 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_extract",
+          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen"
         ],
@@ -2777,8 +2777,8 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_extract",
-          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
@@ -2950,8 +2950,8 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_fortune",
+          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen"
@@ -3262,10 +3262,10 @@
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
           "ars_nouveau:glyph_pierce": {
@@ -3367,10 +3367,10 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
@@ -3432,8 +3432,8 @@
           "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
@@ -3757,10 +3757,10 @@
         "compatible": [
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
           "ars_nouveau:glyph_pierce": {
@@ -4096,8 +4096,8 @@
         "compatible": [
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
           "ars_nouveau:glyph_duration_down": {
@@ -4153,8 +4153,8 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_decelerate",
-          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_accelerate"
         ],
         "descriptions": {
@@ -5557,8 +5557,8 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_decelerate",
-          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_accelerate"
         ],
         "descriptions": {
@@ -5623,8 +5623,8 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
@@ -5906,8 +5906,8 @@
         "compatible": [
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
           "ars_nouveau:glyph_duration_down": {
@@ -6004,8 +6004,8 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
@@ -6147,8 +6147,8 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_fortune",
+          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_amplify"
         ],
         "descriptions": {
@@ -6199,8 +6199,8 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
@@ -6406,11 +6406,11 @@
     ],
     "spellSchools": [
       {
-        "id": "manipulation",
+        "id": "air",
         "subschools": []
       },
       {
-        "id": "air",
+        "id": "manipulation",
         "subschools": []
       }
     ],
@@ -6582,11 +6582,11 @@
     ],
     "spellSchools": [
       {
-        "id": "air",
+        "id": "fire",
         "subschools": []
       },
       {
-        "id": "fire",
+        "id": "air",
         "subschools": []
       }
     ],
@@ -7559,11 +7559,11 @@
     ],
     "spellSchools": [
       {
-        "id": "manipulation",
+        "id": "water",
         "subschools": []
       },
       {
-        "id": "water",
+        "id": "manipulation",
         "subschools": []
       }
     ],
@@ -7608,11 +7608,11 @@
     ],
     "spellSchools": [
       {
-        "id": "manipulation",
+        "id": "water",
         "subschools": []
       },
       {
-        "id": "water",
+        "id": "manipulation",
         "subschools": []
       }
     ],
