@@ -11,8 +11,11 @@ import net.minecraft.server.packs.resources.ResourceManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
-import java.io.InputStream;
+import java.util.Locale;
+import java.util.Optional;
+import java.util.zip.CRC32;
 
 /**
  * Utility to reload texture data from resources without requiring OpenGL context.
@@ -46,6 +49,7 @@ public class TextureReloader {
             "textures/" + name.getPath() + ".png"
         );
 
+        LOGGER.info("Attempting to reload texture: {} -> {}", name, texturePath);
         return reloadTexture(texturePath);
     }
 
@@ -59,15 +63,80 @@ public class TextureReloader {
         ResourceManager resourceManager = Minecraft.getInstance().getResourceManager();
 
         try {
-            Resource resource = resourceManager.getResourceOrThrow(texturePath);
-            try (InputStream inputStream = resource.open()) {
+            // Try to get the resource - use Optional to handle missing resources gracefully
+            Optional<Resource> resourceOpt = resourceManager.getResource(texturePath);
+
+            if (resourceOpt.isEmpty()) {
+                LOGGER.error("Resource not found: {}", texturePath);
+                return null;
+            }
+
+            Resource resource = resourceOpt.get();
+            try (var inputStream = resource.open()) {
+                byte[] imageBytes = inputStream.readAllBytes();
+
+                if (imageBytes.length == 0) {
+                    LOGGER.error("Resource stream was empty for: {}", texturePath);
+                    return null;
+                }
+
+                CRC32 crc32 = new CRC32();
+                crc32.update(imageBytes);
+
+                boolean hasNonZeroByte = false;
+                for (byte b : imageBytes) {
+                    if (b != 0) {
+                        hasNonZeroByte = true;
+                        break;
+                    }
+                }
+
+                LOGGER.info("Read {} bytes for {} (CRC32={}, nonZeroBytes={})",
+                    imageBytes.length, texturePath, Long.toHexString(crc32.getValue()), hasNonZeroByte);
+
                 // NativeImage.read() is a pure CPU operation - no OpenGL required
-                NativeImage image = NativeImage.read(inputStream);
-                LOGGER.debug("Successfully reloaded texture: {}", texturePath);
+                NativeImage image = NativeImage.read(new ByteArrayInputStream(imageBytes));
+                if (image != null) {
+                    // Check if the image actually has non-transparent pixels
+                    boolean hasContent = false;
+                    checkContent:
+                    for (int y = 0; y < Math.min(image.getHeight(), 16); y++) {
+                        for (int x = 0; x < Math.min(image.getWidth(), 16); x++) {
+                            int pixel = image.getPixelRGBA(x, y);
+                            int alpha = (pixel >> 24) & 0xFF;
+                            if (alpha > 0) {
+                                hasContent = true;
+                                break checkContent;
+                            }
+                        }
+                    }
+
+                    if (!hasContent) {
+                        StringBuilder sample = new StringBuilder();
+                        int sampleWidth = Math.min(image.getWidth(), 4);
+                        int sampleHeight = Math.min(image.getHeight(), 4);
+                        for (int y = 0; y < sampleHeight; y++) {
+                            for (int x = 0; x < sampleWidth; x++) {
+                                int pixel = image.getPixelRGBA(x, y);
+                                sample.append(String.format(Locale.ROOT, "0x%08X", pixel));
+                                if (x != sampleWidth - 1 || y != sampleHeight - 1) {
+                                    sample.append(",");
+                                }
+                            }
+                        }
+                        LOGGER.warn("Loaded texture {} ({}x{}) but sampled pixels are transparent: {}",
+                            texturePath, image.getWidth(), image.getHeight(), sample);
+                    } else {
+                        LOGGER.info("Successfully reloaded texture: {} ({}x{})",
+                            texturePath, image.getWidth(), image.getHeight());
+                    }
+                } else {
+                    LOGGER.error("NativeImage.read() returned null for texture: {}", texturePath);
+                }
                 return image;
             }
         } catch (IOException e) {
-            LOGGER.error("Failed to reload texture {}: {}", texturePath, e.getMessage());
+            LOGGER.error("Failed to reload texture {}: {}", texturePath, e.getMessage(), e);
             return null;
         }
     }
