@@ -8,3 +8,6 @@ build
 /run/
 
 **/.cache/
+
+# Debug output from texture diagnostics
+/output/debug/
