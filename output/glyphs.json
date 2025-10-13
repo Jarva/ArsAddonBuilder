@@ -630,8 +630,8 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_randomize"
         ],
@@ -1524,8 +1524,8 @@
         "compatible": [
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
@@ -1720,8 +1720,8 @@
         "compatible": [
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
@@ -2720,8 +2720,8 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_randomize"
         ],
@@ -3063,8 +3063,8 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_randomize"
         ],
@@ -3264,8 +3264,8 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
           "ars_nouveau:glyph_pierce": {
@@ -3432,8 +3432,8 @@
           "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
@@ -3759,8 +3759,8 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
           "ars_nouveau:glyph_pierce": {
@@ -3917,8 +3917,8 @@
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extend_time"
         ],
@@ -3977,8 +3977,8 @@
         "compatible": [
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
@@ -4037,8 +4037,8 @@
           "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
           "ars_nouveau:glyph_sensitive": {
@@ -4649,8 +4649,8 @@
         "compatible": [
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
@@ -4740,8 +4740,8 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
           "ars_nouveau:glyph_sensitive": {
@@ -5053,8 +5053,8 @@
         "compatible": [
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen"
         ],
         "descriptions": {
@@ -6600,8 +6600,8 @@
           "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_accelerate"
         ],
         "descriptions": {
@@ -6699,8 +6699,8 @@
           "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_accelerate"
         ],
         "descriptions": {
