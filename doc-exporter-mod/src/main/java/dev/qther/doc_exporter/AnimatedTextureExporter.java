@@ -31,6 +31,7 @@ import java.util.Map;
  * <h3>Implementation:</h3>
  * <ul>
  *   <li>Loads textures using ImageIO (pure Java, works reliably in headless environments)</li>
+ *   <li>Scales textures to 512x512 using nearest neighbor interpolation (preserves pixel art look)</li>
  *   <li>Frames are extracted from vertical strip textures using AnimatedTexture metadata</li>
  *   <li>Respects animation timing and frame order from .mcmeta files</li>
  *   <li>Supports interpolation when enabled in the texture's animation settings</li>
@@ -168,6 +169,17 @@ public class AnimatedTextureExporter {
 
         int frameWidth = spriteContents.width();
         int frameHeight = spriteContents.height();
+
+        // Scale up the texture using nearest neighbor (32x scale: 16x16 -> 512x512)
+        int targetSize = 512;
+        int scaleFactor = targetSize / frameWidth;
+        if (scaleFactor > 1) {
+            BufferedImage scaledImage = scaleImageNearestNeighbor(originalImage, scaleFactor);
+            originalImage = scaledImage;
+            frameWidth *= scaleFactor;
+            frameHeight *= scaleFactor;
+            LOGGER.debug("Scaled texture {}x up to {}x{}", scaleFactor, frameWidth, frameHeight);
+        }
 
         var animatedTexture = ((AnimatedTextureAccessor) spriteContents).getAnimatedTexture();
         if (animatedTexture == null) {
@@ -329,6 +341,30 @@ public class AnimatedTextureExporter {
         }
 
         return result;
+    }
+
+    /**
+     * Scales an image using nearest neighbor interpolation to preserve pixel art appearance.
+     *
+     * @param source The source image to scale
+     * @param scaleFactor The integer scale factor (2 = double size, 32 = 16x16 to 512x512)
+     * @return A new BufferedImage scaled up by the given factor
+     */
+    private static BufferedImage scaleImageNearestNeighbor(BufferedImage source, int scaleFactor) {
+        int newWidth = source.getWidth() * scaleFactor;
+        int newHeight = source.getHeight() * scaleFactor;
+        BufferedImage scaled = new BufferedImage(newWidth, newHeight, BufferedImage.TYPE_INT_ARGB);
+
+        for (int y = 0; y < newHeight; y++) {
+            for (int x = 0; x < newWidth; x++) {
+                int srcX = x / scaleFactor;
+                int srcY = y / scaleFactor;
+                int pixel = source.getRGB(srcX, srcY);
+                scaled.setRGB(x, y, pixel);
+            }
+        }
+
+        return scaled;
     }
 
     /**
