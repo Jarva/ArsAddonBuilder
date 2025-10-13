@@ -21,8 +21,6 @@ jobs:
       fail-fast: false
       matrix:
         branch: ["1.21"]
-    outputs:
-      changes_committed: ${{ steps.detect_commit.outputs.changed }}
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -44,8 +42,9 @@ jobs:
           echo "changed=false" >> "$GITHUB_OUTPUT"
         fi
 
-  build:
-    needs: sync
-    if: needs.sync.outputs.changes_committed == 'true'
-    uses: ./.github/workflows/build.yml
-    secrets: inherit
+    - name: Dispatch build workflow
+      if: steps.detect_commit.outputs.changed == 'true'
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        gh workflow run build.yml --ref ${{ matrix.branch }}
