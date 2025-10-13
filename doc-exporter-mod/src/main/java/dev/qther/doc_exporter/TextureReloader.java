@@ -76,6 +76,11 @@ public class TextureReloader {
             }
 
             Resource resource = resourceOpt.get();
+
+            // Log resource source information to identify where it's loaded from
+            String sourceInfo = resource.sourcePackId();
+            LOGGER.info("Found resource {} from pack: {}", texturePath, sourceInfo);
+
             try (var inputStream = resource.open()) {
                 byte[] imageBytes = inputStream.readAllBytes();
 
