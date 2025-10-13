@@ -1,14 +1,11 @@
 package dev.qther.doc_exporter;
 
 import com.mojang.blaze3d.platform.NativeImage;
-import com.mojang.blaze3d.systems.RenderSystem;
-import dev.qther.doc_exporter.capture.FrameCaptureContext;
 import dev.qther.doc_exporter.mixin.AnimatedTextureAccessor;
 import dev.qther.doc_exporter.mixin.AnimatedTextureFramesAccessor;
 import dev.qther.doc_exporter.mixin.FrameInfoAccessor;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.SpriteContents;
-import net.minecraft.client.renderer.texture.SpriteTicker;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Item;
@@ -116,7 +113,7 @@ public class AnimatedTextureExporter {
     }
 
     /**
-     * Processes a single animated item by extracting its frames and generating a GIF.
+     * Processes a single animated item by extracting its frames and generating an APNG.
      */
     private static void processAnimatedItem(Item item, TextureAtlasSprite sprite, Path outputDir) throws IOException {
         String itemName = BuiltInRegistries.ITEM.getKey(item).getPath();
@@ -160,9 +157,12 @@ public class AnimatedTextureExporter {
      */
     private static AnimationFrame[] extractFramesFromSprite(TextureAtlasSprite sprite) {
         SpriteContents spriteContents = sprite.contents();
-        NativeImage originalImage = spriteContents.getOriginalImage();
+
+        // Reload texture from resources using Minecraft's ResourceManager and NativeImage.read()
+        // This works in headless CI because it doesn't require OpenGL context
+        NativeImage originalImage = TextureReloader.reloadTexture(sprite);
         if (originalImage == null) {
-            throw new RuntimeException("Original sprite image is not available");
+            throw new RuntimeException("Failed to reload sprite texture from resources");
         }
 
         int frameWidth = spriteContents.width();
@@ -196,50 +196,32 @@ public class AnimatedTextureExporter {
             return frames.toArray(new AnimationFrame[0]);
         }
 
+        // CPU-based interpolation: generate interpolated sub-frames between each frame pair
         List<AnimationFrame> frames = new ArrayList<>();
-        int firstFrameIndex = ((FrameInfoAccessor) frameInfoList.get(0)).getIndex();
 
-        try (FrameCaptureContext capture = FrameCaptureContext.activate()) {
-            spriteContents.uploadFirstFrame(0, 0);
-            RenderSystem.replayQueue();
-            BufferedImage currentFrame = capture.pollLatest();
-            if (currentFrame == null) {
-                currentFrame = copyImage(getFrameImage(frameCache, originalImage, frameWidth, frameHeight, frameRowSize, firstFrameIndex));
+        for (int frameIdx = 0; frameIdx < frameInfoList.size(); frameIdx++) {
+            SpriteContents.FrameInfo frameInfo = frameInfoList.get(frameIdx);
+            int frameIndex = ((FrameInfoAccessor) frameInfo).getIndex();
+            int duration = Math.max(1, ((FrameInfoAccessor) frameInfo).getTime());
+
+            BufferedImage currentFrame = getFrameImage(frameCache, originalImage, frameWidth, frameHeight, frameRowSize, frameIndex);
+
+            // Get next frame for interpolation
+            BufferedImage nextFrame;
+            if (frameIdx < frameInfoList.size() - 1) {
+                int nextIndex = ((FrameInfoAccessor) frameInfoList.get(frameIdx + 1)).getIndex();
+                nextFrame = getFrameImage(frameCache, originalImage, frameWidth, frameHeight, frameRowSize, nextIndex);
+            } else {
+                // Last frame wraps to first frame
+                int firstIndex = ((FrameInfoAccessor) frameInfoList.get(0)).getIndex();
+                nextFrame = getFrameImage(frameCache, originalImage, frameWidth, frameHeight, frameRowSize, firstIndex);
             }
 
-            SpriteTicker ticker = spriteContents.createTicker();
-            if (ticker == null) {
-                int duration = Math.max(1, ((FrameInfoAccessor) frameInfoList.get(0)).getTime());
-                frames.add(new AnimationFrame(copyImage(currentFrame), duration));
-                return frames.toArray(new AnimationFrame[0]);
-            }
-
-            for (int frameIdx = 0; frameIdx < frameInfoList.size(); frameIdx++) {
-                SpriteContents.FrameInfo frameInfo = frameInfoList.get(frameIdx);
-                int duration = Math.max(1, ((FrameInfoAccessor) frameInfo).getTime());
-
-                frames.add(new AnimationFrame(copyImage(currentFrame), 1));
-
-                for (int sub = 1; sub < duration; sub++) {
-                    ticker.tickAndUpload(0, 0);
-                    RenderSystem.replayQueue();
-                    BufferedImage updated = capture.pollLatest();
-                    if (updated != null) {
-                        currentFrame = updated;
-                    }
-                    frames.add(new AnimationFrame(copyImage(currentFrame), 1));
-                }
-
-                if (frameIdx < frameInfoList.size() - 1) {
-                    ticker.tickAndUpload(0, 0);
-                    RenderSystem.replayQueue();
-                    BufferedImage nextFrame = capture.pollLatest();
-                    int nextIndex = ((FrameInfoAccessor) frameInfoList.get(frameIdx + 1)).getIndex();
-                    if (nextFrame == null) {
-                        nextFrame = copyImage(getFrameImage(frameCache, originalImage, frameWidth, frameHeight, frameRowSize, nextIndex));
-                    }
-                    currentFrame = nextFrame;
-                }
+            // Generate interpolated sub-frames
+            for (int sub = 0; sub < duration; sub++) {
+                float t = (float) sub / (float) duration;
+                BufferedImage interpolated = interpolateFrames(currentFrame, nextFrame, t);
+                frames.add(new AnimationFrame(copyImage(interpolated), 1));
             }
         }
 
@@ -292,6 +274,66 @@ public class AnimatedTextureExporter {
             }
         }
         return frame;
+    }
+
+    /**
+     * Interpolates between two frames using alpha blending (CPU-based).
+     *
+     * <p>This method performs per-pixel alpha blending to create smooth transitions
+     * between frames, matching Minecraft's GPU-based interpolation behavior but using
+     * pure CPU operations that work in headless environments.
+     *
+     * @param frame1 The first frame (at t=0)
+     * @param frame2 The second frame (at t=1)
+     * @param t Interpolation factor (0.0 = fully frame1, 1.0 = fully frame2)
+     * @return A new BufferedImage with interpolated pixel values
+     */
+    private static BufferedImage interpolateFrames(BufferedImage frame1, BufferedImage frame2, float t) {
+        if (frame1.getWidth() != frame2.getWidth() || frame1.getHeight() != frame2.getHeight()) {
+            throw new IllegalArgumentException("Frame dimensions must match for interpolation");
+        }
+
+        int width = frame1.getWidth();
+        int height = frame1.getHeight();
+        BufferedImage result = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+
+        float oneMinusT = 1.0f - t;
+
+        for (int y = 0; y < height; y++) {
+            for (int x = 0; x < width; x++) {
+                int argb1 = frame1.getRGB(x, y);
+                int argb2 = frame2.getRGB(x, y);
+
+                // Extract ARGB components from frame1
+                int a1 = (argb1 >> 24) & 0xFF;
+                int r1 = (argb1 >> 16) & 0xFF;
+                int g1 = (argb1 >> 8) & 0xFF;
+                int b1 = argb1 & 0xFF;
+
+                // Extract ARGB components from frame2
+                int a2 = (argb2 >> 24) & 0xFF;
+                int r2 = (argb2 >> 16) & 0xFF;
+                int g2 = (argb2 >> 8) & 0xFF;
+                int b2 = argb2 & 0xFF;
+
+                // Interpolate each channel
+                int a = (int) (a1 * oneMinusT + a2 * t);
+                int r = (int) (r1 * oneMinusT + r2 * t);
+                int g = (int) (g1 * oneMinusT + g2 * t);
+                int b = (int) (b1 * oneMinusT + b2 * t);
+
+                // Clamp to valid range
+                a = Math.min(255, Math.max(0, a));
+                r = Math.min(255, Math.max(0, r));
+                g = Math.min(255, Math.max(0, g));
+                b = Math.min(255, Math.max(0, b));
+
+                int argb = (a << 24) | (r << 16) | (g << 8) | b;
+                result.setRGB(x, y, argb);
+            }
+        }
+
+        return result;
     }
 
     /**

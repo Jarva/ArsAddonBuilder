@@ -13,7 +13,7 @@
     "AnimatedTextureAccessor",
     "AnimatedTextureFramesAccessor",
     "FrameInfoAccessor",
-    "SpriteContentsUploadMixin"
+    "SpriteContentsAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
