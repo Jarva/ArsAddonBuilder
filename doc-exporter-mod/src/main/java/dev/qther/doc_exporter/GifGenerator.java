@@ -37,10 +37,10 @@ public class GifGenerator {
 
             ImageWriteParam writeParam = writer.getDefaultWriteParam();
 
-            // Try to configure stream metadata for looping, but don't fail if it doesn't work
+            // Configure stream metadata for looping
             IIOMetadata streamMetadata = writer.getDefaultStreamMetadata(writeParam);
-            try {
-                if (streamMetadata != null && streamMetadata.isStandardMetadataFormatSupported()) {
+            if (streamMetadata != null) {
+                try {
                     String metaFormat = "javax_imageio_gif_stream_1.0";
                     IIOMetadataNode root = new IIOMetadataNode(metaFormat);
 
@@ -49,15 +49,20 @@ public class GifGenerator {
 
                     appExtension.setAttribute("applicationID", "NETSCAPE");
                     appExtension.setAttribute("authenticationCode", "2.0");
-                    appExtension.setUserObject(new byte[]{0x1, 0x0, 0x0}); // Loop forever
+
+                    // Loop count: 0 = infinite loop (little-endian: low byte, high byte)
+                    appExtension.setUserObject(new byte[]{0x1, 0x0, 0x0});
 
                     appExtensions.appendChild(appExtension);
                     root.appendChild(appExtensions);
 
                     streamMetadata.mergeTree(metaFormat, root);
+                    LOGGER.info("Configured GIF to loop infinitely");
+                } catch (Exception e) {
+                    LOGGER.error("Failed to configure GIF looping metadata: {}", e.getMessage(), e);
                 }
-            } catch (Exception e) {
-                LOGGER.warn("Could not configure GIF looping metadata: {}", e.getMessage());
+            } else {
+                LOGGER.warn("Stream metadata is null, GIF may not loop");
             }
 
             writer.prepareWriteSequence(streamMetadata);
