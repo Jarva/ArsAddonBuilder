@@ -187,6 +187,7 @@ jobs:
           ARGS_MORE: "--exclude=**/.cache/** --exclude=*.cache"
           PRE_SCRIPT: |
             rm -rf output/resources/${{ steps.info.outputs.DIR }}
+            mkdir -p output/resources/${{ steps.info.outputs.DIR }}
             echo start at:
             date -u
           POST_SCRIPT: "echo done at: && date -u"
