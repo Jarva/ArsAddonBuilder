@@ -60,8 +60,7 @@ public class AnimatedTextureExporter {
      * @param modId The mod ID to export animated textures from
      */
     public static void exportAnimatedTextures(String modId) {
-        Path outputDir = ExportPaths.BASE.resolve("animated_textures").resolve(modId);
-        boolean outputDirCreated = false;
+        Path baseOutputDir = ExportPaths.BASE.resolve("animated_textures");
 
         int exportedCount = 0;
         Minecraft minecraft = Minecraft.getInstance();
@@ -75,16 +74,7 @@ public class AnimatedTextureExporter {
                 TextureAtlasSprite sprite = getItemSprite(minecraft, item);
 
                 if (isAnimated(sprite)) {
-                    if (!outputDirCreated) {
-                        try {
-                            Files.createDirectories(outputDir);
-                            outputDirCreated = true;
-                        } catch (IOException e) {
-                            LOGGER.error("Failed to create output directory for animated textures", e);
-                            return;
-                        }
-                    }
-                    processAnimatedItem(item, sprite, outputDir);
+                    processAnimatedItem(item, sprite, baseOutputDir);
                     exportedCount++;
                 }
             } catch (Exception e) {
@@ -113,20 +103,27 @@ public class AnimatedTextureExporter {
 
     /**
      * Processes a single animated item by extracting its frames and generating a GIF.
+     * Files are organized by the item's namespace: animated_textures/{namespace}/{item_path}.gif
      */
-    private static void processAnimatedItem(Item item, TextureAtlasSprite sprite, Path outputDir) throws IOException {
-        String itemName = BuiltInRegistries.ITEM.getKey(item).getPath();
+    private static void processAnimatedItem(Item item, TextureAtlasSprite sprite, Path baseOutputDir) throws IOException {
+        net.minecraft.resources.ResourceLocation itemKey = BuiltInRegistries.ITEM.getKey(item);
+        String itemNamespace = itemKey.getNamespace();
+        String itemPath = itemKey.getPath();
+
+        // Create namespace-specific subdirectory
+        Path namespaceDir = baseOutputDir.resolve(itemNamespace);
+        Files.createDirectories(namespaceDir);
 
         try {
             AnimationFrame[] frames = extractFramesFromSprite(sprite);
 
-            Path outputPath = outputDir.resolve(itemName + ".gif");
+            Path outputPath = namespaceDir.resolve(itemPath + ".gif");
             GifGenerator.generateGifFromFrames(frames, outputPath);
 
             LOGGER.info("Generated animated GIF: {}", outputPath);
         } catch (Exception e) {
-            LOGGER.error("Failed to generate GIF for item {}: {}", itemName, e.getMessage(), e);
-            writeErrorPlaceholder(outputDir, itemName, e);
+            LOGGER.error("Failed to generate GIF for item {}: {}", itemPath, e.getMessage(), e);
+            writeErrorPlaceholder(namespaceDir, itemPath, e);
         }
     }
 
