@@ -304,8 +304,8 @@ jobs:
           cd run/mods
           cat ../../dependencies.json | jq -r 'keys[] as $key | .[$key]' | while read -r dependency; do curl -LO "$dependency"; done
 
-      - name: Remove old wiki output
-        run: rm -rf output/wiki/*
+      - name: Remove old output
+        run: rm -rf output/*
 
       - name: Setup Java
         uses: actions/setup-java@v4
