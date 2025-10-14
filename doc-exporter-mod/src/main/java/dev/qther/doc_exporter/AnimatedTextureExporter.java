@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Exports animated item textures as APNG files using Minecraft's animation system.
+ * Exports animated item textures as WebP files using Minecraft's animation system.
  *
  * <p>This exporter scans all registered items to find those with animated textures,
  * then uses Minecraft's AnimatedTexture to extract frames with proper timing and
@@ -35,7 +35,7 @@ import java.util.Map;
  *   <li>Frames are extracted from vertical strip textures using AnimatedTexture metadata</li>
  *   <li>Respects animation timing and frame order from .mcmeta files</li>
  *   <li>Supports interpolation when enabled in the texture's animation settings</li>
- *   <li>Outputs APNG (Animated PNG) format for better quality and alpha channel support</li>
+ *   <li>Outputs WebP format for better compatibility (Discord, modern browsers) with full alpha support</li>
  * </ul>
  */
 public class AnimatedTextureExporter {
@@ -116,7 +116,7 @@ public class AnimatedTextureExporter {
     }
 
     /**
-     * Processes a single animated item by extracting its frames and generating an APNG.
+     * Processes a single animated item by extracting its frames and generating a WebP.
      */
     private static void processAnimatedItem(Item item, TextureAtlasSprite sprite, Path outputDir) throws IOException {
         String itemName = BuiltInRegistries.ITEM.getKey(item).getPath();
@@ -131,22 +131,22 @@ public class AnimatedTextureExporter {
             AnimationFrame[] frames = extractFramesFromSprite(sprite);
             LOGGER.debug("Processing {} with {} frames (interpolated: {})", itemName, frames.length, interpolate);
 
-            Path outputPath = outputDir.resolve(itemName + ".png");
-            ApngGenerator.generateApngFromFrames(frames, outputPath, interpolate);
+            Path outputPath = outputDir.resolve(itemName + ".webp");
+            WebPGenerator.generateWebPFromFrames(frames, outputPath);
 
-            LOGGER.info("Generated animated PNG: {}", outputPath);
+            LOGGER.info("Generated animated WebP: {}", outputPath);
         } catch (Exception e) {
-            LOGGER.error("Failed to generate APNG for item {}: {}", itemName, e.getMessage(), e);
+            LOGGER.error("Failed to generate WebP for item {}: {}", itemName, e.getMessage(), e);
             writeErrorPlaceholder(outputDir, itemName, e);
         }
     }
 
     private static void writeErrorPlaceholder(Path outputDir, String itemName, Exception error) throws IOException {
         String errorMessage = String.format(
-            "Failed to generate APNG for item: %s. Error: %s",
+            "Failed to generate WebP for item: %s. Error: %s",
             itemName, error.getMessage());
 
-        Path placeholderPath = outputDir.resolve(itemName + ".png.txt");
+        Path placeholderPath = outputDir.resolve(itemName + ".webp.txt");
         Files.writeString(placeholderPath, errorMessage);
     }
 
