@@ -39,7 +39,9 @@ public class GifGenerator {
             ImageWriteParam writeParam = writer.getDefaultWriteParam();
 
             IIOMetadata streamMetadata = writer.getDefaultStreamMetadata(writeParam);
-            configureStreamMetadata(streamMetadata);
+            if (streamMetadata != null) {
+                configureStreamMetadata(streamMetadata);
+            }
 
             writer.prepareWriteSequence(streamMetadata);
 
@@ -71,12 +73,20 @@ public class GifGenerator {
         String metaFormatName = metadata.getNativeMetadataFormatName();
         IIOMetadataNode root = (IIOMetadataNode) metadata.getAsTree(metaFormatName);
 
-        // Set to loop forever
-        IIOMetadataNode appExtensionsNode = getOrCreateNode(root, "ApplicationExtensions");
+        // Configure looping - NETSCAPE 2.0 extension for infinite loop
+        IIOMetadataNode appExtensionsNode = getNode(root, "ApplicationExtensions");
+        if (appExtensionsNode == null) {
+            appExtensionsNode = new IIOMetadataNode("ApplicationExtensions");
+            root.appendChild(appExtensionsNode);
+        }
+
         IIOMetadataNode appExtensionNode = new IIOMetadataNode("ApplicationExtension");
         appExtensionNode.setAttribute("applicationID", "NETSCAPE");
         appExtensionNode.setAttribute("authenticationCode", "2.0");
-        appExtensionNode.setUserObject(new byte[]{0x1, 0x0, 0x0}); // Loop forever
+
+        // Loop count: 0 = infinite
+        byte[] loopData = {0x1, 0x0, 0x0};
+        appExtensionNode.setUserObject(loopData);
         appExtensionsNode.appendChild(appExtensionNode);
 
         metadata.setFromTree(metaFormatName, root);
@@ -87,10 +97,15 @@ public class GifGenerator {
         IIOMetadataNode root = (IIOMetadataNode) metadata.getAsTree(metaFormatName);
 
         // Set frame delay in centiseconds (GIF uses 1/100th of a second)
-        int delayCentiseconds = Math.max(1, delayMs / 10);
+        int delayCentiseconds = Math.max(2, delayMs / 10); // Minimum 2 centiseconds
 
-        IIOMetadataNode graphicsControlExtensionNode = getOrCreateNode(root, "GraphicControlExtension");
-        graphicsControlExtensionNode.setAttribute("disposalMethod", "restoreToBackgroundColor");
+        IIOMetadataNode graphicsControlExtensionNode = getNode(root, "GraphicControlExtension");
+        if (graphicsControlExtensionNode == null) {
+            graphicsControlExtensionNode = new IIOMetadataNode("GraphicControlExtension");
+            root.appendChild(graphicsControlExtensionNode);
+        }
+
+        graphicsControlExtensionNode.setAttribute("disposalMethod", "none");
         graphicsControlExtensionNode.setAttribute("userInputFlag", "FALSE");
         graphicsControlExtensionNode.setAttribute("transparentColorFlag", "FALSE");
         graphicsControlExtensionNode.setAttribute("delayTime", String.valueOf(delayCentiseconds));
@@ -99,14 +114,12 @@ public class GifGenerator {
         metadata.setFromTree(metaFormatName, root);
     }
 
-    private static IIOMetadataNode getOrCreateNode(IIOMetadataNode parent, String nodeName) {
+    private static IIOMetadataNode getNode(IIOMetadataNode parent, String nodeName) {
         for (int i = 0; i < parent.getLength(); i++) {
             if (parent.item(i).getNodeName().equalsIgnoreCase(nodeName)) {
                 return (IIOMetadataNode) parent.item(i);
             }
         }
-        IIOMetadataNode node = new IIOMetadataNode(nodeName);
-        parent.appendChild(node);
-        return node;
+        return null;
     }
 }
