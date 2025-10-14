@@ -103,36 +103,37 @@ public class AnimatedTextureExporter {
 
     /**
      * Processes a single animated item by extracting its frames and generating a GIF.
-     * Files are organized by the item's namespace: animated_textures/{namespace}/{item_path}.gif
+     * Files are organized by the texture's namespace and path: animated_textures/{namespace}/{texture_path}.gif
      */
     private static void processAnimatedItem(Item item, TextureAtlasSprite sprite, Path baseOutputDir) throws IOException {
-        net.minecraft.resources.ResourceLocation itemKey = BuiltInRegistries.ITEM.getKey(item);
-        String itemNamespace = itemKey.getNamespace();
-        String itemPath = itemKey.getPath();
+        // Get the actual texture name from the sprite (e.g., "minecraft:item/diamond_sword")
+        SpriteContents spriteContents = sprite.contents();
+        net.minecraft.resources.ResourceLocation textureName = ((dev.qther.doc_exporter.mixin.SpriteContentsAccessor) spriteContents).getName();
 
-        // Create namespace-specific subdirectory
-        Path namespaceDir = baseOutputDir.resolve(itemNamespace);
-        Files.createDirectories(namespaceDir);
+        String textureNamespace = textureName.getNamespace();
+        String texturePath = textureName.getPath();
+
+        // Create directory structure based on texture path (may include subdirectories like "item/")
+        Path outputPath = baseOutputDir.resolve(textureNamespace).resolve(texturePath + ".gif");
+        Files.createDirectories(outputPath.getParent());
 
         try {
             AnimationFrame[] frames = extractFramesFromSprite(sprite);
-
-            Path outputPath = namespaceDir.resolve(itemPath + ".gif");
             GifGenerator.generateGifFromFrames(frames, outputPath);
 
             LOGGER.info("Generated animated GIF: {}", outputPath);
         } catch (Exception e) {
-            LOGGER.error("Failed to generate GIF for item {}: {}", itemPath, e.getMessage(), e);
-            writeErrorPlaceholder(namespaceDir, itemPath, e);
+            LOGGER.error("Failed to generate GIF for texture {}: {}", textureName, e.getMessage(), e);
+            writeErrorPlaceholder(outputPath.getParent(), outputPath.getFileName().toString().replace(".gif", ""), e);
         }
     }
 
-    private static void writeErrorPlaceholder(Path outputDir, String itemName, Exception error) throws IOException {
+    private static void writeErrorPlaceholder(Path outputDir, String textureName, Exception error) throws IOException {
         String errorMessage = String.format(
-            "Failed to generate GIF for item: %s. Error: %s",
-            itemName, error.getMessage());
+            "Failed to generate GIF for texture: %s. Error: %s",
+            textureName, error.getMessage());
 
-        Path placeholderPath = outputDir.resolve(itemName + ".gif.txt");
+        Path placeholderPath = outputDir.resolve(textureName + ".gif.txt");
         Files.writeString(placeholderPath, errorMessage);
     }
 
