@@ -7,6 +7,11 @@ on:
         required: true
       job_id:
         required: true
+
+permissions:
+  actions: write
+  contents: read
+
 jobs:
   rerun:
     runs-on: ubuntu-latest
