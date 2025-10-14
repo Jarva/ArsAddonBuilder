@@ -42,7 +42,9 @@ public class GifGenerator {
             if (streamMetadata != null) {
                 try {
                     String metaFormat = "javax_imageio_gif_stream_1.0";
-                    IIOMetadataNode root = new IIOMetadataNode(metaFormat);
+
+                    // Get existing tree and modify it
+                    IIOMetadataNode root = (IIOMetadataNode) streamMetadata.getAsTree(metaFormat);
 
                     IIOMetadataNode appExtensions = new IIOMetadataNode("ApplicationExtensions");
                     IIOMetadataNode appExtension = new IIOMetadataNode("ApplicationExtension");
@@ -56,7 +58,7 @@ public class GifGenerator {
                     appExtensions.appendChild(appExtension);
                     root.appendChild(appExtensions);
 
-                    streamMetadata.mergeTree(metaFormat, root);
+                    streamMetadata.setFromTree(metaFormat, root);
                     LOGGER.info("Configured GIF to loop infinitely");
                 } catch (Exception e) {
                     LOGGER.error("Failed to configure GIF looping metadata: {}", e.getMessage(), e);
@@ -79,7 +81,9 @@ public class GifGenerator {
 
                 try {
                     String metaFormat = "javax_imageio_gif_image_1.0";
-                    IIOMetadataNode root = new IIOMetadataNode(metaFormat);
+
+                    // Get existing tree and modify it
+                    IIOMetadataNode root = (IIOMetadataNode) imageMetadata.getAsTree(metaFormat);
 
                     IIOMetadataNode graphicControlExt = new IIOMetadataNode("GraphicControlExtension");
                     graphicControlExt.setAttribute("disposalMethod", "none");
@@ -89,7 +93,7 @@ public class GifGenerator {
                     graphicControlExt.setAttribute("transparentColorIndex", "0");
 
                     root.appendChild(graphicControlExt);
-                    imageMetadata.mergeTree(metaFormat, root);
+                    imageMetadata.setFromTree(metaFormat, root);
                 } catch (Exception e) {
                     LOGGER.warn("Could not configure frame {} timing metadata: {}", i, e.getMessage());
                 }
