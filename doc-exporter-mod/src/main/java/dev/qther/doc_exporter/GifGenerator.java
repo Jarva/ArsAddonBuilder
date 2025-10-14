@@ -25,8 +25,6 @@ public class GifGenerator {
     private static final int TICKS_PER_SECOND = 20; // Minecraft runs at 20 ticks per second
 
     public static void generateGifFromFrames(AnimatedTextureExporter.AnimationFrame[] frames, Path outputPath) throws IOException {
-        LOGGER.info("Starting GIF generation with {} frames to {}", frames.length, outputPath);
-
         if (frames.length == 0) {
             LOGGER.warn("Skipping GIF generation for {} because no frames were provided", outputPath);
             return;
@@ -136,7 +134,5 @@ public class GifGenerator {
             out.write(loopExtension); // Insert loop extension
             out.write(gifData, pos, gifData.length - pos); // Write rest of GIF
         }
-
-        LOGGER.info("Inserted NETSCAPE 2.0 loop extension at position {}", pos);
     }
 }

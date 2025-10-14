@@ -66,9 +66,6 @@ public class AnimatedTextureExporter {
         int exportedCount = 0;
         Minecraft minecraft = Minecraft.getInstance();
 
-        // Diagnostic: Log available resource packs to verify mod resources are loaded
-        logResourcePackDiagnostics(minecraft, modId);
-
         for (Item item : BuiltInRegistries.ITEM) {
             if (!isItemFromMod(item, modId)) {
                 continue;
@@ -87,7 +84,6 @@ public class AnimatedTextureExporter {
                             return;
                         }
                     }
-                    LOGGER.info("Found animated item texture: {}", BuiltInRegistries.ITEM.getKey(item));
                     processAnimatedItem(item, sprite, outputDir);
                     exportedCount++;
                 }
@@ -366,38 +362,4 @@ public class AnimatedTextureExporter {
 
         return scaled;
     }
-
-    /**
-     * Logs diagnostic information about available resource packs and namespaces
-     * to help debug texture loading issues in headless environments.
-     */
-    private static void logResourcePackDiagnostics(Minecraft minecraft, String modId) {
-        try {
-            var resourceManager = minecraft.getResourceManager();
-
-            // List all available resource pack IDs
-            var packIds = resourceManager.listPacks().map(pack -> pack.packId()).toList();
-            LOGGER.info("Available resource packs ({} total): {}", packIds.size(), packIds);
-
-            // Check if mod's namespace exists in resources
-            boolean modPackFound = packIds.stream().anyMatch(id -> id.contains(modId));
-            LOGGER.info("Mod '{}' resource pack found: {}", modId, modPackFound);
-
-            // Try to list some resources from the mod's namespace to verify accessibility
-            var modResources = resourceManager.listResources("textures/item",
-                loc -> loc.getNamespace().equals(modId) && loc.getPath().endsWith(".png"));
-            int modResourceCount = modResources.size();
-            LOGGER.info("Found {} texture resources in namespace '{}'", modResourceCount, modId);
-
-            if (modResourceCount > 0) {
-                // Sample up to 5 resources as examples
-                var samples = modResources.keySet().stream().limit(5).toList();
-                LOGGER.info("Sample resources from '{}': {}", modId, samples);
-            }
-
-        } catch (Exception e) {
-            LOGGER.error("Failed to log resource pack diagnostics: {}", e.getMessage(), e);
-        }
-    }
-
 }
