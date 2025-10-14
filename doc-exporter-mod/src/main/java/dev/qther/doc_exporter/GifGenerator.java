@@ -4,7 +4,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.imageio.*;
-import javax.imageio.metadata.IIOInvalidTreeException;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.metadata.IIOMetadataNode;
 import javax.imageio.stream.ImageOutputStream;
@@ -38,9 +37,27 @@ public class GifGenerator {
 
             ImageWriteParam writeParam = writer.getDefaultWriteParam();
 
+            // Try to configure stream metadata for looping, but don't fail if it doesn't work
             IIOMetadata streamMetadata = writer.getDefaultStreamMetadata(writeParam);
-            if (streamMetadata != null) {
-                configureStreamMetadata(streamMetadata);
+            try {
+                if (streamMetadata != null && streamMetadata.isStandardMetadataFormatSupported()) {
+                    String metaFormat = "javax_imageio_gif_stream_1.0";
+                    IIOMetadataNode root = new IIOMetadataNode(metaFormat);
+
+                    IIOMetadataNode appExtensions = new IIOMetadataNode("ApplicationExtensions");
+                    IIOMetadataNode appExtension = new IIOMetadataNode("ApplicationExtension");
+
+                    appExtension.setAttribute("applicationID", "NETSCAPE");
+                    appExtension.setAttribute("authenticationCode", "2.0");
+                    appExtension.setUserObject(new byte[]{0x1, 0x0, 0x0}); // Loop forever
+
+                    appExtensions.appendChild(appExtension);
+                    root.appendChild(appExtensions);
+
+                    streamMetadata.mergeTree(metaFormat, root);
+                }
+            } catch (Exception e) {
+                LOGGER.warn("Could not configure GIF looping metadata: {}", e.getMessage());
             }
 
             writer.prepareWriteSequence(streamMetadata);
@@ -48,13 +65,29 @@ public class GifGenerator {
             for (int i = 0; i < frames.length; i++) {
                 BufferedImage frame = frames[i].image;
                 int delayMs = (frames[i].durationTicks * 1000) / TICKS_PER_SECOND;
+                int delayCentiseconds = Math.max(2, delayMs / 10);
 
                 IIOMetadata imageMetadata = writer.getDefaultImageMetadata(
                     ImageTypeSpecifier.createFromBufferedImageType(BufferedImage.TYPE_INT_ARGB),
                     writeParam
                 );
 
-                configureFrameMetadata(imageMetadata, delayMs);
+                try {
+                    String metaFormat = "javax_imageio_gif_image_1.0";
+                    IIOMetadataNode root = new IIOMetadataNode(metaFormat);
+
+                    IIOMetadataNode graphicControlExt = new IIOMetadataNode("GraphicControlExtension");
+                    graphicControlExt.setAttribute("disposalMethod", "none");
+                    graphicControlExt.setAttribute("userInputFlag", "FALSE");
+                    graphicControlExt.setAttribute("transparentColorFlag", "FALSE");
+                    graphicControlExt.setAttribute("delayTime", String.valueOf(delayCentiseconds));
+                    graphicControlExt.setAttribute("transparentColorIndex", "0");
+
+                    root.appendChild(graphicControlExt);
+                    imageMetadata.mergeTree(metaFormat, root);
+                } catch (Exception e) {
+                    LOGGER.warn("Could not configure frame {} timing metadata: {}", i, e.getMessage());
+                }
 
                 IIOImage iioImage = new IIOImage(frame, null, imageMetadata);
                 writer.writeToSequence(iioImage, writeParam);
@@ -67,59 +100,5 @@ public class GifGenerator {
         }
 
         LOGGER.info("Successfully wrote GIF to {}", outputPath);
-    }
-
-    private static void configureStreamMetadata(IIOMetadata metadata) throws IIOInvalidTreeException {
-        String metaFormatName = metadata.getNativeMetadataFormatName();
-        IIOMetadataNode root = (IIOMetadataNode) metadata.getAsTree(metaFormatName);
-
-        // Configure looping - NETSCAPE 2.0 extension for infinite loop
-        IIOMetadataNode appExtensionsNode = getNode(root, "ApplicationExtensions");
-        if (appExtensionsNode == null) {
-            appExtensionsNode = new IIOMetadataNode("ApplicationExtensions");
-            root.appendChild(appExtensionsNode);
-        }
-
-        IIOMetadataNode appExtensionNode = new IIOMetadataNode("ApplicationExtension");
-        appExtensionNode.setAttribute("applicationID", "NETSCAPE");
-        appExtensionNode.setAttribute("authenticationCode", "2.0");
-
-        // Loop count: 0 = infinite
-        byte[] loopData = {0x1, 0x0, 0x0};
-        appExtensionNode.setUserObject(loopData);
-        appExtensionsNode.appendChild(appExtensionNode);
-
-        metadata.setFromTree(metaFormatName, root);
-    }
-
-    private static void configureFrameMetadata(IIOMetadata metadata, int delayMs) throws IIOInvalidTreeException {
-        String metaFormatName = metadata.getNativeMetadataFormatName();
-        IIOMetadataNode root = (IIOMetadataNode) metadata.getAsTree(metaFormatName);
-
-        // Set frame delay in centiseconds (GIF uses 1/100th of a second)
-        int delayCentiseconds = Math.max(2, delayMs / 10); // Minimum 2 centiseconds
-
-        IIOMetadataNode graphicsControlExtensionNode = getNode(root, "GraphicControlExtension");
-        if (graphicsControlExtensionNode == null) {
-            graphicsControlExtensionNode = new IIOMetadataNode("GraphicControlExtension");
-            root.appendChild(graphicsControlExtensionNode);
-        }
-
-        graphicsControlExtensionNode.setAttribute("disposalMethod", "none");
-        graphicsControlExtensionNode.setAttribute("userInputFlag", "FALSE");
-        graphicsControlExtensionNode.setAttribute("transparentColorFlag", "FALSE");
-        graphicsControlExtensionNode.setAttribute("delayTime", String.valueOf(delayCentiseconds));
-        graphicsControlExtensionNode.setAttribute("transparentColorIndex", "0");
-
-        metadata.setFromTree(metaFormatName, root);
-    }
-
-    private static IIOMetadataNode getNode(IIOMetadataNode parent, String nodeName) {
-        for (int i = 0; i < parent.getLength(); i++) {
-            if (parent.item(i).getNodeName().equalsIgnoreCase(nodeName)) {
-                return (IIOMetadataNode) parent.item(i);
-            }
-        }
-        return null;
     }
 }
