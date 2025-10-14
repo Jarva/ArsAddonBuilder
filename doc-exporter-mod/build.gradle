@@ -151,9 +151,6 @@ dependencies {
     compileOnly "com.hollingsworth.nuggets:nuggets-neoforge-${patchless_mc_version}:${project.nuggets_version}"
     compileOnly "mezz.jei:jei-${project.minecraft_version}-neoforge-api:${project.jei_version}"
     compileOnly "top.theillusivec4.curios:curios-neoforge:${project.curios_version}+${patchless_mc_version}"
-
-    // WebP support for animated texture export
-    implementation 'org.sejda.imageio:webp-imageio:0.1.6'
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
