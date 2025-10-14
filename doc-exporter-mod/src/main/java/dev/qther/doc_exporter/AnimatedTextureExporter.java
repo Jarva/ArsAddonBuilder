@@ -118,14 +118,7 @@ public class AnimatedTextureExporter {
         String itemName = BuiltInRegistries.ITEM.getKey(item).getPath();
 
         try {
-            var spriteContents = sprite.contents();
-            var contentsAccessor = (AnimatedTextureAccessor) spriteContents;
-            var animatedTexture = contentsAccessor.getAnimatedTexture();
-            var animTexAccessor = (AnimatedTextureFramesAccessor) animatedTexture;
-            boolean interpolate = animTexAccessor.getInterpolateFrames();
-
             AnimationFrame[] frames = extractFramesFromSprite(sprite);
-            LOGGER.debug("Processing {} with {} frames (interpolated: {})", itemName, frames.length, interpolate);
 
             Path outputPath = outputDir.resolve(itemName + ".gif");
             GifGenerator.generateGifFromFrames(frames, outputPath);
