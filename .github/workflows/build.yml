@@ -177,7 +177,7 @@ jobs:
           echo ${{ fromJson(steps.info.outputs.MODULE).hash }} > output/resources/${{ steps.info.outputs.DIR }}/.outdated
 
       - name: Rsync data and resources
-        if: success()
+        if: success() && steps.module_cache.outputs.cache-hit != 'true'
         uses: up9cloud/action-rsync@v1.4
         env:
           MODE: local
