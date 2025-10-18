@@ -150,7 +150,7 @@ jobs:
           attempt_limit: 3
           attempt_delay: 2000
           current_path: build/${{ steps.info.outputs.DIR }}
-          command: ./gradlew runData build
+          command: ./gradlew build runData
 
       - name: Delete sources jars
         if: steps.module_cache.outputs.cache-hit != 'true'
@@ -186,7 +186,6 @@ jobs:
           VERBOSE: true
           ARGS_MORE: "--exclude=**/.cache/** --exclude=*.cache"
           PRE_SCRIPT: |
-            rm -rf output/resources/${{ steps.info.outputs.DIR }}
             mkdir -p output/resources/${{ steps.info.outputs.DIR }}
             echo start at:
             date -u
