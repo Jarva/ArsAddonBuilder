@@ -75,7 +75,6 @@ public class GifGenerator {
 
             writer.endWriteSequence();
             writer.dispose();
-            output.flush();
         }
 
         // Manually insert NETSCAPE 2.0 loop extension
@@ -134,7 +133,6 @@ public class GifGenerator {
             out.write(gifData, 0, pos); // Write everything up to insertion point
             out.write(loopExtension); // Insert loop extension
             out.write(gifData, pos, gifData.length - pos); // Write rest of GIF
-            out.flush();
         }
     }
 }
