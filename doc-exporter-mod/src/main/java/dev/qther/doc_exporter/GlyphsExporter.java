@@ -93,7 +93,7 @@ public final class GlyphsExporter {
                         return DataResult.success(augment);
                     }
                     return DataResult.error(() -> id + " is not an augment");
-                }, AbstractSpellPart::getRegistryName)).fieldOf("compatible").forGetter(p -> p.part.compatibleAugments.stream().sorted().collect(Collectors.toCollection(LinkedHashSet::new))),
+                }, AbstractSpellPart::getRegistryName)).fieldOf("compatible").forGetter(p -> collectToOrderedSet(p.part.compatibleAugments.stream().sorted(Comparator.comparing(a -> a.getRegistryName().toString())))),
                 Codec.unboundedMap(ResourceLocation.CODEC.comapFlatMap(id -> {
                     if (GlyphRegistry.getSpellPart(id) instanceof AbstractAugment augment) {
                         return DataResult.success(augment);
