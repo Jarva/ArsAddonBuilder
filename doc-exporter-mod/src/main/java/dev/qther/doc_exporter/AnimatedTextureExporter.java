@@ -100,7 +100,8 @@ public class AnimatedTextureExporter {
     }
 
     private static boolean isItemFromMod(Item item, String modId) {
-        return BuiltInRegistries.ITEM.getKey(item).getNamespace().equals(modId);
+        var itemNamespace = BuiltInRegistries.ITEM.getKey(item).getNamespace();
+        return itemNamespace.equals(modId) || (modId.equals("not_enough_glyphs") && itemNamespace.matches("^(toomanyglyphs|arsomega|ars_scalaes|ars_trinkets)$"));
     }
 
     private static TextureAtlasSprite getItemSprite(Minecraft minecraft, Item item) {
