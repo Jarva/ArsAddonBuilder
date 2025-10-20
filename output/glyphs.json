@@ -475,15 +475,18 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
+          "ars_nouveau:glyph_accelerate",
+          "ars_nouveau:glyph_decelerate",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_decelerate",
-          "ars_nouveau:glyph_accelerate"
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_arc_projectile_glyph_split"
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_arc_projectile_glyph_accelerate"
+          },
+          "ars_nouveau:glyph_decelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_arc_projectile_glyph_decelerate"
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_arc_projectile_glyph_pierce"
@@ -491,11 +494,8 @@
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_arc_projectile_glyph_sensitive"
           },
-          "ars_nouveau:glyph_decelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_arc_projectile_glyph_decelerate"
-          },
-          "ars_nouveau:glyph_accelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_arc_projectile_glyph_accelerate"
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_arc_projectile_glyph_split"
           }
         },
         "costs": {},
@@ -579,16 +579,16 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_charm_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_charm_glyph_amplify"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_charm_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_charm_glyph_extend_time"
@@ -629,16 +629,13 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_conflagrate_glyph_fortune"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_conflagrate_glyph_amplify"
           },
@@ -647,6 +644,9 @@
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_conflagrate_glyph_dampen"
+          },
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_conflagrate_glyph_fortune"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_conflagrate_glyph_randomize"
@@ -693,20 +693,20 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_conjure_terrain_glyph_pierce"
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_conjure_terrain_glyph_amplify"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_conjure_terrain_glyph_aoe"
           },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_conjure_terrain_glyph_amplify"
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_conjure_terrain_glyph_pierce"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_conjure_terrain_glyph_randomize"
@@ -750,32 +750,32 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_discharge_glyph_fortune"
-          },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_discharge_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_discharge_glyph_amplify"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_discharge_glyph_aoe"
           },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_discharge_glyph_dampen"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_discharge_glyph_duration_down"
+          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_discharge_glyph_extend_time"
           },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_discharge_glyph_dampen"
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_discharge_glyph_fortune"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_discharge_glyph_randomize"
@@ -818,16 +818,16 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_envenom_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_envenom_glyph_amplify"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_envenom_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_envenom_glyph_extend_time"
@@ -895,16 +895,22 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
+          "ars_nouveau:glyph_accelerate",
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_decelerate",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_decelerate",
-          "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_accelerate"
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_homing_projectile_glyph_split"
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_homing_projectile_glyph_accelerate"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_homing_projectile_glyph_dampen"
+          },
+          "ars_nouveau:glyph_decelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_homing_projectile_glyph_decelerate"
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_homing_projectile_glyph_pierce"
@@ -912,14 +918,8 @@
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_homing_projectile_glyph_sensitive"
           },
-          "ars_nouveau:glyph_decelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_homing_projectile_glyph_decelerate"
-          },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_homing_projectile_glyph_dampen"
-          },
-          "ars_nouveau:glyph_accelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_homing_projectile_glyph_accelerate"
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_homing_projectile_glyph_split"
           }
         },
         "costs": {},
@@ -992,19 +992,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_life_link_glyph_sensitive"
-          },
           "ars_nouveau:glyph_duration_down": {
             "translate": "ars_nouveau.augment_desc.glyph_life_link_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_life_link_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_life_link_glyph_sensitive"
           }
         },
         "costs": {},
@@ -1270,20 +1270,20 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_phantom_grasp_glyph_fortune"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_phantom_grasp_glyph_amplify"
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_phantom_grasp_glyph_dampen"
+          },
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_phantom_grasp_glyph_fortune"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_phantom_grasp_glyph_randomize"
@@ -1326,32 +1326,32 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_poison_spores_glyph_fortune"
-          },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_poison_spores_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_poison_spores_glyph_amplify"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_poison_spores_glyph_aoe"
           },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_poison_spores_glyph_dampen"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_poison_spores_glyph_duration_down"
+          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_poison_spores_glyph_extend_time"
           },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_poison_spores_glyph_dampen"
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_poison_spores_glyph_fortune"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_poison_spores_glyph_randomize"
@@ -1394,16 +1394,22 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
+          "ars_nouveau:glyph_accelerate",
+          "ars_nouveau:glyph_decelerate",
+          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_extract",
-          "ars_nouveau:glyph_decelerate",
-          "ars_nouveau:glyph_accelerate"
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagator_arc_glyph_split"
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagator_arc_glyph_accelerate"
+          },
+          "ars_nouveau:glyph_decelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagator_arc_glyph_decelerate"
+          },
+          "ars_nouveau:glyph_extract": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagator_arc_glyph_extract"
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_propagator_arc_glyph_pierce"
@@ -1411,14 +1417,8 @@
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_propagator_arc_glyph_sensitive"
           },
-          "ars_nouveau:glyph_extract": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagator_arc_glyph_extract"
-          },
-          "ars_nouveau:glyph_decelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagator_arc_glyph_decelerate"
-          },
-          "ars_nouveau:glyph_accelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagator_arc_glyph_accelerate"
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagator_arc_glyph_split"
           }
         },
         "costs": {},
@@ -1456,17 +1456,26 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
+          "ars_nouveau:glyph_accelerate",
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_decelerate",
+          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_extract",
-          "ars_nouveau:glyph_decelerate",
-          "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_accelerate"
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagator_homing_glyph_split"
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagator_homing_glyph_accelerate"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagator_homing_glyph_dampen"
+          },
+          "ars_nouveau:glyph_decelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagator_homing_glyph_decelerate"
+          },
+          "ars_nouveau:glyph_extract": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagator_homing_glyph_extract"
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_propagator_homing_glyph_pierce"
@@ -1474,17 +1483,8 @@
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_propagator_homing_glyph_sensitive"
           },
-          "ars_nouveau:glyph_extract": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagator_homing_glyph_extract"
-          },
-          "ars_nouveau:glyph_decelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagator_homing_glyph_decelerate"
-          },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagator_homing_glyph_dampen"
-          },
-          "ars_nouveau:glyph_accelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagator_homing_glyph_accelerate"
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagator_homing_glyph_split"
           }
         },
         "costs": {},
@@ -1522,24 +1522,24 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_spark_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_spark_glyph_amplify"
           },
-          "ars_nouveau:glyph_extend_time": {
-            "translate": "ars_nouveau.augment_desc.glyph_spark_glyph_extend_time"
-          },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_spark_glyph_dampen"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_spark_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_spark_glyph_extend_time"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_spark_glyph_randomize"
@@ -1586,21 +1586,15 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_fortune",
+          "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_spike_glyph_pierce"
-          },
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_spike_glyph_fortune"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_spike_glyph_amplify"
           },
@@ -1612,6 +1606,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_spike_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_spike_glyph_fortune"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_spike_glyph_pierce"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_spike_glyph_randomize"
@@ -1718,24 +1718,24 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_watery_grave_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_watery_grave_glyph_amplify"
           },
-          "ars_nouveau:glyph_extend_time": {
-            "translate": "ars_nouveau.augment_desc.glyph_watery_grave_glyph_extend_time"
-          },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_watery_grave_glyph_dampen"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_watery_grave_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_watery_grave_glyph_extend_time"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_watery_grave_glyph_randomize"
@@ -1828,11 +1828,11 @@
     ],
     "spellSchools": [
       {
-        "id": "manipulation",
+        "id": "conjuration",
         "subschools": []
       },
       {
-        "id": "conjuration",
+        "id": "manipulation",
         "subschools": []
       }
     ],
@@ -1961,16 +1961,16 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_bounce_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_bounce_glyph_amplify"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_bounce_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_bounce_glyph_extend_time"
@@ -2010,39 +2010,39 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_extract",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_extract",
+          "ars_nouveau:glyph_fortune",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_randomize",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_break_glyph_pierce"
-          },
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_break_glyph_fortune"
-          },
-          "ars_nouveau:glyph_extract": {
-            "translate": "ars_nouveau.augment_desc.glyph_break_glyph_extract"
-          },
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_break_glyph_sensitive"
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_break_glyph_amplify"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_break_glyph_aoe"
           },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_break_glyph_amplify"
-          },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_break_glyph_dampen"
           },
+          "ars_nouveau:glyph_extract": {
+            "translate": "ars_nouveau.augment_desc.glyph_break_glyph_extract"
+          },
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_break_glyph_fortune"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_break_glyph_pierce"
+          },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_break_glyph_randomize"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_break_glyph_sensitive"
           }
         },
         "costs": {},
@@ -2082,23 +2082,23 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_bubble_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_bubble_glyph_amplify"
           },
-          "ars_nouveau:glyph_extend_time": {
-            "translate": "ars_nouveau.augment_desc.glyph_bubble_glyph_extend_time"
-          },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_bubble_glyph_dampen"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_bubble_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_bubble_glyph_extend_time"
           }
         },
         "costs": {},
@@ -2130,19 +2130,19 @@
       "perSpellLimit": 1,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_burst_glyph_sensitive"
-          },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_burst_glyph_aoe"
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_burst_glyph_dampen"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_burst_glyph_sensitive"
           }
         },
         "costs": {},
@@ -2151,8 +2151,8 @@
         }
       },
       "invalidCombinations": [
-        "ars_nouveau:glyph_wall",
-        "ars_nouveau:glyph_linger"
+        "ars_nouveau:glyph_linger",
+        "ars_nouveau:glyph_wall"
       ],
       "tier": 3,
       "cost": 500,
@@ -2184,21 +2184,15 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_cold_snap_glyph_fortune"
-          },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_cold_snap_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_cold_snap_glyph_amplify"
           },
@@ -2208,8 +2202,14 @@
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_cold_snap_glyph_dampen"
           },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_cold_snap_glyph_duration_down"
+          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_cold_snap_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_cold_snap_glyph_fortune"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_cold_snap_glyph_randomize"
@@ -2252,23 +2252,23 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_conjure_water_glyph_pierce"
-          },
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_conjure_water_glyph_sensitive"
-          },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_conjure_water_glyph_aoe"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_conjure_water_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_conjure_water_glyph_pierce"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_conjure_water_glyph_sensitive"
           }
         },
         "costs": {},
@@ -2342,23 +2342,14 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_fortune",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_crush_glyph_pierce"
-          },
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_crush_glyph_fortune"
-          },
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_crush_glyph_sensitive"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_crush_glyph_amplify"
           },
@@ -2367,6 +2358,15 @@
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_crush_glyph_dampen"
+          },
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_crush_glyph_fortune"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_crush_glyph_pierce"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_crush_glyph_sensitive"
           }
         },
         "costs": {},
@@ -2397,11 +2397,11 @@
     ],
     "spellSchools": [
       {
-        "id": "manipulation",
+        "id": "air",
         "subschools": []
       },
       {
-        "id": "air",
+        "id": "manipulation",
         "subschools": []
       }
     ],
@@ -2410,23 +2410,23 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extract",
+          "ars_nouveau:glyph_fortune"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_extract": {
-            "translate": "ars_nouveau.augment_desc.glyph_cut_glyph_extract"
-          },
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_cut_glyph_fortune"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_cut_glyph_amplify"
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_cut_glyph_dampen"
+          },
+          "ars_nouveau:glyph_extract": {
+            "translate": "ars_nouveau.augment_desc.glyph_cut_glyph_extract"
+          },
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_cut_glyph_fortune"
           }
         },
         "costs": {},
@@ -2674,15 +2674,15 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_aoe"
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_pierce"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_evaporate_glyph_pierce"
-          },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_evaporate_glyph_aoe"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_evaporate_glyph_pierce"
           }
         },
         "costs": {},
@@ -2719,24 +2719,24 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_exchange_glyph_pierce"
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_exchange_glyph_amplify"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_exchange_glyph_aoe"
           },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_exchange_glyph_amplify"
-          },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_exchange_glyph_dampen"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_exchange_glyph_pierce"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_exchange_glyph_randomize"
@@ -2776,15 +2776,12 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extract"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_extract": {
-            "translate": "ars_nouveau.augment_desc.glyph_explosion_glyph_extract"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_explosion_glyph_amplify"
           },
@@ -2793,6 +2790,9 @@
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_explosion_glyph_dampen"
+          },
+          "ars_nouveau:glyph_extract": {
+            "translate": "ars_nouveau.augment_desc.glyph_explosion_glyph_extract"
           }
         },
         "costs": {},
@@ -2891,15 +2891,15 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_accelerate",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_accelerate"
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_fangs_glyph_duration_down"
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_fangs_glyph_accelerate"
           },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_fangs_glyph_amplify"
@@ -2907,11 +2907,11 @@
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_fangs_glyph_dampen"
           },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_fangs_glyph_duration_down"
+          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_fangs_glyph_extend_time"
-          },
-          "ars_nouveau:glyph_accelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_fangs_glyph_accelerate"
           }
         },
         "costs": {},
@@ -2950,27 +2950,27 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_extract",
-          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extract",
+          "ars_nouveau:glyph_fortune"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_fell_glyph_fortune"
-          },
-          "ars_nouveau:glyph_extract": {
-            "translate": "ars_nouveau.augment_desc.glyph_fell_glyph_extract"
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_fell_glyph_amplify"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_fell_glyph_aoe"
           },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_fell_glyph_amplify"
-          },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_fell_glyph_dampen"
+          },
+          "ars_nouveau:glyph_extract": {
+            "translate": "ars_nouveau.augment_desc.glyph_fell_glyph_extract"
+          },
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_fell_glyph_fortune"
           }
         },
         "costs": {},
@@ -3007,15 +3007,12 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_firework_glyph_split"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_firework_glyph_amplify"
           },
@@ -3024,6 +3021,9 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_firework_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_firework_glyph_split"
           }
         },
         "costs": {},
@@ -3062,16 +3062,13 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_flare_glyph_fortune"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_flare_glyph_amplify"
           },
@@ -3080,6 +3077,9 @@
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_flare_glyph_dampen"
+          },
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_flare_glyph_fortune"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_flare_glyph_randomize"
@@ -3151,31 +3151,31 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_freeze_glyph_pierce"
-          },
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_freeze_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_freeze_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_freeze_glyph_amplify"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_freeze_glyph_aoe"
           },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_freeze_glyph_duration_down"
+          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_freeze_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_freeze_glyph_pierce"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_freeze_glyph_sensitive"
           }
         },
         "costs": {},
@@ -3259,32 +3259,32 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_gravity_glyph_pierce"
-          },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_gravity_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_gravity_glyph_amplify"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_gravity_glyph_aoe"
           },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_gravity_glyph_dampen"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_gravity_glyph_duration_down"
+          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_gravity_glyph_extend_time"
           },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_gravity_glyph_dampen"
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_gravity_glyph_pierce"
           }
         },
         "costs": {},
@@ -3321,15 +3321,15 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_aoe"
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_pierce"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_grow_glyph_pierce"
-          },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_grow_glyph_aoe"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_grow_glyph_pierce"
           }
         },
         "costs": {},
@@ -3366,31 +3366,31 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_extract",
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extract",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_gust_glyph_pierce"
-          },
-          "ars_nouveau:glyph_extract": {
-            "translate": "ars_nouveau.augment_desc.glyph_gust_glyph_extract"
-          },
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_gust_glyph_sensitive"
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_gust_glyph_amplify"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_gust_glyph_aoe"
           },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_gust_glyph_amplify"
-          },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_gust_glyph_dampen"
+          },
+          "ars_nouveau:glyph_extract": {
+            "translate": "ars_nouveau.augment_desc.glyph_gust_glyph_extract"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_gust_glyph_pierce"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_gust_glyph_sensitive"
           }
         },
         "costs": {},
@@ -3429,28 +3429,28 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_harm_glyph_fortune"
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_harm_glyph_amplify"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_harm_glyph_dampen"
           },
           "ars_nouveau:glyph_duration_down": {
             "translate": "ars_nouveau.augment_desc.glyph_harm_glyph_duration_down"
           },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_harm_glyph_amplify"
-          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_harm_glyph_extend_time"
           },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_harm_glyph_dampen"
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_harm_glyph_fortune"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_harm_glyph_randomize"
@@ -3492,19 +3492,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_aoe"
+          "ars_nouveau:glyph_pierce"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_harvest_glyph_pierce"
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_harvest_glyph_aoe"
           },
           "ars_nouveau:glyph_fortune": {
             "translate": "ars_nouveau.augment_desc.glyph_harvest_glyph_fortune"
           },
-          "ars_nouveau:glyph_aoe": {
-            "translate": "ars_nouveau.augment_desc.glyph_harvest_glyph_aoe"
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_harvest_glyph_pierce"
           }
         },
         "costs": {},
@@ -3545,20 +3545,20 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_heal_glyph_fortune"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_heal_glyph_amplify"
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_heal_glyph_dampen"
+          },
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_heal_glyph_fortune"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_heal_glyph_randomize"
@@ -3602,16 +3602,16 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_hex_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_hex_glyph_amplify"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_hex_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_hex_glyph_extend_time"
@@ -3653,27 +3653,27 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_ignite_glyph_aoe"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_ignite_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_ignite_glyph_extend_time"
+          },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_ignite_glyph_pierce"
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_ignite_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_ignite_glyph_duration_down"
-          },
-          "ars_nouveau:glyph_aoe": {
-            "translate": "ars_nouveau.augment_desc.glyph_ignite_glyph_aoe"
-          },
-          "ars_nouveau:glyph_extend_time": {
-            "translate": "ars_nouveau.augment_desc.glyph_ignite_glyph_extend_time"
           }
         },
         "costs": {},
@@ -3755,31 +3755,31 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_pierce"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_intangible_glyph_pierce"
-          },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_intangible_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_intangible_glyph_amplify"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_intangible_glyph_aoe"
           },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_intangible_glyph_dampen"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_intangible_glyph_duration_down"
+          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_intangible_glyph_extend_time"
           },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_intangible_glyph_dampen"
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_intangible_glyph_pierce"
           }
         },
         "costs": {},
@@ -3816,19 +3816,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_interact_glyph_sensitive"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_interact_glyph_amplify"
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_interact_glyph_dampen"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_interact_glyph_sensitive"
           }
         },
         "costs": {},
@@ -3914,29 +3914,29 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_launch_glyph_amplify"
+          },
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_launch_glyph_aoe"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_launch_glyph_dampen"
+          },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_launch_glyph_pierce"
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_launch_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_aoe": {
-            "translate": "ars_nouveau.augment_desc.glyph_launch_glyph_aoe"
-          },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_launch_glyph_amplify"
-          },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_launch_glyph_dampen"
           }
         },
         "costs": {},
@@ -3975,27 +3975,27 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_leap_glyph_amplify"
+          },
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_leap_glyph_aoe"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_leap_glyph_dampen"
+          },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_leap_glyph_pierce"
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_leap_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_aoe": {
-            "translate": "ars_nouveau.augment_desc.glyph_leap_glyph_aoe"
-          },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_leap_glyph_amplify"
-          },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_leap_glyph_dampen"
           }
         },
         "costs": {},
@@ -4034,27 +4034,27 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_light_glyph_sensitive"
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_light_glyph_amplify"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_light_glyph_dampen"
           },
           "ars_nouveau:glyph_duration_down": {
             "translate": "ars_nouveau.augment_desc.glyph_light_glyph_duration_down"
           },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_light_glyph_amplify"
-          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_light_glyph_extend_time"
           },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_light_glyph_dampen"
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_light_glyph_sensitive"
           }
         },
         "costs": {},
@@ -4094,23 +4094,23 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_lightning_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_lightning_glyph_amplify"
           },
-          "ars_nouveau:glyph_extend_time": {
-            "translate": "ars_nouveau.augment_desc.glyph_lightning_glyph_extend_time"
-          },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_lightning_glyph_dampen"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_lightning_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_lightning_glyph_extend_time"
           }
         },
         "costs": {},
@@ -4149,35 +4149,35 @@
       "perSpellLimit": 1,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_accelerate",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_decelerate",
-          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_accelerate"
+          "ars_nouveau:glyph_decelerate",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_linger_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_linger_glyph_duration_down"
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_linger_glyph_accelerate"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_linger_glyph_aoe"
           },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_linger_glyph_dampen"
+          },
           "ars_nouveau:glyph_decelerate": {
             "translate": "ars_nouveau.augment_desc.glyph_linger_glyph_decelerate"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_linger_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_linger_glyph_extend_time"
           },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_linger_glyph_dampen"
-          },
-          "ars_nouveau:glyph_accelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_linger_glyph_accelerate"
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_linger_glyph_sensitive"
           }
         },
         "costs": {},
@@ -4246,27 +4246,18 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_accelerate",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_decelerate",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_accelerate"
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive",
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_split"
-          },
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_pierce"
-          },
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_duration_down"
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_accelerate"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_aoe"
@@ -4274,11 +4265,20 @@
           "ars_nouveau:glyph_decelerate": {
             "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_decelerate"
           },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_duration_down"
+          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_extend_time"
           },
-          "ars_nouveau:glyph_accelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_accelerate"
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_pierce"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_sensitive"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_split"
           }
         },
         "costs": {},
@@ -4310,19 +4310,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_pantomime_glyph_sensitive"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_pantomime_glyph_amplify"
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_pantomime_glyph_dampen"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_pantomime_glyph_sensitive"
           }
         },
         "costs": {},
@@ -4361,27 +4361,27 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_pierce"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_phantom_block_glyph_pierce"
-          },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_phantom_block_glyph_duration_down"
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_phantom_block_glyph_amplify"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_phantom_block_glyph_aoe"
           },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_phantom_block_glyph_amplify"
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_phantom_block_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_phantom_block_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_phantom_block_glyph_pierce"
           }
         },
         "costs": {},
@@ -4491,23 +4491,23 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_randomize",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_place_block_glyph_pierce"
-          },
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_place_block_glyph_sensitive"
-          },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_place_block_glyph_aoe"
           },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_place_block_glyph_pierce"
+          },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_place_block_glyph_randomize"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_place_block_glyph_sensitive"
           }
         },
         "costs": {},
@@ -4546,16 +4546,16 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_prestidigitation_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_prestidigitation_glyph_amplify"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_prestidigitation_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_prestidigitation_glyph_extend_time"
@@ -4590,15 +4590,18 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
+          "ars_nouveau:glyph_accelerate",
+          "ars_nouveau:glyph_decelerate",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_decelerate",
-          "ars_nouveau:glyph_accelerate"
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_projectile_glyph_split"
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_projectile_glyph_accelerate"
+          },
+          "ars_nouveau:glyph_decelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_projectile_glyph_decelerate"
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_projectile_glyph_pierce"
@@ -4606,11 +4609,8 @@
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_projectile_glyph_sensitive"
           },
-          "ars_nouveau:glyph_decelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_projectile_glyph_decelerate"
-          },
-          "ars_nouveau:glyph_accelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_projectile_glyph_accelerate"
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_projectile_glyph_split"
           }
         },
         "costs": {},
@@ -4647,27 +4647,27 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_pull_glyph_amplify"
+          },
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_pull_glyph_aoe"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_pull_glyph_dampen"
+          },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_pull_glyph_pierce"
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_pull_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_aoe": {
-            "translate": "ars_nouveau.augment_desc.glyph_pull_glyph_aoe"
-          },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_pull_glyph_amplify"
-          },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_pull_glyph_dampen"
           }
         },
         "costs": {},
@@ -4736,31 +4736,31 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_redstone_signal_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_redstone_signal_glyph_duration_down"
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_redstone_signal_glyph_amplify"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_redstone_signal_glyph_aoe"
           },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_redstone_signal_glyph_amplify"
-          },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_redstone_signal_glyph_dampen"
           },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_redstone_signal_glyph_duration_down"
+          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_redstone_signal_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_redstone_signal_glyph_sensitive"
           }
         },
         "costs": {},
@@ -4799,27 +4799,27 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_rotate_glyph_amplify"
+          },
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_rotate_glyph_aoe"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_rotate_glyph_dampen"
+          },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_rotate_glyph_pierce"
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_rotate_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_aoe": {
-            "translate": "ars_nouveau.augment_desc.glyph_rotate_glyph_aoe"
-          },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_rotate_glyph_amplify"
-          },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_rotate_glyph_dampen"
           }
         },
         "costs": {},
@@ -5051,27 +5051,27 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_smelt_glyph_amplify"
+          },
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_smelt_glyph_aoe"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_smelt_glyph_dampen"
+          },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_smelt_glyph_pierce"
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_smelt_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_aoe": {
-            "translate": "ars_nouveau.augment_desc.glyph_smelt_glyph_aoe"
-          },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_smelt_glyph_amplify"
-          },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_smelt_glyph_dampen"
           }
         },
         "costs": {},
@@ -5230,16 +5230,16 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_summon_steed_glyph_duration_down"
-          },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_summon_steed_glyph_aoe"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_summon_steed_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_summon_steed_glyph_extend_time"
@@ -5283,27 +5283,27 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_summon_undead_glyph_split"
-          },
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_summon_undead_glyph_pierce"
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_summon_undead_glyph_amplify"
           },
           "ars_nouveau:glyph_duration_down": {
             "translate": "ars_nouveau.augment_desc.glyph_summon_undead_glyph_duration_down"
           },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_summon_undead_glyph_amplify"
-          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_summon_undead_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_summon_undead_glyph_pierce"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_summon_undead_glyph_split"
           }
         },
         "costs": {},
@@ -5434,20 +5434,20 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_extract": {
-            "translate": "ars_nouveau.augment_desc.glyph_toss_glyph_extract"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_toss_glyph_amplify"
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_toss_glyph_dampen"
+          },
+          "ars_nouveau:glyph_extract": {
+            "translate": "ars_nouveau.augment_desc.glyph_toss_glyph_extract"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_toss_glyph_randomize"
@@ -5553,35 +5553,35 @@
       "perSpellLimit": 1,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_accelerate",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_decelerate",
-          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_accelerate"
+          "ars_nouveau:glyph_decelerate",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_wall_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_wall_glyph_duration_down"
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_wall_glyph_accelerate"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_wall_glyph_aoe"
           },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_wall_glyph_dampen"
+          },
           "ars_nouveau:glyph_decelerate": {
             "translate": "ars_nouveau.augment_desc.glyph_wall_glyph_decelerate"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_wall_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_wall_glyph_extend_time"
           },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_wall_glyph_dampen"
-          },
-          "ars_nouveau:glyph_accelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_wall_glyph_accelerate"
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_wall_glyph_sensitive"
           }
         },
         "costs": {},
@@ -5622,23 +5622,23 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_wind_burst_glyph_sensitive"
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_wind_burst_glyph_amplify"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_wind_burst_glyph_aoe"
           },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_wind_burst_glyph_amplify"
-          },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_wind_burst_glyph_dampen"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_wind_burst_glyph_sensitive"
           }
         },
         "costs": {},
@@ -5677,20 +5677,20 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_wind_shear_glyph_fortune"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_wind_shear_glyph_amplify"
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_wind_shear_glyph_dampen"
+          },
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_wind_shear_glyph_fortune"
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_wind_shear_glyph_randomize"
@@ -5736,16 +5736,16 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_wither_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_wither_glyph_amplify"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_wither_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_wither_glyph_extend_time"
@@ -5857,15 +5857,15 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.wololo_glyph_sensitive"
-          },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.wololo_glyph_randomize"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.wololo_glyph_sensitive"
           }
         },
         "costs": {},
@@ -5904,23 +5904,23 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_resize_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_resize_glyph_amplify"
           },
-          "ars_nouveau:glyph_extend_time": {
-            "translate": "ars_nouveau.augment_desc.glyph_resize_glyph_extend_time"
-          },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_resize_glyph_dampen"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_resize_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_resize_glyph_extend_time"
           }
         },
         "costs": {},
@@ -5958,15 +5958,15 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_aoe"
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_pierce"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_apply_glyph_pierce"
-          },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_apply_glyph_aoe"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_apply_glyph_pierce"
           }
         },
         "costs": {},
@@ -6102,15 +6102,15 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
-          "ars_nouveau:glyph_aoe"
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_insert_glyph_split"
-          },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_insert_glyph_aoe"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_insert_glyph_split"
           }
         },
         "costs": {},
@@ -6147,19 +6147,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_sensitive",
+          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_amplify"
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_obliterate_glyph_sensitive"
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_obliterate_glyph_amplify"
           },
           "ars_nouveau:glyph_fortune": {
             "translate": "ars_nouveau.augment_desc.glyph_obliterate_glyph_fortune"
           },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_obliterate_glyph_amplify"
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_obliterate_glyph_sensitive"
           }
         },
         "costs": {},
@@ -6406,11 +6406,11 @@
     ],
     "spellSchools": [
       {
-        "id": "manipulation",
+        "id": "air",
         "subschools": []
       },
       {
-        "id": "air",
+        "id": "manipulation",
         "subschools": []
       }
     ],
@@ -6540,19 +6540,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_fortune"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_fortune": {
-            "translate": "ars_nouveau.augment_desc.glyph_flatten_glyph_fortune"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_flatten_glyph_amplify"
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_flatten_glyph_dampen"
+          },
+          "ars_nouveau:glyph_fortune": {
+            "translate": "ars_nouveau.augment_desc.glyph_flatten_glyph_fortune"
           }
         },
         "costs": {},
@@ -6595,18 +6595,30 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
+          "ars_nouveau:glyph_accelerate",
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_accelerate"
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_split"
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_accelerate"
+          },
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_aoe"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_dampen"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_extend_time"
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_pierce"
@@ -6614,20 +6626,8 @@
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_sensitive"
           },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_duration_down"
-          },
-          "ars_nouveau:glyph_aoe": {
-            "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_aoe"
-          },
-          "ars_nouveau:glyph_extend_time": {
-            "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_extend_time"
-          },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_dampen"
-          },
-          "ars_nouveau:glyph_accelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_accelerate"
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_split"
           }
         },
         "costs": {},
@@ -6694,18 +6694,30 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
+          "ars_nouveau:glyph_accelerate",
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_accelerate"
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_split"
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_accelerate"
+          },
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_aoe"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_dampen"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_extend_time"
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_pierce"
@@ -6713,20 +6725,8 @@
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_sensitive"
           },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_duration_down"
-          },
-          "ars_nouveau:glyph_aoe": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_aoe"
-          },
-          "ars_nouveau:glyph_extend_time": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_extend_time"
-          },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_dampen"
-          },
-          "ars_nouveau:glyph_accelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_accelerate"
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_split"
           }
         },
         "costs": {},
@@ -6798,16 +6798,22 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
+          "ars_nouveau:glyph_accelerate",
+          "ars_nouveau:glyph_decelerate",
+          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_extract",
-          "ars_nouveau:glyph_decelerate",
-          "ars_nouveau:glyph_accelerate"
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagate_projectile_glyph_split"
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagate_projectile_glyph_accelerate"
+          },
+          "ars_nouveau:glyph_decelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagate_projectile_glyph_decelerate"
+          },
+          "ars_nouveau:glyph_extract": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagate_projectile_glyph_extract"
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_propagate_projectile_glyph_pierce"
@@ -6815,14 +6821,8 @@
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_propagate_projectile_glyph_sensitive"
           },
-          "ars_nouveau:glyph_extract": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagate_projectile_glyph_extract"
-          },
-          "ars_nouveau:glyph_decelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagate_projectile_glyph_decelerate"
-          },
-          "ars_nouveau:glyph_accelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagate_projectile_glyph_accelerate"
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagate_projectile_glyph_split"
           }
         },
         "costs": {},
@@ -6930,19 +6930,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_contingency_blink_glyph_split"
-          },
           "ars_nouveau:glyph_duration_down": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_blink_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_blink_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_contingency_blink_glyph_split"
           }
         },
         "costs": {},
@@ -6980,19 +6980,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_contingency_death_glyph_split"
-          },
           "ars_nouveau:glyph_duration_down": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_death_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_death_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_contingency_death_glyph_split"
           }
         },
         "costs": {},
@@ -7030,27 +7030,27 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_contingency_fall_glyph_split"
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_contingency_fall_glyph_amplify"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_contingency_fall_glyph_dampen"
           },
           "ars_nouveau:glyph_duration_down": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_fall_glyph_duration_down"
           },
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_contingency_fall_glyph_amplify"
-          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_fall_glyph_extend_time"
           },
-          "ars_nouveau:glyph_dampen": {
-            "translate": "ars_nouveau.augment_desc.glyph_contingency_fall_glyph_dampen"
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_contingency_fall_glyph_split"
           }
         },
         "costs": {},
@@ -7088,19 +7088,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_contingency_fire_glyph_split"
-          },
           "ars_nouveau:glyph_duration_down": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_fire_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_fire_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_contingency_fire_glyph_split"
           }
         },
         "costs": {},
@@ -7138,19 +7138,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_contingency_heal_glyph_split"
-          },
           "ars_nouveau:glyph_duration_down": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_heal_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_heal_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_contingency_heal_glyph_split"
           }
         },
         "costs": {},
@@ -7188,16 +7188,16 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_contingency_health_glyph_duration_down"
-          },
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_health_glyph_amplify"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_contingency_health_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_health_glyph_extend_time"
@@ -7440,27 +7440,27 @@
       "perSpellLimit": 1,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_randomize",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagate_plane_glyph_pierce"
-          },
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_propagate_plane_glyph_sensitive"
-          },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_propagate_plane_glyph_aoe"
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_propagate_plane_glyph_dampen"
           },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagate_plane_glyph_pierce"
+          },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_propagate_plane_glyph_randomize"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_propagate_plane_glyph_sensitive"
           }
         },
         "costs": {
@@ -7469,10 +7469,10 @@
         "limits": {}
       },
       "invalidCombinations": [
-        "ars_nouveau:glyph_wall",
-        "toomanyglyphs:glyph_chaining",
         "ars_nouveau:glyph_burst",
-        "ars_nouveau:glyph_linger"
+        "ars_nouveau:glyph_linger",
+        "ars_nouveau:glyph_wall",
+        "toomanyglyphs:glyph_chaining"
       ],
       "tier": 2,
       "cost": 200,
@@ -7499,27 +7499,18 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_split",
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_accelerate",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_decelerate",
+          "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_accelerate"
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive",
+          "ars_nouveau:glyph_split"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_split": {
-            "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_split"
-          },
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_pierce"
-          },
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_duration_down"
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_accelerate"
           },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_aoe"
@@ -7527,11 +7518,20 @@
           "ars_nouveau:glyph_decelerate": {
             "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_decelerate"
           },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_duration_down"
+          },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_extend_time"
           },
-          "ars_nouveau:glyph_accelerate": {
-            "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_accelerate"
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_pierce"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_sensitive"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_split"
           }
         },
         "costs": {},
@@ -7572,15 +7572,15 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_aoe"
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_pierce"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_pierce": {
-            "translate": "ars_nouveau.augment_desc.glyph_pickup_fluid_glyph_pierce"
-          },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_pickup_fluid_glyph_aoe"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_pickup_fluid_glyph_pierce"
           }
         },
         "costs": {},
@@ -7621,19 +7621,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_aoe"
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_place_fluid_glyph_aoe"
+          },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_place_fluid_glyph_pierce"
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_place_fluid_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_aoe": {
-            "translate": "ars_nouveau.augment_desc.glyph_place_fluid_glyph_aoe"
           }
         },
         "costs": {},
@@ -7665,19 +7665,19 @@
       "perSpellLimit": 1,
       "augments": {
         "compatible": [
+          "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_aoe"
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_chaining_glyph_aoe"
+          },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_chaining_glyph_pierce"
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_chaining_glyph_sensitive"
-          },
-          "ars_nouveau:glyph_aoe": {
-            "translate": "ars_nouveau.augment_desc.glyph_chaining_glyph_aoe"
           }
         },
         "costs": {},
@@ -7686,9 +7686,9 @@
         }
       },
       "invalidCombinations": [
-        "ars_nouveau:glyph_wall",
         "ars_nouveau:glyph_burst",
-        "ars_nouveau:glyph_linger"
+        "ars_nouveau:glyph_linger",
+        "ars_nouveau:glyph_wall"
       ],
       "tier": 2,
       "cost": 300,
@@ -8130,15 +8130,15 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_aoe"
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_sensitive": {
-            "translate": "ars_nouveau.augment_desc.glyph_ray_glyph_sensitive"
-          },
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_ray_glyph_aoe"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_ray_glyph_sensitive"
           }
         },
         "costs": {},
