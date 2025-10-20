@@ -1,0 +1,42 @@
+{
+  "type": "ars_nouveau:caster_tome",
+  "color": {
+    "b": 180,
+    "g": 25,
+    "id": "ars_nouveau:constant",
+    "r": 255
+  },
+  "flavour_text": "You. Shall. Not. Pass.",
+  "name": "Lyrellion’s Wall of Force",
+  "sound": {},
+  "spell": [
+    "ars_nouveau:glyph_projectile",
+    "ars_nouveau:glyph_accelerate",
+    "ars_nouveau:glyph_wall",
+    "ars_nouveau:glyph_sensitive",
+    "ars_nouveau:glyph_phantom_block",
+    "ars_nouveau:glyph_pierce",
+    "ars_nouveau:glyph_amplify"
+  ],
+  "spellData": {
+    "color": {
+      "b": 180,
+      "g": 25,
+      "id": "ars_nouveau:constant",
+      "r": 255
+    },
+    "name": "Lyrellion’s Wall of Force",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_accelerate",
+      "ars_nouveau:glyph_wall",
+      "ars_nouveau:glyph_sensitive",
+      "ars_nouveau:glyph_phantom_block",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_amplify"
+    ],
+    "sound": {}
+  },
+  "tome_type": "ars_nouveau:caster_tome"
+}
