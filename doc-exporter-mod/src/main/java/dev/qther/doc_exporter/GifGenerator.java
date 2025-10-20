@@ -1,5 +1,7 @@
 package dev.qther.doc_exporter;
 
+import com.google.common.base.Stopwatch;
+import org.apache.commons.lang3.time.DurationFormatUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -32,6 +34,7 @@ public class GifGenerator {
         // Create temporary file to write GIF without loop extension first
         Path tempPath = outputPath.getParent().resolve(outputPath.getFileName() + ".tmp");
 
+        Stopwatch sw = Stopwatch.createStarted();
         try (FileImageOutputStream output = new FileImageOutputStream(tempPath.toFile())) {
             ImageWriter writer = ImageIO.getImageWritersByFormatName("gif").next();
             writer.setOutput(output);
@@ -68,12 +71,11 @@ public class GifGenerator {
 
                 IIOImage iioImage = new IIOImage(frame, null, imageMetadata);
                 writer.writeToSequence(iioImage, writeParam);
-
-                LOGGER.debug("Frame {} delay: {}ms ({}x{})", i, delayMs, frame.getWidth(), frame.getHeight());
             }
 
             writer.endWriteSequence();
             writer.dispose();
+            output.flush();
         }
 
         // Manually insert NETSCAPE 2.0 loop extension
@@ -82,7 +84,7 @@ public class GifGenerator {
         // Delete temporary file
         Files.deleteIfExists(tempPath);
 
-        LOGGER.info("Successfully wrote GIF with infinite loop to {}", outputPath);
+        LOGGER.info("Successfully wrote GIF with infinite loop to {} in {}", outputPath, DurationFormatUtils.formatDurationHMS(sw.elapsed().toMillis()));
     }
 
     /**
@@ -132,6 +134,7 @@ public class GifGenerator {
             out.write(gifData, 0, pos); // Write everything up to insertion point
             out.write(loopExtension); // Insert loop extension
             out.write(gifData, pos, gifData.length - pos); // Write rest of GIF
+            out.flush();
         }
     }
 }
