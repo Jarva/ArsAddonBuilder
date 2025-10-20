@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "minecraft:swamp_hut",
+      "required": false
+    },
+    {
+      "id": "betterwitchhuts:witch_hut",
+      "required": false
+    }
+  ]
+}

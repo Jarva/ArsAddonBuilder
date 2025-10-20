@@ -197,7 +197,8 @@ jobs:
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git config --global user.name "${{ github.actor }}"
           COMMIT_MSG="feat: update ${{ steps.info.outputs.DIR }} to ${{ fromJson(steps.info.outputs.MODULE).hash }}"
-          git diff --binary --full-index --no-relative -- \
+          git add -A
+          git diff --cached --binary --full-index --no-relative -- \
             . \
             ':!**/*.cache*' \
             > build/${{ steps.info.outputs.DIR }}.patch || true

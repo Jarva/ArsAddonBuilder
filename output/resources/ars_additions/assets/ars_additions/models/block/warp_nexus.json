@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "particle": "ars_additions:block/warp_nexus"
+  },
+  "render_type": "cutout"
+}
