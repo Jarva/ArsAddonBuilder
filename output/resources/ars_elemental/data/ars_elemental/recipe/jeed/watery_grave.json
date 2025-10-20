@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "jeed",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "ars_elemental:watery_grave",
+  "providers": [
+    {
+      "item": "ars_elemental:glyph_watery_grave"
+    }
+  ]
+}

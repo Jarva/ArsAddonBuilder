@@ -1,0 +1,25 @@
+{
+  "type": "sauce:armor_upgrade",
+  "pedestalItems": [
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    }
+  ],
+  "reagent": {
+    "item": "ars_nouveau:sorcerer_hood"
+  },
+  "result": {
+    "count": 1,
+    "id": "ars_elemental:fire_hood"
+  },
+  "sourceCost": 7000
+}
