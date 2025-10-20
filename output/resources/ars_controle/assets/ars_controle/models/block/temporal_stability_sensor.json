@@ -1,0 +1,7 @@
+{
+  "credit": "Qther under LGPL3.0",
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ars_controle:block/temporal_stability_sensor"
+  }
+}
