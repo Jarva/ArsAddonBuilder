@@ -3,10 +3,14 @@ package dev.qther.doc_exporter;
 import dev.qther.doc_exporter.mixin.AnimatedTextureAccessor;
 import dev.qther.doc_exporter.mixin.AnimatedTextureFramesAccessor;
 import dev.qther.doc_exporter.mixin.FrameInfoAccessor;
+import dev.qther.doc_exporter.mixin.SpriteContentsAccessor;
+import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
+import it.unimi.dsi.fastutil.objects.ObjectSets;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.SpriteContents;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.client.model.data.ModelData;
 import org.slf4j.Logger;
@@ -16,10 +20,11 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Phaser;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Exports animated item textures as GIF files using Minecraft's animation system.
@@ -62,28 +67,36 @@ public class AnimatedTextureExporter {
     public static void exportAnimatedTextures(String modId) {
         Path baseOutputDir = ExportPaths.BASE.resolve("animated_textures");
 
-        int exportedCount = 0;
         Minecraft minecraft = Minecraft.getInstance();
+
+        var phaser = new Phaser(1);
+        var exported = new AtomicInteger();
 
         for (Item item : BuiltInRegistries.ITEM) {
             if (!isItemFromMod(item, modId)) {
                 continue;
             }
 
-            try {
-                TextureAtlasSprite sprite = getItemSprite(minecraft, item);
+            TextureAtlasSprite sprite = getItemSprite(minecraft, item);
 
-                if (isAnimated(sprite)) {
-                    processAnimatedItem(item, sprite, baseOutputDir);
-                    exportedCount++;
-                }
-            } catch (Exception e) {
-                LOGGER.debug("Failed to check item {} for animation: {}",
-                    BuiltInRegistries.ITEM.getKey(item), e.getMessage());
+            if (isAnimated(sprite)) {
+                phaser.register();
+                DocExportHelper.executor.submit(() -> {
+                    try {
+                        processAnimatedItem(item, sprite, baseOutputDir);
+                    } catch (IOException e) {
+                        LOGGER.debug("Failed to check item {} for animation: {}",
+                                BuiltInRegistries.ITEM.getKey(item), e.getMessage());
+                    }
+                    exported.incrementAndGet();
+                    phaser.arriveAndDeregister();
+                });
             }
         }
 
-        LOGGER.info("Exported {} animated textures for mod {}", exportedCount, modId);
+        phaser.arriveAndAwaitAdvance();
+
+        LOGGER.info("Exported {} animated textures for mod {}", exported.get(), modId);
     }
 
     private static boolean isItemFromMod(Item item, String modId) {
@@ -92,14 +105,16 @@ public class AnimatedTextureExporter {
 
     private static TextureAtlasSprite getItemSprite(Minecraft minecraft, Item item) {
         return minecraft.getItemRenderer()
-            .getItemModelShaper()
-            .getItemModel(item.getDefaultInstance())
-            .getParticleIcon(ModelData.EMPTY);
+                .getItemModelShaper()
+                .getItemModel(item.getDefaultInstance())
+                .getParticleIcon(ModelData.EMPTY);
     }
 
     private static boolean isAnimated(TextureAtlasSprite sprite) {
         return sprite.contents().getUniqueFrames().count() > 1;
     }
+
+    private static final Set<ResourceLocation> PROCESSED = ObjectSets.synchronize(new ObjectOpenHashSet<>());
 
     /**
      * Processes a single animated item by extracting its frames and generating a GIF.
@@ -108,7 +123,12 @@ public class AnimatedTextureExporter {
     private static void processAnimatedItem(Item item, TextureAtlasSprite sprite, Path baseOutputDir) throws IOException {
         // Get the actual texture name from the sprite (e.g., "minecraft:item/diamond_sword")
         SpriteContents spriteContents = sprite.contents();
-        net.minecraft.resources.ResourceLocation textureName = ((dev.qther.doc_exporter.mixin.SpriteContentsAccessor) spriteContents).getName();
+        ResourceLocation textureName = ((SpriteContentsAccessor) spriteContents).getName();
+
+        if (!PROCESSED.add(textureName)) {
+            LOGGER.error("GIF for texture {} already generated or generating, skipping", textureName);
+            return;
+        }
 
         String textureNamespace = textureName.getNamespace();
         String texturePath = textureName.getPath();
@@ -130,8 +150,8 @@ public class AnimatedTextureExporter {
 
     private static void writeErrorPlaceholder(Path outputDir, String textureName, Exception error) throws IOException {
         String errorMessage = String.format(
-            "Failed to generate GIF for texture: %s. Error: %s",
-            textureName, error.getMessage());
+                "Failed to generate GIF for texture: %s. Error: %s",
+                textureName, error.getMessage());
 
         Path placeholderPath = outputDir.resolve(textureName + ".gif.txt");
         Files.writeString(placeholderPath, errorMessage);
@@ -279,7 +299,7 @@ public class AnimatedTextureExporter {
      *
      * @param frame1 The first frame (at t=0)
      * @param frame2 The second frame (at t=1)
-     * @param t Interpolation factor (0.0 = fully frame1, 1.0 = fully frame2)
+     * @param t      Interpolation factor (0.0 = fully frame1, 1.0 = fully frame2)
      * @return A new BufferedImage with interpolated pixel values
      */
     private static BufferedImage interpolateFrames(BufferedImage frame1, BufferedImage frame2, float t) {
@@ -333,7 +353,7 @@ public class AnimatedTextureExporter {
     /**
      * Scales an image using nearest neighbor interpolation to preserve pixel art appearance.
      *
-     * @param source The source image to scale
+     * @param source      The source image to scale
      * @param scaleFactor The integer scale factor (2 = double size, 8 = 16x16 to 128x128)
      * @return A new BufferedImage scaled up by the given factor
      */

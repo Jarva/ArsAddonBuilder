@@ -32,13 +32,8 @@ public final class LangExporter {
         }
     }
 
-    public static JsonElement buildLangJson(Map<String, String> langData) {
-        Codec<Map<String, String>> s2sMapCodec = Codec.unboundedMap(Codec.STRING, Codec.STRING);
-        TreeMap<String, String> sorted = new TreeMap<>(langData);
-        return s2sMapCodec.encodeStart(JsonOps.INSTANCE, sorted).getOrThrow();
-    }
-
-    public static JsonElement buildCurrentLanguageJson() {
-        return buildLangJson(Language.getInstance().getLanguageData());
+    private static final Codec<Map<String, String>> s2sMapCodec = Codec.unboundedMap(Codec.STRING, Codec.STRING);
+    public static JsonElement buildLangJson(TreeMap<String, String> langData) {
+        return s2sMapCodec.encodeStart(JsonOps.INSTANCE, langData).getOrThrow();
     }
 }
