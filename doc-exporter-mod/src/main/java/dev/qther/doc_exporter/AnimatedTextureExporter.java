@@ -60,11 +60,9 @@ public class AnimatedTextureExporter {
     }
 
     /**
-     * Exports all animated textures for items from the specified mod.
-     *
-     * @param modId The mod ID to export animated textures from
+     * Exports all animated textures for items
      */
-    public static void exportAnimatedTextures(String modId) {
+    public static void exportAnimatedTextures() {
         Path baseOutputDir = ExportPaths.BASE.resolve("animated_textures");
 
         Minecraft minecraft = Minecraft.getInstance();
@@ -73,10 +71,6 @@ public class AnimatedTextureExporter {
         var exported = new AtomicInteger();
 
         for (Item item : BuiltInRegistries.ITEM) {
-            if (!isItemFromMod(item, modId)) {
-                continue;
-            }
-
             TextureAtlasSprite sprite = getItemSprite(minecraft, item);
 
             if (isAnimated(sprite)) {
@@ -96,11 +90,7 @@ public class AnimatedTextureExporter {
 
         phaser.arriveAndAwaitAdvance();
 
-        LOGGER.info("Exported {} animated textures for mod {}", exported.get(), modId);
-    }
-
-    private static boolean isItemFromMod(Item item, String modId) {
-        return BuiltInRegistries.ITEM.getKey(item).getNamespace().equals(modId);
+        LOGGER.info("Exported {} animated textures", exported.get());
     }
 
     private static TextureAtlasSprite getItemSprite(Minecraft minecraft, Item item) {

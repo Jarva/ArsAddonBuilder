@@ -120,19 +120,11 @@ public class DocExportHelper {
                 Path animatedTexturesBase = ExportPaths.animatedTexturesBase();
                 Files.createDirectories(animatedTexturesBase);
 
-                var mods = ModList.get().getMods();
-                var latch = new CountDownLatch(mods.size());
                 var sw = Stopwatch.createStarted();
-                for (IModInfo mod : mods) {
-                    LOGGER.info("Exporting animated textures for {}", mod.getModId());
-                    executor.submit(() -> {
-                        AnimatedTextureExporter.exportAnimatedTextures(mod.getModId());
-                        latch.countDown();
-                    });
-                }
-                latch.await();
+                LOGGER.info("Exporting animated textures");
+                AnimatedTextureExporter.exportAnimatedTextures();
                 LOGGER.info("Exported animated textures in {}", DurationFormatUtils.formatDurationHMS(sw.elapsed().toMillis()));
-            } catch (IOException | IllegalStateException | InterruptedException e) {
+            } catch (IOException | IllegalStateException e) {
                 LOGGER.error("could not create animated textures", e);
             }
         });
