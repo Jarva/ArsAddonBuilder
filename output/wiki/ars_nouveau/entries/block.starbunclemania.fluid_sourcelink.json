@@ -1,0 +1,22 @@
+{
+  "id": "ars_nouveau:block.starbunclemania.fluid_sourcelink",
+  "order": 100,
+  "icon": "starbunclemania:fluid_sourcelink",
+  "title": "Fluid Sourcelink",
+  "category": "ars_nouveau:source",
+  "pages": [
+    {
+      "title": "Fluid Sourcelink",
+      "description": "Consumes fluids to generate source. Will automatically drain from tanks below it if compatible.",
+      "icon": "starbunclemania:fluid_sourcelink"
+    },
+    {
+      "recipe_1": "starbunclemania:fluid_sourcelink"
+    },
+    {
+      "related": [
+        "ars_nouveau:block.starbunclemania.source_condenser"
+      ]
+    }
+  ]
+}
