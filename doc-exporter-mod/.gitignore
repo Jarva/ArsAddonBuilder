@@ -124,3 +124,5 @@ runs/
 /glyphs.json
 
 output
+
+!libs/*.jar

@@ -7,6 +7,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 
 import java.nio.file.Path;
+import java.util.regex.Pattern;
 
 @Mixin(value = DocExporter.class, remap = false)
 public class DocExporterMixin {
@@ -14,7 +15,7 @@ public class DocExporterMixin {
     private static Path wikiPath(String first, String[] more, Operation<Path> original) {
         if (more.length == 0) {
             String baseWiki = dev.qther.doc_exporter.ExportPaths.wikiBase().toString();
-            String replaced = first.replaceFirst("^\\.\\./\\.\\./wiki", baseWiki);
+            String replaced = first.replaceFirst(Pattern.quote("../../wiki"), baseWiki);
             if (replaced.length() != first.length()) {
                 return original.call(replaced, more);
             }
