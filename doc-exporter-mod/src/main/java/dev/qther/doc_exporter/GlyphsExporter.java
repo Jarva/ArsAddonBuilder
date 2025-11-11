@@ -130,11 +130,11 @@ public final class GlyphsExporter {
 
     public record DefaultEffectConfig(AbstractEffect part) {
         public static Codec<DefaultEffectConfig> CODEC = RecordCodecBuilder.create(instance -> instance.group(
-                Codec.DOUBLE.fieldOf("baseDamage").forGetter(p -> p.part.DAMAGE != null ? p.part.DAMAGE.get() : 0),
-                Codec.DOUBLE.fieldOf("ampDamage").forGetter(p -> p.part.AMP_VALUE != null ? p.part.AMP_VALUE.get() : 0),
-                Codec.INT.fieldOf("baseDuration").forGetter(p -> p.part.POTION_TIME != null ? p.part.POTION_TIME.get() : 0),
-                Codec.INT.fieldOf("ampDuration").forGetter(p -> p.part.EXTEND_TIME != null ? p.part.EXTEND_TIME.get() : 0)
-        ).apply(instance, (a, b, c, d) -> {
+                Codec.DOUBLE.optionalFieldOf("baseDamage").forGetter(p -> p.part.DAMAGE != null ? Optional.of(p.part.DAMAGE.get()) : Optional.empty()),
+                Codec.DOUBLE.optionalFieldOf("ampDamage").forGetter(p -> p.part.AMP_VALUE != null ? Optional.of(p.part.AMP_VALUE.get()) : Optional.empty()),
+                Codec.INT.optionalFieldOf("baseDuration").forGetter(p -> p.part.POTION_TIME != null ? Optional.of(p.part.POTION_TIME.get()) : Optional.empty()),
+                Codec.INT.optionalFieldOf("ampDuration").forGetter(p -> p.part.EXTEND_TIME != null ? Optional.of(p.part.EXTEND_TIME.get()) : Optional.empty())
+        ).apply(instance, (baseDamage, ampDamage, baseDuration, ampDuration) -> {
             throw new RuntimeException("cannot decode DefaultEffectConfig");
         }));
     }
