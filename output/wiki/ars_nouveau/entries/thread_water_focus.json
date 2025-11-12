@@ -1,0 +1,17 @@
+{
+  "id": "ars_nouveau:thread_water_focus",
+  "order": 100,
+  "icon": "ars_nouveau:thread_water_focus",
+  "title": "Water Focus",
+  "category": "ars_nouveau:armor",
+  "pages": [
+    {
+      "title": "Book Thread : Water Focus",
+      "description": "Thread for the  spellbinder. Will  enable glyph combos  as if the water focus  was equipped.",
+      "icon": "ars_nouveau:thread_water_focus"
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_water_focus"
+    }
+  ]
+}

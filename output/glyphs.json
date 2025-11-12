@@ -533,10 +533,14 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
+          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_bubble_shield_glyph_amplify"
+          },
           "ars_nouveau:glyph_duration_down": {
             "translate": "ars_nouveau.augment_desc.glyph_bubble_shield_glyph_duration_down"
           },
