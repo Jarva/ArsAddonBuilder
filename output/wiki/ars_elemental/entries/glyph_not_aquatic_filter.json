@@ -1,0 +1,18 @@
+{
+  "id": "ars_elemental:glyph_not_aquatic_filter",
+  "order": 100,
+  "icon": "ars_elemental:glyph_not_aquatic_filter",
+  "title": "Filter:Not Aquatic",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Filter:Not Aquatic",
+      "description": "Stops the spell from resolving unless target an aquatic creature",
+      "icon": "ars_elemental:glyph_not_aquatic_filter",
+      "tier": 1
+    },
+    {
+      "recipe_1": "ars_elemental:glyph_not_aquatic_filter"
+    }
+  ]
+}
