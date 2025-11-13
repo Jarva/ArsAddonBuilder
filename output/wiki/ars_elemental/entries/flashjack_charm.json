@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Flashjack Charm",
-      "description": "Flashjacks are usually found in flashing archwood forests, hiding among the trees. You can befriend a wild flashjack by giving them a flashpine. In the current version, they don\u0027t have a fully implemented job yet but try to link them to a turret loaded with an attack spell in front of an horde, if you are curious.",
+      "description": "Flashjacks are usually found in archwood forests, hiding among the trees, or in high mountainous peaks. You can befriend a wild flashjack by giving them a flashpine. In the current version, they don\u0027t have a fully implemented job yet but try to link them to a turret loaded with an attack spell in front of an horde, if you are curious.",
       "icon": "ars_elemental:flashjack_charm"
     },
     {
