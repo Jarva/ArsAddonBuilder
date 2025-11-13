@@ -1,19 +1,13 @@
 {
   "variants": {
-    "facing=east": {
-      "model": "starbunclemania:block/smelting_wixie_cauldron",
-      "y": 90
+    "converted=false": {
+      "model": "block/furnace"
     },
-    "facing=north": {
-      "model": "starbunclemania:block/smelting_wixie_cauldron"
+    "converted=true,filled=false": {
+      "model": "starbunclemania:block/wixie_grill_empty"
     },
-    "facing=south": {
-      "model": "starbunclemania:block/smelting_wixie_cauldron",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "starbunclemania:block/smelting_wixie_cauldron",
-      "y": 270
+    "converted=true,filled=true": {
+      "model": "starbunclemania:block/wixie_grill_full"
     }
   }
 }
