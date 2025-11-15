@@ -3,6 +3,7 @@ package dev.qther.doc_exporter;
 import com.google.gson.JsonElement;
 import com.hollingsworth.arsnouveau.api.registry.GlyphRegistry;
 import com.hollingsworth.arsnouveau.api.spell.AbstractAugment;
+import com.hollingsworth.arsnouveau.api.spell.AbstractEffect;
 import com.hollingsworth.arsnouveau.api.spell.AbstractSpellPart;
 import com.hollingsworth.arsnouveau.api.spell.SpellSchool;
 import com.mojang.serialization.Codec;
@@ -14,15 +15,12 @@ import dev.qther.doc_exporter.mixin.AugmentLimitsAccessor;
 import it.unimi.dsi.fastutil.objects.Object2ObjectLinkedOpenHashMap;
 import it.unimi.dsi.fastutil.objects.ObjectLinkedOpenHashSet;
 import net.minecraft.client.Minecraft;
-import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.ComponentSerialization;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.neoforge.client.model.data.ModelData;
 import net.neoforged.neoforge.common.util.NeoForgeExtraCodecs;
-import org.checkerframework.checker.units.qual.K;
 
 import java.util.*;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -30,7 +28,8 @@ import java.util.stream.Stream;
  * All methods and supporting types are static/pure so they can be used from DocExportHelper.
  */
 public final class GlyphsExporter {
-    private GlyphsExporter() {}
+    private GlyphsExporter() {
+    }
 
     public static JsonElement buildGlyphsJson(Map<ResourceLocation, AbstractSpellPart> glyphMap) {
         Codec<SpellSchool> schoolCodec = Codec.recursive(SpellSchool.class.getSimpleName(), rec -> RecordCodecBuilder.create(instance -> instance.group(
@@ -115,9 +114,28 @@ public final class GlyphsExporter {
                 Codec.BOOL.fieldOf("starter").forGetter(p -> p.part.defaultedStarterGlyph()),
                 Codec.INT.fieldOf("perSpellLimit").forGetter(p -> p.part.PER_SPELL_LIMIT == null ? Integer.MAX_VALUE : p.part.PER_SPELL_LIMIT.get()),
                 AugmentDetails.CODEC.fieldOf("augments").forGetter(p -> new AugmentDetails(p.part)),
-                NeoForgeExtraCodecs.setOf(ResourceLocation.CODEC).fieldOf("invalidCombinations").forGetter(p -> collectToOrderedSet(p.part.invalidCombinations.parseComboLimits().stream().sorted(Comparator.comparing(e -> e.toString()))))
-        ).apply(instance, (a, b, c, d, e, f, g) -> {
+                NeoForgeExtraCodecs.setOf(ResourceLocation.CODEC).fieldOf("invalidCombinations").forGetter(p -> collectToOrderedSet(p.part.invalidCombinations.parseComboLimits().stream().sorted(Comparator.comparing(e -> e.toString())))),
+                DefaultEffectConfig.CODEC.optionalFieldOf("defaultConfig").forGetter(p -> {
+                            if (p.part instanceof AbstractEffect effect) {
+                                return Optional.of(new DefaultEffectConfig(effect));
+                            } else {
+                                return Optional.empty();
+                            }
+                        }
+                )
+        ).apply(instance, (a, b, c, d, e, f, g, h) -> {
             throw new RuntimeException("cannot decode Defaults");
+        }));
+    }
+
+    public record DefaultEffectConfig(AbstractEffect part) {
+        public static Codec<DefaultEffectConfig> CODEC = RecordCodecBuilder.create(instance -> instance.group(
+                Codec.DOUBLE.optionalFieldOf("baseDamage").forGetter(p -> p.part.DAMAGE != null ? Optional.of(p.part.DAMAGE.get()) : Optional.empty()),
+                Codec.DOUBLE.optionalFieldOf("ampDamage").forGetter(p -> p.part.AMP_VALUE != null ? Optional.of(p.part.AMP_VALUE.get()) : Optional.empty()),
+                Codec.INT.optionalFieldOf("baseDuration").forGetter(p -> p.part.POTION_TIME != null ? Optional.of(p.part.POTION_TIME.get()) : Optional.empty()),
+                Codec.INT.optionalFieldOf("ampDuration").forGetter(p -> p.part.EXTEND_TIME != null ? Optional.of(p.part.EXTEND_TIME.get()) : Optional.empty())
+        ).apply(instance, (baseDamage, ampDamage, baseDuration, ampDuration) -> {
+            throw new RuntimeException("cannot decode DefaultEffectConfig");
         }));
     }
 }
