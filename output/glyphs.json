@@ -10,7 +10,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 1,
       "augments": {
         "compatible": [],
@@ -19,9 +18,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 3,
       "cost": 25,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Mark",
     "texture": "ars_additions:item/glyph_mark",
@@ -40,7 +41,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -51,7 +51,8 @@
       "invalidCombinations": [],
       "tier": 3,
       "cost": 50,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Recall",
     "texture": "ars_additions:item/glyph_recall",
@@ -70,7 +71,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -81,7 +81,8 @@
       "invalidCombinations": [],
       "tier": 3,
       "cost": 25,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Retaliate",
     "texture": "ars_additions:item/glyph_retaliate",
@@ -101,7 +102,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -110,9 +110,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Above",
     "texture": "ars_controle:item/glyph_filter_above",
@@ -132,7 +134,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -141,9 +142,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Below",
     "texture": "ars_controle:item/glyph_filter_below",
@@ -163,7 +166,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -172,9 +174,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Level",
     "texture": "ars_controle:item/glyph_filter_level",
@@ -194,7 +198,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -203,9 +206,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: NOT",
     "texture": "ars_controle:item/glyph_filter_not",
@@ -225,7 +230,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -234,9 +238,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: OR",
     "texture": "ars_controle:item/glyph_filter_or",
@@ -256,7 +262,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -278,9 +283,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Random",
     "texture": "ars_controle:item/glyph_filter_random",
@@ -300,7 +307,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -309,9 +315,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: XNOR",
     "texture": "ars_controle:item/glyph_filter_xnor",
@@ -331,7 +339,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -340,9 +347,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: XOR",
     "texture": "ars_controle:item/glyph_filter_xor",
@@ -366,7 +375,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -385,9 +393,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Precise Delay",
     "texture": "ars_controle:item/glyph_precise_delay",
@@ -408,7 +418,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -417,9 +426,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter:Aerial",
     "texture": "ars_nouveau:item/filter",
@@ -440,7 +451,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -449,9 +459,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter:Aquatic",
     "texture": "ars_nouveau:item/filter",
@@ -471,7 +483,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -504,7 +515,8 @@
       "invalidCombinations": [],
       "tier": 2,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Arc Projectile",
     "texture": "ars_nouveau:item/arc_projectile",
@@ -529,7 +541,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -552,9 +563,15 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDamage": 2.0,
+        "baseDuration": 30,
+        "ampDuration": 8
+      },
       "tier": 2,
       "cost": 400,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Bubble Shield",
     "texture": "ars_nouveau:item/bubble_shield",
@@ -579,7 +596,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -602,9 +618,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 30,
+        "ampDuration": 8
+      },
       "tier": 2,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Charm",
     "texture": "ars_nouveau:item/charm",
@@ -629,7 +650,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -662,9 +682,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 9.0,
+        "ampDamage": 5.0
+      },
       "tier": 3,
       "cost": 80,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Conflagrate",
     "texture": "ars_nouveau:item/conflagrate",
@@ -693,7 +718,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -723,9 +747,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 20,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Conjure Terrain",
     "texture": "ars_nouveau:item/conjure_terrain",
@@ -750,7 +776,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -791,9 +816,16 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 7.0,
+        "ampDamage": 3.0,
+        "baseDuration": 15,
+        "ampDuration": 5
+      },
       "tier": 2,
       "cost": 40,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Discharge",
     "texture": "ars_nouveau:item/discharge",
@@ -818,7 +850,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -841,9 +872,15 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDamage": 5.0,
+        "baseDuration": 5,
+        "ampDuration": 5
+      },
       "tier": 2,
       "cost": 20,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Envenom",
     "texture": "ars_nouveau:item/envenom",
@@ -864,7 +901,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -873,9 +909,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter:Fiery",
     "texture": "ars_nouveau:item/filter",
@@ -895,7 +933,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -935,7 +972,8 @@
       "invalidCombinations": [],
       "tier": 3,
       "cost": 75,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Homing Projectile",
     "texture": "ars_nouveau:item/homing_projectile",
@@ -956,7 +994,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -965,9 +1002,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter:Insect",
     "texture": "ars_nouveau:item/filter",
@@ -992,7 +1031,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -1015,9 +1053,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 30,
+        "ampDuration": 8
+      },
       "tier": 3,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Life Link",
     "texture": "ars_nouveau:item/life_link",
@@ -1038,7 +1081,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -1047,9 +1089,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter:Not Aerial",
     "texture": "ars_nouveau:item/filter",
@@ -1070,7 +1114,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -1079,9 +1122,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter:Not Aquatic",
     "texture": "ars_nouveau:item/filter",
@@ -1102,7 +1147,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -1111,9 +1155,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter:Not Fiery",
     "texture": "ars_nouveau:item/filter",
@@ -1134,7 +1180,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -1143,9 +1188,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter:Not Insect",
     "texture": "ars_nouveau:item/filter",
@@ -1166,7 +1213,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -1175,9 +1221,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter:Not Summon",
     "texture": "ars_nouveau:item/filter",
@@ -1198,7 +1246,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -1207,9 +1254,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter:Not Undead",
     "texture": "ars_nouveau:item/filter",
@@ -1234,7 +1283,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -1243,9 +1291,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 3,
       "cost": 1000,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Nullify Defense",
     "texture": "ars_nouveau:item/nullify",
@@ -1270,7 +1320,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -1299,9 +1348,13 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDamage": 3.0
+      },
       "tier": 2,
       "cost": 50,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Phantom Grasp",
     "texture": "ars_nouveau:item/phantom_grasp",
@@ -1326,7 +1379,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -1367,9 +1419,16 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 6.0,
+        "ampDamage": 2.5,
+        "baseDuration": 10,
+        "ampDuration": 3
+      },
       "tier": 2,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Poison Spores",
     "texture": "ars_nouveau:item/poison_spores",
@@ -1394,7 +1453,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -1429,9 +1487,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 150,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Propagate Arc",
     "texture": "ars_nouveau:item/arc_projectile",
@@ -1456,7 +1516,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -1495,9 +1554,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 3,
       "cost": 400,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Propagate Homing",
     "texture": "ars_nouveau:item/homing_projectile",
@@ -1522,7 +1583,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -1555,9 +1615,16 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 3.0,
+        "ampDamage": 1.5,
+        "baseDuration": 15,
+        "ampDuration": 5
+      },
       "tier": 1,
       "cost": 15,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Spark",
     "texture": "ars_nouveau:item/spark",
@@ -1586,7 +1653,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -1627,9 +1693,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 8.0,
+        "ampDamage": 2.5
+      },
       "tier": 2,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Spike",
     "texture": "ars_nouveau:item/spike",
@@ -1650,7 +1721,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -1659,9 +1729,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter:Summon",
     "texture": "ars_nouveau:item/filter",
@@ -1682,7 +1754,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -1691,9 +1762,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter:Undead",
     "texture": "ars_nouveau:item/filter",
@@ -1718,7 +1791,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -1751,9 +1823,16 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 5.0,
+        "ampDamage": 2.0,
+        "baseDuration": 30,
+        "ampDuration": 8
+      },
       "tier": 2,
       "cost": 25,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Watery Grave",
     "texture": "ars_nouveau:item/watery_grave",
@@ -1772,7 +1851,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -1783,7 +1861,8 @@
       "invalidCombinations": [],
       "tier": 2,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Accelerate",
     "texture": "ars_nouveau:item/accelerate",
@@ -1802,7 +1881,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -1813,7 +1891,8 @@
       "invalidCombinations": [],
       "tier": 1,
       "cost": 20,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Amplify",
     "texture": "ars_nouveau:item/amplify",
@@ -1841,7 +1920,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -1860,9 +1938,13 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDuration": 60
+      },
       "tier": 2,
       "cost": 200,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Animate Block",
     "texture": "ars_nouveau:item/animate_block",
@@ -1881,7 +1963,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -1892,7 +1973,8 @@
       "invalidCombinations": [],
       "tier": 2,
       "cost": 35,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "AOE",
     "texture": "ars_nouveau:item/aoe",
@@ -1916,7 +1998,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -1935,9 +2016,13 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDamage": 3.0
+      },
       "tier": 3,
       "cost": 50,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Blink",
     "texture": "ars_nouveau:item/blink",
@@ -1961,7 +2046,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -1984,9 +2068,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 30,
+        "ampDuration": 8
+      },
       "tier": 1,
       "cost": 50,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Bounce",
     "texture": "ars_nouveau:item/bounce",
@@ -2010,7 +2099,6 @@
       }
     ],
     "defaults": {
-      "starter": true,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -2056,9 +2144,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": true
     },
     "name": "Break",
     "texture": "ars_nouveau:item/break",
@@ -2082,7 +2172,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -2109,9 +2198,15 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 5.0,
+        "ampDamage": 2.0,
+        "ampDuration": 3
+      },
       "tier": 1,
       "cost": 20,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Bubble",
     "texture": "ars_nouveau:item/bubble",
@@ -2130,7 +2225,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 1,
       "augments": {
         "compatible": [
@@ -2158,9 +2252,11 @@
         "ars_nouveau:glyph_linger",
         "ars_nouveau:glyph_wall"
       ],
+      "defaultConfig": {},
       "tier": 3,
       "cost": 500,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Burst",
     "texture": "ars_nouveau:item/burst",
@@ -2184,7 +2280,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -2226,9 +2321,16 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 6.0,
+        "ampDamage": 2.5,
+        "baseDuration": 5,
+        "ampDuration": 1
+      },
       "tier": 2,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Cold Snap",
     "texture": "ars_nouveau:item/cold_snap",
@@ -2252,7 +2354,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -2281,9 +2382,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 20,
+        "ampDuration": 10
+      },
       "tier": 2,
       "cost": 80,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Conjure Water",
     "texture": "ars_nouveau:item/conjure_water",
@@ -2307,7 +2413,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -2316,9 +2421,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 50,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Craft",
     "texture": "ars_nouveau:item/craft",
@@ -2342,7 +2449,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -2380,9 +2486,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 3.0,
+        "ampDamage": 1.0
+      },
       "tier": 2,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Crush",
     "texture": "ars_nouveau:item/crush",
@@ -2410,7 +2521,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -2439,9 +2549,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 1.0,
+        "ampDamage": 1.0
+      },
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Cut",
     "texture": "ars_nouveau:item/cut",
@@ -2460,7 +2575,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -2471,7 +2585,8 @@
       "invalidCombinations": [],
       "tier": 2,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Dampen",
     "texture": "ars_nouveau:item/dampen",
@@ -2490,7 +2605,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -2501,7 +2615,8 @@
       "invalidCombinations": [],
       "tier": 2,
       "cost": 5,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Decelerate",
     "texture": "ars_nouveau:item/decelerate",
@@ -2525,7 +2640,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -2548,9 +2662,13 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDuration": 1
+      },
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Delay",
     "texture": "ars_nouveau:item/delay",
@@ -2574,7 +2692,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -2583,9 +2700,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Dispel",
     "texture": "ars_nouveau:item/dispel",
@@ -2604,7 +2723,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -2615,7 +2733,8 @@
       "invalidCombinations": [],
       "tier": 2,
       "cost": 15,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Reduce Time",
     "texture": "ars_nouveau:item/duration_down",
@@ -2639,7 +2758,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -2648,9 +2766,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 50,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Access Ender Inventory",
     "texture": "ars_nouveau:item/ender_inventory",
@@ -2674,7 +2794,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -2693,9 +2812,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 50,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Evaporate",
     "texture": "ars_nouveau:item/evaporate",
@@ -2719,7 +2840,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -2750,9 +2870,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 50,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Exchange",
     "texture": "ars_nouveau:item/exchange",
@@ -2776,7 +2898,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -2805,9 +2926,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 6.0,
+        "ampDamage": 0.5
+      },
       "tier": 2,
       "cost": 200,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Explosion",
     "texture": "ars_nouveau:item/explosion",
@@ -2826,7 +2952,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -2837,7 +2962,8 @@
       "invalidCombinations": [],
       "tier": 2,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Extend Time",
     "texture": "ars_nouveau:item/extend_time",
@@ -2856,7 +2982,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -2867,7 +2992,8 @@
       "invalidCombinations": [],
       "tier": 2,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Extract",
     "texture": "ars_nouveau:item/extract",
@@ -2891,7 +3017,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -2924,9 +3049,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 6.0,
+        "ampDamage": 3.0
+      },
       "tier": 3,
       "cost": 35,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Fangs",
     "texture": "ars_nouveau:item/fangs",
@@ -2950,7 +3080,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -2981,9 +3110,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 150,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Fell",
     "texture": "ars_nouveau:item/fell",
@@ -3007,7 +3138,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3036,9 +3166,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 50,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Firework",
     "texture": "ars_nouveau:item/firework",
@@ -3062,7 +3194,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3095,9 +3226,15 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 7.0,
+        "ampDamage": 3.0,
+        "ampDuration": 1
+      },
       "tier": 2,
       "cost": 40,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Flare",
     "texture": "ars_nouveau:item/flare",
@@ -3116,7 +3253,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -3127,7 +3263,8 @@
       "invalidCombinations": [],
       "tier": 2,
       "cost": 80,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Luck",
     "texture": "ars_nouveau:item/fortune",
@@ -3151,7 +3288,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3188,9 +3324,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 10,
+        "ampDuration": 5
+      },
       "tier": 1,
       "cost": 15,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Freeze",
     "texture": "ars_nouveau:item/freeze",
@@ -3214,7 +3355,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3233,9 +3373,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 180,
+        "ampDuration": 120
+      },
       "tier": 3,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Glide",
     "texture": "ars_nouveau:item/glide",
@@ -3259,7 +3404,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3295,9 +3439,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 30,
+        "ampDuration": 8
+      },
       "tier": 2,
       "cost": 15,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Gravity",
     "texture": "ars_nouveau:item/gravity",
@@ -3321,7 +3470,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3340,9 +3488,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 70,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Grow",
     "texture": "ars_nouveau:item/grow",
@@ -3366,7 +3516,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3403,9 +3552,13 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDamage": 1.0
+      },
       "tier": 1,
       "cost": 15,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Knockback",
     "texture": "ars_nouveau:item/gust",
@@ -3429,7 +3582,6 @@
       }
     ],
     "defaults": {
-      "starter": true,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3466,9 +3618,16 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 5.0,
+        "ampDamage": 2.0,
+        "baseDuration": 5,
+        "ampDuration": 5
+      },
       "tier": 1,
       "cost": 15,
-      "enabled": true
+      "enabled": true,
+      "starter": true
     },
     "name": "Harm",
     "texture": "ars_nouveau:item/harm",
@@ -3492,7 +3651,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3515,9 +3673,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Harvest",
     "texture": "ars_nouveau:item/harvest",
@@ -3545,7 +3705,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3572,9 +3731,13 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDamage": 3.0
+      },
       "tier": 2,
       "cost": 50,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Heal",
     "texture": "ars_nouveau:item/heal",
@@ -3602,7 +3765,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3627,9 +3789,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 30,
+        "ampDuration": 8
+      },
       "tier": 3,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Hex",
     "texture": "ars_nouveau:item/hex",
@@ -3653,7 +3820,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3686,9 +3852,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 3,
+        "ampDuration": 2
+      },
       "tier": 1,
       "cost": 15,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Ignite",
     "texture": "ars_nouveau:item/ignite",
@@ -3707,7 +3878,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3729,9 +3899,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Infuse",
     "texture": "ars_nouveau:item/infuse",
@@ -3755,7 +3927,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3790,9 +3961,13 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDuration": 1
+      },
       "tier": 3,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Intangible",
     "texture": "ars_nouveau:item/intangible",
@@ -3816,7 +3991,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3843,9 +4017,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Interact",
     "texture": "ars_nouveau:item/interact",
@@ -3869,7 +4045,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3888,9 +4063,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 30,
+        "ampDuration": 8
+      },
       "tier": 2,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Invisibility",
     "texture": "ars_nouveau:item/invisibility",
@@ -3914,7 +4094,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -3949,9 +4128,13 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDamage": 0.25
+      },
       "tier": 1,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Launch",
     "texture": "ars_nouveau:item/launch",
@@ -3975,7 +4158,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4008,9 +4190,13 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDamage": 1.0
+      },
       "tier": 1,
       "cost": 25,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Leap",
     "texture": "ars_nouveau:item/leap",
@@ -4034,7 +4220,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4068,9 +4253,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 30,
+        "ampDuration": 8
+      },
       "tier": 1,
       "cost": 25,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Conjure Magelight",
     "texture": "ars_nouveau:item/light",
@@ -4094,7 +4284,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4123,9 +4312,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 5.0,
+        "ampDamage": 3.0
+      },
       "tier": 3,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Lightning",
     "texture": "ars_nouveau:item/lightning",
@@ -4149,7 +4343,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 1,
       "augments": {
         "compatible": [
@@ -4190,9 +4383,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 3,
       "cost": 500,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Linger",
     "texture": "ars_nouveau:item/linger",
@@ -4216,7 +4411,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -4225,9 +4419,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 25,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Name",
     "texture": "ars_nouveau:item/name",
@@ -4246,7 +4442,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4289,9 +4484,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 3,
       "cost": 50,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Orbit",
     "texture": "ars_nouveau:item/orbit",
@@ -4310,7 +4507,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4337,7 +4533,8 @@
       "invalidCombinations": [],
       "tier": 1,
       "cost": 5,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Pantomime",
     "texture": "ars_nouveau:item/pantomime",
@@ -4361,7 +4558,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4394,9 +4590,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 5,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Conjure Mageblock",
     "texture": "ars_nouveau:item/phantom_block",
@@ -4420,7 +4618,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4435,9 +4632,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Item Pickup",
     "texture": "ars_nouveau:item/pickup",
@@ -4456,7 +4655,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -4467,7 +4665,8 @@
       "invalidCombinations": [],
       "tier": 2,
       "cost": 40,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Pierce",
     "texture": "ars_nouveau:item/pierce",
@@ -4491,7 +4690,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4520,9 +4718,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Place Block",
     "texture": "ars_nouveau:item/place_block",
@@ -4546,7 +4746,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4569,9 +4768,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Prestidigitation",
     "texture": "ars_nouveau:item/prestidigitation",
@@ -4590,7 +4791,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": true,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4623,7 +4823,8 @@
       "invalidCombinations": [],
       "tier": 1,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": true
     },
     "name": "Projectile",
     "texture": "ars_nouveau:item/projectile",
@@ -4647,7 +4848,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4680,9 +4880,13 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDamage": 0.5
+      },
       "tier": 1,
       "cost": 15,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Pull",
     "texture": "ars_nouveau:item/pull",
@@ -4701,7 +4905,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -4712,7 +4915,8 @@
       "invalidCombinations": [],
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Randomize",
     "texture": "ars_nouveau:item/randomize",
@@ -4736,7 +4940,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4773,9 +4976,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Redstone Signal",
     "texture": "ars_nouveau:item/redstone_signal",
@@ -4799,7 +5004,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4832,9 +5036,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Rotate",
     "texture": "ars_nouveau:item/rotate",
@@ -4858,7 +5064,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4875,9 +5080,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Rune",
     "texture": "ars_nouveau:item/rune",
@@ -4896,7 +5103,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": true,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -4907,7 +5113,8 @@
       "invalidCombinations": [],
       "tier": 1,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": true
     },
     "name": "Self",
     "texture": "ars_nouveau:item/self",
@@ -4931,7 +5138,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -4950,9 +5156,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 60,
+        "ampDuration": 15
+      },
       "tier": 2,
       "cost": 50,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Sense Magic",
     "texture": "ars_nouveau:item/sense_magic",
@@ -4971,7 +5182,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -4982,7 +5192,8 @@
       "invalidCombinations": [],
       "tier": 1,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Sensitive",
     "texture": "ars_nouveau:item/sensitive",
@@ -5006,7 +5217,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5025,9 +5235,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 30,
+        "ampDuration": 8
+      },
       "tier": 2,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Slowfall",
     "texture": "ars_nouveau:item/slowfall",
@@ -5051,7 +5266,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5084,9 +5298,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Smelt",
     "texture": "ars_nouveau:item/smelt",
@@ -5110,7 +5326,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5129,9 +5344,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 8,
+        "ampDuration": 1
+      },
       "tier": 1,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Snare",
     "texture": "ars_nouveau:item/snare",
@@ -5150,7 +5370,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -5161,7 +5380,8 @@
       "invalidCombinations": [],
       "tier": 3,
       "cost": 20,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Split",
     "texture": "ars_nouveau:item/split",
@@ -5185,7 +5405,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5204,9 +5423,13 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDuration": 15
+      },
       "tier": 3,
       "cost": 200,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Summon Decoy",
     "texture": "ars_nouveau:item/summon_decoy",
@@ -5230,7 +5453,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5253,9 +5475,13 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDuration": 120
+      },
       "tier": 1,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Summon Steed",
     "texture": "ars_nouveau:item/summon_steed",
@@ -5283,7 +5509,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5314,9 +5539,13 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDuration": 10
+      },
       "tier": 3,
       "cost": 150,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Summon Undead",
     "texture": "ars_nouveau:item/summon_undead",
@@ -5344,7 +5573,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5363,9 +5591,13 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDuration": 10
+      },
       "tier": 3,
       "cost": 150,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Summon Vex",
     "texture": "ars_nouveau:item/summon_vex",
@@ -5389,7 +5621,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5408,9 +5639,13 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDuration": 60
+      },
       "tier": 1,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Summon Wolves",
     "texture": "ars_nouveau:item/summon_wolves",
@@ -5434,7 +5669,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5461,9 +5695,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Toss",
     "texture": "ars_nouveau:item/toss",
@@ -5482,7 +5718,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": true,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5499,7 +5734,8 @@
       "invalidCombinations": [],
       "tier": 1,
       "cost": 5,
-      "enabled": true
+      "enabled": true,
+      "starter": true
     },
     "name": "Touch",
     "texture": "ars_nouveau:item/touch",
@@ -5518,7 +5754,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -5529,7 +5764,8 @@
       "invalidCombinations": [],
       "tier": 1,
       "cost": 5,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Underfoot",
     "texture": "ars_nouveau:item/underfoot",
@@ -5553,7 +5789,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 1,
       "augments": {
         "compatible": [
@@ -5596,9 +5831,11 @@
       "invalidCombinations": [
         "ars_nouveau:glyph_linger"
       ],
+      "defaultConfig": {},
       "tier": 3,
       "cost": 500,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Wall",
     "texture": "ars_nouveau:item/wall",
@@ -5622,7 +5859,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5651,9 +5887,13 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDamage": 0.25
+      },
       "tier": 1,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Wind Burst",
     "texture": "ars_nouveau:item/wind_burst",
@@ -5677,7 +5917,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5706,9 +5945,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 5.0,
+        "ampDamage": 2.5
+      },
       "tier": 2,
       "cost": 50,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Wind Shear",
     "texture": "ars_nouveau:item/wind_shear",
@@ -5736,7 +5980,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5761,9 +6004,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 30,
+        "ampDuration": 8
+      },
       "tier": 3,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Wither",
     "texture": "ars_nouveau:item/wither",
@@ -5782,7 +6030,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -5791,9 +6038,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Reset",
     "texture": "ars_nouveau:item/reset",
@@ -5817,7 +6066,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5836,9 +6084,13 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDuration": 20
+      },
       "tier": 3,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Rewind",
     "texture": "ars_nouveau:item/rewind",
@@ -5857,7 +6109,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5878,9 +6129,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Wololo",
     "texture": "ars_nouveau:item/wololo",
@@ -5904,7 +6157,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5931,9 +6183,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 1200,
+        "ampDuration": 2400
+      },
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Resize",
     "texture": "ars_nouveau:item/resize",
@@ -5958,7 +6215,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -5977,9 +6233,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 80,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Apply",
     "texture": "ars_technica:item/glyph_apply",
@@ -6004,7 +6262,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6030,9 +6287,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Carve",
     "texture": "ars_technica:item/glyph_carve",
@@ -6056,7 +6315,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6075,9 +6333,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 75,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Fuse",
     "texture": "ars_technica:item/glyph_fuse",
@@ -6102,7 +6362,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6121,9 +6380,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 15,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Insert",
     "texture": "ars_technica:item/glyph_insert",
@@ -6147,7 +6408,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6172,9 +6432,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 3,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Obliterate",
     "texture": "ars_technica:item/glyph_obliterate",
@@ -6199,7 +6461,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6225,9 +6486,11 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Pack",
     "texture": "ars_technica:item/glyph_pack",
@@ -6252,7 +6515,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6267,9 +6529,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 120,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Polish",
     "texture": "ars_technica:item/glyph_polish",
@@ -6294,7 +6558,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6309,9 +6572,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Press",
     "texture": "ars_technica:item/glyph_press",
@@ -6335,7 +6600,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -6346,7 +6610,8 @@
       "invalidCombinations": [],
       "tier": 3,
       "cost": 150,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Superheat",
     "texture": "ars_technica:item/glyph_superheat",
@@ -6370,7 +6635,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6389,9 +6653,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 10,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Telefeast",
     "texture": "ars_technica:item/glyph_telefeast",
@@ -6419,7 +6685,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6438,9 +6703,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 40,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Whirl",
     "texture": "ars_technica:item/glyph_whirl",
@@ -6467,7 +6734,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -6476,9 +6742,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Not Self",
     "texture": "ars_nouveau:item/self",
@@ -6505,7 +6773,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -6514,9 +6781,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Self",
     "texture": "ars_nouveau:item/self",
@@ -6540,7 +6809,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6565,9 +6833,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 3.0,
+        "ampDamage": 1.0
+      },
       "tier": 2,
       "cost": 30,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Flatten",
     "texture": "ars_nouveau:item/flatten",
@@ -6595,7 +6868,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6640,7 +6912,8 @@
       "invalidCombinations": [],
       "tier": 2,
       "cost": 20,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Missile",
     "texture": "ars_nouveau:item/missile",
@@ -6659,7 +6932,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -6670,7 +6942,8 @@
       "invalidCombinations": [],
       "tier": 1,
       "cost": 5,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Overhead",
     "texture": "ars_nouveau:item/overhead",
@@ -6694,7 +6967,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6737,9 +7009,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 200,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Propagate Missile",
     "texture": "ars_nouveau:item/missile",
@@ -6763,7 +7037,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -6772,9 +7045,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Propagate Overhead",
     "texture": "ars_nouveau:item/overhead",
@@ -6798,7 +7073,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6833,9 +7107,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Propagate Projectile",
     "texture": "ars_nouveau:item/projectile",
@@ -6859,7 +7135,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -6868,9 +7143,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Propagate Self",
     "texture": "ars_nouveau:item/self",
@@ -6894,7 +7171,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -6903,9 +7179,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Propagate Underfoot",
     "texture": "ars_nouveau:item/underfoot",
@@ -6930,7 +7208,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -6953,9 +7230,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 100,
+        "ampDuration": 50
+      },
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Contingency: Blink",
     "texture": "ars_nouveau:item/contingency_blink",
@@ -6980,7 +7262,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -7003,9 +7284,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 100,
+        "ampDuration": 50
+      },
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Contingency: Death",
     "texture": "ars_nouveau:item/contingency_death",
@@ -7030,7 +7316,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -7061,9 +7346,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 100,
+        "ampDuration": 50
+      },
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Contingency: Fall",
     "texture": "ars_nouveau:item/contingency_fall",
@@ -7088,7 +7378,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -7111,9 +7400,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 100,
+        "ampDuration": 50
+      },
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Contingency: Fire",
     "texture": "ars_nouveau:item/contingency_fire",
@@ -7138,7 +7432,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -7161,9 +7454,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 100,
+        "ampDuration": 50
+      },
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Contingency: Healing",
     "texture": "ars_nouveau:item/contingency_heal",
@@ -7188,7 +7486,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -7213,9 +7510,14 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 100,
+        "ampDuration": 50
+      },
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Contingency: Health",
     "texture": "ars_nouveau:item/contingency_health",
@@ -7240,7 +7542,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -7259,9 +7560,14 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 60,
+        "ampDuration": 30
+      },
       "tier": 2,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Contingency: Expire",
     "texture": "ars_nouveau:item/contingency_time",
@@ -7287,7 +7593,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -7296,9 +7601,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Dark",
     "texture": "ars_nouveau:item/filter",
@@ -7324,7 +7631,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -7333,9 +7639,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Light",
     "texture": "ars_nouveau:item/filter",
@@ -7354,7 +7662,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 1,
       "augments": {
         "compatible": [
@@ -7373,9 +7680,13 @@
         }
       },
       "invalidCombinations": [],
+      "defaultConfig": {
+        "ampDamage": 1.5
+      },
       "tier": 3,
       "cost": 100,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Momentum",
     "texture": "ars_nouveau:item/haste",
@@ -7399,7 +7710,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -7414,9 +7724,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Plow",
     "texture": "ars_nouveau:item/plow",
@@ -7440,7 +7752,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 1,
       "augments": {
         "compatible": [
@@ -7478,9 +7789,11 @@
         "ars_nouveau:glyph_wall",
         "toomanyglyphs:glyph_chaining"
       ],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 200,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Propagate Plane",
     "texture": "ars_nouveau:item/phantom_block",
@@ -7499,7 +7812,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -7544,7 +7856,8 @@
       "invalidCombinations": [],
       "tier": 3,
       "cost": 200,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Echoing Trail",
     "texture": "ars_nouveau:item/trail",
@@ -7572,7 +7885,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -7591,9 +7903,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 80,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Pickup Fluid",
     "texture": "ars_nouveau:item/pickup_fluid",
@@ -7621,7 +7935,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -7644,9 +7957,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 20,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Place Fluid",
     "texture": "ars_nouveau:item/place_fluid",
@@ -7665,7 +7980,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 1,
       "augments": {
         "compatible": [
@@ -7694,9 +8008,11 @@
         "ars_nouveau:glyph_linger",
         "ars_nouveau:glyph_wall"
       ],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 300,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Chaining",
     "texture": "ars_nouveau:item/chaining",
@@ -7723,7 +8039,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -7732,9 +8047,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Animal",
     "texture": "ars_nouveau:item/filter",
@@ -7760,7 +8077,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -7769,9 +8085,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Block",
     "texture": "ars_nouveau:item/filter",
@@ -7797,7 +8115,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -7806,9 +8123,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Entity",
     "texture": "ars_nouveau:item/filter",
@@ -7835,7 +8154,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -7844,9 +8162,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Baby",
     "texture": "ars_nouveau:item/filter",
@@ -7873,7 +8193,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -7882,9 +8201,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 2,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Mature",
     "texture": "ars_nouveau:item/filter",
@@ -7911,7 +8232,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -7920,9 +8240,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Item",
     "texture": "ars_nouveau:item/filter",
@@ -7948,7 +8270,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -7957,9 +8278,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Living",
     "texture": "ars_nouveau:item/filter",
@@ -7986,7 +8309,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -7995,9 +8317,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Not Monster",
     "texture": "ars_nouveau:item/filter",
@@ -8024,7 +8348,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -8033,9 +8356,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Not Player",
     "texture": "ars_nouveau:item/filter",
@@ -8062,7 +8387,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -8071,9 +8395,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Monster",
     "texture": "ars_nouveau:item/filter",
@@ -8100,7 +8426,6 @@
       }
     ],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -8109,9 +8434,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Filter: Player",
     "texture": "ars_nouveau:item/filter",
@@ -8130,7 +8457,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
@@ -8153,7 +8479,8 @@
       "invalidCombinations": [],
       "tier": 1,
       "cost": 15,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Ray",
     "texture": "ars_nouveau:item/ray",
@@ -8172,7 +8499,6 @@
     ],
     "spellSchools": [],
     "defaults": {
-      "starter": false,
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [],
@@ -8181,9 +8507,11 @@
         "limits": {}
       },
       "invalidCombinations": [],
+      "defaultConfig": {},
       "tier": 1,
       "cost": 0,
-      "enabled": true
+      "enabled": true,
+      "starter": false
     },
     "name": "Reverse Direction",
     "texture": "ars_nouveau:item/reverse_direction",
