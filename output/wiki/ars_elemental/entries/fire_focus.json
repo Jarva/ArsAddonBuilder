@@ -1,0 +1,26 @@
+{
+  "id": "ars_elemental:fire_focus",
+  "order": 100,
+  "icon": "ars_elemental:fire_focus",
+  "title": "Focus of Fire",
+  "category": "ars_nouveau:spell_casting",
+  "pages": [
+    {
+      "title": "Focus of Fire",
+      "description": "This spell focus is attuned to the school of Fire. While equipped, the glyphs of this school will be amplified and discounted. The lesser focus, as a drawback, will weaken glyphs of the other elemental schools. The major focus will also grant Spell Damage II while the wearer is on fire or in lava.",
+      "icon": "ars_elemental:fire_focus"
+    },
+    {
+      "recipe_1": "ars_elemental:lesser_fire_focus"
+    },
+    {
+      "description": "This focus empowers  Ignite to inflict  Magic Burn. This  effect allows flare  to inflict damage  and spread even on  fire resistant mobs  and let magic pierce  through part of the  enemy armor, but  will also make earth  damage less  effective. Summon  Steed will be  changed to summon a  rideable Strider.  Ignite + Evaporate"
+    },
+    {
+      "description": "combo will sublimate  Ice."
+    },
+    {
+      "recipe_1": "ars_elemental:fire_focus"
+    }
+  ]
+}
