@@ -6793,6 +6793,322 @@
     "registryName": "ars_trinkets:glyph_filter_self",
     "localizationKey": "ars_trinkets.glyph_name.glyph_filter_self"
   },
+  "ars_zero:anchor_effect": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "com.github.ars_zero.common.glyph.AnchorEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "manipulation",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_dampen"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.anchor_effect_glyph_amplify"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.anchor_effect_glyph_dampen"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 2,
+      "cost": 0,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Anchor",
+    "texture": "ars_zero:item/anchor_effect",
+    "animated": false,
+    "registryName": "ars_zero:anchor_effect",
+    "localizationKey": "ars_zero.glyph_name.anchor_effect"
+  },
+  "ars_zero:conjure_voxel_effect": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "com.github.ars_zero.common.glyph.ConjureVoxelEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "manipulation",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_split"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.conjure_voxel_effect_glyph_amplify"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.conjure_voxel_effect_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.conjure_voxel_effect_glyph_split"
+          }
+        },
+        "costs": {},
+        "limits": {
+          "ars_nouveau:glyph_amplify": 2
+        }
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 1,
+      "cost": 5,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Conjure Voxel",
+    "texture": "ars_zero:item/conjure_voxel_effect",
+    "animated": true,
+    "registryName": "ars_zero:conjure_voxel_effect",
+    "localizationKey": "ars_zero.glyph_name.conjure_voxel_effect"
+  },
+  "ars_zero:near_form": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.form"
+    },
+    "typeIndex": 1,
+    "classes": [
+      "com.github.ars_zero.common.glyph.NearForm",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractCastMethod"
+    ],
+    "spellSchools": [],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_dampen"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.near_form_glyph_amplify"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.near_form_glyph_dampen"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "tier": 1,
+      "cost": 0,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Near",
+    "texture": "ars_zero:item/near_form",
+    "animated": false,
+    "registryName": "ars_zero:near_form",
+    "localizationKey": "ars_zero.glyph_name.near_form"
+  },
+  "ars_zero:push_effect": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "com.github.ars_zero.common.glyph.PushEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "air",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_randomize"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.push_effect_glyph_amplify"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.push_effect_glyph_dampen"
+          },
+          "ars_nouveau:glyph_randomize": {
+            "translate": "ars_nouveau.augment_desc.push_effect_glyph_randomize"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 1,
+      "cost": 25,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Push",
+    "texture": "ars_zero:item/push_effect",
+    "animated": false,
+    "registryName": "ars_zero:push_effect",
+    "localizationKey": "ars_zero.glyph_name.push_effect"
+  },
+  "ars_zero:select_effect": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "com.github.ars_zero.common.glyph.SelectEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "manipulation",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.select_effect_glyph_aoe"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.select_effect_glyph_pierce"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.select_effect_glyph_sensitive"
+          }
+        },
+        "costs": {},
+        "limits": {
+          "ars_nouveau:glyph_sensitive": 1
+        }
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 1,
+      "cost": 0,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Select",
+    "texture": "ars_zero:item/select_effect",
+    "animated": false,
+    "registryName": "ars_zero:select_effect",
+    "localizationKey": "ars_zero.glyph_name.select_effect"
+  },
+  "ars_zero:temporal_context_form": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.form"
+    },
+    "typeIndex": 1,
+    "classes": [
+      "com.github.ars_zero.common.glyph.TemporalContextForm",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractCastMethod"
+    ],
+    "spellSchools": [],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [],
+        "descriptions": {},
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "tier": 1,
+      "cost": 0,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Temporal Context Form",
+    "texture": "ars_zero:item/temporal_context_form",
+    "animated": false,
+    "registryName": "ars_zero:temporal_context_form",
+    "localizationKey": "ars_zero.glyph_name.temporal_context_form"
+  },
+  "ars_zero:zero_gravity_effect": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "com.github.ars_zero.common.glyph.ZeroGravityEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "manipulation",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.zero_gravity_effect_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.zero_gravity_effect_glyph_extend_time"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 2,
+      "cost": 35,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Remove Gravity",
+    "texture": "ars_zero:item/zero_gravity_effect",
+    "animated": false,
+    "registryName": "ars_zero:zero_gravity_effect",
+    "localizationKey": "ars_zero.glyph_name.zero_gravity_effect"
+  },
   "arsomega:glyph_flatten": {
     "typeName": {
       "translate": "ars_nouveau.spell_book_gui.effect"

@@ -1,0 +1,18 @@
+{
+  "id": "ars_elemental:glyph_conflagrate",
+  "order": 100,
+  "icon": "ars_elemental:glyph_conflagrate",
+  "title": "Conflagrate",
+  "category": "ars_nouveau:glyphs_tier_three",
+  "pages": [
+    {
+      "title": "Conflagrate",
+      "description": "When it hits a target on fire, it causes a detonation that deals damage to all entities in range and sets them on fire. That explosion might spread explosive powder on them, causing them to explode after a while.",
+      "icon": "ars_elemental:glyph_conflagrate",
+      "tier": 3
+    },
+    {
+      "recipe_1": "ars_elemental:glyph_conflagrate"
+    }
+  ]
+}

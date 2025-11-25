@@ -1,0 +1,15 @@
+{
+  "id": "ars_zero:temporal_context_form",
+  "order": 100,
+  "icon": "ars_zero:temporal_context_form",
+  "title": "Temporal Context",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Temporal Context",
+      "description": "A cast method that provides access to the context of the previous spell phase (Staff only)",
+      "icon": "ars_zero:temporal_context_form",
+      "tier": 1
+    }
+  ]
+}

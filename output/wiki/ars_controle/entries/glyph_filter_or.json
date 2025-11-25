@@ -1,0 +1,18 @@
+{
+  "id": "ars_controle:glyph_filter_or",
+  "order": 100,
+  "icon": "ars_controle:glyph_filter_or",
+  "title": "Filter: OR",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Filter: OR",
+      "description": "Only resolves the spell if any of the next 2 Filters are true.",
+      "icon": "ars_controle:glyph_filter_or",
+      "tier": 1
+    },
+    {
+      "recipe_1": "ars_controle:glyph_filter_or"
+    }
+  ]
+}

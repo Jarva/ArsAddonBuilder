@@ -1,0 +1,15 @@
+{
+  "id": "minecraft:punch",
+  "order": 100,
+  "icon": "minecraft:enchanted_book",
+  "title": "Punch",
+  "category": "ars_nouveau:enchanting",
+  "pages": [
+    {
+      "recipe_1": "ars_nouveau:punch_1"
+    },
+    {
+      "recipe_1": "ars_nouveau:punch_2"
+    }
+  ]
+}
