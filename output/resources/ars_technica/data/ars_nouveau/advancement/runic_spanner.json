@@ -1,11 +1,11 @@
 {
-  "parent": "ars_technica:calibrated_precision_mechanism",
+  "parent": "ars_nouveau:calibrated_precision_mechanism",
   "criteria": {
-    "has_runic_spanner": {
+    "has_wrench": {
       "conditions": {
         "items": [
           {
-            "items": "ars_technica:runic_spanner"
+            "items": "create:wrench"
           }
         ]
       },
@@ -18,7 +18,7 @@
     },
     "icon": {
       "count": 1,
-      "id": "ars_technica:runic_spanner"
+      "id": "create:wrench"
     },
     "title": {
       "translate": "ars_technica.adv.title.runic_spanner"
@@ -26,7 +26,7 @@
   },
   "requirements": [
     [
-      "has_runic_spanner"
+      "has_wrench"
     ]
   ]
 }
