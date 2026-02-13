@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Temporal Context",
-      "description": "A cast method that provides access to the context of the previous spell phase (Staff only)",
+      "description": "A cast method that provides access to the context of the previous spell phase",
       "icon": "ars_zero:temporal_context_form",
       "tier": 1
     }

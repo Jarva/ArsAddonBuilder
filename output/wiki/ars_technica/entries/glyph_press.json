@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Press",
-      "description": "Flattens item entities into their pressed variants",
+      "description": "Flattens item entities into their pressed variants.",
       "icon": "ars_technica:glyph_press",
       "tier": 2
     },

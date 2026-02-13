@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Whirl",
-      "description": "Creates a whirlwind in an area, causing item entities to be centrifuged. Combine with water/flare/smelt/hex to wash/smoke/blast/haunt items",
+      "description": "Creates a whirlwind in an area, causing item entities to be centrifuged. Combine with water/flare/smelt/hex to process items.",
       "icon": "ars_technica:glyph_whirl",
       "tier": 2
     },

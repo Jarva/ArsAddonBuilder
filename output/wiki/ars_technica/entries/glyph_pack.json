@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Pack",
-      "description": "Condenses identical item entities, crafting them into 2x2 recipes",
+      "description": "Condenses identical item entities, crafting them into 2x2 recipes. §a[Create Recipe: Pack]",
       "icon": "ars_technica:glyph_pack",
       "tier": 1
     },

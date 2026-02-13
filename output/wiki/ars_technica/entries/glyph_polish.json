@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Polish",
-      "description": "Refines item entities into their polished variants",
+      "description": "Refines item entities into their polished variants. §a[Create Recipe: Polish]",
       "icon": "ars_technica:glyph_polish",
       "tier": 2
     },

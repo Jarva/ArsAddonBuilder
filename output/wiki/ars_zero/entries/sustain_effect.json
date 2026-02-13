@@ -1,0 +1,15 @@
+{
+  "id": "ars_zero:sustain_effect",
+  "order": 100,
+  "icon": "ars_zero:sustain_effect",
+  "title": "Sustain",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Sustain",
+      "description": "Extends the lifespan of a target",
+      "icon": "ars_zero:sustain_effect",
+      "tier": 2
+    }
+  ]
+}

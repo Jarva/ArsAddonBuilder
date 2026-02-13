@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Carve",
-      "description": "Cuts identical item entities, crafting them into stairs. Works on stone and wood only",
+      "description": "Cuts identical item entities, crafting them into stairs. Works on stone and wood only. §a[Create Recipe: Cutting]",
       "icon": "ars_technica:glyph_carve",
       "tier": 1
     },

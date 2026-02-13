@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Fuse",
-      "description": "Fuses item entities by slamming them together at breakneck speed. Use Smelt for heated mixing or use Superheat for super-heated mixing (if enabled in config)",
+      "description": "Fuses item entities by slamming them together at breakneck speed. Picks up fluids from nearby fluid containers. Can be combined with Smelt or Superheat (if enabled).",
       "icon": "ars_technica:glyph_fuse",
       "tier": 1
     },

@@ -921,6 +921,76 @@
     "registryName": "ars_elemental:glyph_fiery_filter",
     "localizationKey": "ars_elemental.glyph_name.glyph_fiery_filter"
   },
+  "ars_elemental:glyph_geyser": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "alexthw.ars_elemental.common.glyphs.EffectGeyser",
+      "alexthw.ars_elemental.common.glyphs.ElementalAbstractEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "fire",
+        "subschools": []
+      },
+      {
+        "id": "water",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_sensitive"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_geyser_glyph_amplify"
+          },
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_geyser_glyph_aoe"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_geyser_glyph_dampen"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_geyser_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_geyser_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_geyser_glyph_sensitive"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 5,
+        "ampDuration": 1
+      },
+      "tier": 2,
+      "cost": 40,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Create Geyser",
+    "texture": "ars_nouveau:item/geyser",
+    "animated": false,
+    "registryName": "ars_elemental:glyph_geyser",
+    "localizationKey": "ars_elemental.glyph_name.glyph_geyser"
+  },
   "ars_elemental:glyph_homing_projectile": {
     "typeName": {
       "translate": "ars_nouveau.spell_book_gui.form"
@@ -1067,6 +1137,57 @@
     "animated": false,
     "registryName": "ars_elemental:glyph_life_link",
     "localizationKey": "ars_elemental.glyph_name.glyph_life_link"
+  },
+  "ars_elemental:glyph_mist": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "alexthw.ars_elemental.common.glyphs.EffectMist",
+      "alexthw.ars_elemental.common.glyphs.ElementalAbstractEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "water",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_mist_glyph_aoe"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_mist_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_mist_glyph_extend_time"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 2,
+      "cost": 40,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Mist Cloud",
+    "texture": "ars_nouveau:item/mist",
+    "animated": false,
+    "registryName": "ars_elemental:glyph_mist",
+    "localizationKey": "ars_elemental.glyph_name.glyph_mist"
   },
   "ars_elemental:glyph_not_aerial_filter": {
     "typeName": {
@@ -1566,6 +1687,61 @@
     "registryName": "ars_elemental:glyph_propagator_homing",
     "localizationKey": "ars_elemental.glyph_name.glyph_propagator_homing"
   },
+  "ars_elemental:glyph_slime_feet": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "alexthw.ars_elemental.common.glyphs.EffectSlimeFeet",
+      "alexthw.ars_elemental.common.glyphs.ElementalAbstractEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "abjuration",
+        "subschools": []
+      },
+      {
+        "id": "water",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_slime_feet_glyph_amplify"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_slime_feet_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_slime_feet_glyph_extend_time"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 2,
+      "cost": 20,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Slime Walk",
+    "texture": "ars_nouveau:item/slime_feet",
+    "animated": false,
+    "registryName": "ars_elemental:glyph_slime_feet",
+    "localizationKey": "ars_elemental.glyph_name.glyph_slime_feet"
+  },
   "ars_elemental:glyph_spark": {
     "typeName": {
       "translate": "ars_nouveau.spell_book_gui.effect"
@@ -1708,6 +1884,61 @@
     "registryName": "ars_elemental:glyph_spike",
     "localizationKey": "ars_elemental.glyph_name.glyph_spike"
   },
+  "ars_elemental:glyph_summon_bee": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "alexthw.ars_elemental.common.glyphs.EffectSummonBee",
+      "alexthw.ars_elemental.common.glyphs.ElementalAbstractEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "conjuration",
+        "subschools": []
+      },
+      {
+        "id": "earth",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_split"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_summon_bee_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_summon_bee_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_summon_bee_glyph_split"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 2,
+      "cost": 100,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Summon Bee",
+    "texture": "ars_nouveau:item/summon_bee",
+    "animated": false,
+    "registryName": "ars_elemental:glyph_summon_bee",
+    "localizationKey": "ars_elemental.glyph_name.glyph_summon_bee"
+  },
   "ars_elemental:glyph_summon_filter": {
     "typeName": {
       "translate": "ars_nouveau.spell_book_gui.effect"
@@ -1741,6 +1972,61 @@
     "registryName": "ars_elemental:glyph_summon_filter",
     "localizationKey": "ars_elemental.glyph_name.glyph_summon_filter"
   },
+  "ars_elemental:glyph_summon_slime": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "alexthw.ars_elemental.common.glyphs.EffectSummonSlime",
+      "alexthw.ars_elemental.common.glyphs.ElementalAbstractEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "conjuration",
+        "subschools": []
+      },
+      {
+        "id": "water",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_split"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_summon_slime_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_summon_slime_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_summon_slime_glyph_split"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 2,
+      "cost": 100,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Summon Slime",
+    "texture": "ars_nouveau:item/summon_slime",
+    "animated": false,
+    "registryName": "ars_elemental:glyph_summon_slime",
+    "localizationKey": "ars_elemental.glyph_name.glyph_summon_slime"
+  },
   "ars_elemental:glyph_undead_filter": {
     "typeName": {
       "translate": "ars_nouveau.spell_book_gui.effect"
@@ -1773,6 +2059,60 @@
     "animated": false,
     "registryName": "ars_elemental:glyph_undead_filter",
     "localizationKey": "ars_elemental.glyph_name.glyph_undead_filter"
+  },
+  "ars_elemental:glyph_water_jet": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "alexthw.ars_elemental.common.glyphs.EffectWaterJet",
+      "alexthw.ars_elemental.common.glyphs.ElementalAbstractEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "water",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_randomize",
+          "ars_nouveau:glyph_split"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_water_jet_glyph_amplify"
+          },
+          "ars_nouveau:glyph_randomize": {
+            "translate": "ars_nouveau.augment_desc.glyph_water_jet_glyph_randomize"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.glyph_water_jet_glyph_split"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 4.0,
+        "ampDamage": 1.0
+      },
+      "tier": 3,
+      "cost": 80,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Water Jet",
+    "texture": "ars_nouveau:item/water_jet",
+    "animated": false,
+    "registryName": "ars_elemental:glyph_water_jet",
+    "localizationKey": "ars_elemental.glyph_name.glyph_water_jet"
   },
   "ars_elemental:glyph_watery_grave": {
     "typeName": {
@@ -5011,6 +5351,7 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_randomize",
           "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
@@ -5026,13 +5367,17 @@
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_rotate_glyph_pierce"
           },
+          "ars_nouveau:glyph_randomize": {
+            "translate": "ars_nouveau.augment_desc.glyph_rotate_glyph_randomize"
+          },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_rotate_glyph_sensitive"
           }
         },
         "costs": {},
         "limits": {
-          "ars_nouveau:glyph_sensitive": 1
+          "ars_nouveau:glyph_sensitive": 1,
+          "ars_nouveau:glyph_randomize": 1
         }
       },
       "invalidCombinations": [],
@@ -6561,11 +6906,23 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_aoe"
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_extract",
+          "ars_nouveau:glyph_sensitive",
+          "ars_technica:glyph_superheat"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_press_glyph_aoe"
+          },
+          "ars_nouveau:glyph_extract": {
+            "translate": "ars_nouveau.augment_desc.glyph_press_glyph_extract"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_press_glyph_sensitive"
+          },
+          "ars_technica:glyph_superheat": {
+            "translate": "ars_nouveau.augment_desc.glyph_press_glyph_superheat"
           }
         },
         "costs": {},
@@ -6813,7 +7170,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extract",
+          "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -6821,9 +7180,17 @@
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.anchor_effect_glyph_dampen"
+          },
+          "ars_nouveau:glyph_extract": {
+            "translate": "ars_nouveau.augment_desc.anchor_effect_glyph_extract"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.anchor_effect_glyph_sensitive"
           }
         },
-        "costs": {},
+        "costs": {
+          "ars_nouveau:glyph_extract": 0
+        },
         "limits": {}
       },
       "invalidCombinations": [],
@@ -6834,10 +7201,130 @@
       "starter": false
     },
     "name": "Anchor",
-    "texture": "ars_zero:item/anchor_effect",
+    "texture": "ars_zero:item/glyph/anchor_effect",
     "animated": false,
     "registryName": "ars_zero:anchor_effect",
     "localizationKey": "ars_zero.glyph_name.anchor_effect"
+  },
+  "ars_zero:augment_cube": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.augment"
+    },
+    "typeIndex": 10,
+    "classes": [
+      "com.github.ars_zero.common.glyph.augment.AugmentCube",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractAugment"
+    ],
+    "spellSchools": [],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [],
+        "descriptions": {},
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "tier": 3,
+      "cost": 0,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Cube",
+    "texture": "ars_zero:item/glyph/augment_cube",
+    "animated": false,
+    "registryName": "ars_zero:augment_cube",
+    "localizationKey": "ars_zero.glyph_name.augment_cube"
+  },
+  "ars_zero:augment_flatten": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.augment"
+    },
+    "typeIndex": 10,
+    "classes": [
+      "com.github.ars_zero.common.glyph.augment.AugmentFlatten",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractAugment"
+    ],
+    "spellSchools": [],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [],
+        "descriptions": {},
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "tier": 3,
+      "cost": 5,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Flatten",
+    "texture": "ars_zero:item/glyph/augment_flatten",
+    "animated": false,
+    "registryName": "ars_zero:augment_flatten",
+    "localizationKey": "ars_zero.glyph_name.augment_flatten"
+  },
+  "ars_zero:augment_hollow": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.augment"
+    },
+    "typeIndex": 10,
+    "classes": [
+      "com.github.ars_zero.common.glyph.augment.AugmentHollow",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractAugment"
+    ],
+    "spellSchools": [],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [],
+        "descriptions": {},
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "tier": 3,
+      "cost": 10,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Hollow",
+    "texture": "ars_zero:item/glyph/augment_hollow",
+    "animated": false,
+    "registryName": "ars_zero:augment_hollow",
+    "localizationKey": "ars_zero.glyph_name.augment_hollow"
+  },
+  "ars_zero:augment_sphere": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.augment"
+    },
+    "typeIndex": 10,
+    "classes": [
+      "com.github.ars_zero.common.glyph.augment.AugmentSphere",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractAugment"
+    ],
+    "spellSchools": [],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [],
+        "descriptions": {},
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "tier": 3,
+      "cost": 15,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Sphere",
+    "texture": "ars_zero:item/glyph/augment_sphere",
+    "animated": false,
+    "registryName": "ars_zero:augment_sphere",
+    "localizationKey": "ars_zero.glyph_name.augment_sphere"
   },
   "ars_zero:conjure_voxel_effect": {
     "typeName": {
@@ -6875,6 +7362,7 @@
         },
         "costs": {},
         "limits": {
+          "ars_nouveau:glyph_split": 3,
           "ars_nouveau:glyph_amplify": 2
         }
       },
@@ -6886,10 +7374,273 @@
       "starter": false
     },
     "name": "Conjure Voxel",
-    "texture": "ars_zero:item/conjure_voxel_effect",
+    "texture": "ars_zero:item/glyph/conjure_voxel_effect",
     "animated": true,
     "registryName": "ars_zero:conjure_voxel_effect",
     "localizationKey": "ars_zero.glyph_name.conjure_voxel_effect"
+  },
+  "ars_zero:discard_effect": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "com.github.ars_zero.common.glyph.DiscardEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "manipulation",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [],
+        "descriptions": {},
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 2,
+      "cost": 5,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Discard",
+    "texture": "ars_zero:item/glyph/discard_effect",
+    "animated": false,
+    "registryName": "ars_zero:discard_effect",
+    "localizationKey": "ars_zero.glyph_name.discard_effect"
+  },
+  "ars_zero:effect_beam": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "com.github.ars_zero.common.glyph.EffectBeam",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "manipulation",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_sensitive",
+          "ars_nouveau:glyph_split"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.effect_beam_glyph_amplify"
+          },
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.effect_beam_glyph_aoe"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.effect_beam_glyph_dampen"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.effect_beam_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.effect_beam_glyph_sensitive"
+          },
+          "ars_nouveau:glyph_split": {
+            "translate": "ars_nouveau.augment_desc.effect_beam_glyph_split"
+          }
+        },
+        "costs": {},
+        "limits": {
+          "ars_nouveau:glyph_split": 3,
+          "ars_nouveau:glyph_sensitive": 1,
+          "ars_nouveau:glyph_amplify": 10,
+          "ars_nouveau:glyph_dampen": 1
+        }
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 3,
+      "cost": 50,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Effect Beam",
+    "texture": "ars_zero:item/glyph/beam_effect",
+    "animated": false,
+    "registryName": "ars_zero:effect_beam",
+    "localizationKey": "ars_zero.glyph_name.effect_beam"
+  },
+  "ars_zero:effect_conjure_blight": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "com.github.ars_zero.common.glyph.EffectConjureBlight",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "necromancy",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_sensitive"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.effect_conjure_blight_glyph_aoe"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.effect_conjure_blight_glyph_pierce"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.effect_conjure_blight_glyph_sensitive"
+          }
+        },
+        "costs": {},
+        "limits": {
+          "ars_nouveau:glyph_sensitive": 1
+        }
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 3,
+      "cost": 100,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Conjure Blight",
+    "texture": "ars_zero:item/glyph/conjure_blight",
+    "animated": false,
+    "registryName": "ars_zero:effect_conjure_blight",
+    "localizationKey": "ars_zero.glyph_name.effect_conjure_blight"
+  },
+  "ars_zero:effect_convergence": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "com.github.ars_zero.common.glyph.convergence.EffectConvergence",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "manipulation",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [],
+        "descriptions": {},
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 3,
+      "cost": 200,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Convergence",
+    "texture": "ars_zero:item/glyph/convergence_effect",
+    "animated": true,
+    "registryName": "ars_zero:effect_convergence",
+    "localizationKey": "ars_zero.glyph_name.effect_convergence"
+  },
+  "ars_zero:effect_geometrize": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "com.github.ars_zero.common.glyph.geometrize.EffectGeometrize",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "earth",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_accelerate",
+          "ars_nouveau:glyph_decelerate",
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_cube",
+          "ars_zero:augment_flatten",
+          "ars_zero:augment_hollow",
+          "ars_zero:augment_sphere"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_accelerate": {
+            "translate": "ars_nouveau.augment_desc.effect_geometrize_glyph_accelerate"
+          },
+          "ars_nouveau:glyph_decelerate": {
+            "translate": "ars_nouveau.augment_desc.effect_geometrize_glyph_decelerate"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.effect_geometrize_glyph_sensitive"
+          },
+          "ars_zero:augment_cube": {
+            "translate": "ars_nouveau.augment_desc.effect_geometrize_augment_cube"
+          },
+          "ars_zero:augment_flatten": {
+            "translate": "ars_nouveau.augment_desc.effect_geometrize_augment_flatten"
+          },
+          "ars_zero:augment_hollow": {
+            "translate": "ars_nouveau.augment_desc.effect_geometrize_augment_hollow"
+          },
+          "ars_zero:augment_sphere": {
+            "translate": "ars_nouveau.augment_desc.effect_geometrize_augment_sphere"
+          }
+        },
+        "costs": {},
+        "limits": {
+          "ars_zero:augment_hollow": 1,
+          "ars_zero:augment_cube": 1,
+          "ars_zero:augment_sphere": 1,
+          "ars_zero:augment_flatten": 1
+        }
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 3,
+      "cost": 100,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Geometrize",
+    "texture": "ars_zero:item/glyph/geometrize_effect",
+    "animated": false,
+    "registryName": "ars_zero:effect_geometrize",
+    "localizationKey": "ars_zero.glyph_name.effect_geometrize"
   },
   "ars_zero:near_form": {
     "typeName": {
@@ -6926,7 +7677,7 @@
       "starter": false
     },
     "name": "Near",
-    "texture": "ars_zero:item/near_form",
+    "texture": "ars_zero:item/glyph/near_form",
     "animated": false,
     "registryName": "ars_zero:near_form",
     "localizationKey": "ars_zero.glyph_name.near_form"
@@ -6952,6 +7703,7 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_randomize"
         ],
         "descriptions": {
@@ -6961,12 +7713,17 @@
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.push_effect_glyph_dampen"
           },
+          "ars_nouveau:glyph_extract": {
+            "translate": "ars_nouveau.augment_desc.push_effect_glyph_extract"
+          },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.push_effect_glyph_randomize"
           }
         },
         "costs": {},
-        "limits": {}
+        "limits": {
+          "ars_nouveau:glyph_extract": 1
+        }
       },
       "invalidCombinations": [],
       "defaultConfig": {},
@@ -6976,7 +7733,7 @@
       "starter": false
     },
     "name": "Push",
-    "texture": "ars_zero:item/push_effect",
+    "texture": "ars_zero:item/glyph/push_effect",
     "animated": false,
     "registryName": "ars_zero:push_effect",
     "localizationKey": "ars_zero.glyph_name.push_effect"
@@ -7028,10 +7785,52 @@
       "starter": false
     },
     "name": "Select",
-    "texture": "ars_zero:item/select_effect",
+    "texture": "ars_zero:item/glyph/select_effect",
     "animated": false,
     "registryName": "ars_zero:select_effect",
     "localizationKey": "ars_zero.glyph_name.select_effect"
+  },
+  "ars_zero:sustain_effect": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "com.github.ars_zero.common.glyph.SustainEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "manipulation",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_extend_time"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.sustain_effect_glyph_extend_time"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 2,
+      "cost": 0,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Sustain",
+    "texture": "ars_zero:item/glyph/sustain_effect",
+    "animated": false,
+    "registryName": "ars_zero:sustain_effect",
+    "localizationKey": "ars_zero.glyph_name.sustain_effect"
   },
   "ars_zero:temporal_context_form": {
     "typeName": {
@@ -7058,7 +7857,7 @@
       "starter": false
     },
     "name": "Temporal Context Form",
-    "texture": "ars_zero:item/temporal_context_form",
+    "texture": "ars_zero:item/glyph/temporal_context_form",
     "animated": false,
     "registryName": "ars_zero:temporal_context_form",
     "localizationKey": "ars_zero.glyph_name.temporal_context_form"
@@ -7104,7 +7903,7 @@
       "starter": false
     },
     "name": "Remove Gravity",
-    "texture": "ars_zero:item/zero_gravity_effect",
+    "texture": "ars_zero:item/glyph/zero_gravity_effect",
     "animated": false,
     "registryName": "ars_zero:zero_gravity_effect",
     "localizationKey": "ars_zero.glyph_name.zero_gravity_effect"
@@ -7542,7 +8341,9 @@
             "translate": "ars_nouveau.augment_desc.glyph_contingency_blink_glyph_split"
           }
         },
-        "costs": {},
+        "costs": {
+          "ars_nouveau:glyph_split": 100
+        },
         "limits": {}
       },
       "invalidCombinations": [],
@@ -7596,7 +8397,9 @@
             "translate": "ars_nouveau.augment_desc.glyph_contingency_death_glyph_split"
           }
         },
-        "costs": {},
+        "costs": {
+          "ars_nouveau:glyph_split": 100
+        },
         "limits": {}
       },
       "invalidCombinations": [],
@@ -7658,7 +8461,9 @@
             "translate": "ars_nouveau.augment_desc.glyph_contingency_fall_glyph_split"
           }
         },
-        "costs": {},
+        "costs": {
+          "ars_nouveau:glyph_split": 100
+        },
         "limits": {}
       },
       "invalidCombinations": [],
@@ -7712,7 +8517,9 @@
             "translate": "ars_nouveau.augment_desc.glyph_contingency_fire_glyph_split"
           }
         },
-        "costs": {},
+        "costs": {
+          "ars_nouveau:glyph_split": 100
+        },
         "limits": {}
       },
       "invalidCombinations": [],
@@ -7766,7 +8573,9 @@
             "translate": "ars_nouveau.augment_desc.glyph_contingency_heal_glyph_split"
           }
         },
-        "costs": {},
+        "costs": {
+          "ars_nouveau:glyph_split": 100
+        },
         "limits": {}
       },
       "invalidCombinations": [],
@@ -8301,6 +9110,7 @@
         "compatible": [
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_pierce",
+          "ars_nouveau:glyph_randomize",
           "ars_nouveau:glyph_sensitive"
         ],
         "descriptions": {
@@ -8310,13 +9120,17 @@
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_chaining_glyph_pierce"
           },
+          "ars_nouveau:glyph_randomize": {
+            "translate": "ars_nouveau.augment_desc.glyph_chaining_glyph_randomize"
+          },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_chaining_glyph_sensitive"
           }
         },
         "costs": {},
         "limits": {
-          "ars_nouveau:glyph_sensitive": 2
+          "ars_nouveau:glyph_sensitive": 2,
+          "ars_nouveau:glyph_randomize": 3
         }
       },
       "invalidCombinations": [

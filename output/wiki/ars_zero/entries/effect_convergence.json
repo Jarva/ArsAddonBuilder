@@ -1,0 +1,15 @@
+{
+  "id": "ars_zero:effect_convergence",
+  "order": 100,
+  "icon": "ars_zero:effect_convergence",
+  "title": "Convergence",
+  "category": "ars_nouveau:glyphs_tier_three",
+  "pages": [
+    {
+      "title": "Convergence",
+      "description": "Concentrates a large amount of mana into a single point.",
+      "icon": "ars_zero:effect_convergence",
+      "tier": 3
+    }
+  ]
+}

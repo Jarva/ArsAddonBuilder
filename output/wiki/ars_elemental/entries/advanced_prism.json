@@ -15,10 +15,7 @@
       "recipe_1": "ars_elemental:advanced_prism"
     },
     {
-      "description": "A Prism Lens can be  applied to this  advanced prisms to  customize how the  prism redirects  projectiles. Arc and  Homing lenses change  the projectile to be  an arc or homing  projectile. Rainbow  lens randomize the  color of the  projectile, while  Acceleration and  Deceleration lenses  allow to adjust the  speed."
-    },
-    {
-      "recipe_1": "ars_elemental:rainbow_prism_lens"
+      "description": "A Prism Lens can be  applied to this  advanced prisms to  customize how the  prism redirects  projectiles. Arc and  Homing lenses change  the projectile to be  an arc or homing  projectile.  Acceleration and  Deceleration lenses  allow to adjust the  speed."
     },
     {
       "recipe_1": "ars_elemental:arc_prism_lens"

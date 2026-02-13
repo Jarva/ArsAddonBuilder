@@ -1,0 +1,15 @@
+{
+  "id": "ars_zero:effect_beam",
+  "order": 100,
+  "icon": "ars_zero:effect_beam",
+  "title": "Beam",
+  "category": "ars_nouveau:glyphs_tier_three",
+  "pages": [
+    {
+      "title": "Beam",
+      "description": "Compresses mana into a violent beam; resolves the remainder of the spell on each hit, draining mana per hit.",
+      "icon": "ars_zero:effect_beam",
+      "tier": 3
+    }
+  ]
+}
