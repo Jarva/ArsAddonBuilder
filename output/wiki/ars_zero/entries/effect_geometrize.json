@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Geometrize",
-      "description": "Resolve forwarded spell in a geometric structure pattern. Needs to be combined with other glyphs",
+      "description": "Resolve forwarded spell in a geometric structure pattern. Needs to be combined with other glyphs. §6[Lifespan-based]",
       "icon": "ars_zero:effect_geometrize",
       "tier": 3
     }

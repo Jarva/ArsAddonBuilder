@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Conjure Voxel",
-      "description": "Conjures a small block-like entity",
+      "description": "Conjures a small block-like entity. §6[Lifespan-based]",
       "icon": "ars_zero:conjure_voxel_effect",
       "tier": 1
     }

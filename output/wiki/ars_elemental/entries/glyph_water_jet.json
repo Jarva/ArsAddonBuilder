@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Water Jet",
-      "description": "Creates a high pressure water jet that pierce trough the closest target\u0027s armor after few seconds. Split can be used to spawn multiple at the same time, using randomize on top will make each jet target a different entity if possible.",
+      "description": "Creates a high pressure water jet that pierce trough the closest target, ignoring armor, after few seconds. Split can be used to spawn multiple at the same time, using randomize on top will make each jet target a different entity if possible.",
       "icon": "ars_elemental:glyph_water_jet",
       "tier": 3
     },
