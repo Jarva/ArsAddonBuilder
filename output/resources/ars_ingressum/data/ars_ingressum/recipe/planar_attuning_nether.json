@@ -1,0 +1,10 @@
+{
+  "type": "ars_ingressum:planar_attuning",
+  "pedestal_items": [
+    { "item": "minecraft:obsidian" },
+    { "item": "minecraft:netherrack" },
+    { "item": "minecraft:soul_sand" }
+  ],
+  "dimension": "minecraft:the_nether",
+  "source": 2000
+}

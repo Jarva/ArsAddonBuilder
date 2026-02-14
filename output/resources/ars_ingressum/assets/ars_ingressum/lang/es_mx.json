@@ -1,0 +1,14 @@
+{
+	"ars_ingressum.ritual_desc.ritual_plane_shift": "Teletransporta a todas las entidades cercanas a una dimensión dada. Antes de iniciar el ritual, primero debes aumentar el ritual con un Diapasón Sintonizado.",
+
+	"item.ars_ingressum.vacant_tuning_fork": "Diapasón Sin Sintonizar",
+	"item.ars_ingressum.attuned_tuning_fork": "Diapasón Sintonizado",
+	"item.ars_ingressum.ritual_plane_shift": "Ritual de Viaje Dimensional",
+
+	"chat.ars_ingressum.attuning.attuning_started": "Sintonizando. Agregue una fuente cercana para aumentar la velocidad de la sintonización.",
+
+	"creativetab.ars_ingressum.ars_ingressum": "Ars Ingressum",
+
+	"tooltip.ars_ingressum.tuning_fork.unattuned": "No Está Sintonizado A Ningún Lado..."
+
+}
