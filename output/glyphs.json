@@ -266,7 +266,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -274,6 +276,12 @@
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_filter_random_glyph_dampen"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {
@@ -546,7 +554,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -557,6 +567,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_bubble_shield_glyph_extend_time"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -578,6 +594,90 @@
     "animated": false,
     "registryName": "ars_elemental:glyph_bubble_shield",
     "localizationKey": "ars_elemental.glyph_name.glyph_bubble_shield"
+  },
+  "ars_elemental:glyph_cavitate": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "alexthw.ars_elemental.common.glyphs.EffectCavitate",
+      "alexthw.ars_elemental.common.glyphs.ElementalAbstractEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "water",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_cavitate_glyph_amplify"
+          },
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_cavitate_glyph_aoe"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_cavitate_glyph_dampen"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_cavitate_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_cavitate_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_randomize": {
+            "translate": "ars_nouveau.augment_desc.glyph_cavitate_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 6.0,
+        "ampDamage": 1.0,
+        "baseDuration": 30,
+        "ampDuration": 8
+      },
+      "tier": 3,
+      "cost": 80,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Cavitate",
+    "texture": "ars_nouveau:item/cavitate",
+    "animated": true,
+    "registryName": "ars_elemental:glyph_cavitate",
+    "localizationKey": "ars_elemental.glyph_name.glyph_cavitate"
   },
   "ars_elemental:glyph_charm": {
     "typeName": {
@@ -601,7 +701,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -612,6 +714,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_charm_glyph_extend_time"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -657,7 +765,11 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -674,6 +786,18 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_conflagrate_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -724,7 +848,11 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -738,6 +866,18 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_conjure_terrain_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -785,7 +925,11 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -808,6 +952,18 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_discharge_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -855,7 +1011,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -866,6 +1024,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_envenom_glyph_extend_time"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -950,7 +1114,11 @@
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -970,6 +1138,18 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_geyser_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -1160,7 +1340,9 @@
         "compatible": [
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -1171,6 +1353,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_mist_glyph_extend_time"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -1424,6 +1612,88 @@
     "registryName": "ars_elemental:glyph_nullify_defense",
     "localizationKey": "ars_elemental.glyph_name.glyph_nullify_defense"
   },
+  "ars_elemental:glyph_oxidize": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "alexthw.ars_elemental.common.glyphs.EffectOxidize",
+      "alexthw.ars_elemental.common.glyphs.ElementalAbstractEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "air",
+        "subschools": []
+      },
+      {
+        "id": "water",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_aoe",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_nouveau:glyph_pierce",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_oxidize_glyph_amplify"
+          },
+          "ars_nouveau:glyph_aoe": {
+            "translate": "ars_nouveau.augment_desc.glyph_oxidize_glyph_aoe"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_oxidize_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_oxidize_glyph_extend_time"
+          },
+          "ars_nouveau:glyph_pierce": {
+            "translate": "ars_nouveau.augment_desc.glyph_oxidize_glyph_pierce"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDuration": 30,
+        "ampDuration": 8
+      },
+      "tier": 3,
+      "cost": 80,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Oxidize",
+    "texture": "ars_nouveau:item/oxidize",
+    "animated": true,
+    "registryName": "ars_elemental:glyph_oxidize",
+    "localizationKey": "ars_elemental.glyph_name.glyph_oxidize"
+  },
   "ars_elemental:glyph_phantom_grasp": {
     "typeName": {
       "translate": "ars_nouveau.spell_book_gui.effect"
@@ -1447,7 +1717,9 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -1461,6 +1733,12 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_phantom_grasp_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -1509,7 +1787,11 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -1532,6 +1814,18 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_poison_spores_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -1687,13 +1981,13 @@
     "registryName": "ars_elemental:glyph_propagator_homing",
     "localizationKey": "ars_elemental.glyph_name.glyph_propagator_homing"
   },
-  "ars_elemental:glyph_slime_feet": {
+  "ars_elemental:glyph_slip_feet": {
     "typeName": {
       "translate": "ars_nouveau.spell_book_gui.effect"
     },
     "typeIndex": 5,
     "classes": [
-      "alexthw.ars_elemental.common.glyphs.EffectSlimeFeet",
+      "alexthw.ars_elemental.common.glyphs.EffectSlipper",
       "alexthw.ars_elemental.common.glyphs.ElementalAbstractEffect",
       "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
     ],
@@ -1711,19 +2005,15 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time"
         ],
         "descriptions": {
-          "ars_nouveau:glyph_amplify": {
-            "translate": "ars_nouveau.augment_desc.glyph_slime_feet_glyph_amplify"
-          },
           "ars_nouveau:glyph_duration_down": {
-            "translate": "ars_nouveau.augment_desc.glyph_slime_feet_glyph_duration_down"
+            "translate": "ars_nouveau.augment_desc.glyph_slip_feet_glyph_duration_down"
           },
           "ars_nouveau:glyph_extend_time": {
-            "translate": "ars_nouveau.augment_desc.glyph_slime_feet_glyph_extend_time"
+            "translate": "ars_nouveau.augment_desc.glyph_slip_feet_glyph_extend_time"
           }
         },
         "costs": {},
@@ -1736,11 +2026,11 @@
       "enabled": true,
       "starter": false
     },
-    "name": "Slime Walk",
-    "texture": "ars_nouveau:item/slime_feet",
+    "name": "Sliding",
+    "texture": "ars_nouveau:item/slip_feet",
     "animated": false,
-    "registryName": "ars_elemental:glyph_slime_feet",
-    "localizationKey": "ars_elemental.glyph_name.glyph_slime_feet"
+    "registryName": "ars_elemental:glyph_slip_feet",
+    "localizationKey": "ars_elemental.glyph_name.glyph_slip_feet"
   },
   "ars_elemental:glyph_spark": {
     "typeName": {
@@ -1766,7 +2056,9 @@
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -1783,6 +2075,12 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_spark_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -1838,7 +2136,11 @@
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -1861,6 +2163,18 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_spike_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -2082,7 +2396,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_randomize",
-          "ars_nouveau:glyph_split"
+          "ars_nouveau:glyph_split",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -2093,9 +2409,17 @@
           },
           "ars_nouveau:glyph_split": {
             "translate": "ars_nouveau.augment_desc.glyph_water_jet_glyph_split"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
-        "costs": {},
+        "costs": {
+          "ars_nouveau:glyph_split": 40
+        },
         "limits": {}
       },
       "invalidCombinations": [],
@@ -2138,7 +2462,9 @@
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -2155,6 +2481,12 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_watery_grave_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -2342,7 +2674,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -2350,6 +2684,12 @@
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_blink_glyph_dampen"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -2391,7 +2731,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -2402,6 +2744,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_bounce_glyph_extend_time"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -2449,7 +2797,11 @@
           "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_randomize",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -2475,6 +2827,18 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_break_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -2518,7 +2882,9 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -2532,6 +2898,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_bubble_glyph_extend_time"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -2570,7 +2942,9 @@
         "compatible": [
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -2581,6 +2955,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_burst_glyph_sensitive"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -2629,7 +3009,11 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -2652,6 +3036,18 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_cold_snap_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -2700,7 +3096,9 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -2714,6 +3112,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_conjure_water_glyph_sensitive"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -2797,7 +3201,11 @@
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_fortune",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -2817,6 +3225,18 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_crush_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -2867,7 +3287,9 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extract",
-          "ars_nouveau:glyph_fortune"
+          "ars_nouveau:glyph_fortune",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -2881,6 +3303,12 @@
           },
           "ars_nouveau:glyph_fortune": {
             "translate": "ars_nouveau.augment_desc.glyph_cut_glyph_fortune"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -3138,7 +3566,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_pierce"
+          "ars_nouveau:glyph_pierce",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -3146,6 +3576,12 @@
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_evaporate_glyph_pierce"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -3187,7 +3623,11 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -3204,6 +3644,18 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_exchange_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -3244,7 +3696,11 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_extract"
+          "ars_nouveau:glyph_extract",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -3258,6 +3714,18 @@
           },
           "ars_nouveau:glyph_extract": {
             "translate": "ars_nouveau.augment_desc.glyph_explosion_glyph_extract"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -3364,7 +3832,9 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_accelerate": {
@@ -3381,6 +3851,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_fangs_glyph_extend_time"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -3427,7 +3903,11 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extract",
-          "ars_nouveau:glyph_fortune"
+          "ars_nouveau:glyph_fortune",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -3444,6 +3924,18 @@
           },
           "ars_nouveau:glyph_fortune": {
             "translate": "ars_nouveau.augment_desc.glyph_fell_glyph_fortune"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -3484,7 +3976,9 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_split"
+          "ars_nouveau:glyph_split",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -3498,6 +3992,12 @@
           },
           "ars_nouveau:glyph_split": {
             "translate": "ars_nouveau.augment_desc.glyph_firework_glyph_split"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -3541,7 +4041,11 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -3558,6 +4062,18 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_flare_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -3636,7 +4152,11 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -3656,6 +4176,18 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_freeze_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -3753,7 +4285,11 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -3773,6 +4309,18 @@
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_gravity_glyph_pierce"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -3814,7 +4362,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_pierce"
+          "ars_nouveau:glyph_pierce",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -3822,6 +4372,12 @@
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_grow_glyph_pierce"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -3864,7 +4420,11 @@
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -3884,6 +4444,18 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_gust_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -3930,7 +4502,9 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -3950,6 +4524,12 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_harm_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -3996,7 +4576,9 @@
         "compatible": [
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_pierce"
+          "ars_nouveau:glyph_pierce",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -4007,6 +4589,12 @@
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_harvest_glyph_pierce"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -4051,7 +4639,9 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -4065,6 +4655,12 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_heal_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -4110,7 +4706,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -4121,6 +4719,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_hex_glyph_extend_time"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -4167,7 +4771,9 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -4184,6 +4790,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_ignite_glyph_sensitive"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -4222,7 +4834,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -4230,6 +4844,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_infuse_glyph_extend_time"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -4275,7 +4895,11 @@
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_pierce"
+          "ars_nouveau:glyph_pierce",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -4295,6 +4919,18 @@
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_intangible_glyph_pierce"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -4336,7 +4972,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -4347,6 +4985,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_interact_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -4443,7 +5087,11 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -4460,6 +5108,18 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_launch_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -4505,7 +5165,11 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -4522,6 +5186,18 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_leap_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -4567,7 +5243,9 @@
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -4584,6 +5262,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_light_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -4630,7 +5314,9 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -4644,6 +5330,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_lightning_glyph_extend_time"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -4692,7 +5384,9 @@
           "ars_nouveau:glyph_decelerate",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_accelerate": {
@@ -4715,6 +5409,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_linger_glyph_sensitive"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -4792,7 +5492,9 @@
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_split"
+          "ars_nouveau:glyph_split",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_accelerate": {
@@ -4818,6 +5520,12 @@
           },
           "ars_nouveau:glyph_split": {
             "translate": "ars_nouveau.augment_desc.glyph_orbit_glyph_split"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -4852,7 +5560,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -4863,6 +5573,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_pantomime_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -4905,7 +5621,11 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_pierce"
+          "ars_nouveau:glyph_pierce",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -4922,6 +5642,18 @@
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_phantom_block_glyph_pierce"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -4961,11 +5693,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_aoe"
+          "ars_nouveau:glyph_aoe",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_pickup_glyph_aoe"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -5036,7 +5776,9 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_randomize",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -5050,6 +5792,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_place_block_glyph_sensitive"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -5091,7 +5839,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -5102,6 +5852,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_prestidigitation_glyph_extend_time"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -5195,7 +5951,11 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -5212,6 +5972,18 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_pull_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -5288,7 +6060,11 @@
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -5308,6 +6084,18 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_redstone_signal_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -5352,7 +6140,11 @@
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_randomize",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -5372,6 +6164,18 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_rotate_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -5618,7 +6422,11 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -5635,6 +6443,18 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_smelt_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -5803,7 +6623,9 @@
         "compatible": [
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -5814,6 +6636,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_summon_steed_glyph_extend_time"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -5861,7 +6689,9 @@
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_split"
+          "ars_nouveau:glyph_split",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -5878,6 +6708,12 @@
           },
           "ars_nouveau:glyph_split": {
             "translate": "ars_nouveau.augment_desc.glyph_summon_undead_glyph_split"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -6020,7 +6856,9 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extract",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -6034,6 +6872,12 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_toss_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -6143,7 +6987,9 @@
           "ars_nouveau:glyph_decelerate",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_accelerate": {
@@ -6166,6 +7012,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_wall_glyph_sensitive"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -6210,7 +7062,11 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -6224,6 +7080,18 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_wind_burst_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -6268,7 +7136,9 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -6282,6 +7152,12 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.glyph_wind_shear_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -6330,7 +7206,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -6341,6 +7219,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_wither_glyph_extend_time"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -6508,7 +7392,9 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -6522,6 +7408,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_resize_glyph_extend_time"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -6564,7 +7456,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_pierce"
+          "ars_nouveau:glyph_pierce",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -6572,6 +7466,12 @@
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_apply_glyph_pierce"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -6612,7 +7512,11 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -6623,6 +7527,18 @@
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_carve_glyph_dampen"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -6664,7 +7580,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_aoe",
-          "ars_technica:glyph_superheat"
+          "ars_technica:glyph_superheat",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -6672,6 +7590,12 @@
           },
           "ars_technica:glyph_superheat": {
             "translate": "ars_nouveau.augment_desc.glyph_fuse_glyph_superheat"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -6711,7 +7635,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_split"
+          "ars_nouveau:glyph_split",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -6719,6 +7645,12 @@
           },
           "ars_nouveau:glyph_split": {
             "translate": "ars_nouveau.augment_desc.glyph_insert_glyph_split"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -6758,7 +7690,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_fortune",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -6769,6 +7703,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_obliterate_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -6811,7 +7751,11 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -6822,6 +7766,18 @@
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.glyph_pack_glyph_dampen"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -6863,11 +7819,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_aoe"
+          "ars_nouveau:glyph_aoe",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_polish_glyph_aoe"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -6909,7 +7873,9 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_extract",
           "ars_nouveau:glyph_sensitive",
-          "ars_technica:glyph_superheat"
+          "ars_technica:glyph_superheat",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -6923,6 +7889,12 @@
           },
           "ars_technica:glyph_superheat": {
             "translate": "ars_nouveau.augment_desc.glyph_press_glyph_superheat"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -7046,7 +8018,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -7054,6 +8028,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_whirl_glyph_extend_time"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -7172,7 +8152,9 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extract",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -7186,6 +8168,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.anchor_effect_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {
@@ -7205,6 +8193,126 @@
     "animated": false,
     "registryName": "ars_zero:anchor_effect",
     "localizationKey": "ars_zero.glyph_name.anchor_effect"
+  },
+  "ars_zero:augment_amplify_three": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.augment"
+    },
+    "typeIndex": 10,
+    "classes": [
+      "com.github.ars_zero.common.glyph.augment.AugmentAmplifyThree",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractAugment"
+    ],
+    "spellSchools": [],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [],
+        "descriptions": {},
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "tier": 3,
+      "cost": 180,
+      "enabled": false,
+      "starter": false
+    },
+    "name": "Amplify III",
+    "texture": "ars_zero:item/glyph/augment_amplify_three",
+    "animated": false,
+    "registryName": "ars_zero:augment_amplify_three",
+    "localizationKey": "ars_zero.glyph_name.augment_amplify_three"
+  },
+  "ars_zero:augment_amplify_two": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.augment"
+    },
+    "typeIndex": 10,
+    "classes": [
+      "com.github.ars_zero.common.glyph.augment.AugmentAmplifyTwo",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractAugment"
+    ],
+    "spellSchools": [],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [],
+        "descriptions": {},
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "tier": 3,
+      "cost": 80,
+      "enabled": false,
+      "starter": false
+    },
+    "name": "Amplify II",
+    "texture": "ars_zero:item/glyph/augment_amplify_two",
+    "animated": false,
+    "registryName": "ars_zero:augment_amplify_two",
+    "localizationKey": "ars_zero.glyph_name.augment_amplify_two"
+  },
+  "ars_zero:augment_aoe_three": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.augment"
+    },
+    "typeIndex": 10,
+    "classes": [
+      "com.github.ars_zero.common.glyph.augment.AugmentAOEThree",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractAugment"
+    ],
+    "spellSchools": [],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [],
+        "descriptions": {},
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "tier": 3,
+      "cost": 315,
+      "enabled": false,
+      "starter": false
+    },
+    "name": "AOE III",
+    "texture": "ars_zero:item/glyph/augment_aoe_three",
+    "animated": false,
+    "registryName": "ars_zero:augment_aoe_three",
+    "localizationKey": "ars_zero.glyph_name.augment_aoe_three"
+  },
+  "ars_zero:augment_aoe_two": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.augment"
+    },
+    "typeIndex": 10,
+    "classes": [
+      "com.github.ars_zero.common.glyph.augment.AugmentAOETwo",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractAugment"
+    ],
+    "spellSchools": [],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [],
+        "descriptions": {},
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "tier": 3,
+      "cost": 140,
+      "enabled": false,
+      "starter": false
+    },
+    "name": "AOE II",
+    "texture": "ars_zero:item/glyph/augment_aoe_two",
+    "animated": false,
+    "registryName": "ars_zero:augment_aoe_two",
+    "localizationKey": "ars_zero.glyph_name.augment_aoe_two"
   },
   "ars_zero:augment_cube": {
     "typeName": {
@@ -7347,7 +8455,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_split"
+          "ars_nouveau:glyph_split",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -7358,6 +8468,12 @@
           },
           "ars_nouveau:glyph_split": {
             "translate": "ars_nouveau.augment_desc.conjure_voxel_effect_glyph_split"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -7431,7 +8547,7 @@
       }
     ],
     "defaults": {
-      "perSpellLimit": 2147483647,
+      "perSpellLimit": 3,
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_amplify",
@@ -7439,7 +8555,11 @@
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_split"
+          "ars_nouveau:glyph_split",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -7459,6 +8579,18 @@
           },
           "ars_nouveau:glyph_split": {
             "translate": "ars_nouveau.augment_desc.effect_beam_glyph_split"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -7504,7 +8636,9 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -7515,6 +8649,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.effect_conjure_blight_glyph_sensitive"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -7657,7 +8797,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_amplify",
-          "ars_nouveau:glyph_dampen"
+          "ars_nouveau:glyph_dampen",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -7665,6 +8807,12 @@
           },
           "ars_nouveau:glyph_dampen": {
             "translate": "ars_nouveau.augment_desc.near_form_glyph_dampen"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -7704,7 +8852,9 @@
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_extract",
-          "ars_nouveau:glyph_randomize"
+          "ars_nouveau:glyph_randomize",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -7718,6 +8868,12 @@
           },
           "ars_nouveau:glyph_randomize": {
             "translate": "ars_nouveau.augment_desc.push_effect_glyph_randomize"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -7759,7 +8915,9 @@
         "compatible": [
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -7770,6 +8928,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.select_effect_glyph_sensitive"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -7929,7 +9093,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_dampen",
-          "ars_nouveau:glyph_fortune"
+          "ars_nouveau:glyph_fortune",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -7940,6 +9106,12 @@
           },
           "ars_nouveau:glyph_fortune": {
             "translate": "ars_nouveau.augment_desc.glyph_flatten_glyph_fortune"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -7993,7 +9165,9 @@
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_split"
+          "ars_nouveau:glyph_split",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_accelerate": {
@@ -8019,6 +9193,12 @@
           },
           "ars_nouveau:glyph_split": {
             "translate": "ars_nouveau.augment_desc.glyph_missile_glyph_split"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -8092,7 +9272,9 @@
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_split"
+          "ars_nouveau:glyph_split",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_accelerate": {
@@ -8118,6 +9300,12 @@
           },
           "ars_nouveau:glyph_split": {
             "translate": "ars_nouveau.augment_desc.glyph_propagate_missile_glyph_split"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -8442,7 +9630,9 @@
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_duration_down",
           "ars_nouveau:glyph_extend_time",
-          "ars_nouveau:glyph_split"
+          "ars_nouveau:glyph_split",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -8459,6 +9649,12 @@
           },
           "ars_nouveau:glyph_split": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_fall_glyph_split"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {
@@ -8616,7 +9812,9 @@
         "compatible": [
           "ars_nouveau:glyph_amplify",
           "ars_nouveau:glyph_duration_down",
-          "ars_nouveau:glyph_extend_time"
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
@@ -8627,6 +9825,12 @@
           },
           "ars_nouveau:glyph_extend_time": {
             "translate": "ars_nouveau.augment_desc.glyph_contingency_health_glyph_extend_time"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {},
@@ -8790,11 +9994,19 @@
       "perSpellLimit": 1,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_amplify"
+          "ars_nouveau:glyph_amplify",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_amplify": {
             "translate": "ars_nouveau.augment_desc.glyph_momentum_glyph_amplify"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
           }
         },
         "costs": {
@@ -8838,11 +10050,19 @@
       "perSpellLimit": 2147483647,
       "augments": {
         "compatible": [
-          "ars_nouveau:glyph_aoe"
+          "ars_nouveau:glyph_aoe",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
             "translate": "ars_nouveau.augment_desc.glyph_plow_glyph_aoe"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -8884,7 +10104,9 @@
           "ars_nouveau:glyph_dampen",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_randomize",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -8901,6 +10123,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_propagate_plane_glyph_sensitive"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {
@@ -8947,7 +10175,9 @@
           "ars_nouveau:glyph_extend_time",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_sensitive",
-          "ars_nouveau:glyph_split"
+          "ars_nouveau:glyph_split",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_accelerate": {
@@ -8973,6 +10203,12 @@
           },
           "ars_nouveau:glyph_split": {
             "translate": "ars_nouveau.augment_desc.glyph_trail_glyph_split"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -9014,7 +10250,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_pierce"
+          "ars_nouveau:glyph_pierce",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -9022,6 +10260,12 @@
           },
           "ars_nouveau:glyph_pierce": {
             "translate": "ars_nouveau.augment_desc.glyph_pickup_fluid_glyph_pierce"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -9065,7 +10309,9 @@
         "compatible": [
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_pierce",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -9076,6 +10322,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_place_fluid_glyph_sensitive"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -9111,7 +10363,9 @@
           "ars_nouveau:glyph_aoe",
           "ars_nouveau:glyph_pierce",
           "ars_nouveau:glyph_randomize",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -9125,6 +10379,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_chaining_glyph_sensitive"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
@@ -9591,7 +10851,9 @@
       "augments": {
         "compatible": [
           "ars_nouveau:glyph_aoe",
-          "ars_nouveau:glyph_sensitive"
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_aoe_three",
+          "ars_zero:augment_aoe_two"
         ],
         "descriptions": {
           "ars_nouveau:glyph_aoe": {
@@ -9599,6 +10861,12 @@
           },
           "ars_nouveau:glyph_sensitive": {
             "translate": "ars_nouveau.augment_desc.glyph_ray_glyph_sensitive"
+          },
+          "ars_zero:augment_aoe_three": {
+            "translate": "ars_zero.augment_desc.aoe_three_generic"
+          },
+          "ars_zero:augment_aoe_two": {
+            "translate": "ars_zero.augment_desc.aoe_two_generic"
           }
         },
         "costs": {},
