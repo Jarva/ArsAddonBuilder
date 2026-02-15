@@ -7,11 +7,11 @@
   "pages": [
     {
       "title": "Basic Spell Turret",
-      "description": "Turrets can be used  to cast spells when  given a redstone  signal, functioning  like a dispenser.  Turrets will accept  spells that use  Touch and  Projectile. Spells  may be set using an  inscribed piece of  Spell Parchment. In  order to cast  spells, turrets will",
+      "description": "Turrets can be used  to cast spells when  given a redstone  signal, functioning  like a dispenser.  Turrets will accept  spells that use  Touch and  Projectile. Spells  may be set using an  inscribed piece of  Spell Parchment. To  cast spells, turrets  will draw source",
       "icon": "ars_nouveau:basic_spell_turret"
     },
     {
-      "description": "draw source from  nearby Source Jars.  Turrets may use Item  Pickup and Place  Block as long as an  inventory is placed  adjacent to this  block."
+      "description": "from linked or  nearby Source Jars.  Turrets may use Item  Pickup and Place  Block as long as an  inventory is placed  adjacent to this  block."
     },
     {
       "recipe_1": "ars_nouveau:basic_spell_turret",

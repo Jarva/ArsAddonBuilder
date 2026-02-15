@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Touch",
-      "description": "Applies spells at the block or entity that is targeted.",
+      "description": "A spell you start with. Applies spells at the block or entity that is targeted.",
       "icon": "ars_nouveau:glyph_touch",
       "tier": 1
     },
