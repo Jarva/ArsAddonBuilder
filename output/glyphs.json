@@ -9501,7 +9501,8 @@
     "typeIndex": 9,
     "classes": [
       "alexthw.not_enough_glyphs.common.glyphs.contingency.BlinkContingency",
-      "alexthw.not_enough_glyphs.common.glyphs.contingency.AbstractContingency",
+      "alexthw.not_enough_glyphs.common.glyphs.contingency.NEGAbstractContingency",
+      "com.alexthw.sauce.common.glyphs.AbstractContingency",
       "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
     ],
     "spellSchools": [
@@ -9557,7 +9558,8 @@
     "typeIndex": 9,
     "classes": [
       "alexthw.not_enough_glyphs.common.glyphs.contingency.DeathContingency",
-      "alexthw.not_enough_glyphs.common.glyphs.contingency.AbstractContingency",
+      "alexthw.not_enough_glyphs.common.glyphs.contingency.NEGAbstractContingency",
+      "com.alexthw.sauce.common.glyphs.AbstractContingency",
       "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
     ],
     "spellSchools": [
@@ -9613,7 +9615,8 @@
     "typeIndex": 9,
     "classes": [
       "alexthw.not_enough_glyphs.common.glyphs.contingency.FallContingency",
-      "alexthw.not_enough_glyphs.common.glyphs.contingency.AbstractContingency",
+      "alexthw.not_enough_glyphs.common.glyphs.contingency.NEGAbstractContingency",
+      "com.alexthw.sauce.common.glyphs.AbstractContingency",
       "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
     ],
     "spellSchools": [
@@ -9685,7 +9688,8 @@
     "typeIndex": 9,
     "classes": [
       "alexthw.not_enough_glyphs.common.glyphs.contingency.FireContingency",
-      "alexthw.not_enough_glyphs.common.glyphs.contingency.AbstractContingency",
+      "alexthw.not_enough_glyphs.common.glyphs.contingency.NEGAbstractContingency",
+      "com.alexthw.sauce.common.glyphs.AbstractContingency",
       "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
     ],
     "spellSchools": [
@@ -9741,7 +9745,8 @@
     "typeIndex": 9,
     "classes": [
       "alexthw.not_enough_glyphs.common.glyphs.contingency.HealContingency",
-      "alexthw.not_enough_glyphs.common.glyphs.contingency.AbstractContingency",
+      "alexthw.not_enough_glyphs.common.glyphs.contingency.NEGAbstractContingency",
+      "com.alexthw.sauce.common.glyphs.AbstractContingency",
       "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
     ],
     "spellSchools": [
@@ -9797,7 +9802,8 @@
     "typeIndex": 9,
     "classes": [
       "alexthw.not_enough_glyphs.common.glyphs.contingency.HeroicsContingency",
-      "alexthw.not_enough_glyphs.common.glyphs.contingency.AbstractContingency",
+      "alexthw.not_enough_glyphs.common.glyphs.contingency.NEGAbstractContingency",
+      "com.alexthw.sauce.common.glyphs.AbstractContingency",
       "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
     ],
     "spellSchools": [
@@ -9861,7 +9867,8 @@
     "typeIndex": 9,
     "classes": [
       "alexthw.not_enough_glyphs.common.glyphs.contingency.ExpireContingency",
-      "alexthw.not_enough_glyphs.common.glyphs.contingency.AbstractContingency",
+      "alexthw.not_enough_glyphs.common.glyphs.contingency.NEGAbstractContingency",
+      "com.alexthw.sauce.common.glyphs.AbstractContingency",
       "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
     ],
     "spellSchools": [
@@ -10022,7 +10029,7 @@
       },
       "tier": 3,
       "cost": 100,
-      "enabled": true,
+      "enabled": false,
       "starter": false
     },
     "name": "Momentum",
