@@ -1,0 +1,15 @@
+{
+  "id": "ars_zero:conjure_voxel_effect",
+  "order": 100,
+  "icon": "ars_zero:conjure_voxel_effect",
+  "title": "Conjure Voxel",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Conjure Voxel",
+      "description": "Conjures a small block-like entity. §6[Lifespan-based]",
+      "icon": "ars_zero:conjure_voxel_effect",
+      "tier": 1
+    }
+  ]
+}

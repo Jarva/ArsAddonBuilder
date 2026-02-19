@@ -1,0 +1,14 @@
+{
+  "id": "minecraft:bookshelf",
+  "order": 100,
+  "icon": "minecraft:bookshelf",
+  "title": "Arcane Library",
+  "category": "ars_nouveau:field_guide",
+  "pages": [
+    {
+      "title": "Arcane Library",
+      "description": "Arcane Libraries are  a rare structure  found in Archwood  Forests, they are  the remnants of an  ancient magic  civilization long  left behind. Find  treasures to fulfil  all your magical  needs, but beware of  the Wilden roaming  the halls.",
+      "icon": "minecraft:bookshelf"
+    }
+  ]
+}

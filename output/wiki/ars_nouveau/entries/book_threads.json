@@ -1,0 +1,50 @@
+{
+  "id": "ars_nouveau:book_threads",
+  "order": 101,
+  "icon": "ars_nouveau:thread_wild_magic",
+  "title": "Book Threads",
+  "category": "ars_nouveau:spell_casting",
+  "pages": [
+    {
+      "description": "The book threads are  at the core of the  spellbinder. They  allow to give your  binder special  properties and  effects, similar to  how Armor Threads  work. You can use an  Alteration Table to  slot up to two  threads into the  Spell Binder."
+    },
+    {
+      "recipe_1": "ars_nouveau:blank_thread"
+    },
+    {
+      "title": "Book Thread : Cheap Damage",
+      "description": "Thread for the spellbinder. Will greatly discount the spells cast from the equipped book but heavily reduce their damage."
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_cheap_damage"
+    },
+    {
+      "title": "Book Thread : Slow Power",
+      "description": "Thread for the spellbinder. Will increase the damage of the spells cast from the equipped book but heavily reduce their speed."
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_slow_power"
+    },
+    {
+      "title": "Book Thread : Sharp Pages",
+      "description": "Thread for the spellbinder. Will increase the melee damage of the spellbinder if used as a weapon."
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_sharp_paper"
+    },
+    {
+      "title": "Book Thread : Heavy Cover",
+      "description": "Thread for the spellbinder. Will increase the knockback of the spellbinder if used as a melee weapon."
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_knockback"
+    },
+    {
+      "title": "Book Thread : Wheel of Fortune",
+      "description": "Thread for the spellbinder. Will randomly add positive augments to effects of your spells when equipped."
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_wild_magic"
+    }
+  ]
+}
