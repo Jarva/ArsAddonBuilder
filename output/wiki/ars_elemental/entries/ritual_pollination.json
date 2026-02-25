@@ -1,0 +1,17 @@
+{
+  "id": "ars_elemental:ritual_pollination",
+  "order": 100,
+  "icon": "ars_elemental:ritual_pollination",
+  "title": "Pollination",
+  "category": "ars_nouveau:ritual_index",
+  "pages": [
+    {
+      "title": "Pollination",
+      "description": "Speeds up the  gathering of nectar  of the nearby  roaming bees,  doesn\u0027t speed up the  honey production  inside the beehives.",
+      "icon": "ars_elemental:ritual_pollination"
+    },
+    {
+      "recipe_1": "ars_elemental:ritual_pollination"
+    }
+  ]
+}

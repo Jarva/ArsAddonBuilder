@@ -1,0 +1,15 @@
+{
+  "id": "ars_zero:zero_gravity_effect",
+  "order": 100,
+  "icon": "ars_zero:zero_gravity_effect",
+  "title": "Remove Gravity",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Remove Gravity",
+      "description": "Temporarily removes gravity from the target, restoring it once the effect ends.",
+      "icon": "ars_zero:zero_gravity_effect",
+      "tier": 2
+    }
+  ]
+}

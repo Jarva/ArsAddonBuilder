@@ -1,0 +1,20 @@
+{
+  "id": "ars_nouveau:item.ars_ingressum.vacant_tuning_fork",
+  "order": 100,
+  "icon": "ars_ingressum:vacant_tuning_fork",
+  "title": "Vacant Tuning Fork",
+  "category": "ars_nouveau:items",
+  "pages": [
+    {
+      "title": "Vacant Tuning Fork",
+      "description": "A Tuning Fork serves  as a guide when  traveling through  dimensions. Attune a  vacant Fork to a  desired dimension  using the Imbuement  Chamber, or by  right-clicking a  Planarium.  Reattuning an  already attuned  Tuning Fork will  also replenish its",
+      "icon": "ars_ingressum:vacant_tuning_fork"
+    },
+    {
+      "description": "uses."
+    },
+    {
+      "recipe_1": "ars_ingressum:vacant_tuning_fork"
+    }
+  ]
+}

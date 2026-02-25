@@ -1,0 +1,18 @@
+{
+  "id": "ars_elemental:glyph_slip_feet",
+  "order": 100,
+  "icon": "ars_elemental:glyph_slip_feet",
+  "title": "Sliding",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Sliding",
+      "description": "Applies the Slippery Feet status, making the target slide as if on ice on any surface.",
+      "icon": "ars_elemental:glyph_slip_feet",
+      "tier": 2
+    },
+    {
+      "recipe_1": "ars_elemental:glyph_slip_feet"
+    }
+  ]
+}
