@@ -1,0 +1,21 @@
+{
+  "id": "minecraft:feather_falling",
+  "order": 100,
+  "icon": "minecraft:enchanted_book",
+  "title": "Feather Falling",
+  "category": "ars_nouveau:enchanting",
+  "pages": [
+    {
+      "recipe_1": "ars_nouveau:feather_falling_1"
+    },
+    {
+      "recipe_1": "ars_nouveau:feather_falling_2"
+    },
+    {
+      "recipe_1": "ars_nouveau:feather_falling_3"
+    },
+    {
+      "recipe_1": "ars_nouveau:feather_falling_4"
+    }
+  ]
+}
