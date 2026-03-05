@@ -1,0 +1,17 @@
+{
+  "id": "ars_additions:memory_crystal",
+  "order": 100,
+  "icon": "ars_additions:memory_crystal",
+  "title": "Memory Crystal",
+  "category": "ars_nouveau:items",
+  "pages": [
+    {
+      "title": "Memory Crystal",
+      "description": "The Memory Crystal  can save and load  configuration data  from supported  blocks and entities.  Shift + Right-Click  a supported block or  entity to save its  configuration to the  selected slot. Shift  + Right-Click again  to load the saved  data back. Use the  Radial Menu to",
+      "icon": "ars_additions:memory_crystal"
+    },
+    {
+      "description": "select between 10  memory slots. Shift  + Radial Menu allows  you to clear or lock  slots to prevent  accidental  overwrites."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ars_zero:push_effect",
+  "order": 100,
+  "icon": "ars_zero:push_effect",
+  "title": "Push",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Push",
+      "description": "Pushes the target in the direction you\u0027re looking.",
+      "icon": "ars_zero:push_effect",
+      "tier": 1
+    }
+  ]
+}

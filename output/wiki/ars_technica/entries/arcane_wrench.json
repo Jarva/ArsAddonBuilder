@@ -1,0 +1,19 @@
+{
+  "id": "ars_technica:arcane_wrench",
+  "order": 100,
+  "icon": "create:wrench",
+  "title": "Arcane Wrench",
+  "category": "ars_nouveau:items",
+  "pages": [
+    {
+      "title": "Arcane Wrench",
+      "description": "The Arcane Wrench is Create\u0027s Wrench augmented with Ars Nouveau magic. Obtain it by enchanting a Create Wrench in the Enchanting Apparatus."
+    },
+    {
+      "description": "Additional  capabilities:   - Rune blocks:  Right-click to  configure cooldown   - Relays:  Right-click to  convert a Relay into  a Precise Relay to  configure its  cooldown   - Pedestals,  Turrets, Containment  Jars: Sneak +"
+    },
+    {
+      "description": "right-click to pick  up."
+    }
+  ]
+}

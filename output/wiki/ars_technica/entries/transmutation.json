@@ -1,0 +1,19 @@
+{
+  "id": "ars_technica:transmutation",
+  "order": 100,
+  "icon": "ars_technica:transmutation_focus",
+  "title": "Transmutation",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "title": "Transmutation",
+      "description": "Transmutation augments spells with Luck and improved processing. Focus: wear in Curios focus slot—hover for bonuses. Turret: automated caster with Focus applied, costs more source per cast."
+    },
+    {
+      "recipe_1": "ars_technica:transmutation_focus"
+    },
+    {
+      "recipe_1": "ars_technica:transmutation_turret"
+    }
+  ]
+}
