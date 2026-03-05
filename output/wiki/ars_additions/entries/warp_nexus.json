@@ -1,0 +1,25 @@
+{
+  "id": "ars_additions:warp_nexus",
+  "order": 100,
+  "icon": "ars_additions:warp_nexus",
+  "title": "Warp Nexus",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "title": "Warp Nexus",
+      "description": "A Warp Nexus allows  interdimensional  travel to nine  locations of your  choice. Using the  Warp Nexus while  Sneaking will open  up an inventory to  store nine different  Warp Scrolls. Using  the Warp Nexus  without Sneaking  will open up a Warp  menu to allow you to",
+      "icon": "ars_additions:warp_nexus"
+    },
+    {
+      "description": "pick your  destination."
+    },
+    {
+      "description": "Warp Nexus inside  Nexus Towers are  situated on-top of  Source Leylines so  they don\u0027t require  any source to  operate. Once moved,  a Warp Nexus  requires 1,000  source per teleport."
+    },
+    {
+      "related": [
+        "ars_additions:nexus_tower"
+      ]
+    }
+  ]
+}

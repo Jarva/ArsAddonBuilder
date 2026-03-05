@@ -663,8 +663,8 @@
       },
       "invalidCombinations": [],
       "defaultConfig": {
-        "baseDamage": 6.0,
-        "ampDamage": 1.0,
+        "baseDamage": 8.0,
+        "ampDamage": 3.0,
         "baseDuration": 30,
         "ampDuration": 8
       },
@@ -1167,7 +1167,7 @@
     },
     "name": "Create Geyser",
     "texture": "ars_nouveau:item/geyser",
-    "animated": false,
+    "animated": true,
     "registryName": "ars_elemental:glyph_geyser",
     "localizationKey": "ars_elemental.glyph_name.glyph_geyser"
   },
@@ -3556,6 +3556,10 @@
       "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
     ],
     "spellSchools": [
+      {
+        "id": "fire",
+        "subschools": []
+      },
       {
         "id": "manipulation",
         "subschools": []

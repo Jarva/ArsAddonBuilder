@@ -1,0 +1,31 @@
+{
+  "id": "ars_controle:item.ars_controle.remote",
+  "order": 100,
+  "icon": "ars_controle:remote",
+  "title": "Remote",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "title": "Remote",
+      "description": "The Remote lets you  remotely configure  blocks and entities  that the Dominion  Wand can.   It has two radial  menus, one for  configuring which  end of the  connection is locked  (first or second)  accessible when  holding Shift, and",
+      "icon": "ars_controle:remote"
+    },
+    {
+      "description": "another for the mode  of selection (single  or multiple)  accessible when not  holding Shift.   To use it, first  crouch and use it on  the thing you would  like to configure."
+    },
+    {
+      "description": "Then, you can use it  again on other  blocks or entities  depending on what  the thing you are  configuring accepts.   For example,  selecting a Storage  Lectern with Locking  Last allows you to  link inventories  with ease.   Selecting a  Starbuncle with  Locking First would"
+    },
+    {
+      "description": "let you select many  inventories to  deposit items to.   When you are  finished, left  clicking air will  clear the Remote\u0027s  target."
+    },
+    {
+      "recipe_1": "ars_controle:remote"
+    },
+    {
+      "related": [
+        "ars_nouveau:item.ars_nouveau.dominion_wand"
+      ]
+    }
+  ]
+}

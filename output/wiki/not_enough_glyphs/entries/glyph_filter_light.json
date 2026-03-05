@@ -1,0 +1,18 @@
+{
+  "id": "not_enough_glyphs:glyph_filter_light",
+  "order": 100,
+  "icon": "not_enough_glyphs:glyph_filter_light",
+  "title": "Filter: Light",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Filter: Light",
+      "description": "Stops the spell from resolving unless it targets an area with enough sunlight. The light threshold for this glyph is 8 and ignores artificial light.",
+      "icon": "not_enough_glyphs:glyph_filter_light",
+      "tier": 1
+    },
+    {
+      "recipe_1": "not_enough_glyphs:glyph_filter_light"
+    }
+  ]
+}

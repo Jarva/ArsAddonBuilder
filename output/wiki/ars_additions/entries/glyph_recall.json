@@ -1,0 +1,18 @@
+{
+  "id": "ars_additions:glyph_recall",
+  "order": 100,
+  "icon": "ars_additions:glyph_recall",
+  "title": "Recall",
+  "category": "ars_nouveau:glyphs_tier_three",
+  "pages": [
+    {
+      "title": "Recall",
+      "description": "Recalls the target stored in a Reliquary and casts the spell on it.",
+      "icon": "ars_additions:glyph_recall",
+      "tier": 3
+    },
+    {
+      "recipe_1": "ars_additions:glyph_recall"
+    }
+  ]
+}
