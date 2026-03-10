@@ -4,14 +4,10 @@
   "package": "com.github.jarva.arsadditions.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "CasterTomeRegistryMixin",
     "EffectBlinkMixin",
     "charms.PiglinAiMixin",
     "charms.PiglinBruteAiMixin",
-    "patchouli.BookEntryAccessor",
-    "patchouli.BookMixin",
-    "patchouli.BookPageAccessor",
-    "patchouli.PageRelationsAccessor",
-    "patchouli.PageTextAccessor",
     "spellweave.AlterationTableMixin",
     "spellweave.EnchantmentMixin",
     "spellweave.PerkRegistryMixin",
@@ -21,6 +17,7 @@
     "wixie.WixieCharmMixin"
   ],
   "client": [
+    "GuiAccessor"
   ],
   "injectors": {
     "defaultRequire": 1

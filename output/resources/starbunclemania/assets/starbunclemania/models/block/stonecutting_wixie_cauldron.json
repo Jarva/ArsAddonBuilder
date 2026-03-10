@@ -3,9 +3,9 @@
   "textures": {
     "particle": "block/stonecutter_bottom",
     "bottom": "block/stonecutter_bottom",
-    "top": "block/stonecutter_top",
-    "side": "block/stonecutter_side",
-    "saw": "block/stonecutter_saw"
+    "top": "starbunclemania:block/stonecutter_top",
+    "side": "starbunclemania:block/stonecutter_side",
+    "saw": "starbunclemania:block/stonecutter_saw"
   },
   "render_type": "cutout",
   "elements": [
