@@ -1,0 +1,17 @@
+{
+  "id": "ars_nouveau:item.starbunclemania.direction_scroll",
+  "order": 100,
+  "icon": "starbunclemania:direction_scroll",
+  "title": "Direction Scroll",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "title": "Direction Scroll",
+      "description": "Provides a face/direction to Starbuncle automations. When the scroll is used on a starbuncle or placed in an item frame on a block, the starbuncle will interact with the block from the specified face.",
+      "icon": "starbunclemania:direction_scroll"
+    },
+    {
+      "recipe_1": "starbunclemania:direction_scroll"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "minecraft:projectile_protection",
+  "order": 100,
+  "icon": "minecraft:enchanted_book",
+  "title": "Projectile Protection",
+  "category": "ars_nouveau:enchanting",
+  "pages": [
+    {
+      "recipe_1": "ars_nouveau:projectile_protection_1"
+    },
+    {
+      "recipe_1": "ars_nouveau:projectile_protection_2"
+    },
+    {
+      "recipe_1": "ars_nouveau:projectile_protection_3"
+    },
+    {
+      "recipe_1": "ars_nouveau:projectile_protection_4"
+    },
+    {
+      "recipe_1": "ars_nouveau:projectile_protection_5"
+    }
+  ]
+}

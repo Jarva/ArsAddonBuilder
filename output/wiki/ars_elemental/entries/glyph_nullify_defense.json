@@ -1,0 +1,15 @@
+{
+  "id": "ars_elemental:glyph_nullify_defense",
+  "order": 100,
+  "icon": "ars_elemental:glyph_nullify_defense",
+  "title": "Nullify Defense",
+  "category": "ars_nouveau:glyphs_tier_three",
+  "pages": [
+    {
+      "title": "Nullify Defense",
+      "description": "Nullifies the target\u0027s innate immunity after taking damage, making it vulnerable to damage again.",
+      "icon": "ars_elemental:glyph_nullify_defense",
+      "tier": 3
+    }
+  ]
+}

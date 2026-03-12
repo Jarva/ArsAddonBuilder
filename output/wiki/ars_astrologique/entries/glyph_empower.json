@@ -1,0 +1,18 @@
+{
+  "id": "ars_astrologique:glyph_empower",
+  "order": 100,
+  "icon": "ars_astrologique:glyph_empower",
+  "title": "Empower",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Empower",
+      "description": "Grants increased physical strength for melee attacks and jumping power to the target.",
+      "icon": "ars_astrologique:glyph_empower",
+      "tier": 2
+    },
+    {
+      "recipe_1": "ars_astrologique:glyph_empower"
+    }
+  ]
+}

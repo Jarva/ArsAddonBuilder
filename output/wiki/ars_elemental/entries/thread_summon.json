@@ -1,0 +1,17 @@
+{
+  "id": "ars_elemental:thread_summon",
+  "order": 100,
+  "icon": "ars_elemental:thread_summon",
+  "title": "Summoning",
+  "category": "ars_nouveau:armor",
+  "pages": [
+    {
+      "title": "Thread of Summoning",
+      "description": "Reduce Summon  Sickness by 10% for  each tier. Starting  from tier 2, it also  slightly increase  damage dealt by  summoned creatures.",
+      "icon": "ars_elemental:thread_summon"
+    },
+    {
+      "recipe_1": "ars_elemental:thread_summon"
+    }
+  ]
+}
