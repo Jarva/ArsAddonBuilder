@@ -1,0 +1,18 @@
+{
+  "id": "ars_technica:glyph_polish",
+  "order": 100,
+  "icon": "ars_technica:glyph_polish",
+  "title": "Polish",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Polish",
+      "description": "Refines item entities into their polished variants. §a[Create Recipe: Polish]",
+      "icon": "ars_technica:glyph_polish",
+      "tier": 2
+    },
+    {
+      "recipe_1": "ars_technica:glyph_polish"
+    }
+  ]
+}

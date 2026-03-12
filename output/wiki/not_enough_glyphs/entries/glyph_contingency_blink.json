@@ -1,0 +1,18 @@
+{
+  "id": "not_enough_glyphs:glyph_contingency_blink",
+  "order": 100,
+  "icon": "not_enough_glyphs:glyph_contingency_blink",
+  "title": "Contingency: Blink",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Contingency: Blink",
+      "description": "The contingency will trigger after the target teleports.",
+      "icon": "not_enough_glyphs:glyph_contingency_blink",
+      "tier": 2
+    },
+    {
+      "recipe_1": "not_enough_glyphs:glyph_contingency_blink"
+    }
+  ]
+}
