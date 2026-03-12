@@ -1,0 +1,22 @@
+{
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
+  "inputs": [
+    {
+      "item": "sauce:anima_essence"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "ars_astrologique:glyph_false_life"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.iridiumposting.arsastrologique.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "ars_ingressum.refmap.json",
+  "mixins": [
+  ],
+  "minVersion": "0.8",
+  "client": [
+  ]
+}

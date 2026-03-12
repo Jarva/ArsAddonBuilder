@@ -1,0 +1,25 @@
+{
+  "type": "ars_nouveau:glyph",
+  "exp": 160,
+  "inputs": [
+    {
+      "item": "sauce:anima_essence"
+    },
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "ars_astrologique:glyph_invigorate"
+  }
+}
