@@ -53,6 +53,7 @@
   "ars_controle.target.get.none": "Aucune cible trouvée.",
   "ars_controle.target.set.block": "Définir la cible sur le bloc à %s dans %s.",
   "ars_controle.target.set.entity": "Définir la cible sur %s dans %s.",
+  "ars_controle.target.set.fail.other_player": "Linking other players is not allowed.",
   "ars_controle.target.set.none": "Cible effacée.",
   "ars_controle.target.set.self": "Définir la cible sur vous-même.",
   "ars_nouveau.augment_desc.glyph_filter_random_glyph_amplify": "Augmente les chances de résolution",

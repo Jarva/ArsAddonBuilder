@@ -53,6 +53,7 @@
   "ars_controle.target.get.none": "Nenhum alvo encontrado.",
   "ars_controle.target.set.block": "Alvo definido para o bloco em %s em %s.",
   "ars_controle.target.set.entity": "Alvo definido para %s em %s.",
+  "ars_controle.target.set.fail.other_player": "Vincular outros jogadores não é permitido.",
   "ars_controle.target.set.none": "Alvo removido.",
   "ars_controle.target.set.self": "Alvo definido para si mesmo.",
   "ars_nouveau.augment_desc.glyph_filter_random_glyph_amplify": "Aumenta a chance de resolução",
