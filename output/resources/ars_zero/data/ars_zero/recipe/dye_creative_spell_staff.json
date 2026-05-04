@@ -10,6 +10,11 @@
     }
   ],
   "result": {
+    "components": {
+      "minecraft:custom_data": {
+        "ars_zero_filial_school": "creative"
+      }
+    },
     "count": 1,
     "id": "ars_zero:creative_spell_staff"
   }
