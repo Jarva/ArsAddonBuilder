@@ -4,5 +4,6 @@
     "geckolib": "https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/software/bernie/geckolib/geckolib-neoforge-1.21.1/4.7.4.1/geckolib-neoforge-1.21.1-4.7.4.1.jar",
     "create": "https://maven.createmod.net/com/simibubi/create/create-1.21.1/6.0.8-169/create-1.21.1-6.0.8-169.jar",
     "player_animation_lib": "https://repo.redlance.org/public/com/zigythebird/playeranim/PlayerAnimationLibNeo/1.0.14+mc.1.21.1/PlayerAnimationLibNeo-1.0.14+mc.1.21.1.jar",
-    "guideme": "https://repo1.maven.org/maven2/org/appliedenergistics/guideme/21.1.16/guideme-21.1.16.jar"
+    "guideme": "https://repo1.maven.org/maven2/org/appliedenergistics/guideme/21.1.16/guideme-21.1.16.jar",
+    "terrablender": "https://cdn.modrinth.com/data/kkmrDlKT/versions/6e8GCrLb/TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
 }
