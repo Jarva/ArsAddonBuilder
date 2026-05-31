@@ -86,7 +86,8 @@ jobs:
         uses: actions/checkout@v4
       - id: filter
         run: |
-          echo "MATRIX=$(ls projects | sed -E 's/(^|$)/"/g' | jq -cs 'map("projects/\(.)")')" >> $GITHUB_OUTPUT
+          MATRIX=$(jq -n -c '[inputs | select((.disabled // false) | not) | input_filename]' projects/*.json)
+          echo "MATRIX=$MATRIX" >> "$GITHUB_OUTPUT"
 
   build:
     runs-on: ubuntu-latest

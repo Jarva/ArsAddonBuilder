@@ -10,9 +10,11 @@ To add a new project:
 ```json
 {
   "repo": "Jarva/Ars-Artifice",
-  "branch": "1.20.x"
+  "branch": "1.20.x",
+  "disabled": false
 }
 ```
+- Set `disabled` to `true` to keep a project in the repository without syncing or building it.
 - Create a PR for the new file. Do not add the hash key, the script will fetch the latest hash when running at midnight and kick off the build as required.
 
 ## License
