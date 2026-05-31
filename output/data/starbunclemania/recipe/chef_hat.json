@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "starbunclemania:star_hat"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WHW",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "starbunclemania:chef_hat"
+  }
+}

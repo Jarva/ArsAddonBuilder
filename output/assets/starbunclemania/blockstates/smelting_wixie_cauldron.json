@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "converted=false": {
+      "model": "block/furnace"
+    },
+    "converted=true,filled=false": {
+      "model": "starbunclemania:block/wixie_grill_empty"
+    },
+    "converted=true,filled=true": {
+      "model": "starbunclemania:block/wixie_grill_full"
+    }
+  }
+}

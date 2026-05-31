@@ -1,0 +1,25 @@
+{
+  "type": "sauce:armor_upgrade",
+  "pedestalItems": [
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    }
+  ],
+  "reagent": {
+    "item": "ars_nouveau:sorcerer_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "ars_elemental:aqua_pants"
+  },
+  "sourceCost": 7000
+}

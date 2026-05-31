@@ -1,0 +1,19 @@
+{
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "item": "minecraft:comparator"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "ars_controle:glyph_precise_delay"
+  }
+}
