@@ -276,6 +276,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Pull latest generated resources
+        run: git pull --ff-only
+
       - name: Create mods folder
         run: mkdir -p run/mods
 
@@ -309,6 +312,20 @@ jobs:
 
       - name: Remove old output
         run: rm -rf output/wiki output/lang output/animated_textures output/renders
+
+      - name: Merge module resources
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf output/data output/assets
+          mkdir -p output/data output/assets
+          shopt -s nullglob
+          for dir in output/resources/*/data; do
+            cp -a "$dir"/. output/data/
+          done
+          for dir in output/resources/*/assets; do
+            cp -a "$dir"/. output/assets/
+          done
 
       - name: Setup Java
         uses: actions/setup-java@v4

@@ -45,8 +45,8 @@ import org.slf4j.LoggerFactory;
 public final class RenderedAssetExporter {
     private static final Logger LOGGER = LoggerFactory.getLogger(DocExportHelper.MODID + ":RenderedAssetExporter");
 
-    private static final int ITEM_ICON_DIMENSION = 128;
-    private static final int BLOCK_RENDER_SCALE = 8;
+    private static final int ITEM_ICON_DIMENSION = 512;
+    private static final int BLOCK_RENDER_SCALE = 32;
 
     private RenderedAssetExporter() {
     }
