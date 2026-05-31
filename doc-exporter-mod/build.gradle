@@ -185,7 +185,7 @@ dependencies {
     compileOnly "software.bernie.geckolib:geckolib-neoforge-${project.minecraft_version}:${project.gecko_version}"
     compileOnly "com.hollingsworth.nuggets:nuggets-neoforge-${patchless_mc_version}:${project.nuggets_version}"
     compileOnly "mezz.jei:jei-${project.minecraft_version}-neoforge-api:${project.jei_version}"
-    compileOnly "top.theillusivec4.curios:curios-neoforge:${project.curios_version}+${patchless_mc_version}"
+    compileOnly "top.theillusivec4.curios:curios-neoforge:${project.curios_version}+${project.minecraft_version}"
     runtimeOnly files("libs/mc-runtime-test-1.21.1-3.1.1-neoforge-release.jar")
 }
 
