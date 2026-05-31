@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'projects/**'
+      - "projects/**"
 
 env:
   JAVA_VERSION: 21
@@ -282,7 +282,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           path: run/mods
-          pattern: '*-jar'
+          pattern: "*-jar"
           merge-multiple: true
 
       - name: Remove sources files
@@ -307,7 +307,7 @@ jobs:
           cat ../../dependencies.json | jq -r 'keys[] as $key | .[$key]' | while read -r dependency; do curl -LO "$dependency"; done
 
       - name: Remove old output
-        run: rm -rf output/wiki output/lang output/animated_textures
+        run: rm -rf output/wiki output/lang output/animated_textures output/renders
 
       - name: Setup Java
         uses: actions/setup-java@v4
@@ -323,7 +323,7 @@ jobs:
           regex: .*neoforge.*
           mc-runtime-test: neoforge
           java: ${{ env.JAVA_VERSION }}
-          xvfb: false
+          xvfb: true
 
       - name: Commit and push updated runtime resources
         uses: Jarva/git-commit-push@main
@@ -344,7 +344,7 @@ jobs:
           files: ${{ steps.list_mods.outputs.files }}
   retry-on-failure:
     if: failure() && fromJSON(github.run_attempt) < 3
-    needs: [ run-and-export ]
+    needs: [run-and-export]
     runs-on: ubuntu-latest
     steps:
       - uses: Jarva/job-id@60a3ded3f9a9371a3c9e127d247838f4a9b843d7

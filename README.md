@@ -14,3 +14,7 @@ To add a new project:
 }
 ```
 - Create a PR for the new file. Do not add the hash key, the script will fetch the latest hash when running at midnight and kick off the build as required.
+
+## License
+
+This repository is licensed under LGPL-3.0-or-later. Some rendering code is derived from [GuideME](https://github.com/AppliedEnergistics/GuideME), which is published under LGPL-compatible terms.

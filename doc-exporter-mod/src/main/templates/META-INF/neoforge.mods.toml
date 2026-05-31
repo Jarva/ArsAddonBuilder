@@ -1,7 +1,7 @@
 modLoader = "javafml"
 loaderVersion = "${loader_version_range}"
 license = "${mod_license}"
-issueTrackerURL="https://github.com/Jarva/ArsAddonBuilder/issues"
+issueTrackerURL = "https://github.com/Jarva/ArsAddonBuilder/issues"
 
 [[mods]]
 modId = "${mod_id}"
@@ -9,8 +9,8 @@ version = "${mod_version}"
 displayName = "${mod_name}"
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 displayURL = "https://github.com/Jarva/ArsAddonBuilder" #optional
-logoFile="logo.png"
-credits="Qther"
+logoFile = "logo.png"
+credits = "Qther"
 authors = "${mod_authors}"
 
 description = '''${mod_description}'''
@@ -32,3 +32,10 @@ type = "required"
 versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "guideme"
+type = "required"
+versionRange = "[21.1.16,22.0.0)"
+ordering = "AFTER"
+side = "CLIENT"

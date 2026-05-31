@@ -10,6 +10,7 @@ group = mod_group_id
 
 repositories {
     mavenLocal()
+    mavenCentral()
     maven {
         name = 'ParchmentMC'
         url = 'https://maven.parchmentmc.org'
@@ -65,6 +66,10 @@ base {
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+configurations {
+    webpRuntimeLibraries
+}
 
 neoForge {
     // Specify the version of NeoForge to use.
@@ -125,6 +130,10 @@ neoForge {
             // You can set various levels here.
             // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
             logLevel = org.slf4j.event.Level.DEBUG
+
+            // ModDevGradle does not put JarJar-only libraries on the dev-launch runtime classpath.
+            // Add the WebP encoder stack explicitly for runClient/runtime validation.
+            additionalRuntimeClasspathConfiguration.extendsFrom(configurations.webpRuntimeLibraries)
         }
     }
 
@@ -145,7 +154,33 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 dependencies {
     var patchless_mc_version = project.minecraft_version.count('.') != 2 ? project.minecraft_version : project.minecraft_version.replaceFirst("\\.\\d*\$", "")
+    var jarJarLibrary = { String notation, String depVersion ->
+        jarJar(implementation(notation)) {
+            version {
+                strictly "[${depVersion}]"
+                prefer depVersion
+            }
+        }
+    }
+
     implementation "com.hollingsworth.ars_nouveau:ars_nouveau-${project.minecraft_version}:${project.ars_version}"
+    implementation "org.appliedenergistics:guideme:${project.guideme_version}"
+
+    // The GuideME-derived animated WebP exporter uses JavaCPP FFmpeg. Bundle the Java API plus the platforms used by
+    // local development (macOS arm64) and CI/export runs (Linux x86_64).
+    jarJarLibrary("org.bytedeco:javacpp:${project.javacpp_version}", project.javacpp_version)
+    jarJarLibrary("org.bytedeco:javacpp:${project.javacpp_version}:linux-x86_64", project.javacpp_version)
+    jarJarLibrary("org.bytedeco:javacpp:${project.javacpp_version}:macosx-arm64", project.javacpp_version)
+    jarJarLibrary("org.bytedeco:ffmpeg:${project.ffmpeg_version}", project.ffmpeg_version)
+    jarJarLibrary("org.bytedeco:ffmpeg:${project.ffmpeg_version}:linux-x86_64", project.ffmpeg_version)
+    jarJarLibrary("org.bytedeco:ffmpeg:${project.ffmpeg_version}:macosx-arm64", project.ffmpeg_version)
+
+    webpRuntimeLibraries "org.bytedeco:javacpp:${project.javacpp_version}"
+    webpRuntimeLibraries "org.bytedeco:javacpp:${project.javacpp_version}:linux-x86_64"
+    webpRuntimeLibraries "org.bytedeco:javacpp:${project.javacpp_version}:macosx-arm64"
+    webpRuntimeLibraries "org.bytedeco:ffmpeg:${project.ffmpeg_version}"
+    webpRuntimeLibraries "org.bytedeco:ffmpeg:${project.ffmpeg_version}:linux-x86_64"
+    webpRuntimeLibraries "org.bytedeco:ffmpeg:${project.ffmpeg_version}:macosx-arm64"
 
     compileOnly "software.bernie.geckolib:geckolib-neoforge-${project.minecraft_version}:${project.gecko_version}"
     compileOnly "com.hollingsworth.nuggets:nuggets-neoforge-${patchless_mc_version}:${project.nuggets_version}"

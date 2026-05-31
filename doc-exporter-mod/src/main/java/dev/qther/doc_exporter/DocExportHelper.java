@@ -79,6 +79,14 @@ public class DocExportHelper {
             LOGGER.error("could not create glyphs file", e);
         }
 
+        // Export fully rendered block and item images. This uses Minecraft/GuideME rendering state and must stay on
+        // the client thread.
+        try {
+            RenderedAssetExporter.exportAll();
+        } catch (IOException | IllegalStateException e) {
+            LOGGER.error("could not create rendered asset images", e);
+        }
+
         var langExport = new Thread(() -> {
             // Export lang
             try {
