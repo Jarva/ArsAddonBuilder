@@ -20,6 +20,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.IdentityHashMap;
 import java.util.Set;
+import net.minecraft.client.Camera;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.resources.model.BakedModel;
@@ -181,6 +182,11 @@ public final class RenderedAssetExporter {
                 var cameraSettings = new CameraSettings();
                 cameraSettings.setZoom(1.0f);
                 cameraSettings.setPerspectivePreset(PerspectivePreset.ISOMETRIC_NORTH_EAST);
+
+                var dispatcher = Minecraft.getInstance().getEntityRenderDispatcher();
+                if (dispatcher.camera == null) {
+                    dispatcher.camera = new Camera();
+                }
 
                 var scene = new GuidebookScene(level, cameraSettings);
                 scene.centerScene();

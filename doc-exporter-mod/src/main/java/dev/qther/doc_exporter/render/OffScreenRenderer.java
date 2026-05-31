@@ -126,14 +126,27 @@ public class OffScreenRenderer implements AutoCloseable {
 
     private void renderToBuffer(Runnable r) {
         fb.bindWrite(true);
-        GlStateManager._clear(GL12.GL_COLOR_BUFFER_BIT | GL12.GL_DEPTH_BUFFER_BIT, false);
-        r.run();
-        fb.unbindWrite();
+        try {
+            // Some modded renderers can throw while the global model-view stack is pushed. Reset it before and after
+            // off-screen captures so a failed render does not poison all subsequent exports or the real game render.
+            RenderSystem.getModelViewStack().clear();
+            RenderSystem.applyModelViewMatrix();
+
+            GlStateManager._clear(GL12.GL_COLOR_BUFFER_BIT | GL12.GL_DEPTH_BUFFER_BIT, false);
+            r.run();
+        } finally {
+            RenderSystem.getModelViewStack().clear();
+            RenderSystem.applyModelViewMatrix();
+            fb.unbindWrite();
+        }
 
         fb.bindRead();
-        nativeImage.downloadTexture(0, false);
-        nativeImage.flipY();
-        fb.unbindRead();
+        try {
+            nativeImage.downloadTexture(0, false);
+            nativeImage.flipY();
+        } finally {
+            fb.unbindRead();
+        }
     }
 
     public void setupItemRendering() {
