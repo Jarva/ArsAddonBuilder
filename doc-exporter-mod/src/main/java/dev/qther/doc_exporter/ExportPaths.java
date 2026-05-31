@@ -46,4 +46,8 @@ public final class ExportPaths {
     public static Path renderedItemsBase() {
         return rendersBase().resolve("item");
     }
+
+    public static Path renderedEntitiesBase() {
+        return rendersBase().resolve("entity");
+    }
 }

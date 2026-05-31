@@ -28,6 +28,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.RandomSource;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -36,7 +37,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Exports fully rendered item and block images for every loaded registry entry.
+ * Exports fully rendered item, block and entity images for every loaded registry entry.
  *
  * <p>The block render path follows GuideME's BlockImage export strategy: create a minimal one-block scene, render it
  * through a GuideME-derived off-screen renderer, and use GuideME's animated WebP strategy when any referenced sprite
@@ -46,7 +47,10 @@ public final class RenderedAssetExporter {
     private static final Logger LOGGER = LoggerFactory.getLogger(DocExportHelper.MODID + ":RenderedAssetExporter");
 
     private static final int ITEM_ICON_DIMENSION = 512;
+    private static final int ENTITY_ICON_DIMENSION = 512;
     private static final int BLOCK_RENDER_SCALE = 32;
+    private static final float ENTITY_Y_ROTATION = -135.0f;
+    private static final float ENTITY_RENDER_PADDING = 1.5f;
 
     private RenderedAssetExporter() {
     }
@@ -55,11 +59,13 @@ public final class RenderedAssetExporter {
         var sw = Stopwatch.createStarted();
         Files.createDirectories(ExportPaths.renderedBlocksBase());
         Files.createDirectories(ExportPaths.renderedItemsBase());
+        Files.createDirectories(ExportPaths.renderedEntitiesBase());
 
+        int entities = exportEntities();
         int blocks = exportBlocks();
         int items = exportItems();
 
-        LOGGER.info("Exported {} block renders and {} item renders in {}", blocks, items,
+        LOGGER.info("Exported {} block renders, {} item renders and {} entity renders in {}", blocks, items, entities,
                 DurationFormatUtils.formatDurationHMS(sw.elapsed().toMillis()));
     }
 
@@ -140,24 +146,102 @@ public final class RenderedAssetExporter {
         return exported;
     }
 
+    private static int exportEntities() {
+        int exported = 0;
+        LOGGER.info("Exporting rendered entity images...");
+
+        for (EntityType<?> entityType : BuiltInRegistries.ENTITY_TYPE) {
+            var id = BuiltInRegistries.ENTITY_TYPE.getKey(entityType);
+            if (id == null) {
+                continue;
+            }
+
+            try {
+                var level = new GuidebookLevel();
+                var entity = entityType.create(level);
+                if (entity == null) {
+                    LOGGER.debug("Skipping entity render for {} because it cannot be created client-side", id);
+                    continue;
+                }
+
+                entity.setPos(0.5, 0, 0.5);
+                entity.setYRot(ENTITY_Y_ROTATION);
+                entity.setXRot(0);
+                entity.setOldPosAndRot();
+                entity.setYHeadRot(entity.getYRot());
+                entity.setYBodyRot(entity.getYRot());
+                level.addEntity(entity);
+
+                try {
+                    entity.tick();
+                } catch (Throwable e) {
+                    LOGGER.debug("Entity {} failed its preview tick; attempting to render its initial state", id, e);
+                }
+
+                var cameraSettings = new CameraSettings();
+                cameraSettings.setZoom(1.0f);
+                cameraSettings.setPerspectivePreset(PerspectivePreset.ISOMETRIC_NORTH_EAST);
+
+                var scene = new GuidebookScene(level, cameraSettings);
+                scene.centerScene();
+
+                var lytScene = new LytGuidebookScene(ExtensionCollection.empty());
+                lytScene.setScene(scene);
+                lytScene.setInteractive(false);
+
+                writeRenderedEntity(idToPath(ExportPaths.renderedEntitiesBase(), id), lytScene, scene);
+                exported++;
+            } catch (Throwable e) {
+                LOGGER.warn("Failed to export entity render for {}", id, e);
+            }
+        }
+
+        return exported;
+    }
+
     private static void writeRenderedScene(Path basePath,
             LytGuidebookScene lytScene,
             GuidebookScene scene,
             Collection<TextureAtlasSprite> sprites) throws IOException {
-        var measuredSize = lytScene.getPreferredSize();
-        final LytSize prefSize;
-        if (measuredSize.width() <= 0 || measuredSize.height() <= 0) {
-            // Some technical/invisible blocks do not contribute layout size, but the exporter should still emit an
-            // entry for every loaded block. Use the normal one-block footprint and let rendering produce transparency
-            // if the block has no visible geometry.
-            prefSize = new LytSize(16, 16);
-        } else {
-            prefSize = measuredSize;
-        }
-
+        var prefSize = getPreferredSceneSize(lytScene);
         int width = Math.max(1, prefSize.width() * BLOCK_RENDER_SCALE);
         int height = Math.max(1, prefSize.height() * BLOCK_RENDER_SCALE);
 
+        renderSceneToIcon(basePath, scene, sprites, prefSize, width, height);
+    }
+
+    private static void writeRenderedEntity(Path basePath,
+            LytGuidebookScene lytScene,
+            GuidebookScene scene) throws IOException {
+        var prefSize = getPaddedSquareSceneSize(lytScene, ENTITY_RENDER_PADDING);
+        renderSceneToIcon(basePath, scene, Collections.emptyList(), prefSize, ENTITY_ICON_DIMENSION,
+                ENTITY_ICON_DIMENSION);
+    }
+
+    private static LytSize getPreferredSceneSize(LytGuidebookScene lytScene) {
+        var measuredSize = lytScene.getPreferredSize();
+        if (measuredSize.width() <= 0 || measuredSize.height() <= 0) {
+            // Some technical/invisible entries do not contribute layout size, but the exporter should still emit an
+            // entry for every loaded registry entry. Use the normal one-block footprint and let rendering produce
+            // transparency if there is no visible geometry.
+            return new LytSize(16, 16);
+        }
+        return measuredSize;
+    }
+
+    private static LytSize getPaddedSquareSceneSize(LytGuidebookScene lytScene, float padding) {
+        var measuredSize = getPreferredSceneSize(lytScene);
+        var side = Math.max(measuredSize.width(), measuredSize.height());
+        side = Math.max(16, (int) Math.ceil(side * padding));
+        return new LytSize(side, side);
+    }
+
+    private static void renderSceneToIcon(Path basePath,
+            GuidebookScene scene,
+            Collection<TextureAtlasSprite> sprites,
+            LytSize prefSize,
+            int width,
+            int height) throws IOException {
         try (var renderer = new OffScreenRenderer(width, height)) {
             writeRenderedIcon(renderer, basePath, () -> {
                 scene.getCameraSettings().setViewportSize(prefSize);
