@@ -975,6 +975,45 @@
     "registryName": "ars_elemental:glyph_bubble_shield",
     "localizationKey": "ars_elemental.glyph_name.glyph_bubble_shield"
   },
+  "ars_elemental:glyph_cauterize": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "alexthw.ars_elemental.common.glyphs.EffectCauterize",
+      "alexthw.ars_elemental.common.glyphs.ElementalAbstractEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "fire",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [],
+        "descriptions": {},
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {
+        "baseDamage": 3.0
+      },
+      "tier": 3,
+      "cost": 80,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Cauterize",
+    "texture": "ars_nouveau:item/cauterize",
+    "animated": false,
+    "registryName": "ars_elemental:glyph_cauterize",
+    "localizationKey": "ars_elemental.glyph_name.glyph_cauterize"
+  },
   "ars_elemental:glyph_cavitate": {
     "typeName": {
       "translate": "ars_nouveau.spell_book_gui.effect"
@@ -2360,6 +2399,69 @@
     "animated": false,
     "registryName": "ars_elemental:glyph_propagator_homing",
     "localizationKey": "ars_elemental.glyph_name.glyph_propagator_homing"
+  },
+  "ars_elemental:glyph_rage": {
+    "typeName": {
+      "translate": "ars_nouveau.spell_book_gui.effect"
+    },
+    "typeIndex": 5,
+    "classes": [
+      "alexthw.ars_elemental.common.glyphs.EffectRage",
+      "alexthw.ars_elemental.common.glyphs.ElementalAbstractEffect",
+      "com.hollingsworth.arsnouveau.api.spell.AbstractEffect"
+    ],
+    "spellSchools": [
+      {
+        "id": "fire",
+        "subschools": []
+      },
+      {
+        "id": "necromancy",
+        "subschools": []
+      }
+    ],
+    "defaults": {
+      "perSpellLimit": 2147483647,
+      "augments": {
+        "compatible": [
+          "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_duration_down",
+          "ars_nouveau:glyph_extend_time",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_rage_glyph_amplify"
+          },
+          "ars_nouveau:glyph_duration_down": {
+            "translate": "ars_nouveau.augment_desc.glyph_rage_glyph_duration_down"
+          },
+          "ars_nouveau:glyph_extend_time": {
+            "translate": "ars_nouveau.augment_desc.glyph_rage_glyph_extend_time"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          }
+        },
+        "costs": {},
+        "limits": {}
+      },
+      "invalidCombinations": [],
+      "defaultConfig": {},
+      "tier": 3,
+      "cost": 100,
+      "enabled": true,
+      "starter": false
+    },
+    "name": "Rage",
+    "texture": "ars_nouveau:item/rage",
+    "animated": false,
+    "registryName": "ars_elemental:glyph_rage",
+    "localizationKey": "ars_elemental.glyph_name.glyph_rage"
   },
   "ars_elemental:glyph_slip_feet": {
     "typeName": {
@@ -11290,10 +11392,36 @@
     "defaults": {
       "perSpellLimit": 2147483647,
       "augments": {
-        "compatible": [],
-        "descriptions": {},
+        "compatible": [
+          "ars_nouveau:glyph_amplify",
+          "ars_nouveau:glyph_dampen",
+          "ars_nouveau:glyph_sensitive",
+          "ars_zero:augment_amplify_three",
+          "ars_zero:augment_amplify_two"
+        ],
+        "descriptions": {
+          "ars_nouveau:glyph_amplify": {
+            "translate": "ars_nouveau.augment_desc.glyph_reverse_direction_glyph_amplify"
+          },
+          "ars_nouveau:glyph_dampen": {
+            "translate": "ars_nouveau.augment_desc.glyph_reverse_direction_glyph_dampen"
+          },
+          "ars_nouveau:glyph_sensitive": {
+            "translate": "ars_nouveau.augment_desc.glyph_reverse_direction_glyph_sensitive"
+          },
+          "ars_zero:augment_amplify_three": {
+            "translate": "ars_zero.augment_desc.amplify_three_generic"
+          },
+          "ars_zero:augment_amplify_two": {
+            "translate": "ars_zero.augment_desc.amplify_two_generic"
+          }
+        },
         "costs": {},
-        "limits": {}
+        "limits": {
+          "ars_nouveau:glyph_sensitive": 1,
+          "ars_nouveau:glyph_amplify": 2,
+          "ars_nouveau:glyph_dampen": 2
+        }
       },
       "invalidCombinations": [],
       "defaultConfig": {},
@@ -11302,7 +11430,7 @@
       "enabled": true,
       "starter": false
     },
-    "name": "Reverse Direction",
+    "name": "Redirect Placement",
     "texture": "ars_nouveau:item/reverse_direction",
     "animated": false,
     "registryName": "toomanyglyphs:glyph_reverse_direction",

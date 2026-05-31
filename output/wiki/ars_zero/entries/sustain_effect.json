@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Sustain",
-      "description": "Extends the lifespan of a target. §6[Extends lifespan]",
+      "description": "Extends the lifespan of a target. ?6[Extends lifespan]",
       "icon": "ars_zero:sustain_effect",
       "tier": 2
     }

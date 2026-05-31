@@ -1,5 +1,9 @@
 {
   "id": "ars_nouveau:armor",
   "order": 300,
-  "title": "Armor"
+  "title": "Armor",
+  "parents": [
+    "ars_nouveau:items_equipment"
+  ],
+  "sub_categories": []
 }

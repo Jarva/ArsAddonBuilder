@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "AOE II",
-      "description": "Spells will affect a huge area around a targeted block.§9Note: This is copied from Adam\u0027s Ars Plus and will be removed when it has been updated to 1.21.1.",
+      "description": "Spells will affect a huge area around a targeted block.?9Note: This is copied from Adam\u0027s Ars Plus and will be removed when it has been updated to 1.21.1.",
       "icon": "ars_zero:augment_aoe_two",
       "tier": 3
     }

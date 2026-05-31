@@ -1,5 +1,7 @@
 {
   "id": "ars_nouveau:ritual_index",
   "order": 700,
-  "title": "Ritual Index"
+  "title": "Ritual Index",
+  "parents": [],
+  "sub_categories": []
 }

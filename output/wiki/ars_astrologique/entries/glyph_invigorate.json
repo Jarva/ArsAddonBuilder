@@ -10,6 +10,9 @@
       "description": "Passively recovers target\u0027s hunger and saturation.",
       "icon": "ars_astrologique:glyph_invigorate",
       "tier": 3
+    },
+    {
+      "recipe_1": "ars_astrologique:glyph_invigorate"
     }
   ]
 }

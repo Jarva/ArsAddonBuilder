@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "Beam",
-      "description": "Compresses mana into a violent beam; resolves the remainder of the spell on each hit, draining mana per hit. §6[Lifespan-based]",
+      "description": "Compresses mana into a violent beam; resolves the remainder of the spell on each hit, draining mana per hit. ?6[Lifespan-based]",
       "icon": "ars_zero:effect_beam",
       "tier": 3
     }

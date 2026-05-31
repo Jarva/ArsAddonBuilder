@@ -1,5 +1,7 @@
 {
   "id": "ars_nouveau:field_guide",
   "order": 900,
-  "title": "Field Guide"
+  "title": "Field Guide",
+  "parents": [],
+  "sub_categories": []
 }

@@ -7,7 +7,7 @@
   "pages": [
     {
       "title": "AOE III",
-      "description": "Spells will affect a gargantuan area around a targeted block. §9Note: This is copied from Adam\u0027s Ars Plus and will be removed when it has been updated to 1.21.1.",
+      "description": "Spells will affect a gargantuan area around a targeted block. ?9Note: This is copied from Adam\u0027s Ars Plus and will be removed when it has been updated to 1.21.1.",
       "icon": "ars_zero:augment_aoe_three",
       "tier": 3
     }

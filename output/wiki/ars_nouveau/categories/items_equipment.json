@@ -1,5 +1,11 @@
 {
   "id": "ars_nouveau:items_equipment",
   "order": 500,
-  "title": "Items and Equipment"
+  "title": "Items and Equipment",
+  "parents": [],
+  "sub_categories": [
+    "ars_nouveau:spell_casting",
+    "ars_nouveau:items",
+    "ars_nouveau:armor"
+  ]
 }

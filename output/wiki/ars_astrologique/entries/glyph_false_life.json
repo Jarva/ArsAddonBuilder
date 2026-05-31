@@ -10,6 +10,9 @@
       "description": "Grants faux vitality to the target for a short duration.",
       "icon": "ars_astrologique:glyph_false_life",
       "tier": 2
+    },
+    {
+      "recipe_1": "ars_astrologique:glyph_false_life"
     }
   ]
 }
