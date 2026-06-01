@@ -29,6 +29,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.RandomSource;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -183,10 +184,7 @@ public final class RenderedAssetExporter {
                 cameraSettings.setZoom(1.0f);
                 cameraSettings.setPerspectivePreset(PerspectivePreset.ISOMETRIC_NORTH_EAST);
 
-                var dispatcher = Minecraft.getInstance().getEntityRenderDispatcher();
-                if (dispatcher.camera == null) {
-                    dispatcher.camera = new Camera();
-                }
+                prepareEntityRendering(level, entity);
 
                 var scene = new GuidebookScene(level, cameraSettings);
                 scene.centerScene();
@@ -203,6 +201,14 @@ public final class RenderedAssetExporter {
         }
 
         return exported;
+    }
+
+    private static void prepareEntityRendering(GuidebookLevel level, Entity entity) {
+        // Entity renderers assume the vanilla dispatcher has a prepared camera. The normal world renderer does this
+        // every frame, but our headless doc export happens from a tick hook before any real level render exists.
+        var camera = new Camera();
+        camera.setup(level, entity, false, false, 0.0f);
+        Minecraft.getInstance().getEntityRenderDispatcher().prepare(level, camera, entity);
     }
 
     private static void writeRenderedScene(Path basePath,
