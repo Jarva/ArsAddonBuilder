@@ -1,0 +1,17 @@
+{
+  "id": "ars_nouveau:thread_scritchance",
+  "order": 100,
+  "icon": "ars_nouveau:thread_scritchance",
+  "title": "Lucky Cover",
+  "category": "ars_nouveau:armor",
+  "pages": [
+    {
+      "title": "Book Cover : Lucky Cover",
+      "description": "Thread for the  spellbinder. Will  increase the  critical chance of  spells.",
+      "icon": "ars_nouveau:thread_scritchance"
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_scritchance"
+    }
+  ]
+}

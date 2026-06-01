@@ -1,0 +1,24 @@
+{
+  "id": "ars_elemental:flashjack_charm",
+  "order": 100,
+  "icon": "ars_elemental:flashjack_charm",
+  "title": "Flashjack Charm",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "title": "Flashjack Charm",
+      "description": "Flashjacks are usually found in archwood forests, hiding among the trees, or in high mountainous peaks. You can befriend a wild flashjack by giving them a flashpine. Their job is tied to base defense, but in a different way than Flarecannons and Weald Walkers, acting as a scout in its home area.",
+      "icon": "ars_elemental:flashjack_charm"
+    },
+    {
+      "description": "",
+      "entity_type": "ars_elemental:flashjack_entity"
+    },
+    {
+      "description": "You can link the bird  to a set of  adjustable or  elemental turrets  and it will be able  to hijack them to aim  and shoot at its  target, it will also  highlight its target  and warn nearby  weald walkers. Mob  types can be  excluded by its  targeting using the  dominion wand."
+    },
+    {
+      "recipe_1": "ars_elemental:flashjack_charm"
+    }
+  ]
+}

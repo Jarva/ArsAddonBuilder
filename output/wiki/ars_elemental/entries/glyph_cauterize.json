@@ -1,0 +1,18 @@
+{
+  "id": "ars_elemental:glyph_cauterize",
+  "order": 100,
+  "icon": "ars_elemental:glyph_cauterize",
+  "title": "Cauterize",
+  "category": "ars_nouveau:glyphs_tier_three",
+  "pages": [
+    {
+      "title": "Cauterize",
+      "description": "Cauterize wounds with fire, dealing a small amount of fire damage to remove harmful effects. Can only remove effects that are curable with milk.",
+      "icon": "ars_elemental:glyph_cauterize",
+      "tier": 3
+    },
+    {
+      "recipe_1": "ars_elemental:glyph_cauterize"
+    }
+  ]
+}

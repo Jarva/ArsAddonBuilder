@@ -1,0 +1,17 @@
+{
+  "id": "ars_additions:advanced_dominion_wand",
+  "order": 100,
+  "icon": "ars_additions:advanced_dominion_wand",
+  "title": "Advanced Dominion Wand",
+  "category": "ars_nouveau:items",
+  "pages": [
+    {
+      "title": "Advanced Dominion Wand",
+      "description": "The Advanced  Dominion Wand is an  upgraded Dominion  Wand with the  ability to control  link order and link  multiple blocks at  once. Use the Radial  Menu to toggle  between First/Second  link order and  Single/Multi link  count. In Multi  mode, Shift +",
+      "icon": "ars_additions:advanced_dominion_wand"
+    },
+    {
+      "description": "Right-Clicking a  block will find all  connected blocks of  the same type and  link them all at  once."
+    }
+  ]
+}

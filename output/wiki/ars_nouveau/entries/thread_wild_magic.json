@@ -1,0 +1,17 @@
+{
+  "id": "ars_nouveau:thread_wild_magic",
+  "order": 100,
+  "icon": "ars_nouveau:thread_wild_magic",
+  "title": "Wheel of Fortune",
+  "category": "ars_nouveau:armor",
+  "pages": [
+    {
+      "title": "Book Cover : Wheel of Fortune",
+      "description": "Thread for the  spellbinder. Will  randomly add  positive augments to  effects of your  spells when  equipped.",
+      "icon": "ars_nouveau:thread_wild_magic"
+    },
+    {
+      "recipe_1": "ars_nouveau:thread_wild_magic"
+    }
+  ]
+}

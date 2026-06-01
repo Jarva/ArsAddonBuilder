@@ -1,0 +1,17 @@
+{
+  "id": "ars_additions:source_spawner",
+  "order": 100,
+  "icon": "ars_additions:source_spawner",
+  "title": "Source Spawner",
+  "category": "ars_nouveau:crafting",
+  "pages": [
+    {
+      "title": "Source Spawner",
+      "description": "The Source Spawner  is a source-powered  mob spawner that  reads nearby Mob  Jars to determine  what to spawn. Each  mob spawned consumes  source from nearby  Source Jars, with  the cost varying  based on the mob  type. The spawner  can be disabled with  a redstone signal",
+      "icon": "ars_additions:source_spawner"
+    },
+    {
+      "description": "and outputs a  comparator signal  proportional to the  current spawn delay."
+    }
+  ]
+}

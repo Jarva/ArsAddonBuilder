@@ -1,0 +1,18 @@
+{
+  "id": "ars_astrologique:glyph_stalwart",
+  "order": 100,
+  "icon": "ars_astrologique:glyph_stalwart",
+  "title": "Stalwart",
+  "category": "ars_nouveau:glyphs_tier_three",
+  "pages": [
+    {
+      "title": "Stalwart",
+      "description": "Turns the target into an immovable guardian. Grants increased damage and knockback reduction at the cost of slower movement speed.",
+      "icon": "ars_astrologique:glyph_stalwart",
+      "tier": 3
+    },
+    {
+      "recipe_1": "ars_astrologique:glyph_stalwart"
+    }
+  ]
+}

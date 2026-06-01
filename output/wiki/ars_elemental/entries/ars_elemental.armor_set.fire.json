@@ -1,0 +1,13 @@
+{
+  "id": "ars_elemental:ars_elemental.armor_set.fire",
+  "order": 10,
+  "icon": "ars_elemental:fire_hat",
+  "title": "Pyromancer\u0027s Set",
+  "category": "ars_nouveau:armor",
+  "pages": [
+    {
+      "title": "Pyromancer\u0027s Set",
+      "description": "Attuned to the School of Fire, each piece of this armor set will amplify fire glyphs, make them cheaper, and reduce damage related to fire, like lava, dragon breath and magma.$(br)When all the pieces are equipped, the damage reduced is converted into mana and fire is immediately put out."
+    }
+  ]
+}
