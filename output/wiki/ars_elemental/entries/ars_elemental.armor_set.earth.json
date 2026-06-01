@@ -1,0 +1,13 @@
+{
+  "id": "ars_elemental:ars_elemental.armor_set.earth",
+  "order": 10,
+  "icon": "ars_elemental:earth_hat",
+  "title": "Geomancer\u0027s Set",
+  "category": "ars_nouveau:armor",
+  "pages": [
+    {
+      "title": "Geomancer\u0027s Set",
+      "description": "Attuned to the School of Earth, each piece of this armor set will amplify earth glyphs, make them cheaper and reduce damage related to earth, like starving, berry bushes, cactus and crushing.$(br)When all the pieces are equipped, the damage reduced is converted into mana and gives food deep underground if about to starve."
+    }
+  ]
+}

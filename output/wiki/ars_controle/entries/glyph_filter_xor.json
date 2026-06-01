@@ -1,0 +1,18 @@
+{
+  "id": "ars_controle:glyph_filter_xor",
+  "order": 100,
+  "icon": "ars_controle:glyph_filter_xor",
+  "title": "Filter: XOR",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Filter: XOR",
+      "description": "Only resolves the spell if only one of the next 2 Filters are true.",
+      "icon": "ars_controle:glyph_filter_xor",
+      "tier": 1
+    },
+    {
+      "recipe_1": "ars_controle:glyph_filter_xor"
+    }
+  ]
+}

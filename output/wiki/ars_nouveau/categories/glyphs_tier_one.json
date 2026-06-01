@@ -1,0 +1,9 @@
+{
+  "id": "ars_nouveau:glyphs_tier_one",
+  "order": 100,
+  "title": "Tier One Glyphs",
+  "parents": [
+    "ars_nouveau:glyph_index"
+  ],
+  "sub_categories": []
+}

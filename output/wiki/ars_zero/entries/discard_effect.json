@@ -1,0 +1,15 @@
+{
+  "id": "ars_zero:discard_effect",
+  "order": 100,
+  "icon": "ars_zero:discard_effect",
+  "title": "Discard",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Discard",
+      "description": "Discards non-living entities.",
+      "icon": "ars_zero:discard_effect",
+      "tier": 2
+    }
+  ]
+}
