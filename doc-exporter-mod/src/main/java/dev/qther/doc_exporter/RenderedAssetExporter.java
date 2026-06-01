@@ -118,7 +118,6 @@ public final class RenderedAssetExporter {
 
         try (var renderer = new OffScreenRenderer(ITEM_ICON_DIMENSION, ITEM_ICON_DIMENSION)) {
             var guiGraphics = new GuiGraphics(client, client.renderBuffers().bufferSource());
-            renderer.setupItemRendering();
 
             for (Item item : BuiltInRegistries.ITEM) {
                 var id = BuiltInRegistries.ITEM.getKey(item);
@@ -135,6 +134,9 @@ public final class RenderedAssetExporter {
                     var itemModel = client.getItemRenderer().getModel(stack, null, null, 0);
                     var sprites = guessSprites(Set.of(itemModel));
                     writeRenderedIcon(renderer, idToPath(ExportPaths.renderedItemsBase(), id), () -> {
+                        // Re-apply item projection/model-view for every capture. This keeps static PNGs and every
+                        // animated WebP frame valid even if a previous render failure reset global GL state.
+                        renderer.setupItemRendering();
                         guiGraphics.renderItem(stack, 0, 0);
                         guiGraphics.renderItemDecorations(client.font, stack, 0, 0, "");
                     }, sprites, true);
