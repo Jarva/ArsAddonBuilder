@@ -129,32 +129,11 @@ public class DocExportHelper {
             LangExporter.loadLanguage("en_us");
         });
 
-        var animatedTextureExport = new Thread(() -> {
-            // Export animated textures
-            try {
-                Path animatedTexturesBase = ExportPaths.animatedTexturesBase();
-                Files.createDirectories(animatedTexturesBase);
-
-                var sw = Stopwatch.createStarted();
-                LOGGER.info("Exporting animated textures");
-                AnimatedTextureExporter.exportAnimatedTextures();
-                LOGGER.info("Exported animated textures in {}", DurationFormatUtils.formatDurationHMS(sw.elapsed().toMillis()));
-            } catch (IOException | IllegalStateException e) {
-                LOGGER.error("could not create animated textures", e);
-            }
-        });
-
         langExport.start();
-        animatedTextureExport.start();
         try {
             langExport.join();
         } catch (InterruptedException e) {
             LOGGER.error("Lang export interrupted", e);
-        }
-        try {
-            animatedTextureExport.join();
-        } catch (InterruptedException e) {
-            LOGGER.error("Animated texture export interrupted", e);
         }
 
         // Exit

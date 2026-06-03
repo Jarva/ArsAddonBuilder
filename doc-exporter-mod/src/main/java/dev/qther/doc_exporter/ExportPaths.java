@@ -35,11 +35,7 @@ public final class ExportPaths {
         return langBase().resolve(langCode + ".json");
     }
 
-    public static Path animatedTexturesBase() {
-        return BASE.resolve("animated_textures");
-    }
-
-    public static Path rendersBase() {
+public static Path rendersBase() {
         return BASE.resolve("renders");
     }
 

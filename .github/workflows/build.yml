@@ -311,7 +311,7 @@ jobs:
           cat ../../dependencies.json | jq -r 'keys[] as $key | .[$key]' | while read -r dependency; do curl -LO "$dependency"; done
 
       - name: Remove old output
-        run: rm -rf output/wiki output/lang output/animated_textures output/renders
+        run: rm -rf output/wiki output/lang output/renders output/tags
 
       - name: Merge module resources
         shell: bash
