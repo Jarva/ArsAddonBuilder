@@ -9,7 +9,11 @@
     "DocExporterMixin",
     "GameTestHooksMixin"
   ],
-  "client": [],
+  "client": [
+    "AnimatedTextureAccessor",
+    "AnimatedTextureFramesAccessor",
+    "FrameInfoAccessor"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
