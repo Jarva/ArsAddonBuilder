@@ -79,6 +79,13 @@ public class DocExportHelper {
             LOGGER.error("could not create glyphs file", e);
         }
 
+        // Export tags
+        try {
+            TagExporter.exportAll(level);
+        } catch (IOException | IllegalStateException e) {
+            LOGGER.error("could not export tags", e);
+        }
+
         // Export fully rendered block and item images. This uses Minecraft/GuideME rendering state and must stay on
         // the client thread.
         try {

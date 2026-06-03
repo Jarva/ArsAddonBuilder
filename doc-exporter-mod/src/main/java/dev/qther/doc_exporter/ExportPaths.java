@@ -23,6 +23,10 @@ public final class ExportPaths {
         return BASE.resolve("glyphs.json");
     }
 
+    public static Path tagsBase() {
+        return BASE.resolve("tags");
+    }
+
     public static Path langBase() {
         return BASE.resolve("lang");
     }
