@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:lime_dye",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "entity": "minecraft:witch",
+  "loot_table": "ars_nouveau:dispel_witch",
+  "loot_conditions": [
+    {
+      "predicate": {
+        "type_specific": {
+          "threshold": 0.5,
+          "type": "ars_nouveau:percent_health_equal_or_lower"
+        }
+      },
+      "entity": "this",
+      "condition": "minecraft:entity_properties"
+    }
+  ],
+  "type": "ars_nouveau:dispel_entity"
+}

@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:glowstone_dust",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_elemental:sparkflower"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

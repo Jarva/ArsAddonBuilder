@@ -1,0 +1,23 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "ars_additions:wither_protection_charm",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

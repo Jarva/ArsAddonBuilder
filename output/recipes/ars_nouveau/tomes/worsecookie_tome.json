@@ -1,0 +1,48 @@
+{
+  "flavour_text": "Along the shore the cloud waves break, The twin suns sink beneath the lake, The shadows lengthen. In Carcosa",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 204,
+    "g": 153,
+    "b": 1
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_touch",
+      "ars_nouveau:glyph_rune",
+      "ars_nouveau:glyph_hex",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_wither",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify"
+    ],
+    "particleTimeline": {},
+    "name": "The Yellow Sun",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 204,
+      "g": 153,
+      "b": 1
+    }
+  },
+  "name": "The Yellow Sun",
+  "spell": [
+    "ars_nouveau:glyph_touch",
+    "ars_nouveau:glyph_rune",
+    "ars_nouveau:glyph_hex",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_wither",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_amplify"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

@@ -1,0 +1,24 @@
+{
+  "input": {
+    "item": "minecraft:gravel"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "minecraft:sand",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    },
+    {
+      "stack": {
+        "id": "minecraft:flint",
+        "count": 1
+      },
+      "chance": 0.02,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_nouveau:crush"
+}

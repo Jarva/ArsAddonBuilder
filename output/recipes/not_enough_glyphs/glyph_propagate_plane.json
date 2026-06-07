@@ -1,0 +1,22 @@
+{
+  "output": {
+    "id": "not_enough_glyphs:glyph_propagate_plane",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:firework_star"
+    },
+    {
+      "item": "ars_nouveau:wilden_spike"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

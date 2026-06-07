@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "result": {
+    "id": "create:waxed_copper_tile_slab",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:copper_tile_slab"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

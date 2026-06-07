@@ -1,0 +1,22 @@
+{
+  "group": "chest_boat",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:bamboo_chest_raft",
+    "count": 1
+  },
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:chest"
+      },
+      {
+        "item": "ars_nouveau:archwood_chest"
+      }
+    ],
+    {
+      "item": "minecraft:bamboo_raft"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

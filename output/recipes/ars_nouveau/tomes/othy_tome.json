@@ -1,0 +1,40 @@
+{
+  "flavour_text": "Swarm your enemies with bladed spirits.",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 255,
+    "g": 255,
+    "b": 255
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_self",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_summon_decoy",
+      "ars_nouveau:glyph_blink",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify"
+    ],
+    "particleTimeline": {},
+    "name": "Othy\u0027s Misdirection",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 255,
+      "g": 255,
+      "b": 255
+    }
+  },
+  "name": "Othy\u0027s Misdirection",
+  "spell": [
+    "ars_nouveau:glyph_self",
+    "ars_nouveau:glyph_extend_time",
+    "ars_nouveau:glyph_summon_decoy",
+    "ars_nouveau:glyph_blink",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_amplify"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

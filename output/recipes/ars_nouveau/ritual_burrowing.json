@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:ritual_burrowing",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:green_archwood_log"
+    },
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "minecraft:coal_block"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

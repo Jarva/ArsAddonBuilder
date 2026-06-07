@@ -1,0 +1,37 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_zero:spellcasting_circlet",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_zero:dull_circlet"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "ars_nouveau:wilden_tribute"
+    }
+  ],
+  "type": "ars_nouveau:book_upgrade"
+}

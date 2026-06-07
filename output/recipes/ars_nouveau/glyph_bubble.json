@@ -1,0 +1,84 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_bubble",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    [
+      {
+        "item": "minecraft:oak_boat"
+      },
+      {
+        "item": "minecraft:spruce_boat"
+      },
+      {
+        "item": "minecraft:birch_boat"
+      },
+      {
+        "item": "minecraft:jungle_boat"
+      },
+      {
+        "item": "minecraft:acacia_boat"
+      },
+      {
+        "item": "minecraft:dark_oak_boat"
+      },
+      {
+        "item": "minecraft:mangrove_boat"
+      },
+      {
+        "item": "minecraft:bamboo_raft"
+      },
+      {
+        "item": "minecraft:cherry_boat"
+      },
+      {
+        "item": "minecraft:oak_chest_boat"
+      },
+      {
+        "item": "minecraft:spruce_chest_boat"
+      },
+      {
+        "item": "minecraft:birch_chest_boat"
+      },
+      {
+        "item": "minecraft:jungle_chest_boat"
+      },
+      {
+        "item": "minecraft:acacia_chest_boat"
+      },
+      {
+        "item": "minecraft:dark_oak_chest_boat"
+      },
+      {
+        "item": "minecraft:mangrove_chest_boat"
+      },
+      {
+        "item": "minecraft:bamboo_chest_raft"
+      },
+      {
+        "item": "minecraft:cherry_chest_boat"
+      },
+      {
+        "item": "ars_nouveau:archwood_boat"
+      }
+    ],
+    {
+      "item": "ars_nouveau:water_essence"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

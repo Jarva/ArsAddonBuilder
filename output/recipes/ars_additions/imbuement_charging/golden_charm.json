@@ -1,0 +1,6 @@
+{
+  "id": "ars_additions:golden_charm",
+  "item": "ars_additions:golden_charm",
+  "costPerDamage": 5,
+  "type": "ars_additions:charm_charging"
+}

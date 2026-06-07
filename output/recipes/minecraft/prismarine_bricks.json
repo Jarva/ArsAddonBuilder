@@ -1,0 +1,37 @@
+{
+  "category": "building",
+  "result": {
+    "id": "minecraft:prismarine_bricks",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,22 @@
+{
+  "input": {
+    "item": "ars_nouveau:source_gem"
+  },
+  "output": {
+    "id": "ars_nouveau:manipulation_essence",
+    "count": 1
+  },
+  "source": 2000,
+  "pedestalItems": [
+    {
+      "item": "minecraft:stone_button"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:clock"
+    }
+  ],
+  "type": "ars_nouveau:imbuement"
+}

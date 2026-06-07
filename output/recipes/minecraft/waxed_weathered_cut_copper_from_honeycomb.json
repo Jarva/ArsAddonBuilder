@@ -1,0 +1,17 @@
+{
+  "group": "waxed_weathered_cut_copper",
+  "category": "building",
+  "result": {
+    "id": "minecraft:waxed_weathered_cut_copper",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:weathered_cut_copper"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

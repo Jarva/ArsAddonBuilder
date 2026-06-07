@@ -1,0 +1,14 @@
+{
+  "group": "red_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:red_dye",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:rose_bush"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

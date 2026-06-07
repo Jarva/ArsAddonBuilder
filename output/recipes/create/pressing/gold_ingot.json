@@ -1,0 +1,13 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:golden_sheet"
+    }
+  ],
+  "type": "create:pressing"
+}

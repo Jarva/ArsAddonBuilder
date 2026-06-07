@@ -1,0 +1,17 @@
+{
+  "group": "mossy_stone_bricks",
+  "category": "building",
+  "result": {
+    "id": "minecraft:mossy_stone_bricks",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:stone_bricks"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,13 @@
+{
+  "output": {
+    "id": "ars_trinkets:glyph_filter_self",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:cornflower"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

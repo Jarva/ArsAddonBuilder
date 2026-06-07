@@ -1,0 +1,23 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": true,
+  "reagent": {
+    "item": "minecraft:bow"
+  },
+  "result": {
+    "id": "ars_nouveau:spell_bow",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

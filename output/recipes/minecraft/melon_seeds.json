@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:melon_seeds",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:melon_slice"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

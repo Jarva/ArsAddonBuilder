@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "minecraft:sponge",
+    "count": 1
+  },
+  "experience": 0.15,
+  "cookingtime": 200,
+  "category": "blocks",
+  "ingredient": {
+    "item": "minecraft:wet_sponge"
+  },
+  "type": "minecraft:smelting"
+}

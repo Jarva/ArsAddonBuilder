@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:track_station",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "create:railway_casing"
+    },
+    {
+      "item": "minecraft:compass"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

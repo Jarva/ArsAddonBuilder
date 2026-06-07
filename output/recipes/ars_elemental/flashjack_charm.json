@@ -1,0 +1,26 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_elemental:flashjack_shards"
+  },
+  "result": {
+    "id": "ars_elemental:flashjack_charm",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

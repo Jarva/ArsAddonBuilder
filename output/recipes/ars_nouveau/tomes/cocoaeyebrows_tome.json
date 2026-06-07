@@ -1,0 +1,48 @@
+{
+  "flavour_text": "Leave the riches untouched. Seek only to carve the earth.",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 255,
+    "g": 128,
+    "b": 1
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_touch",
+      "ars_nouveau:glyph_break",
+      "ars_nouveau:glyph_dampen",
+      "ars_nouveau:glyph_dampen",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce"
+    ],
+    "particleTimeline": {},
+    "name": "Gobute\u0027s Humble Tunnel",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 255,
+      "g": 128,
+      "b": 1
+    }
+  },
+  "name": "Gobute\u0027s Humble Tunnel",
+  "spell": [
+    "ars_nouveau:glyph_touch",
+    "ars_nouveau:glyph_break",
+    "ars_nouveau:glyph_dampen",
+    "ars_nouveau:glyph_dampen",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_pierce",
+    "ars_nouveau:glyph_pierce",
+    "ars_nouveau:glyph_pierce",
+    "ars_nouveau:glyph_pierce"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

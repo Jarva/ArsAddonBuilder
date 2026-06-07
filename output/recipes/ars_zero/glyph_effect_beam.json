@@ -1,0 +1,25 @@
+{
+  "output": {
+    "id": "ars_zero:effect_beam",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    }
+  ],
+  "exp": 120,
+  "type": "ars_nouveau:glyph"
+}

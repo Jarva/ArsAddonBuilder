@@ -1,0 +1,15 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_mangrove_wood"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:mangrove_planks",
+      "count": 6
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

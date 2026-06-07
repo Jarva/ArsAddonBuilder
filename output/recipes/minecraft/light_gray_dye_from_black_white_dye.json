@@ -1,0 +1,20 @@
+{
+  "group": "light_gray_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:light_gray_dye",
+    "count": 3
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:white_dye"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

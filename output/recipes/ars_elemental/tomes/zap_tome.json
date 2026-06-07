@@ -1,0 +1,34 @@
+{
+  "flavour_text": "Starbchu, I Choose You!.",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 255,
+    "g": 255,
+    "b": 26
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_touch",
+      "ars_elemental:glyph_spark",
+      "ars_elemental:glyph_discharge"
+    ],
+    "particleTimeline": {},
+    "name": "Static Discharge",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 255,
+      "g": 255,
+      "b": 26
+    }
+  },
+  "name": "Static Discharge",
+  "spell": [
+    "ars_nouveau:glyph_touch",
+    "ars_elemental:glyph_spark",
+    "ars_elemental:glyph_discharge"
+  ],
+  "tome_type": "ars_elemental:air_caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:source_gem",
+    "count": 4
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:source_gem_block"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

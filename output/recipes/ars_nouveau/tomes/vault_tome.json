@@ -1,0 +1,38 @@
+{
+  "flavour_text": "Sometimes you just need to get over that wall.",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 255,
+    "g": 25,
+    "b": 180
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_self",
+      "ars_nouveau:glyph_launch",
+      "ars_nouveau:glyph_delay",
+      "ars_nouveau:glyph_leap",
+      "ars_nouveau:glyph_slowfall"
+    ],
+    "particleTimeline": {},
+    "name": "Vault",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 255,
+      "g": 25,
+      "b": 180
+    }
+  },
+  "name": "Vault",
+  "spell": [
+    "ars_nouveau:glyph_self",
+    "ars_nouveau:glyph_launch",
+    "ars_nouveau:glyph_delay",
+    "ars_nouveau:glyph_leap",
+    "ars_nouveau:glyph_slowfall"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

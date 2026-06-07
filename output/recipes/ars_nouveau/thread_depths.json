@@ -1,0 +1,83 @@
+{
+  "pedestalItems": [
+    [
+      {
+        "item": "minecraft:cod"
+      },
+      {
+        "item": "minecraft:cooked_cod"
+      },
+      {
+        "item": "minecraft:salmon"
+      },
+      {
+        "item": "minecraft:cooked_salmon"
+      },
+      {
+        "item": "minecraft:pufferfish"
+      },
+      {
+        "item": "minecraft:tropical_fish"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:cod"
+      },
+      {
+        "item": "minecraft:cooked_cod"
+      },
+      {
+        "item": "minecraft:salmon"
+      },
+      {
+        "item": "minecraft:cooked_salmon"
+      },
+      {
+        "item": "minecraft:pufferfish"
+      },
+      {
+        "item": "minecraft:tropical_fish"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:cod"
+      },
+      {
+        "item": "minecraft:cooked_cod"
+      },
+      {
+        "item": "minecraft:salmon"
+      },
+      {
+        "item": "minecraft:cooked_salmon"
+      },
+      {
+        "item": "minecraft:pufferfish"
+      },
+      {
+        "item": "minecraft:tropical_fish"
+      }
+    ],
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "minecraft:pufferfish"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:blank_thread"
+  },
+  "result": {
+    "id": "ars_nouveau:thread_depths",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

@@ -1,0 +1,19 @@
+{
+  "ingredients": [
+    {
+      "item": "create:veridium"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:crushed_raw_copper",
+      "chance": 0.8
+    },
+    {
+      "id": "create:copper_nugget",
+      "chance": 0.8
+    }
+  ],
+  "processing_time": 250,
+  "type": "create:crushing"
+}

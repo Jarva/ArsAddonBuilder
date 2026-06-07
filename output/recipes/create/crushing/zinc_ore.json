@@ -1,0 +1,26 @@
+{
+  "ingredients": [
+    {
+      "item": "create:zinc_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:crushed_raw_zinc"
+    },
+    {
+      "id": "create:crushed_raw_zinc",
+      "chance": 0.75
+    },
+    {
+      "id": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "id": "minecraft:cobblestone",
+      "chance": 0.125
+    }
+  ],
+  "processing_time": 250,
+  "type": "create:crushing"
+}

@@ -1,0 +1,14 @@
+{
+  "group": "yellow_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:yellow_dye",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:dandelion"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

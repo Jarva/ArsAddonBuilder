@@ -1,0 +1,26 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "starbunclemania:fluid_jar"
+  },
+  "result": {
+    "id": "starbunclemania:star_bucket",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

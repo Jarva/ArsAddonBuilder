@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:stock_link",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:stock_link"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

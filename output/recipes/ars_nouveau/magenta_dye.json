@@ -1,0 +1,16 @@
+{
+  "input": {
+    "item": "minecraft:allium"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "minecraft:magenta_dye",
+        "count": 2
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_nouveau:crush"
+}

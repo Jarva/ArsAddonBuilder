@@ -1,0 +1,12 @@
+{
+  "structure": {
+    "tag": "ars_additions:pillager_outpost"
+  },
+  "id": "ars_additions:pillager_outpost",
+  "augments": [
+    {
+      "key": "minecraft:emerald"
+    }
+  ],
+  "type": "ars_additions:locate_structure"
+}

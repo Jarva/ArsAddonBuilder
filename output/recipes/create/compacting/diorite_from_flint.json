@@ -1,0 +1,24 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:calcite"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "minecraft:lava",
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:diorite"
+    }
+  ],
+  "type": "create:compacting"
+}

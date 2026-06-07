@@ -1,0 +1,34 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:oxidized_cut_copper_stairs"
+    },
+    [
+      {
+        "item": "minecraft:diamond_axe"
+      },
+      {
+        "item": "minecraft:stone_axe"
+      },
+      {
+        "item": "minecraft:golden_axe"
+      },
+      {
+        "item": "minecraft:netherite_axe"
+      },
+      {
+        "item": "minecraft:wooden_axe"
+      },
+      {
+        "item": "minecraft:iron_axe"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "id": "minecraft:weathered_cut_copper_stairs"
+    }
+  ],
+  "keep_held_item": true,
+  "type": "create:deploying"
+}

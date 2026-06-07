@@ -1,0 +1,118 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:tree_fertilizer",
+    "count": 2
+  },
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:dandelion"
+      },
+      {
+        "item": "minecraft:poppy"
+      },
+      {
+        "item": "minecraft:blue_orchid"
+      },
+      {
+        "item": "minecraft:allium"
+      },
+      {
+        "item": "minecraft:azure_bluet"
+      },
+      {
+        "item": "minecraft:red_tulip"
+      },
+      {
+        "item": "minecraft:orange_tulip"
+      },
+      {
+        "item": "minecraft:white_tulip"
+      },
+      {
+        "item": "minecraft:pink_tulip"
+      },
+      {
+        "item": "minecraft:oxeye_daisy"
+      },
+      {
+        "item": "minecraft:cornflower"
+      },
+      {
+        "item": "minecraft:lily_of_the_valley"
+      },
+      {
+        "item": "minecraft:wither_rose"
+      },
+      {
+        "item": "minecraft:torchflower"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:dandelion"
+      },
+      {
+        "item": "minecraft:poppy"
+      },
+      {
+        "item": "minecraft:blue_orchid"
+      },
+      {
+        "item": "minecraft:allium"
+      },
+      {
+        "item": "minecraft:azure_bluet"
+      },
+      {
+        "item": "minecraft:red_tulip"
+      },
+      {
+        "item": "minecraft:orange_tulip"
+      },
+      {
+        "item": "minecraft:white_tulip"
+      },
+      {
+        "item": "minecraft:pink_tulip"
+      },
+      {
+        "item": "minecraft:oxeye_daisy"
+      },
+      {
+        "item": "minecraft:cornflower"
+      },
+      {
+        "item": "minecraft:lily_of_the_valley"
+      },
+      {
+        "item": "minecraft:wither_rose"
+      },
+      {
+        "item": "minecraft:torchflower"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:horn_coral"
+      },
+      {
+        "item": "minecraft:brain_coral"
+      },
+      {
+        "item": "minecraft:tube_coral"
+      },
+      {
+        "item": "minecraft:bubble_coral"
+      },
+      {
+        "item": "minecraft:fire_coral"
+      }
+    ],
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

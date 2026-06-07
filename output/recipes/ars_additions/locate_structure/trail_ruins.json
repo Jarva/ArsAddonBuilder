@@ -1,0 +1,12 @@
+{
+  "structure": {
+    "tag": "ars_additions:trail_ruins"
+  },
+  "id": "ars_additions:trail_ruins",
+  "augments": [
+    {
+      "tag": "minecraft:terracotta"
+    }
+  ],
+  "type": "ars_additions:locate_structure"
+}

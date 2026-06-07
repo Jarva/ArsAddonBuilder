@@ -1,0 +1,13 @@
+{
+  "ingredients": [
+    {
+      "item": "create:peculiar_bell"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:haunted_bell"
+    }
+  ],
+  "type": "create:haunting"
+}

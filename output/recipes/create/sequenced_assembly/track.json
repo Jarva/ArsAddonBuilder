@@ -1,0 +1,90 @@
+{
+  "sequence": [
+    {
+      "ingredients": [
+        [
+          {
+            "item": "create:incomplete_track"
+          },
+          {
+            "item": "minecraft:stone_slab"
+          },
+          {
+            "item": "minecraft:smooth_stone_slab"
+          },
+          {
+            "item": "minecraft:andesite_slab"
+          }
+        ],
+        [
+          {
+            "item": "minecraft:iron_nugget"
+          },
+          {
+            "item": "create:zinc_nugget"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ],
+      "type": "create:deploying"
+    },
+    {
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        },
+        [
+          {
+            "item": "minecraft:iron_nugget"
+          },
+          {
+            "item": "create:zinc_nugget"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ],
+      "type": "create:deploying"
+    },
+    {
+      "ingredients": [
+        {
+          "item": "create:incomplete_track"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:incomplete_track"
+        }
+      ],
+      "type": "create:pressing"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:track"
+    }
+  ],
+  "ingredient": [
+    {
+      "item": "minecraft:stone_slab"
+    },
+    {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    {
+      "item": "minecraft:andesite_slab"
+    }
+  ],
+  "transitional_item": {
+    "id": "create:incomplete_track"
+  },
+  "type": "create:sequenced_assembly"
+}

@@ -1,0 +1,54 @@
+{
+  "ingredient": [
+    {
+      "item": "create:cut_veridium"
+    },
+    {
+      "item": "create:cut_veridium_stairs"
+    },
+    {
+      "item": "create:cut_veridium_wall"
+    },
+    {
+      "item": "create:polished_cut_veridium"
+    },
+    {
+      "item": "create:polished_cut_veridium_stairs"
+    },
+    {
+      "item": "create:polished_cut_veridium_wall"
+    },
+    {
+      "item": "create:cut_veridium_bricks"
+    },
+    {
+      "item": "create:cut_veridium_brick_stairs"
+    },
+    {
+      "item": "create:cut_veridium_brick_wall"
+    },
+    {
+      "item": "create:small_veridium_bricks"
+    },
+    {
+      "item": "create:small_veridium_brick_stairs"
+    },
+    {
+      "item": "create:small_veridium_brick_wall"
+    },
+    {
+      "item": "create:layered_veridium"
+    },
+    {
+      "item": "create:veridium_pillar"
+    },
+    {
+      "item": "create:veridium"
+    }
+  ],
+  "result": {
+    "id": "create:cut_veridium_stairs",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

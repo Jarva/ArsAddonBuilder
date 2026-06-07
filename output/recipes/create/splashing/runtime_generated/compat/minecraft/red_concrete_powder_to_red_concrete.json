@@ -1,0 +1,13 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:red_concrete_powder"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:red_concrete"
+    }
+  ],
+  "type": "create:splashing"
+}

@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "result": {
+    "id": "create:waxed_oxidized_copper_shingles",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:oxidized_copper_shingles"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

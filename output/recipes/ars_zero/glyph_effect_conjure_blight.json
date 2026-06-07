@@ -1,0 +1,22 @@
+{
+  "output": {
+    "id": "ars_zero:effect_conjure_blight",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "sauce:anima_essence"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "exp": 100,
+  "type": "ars_nouveau:glyph"
+}

@@ -1,0 +1,18 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "ars_nouveau:greater_experience_gem"
+    }
+  ],
+  "results": [
+    {
+      "id": "sauce:source_fluid",
+      "amount": 1000
+    }
+  ],
+  "heat_requirement": "heated",
+  "type": "create:mixing"
+}

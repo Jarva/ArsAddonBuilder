@@ -1,0 +1,35 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:wilden_wing"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "minecraft:gold_block"
+  },
+  "result": {
+    "id": "ars_elemental:air_upstream",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

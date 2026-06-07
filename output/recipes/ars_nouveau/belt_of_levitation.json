@@ -1,0 +1,38 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:mundane_belt"
+  },
+  "result": {
+    "id": "ars_nouveau:belt_of_levitation",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

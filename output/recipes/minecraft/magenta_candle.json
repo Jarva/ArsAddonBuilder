@@ -1,0 +1,17 @@
+{
+  "group": "dyed_candle",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:magenta_candle",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:candle"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

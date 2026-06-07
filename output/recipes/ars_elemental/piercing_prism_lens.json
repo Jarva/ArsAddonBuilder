@@ -1,0 +1,19 @@
+{
+  "input": {
+    "item": "minecraft:quartz"
+  },
+  "output": {
+    "id": "ars_elemental:piercing_prism_lens",
+    "count": 1
+  },
+  "source": 2000,
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:glyph_pierce"
+    }
+  ],
+  "type": "ars_nouveau:imbuement"
+}

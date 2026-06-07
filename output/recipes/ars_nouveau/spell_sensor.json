@@ -1,0 +1,13 @@
+{
+  "pedestalItems": [],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "minecraft:sculk_sensor"
+  },
+  "result": {
+    "id": "ars_nouveau:spell_sensor",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

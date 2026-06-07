@@ -1,0 +1,29 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:golden_helmet"
+    },
+    {
+      "item": "minecraft:golden_chestplate"
+    },
+    {
+      "item": "minecraft:golden_leggings"
+    },
+    {
+      "item": "minecraft:golden_boots"
+    },
+    {
+      "item": "minecraft:gilded_blackstone"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "ars_additions:golden_charm",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

@@ -1,0 +1,24 @@
+{
+  "ingredients": [
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "type": "neoforge:components",
+      "fluids": "create:potion",
+      "components": {
+        "create:potion_fluid_bottle_type": "regular",
+        "minecraft:potion_contents": {
+          "potion": "minecraft:harming"
+        }
+      },
+      "amount": 25
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:gunpowder"
+    }
+  ],
+  "type": "create:filling"
+}

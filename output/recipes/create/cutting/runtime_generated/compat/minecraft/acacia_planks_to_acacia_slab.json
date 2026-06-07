@@ -1,0 +1,15 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:acacia_slab",
+      "count": 2
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

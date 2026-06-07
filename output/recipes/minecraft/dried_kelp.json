@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:dried_kelp",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:dried_kelp_block"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

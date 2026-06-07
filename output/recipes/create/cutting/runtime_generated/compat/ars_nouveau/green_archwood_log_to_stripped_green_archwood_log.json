@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "ars_nouveau:green_archwood_log"
+    }
+  ],
+  "results": [
+    {
+      "id": "ars_nouveau:stripped_green_archwood_log"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

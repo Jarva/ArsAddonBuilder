@@ -1,0 +1,150 @@
+{
+  "pedestalItems": [
+    [
+      {
+        "item": "ars_nouveau:red_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:blue_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:purple_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:green_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:red_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:blue_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:green_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:purple_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:stripped_blue_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:stripped_blue_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:stripped_green_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:stripped_green_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:stripped_red_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:stripped_red_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:stripped_purple_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:stripped_purple_archwood_wood"
+      },
+      {
+        "item": "ars_elemental:yellow_archwood_log"
+      },
+      {
+        "item": "ars_elemental:yellow_archwood"
+      },
+      {
+        "item": "ars_elemental:stripped_yellow_archwood_log"
+      },
+      {
+        "item": "ars_elemental:stripped_yellow_archwood"
+      }
+    ],
+    [
+      {
+        "item": "ars_nouveau:red_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:blue_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:purple_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:green_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:red_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:blue_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:green_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:purple_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:stripped_blue_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:stripped_blue_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:stripped_green_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:stripped_green_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:stripped_red_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:stripped_red_archwood_wood"
+      },
+      {
+        "item": "ars_nouveau:stripped_purple_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:stripped_purple_archwood_wood"
+      },
+      {
+        "item": "ars_elemental:yellow_archwood_log"
+      },
+      {
+        "item": "ars_elemental:yellow_archwood"
+      },
+      {
+        "item": "ars_elemental:stripped_yellow_archwood_log"
+      },
+      {
+        "item": "ars_elemental:stripped_yellow_archwood"
+      }
+    ],
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:source_gem_block"
+  },
+  "result": {
+    "id": "ars_elemental:spell_mirror",
+    "count": 2
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

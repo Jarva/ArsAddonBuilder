@@ -1,0 +1,22 @@
+{
+  "output": {
+    "id": "ars_elemental:glyph_summon_slime",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

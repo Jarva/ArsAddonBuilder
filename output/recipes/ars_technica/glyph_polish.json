@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "ars_technica:glyph_polish",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "create:sand_paper"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

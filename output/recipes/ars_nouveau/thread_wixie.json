@@ -1,0 +1,38 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:wixie_shards"
+    },
+    {
+      "item": "ars_nouveau:wixie_shards"
+    },
+    {
+      "item": "ars_nouveau:wixie_shards"
+    },
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:blank_thread"
+  },
+  "result": {
+    "id": "ars_nouveau:thread_wixie",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

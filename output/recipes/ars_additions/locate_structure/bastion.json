@@ -1,0 +1,12 @@
+{
+  "structure": {
+    "tag": "ars_additions:bastion"
+  },
+  "id": "ars_additions:bastion",
+  "augments": [
+    {
+      "key": "minecraft:polished_blackstone_bricks"
+    }
+  ],
+  "type": "ars_additions:locate_structure"
+}

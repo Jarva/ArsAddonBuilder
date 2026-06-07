@@ -1,0 +1,22 @@
+{
+  "group": "chest_boat",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:mangrove_chest_boat",
+    "count": 1
+  },
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:chest"
+      },
+      {
+        "item": "ars_nouveau:archwood_chest"
+      }
+    ],
+    {
+      "item": "minecraft:mangrove_boat"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

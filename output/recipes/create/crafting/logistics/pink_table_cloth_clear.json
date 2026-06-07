@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:pink_table_cloth",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:pink_table_cloth"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

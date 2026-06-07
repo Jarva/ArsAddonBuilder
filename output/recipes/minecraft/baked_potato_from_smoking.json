@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "minecraft:baked_potato",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 100,
+  "category": "food",
+  "ingredient": {
+    "item": "minecraft:potato"
+  },
+  "type": "minecraft:smoking"
+}

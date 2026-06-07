@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "ars_nouveau:smooth_sourcestone_mosaic"
+  },
+  "result": {
+    "id": "ars_nouveau:smooth_sourcestone_mosaic_slab",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

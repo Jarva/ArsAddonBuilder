@@ -1,0 +1,28 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:ritual_binding",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:purple_archwood_log"
+    },
+    {
+      "item": "ars_nouveau:blank_parchment"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

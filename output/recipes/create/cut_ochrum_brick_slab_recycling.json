@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "result": {
+    "id": "create:cut_ochrum_bricks",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:cut_ochrum_brick_slab"
+    },
+    {
+      "item": "create:cut_ochrum_brick_slab"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

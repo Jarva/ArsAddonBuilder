@@ -1,0 +1,26 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "minecraft:saddle"
+  },
+  "result": {
+    "id": "starbunclemania:star_saddle",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

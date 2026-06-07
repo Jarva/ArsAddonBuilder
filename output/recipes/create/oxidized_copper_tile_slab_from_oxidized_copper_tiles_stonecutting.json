@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "create:oxidized_copper_tiles"
+  },
+  "result": {
+    "id": "create:oxidized_copper_tile_slab",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

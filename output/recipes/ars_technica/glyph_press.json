@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "ars_technica:glyph_press",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "create:mechanical_press"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

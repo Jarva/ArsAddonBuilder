@@ -1,0 +1,19 @@
+{
+  "output": {
+    "id": "ars_controle:glyph_filter_xnor",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:comparator"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone_torch"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

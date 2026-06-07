@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:ritual_conjure_island_plains",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:green_archwood_log"
+    },
+    {
+      "item": "minecraft:grass_block"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

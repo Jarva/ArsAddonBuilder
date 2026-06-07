@@ -1,0 +1,15 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:diorite"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:quartz",
+      "chance": 0.25
+    }
+  ],
+  "processing_time": 350,
+  "type": "create:crushing"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ars_additions:default",
+  "tag_modifiers": [
+    {
+      "type": "ars_additions:remove_guaranteed_drops"
+    },
+    {
+      "strip_tags": [
+        "Inventory",
+        "Items"
+      ],
+      "type": "ars_additions:remove_tag"
+    }
+  ],
+  "type": "ars_additions:source_spawner"
+}

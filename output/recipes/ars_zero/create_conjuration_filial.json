@@ -1,0 +1,26 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "sourceCost": 1000,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:source_gem"
+  },
+  "result": {
+    "id": "ars_zero:conjuration_filial",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

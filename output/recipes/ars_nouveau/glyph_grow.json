@@ -1,0 +1,88 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_grow",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    [
+      {
+        "item": "minecraft:beetroot_seeds"
+      },
+      {
+        "item": "minecraft:melon_seeds"
+      },
+      {
+        "item": "minecraft:pumpkin_seeds"
+      },
+      {
+        "item": "minecraft:torchflower_seeds"
+      },
+      {
+        "item": "minecraft:wheat_seeds"
+      },
+      {
+        "item": "ars_nouveau:magebloom_crop"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:beetroot_seeds"
+      },
+      {
+        "item": "minecraft:melon_seeds"
+      },
+      {
+        "item": "minecraft:pumpkin_seeds"
+      },
+      {
+        "item": "minecraft:torchflower_seeds"
+      },
+      {
+        "item": "minecraft:wheat_seeds"
+      },
+      {
+        "item": "ars_nouveau:magebloom_crop"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:beetroot_seeds"
+      },
+      {
+        "item": "minecraft:melon_seeds"
+      },
+      {
+        "item": "minecraft:pumpkin_seeds"
+      },
+      {
+        "item": "minecraft:torchflower_seeds"
+      },
+      {
+        "item": "minecraft:wheat_seeds"
+      },
+      {
+        "item": "ars_nouveau:magebloom_crop"
+      }
+    ]
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

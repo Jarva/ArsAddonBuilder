@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:ritual_forestation",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:green_archwood_log"
+    },
+    {
+      "item": "ars_nouveau:mendosteen_pod"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

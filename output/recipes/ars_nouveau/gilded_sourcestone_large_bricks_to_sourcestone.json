@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:sourcestone",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:gilded_sourcestone_large_bricks"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

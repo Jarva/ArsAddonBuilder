@@ -1,0 +1,22 @@
+{
+  "output": {
+    "id": "ars_zero:sustain_effect",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

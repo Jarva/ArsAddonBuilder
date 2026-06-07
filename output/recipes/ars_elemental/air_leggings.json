@@ -1,0 +1,25 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    }
+  ],
+  "sourceCost": 7000,
+  "reagent": {
+    "item": "ars_nouveau:arcanist_leggings"
+  },
+  "result": {
+    "id": "ars_elemental:air_leggings",
+    "count": 1
+  },
+  "type": "sauce:armor_upgrade"
+}

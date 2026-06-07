@@ -1,0 +1,22 @@
+{
+  "group": "chest_boat",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:acacia_chest_boat",
+    "count": 1
+  },
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:chest"
+      },
+      {
+        "item": "ars_nouveau:archwood_chest"
+      }
+    ],
+    {
+      "item": "minecraft:acacia_boat"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

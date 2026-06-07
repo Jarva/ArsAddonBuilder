@@ -1,0 +1,18 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "create:tea",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "create:builders_tea"
+    }
+  ],
+  "type": "create:filling"
+}

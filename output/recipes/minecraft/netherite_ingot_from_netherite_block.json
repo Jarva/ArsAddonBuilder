@@ -1,0 +1,14 @@
+{
+  "group": "netherite_ingot",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:netherite_ingot",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_block"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

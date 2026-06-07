@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:sourceberry_bush",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:sourceberry_sack"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

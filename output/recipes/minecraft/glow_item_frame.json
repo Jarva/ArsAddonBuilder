@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:glow_item_frame",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:item_frame"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

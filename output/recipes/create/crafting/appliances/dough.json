@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:dough",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:wheat_flour"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "ars_nouveau:sourcestone"
+  },
+  "result": {
+    "id": "ars_nouveau:smooth_gilded_sourcestone_basketweave",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

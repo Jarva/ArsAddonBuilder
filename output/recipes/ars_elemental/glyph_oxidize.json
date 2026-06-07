@@ -1,0 +1,22 @@
+{
+  "output": {
+    "id": "ars_elemental:glyph_oxidize",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "minecraft:oxidized_copper"
+    },
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    }
+  ],
+  "exp": 160,
+  "type": "ars_nouveau:glyph"
+}

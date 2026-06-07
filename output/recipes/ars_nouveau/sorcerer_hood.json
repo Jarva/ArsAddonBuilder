@@ -1,0 +1,26 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": true,
+  "reagent": {
+    "item": "minecraft:golden_helmet"
+  },
+  "result": {
+    "id": "ars_nouveau:sorcerer_hood",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

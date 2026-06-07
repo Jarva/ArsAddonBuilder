@@ -1,0 +1,25 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "item": "create:brass_ingot"
+    }
+  ],
+  "sourceCost": 7000,
+  "reagent": {
+    "item": "ars_nouveau:sorcerer_leggings"
+  },
+  "result": {
+    "id": "ars_technica:artificer_pants",
+    "count": 1
+  },
+  "type": "sauce:armor_upgrade"
+}

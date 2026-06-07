@@ -1,0 +1,26 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": true,
+  "reagent": {
+    "item": "minecraft:golden_chestplate"
+  },
+  "result": {
+    "id": "ars_nouveau:sorcerer_robes",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

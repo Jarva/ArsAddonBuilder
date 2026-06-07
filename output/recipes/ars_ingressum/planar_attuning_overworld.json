@@ -1,0 +1,16 @@
+{
+  "pedestal_items": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:grass_block"
+    },
+    {
+      "item": "minecraft:oak_log"
+    }
+  ],
+  "dimension": "minecraft:overworld",
+  "source": 2000,
+  "type": "ars_ingressum:planar_attuning"
+}

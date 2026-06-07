@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "create:scoria",
+    "count": 1
+  },
+  "experience": 0.0,
+  "cookingtime": 200,
+  "category": "blocks",
+  "ingredient": {
+    "item": "minecraft:soul_sand"
+  },
+  "type": "minecraft:smelting"
+}

@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "create:waxed_oxidized_copper_shingles"
+  },
+  "result": {
+    "id": "create:waxed_oxidized_copper_shingle_stairs",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

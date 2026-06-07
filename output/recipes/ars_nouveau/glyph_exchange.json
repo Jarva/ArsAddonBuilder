@@ -1,0 +1,22 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_exchange",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:emerald_block"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

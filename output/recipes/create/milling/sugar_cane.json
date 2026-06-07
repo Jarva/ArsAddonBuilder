@@ -1,0 +1,19 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:sugar_cane"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:sugar",
+      "count": 2
+    },
+    {
+      "id": "minecraft:sugar",
+      "chance": 0.1
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:milling"
+}

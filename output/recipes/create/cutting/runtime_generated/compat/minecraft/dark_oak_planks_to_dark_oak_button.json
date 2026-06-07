@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:dark_oak_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:dark_oak_button"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

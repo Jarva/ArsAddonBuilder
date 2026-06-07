@@ -1,0 +1,13 @@
+{
+  "output": {
+    "id": "toomanyglyphs:glyph_filter_player",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:poppy"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

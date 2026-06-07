@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "minecraft:cooked_cod",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 600,
+  "category": "food",
+  "ingredient": {
+    "item": "minecraft:cod"
+  },
+  "type": "minecraft:campfire_cooking"
+}

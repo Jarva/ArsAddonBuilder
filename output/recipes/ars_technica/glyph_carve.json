@@ -1,0 +1,25 @@
+{
+  "output": {
+    "id": "ars_technica:glyph_carve",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    },
+    {
+      "item": "minecraft:cobblestone_stairs"
+    },
+    {
+      "item": "minecraft:cobblestone_slab"
+    },
+    {
+      "item": "minecraft:cobblestone_wall"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "minecraft:brick",
+    "count": 1
+  },
+  "experience": 0.3,
+  "cookingtime": 200,
+  "category": "misc",
+  "ingredient": {
+    "item": "minecraft:clay_ball"
+  },
+  "type": "minecraft:smelting"
+}

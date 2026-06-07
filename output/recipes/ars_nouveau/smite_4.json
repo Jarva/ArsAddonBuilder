@@ -1,0 +1,29 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    }
+  ],
+  "enchantment": "minecraft:smite",
+  "level": 4,
+  "sourceCost": 6500,
+  "type": "ars_nouveau:enchantment"
+}

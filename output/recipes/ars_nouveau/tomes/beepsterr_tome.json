@@ -1,0 +1,52 @@
+{
+  "flavour_text": "It\u0027s covered in dirt and moss..",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 145,
+    "g": 145,
+    "b": 201
+  },
+  "sound": {
+    "sound": {
+      "id": "ars_nouveau:gaia_family"
+    }
+  },
+  "spellData": {
+    "sound": {
+      "sound": {
+        "id": "ars_nouveau:gaia_family"
+      }
+    },
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_orbit",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_sensitive",
+      "ars_nouveau:glyph_split",
+      "ars_nouveau:glyph_grow",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe"
+    ],
+    "particleTimeline": {},
+    "name": "Verdant Aura",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 145,
+      "g": 145,
+      "b": 201
+    }
+  },
+  "name": "Verdant Aura",
+  "spell": [
+    "ars_nouveau:glyph_projectile",
+    "ars_nouveau:glyph_orbit",
+    "ars_nouveau:glyph_extend_time",
+    "ars_nouveau:glyph_sensitive",
+    "ars_nouveau:glyph_split",
+    "ars_nouveau:glyph_grow",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

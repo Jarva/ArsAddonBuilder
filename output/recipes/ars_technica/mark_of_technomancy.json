@@ -1,0 +1,38 @@
+{
+  "pedestalItems": [
+    {
+      "item": "create:precision_mechanism"
+    },
+    {
+      "item": "ars_technica:calibrated_precision_mechanism"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "create:brass_sheet"
+    },
+    {
+      "item": "create:zinc_ingot"
+    },
+    {
+      "item": "create:golden_sheet"
+    }
+  ],
+  "sourceCost": 10000,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:wilden_tribute"
+  },
+  "result": {
+    "id": "ars_technica:mark_of_technomancy",
+    "count": 5
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

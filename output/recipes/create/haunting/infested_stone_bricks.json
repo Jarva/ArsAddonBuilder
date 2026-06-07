@@ -1,0 +1,13 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:stone_bricks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:infested_stone_bricks"
+    }
+  ],
+  "type": "create:haunting"
+}

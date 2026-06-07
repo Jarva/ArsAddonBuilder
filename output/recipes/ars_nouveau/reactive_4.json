@@ -1,0 +1,26 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "ars_nouveau:wilden_tribute"
+    }
+  ],
+  "enchantment": "ars_nouveau:reactive",
+  "level": 4,
+  "sourceCost": 9000,
+  "type": "ars_nouveau:enchantment"
+}

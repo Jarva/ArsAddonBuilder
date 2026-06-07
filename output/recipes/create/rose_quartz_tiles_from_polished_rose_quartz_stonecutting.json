@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "create:polished_rose_quartz"
+  },
+  "result": {
+    "id": "create:rose_quartz_tiles",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

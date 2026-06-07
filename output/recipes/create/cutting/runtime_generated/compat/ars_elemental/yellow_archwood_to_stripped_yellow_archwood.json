@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "ars_elemental:yellow_archwood"
+    }
+  ],
+  "results": [
+    {
+      "id": "ars_elemental:stripped_yellow_archwood"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

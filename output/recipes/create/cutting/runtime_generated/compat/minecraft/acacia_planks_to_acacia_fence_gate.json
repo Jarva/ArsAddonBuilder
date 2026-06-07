@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:acacia_fence_gate"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "create:copper_bars",
+    "count": 4
+  },
+  "type": "minecraft:stonecutting"
+}

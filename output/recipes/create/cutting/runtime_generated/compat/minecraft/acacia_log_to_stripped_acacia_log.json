@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_log"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:stripped_acacia_log"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

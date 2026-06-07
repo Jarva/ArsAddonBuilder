@@ -1,0 +1,5 @@
+{
+  "augment": "c:ores/quartz",
+  "highlight": "c:ores/quartz",
+  "type": "ars_nouveau:scry_ritual"
+}

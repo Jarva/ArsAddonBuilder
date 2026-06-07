@@ -1,0 +1,19 @@
+{
+  "output": {
+    "id": "arsomega:glyph_flatten",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "minecraft:iron_shovel"
+    },
+    {
+      "item": "minecraft:anvil"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

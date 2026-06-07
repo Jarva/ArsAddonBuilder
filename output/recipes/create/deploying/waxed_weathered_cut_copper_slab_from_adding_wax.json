@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:weathered_cut_copper_slab"
+    },
+    {
+      "item": "minecraft:honeycomb_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:waxed_weathered_cut_copper_slab"
+    }
+  ],
+  "keep_held_item": true,
+  "type": "create:deploying"
+}

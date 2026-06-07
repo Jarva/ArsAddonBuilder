@@ -1,0 +1,54 @@
+{
+  "ingredient": [
+    {
+      "item": "create:cut_calcite"
+    },
+    {
+      "item": "create:cut_calcite_stairs"
+    },
+    {
+      "item": "create:cut_calcite_wall"
+    },
+    {
+      "item": "create:polished_cut_calcite"
+    },
+    {
+      "item": "create:polished_cut_calcite_stairs"
+    },
+    {
+      "item": "create:polished_cut_calcite_wall"
+    },
+    {
+      "item": "create:cut_calcite_bricks"
+    },
+    {
+      "item": "create:cut_calcite_brick_stairs"
+    },
+    {
+      "item": "create:cut_calcite_brick_wall"
+    },
+    {
+      "item": "create:small_calcite_bricks"
+    },
+    {
+      "item": "create:small_calcite_brick_stairs"
+    },
+    {
+      "item": "create:small_calcite_brick_wall"
+    },
+    {
+      "item": "create:layered_calcite"
+    },
+    {
+      "item": "create:calcite_pillar"
+    },
+    {
+      "item": "minecraft:calcite"
+    }
+  ],
+  "result": {
+    "id": "create:cut_calcite_wall",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

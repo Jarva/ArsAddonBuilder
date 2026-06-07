@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "arsomega:glyph_overhead",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:iron_helmet"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

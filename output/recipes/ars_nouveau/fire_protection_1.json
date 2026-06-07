@@ -1,0 +1,20 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    }
+  ],
+  "enchantment": "minecraft:fire_protection",
+  "level": 1,
+  "sourceCost": 2000,
+  "type": "ars_nouveau:enchantment"
+}

@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "result": {
+    "id": "create:polished_cut_scorchia",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:polished_cut_scorchia_slab"
+    },
+    {
+      "item": "create:polished_cut_scorchia_slab"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

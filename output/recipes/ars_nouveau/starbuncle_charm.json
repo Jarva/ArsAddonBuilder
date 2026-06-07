@@ -1,0 +1,26 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": true,
+  "reagent": {
+    "item": "ars_nouveau:starbuncle_shards"
+  },
+  "result": {
+    "id": "ars_nouveau:starbuncle_charm",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

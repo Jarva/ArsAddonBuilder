@@ -1,0 +1,27 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:crushed_raw_gold"
+    },
+    {
+      "id": "create:crushed_raw_gold",
+      "chance": 0.75
+    },
+    {
+      "id": "create:experience_nugget",
+      "count": 2,
+      "chance": 0.75
+    },
+    {
+      "id": "minecraft:cobblestone",
+      "chance": 0.125
+    }
+  ],
+  "processing_time": 250,
+  "type": "create:crushing"
+}

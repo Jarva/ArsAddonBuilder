@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "ars_nouveau:sourcestone_small_bricks"
+  },
+  "result": {
+    "id": "ars_nouveau:sourcestone_small_bricks_stairs",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

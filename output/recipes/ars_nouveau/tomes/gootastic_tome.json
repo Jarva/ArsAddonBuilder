@@ -1,0 +1,44 @@
+{
+  "flavour_text": "The squid\u0027s Lovecraftian roots appear to make it immune.",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 255,
+    "g": 25,
+    "b": 180
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_launch",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_delay",
+      "ars_nouveau:glyph_pull",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify"
+    ],
+    "particleTimeline": {},
+    "name": "Gootastic\u0027s Telekinetic Fishing Rod",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 255,
+      "g": 25,
+      "b": 180
+    }
+  },
+  "name": "Gootastic\u0027s Telekinetic Fishing Rod",
+  "spell": [
+    "ars_nouveau:glyph_projectile",
+    "ars_nouveau:glyph_launch",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_delay",
+    "ars_nouveau:glyph_pull",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_amplify"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

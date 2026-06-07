@@ -1,0 +1,26 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "sourceCost": 1000,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:source_gem"
+  },
+  "result": {
+    "id": "ars_zero:manipulation_filial",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

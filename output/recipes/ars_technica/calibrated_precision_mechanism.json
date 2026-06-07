@@ -1,0 +1,38 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    }
+  ],
+  "sourceCost": 500,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "create:precision_mechanism"
+  },
+  "result": {
+    "id": "ars_technica:calibrated_precision_mechanism",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

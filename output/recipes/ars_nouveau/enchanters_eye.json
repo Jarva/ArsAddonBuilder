@@ -1,0 +1,38 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": true,
+  "reagent": {
+    "item": "ars_nouveau:scryers_crystal"
+  },
+  "result": {
+    "id": "ars_nouveau:enchanters_eye",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

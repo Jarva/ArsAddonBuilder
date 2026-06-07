@@ -1,0 +1,38 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:brewing_stand"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:mundane_belt"
+  },
+  "result": {
+    "id": "ars_nouveau:belt_of_unstable_gifts",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

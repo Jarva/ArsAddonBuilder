@@ -1,0 +1,20 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:summon_focus"
+    },
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:drygmy_charm"
+  },
+  "result": {
+    "id": "ars_additions:source_spawner",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

@@ -1,0 +1,23 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:pufferfish"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "minecraft:kelp"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "ars_additions:water_breathing_charm",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

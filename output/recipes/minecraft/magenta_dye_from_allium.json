@@ -1,0 +1,14 @@
+{
+  "group": "magenta_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:magenta_dye",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:allium"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

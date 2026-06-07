@@ -1,0 +1,12 @@
+{
+  "structure": {
+    "key": "ars_additions:arcane_library"
+  },
+  "id": "ars_additions:arcane_library",
+  "augments": [
+    {
+      "key": "ars_nouveau:apprentice_spell_book"
+    }
+  ],
+  "type": "ars_additions:locate_structure"
+}

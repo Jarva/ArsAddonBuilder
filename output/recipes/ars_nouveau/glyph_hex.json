@@ -1,0 +1,28 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_hex",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    }
+  ],
+  "exp": 160,
+  "type": "ars_nouveau:glyph"
+}

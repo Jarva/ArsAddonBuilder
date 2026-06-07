@@ -1,0 +1,13 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:torch"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:soul_torch"
+    }
+  ],
+  "type": "create:haunting"
+}

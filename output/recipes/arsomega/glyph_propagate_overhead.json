@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "arsomega:glyph_propagate_overhead",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "arsomega:glyph_overhead"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

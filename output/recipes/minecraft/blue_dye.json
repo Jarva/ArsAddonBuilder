@@ -1,0 +1,14 @@
+{
+  "group": "blue_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:blue_dye",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

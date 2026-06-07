@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:firework_rocket",
+    "count": 3
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

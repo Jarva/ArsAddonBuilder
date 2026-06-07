@@ -1,0 +1,18 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "type": "neoforge:single",
+      "fluid": "minecraft:water",
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:grass_block"
+    }
+  ],
+  "type": "create:filling"
+}

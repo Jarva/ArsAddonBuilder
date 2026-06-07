@@ -1,0 +1,22 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_leap",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:wilden_wing"
+    },
+    {
+      "item": "ars_nouveau:wilden_wing"
+    },
+    {
+      "item": "ars_nouveau:wilden_wing"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

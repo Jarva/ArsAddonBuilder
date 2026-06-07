@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:mimic_scroll",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:allow_scroll"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

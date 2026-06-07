@@ -1,0 +1,27 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:allow_scroll",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:blank_parchment"
+    },
+    [
+      {
+        "item": "minecraft:ender_chest"
+      },
+      {
+        "item": "minecraft:trapped_chest"
+      },
+      {
+        "item": "minecraft:chest"
+      },
+      {
+        "item": "ars_nouveau:archwood_chest"
+      }
+    ]
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

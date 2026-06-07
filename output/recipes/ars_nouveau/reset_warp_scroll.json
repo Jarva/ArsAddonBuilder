@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:warp_scroll",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:warp_scroll"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

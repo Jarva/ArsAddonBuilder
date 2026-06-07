@@ -1,0 +1,32 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    }
+  ],
+  "enchantment": "minecraft:infinity",
+  "level": 1,
+  "sourceCost": 9000,
+  "type": "ars_nouveau:enchantment"
+}

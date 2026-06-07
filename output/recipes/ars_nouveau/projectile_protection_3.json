@@ -1,0 +1,29 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    }
+  ],
+  "enchantment": "minecraft:projectile_protection",
+  "level": 3,
+  "sourceCost": 5000,
+  "type": "ars_nouveau:enchantment"
+}

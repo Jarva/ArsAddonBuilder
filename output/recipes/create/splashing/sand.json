@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:clay_ball",
+      "chance": 0.25
+    }
+  ],
+  "type": "create:splashing"
+}

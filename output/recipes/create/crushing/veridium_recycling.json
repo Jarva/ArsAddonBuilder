@@ -1,0 +1,63 @@
+{
+  "ingredients": [
+    [
+      {
+        "item": "create:cut_veridium"
+      },
+      {
+        "item": "create:cut_veridium_stairs"
+      },
+      {
+        "item": "create:cut_veridium_wall"
+      },
+      {
+        "item": "create:polished_cut_veridium"
+      },
+      {
+        "item": "create:polished_cut_veridium_stairs"
+      },
+      {
+        "item": "create:polished_cut_veridium_wall"
+      },
+      {
+        "item": "create:cut_veridium_bricks"
+      },
+      {
+        "item": "create:cut_veridium_brick_stairs"
+      },
+      {
+        "item": "create:cut_veridium_brick_wall"
+      },
+      {
+        "item": "create:small_veridium_bricks"
+      },
+      {
+        "item": "create:small_veridium_brick_stairs"
+      },
+      {
+        "item": "create:small_veridium_brick_wall"
+      },
+      {
+        "item": "create:layered_veridium"
+      },
+      {
+        "item": "create:veridium_pillar"
+      },
+      {
+        "item": "create:veridium"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "id": "create:crushed_raw_copper",
+      "chance": 0.8
+    },
+    {
+      "id": "create:copper_nugget",
+      "chance": 0.8
+    }
+  ],
+  "processing_time": 250,
+  "type": "create:crushing"
+}

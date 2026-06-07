@@ -1,0 +1,60 @@
+{
+  "flavour_text": "For those who can\u0027t settle with just a tiny hut.",
+  "color": {
+    "id": "ars_nouveau:rainbow",
+    "r": 0,
+    "g": 177,
+    "b": 255
+  },
+  "sound": {
+    "sound": {
+      "id": "ars_nouveau:tempestry_family"
+    }
+  },
+  "spellData": {
+    "sound": {
+      "sound": {
+        "id": "ars_nouveau:tempestry_family"
+      }
+    },
+    "recipe": [
+      "ars_nouveau:glyph_self",
+      "ars_nouveau:glyph_burst",
+      "ars_nouveau:glyph_sensitive",
+      "ars_nouveau:glyph_dampen",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_phantom_block",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_pierce"
+    ],
+    "particleTimeline": {},
+    "name": "Alex\u0027s Magnificent Mansion",
+    "color": {
+      "id": "ars_nouveau:rainbow",
+      "r": 0,
+      "g": 177,
+      "b": 255
+    }
+  },
+  "name": "Alex\u0027s Magnificent Mansion",
+  "spell": [
+    "ars_nouveau:glyph_self",
+    "ars_nouveau:glyph_burst",
+    "ars_nouveau:glyph_sensitive",
+    "ars_nouveau:glyph_dampen",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_phantom_block",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_pierce"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

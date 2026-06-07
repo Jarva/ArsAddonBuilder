@@ -1,0 +1,15 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:cherry_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:cherry_slab",
+      "count": 2
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

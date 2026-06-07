@@ -1,0 +1,16 @@
+{
+  "pedestalItems": [
+    {
+      "tag": "c:ender_pearls"
+    },
+    {
+      "tag": "c:ender_pearls"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "sourceCost": 5000,
+  "tier": 2,
+  "type": "ars_nouveau:armor_upgrade"
+}

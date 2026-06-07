@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:chiseled_copper"
+    },
+    {
+      "item": "minecraft:honeycomb_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:waxed_chiseled_copper"
+    }
+  ],
+  "keep_held_item": true,
+  "type": "create:deploying"
+}

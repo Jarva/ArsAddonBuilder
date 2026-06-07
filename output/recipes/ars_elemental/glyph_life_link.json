@@ -1,0 +1,19 @@
+{
+  "output": {
+    "id": "ars_elemental:glyph_life_link",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:lead"
+    },
+    {
+      "item": "sauce:anima_essence"
+    },
+    {
+      "item": "minecraft:sculk_sensor"
+    }
+  ],
+  "exp": 160,
+  "type": "ars_nouveau:glyph"
+}

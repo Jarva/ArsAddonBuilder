@@ -1,0 +1,33 @@
+{
+  "output": {
+    "id": "ars_elemental:glyph_not_aquatic_filter",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:deny_scroll"
+    },
+    [
+      {
+        "item": "minecraft:cod"
+      },
+      {
+        "item": "minecraft:cooked_cod"
+      },
+      {
+        "item": "minecraft:salmon"
+      },
+      {
+        "item": "minecraft:cooked_salmon"
+      },
+      {
+        "item": "minecraft:pufferfish"
+      },
+      {
+        "item": "minecraft:tropical_fish"
+      }
+    ]
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

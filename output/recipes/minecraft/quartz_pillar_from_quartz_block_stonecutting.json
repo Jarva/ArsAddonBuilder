@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:quartz_block"
+  },
+  "result": {
+    "id": "minecraft:quartz_pillar",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

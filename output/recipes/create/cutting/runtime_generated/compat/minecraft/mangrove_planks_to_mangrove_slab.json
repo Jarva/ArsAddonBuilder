@@ -1,0 +1,15 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:mangrove_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:mangrove_slab",
+      "count": 2
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

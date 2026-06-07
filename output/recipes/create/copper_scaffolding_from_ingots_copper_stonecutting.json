@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "create:copper_scaffolding",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

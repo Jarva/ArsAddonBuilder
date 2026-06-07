@@ -1,0 +1,13 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:glow_berries"
+    }
+  ],
+  "type": "create:haunting"
+}

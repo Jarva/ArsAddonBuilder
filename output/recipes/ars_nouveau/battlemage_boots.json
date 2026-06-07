@@ -1,0 +1,26 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": true,
+  "reagent": {
+    "item": "minecraft:diamond_boots"
+  },
+  "result": {
+    "id": "ars_nouveau:battlemage_boots",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

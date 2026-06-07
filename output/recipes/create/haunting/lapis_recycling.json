@@ -1,0 +1,18 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:prismarine_shard",
+      "chance": 0.75
+    },
+    {
+      "id": "minecraft:prismarine_crystals",
+      "chance": 0.125
+    }
+  ],
+  "type": "create:haunting"
+}

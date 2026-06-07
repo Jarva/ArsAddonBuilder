@@ -1,0 +1,22 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:encased_chain_drive",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:andesite_casing"
+    },
+    {
+      "item": "create:zinc_nugget"
+    },
+    {
+      "item": "create:zinc_nugget"
+    },
+    {
+      "item": "create:zinc_nugget"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "result": {
+    "id": "create:small_asurine_bricks",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:small_asurine_brick_slab"
+    },
+    {
+      "item": "create:small_asurine_brick_slab"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

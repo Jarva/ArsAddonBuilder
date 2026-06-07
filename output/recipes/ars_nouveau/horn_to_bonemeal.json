@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:bone_meal",
+    "count": 3
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:wilden_horn"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,25 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:ritual_sunrise",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:red_archwood_log"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "minecraft:clock"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

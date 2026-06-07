@@ -1,0 +1,25 @@
+{
+  "input": {
+    "item": "ars_nouveau:spell_turret"
+  },
+  "output": {
+    "id": "ars_elemental:air_turret",
+    "count": 1
+  },
+  "source": 5000,
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_elemental:air_focus"
+    }
+  ],
+  "type": "ars_nouveau:imbuement"
+}

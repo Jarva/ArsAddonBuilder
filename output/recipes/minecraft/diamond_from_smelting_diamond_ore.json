@@ -1,0 +1,14 @@
+{
+  "result": {
+    "id": "minecraft:diamond",
+    "count": 1
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "group": "diamond",
+  "category": "misc",
+  "ingredient": {
+    "item": "minecraft:diamond_ore"
+  },
+  "type": "minecraft:smelting"
+}

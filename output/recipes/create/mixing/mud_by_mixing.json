@@ -1,0 +1,26 @@
+{
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:dirt"
+      },
+      {
+        "item": "minecraft:coarse_dirt"
+      },
+      {
+        "item": "minecraft:rooted_dirt"
+      }
+    ],
+    {
+      "type": "neoforge:single",
+      "fluid": "minecraft:water",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:mud"
+    }
+  ],
+  "type": "create:mixing"
+}

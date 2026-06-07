@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:mud_bricks"
+  },
+  "result": {
+    "id": "minecraft:mud_brick_slab",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

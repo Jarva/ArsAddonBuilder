@@ -1,0 +1,29 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "create:copper_backtank"
+    },
+    {
+      "item": "ars_technica:calibrated_precision_mechanism"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:blank_thread"
+  },
+  "result": {
+    "id": "ars_technica:thread_pressure",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

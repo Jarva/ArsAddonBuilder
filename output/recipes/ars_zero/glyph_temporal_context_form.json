@@ -1,0 +1,19 @@
+{
+  "output": {
+    "id": "ars_zero:temporal_context_form",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:repeater"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

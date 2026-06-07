@@ -1,0 +1,17 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:wilden_spike"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    }
+  ],
+  "enchantment": "minecraft:thorns",
+  "level": 1,
+  "sourceCost": 2000,
+  "type": "ars_nouveau:enchantment"
+}

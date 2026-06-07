@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "ars_controle:glyph_filter_random",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:allow_scroll"
+    },
+    {
+      "item": "ars_nouveau:glyph_randomize"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

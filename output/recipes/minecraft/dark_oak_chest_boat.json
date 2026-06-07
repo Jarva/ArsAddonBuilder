@@ -1,0 +1,22 @@
+{
+  "group": "chest_boat",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:dark_oak_chest_boat",
+    "count": 1
+  },
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:chest"
+      },
+      {
+        "item": "ars_nouveau:archwood_chest"
+      }
+    ],
+    {
+      "item": "minecraft:dark_oak_boat"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

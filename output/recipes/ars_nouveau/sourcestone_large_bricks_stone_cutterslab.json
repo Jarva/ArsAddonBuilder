@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "ars_nouveau:sourcestone_large_bricks"
+  },
+  "result": {
+    "id": "ars_nouveau:sourcestone_large_bricks_slab",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

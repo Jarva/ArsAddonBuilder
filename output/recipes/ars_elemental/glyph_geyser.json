@@ -1,0 +1,22 @@
+{
+  "output": {
+    "id": "ars_elemental:glyph_geyser",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "minecraft:magma_block"
+    },
+    {
+      "item": "minecraft:wind_charge"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

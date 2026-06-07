@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "result": {
+    "id": "create:cut_veridium",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:cut_veridium_slab"
+    },
+    {
+      "item": "create:cut_veridium_slab"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,42 @@
+{
+  "flavour_text": "A classic.",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 255,
+    "g": 25,
+    "b": 180
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_ignite",
+      "ars_nouveau:glyph_explosion",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe"
+    ],
+    "particleTimeline": {},
+    "name": "Fireball!",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 255,
+      "g": 25,
+      "b": 180
+    }
+  },
+  "name": "Fireball!",
+  "spell": [
+    "ars_nouveau:glyph_projectile",
+    "ars_nouveau:glyph_ignite",
+    "ars_nouveau:glyph_explosion",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

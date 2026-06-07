@@ -1,0 +1,15 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:clay"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:clay_ball",
+      "count": 4
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:milling"
+}

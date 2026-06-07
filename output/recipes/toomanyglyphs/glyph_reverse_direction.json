@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "toomanyglyphs:glyph_reverse_direction",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

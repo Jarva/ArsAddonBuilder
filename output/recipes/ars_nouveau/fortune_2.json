@@ -1,0 +1,32 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    }
+  ],
+  "enchantment": "minecraft:fortune",
+  "level": 2,
+  "sourceCost": 8000,
+  "type": "ars_nouveau:enchantment"
+}

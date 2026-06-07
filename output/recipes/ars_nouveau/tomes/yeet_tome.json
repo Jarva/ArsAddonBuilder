@@ -1,0 +1,46 @@
+{
+  "flavour_text": "Summons orbiting projectiles that will launch nearby enemies.",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 255,
+    "g": 25,
+    "b": 180
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_self",
+      "ars_nouveau:glyph_orbit",
+      "ars_nouveau:glyph_launch",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_delay",
+      "ars_nouveau:glyph_gust",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify"
+    ],
+    "particleTimeline": {},
+    "name": "Knocked out of Orbit",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 255,
+      "g": 25,
+      "b": 180
+    }
+  },
+  "name": "Knocked out of Orbit",
+  "spell": [
+    "ars_nouveau:glyph_self",
+    "ars_nouveau:glyph_orbit",
+    "ars_nouveau:glyph_launch",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_delay",
+    "ars_nouveau:glyph_gust",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_amplify"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

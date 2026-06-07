@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:placard",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:item_frame"
+    },
+    {
+      "item": "create:brass_sheet"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

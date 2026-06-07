@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:bamboo_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:bamboo_pressure_plate"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

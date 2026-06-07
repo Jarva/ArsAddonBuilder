@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:runic_chalk",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "ars_nouveau:magebloom_fiber"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

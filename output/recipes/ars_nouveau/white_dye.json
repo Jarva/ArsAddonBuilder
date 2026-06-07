@@ -1,0 +1,16 @@
+{
+  "input": {
+    "item": "minecraft:lily_of_the_valley"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "minecraft:white_dye",
+        "count": 2
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_nouveau:crush"
+}

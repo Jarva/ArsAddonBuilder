@@ -1,0 +1,25 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:novice_spell_book",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:worn_notebook"
+    },
+    {
+      "item": "minecraft:iron_shovel"
+    },
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

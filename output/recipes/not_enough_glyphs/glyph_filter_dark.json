@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "not_enough_glyphs:glyph_filter_dark",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:torch"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

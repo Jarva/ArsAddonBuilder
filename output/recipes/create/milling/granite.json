@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:granite"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:red_sand"
+    }
+  ],
+  "processing_time": 200,
+  "type": "create:milling"
+}

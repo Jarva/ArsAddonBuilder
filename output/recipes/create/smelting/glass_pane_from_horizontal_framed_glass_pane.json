@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "minecraft:glass_pane",
+    "count": 1
+  },
+  "experience": 0.0,
+  "cookingtime": 50,
+  "category": "blocks",
+  "ingredient": {
+    "item": "create:horizontal_framed_glass_pane"
+  },
+  "type": "minecraft:smelting"
+}

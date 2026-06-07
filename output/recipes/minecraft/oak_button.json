@@ -1,0 +1,14 @@
+{
+  "group": "wooden_button",
+  "category": "redstone",
+  "result": {
+    "id": "minecraft:oak_button",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:oak_planks"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

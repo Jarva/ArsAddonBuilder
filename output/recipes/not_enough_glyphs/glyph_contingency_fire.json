@@ -1,0 +1,19 @@
+{
+  "output": {
+    "id": "not_enough_glyphs:glyph_contingency_fire",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "minecraft:repeater"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_extend_time",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

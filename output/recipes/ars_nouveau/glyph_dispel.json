@@ -1,0 +1,22 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_dispel",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

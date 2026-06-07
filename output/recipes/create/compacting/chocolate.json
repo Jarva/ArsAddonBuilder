@@ -1,0 +1,15 @@
+{
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "fluid": "create:chocolate",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "create:bar_of_chocolate"
+    }
+  ],
+  "type": "create:compacting"
+}

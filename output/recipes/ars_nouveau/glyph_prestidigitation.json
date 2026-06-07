@@ -1,0 +1,13 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_prestidigitation",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

@@ -1,0 +1,16 @@
+{
+  "ingredients": [
+    {
+      "item": "create:cardboard_block"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:bound_cardboard_block"
+    }
+  ],
+  "type": "create:item_application"
+}

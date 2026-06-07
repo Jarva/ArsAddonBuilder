@@ -1,0 +1,51 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_underfoot",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:iron_boots"
+    },
+    [
+      {
+        "item": "minecraft:oak_pressure_plate"
+      },
+      {
+        "item": "minecraft:spruce_pressure_plate"
+      },
+      {
+        "item": "minecraft:birch_pressure_plate"
+      },
+      {
+        "item": "minecraft:jungle_pressure_plate"
+      },
+      {
+        "item": "minecraft:acacia_pressure_plate"
+      },
+      {
+        "item": "minecraft:dark_oak_pressure_plate"
+      },
+      {
+        "item": "minecraft:crimson_pressure_plate"
+      },
+      {
+        "item": "minecraft:warped_pressure_plate"
+      },
+      {
+        "item": "minecraft:mangrove_pressure_plate"
+      },
+      {
+        "item": "minecraft:bamboo_pressure_plate"
+      },
+      {
+        "item": "minecraft:cherry_pressure_plate"
+      },
+      {
+        "item": "ars_nouveau:archwood_pressure_plate"
+      }
+    ]
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

@@ -1,0 +1,32 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "ars_nouveau:archwood_planks"
+    },
+    {
+      "item": "ars_nouveau:archwood_planks"
+    },
+    {
+      "item": "ars_nouveau:archwood_planks"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "minecraft:campfire"
+  },
+  "result": {
+    "id": "ars_nouveau:potion_diffuser",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

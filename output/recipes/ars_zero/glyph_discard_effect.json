@@ -1,0 +1,22 @@
+{
+  "output": {
+    "id": "ars_zero:discard_effect",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

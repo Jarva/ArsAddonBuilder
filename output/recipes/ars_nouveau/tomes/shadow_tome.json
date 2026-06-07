@@ -1,0 +1,48 @@
+{
+  "flavour_text": "Creates a temporary tunnel of blocks.",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 255,
+    "g": 25,
+    "b": 180
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_touch",
+      "ars_nouveau:glyph_intangible",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_extend_time"
+    ],
+    "particleTimeline": {},
+    "name": "The Shadow\u0027s Temporary Tunnel",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 255,
+      "g": 25,
+      "b": 180
+    }
+  },
+  "name": "The Shadow\u0027s Temporary Tunnel",
+  "spell": [
+    "ars_nouveau:glyph_touch",
+    "ars_nouveau:glyph_intangible",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_pierce",
+    "ars_nouveau:glyph_pierce",
+    "ars_nouveau:glyph_pierce",
+    "ars_nouveau:glyph_pierce",
+    "ars_nouveau:glyph_pierce",
+    "ars_nouveau:glyph_extend_time"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:desk_bell",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:andesite_casing"
+    },
+    {
+      "item": "create:golden_sheet"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

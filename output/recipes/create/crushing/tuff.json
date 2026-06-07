@@ -1,0 +1,31 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:tuff"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:flint",
+      "chance": 0.25
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "chance": 0.1
+    },
+    {
+      "id": "create:copper_nugget",
+      "chance": 0.1
+    },
+    {
+      "id": "create:zinc_nugget",
+      "chance": 0.1
+    },
+    {
+      "id": "minecraft:iron_nugget",
+      "chance": 0.1
+    }
+  ],
+  "processing_time": 350,
+  "type": "create:crushing"
+}

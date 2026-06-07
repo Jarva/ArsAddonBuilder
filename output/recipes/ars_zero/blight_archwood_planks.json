@@ -1,0 +1,13 @@
+{
+  "category": "building",
+  "result": {
+    "id": "ars_nouveau:archwood_planks",
+    "count": 4
+  },
+  "ingredients": [
+    {
+      "item": "ars_zero:blight_archwood_log"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

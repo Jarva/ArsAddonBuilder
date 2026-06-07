@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "starbunclemania:glyph_pickup_fluid",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "starbunclemania:fluid_jar"
+    },
+    {
+      "item": "minecraft:hopper"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_fell",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "minecraft:diamond_axe"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

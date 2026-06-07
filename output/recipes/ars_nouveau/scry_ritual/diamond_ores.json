@@ -1,0 +1,5 @@
+{
+  "augment": "c:ores/diamond",
+  "highlight": "c:ores/diamond",
+  "type": "ars_nouveau:scry_ritual"
+}

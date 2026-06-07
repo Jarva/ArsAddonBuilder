@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:mangrove_wood"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:stripped_mangrove_wood"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

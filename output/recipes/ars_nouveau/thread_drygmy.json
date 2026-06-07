@@ -1,0 +1,32 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:drygmy_shard"
+    },
+    {
+      "item": "ars_nouveau:drygmy_shard"
+    },
+    {
+      "item": "ars_nouveau:drygmy_shard"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "minecraft:rabbit_foot"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:blank_thread"
+  },
+  "result": {
+    "id": "ars_nouveau:thread_drygmy",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

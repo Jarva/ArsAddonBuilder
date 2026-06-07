@@ -1,0 +1,19 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:orange_tulip"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:orange_dye",
+      "count": 2
+    },
+    {
+      "id": "minecraft:lime_dye",
+      "chance": 0.1
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:milling"
+}

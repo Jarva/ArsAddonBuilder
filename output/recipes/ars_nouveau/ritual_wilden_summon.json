@@ -1,0 +1,49 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:ritual_wilden_summon",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:purple_archwood_log"
+    },
+    [
+      {
+        "item": "ars_nouveau:wilden_horn"
+      },
+      {
+        "item": "ars_nouveau:wilden_spike"
+      },
+      {
+        "item": "ars_nouveau:wilden_wing"
+      }
+    ],
+    [
+      {
+        "item": "ars_nouveau:wilden_horn"
+      },
+      {
+        "item": "ars_nouveau:wilden_spike"
+      },
+      {
+        "item": "ars_nouveau:wilden_wing"
+      }
+    ],
+    [
+      {
+        "item": "ars_nouveau:wilden_horn"
+      },
+      {
+        "item": "ars_nouveau:wilden_spike"
+      },
+      {
+        "item": "ars_nouveau:wilden_wing"
+      }
+    ],
+    {
+      "item": "minecraft:lapis_block"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

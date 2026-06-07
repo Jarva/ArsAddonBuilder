@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "create:copper_shingles"
+  },
+  "result": {
+    "id": "create:copper_shingle_stairs",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

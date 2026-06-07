@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:rose_quartz_lamp",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:polished_rose_quartz"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "create:zinc_ingot"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_harvest",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "minecraft:iron_hoe"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

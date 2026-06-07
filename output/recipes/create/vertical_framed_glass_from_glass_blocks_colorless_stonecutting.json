@@ -1,0 +1,24 @@
+{
+  "ingredient": [
+    {
+      "item": "create:tiled_glass"
+    },
+    {
+      "item": "create:framed_glass"
+    },
+    {
+      "item": "create:horizontal_framed_glass"
+    },
+    {
+      "item": "create:vertical_framed_glass"
+    },
+    {
+      "item": "minecraft:glass"
+    }
+  ],
+  "result": {
+    "id": "create:vertical_framed_glass",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

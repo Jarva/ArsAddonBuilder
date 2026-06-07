@@ -1,0 +1,14 @@
+{
+  "group": "black_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:black_dye",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:ink_sac"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,25 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:ritual_gravity",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:green_archwood_log"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:anvil"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

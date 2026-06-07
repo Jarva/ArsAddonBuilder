@@ -1,0 +1,23 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:oxeye_daisy"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:light_gray_dye",
+      "count": 2
+    },
+    {
+      "id": "minecraft:white_dye",
+      "chance": 0.2
+    },
+    {
+      "id": "minecraft:yellow_dye",
+      "chance": 0.05
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:milling"
+}

@@ -1,0 +1,32 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    }
+  ],
+  "enchantment": "minecraft:blast_protection",
+  "level": 4,
+  "sourceCost": 8000,
+  "type": "ars_nouveau:enchantment"
+}

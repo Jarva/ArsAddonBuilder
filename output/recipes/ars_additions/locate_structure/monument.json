@@ -1,0 +1,12 @@
+{
+  "structure": {
+    "tag": "ars_additions:monument"
+  },
+  "id": "ars_additions:monument",
+  "augments": [
+    {
+      "tag": "minecraft:fishes"
+    }
+  ],
+  "type": "ars_additions:locate_structure"
+}

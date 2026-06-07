@@ -1,0 +1,22 @@
+{
+  "input": {
+    "item": "ars_nouveau:source_gem"
+  },
+  "output": {
+    "id": "ars_nouveau:fire_essence",
+    "count": 1
+  },
+  "source": 2000,
+  "pedestalItems": [
+    {
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "item": "minecraft:torch"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "type": "ars_nouveau:imbuement"
+}

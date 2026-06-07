@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:cherry_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:cherry_fence"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

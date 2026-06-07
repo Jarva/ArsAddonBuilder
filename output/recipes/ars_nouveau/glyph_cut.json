@@ -1,0 +1,19 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_cut",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

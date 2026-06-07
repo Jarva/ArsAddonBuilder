@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "ars_nouveau:sourcestone_alternating"
+  },
+  "result": {
+    "id": "ars_nouveau:sourcestone_alternating_slab",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

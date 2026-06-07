@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "create:brass_ingot"
+  },
+  "result": {
+    "id": "create:brass_table_cloth",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

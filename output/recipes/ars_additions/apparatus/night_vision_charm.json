@@ -1,0 +1,20 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:lantern"
+    },
+    {
+      "item": "minecraft:torch"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "ars_additions:night_vision_charm",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

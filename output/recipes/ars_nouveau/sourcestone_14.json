@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "ars_nouveau:sourcestone"
+  },
+  "result": {
+    "id": "ars_nouveau:gilded_sourcestone_alternating",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

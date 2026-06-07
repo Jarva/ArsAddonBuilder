@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "ars_elemental:glyph_not_aerial_filter",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:deny_scroll"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

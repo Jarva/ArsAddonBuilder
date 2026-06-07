@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:oak_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:oak_stairs"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

@@ -1,0 +1,54 @@
+{
+  "ingredient": [
+    {
+      "item": "create:cut_tuff"
+    },
+    {
+      "item": "create:cut_tuff_stairs"
+    },
+    {
+      "item": "create:cut_tuff_wall"
+    },
+    {
+      "item": "create:polished_cut_tuff"
+    },
+    {
+      "item": "create:polished_cut_tuff_stairs"
+    },
+    {
+      "item": "create:polished_cut_tuff_wall"
+    },
+    {
+      "item": "create:cut_tuff_bricks"
+    },
+    {
+      "item": "create:cut_tuff_brick_stairs"
+    },
+    {
+      "item": "create:cut_tuff_brick_wall"
+    },
+    {
+      "item": "create:small_tuff_bricks"
+    },
+    {
+      "item": "create:small_tuff_brick_stairs"
+    },
+    {
+      "item": "create:small_tuff_brick_wall"
+    },
+    {
+      "item": "create:layered_tuff"
+    },
+    {
+      "item": "create:tuff_pillar"
+    },
+    {
+      "item": "minecraft:tuff"
+    }
+  ],
+  "result": {
+    "id": "create:cut_tuff_slab",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

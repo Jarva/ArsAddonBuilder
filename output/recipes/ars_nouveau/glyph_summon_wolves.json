@@ -1,0 +1,34 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_summon_wolves",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "ars_nouveau:wilden_wing"
+    },
+    {
+      "item": "ars_nouveau:wilden_wing"
+    },
+    {
+      "item": "ars_nouveau:wilden_wing"
+    },
+    {
+      "item": "ars_nouveau:wilden_wing"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

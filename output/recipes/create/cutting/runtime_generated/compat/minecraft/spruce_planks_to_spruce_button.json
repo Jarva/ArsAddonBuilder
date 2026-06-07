@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:spruce_button"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

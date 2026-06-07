@@ -1,0 +1,17 @@
+{
+  "group": "light_blue_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:light_blue_dye",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

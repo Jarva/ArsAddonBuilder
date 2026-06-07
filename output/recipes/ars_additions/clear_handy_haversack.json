@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_additions:handy_haversack",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_additions:handy_haversack"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

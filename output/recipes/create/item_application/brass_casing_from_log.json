@@ -1,0 +1,63 @@
+{
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:stripped_acacia_log"
+      },
+      {
+        "item": "minecraft:stripped_bamboo_block"
+      },
+      {
+        "item": "minecraft:stripped_birch_log"
+      },
+      {
+        "item": "minecraft:stripped_cherry_log"
+      },
+      {
+        "item": "minecraft:stripped_dark_oak_log"
+      },
+      {
+        "item": "minecraft:stripped_jungle_log"
+      },
+      {
+        "item": "minecraft:stripped_mangrove_log"
+      },
+      {
+        "item": "minecraft:stripped_oak_log"
+      },
+      {
+        "item": "minecraft:stripped_spruce_log"
+      },
+      {
+        "item": "minecraft:stripped_crimson_stem"
+      },
+      {
+        "item": "minecraft:stripped_warped_stem"
+      },
+      {
+        "item": "ars_nouveau:stripped_blue_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:stripped_green_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:stripped_red_archwood_log"
+      },
+      {
+        "item": "ars_nouveau:stripped_purple_archwood_log"
+      },
+      {
+        "item": "ars_elemental:stripped_yellow_archwood_log"
+      }
+    ],
+    {
+      "item": "create:brass_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:brass_casing"
+    }
+  ],
+  "type": "create:item_application"
+}

@@ -1,0 +1,13 @@
+{
+  "output": {
+    "id": "toomanyglyphs:glyph_filter_living_not_player",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:blue_orchid"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

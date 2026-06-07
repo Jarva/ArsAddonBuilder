@@ -1,0 +1,22 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_firework",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "minecraft:firework_rocket"
+    },
+    {
+      "item": "minecraft:firework_rocket"
+    },
+    {
+      "item": "minecraft:firework_star"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

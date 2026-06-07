@@ -1,0 +1,17 @@
+{
+  "group": "orange_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:orange_dye",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

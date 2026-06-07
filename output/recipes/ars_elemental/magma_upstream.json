@@ -1,0 +1,32 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "minecraft:magma_block"
+    },
+    {
+      "item": "minecraft:magma_block"
+    },
+    {
+      "item": "minecraft:magma_block"
+    },
+    {
+      "item": "minecraft:magma_block"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "minecraft:soul_sand"
+  },
+  "result": {
+    "id": "ars_elemental:magma_upstream",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

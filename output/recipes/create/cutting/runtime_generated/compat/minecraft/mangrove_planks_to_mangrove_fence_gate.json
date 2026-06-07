@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:mangrove_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:mangrove_fence_gate"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

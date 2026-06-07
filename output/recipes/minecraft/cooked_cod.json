@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "minecraft:cooked_cod",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200,
+  "category": "food",
+  "ingredient": {
+    "item": "minecraft:cod"
+  },
+  "type": "minecraft:smelting"
+}

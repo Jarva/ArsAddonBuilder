@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:redstone_requester",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:redstone_requester"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

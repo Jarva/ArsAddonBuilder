@@ -1,0 +1,19 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_rune",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:runic_chalk"
+    },
+    {
+      "item": "minecraft:tripwire_hook"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

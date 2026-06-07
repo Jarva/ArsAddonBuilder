@@ -1,0 +1,15 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:spell_parchment"
+    },
+    {
+      "tag": "c:storage_blocks/lapis"
+    },
+    {
+      "tag": "c:storage_blocks/source"
+    }
+  ],
+  "sourceCost": 3000,
+  "type": "ars_nouveau:reactive_enchantment"
+}

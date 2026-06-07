@@ -1,0 +1,76 @@
+{
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:jungle_leaves"
+      },
+      {
+        "item": "minecraft:oak_leaves"
+      },
+      {
+        "item": "minecraft:spruce_leaves"
+      },
+      {
+        "item": "minecraft:dark_oak_leaves"
+      },
+      {
+        "item": "minecraft:acacia_leaves"
+      },
+      {
+        "item": "minecraft:birch_leaves"
+      },
+      {
+        "item": "minecraft:azalea_leaves"
+      },
+      {
+        "item": "minecraft:flowering_azalea_leaves"
+      },
+      {
+        "item": "minecraft:mangrove_leaves"
+      },
+      {
+        "item": "minecraft:cherry_leaves"
+      },
+      {
+        "item": "ars_nouveau:purple_archwood_leaves"
+      },
+      {
+        "item": "ars_nouveau:blue_archwood_leaves"
+      },
+      {
+        "item": "ars_nouveau:red_archwood_leaves"
+      },
+      {
+        "item": "ars_nouveau:green_archwood_leaves"
+      },
+      {
+        "item": "ars_elemental:yellow_archwood_leaves"
+      }
+    ],
+    {
+      "type": "neoforge:single",
+      "fluid": "minecraft:water",
+      "amount": 250
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "fluid": "minecraft:milk"
+        },
+        {
+          "fluid": "minecraft:flowing_milk"
+        }
+      ],
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "create:tea",
+      "amount": 500
+    }
+  ],
+  "heat_requirement": "heated",
+  "type": "create:mixing"
+}

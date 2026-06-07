@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:cyan_table_cloth",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:cyan_table_cloth"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:drygmy_charm",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:drygmy_charm"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

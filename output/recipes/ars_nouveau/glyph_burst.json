@@ -1,0 +1,31 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_burst",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "minecraft:tnt"
+    },
+    {
+      "item": "minecraft:firework_star"
+    }
+  ],
+  "exp": 160,
+  "type": "ars_nouveau:glyph"
+}

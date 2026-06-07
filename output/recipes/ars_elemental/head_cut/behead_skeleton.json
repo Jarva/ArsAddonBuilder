@@ -1,0 +1,9 @@
+{
+  "output": {
+    "id": "minecraft:skeleton_skull",
+    "count": 1
+  },
+  "mob": "minecraft:skeleton",
+  "drop_chance": 10,
+  "type": "ars_elemental:head_cut"
+}

@@ -1,0 +1,20 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    }
+  ],
+  "enchantment": "minecraft:efficiency",
+  "level": 1,
+  "sourceCost": 2000,
+  "type": "ars_nouveau:enchantment"
+}

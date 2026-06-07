@@ -1,0 +1,15 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:bamboo_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:bamboo_slab",
+      "count": 2
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

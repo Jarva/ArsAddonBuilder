@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:sand_paper",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

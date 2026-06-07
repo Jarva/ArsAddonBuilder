@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_additions:sourcestone_button",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:sourcestone"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

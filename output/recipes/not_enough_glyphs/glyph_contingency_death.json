@@ -1,0 +1,39 @@
+{
+  "output": {
+    "id": "not_enough_glyphs:glyph_contingency_death",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "minecraft:repeater"
+    },
+    [
+      {
+        "item": "minecraft:player_head"
+      },
+      {
+        "item": "minecraft:creeper_head"
+      },
+      {
+        "item": "minecraft:zombie_head"
+      },
+      {
+        "item": "minecraft:skeleton_skull"
+      },
+      {
+        "item": "minecraft:wither_skeleton_skull"
+      },
+      {
+        "item": "minecraft:dragon_head"
+      },
+      {
+        "item": "minecraft:piglin_head"
+      }
+    ]
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

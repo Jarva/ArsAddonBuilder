@@ -1,0 +1,19 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_freeze",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "minecraft:snow_block"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

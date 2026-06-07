@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:writable_book",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

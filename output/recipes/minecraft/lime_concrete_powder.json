@@ -1,0 +1,38 @@
+{
+  "group": "concrete_powder",
+  "category": "building",
+  "result": {
+    "id": "minecraft:lime_concrete_powder",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

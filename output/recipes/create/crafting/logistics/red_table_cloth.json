@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "result": {
+    "id": "create:red_table_cloth",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:red_wool"
+    },
+    {
+      "item": "create:andesite_alloy"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

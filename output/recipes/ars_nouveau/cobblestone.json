@@ -1,0 +1,27 @@
+{
+  "input": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:infested_cobblestone"
+    },
+    {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ],
+  "output": [
+    {
+      "stack": {
+        "id": "minecraft:gravel",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_nouveau:crush"
+}

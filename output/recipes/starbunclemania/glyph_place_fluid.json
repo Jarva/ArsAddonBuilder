@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "starbunclemania:glyph_place_fluid",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "minecraft:dispenser"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

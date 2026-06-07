@@ -1,0 +1,5 @@
+{
+  "augment": "c:ores/coal",
+  "highlight": "c:ores/coal",
+  "type": "ars_nouveau:scry_ritual"
+}

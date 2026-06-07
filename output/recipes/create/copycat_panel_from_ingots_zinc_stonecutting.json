@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "create:zinc_ingot"
+  },
+  "result": {
+    "id": "create:copycat_panel",
+    "count": 4
+  },
+  "type": "minecraft:stonecutting"
+}

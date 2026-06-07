@@ -1,0 +1,29 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:wilden_horn"
+    },
+    {
+      "item": "ars_nouveau:wilden_spike"
+    },
+    {
+      "item": "ars_nouveau:wilden_wing"
+    },
+    {
+      "item": "ars_nouveau:wilden_tribute"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:source_gem_block"
+  },
+  "result": {
+    "id": "ars_nouveau:summon_focus",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

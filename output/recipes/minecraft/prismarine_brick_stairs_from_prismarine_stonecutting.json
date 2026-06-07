@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:prismarine_bricks"
+  },
+  "result": {
+    "id": "minecraft:prismarine_brick_stairs",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

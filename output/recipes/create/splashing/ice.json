@@ -1,0 +1,13 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:ice"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:packed_ice"
+    }
+  ],
+  "type": "create:splashing"
+}

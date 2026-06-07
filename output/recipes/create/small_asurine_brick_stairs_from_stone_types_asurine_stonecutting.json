@@ -1,0 +1,54 @@
+{
+  "ingredient": [
+    {
+      "item": "create:cut_asurine"
+    },
+    {
+      "item": "create:cut_asurine_stairs"
+    },
+    {
+      "item": "create:cut_asurine_wall"
+    },
+    {
+      "item": "create:polished_cut_asurine"
+    },
+    {
+      "item": "create:polished_cut_asurine_stairs"
+    },
+    {
+      "item": "create:polished_cut_asurine_wall"
+    },
+    {
+      "item": "create:cut_asurine_bricks"
+    },
+    {
+      "item": "create:cut_asurine_brick_stairs"
+    },
+    {
+      "item": "create:cut_asurine_brick_wall"
+    },
+    {
+      "item": "create:small_asurine_bricks"
+    },
+    {
+      "item": "create:small_asurine_brick_stairs"
+    },
+    {
+      "item": "create:small_asurine_brick_wall"
+    },
+    {
+      "item": "create:layered_asurine"
+    },
+    {
+      "item": "create:asurine_pillar"
+    },
+    {
+      "item": "create:asurine"
+    }
+  ],
+  "result": {
+    "id": "create:small_asurine_brick_stairs",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

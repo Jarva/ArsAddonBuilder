@@ -1,0 +1,42 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_zero:mage_spell_staff",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_zero:novice_spell_staff"
+    },
+    [
+      {
+        "item": "minecraft:obsidian"
+      },
+      {
+        "item": "minecraft:crying_obsidian"
+      }
+    ],
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "type": "ars_zero:staff_upgrade"
+}

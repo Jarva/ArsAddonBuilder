@@ -1,0 +1,29 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_horse_armor"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:diamond"
+    },
+    {
+      "id": "minecraft:leather",
+      "count": 2,
+      "chance": 0.5
+    },
+    {
+      "id": "minecraft:diamond",
+      "count": 3,
+      "chance": 0.1
+    },
+    {
+      "id": "minecraft:string",
+      "count": 2,
+      "chance": 0.25
+    }
+  ],
+  "processing_time": 200,
+  "type": "create:crushing"
+}

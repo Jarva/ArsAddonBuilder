@@ -1,0 +1,14 @@
+{
+  "group": "light_blue_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:light_blue_dye",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:blue_orchid"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

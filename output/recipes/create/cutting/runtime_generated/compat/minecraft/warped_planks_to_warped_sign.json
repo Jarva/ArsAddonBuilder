@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:warped_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:warped_sign"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

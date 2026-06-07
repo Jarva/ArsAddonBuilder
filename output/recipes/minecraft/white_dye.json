@@ -1,0 +1,14 @@
+{
+  "group": "white_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:white_dye",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

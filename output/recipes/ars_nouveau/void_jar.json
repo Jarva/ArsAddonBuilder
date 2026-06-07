@@ -1,0 +1,26 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "ars_nouveau:allow_scroll"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "ars_nouveau:void_jar",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

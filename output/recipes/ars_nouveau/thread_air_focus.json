@@ -1,0 +1,23 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_elemental:lesser_air_focus"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:blank_thread"
+  },
+  "result": {
+    "id": "ars_nouveau:thread_air_focus",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

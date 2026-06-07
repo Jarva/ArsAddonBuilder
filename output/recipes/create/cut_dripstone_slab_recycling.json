@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "result": {
+    "id": "create:cut_dripstone",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:cut_dripstone_slab"
+    },
+    {
+      "item": "create:cut_dripstone_slab"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

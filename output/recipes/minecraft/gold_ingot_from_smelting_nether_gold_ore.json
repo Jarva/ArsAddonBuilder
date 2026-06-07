@@ -1,0 +1,14 @@
+{
+  "result": {
+    "id": "minecraft:gold_ingot",
+    "count": 1
+  },
+  "experience": 1.0,
+  "cookingtime": 200,
+  "group": "gold_ingot",
+  "category": "misc",
+  "ingredient": {
+    "item": "minecraft:nether_gold_ore"
+  },
+  "type": "minecraft:smelting"
+}

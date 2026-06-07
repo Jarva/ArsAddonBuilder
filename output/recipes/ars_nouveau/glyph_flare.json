@@ -1,0 +1,28 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_flare",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

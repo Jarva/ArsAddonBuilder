@@ -1,0 +1,51 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:train_trapdoor",
+    "count": 1
+  },
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:acacia_trapdoor"
+      },
+      {
+        "item": "minecraft:birch_trapdoor"
+      },
+      {
+        "item": "minecraft:dark_oak_trapdoor"
+      },
+      {
+        "item": "minecraft:jungle_trapdoor"
+      },
+      {
+        "item": "minecraft:oak_trapdoor"
+      },
+      {
+        "item": "minecraft:spruce_trapdoor"
+      },
+      {
+        "item": "minecraft:crimson_trapdoor"
+      },
+      {
+        "item": "minecraft:warped_trapdoor"
+      },
+      {
+        "item": "minecraft:mangrove_trapdoor"
+      },
+      {
+        "item": "minecraft:bamboo_trapdoor"
+      },
+      {
+        "item": "minecraft:cherry_trapdoor"
+      },
+      {
+        "item": "ars_nouveau:archwood_trapdoor"
+      }
+    ],
+    {
+      "item": "create:railway_casing"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

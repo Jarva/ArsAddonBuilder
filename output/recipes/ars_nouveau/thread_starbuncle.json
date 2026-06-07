@@ -1,0 +1,38 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:starbuncle_shards"
+    },
+    {
+      "item": "ars_nouveau:starbuncle_shards"
+    },
+    {
+      "item": "ars_nouveau:starbuncle_shards"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:blank_thread"
+  },
+  "result": {
+    "id": "ars_nouveau:thread_starbuncle",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

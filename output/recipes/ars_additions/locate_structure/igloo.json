@@ -1,0 +1,12 @@
+{
+  "structure": {
+    "tag": "ars_additions:igloo"
+  },
+  "id": "ars_additions:igloo",
+  "augments": [
+    {
+      "key": "minecraft:ice"
+    }
+  ],
+  "type": "ars_additions:locate_structure"
+}

@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:empty_schematic",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

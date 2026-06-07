@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:annotated_codex",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:blank_parchment"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    }
+  ],
+  "enchantment": "minecraft:respiration",
+  "level": 1,
+  "sourceCost": 3000,
+  "type": "ars_nouveau:enchantment"
+}

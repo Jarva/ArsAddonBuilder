@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:bricks"
+  },
+  "result": {
+    "id": "minecraft:brick_wall",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

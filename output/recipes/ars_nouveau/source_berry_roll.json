@@ -1,0 +1,22 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:source_berry_roll",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "ars_nouveau:sourceberry_bush"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

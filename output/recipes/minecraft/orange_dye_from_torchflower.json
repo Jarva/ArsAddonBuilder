@@ -1,0 +1,14 @@
+{
+  "group": "orange_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:orange_dye",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:torchflower"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

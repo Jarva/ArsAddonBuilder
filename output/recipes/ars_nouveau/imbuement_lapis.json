@@ -1,0 +1,12 @@
+{
+  "input": {
+    "item": "minecraft:lapis_lazuli"
+  },
+  "output": {
+    "id": "ars_nouveau:source_gem",
+    "count": 1
+  },
+  "source": 500,
+  "pedestalItems": [],
+  "type": "ars_nouveau:imbuement"
+}

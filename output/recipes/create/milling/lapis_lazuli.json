@@ -1,0 +1,19 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:blue_dye",
+      "count": 2
+    },
+    {
+      "id": "minecraft:blue_dye",
+      "chance": 0.1
+    }
+  ],
+  "processing_time": 100,
+  "type": "create:milling"
+}

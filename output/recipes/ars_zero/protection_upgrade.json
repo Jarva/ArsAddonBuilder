@@ -1,0 +1,38 @@
+{
+  "reagent": [
+    {
+      "item": "ars_zero:novice_spell_staff"
+    },
+    {
+      "item": "ars_zero:mage_spell_staff"
+    },
+    {
+      "item": "ars_zero:archmage_spell_staff"
+    },
+    {
+      "item": "ars_zero:creative_spell_staff"
+    },
+    {
+      "item": "ars_zero:spellcasting_circlet"
+    }
+  ],
+  "pedestalItems": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    }
+  ],
+  "sourceCost": 2000,
+  "type": "ars_zero:protection_upgrade"
+}

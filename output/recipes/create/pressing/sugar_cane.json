@@ -1,0 +1,13 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:sugar_cane"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:paper"
+    }
+  ],
+  "type": "create:pressing"
+}

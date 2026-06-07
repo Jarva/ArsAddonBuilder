@@ -1,0 +1,21 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:chest_minecart",
+    "count": 1
+  },
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:chest"
+      },
+      {
+        "item": "ars_nouveau:archwood_chest"
+      }
+    ],
+    {
+      "item": "minecraft:minecart"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

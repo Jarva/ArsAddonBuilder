@@ -1,0 +1,25 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_blink",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "exp": 160,
+  "type": "ars_nouveau:glyph"
+}

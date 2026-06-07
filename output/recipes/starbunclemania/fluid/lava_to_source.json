@@ -1,0 +1,5 @@
+{
+  "fluid": "minecraft:lava",
+  "mb_to_source_ratio": 1.6,
+  "type": "starbunclemania:fluid_sourcelink"
+}

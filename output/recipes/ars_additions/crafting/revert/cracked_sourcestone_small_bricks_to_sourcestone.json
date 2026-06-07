@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:sourcestone",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_additions:cracked_sourcestone_small_bricks"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

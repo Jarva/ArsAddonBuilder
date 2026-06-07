@@ -1,0 +1,54 @@
+{
+  "ingredient": [
+    {
+      "item": "create:cut_andesite"
+    },
+    {
+      "item": "create:cut_andesite_stairs"
+    },
+    {
+      "item": "create:cut_andesite_wall"
+    },
+    {
+      "item": "create:polished_cut_andesite"
+    },
+    {
+      "item": "create:polished_cut_andesite_stairs"
+    },
+    {
+      "item": "create:polished_cut_andesite_wall"
+    },
+    {
+      "item": "create:cut_andesite_bricks"
+    },
+    {
+      "item": "create:cut_andesite_brick_stairs"
+    },
+    {
+      "item": "create:cut_andesite_brick_wall"
+    },
+    {
+      "item": "create:small_andesite_bricks"
+    },
+    {
+      "item": "create:small_andesite_brick_stairs"
+    },
+    {
+      "item": "create:small_andesite_brick_wall"
+    },
+    {
+      "item": "create:layered_andesite"
+    },
+    {
+      "item": "create:andesite_pillar"
+    },
+    {
+      "item": "minecraft:andesite"
+    }
+  ],
+  "result": {
+    "id": "create:small_andesite_brick_stairs",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

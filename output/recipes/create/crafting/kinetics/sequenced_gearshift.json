@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:sequenced_gearshift",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:brass_casing"
+    },
+    {
+      "item": "create:cogwheel"
+    },
+    {
+      "item": "create:electron_tube"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

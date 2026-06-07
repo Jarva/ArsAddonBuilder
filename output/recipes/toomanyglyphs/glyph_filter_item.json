@@ -1,0 +1,13 @@
+{
+  "output": {
+    "id": "toomanyglyphs:glyph_filter_item",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:emerald"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

@@ -1,0 +1,14 @@
+{
+  "group": "pink_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:pink_dye",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

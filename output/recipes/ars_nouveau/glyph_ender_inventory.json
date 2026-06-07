@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_ender_inventory",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "minecraft:ender_chest"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

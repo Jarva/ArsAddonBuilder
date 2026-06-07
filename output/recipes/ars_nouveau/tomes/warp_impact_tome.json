@@ -1,0 +1,36 @@
+{
+  "flavour_text": "Teleportation, with style!",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 255,
+    "g": 25,
+    "b": 180
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_blink",
+      "ars_nouveau:glyph_explosion",
+      "ars_nouveau:glyph_aoe"
+    ],
+    "particleTimeline": {},
+    "name": "Warp Impact",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 255,
+      "g": 25,
+      "b": 180
+    }
+  },
+  "name": "Warp Impact",
+  "spell": [
+    "ars_nouveau:glyph_projectile",
+    "ars_nouveau:glyph_blink",
+    "ars_nouveau:glyph_explosion",
+    "ars_nouveau:glyph_aoe"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

@@ -1,0 +1,17 @@
+{
+  "group": "dyed_candle",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:black_candle",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:candle"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

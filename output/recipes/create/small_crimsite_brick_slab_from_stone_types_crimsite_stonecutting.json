@@ -1,0 +1,54 @@
+{
+  "ingredient": [
+    {
+      "item": "create:cut_crimsite"
+    },
+    {
+      "item": "create:cut_crimsite_stairs"
+    },
+    {
+      "item": "create:cut_crimsite_wall"
+    },
+    {
+      "item": "create:polished_cut_crimsite"
+    },
+    {
+      "item": "create:polished_cut_crimsite_stairs"
+    },
+    {
+      "item": "create:polished_cut_crimsite_wall"
+    },
+    {
+      "item": "create:cut_crimsite_bricks"
+    },
+    {
+      "item": "create:cut_crimsite_brick_stairs"
+    },
+    {
+      "item": "create:cut_crimsite_brick_wall"
+    },
+    {
+      "item": "create:small_crimsite_bricks"
+    },
+    {
+      "item": "create:small_crimsite_brick_stairs"
+    },
+    {
+      "item": "create:small_crimsite_brick_wall"
+    },
+    {
+      "item": "create:layered_crimsite"
+    },
+    {
+      "item": "create:crimsite_pillar"
+    },
+    {
+      "item": "create:crimsite"
+    }
+  ],
+  "result": {
+    "id": "create:small_crimsite_brick_slab",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

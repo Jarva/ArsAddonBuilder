@@ -1,0 +1,14 @@
+{
+  "group": "pink_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:pink_dye",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:pink_tulip"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

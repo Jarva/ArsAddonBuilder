@@ -1,0 +1,17 @@
+{
+  "group": "cyan_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:cyan_dye",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "minecraft:green_dye"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

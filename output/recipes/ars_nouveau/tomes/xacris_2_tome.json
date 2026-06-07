@@ -1,0 +1,48 @@
+{
+  "flavour_text": "Light up the sky",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 25,
+    "g": 255,
+    "b": 255
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_wall",
+      "ars_nouveau:glyph_sensitive",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_firework",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_amplify"
+    ],
+    "particleTimeline": {},
+    "name": "Xacris\u0027s Firework Display",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 25,
+      "g": 255,
+      "b": 255
+    }
+  },
+  "name": "Xacris\u0027s Firework Display",
+  "spell": [
+    "ars_nouveau:glyph_projectile",
+    "ars_nouveau:glyph_wall",
+    "ars_nouveau:glyph_sensitive",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_firework",
+    "ars_nouveau:glyph_extend_time",
+    "ars_nouveau:glyph_extend_time",
+    "ars_nouveau:glyph_extend_time",
+    "ars_nouveau:glyph_extend_time",
+    "ars_nouveau:glyph_amplify"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:pink_dye",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:magebloom"
+    },
+    {
+      "item": "ars_nouveau:magebloom"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:ritual_challenge",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:purple_archwood_log"
+    },
+    {
+      "item": "ars_nouveau:wilden_horn"
+    },
+    {
+      "item": "minecraft:emerald"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

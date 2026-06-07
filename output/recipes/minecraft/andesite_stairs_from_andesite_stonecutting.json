@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:andesite"
+  },
+  "result": {
+    "id": "minecraft:andesite_stairs",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

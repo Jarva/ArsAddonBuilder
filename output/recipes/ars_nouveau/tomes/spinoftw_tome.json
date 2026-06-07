@@ -1,0 +1,46 @@
+{
+  "flavour_text": " A utility spell to aid you in your adventures",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 225,
+    "g": 90,
+    "b": 1
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_self",
+      "ars_nouveau:glyph_conjure_water",
+      "ars_nouveau:glyph_heal",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_phantom_block",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe"
+    ],
+    "particleTimeline": {},
+    "name": "You were hurt, but you\u0027re fine",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 225,
+      "g": 90,
+      "b": 1
+    }
+  },
+  "name": "You were hurt, but you\u0027re fine",
+  "spell": [
+    "ars_nouveau:glyph_self",
+    "ars_nouveau:glyph_conjure_water",
+    "ars_nouveau:glyph_heal",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_phantom_block",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

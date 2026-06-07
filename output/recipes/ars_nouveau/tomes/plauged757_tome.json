@@ -1,0 +1,56 @@
+{
+  "flavour_text": "WARNING: ONLY TO BE USED AS A LAST RESORT!!",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 255,
+    "g": 1,
+    "b": 1
+  },
+  "sound": {
+    "sound": {
+      "id": "ars_nouveau:gaia_family"
+    }
+  },
+  "spellData": {
+    "sound": {
+      "sound": {
+        "id": "ars_nouveau:gaia_family"
+      }
+    },
+    "recipe": [
+      "ars_nouveau:glyph_self",
+      "ars_nouveau:glyph_explosion",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe"
+    ],
+    "particleTimeline": {},
+    "name": "Self Atomic",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 255,
+      "g": 1,
+      "b": 1
+    }
+  },
+  "name": "Self Atomic",
+  "spell": [
+    "ars_nouveau:glyph_self",
+    "ars_nouveau:glyph_explosion",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

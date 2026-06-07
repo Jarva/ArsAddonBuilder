@@ -1,0 +1,36 @@
+{
+  "flavour_text": "Heroes are so straightforward, so easily befuddled...",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 25,
+    "g": 255,
+    "b": 255
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_self",
+      "ars_nouveau:glyph_summon_decoy",
+      "ars_nouveau:glyph_blink",
+      "ars_nouveau:glyph_amplify"
+    ],
+    "particleTimeline": {},
+    "name": "KirinDave\u0027s Sinister Switch",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 25,
+      "g": 255,
+      "b": 255
+    }
+  },
+  "name": "KirinDave\u0027s Sinister Switch",
+  "spell": [
+    "ars_nouveau:glyph_self",
+    "ars_nouveau:glyph_summon_decoy",
+    "ars_nouveau:glyph_blink",
+    "ars_nouveau:glyph_amplify"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

@@ -1,0 +1,19 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:raw_gold"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:crushed_raw_gold"
+    },
+    {
+      "id": "create:experience_nugget",
+      "count": 2,
+      "chance": 0.75
+    }
+  ],
+  "processing_time": 400,
+  "type": "create:crushing"
+}

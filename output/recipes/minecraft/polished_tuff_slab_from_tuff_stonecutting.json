@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:tuff"
+  },
+  "result": {
+    "id": "minecraft:polished_tuff_slab",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

@@ -1,0 +1,38 @@
+{
+  "pedestalItems": [
+    [
+      {
+        "item": "minecraft:obsidian"
+      },
+      {
+        "item": "minecraft:crying_obsidian"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:obsidian"
+      },
+      {
+        "item": "minecraft:crying_obsidian"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:obsidian"
+      },
+      {
+        "item": "minecraft:crying_obsidian"
+      }
+    ]
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:blank_thread"
+  },
+  "result": {
+    "id": "ars_nouveau:thread_amethyst_golem",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

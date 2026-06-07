@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_projectile",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:fletching_table"
+    },
+    {
+      "item": "minecraft:arrow"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

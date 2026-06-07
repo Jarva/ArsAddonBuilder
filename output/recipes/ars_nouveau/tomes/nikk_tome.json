@@ -1,0 +1,42 @@
+{
+  "flavour_text": "Weaken it, kill it and take it home.",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 255,
+    "g": 204,
+    "b": 204
+  },
+  "sound": {},
+  "spellData": {
+    "sound": {},
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_hex",
+      "ars_nouveau:glyph_harm",
+      "ars_nouveau:glyph_blink",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_pickup",
+      "ars_nouveau:glyph_aoe"
+    ],
+    "particleTimeline": {},
+    "name": "Sutokahs LOVE",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 255,
+      "g": 204,
+      "b": 204
+    }
+  },
+  "name": "Sutokahs LOVE",
+  "spell": [
+    "ars_nouveau:glyph_projectile",
+    "ars_nouveau:glyph_hex",
+    "ars_nouveau:glyph_harm",
+    "ars_nouveau:glyph_blink",
+    "ars_nouveau:glyph_amplify",
+    "ars_nouveau:glyph_pickup",
+    "ars_nouveau:glyph_aoe"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

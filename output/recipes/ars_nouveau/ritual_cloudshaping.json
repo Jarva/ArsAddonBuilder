@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:ritual_cloudshaping",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:blue_archwood_log"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

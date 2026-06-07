@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:mushroom_stew",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

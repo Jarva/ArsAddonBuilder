@@ -1,0 +1,13 @@
+{
+  "ingredients": [
+    {
+      "item": "create:wheat_flour"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:dough"
+    }
+  ],
+  "type": "create:splashing"
+}

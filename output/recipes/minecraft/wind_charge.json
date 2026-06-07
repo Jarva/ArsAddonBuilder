@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:wind_charge",
+    "count": 4
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:breeze_rod"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

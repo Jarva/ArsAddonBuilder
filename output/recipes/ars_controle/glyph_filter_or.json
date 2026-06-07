@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "ars_controle:glyph_filter_or",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:comparator"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

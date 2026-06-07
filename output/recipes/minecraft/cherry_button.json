@@ -1,0 +1,14 @@
+{
+  "group": "wooden_button",
+  "category": "redstone",
+  "result": {
+    "id": "minecraft:cherry_button",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:cherry_planks"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

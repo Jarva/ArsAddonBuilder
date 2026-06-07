@@ -1,0 +1,17 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:enchanters_mirror"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    }
+  ],
+  "enchantment": "ars_elemental:mirror_shield",
+  "level": 3,
+  "sourceCost": 8000,
+  "type": "ars_nouveau:enchantment"
+}

@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:schematic_and_quill",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:empty_schematic"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

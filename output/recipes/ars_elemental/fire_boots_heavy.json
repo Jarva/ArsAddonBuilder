@@ -1,0 +1,25 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    }
+  ],
+  "sourceCost": 7000,
+  "reagent": {
+    "item": "ars_nouveau:battlemage_boots"
+  },
+  "result": {
+    "id": "ars_elemental:fire_boots_heavy",
+    "count": 1
+  },
+  "type": "sauce:armor_upgrade"
+}

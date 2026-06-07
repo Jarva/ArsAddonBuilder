@@ -1,0 +1,31 @@
+{
+  "output": {
+    "id": "ars_zero:effect_geometrize",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    {
+      "item": "ars_nouveau:conjuration_essence"
+    },
+    {
+      "item": "minecraft:diamond_pickaxe"
+    }
+  ],
+  "exp": 250,
+  "type": "ars_nouveau:glyph"
+}

@@ -1,0 +1,63 @@
+{
+  "ingredients": [
+    [
+      {
+        "item": "create:cut_crimsite"
+      },
+      {
+        "item": "create:cut_crimsite_stairs"
+      },
+      {
+        "item": "create:cut_crimsite_wall"
+      },
+      {
+        "item": "create:polished_cut_crimsite"
+      },
+      {
+        "item": "create:polished_cut_crimsite_stairs"
+      },
+      {
+        "item": "create:polished_cut_crimsite_wall"
+      },
+      {
+        "item": "create:cut_crimsite_bricks"
+      },
+      {
+        "item": "create:cut_crimsite_brick_stairs"
+      },
+      {
+        "item": "create:cut_crimsite_brick_wall"
+      },
+      {
+        "item": "create:small_crimsite_bricks"
+      },
+      {
+        "item": "create:small_crimsite_brick_stairs"
+      },
+      {
+        "item": "create:small_crimsite_brick_wall"
+      },
+      {
+        "item": "create:layered_crimsite"
+      },
+      {
+        "item": "create:crimsite_pillar"
+      },
+      {
+        "item": "create:crimsite"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "id": "create:crushed_raw_iron",
+      "chance": 0.4
+    },
+    {
+      "id": "minecraft:iron_nugget",
+      "chance": 0.4
+    }
+  ],
+  "processing_time": 250,
+  "type": "create:crushing"
+}

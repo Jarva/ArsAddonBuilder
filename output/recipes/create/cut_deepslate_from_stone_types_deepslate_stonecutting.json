@@ -1,0 +1,54 @@
+{
+  "ingredient": [
+    {
+      "item": "create:cut_deepslate"
+    },
+    {
+      "item": "create:cut_deepslate_stairs"
+    },
+    {
+      "item": "create:cut_deepslate_wall"
+    },
+    {
+      "item": "create:polished_cut_deepslate"
+    },
+    {
+      "item": "create:polished_cut_deepslate_stairs"
+    },
+    {
+      "item": "create:polished_cut_deepslate_wall"
+    },
+    {
+      "item": "create:cut_deepslate_bricks"
+    },
+    {
+      "item": "create:cut_deepslate_brick_stairs"
+    },
+    {
+      "item": "create:cut_deepslate_brick_wall"
+    },
+    {
+      "item": "create:small_deepslate_bricks"
+    },
+    {
+      "item": "create:small_deepslate_brick_stairs"
+    },
+    {
+      "item": "create:small_deepslate_brick_wall"
+    },
+    {
+      "item": "create:layered_deepslate"
+    },
+    {
+      "item": "create:deepslate_pillar"
+    },
+    {
+      "item": "minecraft:deepslate"
+    }
+  ],
+  "result": {
+    "id": "create:cut_deepslate",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

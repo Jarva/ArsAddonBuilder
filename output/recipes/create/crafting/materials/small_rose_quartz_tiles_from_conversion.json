@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:small_rose_quartz_tiles",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:rose_quartz_tiles"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

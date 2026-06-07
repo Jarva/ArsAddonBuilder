@@ -1,0 +1,12 @@
+{
+  "structure": {
+    "tag": "ars_additions:nether_fortress"
+  },
+  "id": "ars_additions:fortress",
+  "augments": [
+    {
+      "key": "minecraft:nether_brick"
+    }
+  ],
+  "type": "ars_additions:locate_structure"
+}

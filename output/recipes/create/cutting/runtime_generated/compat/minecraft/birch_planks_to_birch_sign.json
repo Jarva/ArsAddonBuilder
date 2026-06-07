@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:birch_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:birch_sign"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:powder_snow_bucket",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "minecraft:snow_block"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

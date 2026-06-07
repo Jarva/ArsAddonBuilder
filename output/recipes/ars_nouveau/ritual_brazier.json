@@ -1,0 +1,25 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:ritual_brazier",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:arcane_pedestal"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

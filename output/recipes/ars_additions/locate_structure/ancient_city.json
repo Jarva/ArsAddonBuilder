@@ -1,0 +1,12 @@
+{
+  "structure": {
+    "tag": "ars_additions:ancient_city"
+  },
+  "id": "ars_additions:ancient_city",
+  "augments": [
+    {
+      "key": "minecraft:deepslate_bricks"
+    }
+  ],
+  "type": "ars_additions:locate_structure"
+}

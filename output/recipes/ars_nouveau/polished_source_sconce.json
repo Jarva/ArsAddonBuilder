@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:sourcestone_sconce",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:polished_sconce"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

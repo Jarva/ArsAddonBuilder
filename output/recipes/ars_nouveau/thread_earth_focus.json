@@ -1,0 +1,23 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_elemental:lesser_earth_focus"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    },
+    {
+      "item": "ars_nouveau:earth_essence"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:blank_thread"
+  },
+  "result": {
+    "id": "ars_nouveau:thread_earth_focus",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

@@ -1,0 +1,27 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:deny_scroll",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:blank_parchment"
+    },
+    [
+      {
+        "item": "minecraft:cobblestone"
+      },
+      {
+        "item": "minecraft:infested_cobblestone"
+      },
+      {
+        "item": "minecraft:mossy_cobblestone"
+      },
+      {
+        "item": "minecraft:cobbled_deepslate"
+      }
+    ]
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,25 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "fluid": "minecraft:milk"
+        },
+        {
+          "fluid": "minecraft:flowing_milk"
+        }
+      ],
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "create:sweet_roll"
+    }
+  ],
+  "type": "create:filling"
+}

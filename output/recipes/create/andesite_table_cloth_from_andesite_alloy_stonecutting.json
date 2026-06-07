@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "create:andesite_alloy"
+  },
+  "result": {
+    "id": "create:andesite_table_cloth",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

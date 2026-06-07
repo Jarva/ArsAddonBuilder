@@ -1,0 +1,13 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_amplify",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:diamond_pickaxe"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

@@ -1,0 +1,67 @@
+{
+  "input": "minecraft:sand",
+  "table": "minecraft:archaeology/desert_pyramid",
+  "weight": 25,
+  "drops": {
+    "list": [
+      {
+        "item": {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        "chance": 0.15166667
+      },
+      {
+        "item": {
+          "id": "minecraft:miner_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.13333334
+      },
+      {
+        "item": {
+          "id": "minecraft:skull_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.125
+      },
+      {
+        "item": {
+          "id": "minecraft:tnt",
+          "count": 1
+        },
+        "chance": 0.12166667
+      },
+      {
+        "item": {
+          "id": "minecraft:prize_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.12
+      },
+      {
+        "item": {
+          "id": "minecraft:archer_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.12
+      },
+      {
+        "item": {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        "chance": 0.11666667
+      },
+      {
+        "item": {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        "chance": 0.111666664
+      }
+    ],
+    "weight": 150
+  },
+  "type": "ars_nouveau:alakarkinos_conversion"
+}

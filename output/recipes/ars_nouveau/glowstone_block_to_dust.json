@@ -1,0 +1,16 @@
+{
+  "input": {
+    "item": "minecraft:glowstone"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "minecraft:glowstone_dust",
+        "count": 4
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_nouveau:crush"
+}

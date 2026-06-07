@@ -1,0 +1,100 @@
+{
+  "pedestalItems": [
+    [
+      {
+        "item": "minecraft:cod"
+      },
+      {
+        "item": "minecraft:cooked_cod"
+      },
+      {
+        "item": "minecraft:salmon"
+      },
+      {
+        "item": "minecraft:cooked_salmon"
+      },
+      {
+        "item": "minecraft:pufferfish"
+      },
+      {
+        "item": "minecraft:tropical_fish"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:cod"
+      },
+      {
+        "item": "minecraft:cooked_cod"
+      },
+      {
+        "item": "minecraft:salmon"
+      },
+      {
+        "item": "minecraft:cooked_salmon"
+      },
+      {
+        "item": "minecraft:pufferfish"
+      },
+      {
+        "item": "minecraft:tropical_fish"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:cod"
+      },
+      {
+        "item": "minecraft:cooked_cod"
+      },
+      {
+        "item": "minecraft:salmon"
+      },
+      {
+        "item": "minecraft:cooked_salmon"
+      },
+      {
+        "item": "minecraft:pufferfish"
+      },
+      {
+        "item": "minecraft:tropical_fish"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:cod"
+      },
+      {
+        "item": "minecraft:cooked_cod"
+      },
+      {
+        "item": "minecraft:salmon"
+      },
+      {
+        "item": "minecraft:cooked_salmon"
+      },
+      {
+        "item": "minecraft:pufferfish"
+      },
+      {
+        "item": "minecraft:tropical_fish"
+      }
+    ],
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    }
+  ],
+  "enchantment": "minecraft:aqua_affinity",
+  "level": 1,
+  "sourceCost": 5000,
+  "type": "ars_nouveau:enchantment"
+}

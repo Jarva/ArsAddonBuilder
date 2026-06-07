@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:lime_table_cloth",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:lime_table_cloth"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

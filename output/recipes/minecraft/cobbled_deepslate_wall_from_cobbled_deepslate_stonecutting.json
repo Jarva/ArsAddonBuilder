@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:cobbled_deepslate"
+  },
+  "result": {
+    "id": "minecraft:cobbled_deepslate_wall",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

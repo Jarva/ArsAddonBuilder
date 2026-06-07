@@ -1,0 +1,26 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "ars_technica:calibrated_precision_mechanism"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    }
+  ],
+  "sourceCost": 500,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "create:wrench"
+  },
+  "result": {
+    "id": "create:wrench",
+    "count": 1,
+    "components": {
+      "ars_technica:runic_wrench": true
+    }
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

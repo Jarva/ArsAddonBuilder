@@ -1,0 +1,13 @@
+{
+  "output": {
+    "id": "not_enough_glyphs:glyph_filter_light",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:torch"
+    }
+  ],
+  "exp": 27,
+  "type": "ars_nouveau:glyph"
+}

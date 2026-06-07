@@ -1,0 +1,25 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    },
+    {
+      "item": "ars_nouveau:water_essence"
+    }
+  ],
+  "sourceCost": 7000,
+  "reagent": {
+    "item": "ars_nouveau:battlemage_robes"
+  },
+  "result": {
+    "id": "ars_elemental:aqua_chestplate",
+    "count": 1
+  },
+  "type": "sauce:armor_upgrade"
+}

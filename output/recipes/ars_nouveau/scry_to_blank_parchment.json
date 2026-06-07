@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:blank_parchment",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:scryer_scroll"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

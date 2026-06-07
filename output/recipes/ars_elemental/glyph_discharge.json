@@ -1,0 +1,19 @@
+{
+  "output": {
+    "id": "ars_elemental:glyph_discharge",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:lightning_rod"
+    },
+    {
+      "item": "ars_elemental:flashpine_pod"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

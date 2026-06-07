@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:cut_copper_stairs"
+    },
+    {
+      "item": "minecraft:honeycomb_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:waxed_cut_copper_stairs"
+    }
+  ],
+  "keep_held_item": true,
+  "type": "create:deploying"
+}

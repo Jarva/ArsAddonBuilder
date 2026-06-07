@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "create:fluid_valve",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:iron_sheet"
+    },
+    {
+      "item": "create:fluid_pipe"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

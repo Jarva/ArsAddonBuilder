@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "result": {
+    "id": "create:waxed_weathered_copper_tiles",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "create:weathered_copper_tiles"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

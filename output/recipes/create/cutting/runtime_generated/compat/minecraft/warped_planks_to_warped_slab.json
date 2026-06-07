@@ -1,0 +1,15 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:warped_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:warped_slab",
+      "count": 2
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

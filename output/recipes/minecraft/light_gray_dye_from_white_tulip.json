@@ -1,0 +1,14 @@
+{
+  "group": "light_gray_dye",
+  "category": "misc",
+  "result": {
+    "id": "minecraft:light_gray_dye",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:white_tulip"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

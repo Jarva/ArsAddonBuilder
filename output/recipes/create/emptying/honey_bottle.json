@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:glass_bottle"
+    },
+    {
+      "id": "create:honey",
+      "amount": 250
+    }
+  ],
+  "type": "create:emptying"
+}

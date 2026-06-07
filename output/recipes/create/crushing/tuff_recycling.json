@@ -1,0 +1,75 @@
+{
+  "ingredients": [
+    [
+      {
+        "item": "create:cut_tuff"
+      },
+      {
+        "item": "create:cut_tuff_stairs"
+      },
+      {
+        "item": "create:cut_tuff_wall"
+      },
+      {
+        "item": "create:polished_cut_tuff"
+      },
+      {
+        "item": "create:polished_cut_tuff_stairs"
+      },
+      {
+        "item": "create:polished_cut_tuff_wall"
+      },
+      {
+        "item": "create:cut_tuff_bricks"
+      },
+      {
+        "item": "create:cut_tuff_brick_stairs"
+      },
+      {
+        "item": "create:cut_tuff_brick_wall"
+      },
+      {
+        "item": "create:small_tuff_bricks"
+      },
+      {
+        "item": "create:small_tuff_brick_stairs"
+      },
+      {
+        "item": "create:small_tuff_brick_wall"
+      },
+      {
+        "item": "create:layered_tuff"
+      },
+      {
+        "item": "create:tuff_pillar"
+      },
+      {
+        "item": "minecraft:tuff"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "id": "minecraft:flint",
+      "chance": 0.25
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "chance": 0.1
+    },
+    {
+      "id": "create:copper_nugget",
+      "chance": 0.1
+    },
+    {
+      "id": "create:zinc_nugget",
+      "chance": 0.1
+    },
+    {
+      "id": "minecraft:iron_nugget",
+      "chance": 0.1
+    }
+  ],
+  "processing_time": 350,
+  "type": "create:crushing"
+}

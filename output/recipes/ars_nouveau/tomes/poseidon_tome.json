@@ -1,0 +1,56 @@
+{
+  "flavour_text": "Fire at a body of water to create a Ice bubble in the depths.",
+  "color": {
+    "id": "ars_nouveau:constant",
+    "r": 1,
+    "g": 1,
+    "b": 255
+  },
+  "sound": {
+    "sound": {
+      "id": "ars_nouveau:tempestry_family"
+    }
+  },
+  "spellData": {
+    "sound": {
+      "sound": {
+        "id": "ars_nouveau:tempestry_family"
+      }
+    },
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_sensitive",
+      "ars_nouveau:glyph_light",
+      "ars_nouveau:glyph_burst",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_sensitive",
+      "ars_nouveau:glyph_freeze",
+      "ars_nouveau:glyph_break",
+      "ars_nouveau:glyph_freeze"
+    ],
+    "particleTimeline": {},
+    "name": "Poseidon\u0027s Refuge",
+    "color": {
+      "id": "ars_nouveau:constant",
+      "r": 1,
+      "g": 1,
+      "b": 255
+    }
+  },
+  "name": "Poseidon\u0027s Refuge",
+  "spell": [
+    "ars_nouveau:glyph_projectile",
+    "ars_nouveau:glyph_sensitive",
+    "ars_nouveau:glyph_light",
+    "ars_nouveau:glyph_burst",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_sensitive",
+    "ars_nouveau:glyph_freeze",
+    "ars_nouveau:glyph_break",
+    "ars_nouveau:glyph_freeze"
+  ],
+  "tome_type": "ars_nouveau:caster_tome",
+  "type": "ars_nouveau:caster_tome"
+}

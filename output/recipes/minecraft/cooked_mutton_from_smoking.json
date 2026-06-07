@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "minecraft:cooked_mutton",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 100,
+  "category": "food",
+  "ingredient": {
+    "item": "minecraft:mutton"
+  },
+  "type": "minecraft:smoking"
+}

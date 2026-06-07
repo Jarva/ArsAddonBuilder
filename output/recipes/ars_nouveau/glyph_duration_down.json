@@ -1,0 +1,16 @@
+{
+  "output": {
+    "id": "ars_nouveau:glyph_duration_down",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

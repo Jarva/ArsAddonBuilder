@@ -1,0 +1,33 @@
+{
+  "input": [
+    {
+      "item": "minecraft:andesite"
+    },
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:granite"
+    },
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:deepslate"
+    },
+    {
+      "item": "minecraft:tuff"
+    }
+  ],
+  "output": [
+    {
+      "stack": {
+        "id": "minecraft:gravel",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_nouveau:crush"
+}

@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "result": {
+    "id": "create:brown_table_cloth",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:brown_wool"
+    },
+    {
+      "item": "create:andesite_alloy"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}
