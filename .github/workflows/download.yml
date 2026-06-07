@@ -96,58 +96,13 @@ jobs:
       matrix:
         project: ${{ fromJson(needs.find.outputs.matrix) }}
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Download mod JAR from CurseForge
         env:
           CF_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
-        shell: bash
-        run: |
-          set -euo pipefail
-          mkdir -p mods
-
-          download_cf_file() {
-            local mod_id="$1"
-            local label="$2"
-
-            # Query for latest file matching game version and NeoForge loader
-            local response
-            response=$(curl -sf -H "x-api-key: $CF_API_KEY" \
-              "https://api.curseforge.com/v1/mods/${mod_id}/files?gameVersion=1.21.1&modLoaderType=6&pageSize=1")
-
-            local file_id filename download_url
-            file_id=$(echo "$response" | jq -r '.data[0].id')
-            filename=$(echo "$response" | jq -r '.data[0].fileName')
-            download_url=$(echo "$response" | jq -r '.data[0].downloadUrl')
-
-            if [ "$file_id" = "null" ] || [ -z "$file_id" ]; then
-              echo "::warning::No file found for ${label} (mod ID ${mod_id})"
-              return 1
-            fi
-
-            echo "Downloading ${label}: ${filename} (file ID ${file_id})"
-
-            # Handle null downloadUrl (author has disabled direct downloads)
-            if [ "$download_url" = "null" ] || [ -z "$download_url" ]; then
-              local id_high=$((file_id / 1000))
-              local id_low=$((file_id % 1000))
-              download_url="https://edge.forgecdn.net/files/${id_high}/${id_low}/${filename}"
-              echo "Using fallback URL: ${download_url}"
-            fi
-
-            curl -sfL -o "mods/${filename}" "$download_url"
-            echo "Downloaded ${filename}"
-          }
-
-          # Download the main mod
-          download_cf_file "${{ matrix.project.cf_id }}" "${{ matrix.project.name }}"
-
-          # Download dependencies
-          DEPS='${{ toJson(matrix.project.dependencies) }}'
-          DEP_COUNT=$(echo "$DEPS" | jq 'length')
-          for i in $(seq 0 $((DEP_COUNT - 1))); do
-            dep_id=$(echo "$DEPS" | jq -r ".[$i].cf_id")
-            dep_name=$(echo "$DEPS" | jq -r ".[$i].name")
-            download_cf_file "$dep_id" "$dep_name" || true
-          done
+        run: ./scripts/download-cf.sh "${{ matrix.project.cf_id }}" "${{ matrix.project.name }}" '${{ toJson(matrix.project.dependencies) }}'
 
       - name: Upload mod JARs
         uses: actions/upload-artifact@v4
@@ -174,18 +129,6 @@ jobs:
 
       - name: Remove sources files
         run: rm run/mods/*-sources.jar || true
-
-      - name: List mods files
-        id: list_mods
-        shell: bash
-        run: |
-          set -e
-          FILES=$(find run/mods -maxdepth 1 -type f -printf 'run/mods/%f\n' | sort || true)
-          {
-            echo "files<<__MODS__"
-            printf '%s\n' "$FILES"
-            echo "__MODS__"
-          } >> "$GITHUB_OUTPUT"
 
       - name: Remove old output
         run: rm -rf output/wiki output/lang output/renders output/tags
@@ -218,11 +161,11 @@ jobs:
         run: |
           echo "hash=$(git rev-parse --short HEAD || true)" >> "$GITHUB_OUTPUT"
 
-      - name: Publish Jars
+      - name: Publish doc-exporter
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.release_hash.outputs.hash }}
-          files: ${{ steps.list_mods.outputs.files }}
+          files: run/mods/doc-exporter-*.jar
 
   retry-on-failure:
     if: failure() && fromJSON(github.run_attempt) < 3
