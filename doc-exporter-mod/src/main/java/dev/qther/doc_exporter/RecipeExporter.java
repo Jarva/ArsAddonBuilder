@@ -38,6 +38,9 @@ public final class RecipeExporter {
             ResourceLocation id = holder.id();
             try {
                 JsonObject json = serializeRecipe(holder.value(), ops);
+                if (json == null) {
+                    continue;
+                }
                 Path outputFile = ExportPaths.recipesBase()
                         .resolve(id.getNamespace())
                         .resolve(id.getPath() + ".json");
@@ -60,8 +63,14 @@ public final class RecipeExporter {
     @SuppressWarnings("unchecked")
     private static <T extends Recipe<?>> JsonObject serializeRecipe(T recipe, RegistryOps<JsonElement> ops) {
         RecipeSerializer<T> serializer = (RecipeSerializer<T>) recipe.getSerializer();
-        JsonElement encoded = serializer.codec().codec().encodeStart(ops, recipe).getOrThrow();
-        JsonObject obj = encoded.getAsJsonObject();
+        var result = serializer.codec().codec().encodeStart(ops, recipe);
+        if (result.isError()) {
+            LOGGER.warn("Cannot encode recipe with serializer {}: {}",
+                    BuiltInRegistries.RECIPE_SERIALIZER.getKey(serializer),
+                    result.error().orElseThrow().message());
+            return null;
+        }
+        JsonObject obj = result.getOrThrow().getAsJsonObject();
         obj.addProperty("type", BuiltInRegistries.RECIPE_SERIALIZER.getKey(serializer).toString());
         return obj;
     }
