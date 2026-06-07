@@ -27,6 +27,10 @@ public final class ExportPaths {
         return BASE.resolve("tags");
     }
 
+    public static Path recipesBase() {
+        return BASE.resolve("recipes");
+    }
+
     public static Path langBase() {
         return BASE.resolve("lang");
     }

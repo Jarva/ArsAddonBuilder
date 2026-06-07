@@ -2,5 +2,7 @@
   "repo": "Alexthw46/Ars-Elemental",
   "branch": "1.21",
   "disabled": false,
-  "hash": "757b94488305b48ab81f69597d39220c0e6ccb48"
+  "hash": "757b94488305b48ab81f69597d39220c0e6ccb48",
+  "cf_id": 561470,
+  "dependencies": []
 }

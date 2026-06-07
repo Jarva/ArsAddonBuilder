@@ -2,5 +2,9 @@
   "repo": "zeroregard/Ars-Technica",
   "branch": "1.21.X",
   "disabled": false,
-  "hash": "bf34b58ff8908837e5894dee773d3afbd98aa3e3"
+  "hash": "bf34b58ff8908837e5894dee773d3afbd98aa3e3",
+  "cf_id": 1096161,
+  "dependencies": [
+    { "cf_id": 328085, "name": "create" }
+  ]
 }

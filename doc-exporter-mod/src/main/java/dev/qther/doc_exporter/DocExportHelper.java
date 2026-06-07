@@ -86,6 +86,13 @@ public class DocExportHelper {
             LOGGER.error("could not export tags", e);
         }
 
+        // Export recipes
+        try {
+            RecipeExporter.exportAll(level);
+        } catch (IOException | IllegalStateException e) {
+            LOGGER.error("could not export recipes", e);
+        }
+
         // Export fully rendered block and item images. This uses Minecraft/GuideME rendering state and must stay on
         // the client thread.
         try {

@@ -2,5 +2,7 @@
   "repo": "clcment446/ars-trinkets",
   "branch": "1.21.x",
   "disabled": true,
-  "hash": "06bfa830a6ec93700bafe66f56f55b3a6fc047c6"
+  "hash": "06bfa830a6ec93700bafe66f56f55b3a6fc047c6",
+  "cf_id": 950506,
+  "dependencies": []
 }

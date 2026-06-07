@@ -2,5 +2,9 @@
   "repo": "zeroregard/Ars-Zero",
   "branch": "main",
   "disabled": false,
-  "hash": "ffbe4b8dc91c088275eaba55b0201938d5f03545"
+  "hash": "ffbe4b8dc91c088275eaba55b0201938d5f03545",
+  "cf_id": 1377482,
+  "dependencies": [
+    { "cf_id": 1283899, "name": "player_animation_lib" }
+  ]
 }
