@@ -6,56 +6,42 @@
     "list": [
       {
         "item": {
-          "id": "minecraft:yellow_dye",
-          "count": 1
-        },
-        "chance": 0.055
-      },
-      {
-        "item": {
-          "id": "minecraft:green_candle",
-          "count": 1
-        },
-        "chance": 0.053333335
-      },
-      {
-        "item": {
-          "id": "minecraft:brick",
-          "count": 1
-        },
-        "chance": 0.05
-      },
-      {
-        "item": {
           "id": "minecraft:wooden_hoe",
           "count": 1
         },
+        "chance": 0.058333334
+      },
+      {
+        "item": {
+          "id": "minecraft:yellow_dye",
+          "count": 1
+        },
         "chance": 0.05
-      },
-      {
-        "item": {
-          "id": "minecraft:blue_dye",
-          "count": 1
-        },
-        "chance": 0.046666667
-      },
-      {
-        "item": {
-          "id": "minecraft:orange_dye",
-          "count": 1
-        },
-        "chance": 0.045
       },
       {
         "item": {
           "id": "minecraft:emerald",
           "count": 1
         },
-        "chance": 0.043333333
+        "chance": 0.048333332
       },
       {
         "item": {
           "id": "minecraft:brown_candle",
+          "count": 1
+        },
+        "chance": 0.045
+      },
+      {
+        "item": {
+          "id": "minecraft:wheat",
+          "count": 1
+        },
+        "chance": 0.045
+      },
+      {
+        "item": {
+          "id": "minecraft:clay",
           "count": 1
         },
         "chance": 0.043333333
@@ -65,95 +51,144 @@
           "id": "minecraft:white_dye",
           "count": 1
         },
-        "chance": 0.041666668
+        "chance": 0.043333333
       },
       {
         "item": {
-          "id": "minecraft:clay",
+          "id": "minecraft:green_candle",
           "count": 1
         },
-        "chance": 0.04
+        "chance": 0.043333333
       },
       {
         "item": {
           "id": "minecraft:purple_candle",
           "count": 1
         },
-        "chance": 0.04
+        "chance": 0.043333333
       },
       {
         "item": {
-          "id": "minecraft:wheat",
+          "id": "minecraft:brick",
           "count": 1
         },
         "chance": 0.04
-      },
-      {
-        "item": {
-          "id": "minecraft:flower_pot",
-          "count": 1
-        },
-        "chance": 0.038333334
-      },
-      {
-        "item": {
-          "id": "minecraft:red_candle",
-          "count": 1
-        },
-        "chance": 0.035
-      },
-      {
-        "item": {
-          "id": "minecraft:light_blue_stained_glass_pane",
-          "count": 1
-        },
-        "chance": 0.033333335
-      },
-      {
-        "item": {
-          "id": "minecraft:beetroot_seeds",
-          "count": 1
-        },
-        "chance": 0.031666666
       },
       {
         "item": {
           "id": "minecraft:light_blue_dye",
           "count": 1
         },
+        "chance": 0.036666665
+      },
+      {
+        "item": {
+          "id": "minecraft:blue_dye",
+          "count": 1
+        },
+        "chance": 0.036666665
+      },
+      {
+        "item": {
+          "id": "minecraft:orange_dye",
+          "count": 1
+        },
+        "chance": 0.036666665
+      },
+      {
+        "item": {
+          "id": "minecraft:string",
+          "count": 1
+        },
+        "chance": 0.035
+      },
+      {
+        "item": {
+          "id": "minecraft:red_candle",
+          "count": 1
+        },
+        "chance": 0.033333335
+      },
+      {
+        "item": {
+          "id": "minecraft:oak_hanging_sign",
+          "count": 1
+        },
         "chance": 0.031666666
+      },
+      {
+        "item": {
+          "id": "minecraft:flower_pot",
+          "count": 1
+        },
+        "chance": 0.028333334
+      },
+      {
+        "item": {
+          "id": "minecraft:red_stained_glass_pane",
+          "count": 1
+        },
+        "chance": 0.025
+      },
+      {
+        "item": {
+          "id": "minecraft:gold_nugget",
+          "count": 1
+        },
+        "chance": 0.025
       },
       {
         "item": {
           "id": "minecraft:magenta_stained_glass_pane",
           "count": 1
         },
-        "chance": 0.026666667
+        "chance": 0.025
+      },
+      {
+        "item": {
+          "id": "minecraft:spruce_hanging_sign",
+          "count": 1
+        },
+        "chance": 0.025
+      },
+      {
+        "item": {
+          "id": "minecraft:wheat_seeds",
+          "count": 1
+        },
+        "chance": 0.023333333
       },
       {
         "item": {
           "id": "minecraft:blue_stained_glass_pane",
           "count": 1
         },
-        "chance": 0.025
+        "chance": 0.023333333
+      },
+      {
+        "item": {
+          "id": "minecraft:dead_bush",
+          "count": 1
+        },
+        "chance": 0.023333333
+      },
+      {
+        "item": {
+          "id": "minecraft:light_blue_stained_glass_pane",
+          "count": 1
+        },
+        "chance": 0.021666666
       },
       {
         "item": {
           "id": "minecraft:pink_stained_glass_pane",
           "count": 1
         },
-        "chance": 0.025
+        "chance": 0.021666666
       },
       {
         "item": {
-          "id": "minecraft:lead",
-          "count": 1
-        },
-        "chance": 0.025
-      },
-      {
-        "item": {
-          "id": "minecraft:yellow_stained_glass_pane",
+          "id": "minecraft:purple_stained_glass_pane",
           "count": 1
         },
         "chance": 0.021666666
@@ -163,63 +198,28 @@
           "id": "minecraft:coal",
           "count": 1
         },
-        "chance": 0.02
+        "chance": 0.016666668
       },
       {
         "item": {
-          "id": "minecraft:red_stained_glass_pane",
-          "count": 1
-        },
-        "chance": 0.02
-      },
-      {
-        "item": {
-          "id": "minecraft:purple_stained_glass_pane",
-          "count": 1
-        },
-        "chance": 0.018333333
-      },
-      {
-        "item": {
-          "id": "minecraft:string",
-          "count": 1
-        },
-        "chance": 0.018333333
-      },
-      {
-        "item": {
-          "id": "minecraft:oak_hanging_sign",
-          "count": 1
-        },
-        "chance": 0.018333333
-      },
-      {
-        "item": {
-          "id": "minecraft:dead_bush",
-          "count": 1
-        },
-        "chance": 0.018333333
-      },
-      {
-        "item": {
-          "id": "minecraft:spruce_hanging_sign",
+          "id": "minecraft:yellow_stained_glass_pane",
           "count": 1
         },
         "chance": 0.016666668
       },
       {
         "item": {
-          "id": "minecraft:wheat_seeds",
+          "id": "minecraft:beetroot_seeds",
           "count": 1
         },
-        "chance": 0.015
+        "chance": 0.016666668
       },
       {
         "item": {
-          "id": "minecraft:gold_nugget",
+          "id": "minecraft:lead",
           "count": 1
         },
-        "chance": 0.013333334
+        "chance": 0.016666668
       }
     ],
     "weight": 150

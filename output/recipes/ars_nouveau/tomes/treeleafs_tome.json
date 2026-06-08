@@ -30,18 +30,6 @@
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:density": {
-                "density": 5,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
-              },
-              "ars_nouveau:emitter": {
-                "rotation": {
-                  "x": 0.0,
-                  "y": 0.0
-                },
-                "age": 0
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:glow_squid",
                 "subProperties": {
@@ -55,6 +43,18 @@
                     "tintDisabled": false
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 5,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
+              },
+              "ars_nouveau:emitter": {
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "age": 0
               }
             },
             "type": "ars_nouveau:glow_squid"
@@ -111,11 +111,6 @@
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:density": {
-                "density": 100,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -129,6 +124,11 @@
                     "tintDisabled": true
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 100,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
               }
             },
             "type": "ars_nouveau:new_glow"
@@ -141,11 +141,6 @@
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:density": {
-                "density": 5,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -159,6 +154,11 @@
                     "tintDisabled": true
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 5,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
               }
             },
             "type": "ars_nouveau:new_glow"
@@ -195,18 +195,6 @@
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:density": {
-                "density": 5,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
-              },
-              "ars_nouveau:emitter": {
-                "rotation": {
-                  "x": 0.0,
-                  "y": 0.0
-                },
-                "age": 0
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:glow_squid",
                 "subProperties": {
@@ -220,6 +208,18 @@
                     "tintDisabled": false
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 5,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
+              },
+              "ars_nouveau:emitter": {
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "age": 0
               }
             },
             "type": "ars_nouveau:glow_squid"

@@ -2,9 +2,9 @@
   "flavour_text": "For those who can\u0027t settle with just a tiny hut.",
   "color": {
     "id": "ars_nouveau:rainbow",
-    "r": 0,
-    "g": 177,
-    "b": 255
+    "r": 255,
+    "g": 100,
+    "b": 0
   },
   "sound": {
     "sound": {
@@ -35,9 +35,9 @@
     "name": "Alex\u0027s Magnificent Mansion",
     "color": {
       "id": "ars_nouveau:rainbow",
-      "r": 0,
-      "g": 177,
-      "b": 255
+      "r": 255,
+      "g": 100,
+      "b": 0
     }
   },
   "name": "Alex\u0027s Magnificent Mansion",
