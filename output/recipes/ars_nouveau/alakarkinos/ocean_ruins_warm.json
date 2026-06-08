@@ -6,73 +6,73 @@
     "list": [
       {
         "item": {
-          "id": "minecraft:wheat",
-          "count": 1
-        },
-        "chance": 0.18166667
-      },
-      {
-        "item": {
-          "id": "minecraft:wooden_hoe",
-          "count": 1
-        },
-        "chance": 0.15333334
-      },
-      {
-        "item": {
           "id": "minecraft:gold_nugget",
           "count": 1
         },
-        "chance": 0.12833333
-      },
-      {
-        "item": {
-          "id": "minecraft:coal",
-          "count": 1
-        },
-        "chance": 0.125
+        "chance": 0.15
       },
       {
         "item": {
           "id": "minecraft:emerald",
           "count": 1
         },
-        "chance": 0.11
+        "chance": 0.15
       },
       {
         "item": {
-          "id": "minecraft:iron_axe",
+          "id": "minecraft:coal",
           "count": 1
         },
-        "chance": 0.071666665
+        "chance": 0.14333333
       },
       {
         "item": {
-          "id": "minecraft:snort_pottery_sherd",
+          "id": "minecraft:wooden_hoe",
           "count": 1
         },
-        "chance": 0.06666667
+        "chance": 0.123333335
+      },
+      {
+        "item": {
+          "id": "minecraft:wheat",
+          "count": 1
+        },
+        "chance": 0.10333333
       },
       {
         "item": {
           "id": "minecraft:shelter_pottery_sherd",
           "count": 1
         },
-        "chance": 0.058333334
-      },
-      {
-        "item": {
-          "id": "minecraft:angler_pottery_sherd",
-          "count": 1
-        },
-        "chance": 0.05666667
+        "chance": 0.085
       },
       {
         "item": {
           "id": "minecraft:sniffer_egg",
           "count": 1
         },
-        "chance": 0.048333332
+        "chance": 0.075
+      },
+      {
+        "item": {
+          "id": "minecraft:iron_axe",
+          "count": 1
+        },
+        "chance": 0.068333335
+      },
+      {
+        "item": {
+          "id": "minecraft:snort_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.051666666
+      },
+      {
+        "item": {
+          "id": "minecraft:angler_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.05
       }
     ],
     "weight": 150

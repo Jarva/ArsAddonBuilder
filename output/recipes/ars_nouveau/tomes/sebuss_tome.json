@@ -30,6 +30,12 @@
                 "radius": 0.05,
                 "spawnType": "SPHERE"
               },
+              "ars_nouveau:speed": {
+                "yMinSpeed": 0.0,
+                "yMaxSpeed": 0.01,
+                "xzMinSpeed": 0.0,
+                "xzMaxSpeed": 0.0
+              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -43,12 +49,6 @@
                     "tintDisabled": false
                   }
                 }
-              },
-              "ars_nouveau:speed": {
-                "yMinSpeed": 0.0,
-                "yMaxSpeed": 0.01,
-                "xzMinSpeed": 0.0,
-                "xzMaxSpeed": 0.0
               }
             },
             "type": "ars_nouveau:new_glow"
@@ -109,6 +109,10 @@
         "trailEffect": {
           "motion": {
             "propMap": {
+              "ars_nouveau:model": {
+                "resource": "ars_nouveau:empty",
+                "subPropMap": {}
+              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:flame",
                 "subProperties": {
@@ -122,10 +126,6 @@
                     "tintDisabled": false
                   }
                 }
-              },
-              "ars_nouveau:model": {
-                "resource": "ars_nouveau:empty",
-                "subPropMap": {}
               }
             },
             "type": "ars_nouveau:helix"
@@ -137,6 +137,12 @@
                 "radius": 0.6000000000000001,
                 "spawnType": "SPHERE"
               },
+              "ars_nouveau:speed": {
+                "yMinSpeed": 0.0,
+                "yMaxSpeed": 0.0,
+                "xzMinSpeed": 0.0,
+                "xzMaxSpeed": 0.0
+              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:flame",
                 "subProperties": {
@@ -150,12 +156,6 @@
                     "tintDisabled": false
                   }
                 }
-              },
-              "ars_nouveau:speed": {
-                "yMinSpeed": 0.0,
-                "yMaxSpeed": 0.0,
-                "xzMinSpeed": 0.0,
-                "xzMaxSpeed": 0.0
               }
             },
             "type": "ars_nouveau:flame"
@@ -168,6 +168,18 @@
           },
           "particleOptions": {
             "properties": {
+              "ars_nouveau:density": {
+                "density": 5,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
+              },
+              "ars_nouveau:emitter": {
+                "rotation": {
+                  "x": -29.06898,
+                  "y": 2.5588632
+                },
+                "age": 0
+              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -181,18 +193,6 @@
                     "tintDisabled": false
                   }
                 }
-              },
-              "ars_nouveau:density": {
-                "density": 5,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
-              },
-              "ars_nouveau:emitter": {
-                "rotation": {
-                  "x": -29.06898,
-                  "y": 2.5588632
-                },
-                "age": 0
               }
             },
             "type": "ars_nouveau:new_glow"
@@ -229,6 +229,18 @@
           },
           "particleOptions": {
             "properties": {
+              "ars_nouveau:density": {
+                "density": 5,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
+              },
+              "ars_nouveau:emitter": {
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "age": 0
+              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:enchant",
                 "subProperties": {
@@ -242,18 +254,6 @@
                     "tintDisabled": false
                   }
                 }
-              },
-              "ars_nouveau:density": {
-                "density": 5,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
-              },
-              "ars_nouveau:emitter": {
-                "rotation": {
-                  "x": 0.0,
-                  "y": 0.0
-                },
-                "age": 0
               }
             },
             "type": "ars_nouveau:enchant"

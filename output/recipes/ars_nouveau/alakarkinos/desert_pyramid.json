@@ -6,59 +6,59 @@
     "list": [
       {
         "item": {
-          "id": "minecraft:diamond",
-          "count": 1
-        },
-        "chance": 0.14
-      },
-      {
-        "item": {
           "id": "minecraft:skull_pottery_sherd",
           "count": 1
         },
-        "chance": 0.13833334
-      },
-      {
-        "item": {
-          "id": "minecraft:gunpowder",
-          "count": 1
-        },
-        "chance": 0.13166666
-      },
-      {
-        "item": {
-          "id": "minecraft:archer_pottery_sherd",
-          "count": 1
-        },
-        "chance": 0.12666667
-      },
-      {
-        "item": {
-          "id": "minecraft:tnt",
-          "count": 1
-        },
-        "chance": 0.12166667
-      },
-      {
-        "item": {
-          "id": "minecraft:prize_pottery_sherd",
-          "count": 1
-        },
-        "chance": 0.115
-      },
-      {
-        "item": {
-          "id": "minecraft:emerald",
-          "count": 1
-        },
-        "chance": 0.115
+        "chance": 0.14333333
       },
       {
         "item": {
           "id": "minecraft:miner_pottery_sherd",
           "count": 1
         },
-        "chance": 0.111666664
+        "chance": 0.13833334
+      },
+      {
+        "item": {
+          "id": "minecraft:tnt",
+          "count": 1
+        },
+        "chance": 0.13666667
+      },
+      {
+        "item": {
+          "id": "minecraft:prize_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.125
+      },
+      {
+        "item": {
+          "id": "minecraft:diamond",
+          "count": 1
+        },
+        "chance": 0.12
+      },
+      {
+        "item": {
+          "id": "minecraft:archer_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.11666667
+      },
+      {
+        "item": {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        "chance": 0.11333334
+      },
+      {
+        "item": {
+          "id": "minecraft:gunpowder",
+          "count": 1
+        },
+        "chance": 0.10666667
       }
     ],
     "weight": 150
