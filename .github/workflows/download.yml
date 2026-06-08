@@ -85,7 +85,7 @@ jobs:
         uses: actions/checkout@v4
       - id: filter
         run: |
-          MATRIX=$(jq -n -c '[inputs | select((.disabled // false) | not) | select(.cf_id) | {file: input_filename, cf_id: .cf_id, name: (input_filename | ltrimstr("projects/") | rtrimstr(".json")), dependencies: (.dependencies // [])}]' projects/*.json)
+          MATRIX=$(jq -n -c '[inputs | select((.disabled // false) | not) | select(.cf_id) | input_filename]' projects/*.json)
           echo "MATRIX=$MATRIX" >> "$GITHUB_OUTPUT"
 
   download:
@@ -94,20 +94,24 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        project: ${{ fromJson(needs.find.outputs.matrix) }}
+        file: ${{ fromJson(needs.find.outputs.matrix) }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Extract project name
+        id: info
+        run: echo "name=$(basename ${{ matrix.file }} .json)" >> "$GITHUB_OUTPUT"
+
       - name: Download mod JAR from CurseForge
         env:
           CF_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
-        run: ./scripts/download-cf.sh "${{ matrix.project.cf_id }}" "${{ matrix.project.name }}" '${{ toJson(matrix.project.dependencies) }}'
+        run: ./scripts/download-cf.sh "${{ matrix.file }}"
 
       - name: Upload mod JARs
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.project.name }}-jar
+          name: ${{ steps.info.outputs.name }}-jar
           path: mods/*.jar
 
   run-and-export:
@@ -127,11 +131,8 @@ jobs:
           pattern: "*-jar"
           merge-multiple: true
 
-      - name: Remove sources files
-        run: rm run/mods/*-sources.jar || true
-
       - name: Remove old output
-        run: rm -rf output/wiki output/lang output/renders output/tags
+        run: rm -rf output/*
 
       - name: Setup Java
         uses: actions/setup-java@v4
@@ -153,7 +154,7 @@ jobs:
         uses: Jarva/git-commit-push@main
         with:
           pull: true
-          commit_message: "feat: update runtime resources"
+          commit_message: "ci: update runtime resources"
 
       - name: Compute release hash
         id: release_hash

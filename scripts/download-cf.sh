@@ -2,12 +2,13 @@
 set -euo pipefail
 
 # Downloads a mod and its dependencies from CurseForge.
-# Usage: download-cf.sh <cf_id> <name> <dependencies_json>
+# Usage: download-cf.sh <project_json_path>
 # Requires: CF_API_KEY environment variable
 
-CF_ID="$1"
-NAME="$2"
-DEPS_JSON="$3"
+PROJECT_FILE="$1"
+NAME=$(basename "$PROJECT_FILE" .json)
+CF_ID=$(jq -r '.cf_id' "$PROJECT_FILE")
+DEPS=$(jq -c '.dependencies // []' "$PROJECT_FILE")
 
 mkdir -p mods
 
@@ -44,9 +45,9 @@ download_cf_file() {
 download_cf_file "$CF_ID" "$NAME"
 
 # Download dependencies
-DEP_COUNT=$(echo "$DEPS_JSON" | jq 'length')
+DEP_COUNT=$(echo "$DEPS" | jq 'length')
 for i in $(seq 0 $((DEP_COUNT - 1))); do
-  dep_id=$(echo "$DEPS_JSON" | jq -r ".[$i].cf_id")
-  dep_name=$(echo "$DEPS_JSON" | jq -r ".[$i].name")
+  dep_id=$(echo "$DEPS" | jq -r ".[$i].cf_id")
+  dep_name=$(echo "$DEPS" | jq -r ".[$i].name")
   download_cf_file "$dep_id" "$dep_name" || true
 done
