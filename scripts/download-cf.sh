@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# set -euo pipefail
+set -euo pipefail
 
 # Downloads a mod and its dependencies from CurseForge.
 # Usage: download-cf.sh <project_json_path>
