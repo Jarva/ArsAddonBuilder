@@ -1,0 +1,9 @@
+{
+  "mod_id": "reliquified_ars_nouveau",
+  "display_name": "Reliquified Ars Nouveau",
+  "disabled": false,
+  "cf_id": 1196449,
+  "dependencies": [
+    { "cf_id": 445274, "name": "relics" }
+  ]
+}

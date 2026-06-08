@@ -1,0 +1,9 @@
+{
+  "mod_id": "ars_ocultas",
+  "display_name": "Ars Ocultas",
+  "disabled": false,
+  "cf_id": 907843,
+  "dependencies": [
+    { "cf_id": 361026, "name": "occultism" }
+  ]
+}

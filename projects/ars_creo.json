@@ -1,0 +1,9 @@
+{
+  "mod_id": "ars_creo",
+  "display_name": "Ars Creo",
+  "disabled": false,
+  "cf_id": 575698,
+  "dependencies": [
+    { "cf_id": 328085, "name": "create" }
+  ]
+}

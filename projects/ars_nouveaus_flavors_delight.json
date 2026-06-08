@@ -1,0 +1,9 @@
+{
+  "mod_id": "ars_nouveaus_flavors_delight",
+  "display_name": "Ars Nouveau's Flavors & Delight",
+  "disabled": false,
+  "cf_id": 1131668,
+  "dependencies": [
+    { "cf_id": 398521, "name": "farmers_delight" }
+  ]
+}
