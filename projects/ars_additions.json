@@ -1,8 +1,6 @@
 {
   "mod_id": "ars_additions",
   "display_name": "Ars Additions",
-  "mod_id": "ars_additions",
-  "display_name": "Ars Additions",
   "repo": "Jarva/Ars-Additions",
   "branch": "1.21.0",
   "disabled": false,
