@@ -180,17 +180,17 @@
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:density": {
-                "density": 20,
-                "radius": 0.45,
-                "spawnType": "CUBE"
-              },
               "ars_nouveau:emitter": {
                 "rotation": {
                   "x": 0.0,
                   "y": 0.0
                 },
                 "age": 0
+              },
+              "ars_nouveau:density": {
+                "density": 20,
+                "radius": 0.45,
+                "spawnType": "CUBE"
               },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:large_smoke",

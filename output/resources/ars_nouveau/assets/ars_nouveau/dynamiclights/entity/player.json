@@ -1,8 +1,0 @@
-{
-	"match": {
-		"type": "minecraft:player"
-	},
-	"luminance": {
-		"type": "ars_nouveau:jar_of_light"
-	}
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "ars_zero:block/corrupted_sourcestone_mosaic",
-    "side": "ars_zero:block/corrupted_sourcestone_mosaic",
-    "top": "ars_zero:block/corrupted_sourcestone_mosaic"
-  }
-}

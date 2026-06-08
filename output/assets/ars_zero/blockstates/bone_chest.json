@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "ars_zero:block/bone_chest" },
-    "facing=south": { "model": "ars_zero:block/bone_chest" },
-    "facing=west":  { "model": "ars_zero:block/bone_chest" },
-    "facing=east":  { "model": "ars_zero:block/bone_chest" }
-  }
-}
