@@ -2,11 +2,6 @@ name: Sync Latest Changes
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'projects/**'
-  schedule:
-    - cron: "0 0 * * *"
 
 env:
   JAVA_VERSION: 21

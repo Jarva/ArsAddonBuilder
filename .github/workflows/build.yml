@@ -2,9 +2,6 @@ name: Build Updated Projects
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "projects/**"
 
 env:
   JAVA_VERSION: 21
