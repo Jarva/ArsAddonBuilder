@@ -5,6 +5,7 @@
   "cf_id": 1196449,
   "dependencies": [
     { "cf_id": 445274, "name": "relics" },
-    { "cf_id": 916747, "name": "octolib" }
+    { "cf_id": 916747, "name": "octolib" },
+    { "cf_id": 419699, "name": "architectury" }
   ]
 }
