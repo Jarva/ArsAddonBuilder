@@ -1,18 +1,31 @@
 {
   "mod_id": "ars_nouveau",
   "display_name": "Ars Nouveau",
-  "mod_id": "ars_nouveau",
-  "display_name": "Ars Nouveau",
   "repo": "baileyholl/Ars-Nouveau",
   "branch": "main",
   "disabled": false,
-  "hash": "ed0afdf46be2ac260f0aaba6044b1b2e9758fbf3",
+  "hash": "8841bd28751ad0caef6c7ce7dd8b93b170d2cddd",
   "cf_id": 401955,
   "dependencies": [
-    { "cf_id": 309927, "name": "curios" },
-    { "cf_id": 306770, "name": "patchouli" },
-    { "cf_id": 388172, "name": "geckolib" },
-    { "cf_id": 940057, "name": "terrablender" },
-    { "cf_id": 1173950, "name": "guideme" }
+    {
+      "cf_id": 309927,
+      "name": "curios"
+    },
+    {
+      "cf_id": 306770,
+      "name": "patchouli"
+    },
+    {
+      "cf_id": 388172,
+      "name": "geckolib"
+    },
+    {
+      "cf_id": 940057,
+      "name": "terrablender"
+    },
+    {
+      "cf_id": 1173950,
+      "name": "guideme"
+    }
   ]
 }
