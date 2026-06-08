@@ -1,4 +1,6 @@
 {
+  "mod_id": "starbunclemania",
+  "display_name": "Starbunclemania",
   "repo": "Alexthw46/starbunclemania",
   "branch": "1.21",
   "disabled": false,

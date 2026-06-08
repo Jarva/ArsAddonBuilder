@@ -1,4 +1,8 @@
 {
+  "mod_id": "ars_trinkets",
+  "display_name": "Ars Trinkets",
+  "mod_id": "ars_trinkets",
+  "display_name": "Ars Trinkets",
   "repo": "clcment446/ars-trinkets",
   "branch": "1.21.x",
   "disabled": true,

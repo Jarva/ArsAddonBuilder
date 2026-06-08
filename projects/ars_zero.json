@@ -1,4 +1,8 @@
 {
+  "mod_id": "ars_zero",
+  "display_name": "Ars Zero",
+  "mod_id": "ars_zero",
+  "display_name": "Ars Zero",
   "repo": "zeroregard/Ars-Zero",
   "branch": "main",
   "disabled": false,

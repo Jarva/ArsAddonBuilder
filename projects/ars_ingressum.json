@@ -1,4 +1,6 @@
 {
+  "mod_id": "ars_ingressum",
+  "display_name": "Ars Ingressum",
   "repo": "Iridiumposting/Ars-Ingressum",
   "branch": "1.21.1",
   "disabled": false,

@@ -1,4 +1,8 @@
 {
+  "mod_id": "not_enough_glyphs",
+  "display_name": "Not Enough Glyphs",
+  "mod_id": "not_enough_glyphs",
+  "display_name": "Not Enough Glyphs",
   "repo": "Alexthw46/NotEnoughGlyphs",
   "branch": "1.21",
   "disabled": false,

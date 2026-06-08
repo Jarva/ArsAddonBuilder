@@ -1,4 +1,6 @@
 {
+  "mod_id": "ars_astrologique",
+  "display_name": "Ars Astrologique",
   "repo": "Iridiumposting/Ars-Astrologique",
   "branch": "main",
   "disabled": false,

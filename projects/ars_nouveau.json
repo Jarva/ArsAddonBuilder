@@ -1,4 +1,8 @@
 {
+  "mod_id": "ars_nouveau",
+  "display_name": "Ars Nouveau",
+  "mod_id": "ars_nouveau",
+  "display_name": "Ars Nouveau",
   "repo": "baileyholl/Ars-Nouveau",
   "branch": "main",
   "disabled": false,
