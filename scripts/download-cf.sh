@@ -19,7 +19,7 @@ download_cf_file() {
   # Query for latest file matching game version
   local response http_code
   response=$(curl -s -w "\n%{http_code}" -H "x-api-key: $CF_API_KEY" -H "Accept: application/json" \
-    "https://api.curseforge.com/v1/mods/${mod_id}/files?gameVersion=1.21.1&pageSize=1")
+    "https://api.curseforge.com/v1/mods/${mod_id}/files?gameVersion=1.21.1&modLoaderType=6&pageSize=1")
   http_code=$(echo "$response" | tail -1)
   response=$(echo "$response" | sed '$d')
 
