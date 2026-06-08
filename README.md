@@ -1,21 +1,33 @@
 # Ars Addon Builder
 
-Ars Addon Builder is a project to build generated resources and publish all of them in one easy to retrieve project.
+Ars Addon Builder downloads pre-built mod JARs from CurseForge and runs a headless Minecraft client to export documentation, renders, recipes, tags, and language files for Ars Nouveau and its addons.
 
-The repository will check whether the projects are up to date each day at midnight and if there is a new git commit the repository will kick off a build for that specific project.
+The workflow runs daily and can also be triggered manually.
 
-To add a new project:
-- Create a file in `./projects` to match your project name. Example: `ars_artifice.json`
-- Fill out the following JSON object with the correct information:
+## Adding a new project
+
+- Create a file in `./projects` matching your project name. Example: `ars_artifice.json`
+- Fill out the following JSON:
 ```json
 {
-  "repo": "Jarva/Ars-Artifice",
-  "branch": "1.20.x",
-  "disabled": false
+  "mod_id": "ars_artifice",
+  "display_name": "Ars Artifice",
+  "disabled": false,
+  "cf_id": 123456,
+  "dependencies": []
 }
 ```
-- Set `disabled` to `true` to keep a project in the repository without syncing or building it.
-- Create a PR for the new file. Do not add the hash key, the script will fetch the latest hash when running at midnight and kick off the build as required.
+- `mod_id` -- the Minecraft mod ID (from `neoforge.mods.toml`)
+- `display_name` -- human-readable name
+- `cf_id` -- CurseForge project ID
+- `disabled` -- set to `true` to skip this project
+- `dependencies` -- array of CurseForge dependencies not already covered by another project, e.g. `[{ "cf_id": 328085, "name": "create" }]`
+- The mod must have direct downloads enabled on CurseForge.
+- Create a PR for the new file.
+
+## Requirements
+
+The repository requires a `CURSEFORGE_API_KEY` secret (from https://console.curseforge.com/).
 
 ## License
 

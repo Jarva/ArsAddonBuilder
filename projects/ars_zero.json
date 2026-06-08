@@ -1,10 +1,7 @@
 {
   "mod_id": "ars_zero",
   "display_name": "Ars Zero",
-  "repo": "zeroregard/Ars-Zero",
-  "branch": "main",
   "disabled": false,
-  "hash": "ffbe4b8dc91c088275eaba55b0201938d5f03545",
   "cf_id": 1377482,
   "dependencies": []
 }

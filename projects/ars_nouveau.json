@@ -1,10 +1,7 @@
 {
   "mod_id": "ars_nouveau",
   "display_name": "Ars Nouveau",
-  "repo": "baileyholl/Ars-Nouveau",
-  "branch": "main",
   "disabled": false,
-  "hash": "8841bd28751ad0caef6c7ce7dd8b93b170d2cddd",
   "cf_id": 401955,
   "dependencies": [
     {

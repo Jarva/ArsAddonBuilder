@@ -1,10 +1,7 @@
 {
   "mod_id": "ars_additions",
   "display_name": "Ars Additions",
-  "repo": "Jarva/Ars-Additions",
-  "branch": "1.21.0",
   "disabled": false,
-  "hash": "91f102a90dc058cf40e4eac5a67a881e48b856b4",
   "cf_id": 974408,
   "dependencies": []
 }

@@ -1,10 +1,7 @@
 {
   "mod_id": "ars_controle",
   "display_name": "Ars Controle",
-  "repo": "Vonr/Ars-Controle",
-  "branch": "1.21",
   "disabled": false,
-  "hash": "ecbb83ba512bc9ca7a025556fb9c62dbd32b6430",
   "cf_id": 1061812,
   "dependencies": []
 }

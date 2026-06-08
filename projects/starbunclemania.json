@@ -1,10 +1,7 @@
 {
   "mod_id": "starbunclemania",
   "display_name": "Starbunclemania",
-  "repo": "Alexthw46/starbunclemania",
-  "branch": "1.21",
   "disabled": false,
-  "hash": "1c1f90c80178313ed8986a6b71a31b0c598fe603",
   "cf_id": 746215,
   "dependencies": []
 }
