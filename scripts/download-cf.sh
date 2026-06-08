@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+# set -euo pipefail
 
 # Downloads a mod and its dependencies from CurseForge.
 # Usage: download-cf.sh <project_json_path>
@@ -16,10 +16,18 @@ download_cf_file() {
   local mod_id="$1"
   local label="$2"
 
-  # Query for latest file matching game version and NeoForge loader
-  local response
-  response=$(curl -sf -H "x-api-key: $CF_API_KEY" \
-    "https://api.curseforge.com/v1/mods/${mod_id}/files?gameVersion=1.21.1&modLoaderType=6&pageSize=1")
+  # Query for latest file matching game version
+  local response http_code
+  response=$(curl -s -w "\n%{http_code}" -H "x-api-key: $CF_API_KEY" -H "Accept: application/json" \
+    "https://api.curseforge.com/v1/mods/${mod_id}/files?gameVersion=1.21.1&pageSize=1")
+  http_code=$(echo "$response" | tail -1)
+  response=$(echo "$response" | sed '$d')
+
+  if [ "$http_code" != "200" ]; then
+    echo "::error::API request failed for ${label} (mod ID ${mod_id}) - HTTP ${http_code}"
+    echo "$response"
+    return 1
+  fi
 
   local file_id filename download_url
   file_id=$(echo "$response" | jq -r '.data[0].id')
@@ -45,9 +53,6 @@ download_cf_file() {
 download_cf_file "$CF_ID" "$NAME"
 
 # Download dependencies
-DEP_COUNT=$(echo "$DEPS" | jq 'length')
-for i in $(seq 0 $((DEP_COUNT - 1))); do
-  dep_id=$(echo "$DEPS" | jq -r ".[$i].cf_id")
-  dep_name=$(echo "$DEPS" | jq -r ".[$i].name")
+echo "$DEPS" | jq -r '.[] | "\(.cf_id) \(.name)"' | while read -r dep_id dep_name; do
   download_cf_file "$dep_id" "$dep_name" || true
 done
