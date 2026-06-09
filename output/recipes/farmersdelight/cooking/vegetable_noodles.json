@@ -1,0 +1,66 @@
+{
+  "result": {
+    "id": "farmersdelight:vegetable_noodles",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "experience": 1.0,
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:brown_mushroom"
+        },
+        {
+          "item": "minecraft:red_mushroom"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "farmersdelight:raw_pasta"
+    },
+    {
+      "children": [
+        {
+          "item": "farmersdelight:cabbage"
+        },
+        {
+          "item": "farmersdelight:cabbage_leaf"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:carrot"
+        },
+        {
+          "item": "minecraft:golden_carrot"
+        },
+        {
+          "item": "minecraft:potato"
+        },
+        {
+          "item": "minecraft:beetroot"
+        },
+        {
+          "item": "farmersdelight:onion"
+        },
+        {
+          "item": "farmersdelight:tomato"
+        }
+      ],
+      "type": "neoforge:compound"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

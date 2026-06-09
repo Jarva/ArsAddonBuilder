@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:arcane_charcoal",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "malum:block_of_arcane_charcoal"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

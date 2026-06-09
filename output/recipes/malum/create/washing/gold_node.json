@@ -1,0 +1,18 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:gold_node"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:gold_nugget",
+      "count": 6
+    },
+    {
+      "id": "minecraft:quartz",
+      "chance": 0.5
+    }
+  ],
+  "type": "create:splashing"
+}

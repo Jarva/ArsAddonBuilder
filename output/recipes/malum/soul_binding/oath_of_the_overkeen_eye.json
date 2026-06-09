@@ -1,0 +1,36 @@
+{
+  "input": {
+    "item": "malum:mnemonic_fragment",
+    "count": 8
+  },
+  "result": "malum:oath_of_the_overkeen_eye",
+  "extraInputs": [
+    {
+      "item": "malum:null_slate",
+      "count": 8
+    },
+    {
+      "item": "malum:imitation_heart",
+      "count": 4
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "count": 4
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 32
+    },
+    {
+      "type": "malum:aerial",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    }
+  ],
+  "type": "malum:soul_binding"
+}

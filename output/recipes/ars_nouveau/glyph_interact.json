@@ -46,6 +46,15 @@
       },
       {
         "item": "ars_nouveau:archwood_pressure_plate"
+      },
+      {
+        "item": "occultism:otherplanks_pressure_plate"
+      },
+      {
+        "item": "malum:runewood_planks_pressure_plate"
+      },
+      {
+        "item": "malum:soulwood_planks_pressure_plate"
       }
     ],
     [
@@ -86,10 +95,28 @@
         "item": "ars_nouveau:archwood_button"
       },
       {
+        "item": "occultism:otherplanks_button"
+      },
+      {
+        "item": "malum:runewood_planks_button"
+      },
+      {
+        "item": "malum:soulwood_planks_button"
+      },
+      {
         "item": "minecraft:stone_button"
       },
       {
         "item": "minecraft:polished_blackstone_button"
+      },
+      {
+        "item": "occultism:otherstone_button"
+      },
+      {
+        "item": "malum:tainted_rock_button"
+      },
+      {
+        "item": "malum:twisted_rock_button"
       }
     ]
   ],

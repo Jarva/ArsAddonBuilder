@@ -1,0 +1,28 @@
+{
+  "input": {
+    "item": "minecraft:gold_block"
+  },
+  "output": {
+    "id": "minecraft:copper_block",
+    "count": 1
+  },
+  "source": 10000,
+  "pedestalItems": [
+    {
+      "item": "ars_trinkets:essence_1"
+    },
+    {
+      "item": "ars_trinkets:essence_1"
+    },
+    {
+      "item": "ars_trinkets:essence_4"
+    },
+    {
+      "item": "ars_trinkets:essence_4"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    }
+  ],
+  "type": "ars_nouveau:imbuement"
+}

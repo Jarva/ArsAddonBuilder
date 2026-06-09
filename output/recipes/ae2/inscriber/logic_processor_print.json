@@ -1,0 +1,16 @@
+{
+  "ingredients": {
+    "top": {
+      "item": "ae2:logic_processor_press"
+    },
+    "middle": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "ae2:printed_logic_processor",
+    "count": 1
+  },
+  "mode": "inscribe",
+  "type": "ae2:inscriber"
+}

@@ -1,0 +1,34 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_stabilizer_tier3",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:storage_stabilizer_tier3",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:craft_afrit",
+  "ingredients": [
+    {
+      "item": "occultism:storage_stabilizer_tier2"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "item": "occultism:afrit_essence"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
+  },
+  "duration": 300,
+  "type": "occultism:ritual"
+}

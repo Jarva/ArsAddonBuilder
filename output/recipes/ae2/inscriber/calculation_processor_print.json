@@ -1,0 +1,16 @@
+{
+  "ingredients": {
+    "top": {
+      "item": "ae2:calculation_processor_press"
+    },
+    "middle": {
+      "item": "ae2:certus_quartz_crystal"
+    }
+  },
+  "result": {
+    "id": "ae2:printed_calculation_processor",
+    "count": 1
+  },
+  "mode": "inscribe",
+  "type": "ae2:inscriber"
+}

@@ -1,0 +1,30 @@
+{
+  "result": {
+    "id": "malum:arcane_charcoal",
+    "count": 1
+  },
+  "experience": 0.25,
+  "cookingtime": 200,
+  "category": "misc",
+  "ingredient": [
+    {
+      "item": "malum:soulwood_log"
+    },
+    {
+      "item": "malum:stripped_soulwood_log"
+    },
+    {
+      "item": "malum:soulwood"
+    },
+    {
+      "item": "malum:stripped_soulwood"
+    },
+    {
+      "item": "malum:revealed_soulwood_log"
+    },
+    {
+      "item": "malum:exposed_soulwood_log"
+    }
+  ],
+  "type": "minecraft:smelting"
+}

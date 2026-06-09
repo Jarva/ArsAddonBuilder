@@ -1,0 +1,25 @@
+{
+  "tool": [
+    {
+      "action": "knife_dig",
+      "type": "farmersdelight:item_ability"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "minecraft:light_gray_dye",
+        "count": 2
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:oxeye_daisy"
+    }
+  ],
+  "type": "farmersdelight:cutting"
+}

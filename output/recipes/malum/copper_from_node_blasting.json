@@ -1,0 +1,13 @@
+{
+  "outputCount": 6,
+  "experience": 0.25,
+  "cookingTime": 100,
+  "group": "",
+  "ingredient": {
+    "item": "malum:copper_node"
+  },
+  "output": {
+    "item": "create:copper_nugget"
+  },
+  "type": "malum:node_blasting"
+}

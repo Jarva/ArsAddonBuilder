@@ -1,0 +1,30 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "malum:natural_quartz"
+      }
+    ],
+    {
+      "type": "neoforge:single",
+      "fluid": "minecraft:water",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:fluix_crystal",
+      "count": 2
+    }
+  ],
+  "type": "create:mixing"
+}

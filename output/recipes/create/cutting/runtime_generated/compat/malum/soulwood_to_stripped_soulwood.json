@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:soulwood"
+    }
+  ],
+  "results": [
+    {
+      "id": "malum:stripped_soulwood"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

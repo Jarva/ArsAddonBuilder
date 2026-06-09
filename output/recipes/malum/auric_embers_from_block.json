@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:auric_embers",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "malum:block_of_auric_embers"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,10 @@
+{
+  "input": {
+    "tag": "malum:void_soulstone_material"
+  },
+  "result": {
+    "id": "malum:raw_soulstone",
+    "count": 1
+  },
+  "type": "malum:void_favor"
+}

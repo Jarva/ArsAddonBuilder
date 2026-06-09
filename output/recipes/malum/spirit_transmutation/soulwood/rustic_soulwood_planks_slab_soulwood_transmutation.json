@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "malum:rustic_runewood_planks_slab"
+  },
+  "result": {
+    "id": "malum:rustic_soulwood_planks_slab",
+    "count": 1
+  },
+  "group": "soulwood",
+  "type": "malum:unchained_transmutation"
+}

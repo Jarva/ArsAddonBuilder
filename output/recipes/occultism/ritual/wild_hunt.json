@@ -1,0 +1,56 @@
+{
+  "entity_to_summon": "occultism:wild_hunt_wither_skeleton",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/wild_hunt",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/wild_hunt_wither_skeleton",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.wild_hunt\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.wild_hunt.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_wild",
+  "pentacle_id": "occultism:contact_wild_spirit",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "occultism:silver_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:soul_sand"
+        },
+        {
+          "item": "minecraft:soul_soil"
+        }
+      ],
+      "type": "neoforge:compound"
+    }
+  ],
+  "activation_item": {
+    "item": "minecraft:skeleton_skull"
+  },
+  "duration": 90,
+  "entity_to_sacrifice": {
+    "tag": "occultism:humans",
+    "display_name": "ritual.occultism.sacrifice.humans"
+  },
+  "type": "occultism:ritual"
+}

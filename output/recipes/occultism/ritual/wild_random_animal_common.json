@@ -1,0 +1,394 @@
+{
+  "summon_number": 7,
+  "entity_tag_to_summon": "occultism:random_animals_common",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/wild_random_animal_common",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:mysterious_egg_icon",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.wild_random_animal_common\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.wild_random_animal_common.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_wild",
+  "pentacle_id": "occultism:contact_wild_spirit",
+  "ingredients": [
+    {
+      "children": [
+        {
+          "item": "minecraft:beetroot_seeds"
+        },
+        {
+          "item": "minecraft:melon_seeds"
+        },
+        {
+          "item": "minecraft:pumpkin_seeds"
+        },
+        {
+          "item": "minecraft:torchflower_seeds"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "item": "farmersdelight:cabbage_seeds"
+        },
+        {
+          "item": "farmersdelight:rice"
+        },
+        {
+          "item": "farmersdelight:tomato_seeds"
+        },
+        {
+          "item": "ars_nouveau:magebloom_crop"
+        },
+        {
+          "item": "occultism:datura_seeds"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:beetroot_seeds"
+        },
+        {
+          "item": "minecraft:melon_seeds"
+        },
+        {
+          "item": "minecraft:pumpkin_seeds"
+        },
+        {
+          "item": "minecraft:torchflower_seeds"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "item": "farmersdelight:cabbage_seeds"
+        },
+        {
+          "item": "farmersdelight:rice"
+        },
+        {
+          "item": "farmersdelight:tomato_seeds"
+        },
+        {
+          "item": "ars_nouveau:magebloom_crop"
+        },
+        {
+          "item": "occultism:datura_seeds"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:beetroot_seeds"
+        },
+        {
+          "item": "minecraft:melon_seeds"
+        },
+        {
+          "item": "minecraft:pumpkin_seeds"
+        },
+        {
+          "item": "minecraft:torchflower_seeds"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "item": "farmersdelight:cabbage_seeds"
+        },
+        {
+          "item": "farmersdelight:rice"
+        },
+        {
+          "item": "farmersdelight:tomato_seeds"
+        },
+        {
+          "item": "ars_nouveau:magebloom_crop"
+        },
+        {
+          "item": "occultism:datura_seeds"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:beetroot_seeds"
+        },
+        {
+          "item": "minecraft:melon_seeds"
+        },
+        {
+          "item": "minecraft:pumpkin_seeds"
+        },
+        {
+          "item": "minecraft:torchflower_seeds"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "item": "farmersdelight:cabbage_seeds"
+        },
+        {
+          "item": "farmersdelight:rice"
+        },
+        {
+          "item": "farmersdelight:tomato_seeds"
+        },
+        {
+          "item": "ars_nouveau:magebloom_crop"
+        },
+        {
+          "item": "occultism:datura_seeds"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:beetroot"
+        },
+        {
+          "item": "minecraft:cactus"
+        },
+        {
+          "item": "minecraft:carrot"
+        },
+        {
+          "item": "minecraft:cocoa_beans"
+        },
+        {
+          "item": "minecraft:melon"
+        },
+        {
+          "item": "minecraft:nether_wart"
+        },
+        {
+          "item": "minecraft:potato"
+        },
+        {
+          "item": "minecraft:pumpkin"
+        },
+        {
+          "item": "minecraft:sugar_cane"
+        },
+        {
+          "item": "minecraft:wheat"
+        },
+        {
+          "item": "farmersdelight:rice"
+        },
+        {
+          "item": "farmersdelight:cabbage"
+        },
+        {
+          "item": "farmersdelight:cabbage_leaf"
+        },
+        {
+          "item": "farmersdelight:onion"
+        },
+        {
+          "item": "farmersdelight:tomato"
+        },
+        {
+          "item": "ars_nouveau:magebloom"
+        },
+        {
+          "item": "occultism:datura"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:beetroot"
+        },
+        {
+          "item": "minecraft:cactus"
+        },
+        {
+          "item": "minecraft:carrot"
+        },
+        {
+          "item": "minecraft:cocoa_beans"
+        },
+        {
+          "item": "minecraft:melon"
+        },
+        {
+          "item": "minecraft:nether_wart"
+        },
+        {
+          "item": "minecraft:potato"
+        },
+        {
+          "item": "minecraft:pumpkin"
+        },
+        {
+          "item": "minecraft:sugar_cane"
+        },
+        {
+          "item": "minecraft:wheat"
+        },
+        {
+          "item": "farmersdelight:rice"
+        },
+        {
+          "item": "farmersdelight:cabbage"
+        },
+        {
+          "item": "farmersdelight:cabbage_leaf"
+        },
+        {
+          "item": "farmersdelight:onion"
+        },
+        {
+          "item": "farmersdelight:tomato"
+        },
+        {
+          "item": "ars_nouveau:magebloom"
+        },
+        {
+          "item": "occultism:datura"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:beetroot"
+        },
+        {
+          "item": "minecraft:cactus"
+        },
+        {
+          "item": "minecraft:carrot"
+        },
+        {
+          "item": "minecraft:cocoa_beans"
+        },
+        {
+          "item": "minecraft:melon"
+        },
+        {
+          "item": "minecraft:nether_wart"
+        },
+        {
+          "item": "minecraft:potato"
+        },
+        {
+          "item": "minecraft:pumpkin"
+        },
+        {
+          "item": "minecraft:sugar_cane"
+        },
+        {
+          "item": "minecraft:wheat"
+        },
+        {
+          "item": "farmersdelight:rice"
+        },
+        {
+          "item": "farmersdelight:cabbage"
+        },
+        {
+          "item": "farmersdelight:cabbage_leaf"
+        },
+        {
+          "item": "farmersdelight:onion"
+        },
+        {
+          "item": "farmersdelight:tomato"
+        },
+        {
+          "item": "ars_nouveau:magebloom"
+        },
+        {
+          "item": "occultism:datura"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:beetroot"
+        },
+        {
+          "item": "minecraft:cactus"
+        },
+        {
+          "item": "minecraft:carrot"
+        },
+        {
+          "item": "minecraft:cocoa_beans"
+        },
+        {
+          "item": "minecraft:melon"
+        },
+        {
+          "item": "minecraft:nether_wart"
+        },
+        {
+          "item": "minecraft:potato"
+        },
+        {
+          "item": "minecraft:pumpkin"
+        },
+        {
+          "item": "minecraft:sugar_cane"
+        },
+        {
+          "item": "minecraft:wheat"
+        },
+        {
+          "item": "farmersdelight:rice"
+        },
+        {
+          "item": "farmersdelight:cabbage"
+        },
+        {
+          "item": "farmersdelight:cabbage_leaf"
+        },
+        {
+          "item": "farmersdelight:onion"
+        },
+        {
+          "item": "farmersdelight:tomato"
+        },
+        {
+          "item": "ars_nouveau:magebloom"
+        },
+        {
+          "item": "occultism:datura"
+        }
+      ],
+      "type": "neoforge:compound"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:spirit_attuned_gem"
+  },
+  "duration": 45,
+  "item_to_use": {
+    "item": "minecraft:egg"
+  },
+  "type": "occultism:ritual"
+}

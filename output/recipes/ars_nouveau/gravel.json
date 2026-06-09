@@ -13,6 +13,22 @@
     },
     {
       "stack": {
+        "id": "minecraft:lapis_lazuli",
+        "count": 1
+      },
+      "chance": 0.05,
+      "maxRange": 1
+    },
+    {
+      "stack": {
+        "id": "minecraft:diamond",
+        "count": 1
+      },
+      "chance": 0.01,
+      "maxRange": 1
+    },
+    {
+      "stack": {
         "id": "minecraft:flint",
         "count": 1
       },

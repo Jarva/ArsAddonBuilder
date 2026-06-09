@@ -1,0 +1,25 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "fluid": "minecraft:milk"
+        },
+        {
+          "fluid": "minecraft:flowing_milk"
+        }
+      ],
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:milk_bottle"
+    }
+  ],
+  "type": "create:filling"
+}

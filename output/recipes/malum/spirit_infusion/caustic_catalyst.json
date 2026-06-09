@@ -1,0 +1,31 @@
+{
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    },
+    {
+      "type": "malum:infernal",
+      "count": 16
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:blazing_quartz",
+      "count": 8
+    },
+    {
+      "item": "minecraft:prismarine_crystals",
+      "count": 8
+    }
+  ],
+  "input": {
+    "item": "malum:alchemical_calx",
+    "count": 6
+  },
+  "result": {
+    "id": "malum:caustic_catalyst",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

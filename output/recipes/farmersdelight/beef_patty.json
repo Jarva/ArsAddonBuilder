@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "farmersdelight:beef_patty",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200,
+  "category": "food",
+  "ingredient": {
+    "item": "farmersdelight:minced_beef"
+  },
+  "type": "minecraft:smelting"
+}

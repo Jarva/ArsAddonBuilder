@@ -1,0 +1,16 @@
+{
+  "input": {
+    "item": "farmersdelight:brown_mushroom_colony"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "minecraft:brown_mushroom",
+        "count": 5
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_unification:cut"
+}

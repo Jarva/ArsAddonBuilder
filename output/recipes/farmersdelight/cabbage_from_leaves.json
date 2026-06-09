@@ -1,0 +1,17 @@
+{
+  "group": "fd_cabbage",
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:cabbage",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

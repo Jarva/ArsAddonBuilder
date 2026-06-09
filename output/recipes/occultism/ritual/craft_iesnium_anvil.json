@@ -1,0 +1,34 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_iesnium_anvil",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:iesnium_anvil",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:craft_marid",
+  "ingredients": [
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "occultism:marid_essence"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_marid"
+  },
+  "duration": 510,
+  "type": "occultism:ritual"
+}

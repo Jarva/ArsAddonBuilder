@@ -1,0 +1,32 @@
+{
+  "input": {
+    "item": "malum:raw_soulstone",
+    "count": 12
+  },
+  "result": "malum:pact_of_the_arcanaphage",
+  "extraInputs": [
+    {
+      "item": "malum:warp_flux",
+      "count": 8
+    },
+    {
+      "item": "malum:soul_stained_steel_plating",
+      "count": 4
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    },
+    {
+      "type": "malum:arcane",
+      "count": 16
+    },
+    {
+      "type": "malum:wicked",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

@@ -1,0 +1,31 @@
+{
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 8
+    },
+    {
+      "type": "malum:arcane",
+      "count": 4
+    }
+  ],
+  "extraInputs": [
+    {
+      "tag": "c:gems/emerald",
+      "count": 2
+    },
+    {
+      "item": "malum:refined_soulstone",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "malum:alchemical_calx",
+    "count": 4
+  },
+  "result": {
+    "id": "malum:intricate_assembly",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

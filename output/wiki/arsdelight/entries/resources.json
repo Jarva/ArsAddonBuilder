@@ -1,0 +1,37 @@
+{
+  "id": "arsdelight:resources",
+  "order": 100,
+  "icon": "arsdelight:chimera_horn",
+  "title": "Natural Resources",
+  "category": "arsdelight:category_title",
+  "pages": [
+    {
+      "title": "Natural Resources",
+      "description": "Ars Delight adds  several ingredients  player can collect  with tools:   - Archwood Barks   - Wilden Meat   - Chimera Meat   - Chimera Horn",
+      "icon": "arsdelight:chimera_horn"
+    },
+    {
+      "title": "Blazing Bark",
+      "description": "Player can gather  archwood barks by  cutting archwood  logs with axe on  cutting table.   Archwood barks is  widely used in  cooking to boost  effect of pods from  the same archwood  tree or convert  effect of pods from a  different archwood",
+      "icon": "arsdelight:blazing_bark"
+    },
+    {
+      "description": "tree"
+    },
+    {
+      "title": "Wilden Meat",
+      "description": "Player can gather  Wilden Meat by  killing Wilden  Hunter with a knife.   It\u0027s fairly  nutritious and is  the early game  source of wilden  effect.",
+      "icon": "arsdelight:wilden_meat"
+    },
+    {
+      "title": "Chimera Meat",
+      "description": "Player can gather  Chimera Meat in bulk  by killing Chimera  with a knife.   It\u0027s very nutritious  and gives strong  wilden effect when  cooked properly.",
+      "icon": "arsdelight:chimera_meat"
+    },
+    {
+      "title": "Chimera Horn",
+      "description": "Player can gather  Chimera Horn by  killing Chimera with  an axe.   It\u0027s a reusable food  container and can  boost food effect.",
+      "icon": "arsdelight:chimera_horn"
+    }
+  ]
+}

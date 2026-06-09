@@ -1,0 +1,16 @@
+{
+  "input": {
+    "item": "minecraft:gold_ingot"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "ae2:printed_logic_processor",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_unification:press"
+}

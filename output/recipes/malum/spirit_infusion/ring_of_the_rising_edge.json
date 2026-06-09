@@ -1,0 +1,35 @@
+{
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 32
+    },
+    {
+      "type": "malum:aerial",
+      "count": 32
+    }
+  ],
+  "extraInputs": [
+    {
+      "tag": "c:ingots/iron",
+      "count": 6
+    },
+    {
+      "item": "malum:wind_nucleus",
+      "count": 4
+    },
+    {
+      "item": "minecraft:wind_charge",
+      "count": 4
+    }
+  ],
+  "input": {
+    "item": "malum:ornate_ring",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:ring_of_the_rising_edge",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:coal_fragment",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

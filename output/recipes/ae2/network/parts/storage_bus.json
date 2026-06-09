@@ -1,0 +1,24 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ae2:storage_bus",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:piston"
+    },
+    [
+      {
+        "item": "ae2:cable_interface"
+      },
+      {
+        "item": "ae2:interface"
+      }
+    ],
+    {
+      "item": "minecraft:piston"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

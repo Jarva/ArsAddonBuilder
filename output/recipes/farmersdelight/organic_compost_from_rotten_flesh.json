@@ -1,0 +1,38 @@
+{
+  "group": "fd_organic_compost",
+  "category": "building",
+  "result": {
+    "id": "farmersdelight:organic_compost",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

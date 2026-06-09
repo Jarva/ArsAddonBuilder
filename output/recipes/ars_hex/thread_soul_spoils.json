@@ -1,0 +1,29 @@
+{
+  "pedestalItems": [
+    {
+      "item": "malum:ring_of_esoteric_spoils"
+    },
+    {
+      "item": "malum:refined_soulstone"
+    },
+    {
+      "item": "malum:arcane_spirit"
+    },
+    {
+      "item": "malum:wicked_spirit"
+    },
+    {
+      "item": "malum:eldritch_spirit"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:blank_thread"
+  },
+  "result": {
+    "id": "ars_hex:thread_soul_spoils",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

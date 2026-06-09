@@ -1,0 +1,20 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:alchemical_impetus"
+    }
+  ],
+  "results": [
+    {
+      "id": "malum:alchemical_calx",
+      "count": 2
+    },
+    {
+      "id": "malum:alchemical_calx",
+      "count": 2,
+      "chance": 0.75
+    }
+  ],
+  "processing_time": 600,
+  "type": "create:crushing"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ars_trinkets:glyph_water_spear",
+  "order": 100,
+  "icon": "ars_trinkets:glyph_water_spear",
+  "title": "Water Spear",
+  "category": "ars_nouveau:glyphs_tier_three",
+  "pages": [
+    {
+      "title": "Water Spear",
+      "description": "Summons a spear of water, piercing the enemy and dealing damage.",
+      "icon": "ars_trinkets:glyph_water_spear",
+      "tier": 3
+    },
+    {
+      "recipe_1": "ars_trinkets:glyph_water_spear"
+    }
+  ]
+}

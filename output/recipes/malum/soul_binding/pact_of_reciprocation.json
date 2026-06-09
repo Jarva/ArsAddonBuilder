@@ -1,0 +1,40 @@
+{
+  "input": {
+    "item": "malum:imitation_flesh",
+    "count": 8
+  },
+  "result": "malum:pact_of_reciprocation",
+  "extraInputs": [
+    {
+      "item": "malum:warp_flux",
+      "count": 8
+    },
+    {
+      "item": "malum:refined_soulstone",
+      "count": 8
+    },
+    {
+      "item": "malum:soul_stained_steel_plating",
+      "count": 8
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 32
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 32
+    },
+    {
+      "type": "malum:earthen",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

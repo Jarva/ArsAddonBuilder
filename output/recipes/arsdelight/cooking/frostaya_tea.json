@@ -1,0 +1,30 @@
+{
+  "result": {
+    "id": "arsdelight:frostaya_tea",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:glass_bottle",
+    "count": 1
+  },
+  "experience": 0.1,
+  "recipe_book_tab": "drinks",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    },
+    {
+      "item": "arsdelight:blazing_bark"
+    },
+    {
+      "item": "ars_nouveau:red_archwood_leaves"
+    },
+    {
+      "item": "ars_nouveau:sourceberry_bush"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

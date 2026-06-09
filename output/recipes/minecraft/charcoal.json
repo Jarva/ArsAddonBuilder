@@ -162,6 +162,24 @@
     },
     {
       "item": "ars_elemental:stripped_yellow_archwood_log"
+    },
+    {
+      "item": "occultism:otherworld_log"
+    },
+    {
+      "item": "occultism:otherworld_log_natural"
+    },
+    {
+      "item": "occultism:stripped_otherworld_log_natural"
+    },
+    {
+      "item": "occultism:otherworld_wood"
+    },
+    {
+      "item": "occultism:stripped_otherworld_log"
+    },
+    {
+      "item": "occultism:stripped_otherworld_wood"
     }
   ],
   "type": "minecraft:smelting"

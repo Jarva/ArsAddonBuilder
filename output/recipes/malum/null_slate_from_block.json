@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:null_slate",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "malum:block_of_null_slate"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

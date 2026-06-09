@@ -1,0 +1,22 @@
+{
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 2
+    },
+    {
+      "type": "malum:arcane",
+      "count": 2
+    }
+  ],
+  "time": 300,
+  "durabilityCost": 1,
+  "input": {
+    "item": "malum:alchemical_impetus"
+  },
+  "result": {
+    "id": "minecraft:quartz",
+    "count": 4
+  },
+  "type": "malum:spirit_focusing"
+}

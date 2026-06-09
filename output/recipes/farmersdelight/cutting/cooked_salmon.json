@@ -1,0 +1,31 @@
+{
+  "tool": [
+    {
+      "action": "knife_dig",
+      "type": "farmersdelight:item_ability"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "farmersdelight:cooked_salmon_slice",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 1
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_salmon"
+    }
+  ],
+  "type": "farmersdelight:cutting"
+}

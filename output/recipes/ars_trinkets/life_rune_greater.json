@@ -1,0 +1,20 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_trinkets:life_rune"
+    },
+    {
+      "item": "ars_trinkets:life_rune"
+    }
+  ],
+  "sourceCost": 1000,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "minecraft:netherite_block"
+  },
+  "result": {
+    "id": "ars_trinkets:life_rune_greater",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

@@ -1,0 +1,22 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ae2:portable_item_cell_256k",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ae2:chest"
+    },
+    {
+      "item": "ae2:cell_component_256k"
+    },
+    {
+      "item": "ae2:energy_cell"
+    },
+    {
+      "item": "ae2:item_cell_housing"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

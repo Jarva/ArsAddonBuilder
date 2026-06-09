@@ -1,0 +1,13 @@
+{
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "item": "minecraft:ice"
+  },
+  "result": {
+    "tag": "c:dusts/ice",
+    "count": 1,
+    "type": "occultism:tag"
+  },
+  "min_tier": 2,
+  "type": "occultism:crushing"
+}

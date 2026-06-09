@@ -1,0 +1,18 @@
+{
+  "id": "ars_trinkets:glyph_sonic_boom",
+  "order": 100,
+  "icon": "ars_trinkets:glyph_sonic_boom",
+  "title": "Sonic Boom",
+  "category": "ars_nouveau:glyphs_tier_three",
+  "pages": [
+    {
+      "title": "Sonic Boom",
+      "description": "Creates an explosion of sound, which will ripple across multiple enemies. Does not harm the caster. Scales with amplify and AOE",
+      "icon": "ars_trinkets:glyph_sonic_boom",
+      "tier": 3
+    },
+    {
+      "recipe_1": "ars_trinkets:glyph_sonic_boom"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "summon_number": 5,
+  "entity_to_summon": "occultism:wild_horde_drowned",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/wild_drowned",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/wild_horde_drowned",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.wild_drowned\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.wild_drowned.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_wild",
+  "pentacle_id": "occultism:contact_wild_spirit",
+  "ingredients": [
+    {
+      "item": "minecraft:pufferfish"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:dried_kelp_block"
+    },
+    {
+      "item": "minecraft:gravel"
+    }
+  ],
+  "activation_item": {
+    "item": "minecraft:fishing_rod"
+  },
+  "duration": 90,
+  "entity_to_sacrifice": {
+    "tag": "c:fish",
+    "display_name": "ritual.occultism.sacrifice.fish"
+  },
+  "type": "occultism:ritual"
+}

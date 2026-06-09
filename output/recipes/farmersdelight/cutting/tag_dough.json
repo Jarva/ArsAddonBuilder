@@ -1,0 +1,33 @@
+{
+  "tool": [
+    {
+      "action": "knife_dig",
+      "type": "farmersdelight:item_ability"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "farmersdelight:raw_pasta",
+        "count": 1
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "children": [
+        {
+          "item": "farmersdelight:wheat_dough"
+        },
+        {
+          "item": "create:dough"
+        }
+      ],
+      "type": "neoforge:compound"
+    }
+  ],
+  "type": "farmersdelight:cutting"
+}

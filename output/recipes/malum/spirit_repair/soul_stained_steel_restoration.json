@@ -1,0 +1,31 @@
+{
+  "repairMaterial": {
+    "item": "malum:soul_stained_steel_ingot",
+    "count": 2
+  },
+  "durabilityPercentage": 0.75,
+  "validItems": [
+    "malum:soul_stained_steel_scythe",
+    "malum:soul_stained_steel_sword",
+    "malum:soul_stained_steel_axe",
+    "malum:soul_stained_steel_pickaxe",
+    "malum:soul_stained_steel_shovel",
+    "malum:soul_stained_steel_hoe",
+    "malum:soul_stained_steel_knife"
+  ],
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 16
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:earthen",
+      "count": 4
+    }
+  ],
+  "type": "malum:spirit_repair"
+}

@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "malum:encyclopedia_arcana"
+  },
+  "result": {
+    "id": "malum:encyclopedia_esoterica",
+    "count": 1
+  },
+  "type": "malum:void_favor"
+}

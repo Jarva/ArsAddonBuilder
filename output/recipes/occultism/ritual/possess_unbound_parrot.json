@@ -1,0 +1,44 @@
+{
+  "entity_to_summon": "minecraft:parrot",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/possess_unbound_parrot",
+    "count": 1
+  },
+  "result": {
+    "id": "minecraft:parrot_spawn_egg",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_unbound_parrot\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_unbound_parrot.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon",
+  "pentacle_id": "occultism:possess_foliot",
+  "ingredients": [
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "entity_to_sacrifice": {
+    "tag": "c:chickens",
+    "display_name": "ritual.occultism.sacrifice.chicken"
+  },
+  "type": "occultism:ritual"
+}

@@ -1,0 +1,53 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_stable_wormhole_dark",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:stable_wormhole_dark",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:craft_foliot",
+  "ingredients": [
+    {
+      "item": "occultism:otherrock_frame"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:quartz"
+        },
+        {
+          "item": "malum:natural_quartz"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:quartz"
+        },
+        {
+          "item": "malum:natural_quartz"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 60,
+  "type": "occultism:ritual"
+}

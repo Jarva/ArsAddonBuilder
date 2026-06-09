@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "minecraft:black_wool"
+  },
+  "result": {
+    "id": "malum:tophat",
+    "count": 1
+  },
+  "type": "malum:void_favor"
+}

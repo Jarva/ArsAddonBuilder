@@ -1,0 +1,12 @@
+{
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "item": "minecraft:end_stone"
+  },
+  "result": {
+    "tag": "c:dusts/end_stone",
+    "count": 1,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

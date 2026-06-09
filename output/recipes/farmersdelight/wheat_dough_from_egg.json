@@ -1,0 +1,23 @@
+{
+  "group": "fd_dough",
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:wheat_dough",
+    "count": 3
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,39 @@
+{
+  "spirit_job_type": "occultism:night_time",
+  "entity_to_summon": "occultism:djinni",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/summon_djinni_night_time",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/djinni",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_djinni_night_time\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_djinni_night_time.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_spirit_with_job",
+  "pentacle_id": "occultism:summon_djinni",
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 60,
+  "type": "occultism:ritual"
+}

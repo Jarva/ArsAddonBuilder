@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "ae2:sky_stone_block"
+  },
+  "result": {
+    "id": "ae2:sky_stone_slab",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

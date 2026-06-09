@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "occultism:miner_afrit_deeps"
+    },
+    {
+      "item": "occultism:miner_marid_master"
+    }
+  ],
+  "result": {
+    "stack": {
+      "id": "occultism:silver_ore_deepslate",
+      "count": 1
+    },
+    "weight": 381,
+    "type": "occultism:weighted_item"
+  },
+  "type": "occultism:miner"
+}

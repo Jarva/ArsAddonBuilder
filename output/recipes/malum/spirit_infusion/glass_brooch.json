@@ -1,0 +1,27 @@
+{
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 32
+    }
+  ],
+  "extraInputs": [
+    {
+      "tag": "c:gems/diamond",
+      "count": 8
+    },
+    {
+      "item": "malum:astral_weave",
+      "count": 4
+    }
+  ],
+  "input": {
+    "item": "malum:runic_brooch",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:glass_brooch",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

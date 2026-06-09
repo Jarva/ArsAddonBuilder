@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "occultism:otherworld_log"
+    }
+  ],
+  "results": [
+    {
+      "id": "occultism:stripped_otherworld_log"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

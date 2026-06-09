@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:poly_prideweave",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "malum:esoteric_spool"
+    },
+    {
+      "item": "minecraft:comparator"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

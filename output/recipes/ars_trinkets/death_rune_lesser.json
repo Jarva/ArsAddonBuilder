@@ -1,0 +1,38 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_trinkets:essence_ring_10"
+    },
+    {
+      "item": "ars_trinkets:essence_ring_10"
+    },
+    {
+      "item": "ars_trinkets:essence_lotus_10"
+    },
+    {
+      "item": "ars_trinkets:essence_lotus_10"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    },
+    {
+      "item": "ars_nouveau:air_essence"
+    }
+  ],
+  "sourceCost": 1000,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "ars_trinkets:death_rune_lesser",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "farmersdelight:wild_cabbages"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:cabbage_seeds"
+    },
+    {
+      "id": "minecraft:yellow_dye"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:milling"
+}

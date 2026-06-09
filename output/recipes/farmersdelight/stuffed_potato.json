@@ -1,0 +1,29 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:stuffed_potato",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:baked_potato"
+    },
+    [
+      {
+        "item": "minecraft:cooked_beef"
+      },
+      {
+        "item": "farmersdelight:beef_patty"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:milk_bucket"
+      },
+      {
+        "item": "farmersdelight:milk_bottle"
+      }
+    ]
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

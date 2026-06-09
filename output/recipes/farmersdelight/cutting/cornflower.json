@@ -1,0 +1,25 @@
+{
+  "tool": [
+    {
+      "action": "knife_dig",
+      "type": "farmersdelight:item_ability"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "minecraft:blue_dye",
+        "count": 2
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:cornflower"
+    }
+  ],
+  "type": "farmersdelight:cutting"
+}

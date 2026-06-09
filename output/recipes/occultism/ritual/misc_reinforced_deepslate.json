@@ -1,0 +1,82 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/misc_reinforced_deepslate",
+    "count": 1
+  },
+  "result": {
+    "id": "minecraft:reinforced_deepslate",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:contact_wild_spirit",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:obsidian"
+        },
+        {
+          "item": "minecraft:crying_obsidian"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:obsidian"
+        },
+        {
+          "item": "minecraft:crying_obsidian"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:obsidian"
+        },
+        {
+          "item": "minecraft:crying_obsidian"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:obsidian"
+        },
+        {
+          "item": "minecraft:crying_obsidian"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "occultism:iesnium_ingot"
+    }
+  ],
+  "activation_item": {
+    "item": "minecraft:deepslate"
+  },
+  "duration": 180,
+  "entity_to_sacrifice": {
+    "tag": "c:wardens",
+    "display_name": "ritual.occultism.sacrifice.warden"
+  },
+  "type": "occultism:ritual"
+}

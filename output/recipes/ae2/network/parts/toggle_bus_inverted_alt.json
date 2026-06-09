@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ae2:inverted_toggle_bus",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ae2:toggle_bus"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

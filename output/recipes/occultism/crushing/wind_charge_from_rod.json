@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "minecraft:breeze_rod"
+  },
+  "result": {
+    "id": "minecraft:wind_charge",
+    "count": 4,
+    "type": "occultism:item"
+  },
+  "type": "occultism:crushing"
+}

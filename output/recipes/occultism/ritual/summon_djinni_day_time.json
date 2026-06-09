@@ -1,0 +1,98 @@
+{
+  "spirit_job_type": "occultism:day_time",
+  "entity_to_summon": "occultism:djinni",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/summon_djinni_day_time",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/djinni",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_djinni_day_time\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_djinni_day_time.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_spirit_with_job",
+  "pentacle_id": "occultism:summon_djinni",
+  "ingredients": [
+    {
+      "item": "minecraft:torch"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:oak_sapling"
+        },
+        {
+          "item": "minecraft:spruce_sapling"
+        },
+        {
+          "item": "minecraft:birch_sapling"
+        },
+        {
+          "item": "minecraft:jungle_sapling"
+        },
+        {
+          "item": "minecraft:acacia_sapling"
+        },
+        {
+          "item": "minecraft:dark_oak_sapling"
+        },
+        {
+          "item": "minecraft:azalea"
+        },
+        {
+          "item": "minecraft:flowering_azalea"
+        },
+        {
+          "item": "minecraft:mangrove_propagule"
+        },
+        {
+          "item": "minecraft:cherry_sapling"
+        },
+        {
+          "item": "ars_nouveau:red_archwood_sapling"
+        },
+        {
+          "item": "ars_nouveau:blue_archwood_sapling"
+        },
+        {
+          "item": "ars_nouveau:green_archwood_sapling"
+        },
+        {
+          "item": "ars_nouveau:purple_archwood_sapling"
+        },
+        {
+          "item": "ars_elemental:yellow_archwood_sapling"
+        },
+        {
+          "item": "occultism:otherworld_sapling"
+        },
+        {
+          "item": "occultism:otherworld_sapling_natural"
+        },
+        {
+          "item": "malum:runewood_sapling"
+        },
+        {
+          "item": "malum:azure_runewood_sapling"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 60,
+  "type": "occultism:ritual"
+}

@@ -1,0 +1,31 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_vitality_compass",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:vitality_compass",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:craft_foliot",
+  "ingredients": [
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    },
+    {
+      "item": "minecraft:compass"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 60,
+  "type": "occultism:ritual"
+}

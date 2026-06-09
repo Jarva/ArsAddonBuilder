@@ -1,0 +1,28 @@
+{
+  "input": {
+    "item": "malum:soul_stained_steel_plating",
+    "count": 12
+  },
+  "result": "malum:pact_of_the_shield",
+  "extraInputs": [
+    {
+      "item": "malum:refined_soulstone",
+      "count": 8
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 16
+    },
+    {
+      "type": "malum:aerial",
+      "count": 16
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

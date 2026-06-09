@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ae2:certus_quartz_crystal",
+    "count": 4
+  },
+  "ingredients": [
+    {
+      "item": "ae2:cut_quartz_block"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "malum:runewood_planks_fence_gate"
+  },
+  "result": {
+    "id": "malum:soulwood_planks_fence_gate",
+    "count": 1
+  },
+  "group": "soulwood",
+  "type": "malum:unchained_transmutation"
+}

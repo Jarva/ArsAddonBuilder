@@ -1,0 +1,31 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_witherite_dust",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:witherite_dust",
+    "count": 3
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:craft_afrit",
+  "ingredients": [
+    {
+      "item": "occultism:netherite_dust"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "occultism:crushed_blackstone"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
+  },
+  "duration": 300,
+  "type": "occultism:ritual"
+}

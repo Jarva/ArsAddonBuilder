@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:hallowed_gold_ingot",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "malum:block_of_hallowed_gold"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

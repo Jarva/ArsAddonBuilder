@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:runewood_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "malum:runewood_sign"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

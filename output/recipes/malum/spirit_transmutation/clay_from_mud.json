@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "minecraft:mud"
+  },
+  "result": {
+    "id": "minecraft:clay",
+    "count": 1
+  },
+  "group": "mud",
+  "type": "malum:unchained_transmutation"
+}

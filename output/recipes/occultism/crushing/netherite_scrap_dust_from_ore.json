@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "minecraft:ancient_debris"
+  },
+  "result": {
+    "tag": "c:dusts/netherite_scrap",
+    "count": 2,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

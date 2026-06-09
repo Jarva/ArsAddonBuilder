@@ -1,0 +1,55 @@
+{
+  "ingredients": [
+    [
+      {
+        "item": "malum:iron_impetus"
+      },
+      {
+        "item": "malum:copper_impetus"
+      },
+      {
+        "item": "malum:gold_impetus"
+      },
+      {
+        "item": "malum:aluminum_impetus"
+      },
+      {
+        "item": "malum:nickel_impetus"
+      },
+      {
+        "item": "malum:silver_impetus"
+      },
+      {
+        "item": "malum:tin_impetus"
+      },
+      {
+        "item": "malum:zinc_impetus"
+      },
+      {
+        "item": "malum:osmium_impetus"
+      },
+      {
+        "item": "malum:lead_impetus"
+      },
+      {
+        "item": "malum:uranium_impetus"
+      },
+      {
+        "item": "malum:cobalt_impetus"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "id": "malum:cthonic_gold_fragment",
+      "count": 3
+    },
+    {
+      "id": "malum:cthonic_gold_fragment",
+      "count": 3,
+      "chance": 0.75
+    }
+  ],
+  "processing_time": 600,
+  "type": "create:crushing"
+}

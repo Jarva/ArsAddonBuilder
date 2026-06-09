@@ -1,0 +1,25 @@
+{
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 2
+    },
+    {
+      "type": "malum:earthen",
+      "count": 2
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "minecraft:clay_ball",
+    "count": 4
+  },
+  "result": {
+    "id": "malum:alchemical_calx",
+    "count": 4
+  },
+  "type": "malum:spirit_infusion"
+}

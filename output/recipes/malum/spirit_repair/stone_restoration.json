@@ -1,0 +1,23 @@
+{
+  "repairMaterial": {
+    "tag": "minecraft:stone_tool_materials",
+    "count": 2
+  },
+  "regex": {
+    "itemIdRegex": "stone_.+"
+  },
+  "validItems": [
+    "minecraft:stone_sword",
+    "minecraft:stone_shovel",
+    "minecraft:stone_pickaxe",
+    "minecraft:stone_axe",
+    "minecraft:stone_hoe"
+  ],
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 4
+    }
+  ],
+  "type": "malum:spirit_repair"
+}

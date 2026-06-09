@@ -1,0 +1,12 @@
+{
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "item": "occultism:silver_ingot"
+  },
+  "result": {
+    "tag": "c:dusts/silver",
+    "count": 1,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

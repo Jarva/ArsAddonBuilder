@@ -1,0 +1,27 @@
+{
+  "input": [
+    {
+      "item": "minecraft:leather_helmet"
+    },
+    {
+      "item": "minecraft:leather_chestplate"
+    },
+    {
+      "item": "minecraft:leather_leggings"
+    },
+    {
+      "item": "minecraft:leather_boots"
+    }
+  ],
+  "output": [
+    {
+      "stack": {
+        "id": "minecraft:leather",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_unification:cut"
+}

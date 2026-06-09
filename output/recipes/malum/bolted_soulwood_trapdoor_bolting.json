@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:bolted_soulwood_trapdoor",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "malum:soulwood_trapdoor"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

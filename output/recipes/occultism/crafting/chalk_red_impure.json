@@ -1,0 +1,22 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "occultism:chalk_red_impure",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:chalk_white_impure"
+    },
+    {
+      "item": "occultism:afrit_essence"
+    },
+    {
+      "item": "minecraft:torchflower"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

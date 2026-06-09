@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:agender_prideweave",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "malum:esoteric_spool"
+    },
+    {
+      "item": "minecraft:book"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,27 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:brilliant_deepslate"
+    }
+  ],
+  "results": [
+    {
+      "id": "malum:crushed_brilliance"
+    },
+    {
+      "id": "malum:crushed_brilliance",
+      "chance": 0.75
+    },
+    {
+      "id": "create:experience_nugget",
+      "count": 3,
+      "chance": 0.75
+    },
+    {
+      "id": "minecraft:cobbled_deepslate",
+      "chance": 0.125
+    }
+  ],
+  "processing_time": 300,
+  "type": "create:crushing"
+}

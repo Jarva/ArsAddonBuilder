@@ -1,0 +1,27 @@
+{
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 16
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 8
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:raw_brilliance",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "malum:runewood_planks",
+    "count": 2
+  },
+  "result": {
+    "id": "malum:brilliant_obelisk",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

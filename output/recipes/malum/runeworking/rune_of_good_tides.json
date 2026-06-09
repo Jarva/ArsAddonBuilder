@@ -1,0 +1,16 @@
+{
+  "input": {
+    "item": "malum:soulwood_planks",
+    "count": 4
+  },
+  "secondaryInput": {
+    "item": "malum:aqueous_spirit",
+    "count": 32
+  },
+  "result": {
+    "id": "malum:rune_of_good_tides",
+    "count": 1
+  },
+  "soundType": "malum:runic_workbench_shapes_wooden_rune",
+  "type": "malum:runeworking"
+}

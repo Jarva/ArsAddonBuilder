@@ -1,0 +1,32 @@
+{
+  "input": {
+    "item": "minecraft:prismarine_crystals",
+    "count": 12
+  },
+  "result": "malum:pact_of_the_high_priest",
+  "extraInputs": [
+    {
+      "item": "minecraft:prismarine_shard",
+      "count": 8
+    },
+    {
+      "item": "minecraft:nautilus_shell",
+      "count": 2
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    },
+    {
+      "type": "malum:aerial",
+      "count": 16
+    },
+    {
+      "type": "malum:earthen",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

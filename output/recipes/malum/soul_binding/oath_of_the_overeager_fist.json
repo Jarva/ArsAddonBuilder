@@ -1,0 +1,36 @@
+{
+  "input": {
+    "item": "malum:mnemonic_fragment",
+    "count": 8
+  },
+  "result": "malum:oath_of_the_overeager_fist",
+  "extraInputs": [
+    {
+      "item": "malum:void_salts",
+      "count": 8
+    },
+    {
+      "item": "malum:imitation_heart",
+      "count": 4
+    },
+    {
+      "item": "minecraft:blaze_powder",
+      "count": 4
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 32
+    },
+    {
+      "type": "malum:infernal",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    }
+  ],
+  "type": "malum:soul_binding"
+}

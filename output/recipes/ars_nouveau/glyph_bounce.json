@@ -7,15 +7,39 @@
     {
       "item": "ars_nouveau:abjuration_essence"
     },
-    {
-      "item": "minecraft:slime_ball"
-    },
-    {
-      "item": "minecraft:slime_ball"
-    },
-    {
-      "item": "minecraft:slime_ball"
-    }
+    [
+      {
+        "item": "minecraft:slime_ball"
+      },
+      {
+        "item": "malum:runic_sapball"
+      },
+      {
+        "item": "malum:cursed_sapball"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:slime_ball"
+      },
+      {
+        "item": "malum:runic_sapball"
+      },
+      {
+        "item": "malum:cursed_sapball"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:slime_ball"
+      },
+      {
+        "item": "malum:runic_sapball"
+      },
+      {
+        "item": "malum:cursed_sapball"
+      }
+    ]
   ],
   "exp": 27,
   "type": "ars_nouveau:glyph"

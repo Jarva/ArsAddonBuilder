@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "minecraft:nether_quartz_ore"
+    },
+    {
+      "item": "malum:natural_quartz_ore"
+    },
+    {
+      "item": "malum:deepslate_quartz_ore"
+    }
+  ],
+  "result": {
+    "tag": "c:gems/quartz",
+    "count": 2,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crystallize"
+}

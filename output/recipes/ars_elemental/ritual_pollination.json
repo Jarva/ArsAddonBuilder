@@ -58,6 +58,30 @@
         "item": "minecraft:torchflower"
       },
       {
+        "item": "farmersdelight:wild_carrots"
+      },
+      {
+        "item": "farmersdelight:wild_potatoes"
+      },
+      {
+        "item": "farmersdelight:wild_beetroots"
+      },
+      {
+        "item": "farmersdelight:wild_cabbages"
+      },
+      {
+        "item": "farmersdelight:wild_tomatoes"
+      },
+      {
+        "item": "farmersdelight:wild_onions"
+      },
+      {
+        "item": "occultism:otherflower"
+      },
+      {
+        "item": "occultism:otherflower_natural"
+      },
+      {
         "item": "minecraft:sunflower"
       },
       {
@@ -71,6 +95,9 @@
       },
       {
         "item": "minecraft:pitcher_plant"
+      },
+      {
+        "item": "farmersdelight:wild_rice"
       },
       {
         "item": "minecraft:flowering_azalea_leaves"
@@ -138,6 +165,30 @@
         "item": "minecraft:torchflower"
       },
       {
+        "item": "farmersdelight:wild_carrots"
+      },
+      {
+        "item": "farmersdelight:wild_potatoes"
+      },
+      {
+        "item": "farmersdelight:wild_beetroots"
+      },
+      {
+        "item": "farmersdelight:wild_cabbages"
+      },
+      {
+        "item": "farmersdelight:wild_tomatoes"
+      },
+      {
+        "item": "farmersdelight:wild_onions"
+      },
+      {
+        "item": "occultism:otherflower"
+      },
+      {
+        "item": "occultism:otherflower_natural"
+      },
+      {
         "item": "minecraft:sunflower"
       },
       {
@@ -151,6 +202,9 @@
       },
       {
         "item": "minecraft:pitcher_plant"
+      },
+      {
+        "item": "farmersdelight:wild_rice"
       },
       {
         "item": "minecraft:flowering_azalea_leaves"

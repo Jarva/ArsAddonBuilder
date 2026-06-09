@@ -1,0 +1,19 @@
+{
+  "ingredients": [
+    [
+      {
+        "item": "ae2:certus_quartz_crystal"
+      },
+      {
+        "item": "ae2:charged_certus_quartz_crystal"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "id": "ae2:certus_quartz_dust"
+    }
+  ],
+  "processing_time": 200,
+  "type": "create:milling"
+}

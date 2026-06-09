@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:mendosteen_pod",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "arsdelight:mendosteen_crate"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,35 @@
+{
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:malignant_lead",
+      "count": 1
+    },
+    {
+      "item": "malum:null_slate",
+      "count": 8
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "count": 2
+    }
+  ],
+  "input": {
+    "tag": "c:ingots/iron",
+    "count": 4
+  },
+  "result": {
+    "id": "malum:malignant_pewter_ingot",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

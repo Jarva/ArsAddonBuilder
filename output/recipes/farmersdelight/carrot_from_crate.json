@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:carrot",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "farmersdelight:carrot_crate"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

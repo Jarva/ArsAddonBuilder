@@ -1,0 +1,21 @@
+{
+  "template": {
+    "item": "ae2:fluix_upgrade_smithing_template"
+  },
+  "base": [
+    {
+      "item": "ae2:certus_quartz_shovel"
+    },
+    {
+      "item": "ae2:nether_quartz_shovel"
+    }
+  ],
+  "addition": {
+    "item": "ae2:fluix_block"
+  },
+  "result": {
+    "id": "ae2:fluix_shovel",
+    "count": 1
+  },
+  "type": "minecraft:smithing_transform"
+}

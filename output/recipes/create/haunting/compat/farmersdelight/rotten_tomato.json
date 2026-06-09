@@ -1,0 +1,13 @@
+{
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:rotten_tomato"
+    }
+  ],
+  "type": "create:haunting"
+}

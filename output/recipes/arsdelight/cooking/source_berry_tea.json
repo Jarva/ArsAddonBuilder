@@ -1,0 +1,41 @@
+{
+  "result": {
+    "id": "arsdelight:source_berry_tea",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:glass_bottle",
+    "count": 1
+  },
+  "experience": 0.1,
+  "recipe_book_tab": "drinks",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:sourceberry_bush"
+    },
+    {
+      "item": "ars_nouveau:sourceberry_bush"
+    },
+    {
+      "item": "ars_nouveau:sourceberry_bush"
+    },
+    {
+      "children": [
+        {
+          "item": "ars_nouveau:red_archwood_leaves"
+        },
+        {
+          "item": "ars_nouveau:green_archwood_leaves"
+        },
+        {
+          "item": "ars_nouveau:purple_archwood_leaves"
+        },
+        {
+          "item": "ars_nouveau:blue_archwood_leaves"
+        }
+      ],
+      "type": "neoforge:compound"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

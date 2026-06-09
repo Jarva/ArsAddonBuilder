@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:bolted_runewood_door",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "malum:runewood_door"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

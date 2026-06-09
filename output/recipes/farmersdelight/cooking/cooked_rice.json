@@ -1,0 +1,18 @@
+{
+  "result": {
+    "id": "farmersdelight:cooked_rice",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 100,
+  "ingredients": [
+    {
+      "item": "farmersdelight:rice"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

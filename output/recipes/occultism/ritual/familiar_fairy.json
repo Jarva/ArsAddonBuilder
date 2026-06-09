@@ -1,0 +1,51 @@
+{
+  "entity_to_summon": "occultism:fairy_familiar",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/familiar_fairy",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/familiar_fairy",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.familiar_fairy\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.familiar_fairy.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_tamed",
+  "pentacle_id": "occultism:possess_djinni",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 90,
+  "entity_to_sacrifice": {
+    "tag": "c:horses",
+    "display_name": "ritual.occultism.sacrifice.horses"
+  },
+  "type": "occultism:ritual"
+}

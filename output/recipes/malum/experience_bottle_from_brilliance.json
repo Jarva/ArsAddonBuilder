@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:experience_bottle",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "malum:refined_brilliance"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

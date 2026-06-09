@@ -1,0 +1,62 @@
+{
+  "entity_to_summon": "occultism:greedy_familiar",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/familiar_greedy",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/familiar_greedy",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.familiar_greedy\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.familiar_greedy.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_tamed",
+  "pentacle_id": "occultism:possess_foliot",
+  "ingredients": [
+    {
+      "children": [
+        {
+          "item": "ae2:sky_stone_chest"
+        },
+        {
+          "item": "ae2:smooth_sky_stone_chest"
+        },
+        {
+          "item": "minecraft:ender_chest"
+        },
+        {
+          "item": "minecraft:trapped_chest"
+        },
+        {
+          "item": "minecraft:chest"
+        },
+        {
+          "item": "ars_nouveau:archwood_chest"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:dispenser"
+    },
+    {
+      "item": "minecraft:hopper"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 45,
+  "entity_to_sacrifice": {
+    "tag": "minecraft:zombies",
+    "display_name": "ritual.occultism.sacrifice.zombies"
+  },
+  "type": "occultism:ritual"
+}

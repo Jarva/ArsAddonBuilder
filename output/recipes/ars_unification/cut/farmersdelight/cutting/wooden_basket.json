@@ -1,0 +1,24 @@
+{
+  "input": {
+    "item": "farmersdelight:wooden_basket"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "farmersdelight:canvas",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    },
+    {
+      "stack": {
+        "id": "minecraft:stick",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_unification:cut"
+}

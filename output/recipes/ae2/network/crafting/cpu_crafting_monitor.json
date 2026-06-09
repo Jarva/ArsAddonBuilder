@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ae2:crafting_monitor",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ae2:crafting_unit"
+    },
+    {
+      "item": "ae2:storage_monitor"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,35 @@
+{
+  "spirits": [
+    {
+      "type": "malum:infernal",
+      "count": 8
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 8
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:hex_ash",
+      "count": 2
+    },
+    {
+      "item": "malum:tainted_rock",
+      "count": 8
+    },
+    {
+      "item": "malum:twisted_rock",
+      "count": 8
+    }
+  ],
+  "input": {
+    "item": "minecraft:furnace",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:spirit_crucible",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

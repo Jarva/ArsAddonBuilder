@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "ae2:silicon",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200,
+  "category": "misc",
+  "ingredient": {
+    "item": "ae2:certus_quartz_dust"
+  },
+  "type": "minecraft:smelting"
+}

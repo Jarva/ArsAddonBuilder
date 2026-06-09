@@ -1,0 +1,24 @@
+{
+  "input": {
+    "item": "ars_nouveau:red_archwood_log"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "ars_nouveau:stripped_red_archwood_log",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    },
+    {
+      "stack": {
+        "id": "arsdelight:blazing_bark",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_unification:cut"
+}

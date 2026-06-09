@@ -1,0 +1,35 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/misc_chalk_void",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:chalk_void",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:contact_eldritch_spirit",
+  "ingredients": [
+    {
+      "item": "occultism:chalk_white"
+    },
+    {
+      "item": "occultism:chalk_light_gray"
+    },
+    {
+      "item": "occultism:chalk_gray"
+    },
+    {
+      "item": "occultism:chalk_black"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:brush"
+  },
+  "duration": 780,
+  "entity_to_sacrifice": {
+    "tag": "occultism:humans",
+    "display_name": "ritual.occultism.sacrifice.humans"
+  },
+  "type": "occultism:ritual"
+}

@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "farmersdelight:milk_bottle"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:glass_bottle"
+    },
+    {
+      "id": "minecraft:milk",
+      "amount": 250
+    }
+  ],
+  "type": "create:emptying"
+}

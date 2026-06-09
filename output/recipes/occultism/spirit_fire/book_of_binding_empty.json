@@ -1,0 +1,57 @@
+{
+  "ingredient": [
+    {
+      "item": "minecraft:writable_book"
+    },
+    {
+      "item": "minecraft:written_book"
+    },
+    {
+      "item": "minecraft:enchanted_book"
+    },
+    {
+      "item": "occultism:book_of_binding_bound_foliot"
+    },
+    {
+      "item": "occultism:book_of_binding_bound_djinni"
+    },
+    {
+      "item": "occultism:book_of_binding_bound_afrit"
+    },
+    {
+      "item": "occultism:book_of_binding_bound_marid"
+    },
+    {
+      "item": "occultism:book_of_binding_foliot"
+    },
+    {
+      "item": "occultism:book_of_binding_djinni"
+    },
+    {
+      "item": "occultism:book_of_binding_afrit"
+    },
+    {
+      "item": "occultism:book_of_binding_marid"
+    },
+    {
+      "item": "occultism:book_of_calling_foliot_lumberjack"
+    },
+    {
+      "item": "occultism:book_of_calling_foliot_farmer"
+    },
+    {
+      "item": "occultism:book_of_calling_foliot_cleaner"
+    },
+    {
+      "item": "occultism:book_of_calling_foliot_transport_items"
+    },
+    {
+      "item": "occultism:book_of_calling_djinni_manage_machine"
+    }
+  ],
+  "result": {
+    "id": "occultism:book_of_binding_empty",
+    "count": 1
+  },
+  "type": "occultism:spirit_fire"
+}

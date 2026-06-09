@@ -1,0 +1,37 @@
+{
+  "category": "building",
+  "result": {
+    "id": "occultism:tallow_block",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:tallow"
+    },
+    {
+      "item": "occultism:tallow"
+    },
+    {
+      "item": "occultism:tallow"
+    },
+    {
+      "item": "occultism:tallow"
+    },
+    {
+      "item": "occultism:tallow"
+    },
+    {
+      "item": "occultism:tallow"
+    },
+    {
+      "item": "occultism:tallow"
+    },
+    {
+      "item": "occultism:tallow"
+    },
+    {
+      "item": "occultism:tallow"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

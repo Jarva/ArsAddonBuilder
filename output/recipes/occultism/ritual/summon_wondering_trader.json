@@ -1,0 +1,38 @@
+{
+  "entity_to_summon": "occultism:wondering_trader",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/summon_wondering_trader",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/wondering_trader",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_wondering_trader\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_wondering_trader.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon",
+  "pentacle_id": "occultism:summon_djinni",
+  "ingredients": [
+    {
+      "item": "occultism:otherworld_essence"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "occultism:otherworld_essence"
+    },
+    {
+      "item": "minecraft:emerald"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 120,
+  "type": "occultism:ritual"
+}

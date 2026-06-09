@@ -1,0 +1,14 @@
+{
+  "mode": "heat",
+  "input": {
+    "fluid": {
+      "id": "minecraft:water"
+    }
+  },
+  "output": {
+    "block": {
+      "id": "minecraft:air"
+    }
+  },
+  "type": "ae2:entropy"
+}

@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:blighted_gunk",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "malum:mass_of_blighted_gunk"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

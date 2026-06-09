@@ -1,0 +1,37 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_caelum:ritual_sedimentation",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:blue_archwood_log"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    },
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "farmersdelight:wild_tomatoes"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:tomato_seeds"
+    },
+    {
+      "id": "minecraft:green_dye"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:milling"
+}

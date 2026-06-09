@@ -1,0 +1,23 @@
+{
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 1
+    }
+  ],
+  "extraInputs": [
+    {
+      "tag": "c:gunpowders",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "malum:concentrated_gluttony",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:splash_of_gluttony",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

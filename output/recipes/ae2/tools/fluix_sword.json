@@ -1,0 +1,21 @@
+{
+  "template": {
+    "item": "ae2:fluix_upgrade_smithing_template"
+  },
+  "base": [
+    {
+      "item": "ae2:certus_quartz_sword"
+    },
+    {
+      "item": "ae2:nether_quartz_sword"
+    }
+  ],
+  "addition": {
+    "item": "ae2:fluix_block"
+  },
+  "result": {
+    "id": "ae2:fluix_sword",
+    "count": 1
+  },
+  "type": "minecraft:smithing_transform"
+}

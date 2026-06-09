@@ -1,0 +1,17 @@
+{
+  "id": "ars_caelum:ritual_conjure_island_vexing",
+  "order": 100,
+  "icon": "ars_caelum:ritual_conjure_island_vexing",
+  "title": "Conjure Island: Vexing",
+  "category": "ars_nouveau:ritual_index",
+  "pages": [
+    {
+      "title": "Conjure Island: Vexing",
+      "description": "Creates an island of  Vexing Archwoods,  source berries,  mycelium, and  mushrooms. Converts  the area to Mushroom  Island. Requires a  full jar of Source to  begin. NOTE: This  ritual should be  performed at least  14 blocks from any  other block.",
+      "icon": "ars_caelum:ritual_conjure_island_vexing"
+    },
+    {
+      "recipe_1": "ars_caelum:ritual_conjure_island_vexing"
+    }
+  ]
+}

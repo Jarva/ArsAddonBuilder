@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "minecraft:packed_mud"
+  },
+  "result": {
+    "id": "minecraft:dripstone_block",
+    "count": 1
+  },
+  "group": "packed_mud",
+  "type": "malum:unchained_transmutation"
+}

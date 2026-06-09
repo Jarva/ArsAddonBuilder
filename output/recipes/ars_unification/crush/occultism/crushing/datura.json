@@ -1,0 +1,16 @@
+{
+  "input": {
+    "item": "occultism:datura"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "occultism:datura_seeds",
+        "count": 2
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_nouveau:crush"
+}

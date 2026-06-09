@@ -1,0 +1,81 @@
+{
+  "summon_number": 5,
+  "entity_to_summon": "occultism:wild_horde_husk",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/wild_husk",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/wild_horde_husk",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.wild_husk\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.wild_husk.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_wild",
+  "pentacle_id": "occultism:contact_wild_spirit",
+  "ingredients": [
+    {
+      "item": "minecraft:sandstone"
+    },
+    {
+      "item": "minecraft:dead_bush"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "activation_item": [
+    {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    {
+      "item": "minecraft:stone_pickaxe"
+    },
+    {
+      "item": "minecraft:golden_pickaxe"
+    },
+    {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "ae2:certus_quartz_pickaxe"
+    },
+    {
+      "item": "ae2:nether_quartz_pickaxe"
+    },
+    {
+      "item": "ae2:fluix_pickaxe"
+    },
+    {
+      "item": "occultism:infused_pickaxe"
+    },
+    {
+      "item": "occultism:iesnium_pickaxe"
+    },
+    {
+      "item": "malum:soul_stained_steel_pickaxe"
+    },
+    {
+      "item": "malum:spellweaving_pickaxe"
+    }
+  ],
+  "duration": 90,
+  "entity_to_sacrifice": {
+    "tag": "c:camels",
+    "display_name": "ritual.occultism.sacrifice.camel"
+  },
+  "type": "occultism:ritual"
+}

@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "occultism:iesnium_nugget",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "occultism:iesnium_ingot"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

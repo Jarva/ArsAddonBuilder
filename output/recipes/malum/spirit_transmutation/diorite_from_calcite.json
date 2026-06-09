@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "minecraft:calcite"
+  },
+  "result": {
+    "id": "minecraft:diorite",
+    "count": 1
+  },
+  "group": "snow",
+  "type": "malum:unchained_transmutation"
+}

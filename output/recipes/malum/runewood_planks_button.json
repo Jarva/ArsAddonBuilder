@@ -1,0 +1,30 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:runewood_planks_button",
+    "count": 1
+  },
+  "ingredients": [
+    [
+      {
+        "item": "malum:runewood_planks"
+      },
+      {
+        "item": "malum:vertical_runewood_planks"
+      },
+      {
+        "item": "malum:rustic_runewood_planks"
+      },
+      {
+        "item": "malum:vertical_rustic_runewood_planks"
+      },
+      {
+        "item": "malum:runewood_tiles"
+      },
+      {
+        "item": "malum:rustic_runewood_tiles"
+      }
+    ]
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

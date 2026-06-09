@@ -1,0 +1,18 @@
+{
+  "id": "arsdelight:drygmy_weapon",
+  "order": 100,
+  "icon": "farmersdelight:iron_knife",
+  "title": "Drygmy using Weapon",
+  "category": "arsdelight:category_title",
+  "pages": [
+    {
+      "description": "With Ars Delight,  Drygmy can simulate  entity loot with  tools on an Arcane  Pedestal right next  to Drygmy Henge.   This feature allows  Drygmy to farm  scavenging loot from  Farmer\u0027s Delight and  its addons."
+    },
+    {
+      "related": [
+        "ars_nouveau:drygmy_charm",
+        "ars_nouveau:mob_jar"
+      ]
+    }
+  ]
+}

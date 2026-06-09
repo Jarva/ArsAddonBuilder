@@ -1,0 +1,36 @@
+{
+  "input": {
+    "item": "malum:mnemonic_fragment",
+    "count": 8
+  },
+  "result": "malum:oath_of_the_overburdened_mind",
+  "extraInputs": [
+    {
+      "item": "malum:auric_embers",
+      "count": 8
+    },
+    {
+      "item": "malum:imitation_heart",
+      "count": 4
+    },
+    {
+      "item": "minecraft:echo_shard",
+      "count": 4
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 32
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    }
+  ],
+  "type": "malum:soul_binding"
+}

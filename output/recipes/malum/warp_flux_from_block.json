@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:warp_flux",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "malum:block_of_warp_flux"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

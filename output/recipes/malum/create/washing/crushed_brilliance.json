@@ -1,0 +1,19 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:crushed_brilliance"
+    }
+  ],
+  "results": [
+    {
+      "id": "malum:refined_brilliance",
+      "count": 2
+    },
+    {
+      "id": "create:experience_nugget",
+      "count": 2,
+      "chance": 0.5
+    }
+  ],
+  "type": "create:splashing"
+}

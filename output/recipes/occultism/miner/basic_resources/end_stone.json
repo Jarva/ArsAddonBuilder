@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "occultism:miner_foliot_unspecialized"
+    },
+    {
+      "item": "occultism:miner_debug_unspecialized"
+    }
+  ],
+  "result": {
+    "stack": {
+      "id": "minecraft:end_stone",
+      "count": 1
+    },
+    "weight": 30,
+    "type": "occultism:weighted_item"
+  },
+  "type": "occultism:miner"
+}

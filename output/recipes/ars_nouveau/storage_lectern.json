@@ -2,6 +2,12 @@
   "pedestalItems": [
     [
       {
+        "item": "ae2:sky_stone_chest"
+      },
+      {
+        "item": "ae2:smooth_sky_stone_chest"
+      },
+      {
         "item": "minecraft:ender_chest"
       },
       {
@@ -16,6 +22,12 @@
     ],
     [
       {
+        "item": "ae2:sky_stone_chest"
+      },
+      {
+        "item": "ae2:smooth_sky_stone_chest"
+      },
+      {
         "item": "minecraft:ender_chest"
       },
       {
@@ -30,6 +42,12 @@
     ],
     [
       {
+        "item": "ae2:sky_stone_chest"
+      },
+      {
+        "item": "ae2:smooth_sky_stone_chest"
+      },
+      {
         "item": "minecraft:ender_chest"
       },
       {
@@ -43,6 +61,12 @@
       }
     ],
     [
+      {
+        "item": "ae2:sky_stone_chest"
+      },
+      {
+        "item": "ae2:smooth_sky_stone_chest"
+      },
       {
         "item": "minecraft:ender_chest"
       },

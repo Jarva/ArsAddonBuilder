@@ -1,0 +1,59 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/misc_wild_trim",
+    "count": 1
+  },
+  "result": {
+    "id": "minecraft:wild_armor_trim_smithing_template",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:contact_wild_spirit",
+  "ingredients": [
+    {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    {
+      "item": "minecraft:jungle_sapling"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    {
+      "item": "minecraft:jungle_sapling"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    {
+      "item": "minecraft:jungle_sapling"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "minecraft:glistering_melon_slice"
+    }
+  ],
+  "activation_item": {
+    "item": "minecraft:diamond_block"
+  },
+  "duration": 180,
+  "entity_to_sacrifice": {
+    "tag": "c:llamas",
+    "display_name": "ritual.occultism.sacrifice.llamas"
+  },
+  "type": "occultism:ritual"
+}

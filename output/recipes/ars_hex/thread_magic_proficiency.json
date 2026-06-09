@@ -1,0 +1,38 @@
+{
+  "pedestalItems": [
+    {
+      "item": "malum:refined_soulstone"
+    },
+    {
+      "item": "malum:refined_soulstone"
+    },
+    {
+      "item": "malum:soulwoven_silk"
+    },
+    {
+      "item": "malum:soulwoven_silk"
+    },
+    {
+      "item": "malum:earthen_spirit"
+    },
+    {
+      "item": "malum:earthen_spirit"
+    },
+    {
+      "item": "malum:aerial_spirit"
+    },
+    {
+      "item": "malum:aerial_spirit"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:blank_thread"
+  },
+  "result": {
+    "id": "ars_hex:thread_magic_proficiency",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

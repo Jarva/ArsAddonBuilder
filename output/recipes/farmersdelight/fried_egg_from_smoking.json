@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "farmersdelight:fried_egg",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 100,
+  "category": "food",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "type": "minecraft:smoking"
+}

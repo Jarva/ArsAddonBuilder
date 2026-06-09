@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "minecraft:bread",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 100,
+  "category": "food",
+  "ingredient": {
+    "item": "farmersdelight:wheat_dough"
+  },
+  "type": "minecraft:smoking"
+}

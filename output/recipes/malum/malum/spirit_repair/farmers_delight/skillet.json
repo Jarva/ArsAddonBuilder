@@ -1,0 +1,25 @@
+{
+  "repairMaterial": {
+    "tag": "c:ingots/iron",
+    "count": 2
+  },
+  "durabilityPercentage": 1.0,
+  "validItems": [
+    "farmersdelight:skillet"
+  ],
+  "spirits": [
+    {
+      "type": "malum:infernal",
+      "count": 4
+    },
+    {
+      "type": "malum:earthen",
+      "count": 4
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 4
+    }
+  ],
+  "type": "malum:spirit_repair"
+}

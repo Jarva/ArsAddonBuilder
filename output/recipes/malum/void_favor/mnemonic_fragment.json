@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "malum:refined_brilliance"
+  },
+  "result": {
+    "id": "malum:mnemonic_fragment",
+    "count": 1
+  },
+  "type": "malum:void_favor"
+}

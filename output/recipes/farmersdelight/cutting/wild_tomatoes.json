@@ -1,0 +1,39 @@
+{
+  "tool": [
+    {
+      "action": "knife_dig",
+      "type": "farmersdelight:item_ability"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "farmersdelight:tomato_seeds",
+        "count": 1
+      }
+    },
+    {
+      "item": {
+        "id": "farmersdelight:tomato",
+        "count": 1
+      },
+      "chance": 0.2
+    },
+    {
+      "item": {
+        "id": "minecraft:green_dye",
+        "count": 1
+      },
+      "chance": 0.1
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "farmersdelight:wild_tomatoes"
+    }
+  ],
+  "type": "farmersdelight:cutting"
+}

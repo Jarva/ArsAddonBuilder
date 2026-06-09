@@ -48,6 +48,18 @@
       },
       {
         "item": "ars_elemental:stripped_yellow_archwood_log"
+      },
+      {
+        "item": "malum:stripped_runewood_log"
+      },
+      {
+        "item": "malum:exposed_runewood_log"
+      },
+      {
+        "item": "malum:stripped_soulwood_log"
+      },
+      {
+        "item": "malum:exposed_soulwood_log"
       }
     ],
     {

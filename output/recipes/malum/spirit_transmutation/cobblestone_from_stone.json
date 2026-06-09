@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "minecraft:stone"
+  },
+  "result": {
+    "id": "minecraft:cobblestone",
+    "count": 1
+  },
+  "group": "stone",
+  "type": "malum:unchained_transmutation"
+}

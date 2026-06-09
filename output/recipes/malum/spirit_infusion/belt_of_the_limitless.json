@@ -1,0 +1,43 @@
+{
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 64
+    },
+    {
+      "type": "malum:arcane",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:fused_consciousness",
+      "count": 1
+    },
+    {
+      "item": "malum:void_salts",
+      "count": 16
+    },
+    {
+      "item": "malum:null_slate",
+      "count": 8
+    },
+    {
+      "item": "malum:mnemonic_fragment",
+      "count": 4
+    }
+  ],
+  "input": {
+    "item": "malum:belt_of_the_magebane",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:belt_of_the_limitless",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

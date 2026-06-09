@@ -1,0 +1,39 @@
+{
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 32
+    },
+    {
+      "type": "malum:arcane",
+      "count": 32
+    },
+    {
+      "type": "malum:earthen",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:null_slate",
+      "count": 16
+    },
+    {
+      "item": "malum:malignant_lead",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "malum:necklace_of_the_narrow_edge",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:necklace_of_the_hidden_blade",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

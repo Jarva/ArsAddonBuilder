@@ -1,0 +1,16 @@
+{
+  "ingredient": [
+    {
+      "item": "occultism:silver_ore"
+    },
+    {
+      "item": "occultism:silver_ore_deepslate"
+    }
+  ],
+  "result": {
+    "tag": "c:dusts/silver",
+    "count": 2,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

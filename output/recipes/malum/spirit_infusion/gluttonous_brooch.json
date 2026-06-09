@@ -1,0 +1,27 @@
+{
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 32
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:rotting_essence",
+      "count": 8
+    },
+    {
+      "item": "malum:grim_talc",
+      "count": 4
+    }
+  ],
+  "input": {
+    "item": "malum:elaborate_brooch",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:gluttonous_brooch",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

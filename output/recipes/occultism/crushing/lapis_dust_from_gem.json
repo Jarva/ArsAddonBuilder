@@ -1,0 +1,12 @@
+{
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "item": "minecraft:lapis_lazuli"
+  },
+  "result": {
+    "tag": "c:dusts/lapis",
+    "count": 1,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

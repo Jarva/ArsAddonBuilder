@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:ender_dust"
+    }
+  ],
+  "processing_time": 100,
+  "type": "create:milling"
+}

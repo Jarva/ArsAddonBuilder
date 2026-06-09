@@ -1,0 +1,31 @@
+{
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 16
+    },
+    {
+      "type": "malum:wicked",
+      "count": 16
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:living_flesh",
+      "count": 8
+    },
+    {
+      "item": "malum:refined_soulstone",
+      "count": 8
+    }
+  ],
+  "input": {
+    "item": "malum:alchemical_calx",
+    "count": 6
+  },
+  "result": {
+    "id": "malum:sympathy_drive",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

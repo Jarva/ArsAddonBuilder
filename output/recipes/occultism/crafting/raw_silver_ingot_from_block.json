@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "occultism:raw_silver",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "occultism:raw_silver_block"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,36 @@
+{
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 8
+    },
+    {
+      "type": "malum:earthen",
+      "count": 8
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:soulwoven_silk",
+      "count": 4
+    },
+    {
+      "item": "malum:refined_soulstone",
+      "count": 4
+    },
+    {
+      "tag": "c:leathers",
+      "count": 2
+    }
+  ],
+  "carryOverComponentData": true,
+  "input": {
+    "item": "minecraft:leather_helmet",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:soul_hunter_cloak",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "malum:natural_quartz",
+    "count": 1
+  },
+  "experience": 0.25,
+  "cookingtime": 200,
+  "category": "blocks",
+  "ingredient": {
+    "item": "malum:natural_quartz_ore"
+  },
+  "type": "minecraft:smelting"
+}

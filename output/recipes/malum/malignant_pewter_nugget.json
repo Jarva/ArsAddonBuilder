@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:malignant_pewter_nugget",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "malum:malignant_pewter_ingot"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

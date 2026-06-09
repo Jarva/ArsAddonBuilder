@@ -1,0 +1,101 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_fragile_soul_gem",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:fragile_soul_gem",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:craft_foliot",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "children": [
+        {
+          "item": "ae2:quartz_glass"
+        },
+        {
+          "item": "ae2:quartz_vibrant_glass"
+        },
+        {
+          "item": "minecraft:glass"
+        },
+        {
+          "item": "create:tiled_glass"
+        },
+        {
+          "item": "create:framed_glass"
+        },
+        {
+          "item": "create:horizontal_framed_glass"
+        },
+        {
+          "item": "create:vertical_framed_glass"
+        },
+        {
+          "item": "minecraft:white_stained_glass"
+        },
+        {
+          "item": "minecraft:orange_stained_glass"
+        },
+        {
+          "item": "minecraft:magenta_stained_glass"
+        },
+        {
+          "item": "minecraft:light_blue_stained_glass"
+        },
+        {
+          "item": "minecraft:yellow_stained_glass"
+        },
+        {
+          "item": "minecraft:lime_stained_glass"
+        },
+        {
+          "item": "minecraft:pink_stained_glass"
+        },
+        {
+          "item": "minecraft:gray_stained_glass"
+        },
+        {
+          "item": "minecraft:light_gray_stained_glass"
+        },
+        {
+          "item": "minecraft:cyan_stained_glass"
+        },
+        {
+          "item": "minecraft:purple_stained_glass"
+        },
+        {
+          "item": "minecraft:blue_stained_glass"
+        },
+        {
+          "item": "minecraft:brown_stained_glass"
+        },
+        {
+          "item": "minecraft:green_stained_glass"
+        },
+        {
+          "item": "minecraft:red_stained_glass"
+        },
+        {
+          "item": "minecraft:black_stained_glass"
+        },
+        {
+          "item": "minecraft:tinted_glass"
+        }
+      ],
+      "type": "neoforge:compound"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "type": "occultism:ritual"
+}

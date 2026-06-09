@@ -1,0 +1,19 @@
+{
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:tomato_sauce"
+    }
+  ],
+  "type": "create:mixing"
+}

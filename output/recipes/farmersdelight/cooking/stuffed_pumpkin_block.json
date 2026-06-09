@@ -1,0 +1,68 @@
+{
+  "result": {
+    "id": "farmersdelight:stuffed_pumpkin_block",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:pumpkin",
+    "count": 1
+  },
+  "experience": 2.0,
+  "cookingtime": 400,
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:sweet_berries"
+        },
+        {
+          "item": "minecraft:glow_berries"
+        },
+        {
+          "item": "ars_nouveau:sourceberry_bush"
+        },
+        {
+          "item": "create:chocolate_glazed_berries"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:carrot"
+        },
+        {
+          "item": "minecraft:golden_carrot"
+        },
+        {
+          "item": "minecraft:potato"
+        },
+        {
+          "item": "minecraft:beetroot"
+        },
+        {
+          "item": "farmersdelight:onion"
+        },
+        {
+          "item": "farmersdelight:tomato"
+        }
+      ],
+      "type": "neoforge:compound"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

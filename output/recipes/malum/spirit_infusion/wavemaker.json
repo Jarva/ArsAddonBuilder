@@ -1,0 +1,35 @@
+{
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 4
+    },
+    {
+      "type": "malum:arcane",
+      "count": 2
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "minecraft:redstone",
+      "count": 4
+    },
+    {
+      "item": "malum:ether",
+      "count": 1
+    },
+    {
+      "tag": "malum:runewood_planks",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "minecraft:copper_block",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:wavemaker",
+    "count": 2
+  },
+  "type": "malum:spirit_infusion"
+}

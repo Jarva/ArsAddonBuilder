@@ -1,0 +1,18 @@
+{
+  "ignore_crystallize_multiplier": true,
+  "ingredient": [
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "occultism:obsidian_dust"
+    }
+  ],
+  "result": {
+    "id": "minecraft:obsidian",
+    "count": 1,
+    "type": "occultism:item"
+  },
+  "min_tier": 3,
+  "type": "occultism:crystallize"
+}

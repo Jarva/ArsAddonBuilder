@@ -1,0 +1,40 @@
+{
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 32
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 32
+    },
+    {
+      "type": "malum:wicked",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:soulwoven_silk",
+      "count": 8
+    },
+    {
+      "item": "malum:malignant_pewter_plating",
+      "count": 3
+    }
+  ],
+  "carryOverComponentData": true,
+  "input": {
+    "item": "malum:soul_stained_steel_helmet",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:malignant_stronghold_helmet",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

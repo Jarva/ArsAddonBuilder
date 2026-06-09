@@ -1,0 +1,24 @@
+{
+  "input": {
+    "item": "minecraft:saddle"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "minecraft:leather",
+        "count": 2
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    },
+    {
+      "stack": {
+        "id": "minecraft:iron_nugget",
+        "count": 2
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_unification:cut"
+}

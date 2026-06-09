@@ -1,6 +1,9 @@
 {
   "ingredient": [
     {
+      "item": "minecraft:glass"
+    },
+    {
       "item": "create:tiled_glass"
     },
     {
@@ -11,9 +14,6 @@
     },
     {
       "item": "create:vertical_framed_glass"
-    },
-    {
-      "item": "minecraft:glass"
     }
   ],
   "result": {

@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:lapis_lazuli",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:gray_paste"
+    },
+    {
+      "item": "occultism:lapis_dust"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

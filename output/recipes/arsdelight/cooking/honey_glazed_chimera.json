@@ -1,0 +1,33 @@
+{
+  "result": {
+    "id": "arsdelight:honey_glazed_chimera",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "experience": 0.1,
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "arsdelight:chimera_meat"
+    },
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "arsdelight:arch_sauce"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "ars_nouveau:sourceberry_bush"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

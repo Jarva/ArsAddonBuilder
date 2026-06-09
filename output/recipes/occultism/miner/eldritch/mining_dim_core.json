@@ -1,0 +1,14 @@
+{
+  "ingredient": {
+    "item": "occultism:miner_ancient_eldritch"
+  },
+  "result": {
+    "stack": {
+      "id": "occultism:mining_dim_core",
+      "count": 1
+    },
+    "weight": 1,
+    "type": "occultism:weighted_item"
+  },
+  "type": "occultism:miner"
+}

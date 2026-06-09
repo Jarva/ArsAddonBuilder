@@ -1,0 +1,28 @@
+{
+  "output": {
+    "id": "arsomega:glyph_advanced_grow",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:glyph_grow"
+    },
+    {
+      "item": "ars_trinkets:essence_6"
+    },
+    {
+      "item": "ars_trinkets:essence_6"
+    },
+    {
+      "item": "ars_trinkets:essence_6"
+    },
+    {
+      "item": "ars_trinkets:essence_6"
+    },
+    {
+      "item": "ars_trinkets:essence_6"
+    }
+  ],
+  "exp": 160,
+  "type": "ars_nouveau:glyph"
+}

@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:encyclopedia_arcana",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "malum:refined_soulstone"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

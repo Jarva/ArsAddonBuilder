@@ -44,6 +44,63 @@
       },
       {
         "item": "ars_nouveau:archwood_planks"
+      },
+      {
+        "item": "occultism:otherplanks"
+      },
+      {
+        "item": "malum:runewood_boards"
+      },
+      {
+        "item": "malum:vertical_runewood_boards"
+      },
+      {
+        "item": "malum:runewood_planks"
+      },
+      {
+        "item": "malum:rustic_runewood_planks"
+      },
+      {
+        "item": "malum:vertical_runewood_planks"
+      },
+      {
+        "item": "malum:vertical_rustic_runewood_planks"
+      },
+      {
+        "item": "malum:runewood_tiles"
+      },
+      {
+        "item": "malum:rustic_runewood_tiles"
+      },
+      {
+        "item": "malum:cut_runewood_planks"
+      },
+      {
+        "item": "malum:soulwood_boards"
+      },
+      {
+        "item": "malum:vertical_soulwood_boards"
+      },
+      {
+        "item": "malum:soulwood_planks"
+      },
+      {
+        "item": "malum:rustic_soulwood_planks"
+      },
+      {
+        "item": "malum:vertical_soulwood_planks"
+      },
+      {
+        "item": "malum:vertical_rustic_soulwood_planks"
+      },
+      {
+        "item": "malum:soulwood_tiles"
+      },
+      {
+        "item": "malum:rustic_soulwood_tiles"
+      },
+      {
+        "item": "malum:cut_soulwood_planks"
       }
     ]
   ],

@@ -1,0 +1,24 @@
+{
+  "result": {
+    "id": "farmersdelight:pasta_with_meatballs",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "experience": 1.0,
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "farmersdelight:minced_beef"
+    },
+    {
+      "item": "farmersdelight:raw_pasta"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

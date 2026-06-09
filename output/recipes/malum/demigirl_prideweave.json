@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:demigirl_prideweave",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "malum:esoteric_spool"
+    },
+    {
+      "item": "minecraft:raw_copper"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

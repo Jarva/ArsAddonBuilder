@@ -1,0 +1,32 @@
+{
+  "input": {
+    "item": "malum:malignant_pewter_plating",
+    "count": 8
+  },
+  "result": "malum:oath_of_unsighted_resistance",
+  "extraInputs": [
+    {
+      "item": "minecraft:netherite_scrap",
+      "count": 8
+    },
+    {
+      "item": "malum:imitation_flesh",
+      "count": 4
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 32
+    },
+    {
+      "type": "malum:arcane",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    }
+  ],
+  "type": "malum:soul_binding"
+}

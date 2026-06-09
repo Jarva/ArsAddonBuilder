@@ -1,0 +1,14 @@
+{
+  "mode": "cool",
+  "input": {
+    "block": {
+      "id": "minecraft:grass_block"
+    }
+  },
+  "output": {
+    "block": {
+      "id": "minecraft:dirt"
+    }
+  },
+  "type": "ae2:entropy"
+}

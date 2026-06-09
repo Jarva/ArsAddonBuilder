@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:alchemical_calx",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "malum:block_of_alchemical_calx"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

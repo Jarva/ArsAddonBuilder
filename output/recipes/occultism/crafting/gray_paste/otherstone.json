@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "result": {
+    "id": "occultism:otherstone",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:gray_paste"
+    },
+    {
+      "item": "occultism:burnt_otherstone"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

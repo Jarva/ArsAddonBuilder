@@ -1,0 +1,27 @@
+{
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 2
+    },
+    {
+      "type": "malum:arcane",
+      "count": 1
+    }
+  ],
+  "extraInputs": [
+    {
+      "tag": "c:gems/quartz",
+      "count": 4
+    }
+  ],
+  "input": {
+    "item": "minecraft:gold_ingot",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:hallowed_gold_ingot",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

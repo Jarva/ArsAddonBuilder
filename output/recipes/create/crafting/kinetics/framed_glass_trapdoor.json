@@ -41,6 +41,33 @@
       },
       {
         "item": "ars_nouveau:archwood_trapdoor"
+      },
+      {
+        "item": "occultism:otherplanks_trapdoor"
+      },
+      {
+        "item": "malum:runewood_trapdoor"
+      },
+      {
+        "item": "malum:bolted_runewood_trapdoor"
+      },
+      {
+        "item": "malum:runewood_boards_trapdoor"
+      },
+      {
+        "item": "malum:bolted_runewood_boards_trapdoor"
+      },
+      {
+        "item": "malum:soulwood_trapdoor"
+      },
+      {
+        "item": "malum:bolted_soulwood_trapdoor"
+      },
+      {
+        "item": "malum:soulwood_boards_trapdoor"
+      },
+      {
+        "item": "malum:bolted_soulwood_boards_trapdoor"
       }
     ],
     {

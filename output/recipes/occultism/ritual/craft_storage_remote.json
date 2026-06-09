@@ -1,0 +1,39 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_storage_remote",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:storage_remote",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft_with_spirit_name",
+  "pentacle_id": "occultism:craft_djinni",
+  "ingredients": [
+    {
+      "item": "occultism:storage_remote_inert"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:quartz"
+        },
+        {
+          "item": "malum:natural_quartz"
+        }
+      ],
+      "type": "neoforge:compound"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 150,
+  "type": "occultism:ritual"
+}

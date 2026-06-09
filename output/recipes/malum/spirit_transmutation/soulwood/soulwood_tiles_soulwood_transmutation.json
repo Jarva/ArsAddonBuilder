@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "malum:runewood_tiles"
+  },
+  "result": {
+    "id": "malum:soulwood_tiles",
+    "count": 1
+  },
+  "group": "soulwood",
+  "type": "malum:unchained_transmutation"
+}

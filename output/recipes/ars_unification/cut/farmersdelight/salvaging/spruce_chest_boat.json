@@ -1,0 +1,24 @@
+{
+  "input": {
+    "item": "minecraft:spruce_chest_boat"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "minecraft:spruce_boat",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    },
+    {
+      "stack": {
+        "id": "minecraft:chest",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_unification:cut"
+}

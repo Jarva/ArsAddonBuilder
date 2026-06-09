@@ -1,0 +1,37 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:honey_glazed_ham_block",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "farmersdelight:smoked_ham"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

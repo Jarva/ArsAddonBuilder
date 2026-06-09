@@ -1,0 +1,21 @@
+{
+  "repairMaterial": {
+    "item": "malum:cthonic_gold_fragment",
+    "count": 2
+  },
+  "durabilityPercentage": 1.0,
+  "validItems": [
+    "malum:fractured_tin_impetus"
+  ],
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 8
+    },
+    {
+      "type": "malum:infernal",
+      "count": 8
+    }
+  ],
+  "type": "malum:spirit_repair"
+}

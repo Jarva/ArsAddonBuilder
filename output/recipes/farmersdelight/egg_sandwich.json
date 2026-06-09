@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:egg_sandwich",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "farmersdelight:fried_egg"
+    },
+    {
+      "item": "farmersdelight:fried_egg"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

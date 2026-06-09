@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "malum:refined_brilliance",
+    "count": 2
+  },
+  "experience": 1.0,
+  "cookingtime": 100,
+  "category": "misc",
+  "ingredient": {
+    "item": "malum:raw_brilliance"
+  },
+  "type": "minecraft:blasting"
+}

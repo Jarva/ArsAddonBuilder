@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "occultism:raw_iesnium"
+  },
+  "result": {
+    "tag": "c:dusts/iesnium",
+    "count": 2,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

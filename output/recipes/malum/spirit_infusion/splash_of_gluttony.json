@@ -1,0 +1,35 @@
+{
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 3
+    },
+    {
+      "type": "malum:sacred",
+      "count": 2
+    },
+    {
+      "type": "malum:wicked",
+      "count": 2
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:rotting_essence",
+      "count": 1
+    },
+    {
+      "tag": "c:gunpowders",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "minecraft:honey_bottle",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:splash_of_gluttony",
+    "count": 2
+  },
+  "type": "malum:spirit_infusion"
+}

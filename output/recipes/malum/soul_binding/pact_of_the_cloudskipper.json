@@ -1,0 +1,40 @@
+{
+  "input": {
+    "item": "malum:wind_nucleus",
+    "count": 16
+  },
+  "result": "malum:pact_of_the_cloudskipper",
+  "extraInputs": [
+    {
+      "item": "malum:astral_weave",
+      "count": 8
+    },
+    {
+      "item": "minecraft:wind_charge",
+      "count": 8
+    },
+    {
+      "item": "minecraft:feather",
+      "count": 8
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 32
+    },
+    {
+      "type": "malum:arcane",
+      "count": 32
+    },
+    {
+      "type": "malum:sacred",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

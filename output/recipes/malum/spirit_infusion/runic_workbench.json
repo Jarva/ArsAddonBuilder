@@ -1,0 +1,39 @@
+{
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 16
+    },
+    {
+      "type": "malum:arcane",
+      "count": 16
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    }
+  ],
+  "extraInputs": [
+    {
+      "tag": "malum:runewood_planks",
+      "count": 4
+    },
+    {
+      "item": "malum:soulwoven_silk",
+      "count": 4
+    },
+    {
+      "item": "malum:hallowed_gold_ingot",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "malum:runewood_item_pedestal",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:runic_workbench",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

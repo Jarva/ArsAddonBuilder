@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:blue_dye",
+    "count": 3
+  },
+  "ingredients": [
+    {
+      "item": "occultism:otherflower"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

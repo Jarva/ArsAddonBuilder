@@ -1,0 +1,26 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:deepslate_soulstone_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "malum:crushed_soulstone"
+    },
+    {
+      "id": "malum:crushed_soulstone",
+      "chance": 0.75
+    },
+    {
+      "id": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "id": "minecraft:cobbled_deepslate",
+      "chance": 0.125
+    }
+  ],
+  "processing_time": 300,
+  "type": "create:crushing"
+}

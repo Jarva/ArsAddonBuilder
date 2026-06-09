@@ -1,0 +1,31 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_stabilizer_tier1_dark",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:storage_stabilizer_tier1_dark",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:craft_foliot",
+  "ingredients": [
+    {
+      "item": "occultism:storage_stabilizer_tier0_dark"
+    },
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 60,
+  "type": "occultism:ritual"
+}

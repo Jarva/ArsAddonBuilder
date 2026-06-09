@@ -1,0 +1,23 @@
+{
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 2
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1
+    }
+  ],
+  "input": {
+    "tag": "c:glass_blocks",
+    "count": 8
+  },
+  "result": {
+    "id": "malum:earthen_spirited_glass",
+    "count": 8
+  },
+  "type": "malum:spirit_infusion"
+}

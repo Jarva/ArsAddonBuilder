@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:pride_prideweave",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "malum:esoteric_spool"
+    },
+    {
+      "item": "minecraft:stone_brick_wall"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

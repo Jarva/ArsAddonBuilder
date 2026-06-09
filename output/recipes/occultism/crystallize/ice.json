@@ -1,0 +1,13 @@
+{
+  "ignore_crystallize_multiplier": true,
+  "ingredient": {
+    "item": "occultism:crushed_ice"
+  },
+  "result": {
+    "id": "minecraft:ice",
+    "count": 1,
+    "type": "occultism:item"
+  },
+  "min_tier": 3,
+  "type": "occultism:crystallize"
+}

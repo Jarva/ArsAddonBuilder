@@ -1,0 +1,33 @@
+{
+  "result": {
+    "id": "arsdelight:unstable_cocktail",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:glass_bottle",
+    "count": 1
+  },
+  "experience": 0.1,
+  "recipe_book_tab": "drinks",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:bombegranate_pod"
+    },
+    {
+      "item": "ars_nouveau:bombegranate_pod"
+    },
+    {
+      "item": "arsdelight:blazing_bark"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "ars_nouveau:fire_essence"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

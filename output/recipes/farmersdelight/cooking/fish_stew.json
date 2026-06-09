@@ -1,0 +1,41 @@
+{
+  "result": {
+    "id": "farmersdelight:fish_stew",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "experience": 1.0,
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "children": [
+        {
+          "item": "minecraft:cod"
+        },
+        {
+          "item": "minecraft:salmon"
+        },
+        {
+          "item": "minecraft:tropical_fish"
+        },
+        {
+          "item": "farmersdelight:cod_slice"
+        },
+        {
+          "item": "farmersdelight:salmon_slice"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

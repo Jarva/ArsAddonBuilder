@@ -1,0 +1,13 @@
+{
+  "ignore_crystallize_multiplier": true,
+  "ingredient": {
+    "item": "ae2:ender_dust"
+  },
+  "result": {
+    "tag": "c:ender_pearls",
+    "count": 1,
+    "type": "occultism:tag"
+  },
+  "min_tier": 2,
+  "type": "occultism:crystallize"
+}

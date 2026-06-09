@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:gay_prideweave",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "malum:esoteric_spool"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

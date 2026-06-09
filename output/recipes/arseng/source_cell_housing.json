@@ -1,0 +1,38 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ae2:item_cell_housing"
+  },
+  "result": {
+    "id": "arseng:source_cell_housing",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

@@ -1,0 +1,39 @@
+{
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 16
+    },
+    {
+      "type": "malum:arcane",
+      "count": 16
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:living_flesh",
+      "count": 8
+    },
+    {
+      "item": "minecraft:nether_wart",
+      "count": 4
+    },
+    {
+      "item": "malum:rotting_essence",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "malum:alchemical_calx",
+    "count": 4
+  },
+  "result": {
+    "id": "malum:imitation_flesh",
+    "count": 4
+  },
+  "type": "malum:spirit_infusion"
+}

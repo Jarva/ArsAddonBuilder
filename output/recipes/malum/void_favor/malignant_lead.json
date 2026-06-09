@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "malum:cthonic_gold"
+  },
+  "result": {
+    "id": "malum:malignant_lead",
+    "count": 1
+  },
+  "type": "malum:void_favor"
+}

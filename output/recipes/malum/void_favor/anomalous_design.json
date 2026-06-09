@@ -1,0 +1,10 @@
+{
+  "input": {
+    "tag": "c:storage_blocks/iron"
+  },
+  "result": {
+    "id": "malum:anomalous_design",
+    "count": 1
+  },
+  "type": "malum:void_favor"
+}

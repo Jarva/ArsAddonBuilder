@@ -1,0 +1,15 @@
+{
+  "id": "ars_nouveau:shadow_move",
+  "order": 100,
+  "icon": "ars_nouveau:shadow_move",
+  "title": "ars_nouveau.glyph_name.shadow_move",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "ars_nouveau.glyph_name.shadow_move",
+      "description": "ars_nouveau.glyph_desc.shadow_move",
+      "icon": "ars_nouveau:shadow_move",
+      "tier": 1
+    }
+  ]
+}

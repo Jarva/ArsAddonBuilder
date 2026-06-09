@@ -1,0 +1,18 @@
+{
+  "id": "ars_trinkets:glyph_sun_flare",
+  "order": 100,
+  "icon": "ars_trinkets:glyph_sun_flare",
+  "title": "Sun Flare",
+  "category": "ars_nouveau:glyphs_tier_three",
+  "pages": [
+    {
+      "title": "Sun Flare",
+      "description": "Deals extra damage to \u0027Undead\u0027 and black mages.",
+      "icon": "ars_trinkets:glyph_sun_flare",
+      "tier": 3
+    },
+    {
+      "recipe_1": "ars_trinkets:glyph_sun_flare"
+    }
+  ]
+}

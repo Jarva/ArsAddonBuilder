@@ -1,0 +1,53 @@
+{
+  "entity_tag_to_summon": "occultism:random_animals_small",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/possess_random_animal_small",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:mysterious_egg_icon",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_random_animal_small\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_random_animal_small.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon",
+  "pentacle_id": "occultism:possess_foliot",
+  "ingredients": [
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 15,
+  "item_to_use": {
+    "item": "minecraft:egg"
+  },
+  "type": "occultism:ritual"
+}

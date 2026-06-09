@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "minecraft:deepslate"
+  },
+  "result": {
+    "id": "minecraft:tuff",
+    "count": 1
+  },
+  "group": "polished_basalt",
+  "type": "malum:unchained_transmutation"
+}

@@ -1,0 +1,31 @@
+{
+  "group": "planks",
+  "category": "misc",
+  "result": {
+    "id": "malum:runewood_planks",
+    "count": 4
+  },
+  "ingredients": [
+    [
+      {
+        "item": "malum:runewood_log"
+      },
+      {
+        "item": "malum:stripped_runewood_log"
+      },
+      {
+        "item": "malum:runewood"
+      },
+      {
+        "item": "malum:stripped_runewood"
+      },
+      {
+        "item": "malum:revealed_runewood_log"
+      },
+      {
+        "item": "malum:exposed_runewood_log"
+      }
+    ]
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

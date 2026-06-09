@@ -1,0 +1,28 @@
+{
+  "input": {
+    "item": "minecraft:prismarine_crystals",
+    "count": 12
+  },
+  "result": "malum:pact_of_self_care",
+  "extraInputs": [
+    {
+      "item": "minecraft:salmon",
+      "count": 8
+    },
+    {
+      "item": "minecraft:nautilus_shell",
+      "count": 2
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    },
+    {
+      "type": "malum:sacred",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "occultism:miner_foliot_unspecialized"
+    },
+    {
+      "item": "occultism:miner_debug_unspecialized"
+    }
+  ],
+  "result": {
+    "stack": {
+      "id": "minecraft:deepslate",
+      "count": 1
+    },
+    "weight": 5000,
+    "type": "occultism:weighted_item"
+  },
+  "type": "occultism:miner"
+}

@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "occultism:large_candle_magenta",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:large_candle"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

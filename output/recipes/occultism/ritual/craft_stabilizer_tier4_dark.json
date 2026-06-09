@@ -1,0 +1,37 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_stabilizer_tier4_dark",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:storage_stabilizer_tier4_dark",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:craft_marid",
+  "ingredients": [
+    {
+      "item": "occultism:storage_stabilizer_tier3_dark"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "minecraft:beacon"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "item": "occultism:marid_essence"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_marid"
+  },
+  "duration": 510,
+  "type": "occultism:ritual"
+}

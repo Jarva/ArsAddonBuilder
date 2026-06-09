@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:hex_ash",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "malum:block_of_hex_ash"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

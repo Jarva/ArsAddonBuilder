@@ -3,9 +3,17 @@
     {
       "item": "ars_nouveau:air_essence"
     },
-    {
-      "item": "minecraft:slime_ball"
-    },
+    [
+      {
+        "item": "minecraft:slime_ball"
+      },
+      {
+        "item": "malum:runic_sapball"
+      },
+      {
+        "item": "malum:cursed_sapball"
+      }
+    ],
     {
       "item": "ars_nouveau:source_gem_block"
     },

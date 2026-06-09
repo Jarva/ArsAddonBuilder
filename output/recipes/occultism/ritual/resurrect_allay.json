@@ -1,0 +1,41 @@
+{
+  "entity_to_summon": "minecraft:allay",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/resurrect_allay",
+    "count": 1
+  },
+  "result": {
+    "id": "minecraft:allay_spawn_egg",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.resurrect_allay\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.resurrect_allay.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon",
+  "pentacle_id": "occultism:resurrect_spirit",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "occultism:silver_dust"
+    },
+    {
+      "item": "occultism:gold_dust"
+    }
+  ],
+  "activation_item": {
+    "item": "minecraft:sugar"
+  },
+  "entity_to_sacrifice": {
+    "tag": "c:vex",
+    "display_name": "ritual.occultism.sacrifice.vex"
+  },
+  "type": "occultism:ritual"
+}

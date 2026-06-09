@@ -1,0 +1,14 @@
+{
+  "cell": "ae2:fluid_storage_cell_1k",
+  "cell_disassembly_items": [
+    {
+      "id": "ae2:fluid_cell_housing",
+      "count": 1
+    },
+    {
+      "id": "ae2:cell_component_1k",
+      "count": 1
+    }
+  ],
+  "type": "ae2:storage_cell_disassembly"
+}

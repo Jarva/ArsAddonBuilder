@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "malum:the_device"
+  },
+  "result": {
+    "id": "malum:the_vessel",
+    "count": 1
+  },
+  "type": "malum:void_favor"
+}

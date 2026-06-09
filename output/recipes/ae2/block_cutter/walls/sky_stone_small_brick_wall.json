@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "ae2:sky_stone_small_brick"
+  },
+  "result": {
+    "id": "ae2:sky_stone_small_brick_wall",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

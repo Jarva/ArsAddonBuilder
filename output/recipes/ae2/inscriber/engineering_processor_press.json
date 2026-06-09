@@ -1,0 +1,16 @@
+{
+  "ingredients": {
+    "top": {
+      "item": "ae2:engineering_processor_press"
+    },
+    "middle": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "id": "ae2:engineering_processor_press",
+    "count": 1
+  },
+  "mode": "inscribe",
+  "type": "ae2:inscriber"
+}

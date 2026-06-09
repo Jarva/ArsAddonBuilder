@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "minecraft:magma_block"
+  },
+  "result": {
+    "id": "minecraft:netherrack",
+    "count": 1
+  },
+  "group": "basalt",
+  "type": "malum:unchained_transmutation"
+}

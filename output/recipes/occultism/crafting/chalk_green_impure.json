@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "occultism:chalk_green_impure",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:chalk_white_impure"
+    },
+    {
+      "item": "occultism:nature_paste"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

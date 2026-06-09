@@ -1,0 +1,24 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:mimicry_relay",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "malum:iron_node"
+    },
+    {
+      "item": "malum:cthonic_gold_fragment"
+    },
+    [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "malum:natural_quartz"
+      }
+    ]
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

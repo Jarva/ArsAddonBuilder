@@ -1,0 +1,143 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_ritual_satchel_t1",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:ritual_satchel_t1",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft_with_spirit_name",
+  "pentacle_id": "occultism:craft_foliot",
+  "ingredients": [
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "minecraft:dispenser"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:white_wool"
+        },
+        {
+          "item": "minecraft:orange_wool"
+        },
+        {
+          "item": "minecraft:magenta_wool"
+        },
+        {
+          "item": "minecraft:light_blue_wool"
+        },
+        {
+          "item": "minecraft:yellow_wool"
+        },
+        {
+          "item": "minecraft:lime_wool"
+        },
+        {
+          "item": "minecraft:pink_wool"
+        },
+        {
+          "item": "minecraft:gray_wool"
+        },
+        {
+          "item": "minecraft:light_gray_wool"
+        },
+        {
+          "item": "minecraft:cyan_wool"
+        },
+        {
+          "item": "minecraft:purple_wool"
+        },
+        {
+          "item": "minecraft:blue_wool"
+        },
+        {
+          "item": "minecraft:brown_wool"
+        },
+        {
+          "item": "minecraft:green_wool"
+        },
+        {
+          "item": "minecraft:red_wool"
+        },
+        {
+          "item": "minecraft:black_wool"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:white_wool"
+        },
+        {
+          "item": "minecraft:orange_wool"
+        },
+        {
+          "item": "minecraft:magenta_wool"
+        },
+        {
+          "item": "minecraft:light_blue_wool"
+        },
+        {
+          "item": "minecraft:yellow_wool"
+        },
+        {
+          "item": "minecraft:lime_wool"
+        },
+        {
+          "item": "minecraft:pink_wool"
+        },
+        {
+          "item": "minecraft:gray_wool"
+        },
+        {
+          "item": "minecraft:light_gray_wool"
+        },
+        {
+          "item": "minecraft:cyan_wool"
+        },
+        {
+          "item": "minecraft:purple_wool"
+        },
+        {
+          "item": "minecraft:blue_wool"
+        },
+        {
+          "item": "minecraft:brown_wool"
+        },
+        {
+          "item": "minecraft:green_wool"
+        },
+        {
+          "item": "minecraft:red_wool"
+        },
+        {
+          "item": "minecraft:black_wool"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "occultism:silver_ingot"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 60,
+  "type": "occultism:ritual"
+}

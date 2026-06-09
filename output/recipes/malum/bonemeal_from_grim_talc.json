@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:bone_meal",
+    "count": 6
+  },
+  "ingredients": [
+    {
+      "item": "malum:grim_talc"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

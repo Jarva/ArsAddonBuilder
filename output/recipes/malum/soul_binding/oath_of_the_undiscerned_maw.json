@@ -1,0 +1,32 @@
+{
+  "input": {
+    "item": "malum:malignant_pewter_plating",
+    "count": 8
+  },
+  "result": "malum:oath_of_the_undiscerned_maw",
+  "extraInputs": [
+    {
+      "item": "malum:living_flesh",
+      "count": 8
+    },
+    {
+      "item": "malum:imitation_flesh",
+      "count": 4
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 32
+    },
+    {
+      "type": "malum:arcane",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    }
+  ],
+  "type": "malum:soul_binding"
+}

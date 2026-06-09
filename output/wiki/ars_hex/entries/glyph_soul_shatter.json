@@ -1,0 +1,18 @@
+{
+  "id": "ars_hex:glyph_soul_shatter",
+  "order": 100,
+  "icon": "ars_hex:glyph_soul_shatter",
+  "title": "Soul Shatter",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Soul Shatter",
+      "description": "Shatter the enemy soul, damaging it with the chance of releasing the spirits inside.",
+      "icon": "ars_hex:glyph_soul_shatter",
+      "tier": 2
+    },
+    {
+      "recipe_1": "ars_hex:glyph_soul_shatter"
+    }
+  ]
+}

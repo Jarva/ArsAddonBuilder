@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:tainted_rock_button",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "malum:tainted_rock"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

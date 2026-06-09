@@ -1,0 +1,10 @@
+{
+  "input": {
+    "item": "malum:complete_design"
+  },
+  "result": {
+    "id": "malum:fused_consciousness",
+    "count": 1
+  },
+  "type": "malum:void_favor"
+}

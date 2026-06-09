@@ -1,0 +1,18 @@
+{
+  "id": "ars_trinkets:glyph_filter_self",
+  "order": 100,
+  "icon": "ars_trinkets:glyph_filter_self",
+  "title": "Filter Self",
+  "category": "ars_nouveau:glyphs_tier_two",
+  "pages": [
+    {
+      "title": "Filter Self",
+      "description": "Stops the spell from resolving if the target entity is not the caster.",
+      "icon": "ars_trinkets:glyph_filter_self",
+      "tier": 2
+    },
+    {
+      "recipe_1": "ars_trinkets:glyph_filter_self"
+    }
+  ]
+}

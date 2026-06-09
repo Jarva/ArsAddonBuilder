@@ -1,0 +1,22 @@
+{
+  "input": {
+    "item": "minecraft:gold_ingot"
+  },
+  "output": {
+    "id": "occultism:silver_ingot",
+    "count": 1
+  },
+  "source": 2000,
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "occultism:demons_dream_essence"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    }
+  ],
+  "type": "ars_nouveau:imbuement"
+}

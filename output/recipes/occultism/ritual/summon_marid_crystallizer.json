@@ -1,0 +1,42 @@
+{
+  "spirit_job_type": "occultism:crystal_tier4",
+  "entity_to_summon": "occultism:marid",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/summon_marid_crystallizer",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/marid",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_marid_crystallizer\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_marid_crystallizer.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_spirit_with_job",
+  "pentacle_id": "occultism:summon_marid",
+  "ingredients": [
+    {
+      "item": "occultism:gray_paste"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "minecraft:budding_amethyst"
+    },
+    {
+      "item": "minecraft:sea_lantern"
+    },
+    {
+      "item": "minecraft:sculk_catalyst"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_marid"
+  },
+  "duration": 240,
+  "type": "occultism:ritual"
+}

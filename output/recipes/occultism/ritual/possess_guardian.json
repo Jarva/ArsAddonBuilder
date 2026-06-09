@@ -1,0 +1,45 @@
+{
+  "entity_to_summon": "occultism:possessed_guardian",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/possess_guardian",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/possessed_guardian",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_guardian\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_guardian.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon",
+  "pentacle_id": "occultism:possess_unbound_afrit",
+  "ingredients": [
+    {
+      "item": "minecraft:tropical_fish"
+    },
+    {
+      "item": "minecraft:seagrass"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "item": "minecraft:turtle_scute"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
+  },
+  "duration": 90,
+  "entity_to_sacrifice": {
+    "tag": "c:fish",
+    "display_name": "ritual.occultism.sacrifice.fish"
+  },
+  "type": "occultism:ritual"
+}

@@ -1,0 +1,38 @@
+{
+  "result": {
+    "id": "arsdelight:frostaya_mutton",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "experience": 0.1,
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:frostaya_pod"
+    },
+    {
+      "item": "arsdelight:neutralized_frostaya_jam"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:mutton"
+        },
+        {
+          "item": "farmersdelight:mutton_chops"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "arsdelight:wilden_sauce"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

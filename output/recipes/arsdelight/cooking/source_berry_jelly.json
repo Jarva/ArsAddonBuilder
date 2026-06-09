@@ -1,0 +1,26 @@
+{
+  "result": {
+    "id": "arsdelight:source_berry_jelly",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "experience": 0.1,
+  "ingredients": [
+    {
+      "item": "arsdelight:source_berry_jam"
+    },
+    {
+      "item": "arsdelight:source_berry_jam"
+    },
+    {
+      "item": "arsdelight:source_berry_jam"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:beetroot",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "farmersdelight:beetroot_crate"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

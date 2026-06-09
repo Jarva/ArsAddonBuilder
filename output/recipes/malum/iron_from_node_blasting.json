@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "minecraft:iron_nugget",
+    "count": 6
+  },
+  "experience": 0.25,
+  "cookingtime": 100,
+  "category": "misc",
+  "ingredient": {
+    "item": "malum:iron_node"
+  },
+  "type": "minecraft:blasting"
+}

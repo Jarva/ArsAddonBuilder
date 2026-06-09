@@ -1,0 +1,7 @@
+{
+  "ammo": {
+    "item": "minecraft:iron_nugget"
+  },
+  "weight": 55.845,
+  "type": "ae2:matter_cannon"
+}

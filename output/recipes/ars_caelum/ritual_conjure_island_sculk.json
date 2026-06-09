@@ -1,0 +1,37 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_caelum:ritual_conjure_island_sculk",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:purple_archwood_log"
+    },
+    {
+      "item": "minecraft:deepslate"
+    },
+    {
+      "item": "minecraft:deepslate"
+    },
+    {
+      "item": "minecraft:deepslate"
+    },
+    {
+      "item": "minecraft:deepslate"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,32 @@
+{
+  "result": {
+    "id": "farmersdelight:beef_stew",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "experience": 1.0,
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "children": [
+        {
+          "item": "minecraft:beef"
+        },
+        {
+          "item": "farmersdelight:minced_beef"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

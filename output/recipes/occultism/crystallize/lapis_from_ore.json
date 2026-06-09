@@ -1,0 +1,16 @@
+{
+  "ingredient": [
+    {
+      "item": "minecraft:lapis_ore"
+    },
+    {
+      "item": "minecraft:deepslate_lapis_ore"
+    }
+  ],
+  "result": {
+    "tag": "c:gems/lapis",
+    "count": 6,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crystallize"
+}

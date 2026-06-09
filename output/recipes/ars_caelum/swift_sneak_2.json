@@ -1,0 +1,17 @@
+{
+  "pedestalItems": [
+    {
+      "item": "minecraft:sculk_shrieker"
+    },
+    {
+      "item": "minecraft:sculk_shrieker"
+    },
+    {
+      "item": "minecraft:sculk_shrieker"
+    }
+  ],
+  "enchantment": "minecraft:swift_sneak",
+  "level": 2,
+  "sourceCost": 6000,
+  "type": "ars_nouveau:enchantment"
+}

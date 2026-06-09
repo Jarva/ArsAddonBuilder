@@ -1,0 +1,27 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:bacon_sandwich",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "farmersdelight:cooked_bacon"
+    },
+    [
+      {
+        "item": "farmersdelight:cabbage"
+      },
+      {
+        "item": "farmersdelight:cabbage_leaf"
+      }
+    ],
+    {
+      "item": "farmersdelight:tomato"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

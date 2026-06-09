@@ -1,0 +1,18 @@
+{
+  "ingredients": [
+    {
+      "item": "ae2:singularity"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "result": {
+    "id": "ae2:quantum_entangled_singularity",
+    "count": 2
+  },
+  "circumstance": {
+    "type": "explosion"
+  },
+  "type": "ae2:transform"
+}

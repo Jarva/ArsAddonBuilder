@@ -1,0 +1,27 @@
+{
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 16
+    },
+    {
+      "type": "malum:sacred",
+      "count": 8
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:hallowed_gold_ingot",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "malum:runewood_planks",
+    "count": 2
+  },
+  "result": {
+    "id": "malum:runewood_obelisk",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

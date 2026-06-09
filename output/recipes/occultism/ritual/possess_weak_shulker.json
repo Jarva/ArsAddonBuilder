@@ -1,0 +1,42 @@
+{
+  "entity_to_summon": "occultism:possessed_weak_shulker",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/possess_weak_shulker",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/possessed_weak_shulker",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_weak_shulker\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_weak_shulker.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon",
+  "pentacle_id": "occultism:possess_djinni",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:purple_concrete"
+    },
+    {
+      "item": "minecraft:end_stone"
+    },
+    {
+      "item": "minecraft:purple_concrete"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 60,
+  "entity_to_sacrifice": {
+    "tag": "occultism:cubemob",
+    "display_name": "ritual.occultism.sacrifice.cubemob"
+  },
+  "type": "occultism:ritual"
+}

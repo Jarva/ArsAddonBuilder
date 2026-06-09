@@ -1,0 +1,19 @@
+{
+  "input": {
+    "item": "ars_trinkets:essence_1"
+  },
+  "output": {
+    "id": "ars_trinkets:essence_2",
+    "count": 1
+  },
+  "source": 20,
+  "pedestalItems": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "type": "ars_nouveau:imbuement"
+}

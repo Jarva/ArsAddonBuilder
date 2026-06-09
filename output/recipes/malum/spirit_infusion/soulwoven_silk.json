@@ -1,0 +1,27 @@
+{
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 3
+    },
+    {
+      "type": "malum:earthen",
+      "count": 3
+    }
+  ],
+  "extraInputs": [
+    {
+      "tag": "c:strings",
+      "count": 2
+    }
+  ],
+  "input": {
+    "tag": "minecraft:wool",
+    "count": 2
+  },
+  "result": {
+    "id": "malum:soulwoven_silk",
+    "count": 4
+  },
+  "type": "malum:spirit_infusion"
+}

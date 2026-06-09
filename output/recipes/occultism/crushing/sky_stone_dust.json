@@ -1,0 +1,23 @@
+{
+  "ignore_crushing_multiplier": true,
+  "ingredient": [
+    {
+      "item": "ae2:sky_stone_block"
+    },
+    {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    {
+      "item": "ae2:sky_stone_brick"
+    },
+    {
+      "item": "ae2:sky_stone_small_brick"
+    }
+  ],
+  "result": {
+    "tag": "c:dusts/sky_stone",
+    "count": 1,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

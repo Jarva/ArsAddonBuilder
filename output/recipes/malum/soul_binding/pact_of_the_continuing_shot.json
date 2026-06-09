@@ -1,0 +1,32 @@
+{
+  "input": {
+    "item": "minecraft:feather",
+    "count": 12
+  },
+  "result": "malum:pact_of_the_continuing_shot",
+  "extraInputs": [
+    {
+      "item": "minecraft:arrow",
+      "count": 8
+    },
+    {
+      "item": "malum:astral_weave",
+      "count": 4
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 16
+    },
+    {
+      "type": "malum:wicked",
+      "count": 16
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

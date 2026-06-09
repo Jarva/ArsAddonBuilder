@@ -1,0 +1,12 @@
+{
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "item": "minecraft:ender_pearl"
+  },
+  "result": {
+    "tag": "c:dusts/ender_pearl",
+    "count": 1,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

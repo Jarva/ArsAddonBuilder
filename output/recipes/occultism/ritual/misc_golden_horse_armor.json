@@ -1,0 +1,35 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/misc_golden_horse_armor",
+    "count": 1
+  },
+  "result": {
+    "id": "minecraft:golden_horse_armor",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:contact_wild_spirit",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "activation_item": {
+    "item": "minecraft:leather_horse_armor"
+  },
+  "duration": 180,
+  "entity_to_sacrifice": {
+    "tag": "c:armadillos",
+    "display_name": "ritual.occultism.sacrifice.armadillos"
+  },
+  "type": "occultism:ritual"
+}

@@ -1,0 +1,31 @@
+{
+  "input": {
+    "item": "ars_trinkets:essence_3"
+  },
+  "output": {
+    "id": "ars_trinkets:essence_4",
+    "count": 1
+  },
+  "source": 80,
+  "pedestalItems": [
+    {
+      "item": "ars_trinkets:essence_3"
+    },
+    {
+      "item": "ars_trinkets:essence_3"
+    },
+    {
+      "item": "ars_trinkets:essence_3"
+    },
+    {
+      "item": "ars_trinkets:essence_3"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "type": "ars_nouveau:imbuement"
+}

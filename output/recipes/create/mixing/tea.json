@@ -45,6 +45,21 @@
       },
       {
         "item": "ars_elemental:yellow_archwood_leaves"
+      },
+      {
+        "item": "occultism:otherworld_leaves"
+      },
+      {
+        "item": "occultism:otherworld_leaves_natural"
+      },
+      {
+        "item": "malum:runewood_leaves"
+      },
+      {
+        "item": "malum:azure_runewood_leaves"
+      },
+      {
+        "item": "malum:soulwood_leaves"
       }
     ],
     {

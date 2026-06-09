@@ -1,0 +1,28 @@
+{
+  "input": {
+    "item": "minecraft:gunpowder",
+    "count": 12
+  },
+  "result": "malum:pact_of_combustion",
+  "extraInputs": [
+    {
+      "item": "minecraft:blaze_powder",
+      "count": 8
+    },
+    {
+      "item": "malum:blazing_quartz",
+      "count": 4
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:infernal",
+      "count": 16
+    },
+    {
+      "type": "malum:wicked",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

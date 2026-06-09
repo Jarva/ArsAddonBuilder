@@ -1,0 +1,45 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_dimensional_extractor",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:dimensional_extractor",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:craft_djinni",
+  "ingredients": [
+    {
+      "children": [
+        {
+          "item": "occultism:otherstone_pedestal"
+        },
+        {
+          "item": "occultism:otherstone_pedestal_silver"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 150,
+  "type": "occultism:ritual"
+}

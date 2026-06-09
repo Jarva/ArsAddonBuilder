@@ -1,0 +1,16 @@
+{
+  "input": {
+    "item": "occultism:silver_ingot"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "occultism:silver_dust",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_nouveau:crush"
+}

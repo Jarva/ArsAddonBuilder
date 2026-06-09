@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "occultism:silver_nugget",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "occultism:silver_ingot"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ae2:cable_energy_acceptor",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ae2:energy_acceptor"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,32 @@
+{
+  "tool": [
+    {
+      "action": "knife_dig",
+      "type": "farmersdelight:item_ability"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "farmersdelight:rice",
+        "count": 1
+      }
+    },
+    {
+      "item": {
+        "id": "farmersdelight:straw",
+        "count": 1
+      },
+      "chance": 0.5
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "farmersdelight:wild_rice"
+    }
+  ],
+  "type": "farmersdelight:cutting"
+}

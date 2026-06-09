@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "malum:runewood_panel"
+  },
+  "result": {
+    "id": "malum:soulwood_panel",
+    "count": 1
+  },
+  "group": "soulwood",
+  "type": "malum:unchained_transmutation"
+}

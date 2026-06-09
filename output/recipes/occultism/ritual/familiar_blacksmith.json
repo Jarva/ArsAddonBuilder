@@ -1,0 +1,134 @@
+{
+  "entity_to_summon": "occultism:blacksmith_familiar",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/familiar_blacksmith",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/familiar_blacksmith",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.familiar_blacksmith\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.familiar_blacksmith.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_tamed",
+  "pentacle_id": "occultism:possess_foliot",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_shovel"
+    },
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:andesite"
+        },
+        {
+          "item": "minecraft:diorite"
+        },
+        {
+          "item": "minecraft:granite"
+        },
+        {
+          "item": "minecraft:stone"
+        },
+        {
+          "item": "minecraft:deepslate"
+        },
+        {
+          "item": "minecraft:tuff"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:andesite"
+        },
+        {
+          "item": "minecraft:diorite"
+        },
+        {
+          "item": "minecraft:granite"
+        },
+        {
+          "item": "minecraft:stone"
+        },
+        {
+          "item": "minecraft:deepslate"
+        },
+        {
+          "item": "minecraft:tuff"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:andesite"
+        },
+        {
+          "item": "minecraft:diorite"
+        },
+        {
+          "item": "minecraft:granite"
+        },
+        {
+          "item": "minecraft:stone"
+        },
+        {
+          "item": "minecraft:deepslate"
+        },
+        {
+          "item": "minecraft:tuff"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:andesite"
+        },
+        {
+          "item": "minecraft:diorite"
+        },
+        {
+          "item": "minecraft:granite"
+        },
+        {
+          "item": "minecraft:stone"
+        },
+        {
+          "item": "minecraft:deepslate"
+        },
+        {
+          "item": "minecraft:tuff"
+        }
+      ],
+      "type": "neoforge:compound"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 45,
+  "entity_to_sacrifice": {
+    "tag": "minecraft:zombies",
+    "display_name": "ritual.occultism.sacrifice.zombies"
+  },
+  "type": "occultism:ritual"
+}

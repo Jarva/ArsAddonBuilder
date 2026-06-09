@@ -1,0 +1,35 @@
+{
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    },
+    {
+      "type": "malum:sacred",
+      "count": 8
+    },
+    {
+      "type": "malum:wicked",
+      "count": 8
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:rotting_essence",
+      "count": 12
+    },
+    {
+      "item": "malum:grim_talc",
+      "count": 8
+    }
+  ],
+  "input": {
+    "item": "malum:soulwoven_pouch",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:ravenous_pouch",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

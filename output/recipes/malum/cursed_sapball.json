@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:cursed_sapball",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "malum:cursed_sap"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

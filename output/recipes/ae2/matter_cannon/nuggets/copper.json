@@ -1,0 +1,7 @@
+{
+  "ammo": {
+    "item": "create:copper_nugget"
+  },
+  "weight": 63.546,
+  "type": "ae2:matter_cannon"
+}

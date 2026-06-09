@@ -1,0 +1,13 @@
+{
+  "ignore_crystallize_multiplier": true,
+  "ingredient": {
+    "item": "occultism:echo_dust"
+  },
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1,
+    "type": "occultism:item"
+  },
+  "min_tier": 4,
+  "type": "occultism:crystallize"
+}

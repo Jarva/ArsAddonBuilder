@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "occultism:raw_silver"
+  },
+  "result": {
+    "tag": "c:dusts/silver",
+    "count": 2,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

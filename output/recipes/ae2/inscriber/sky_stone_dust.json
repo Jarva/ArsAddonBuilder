@@ -1,0 +1,13 @@
+{
+  "ingredients": {
+    "middle": {
+      "item": "ae2:sky_stone_block"
+    }
+  },
+  "result": {
+    "id": "ae2:sky_dust",
+    "count": 1
+  },
+  "mode": "inscribe",
+  "type": "ae2:inscriber"
+}

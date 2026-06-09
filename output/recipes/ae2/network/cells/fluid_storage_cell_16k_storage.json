@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ae2:fluid_storage_cell_16k",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ae2:fluid_cell_housing"
+    },
+    {
+      "item": "ae2:cell_component_16k"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

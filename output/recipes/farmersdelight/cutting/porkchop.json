@@ -1,0 +1,25 @@
+{
+  "tool": [
+    {
+      "action": "knife_dig",
+      "type": "farmersdelight:item_ability"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "farmersdelight:bacon",
+        "count": 2
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    }
+  ],
+  "type": "farmersdelight:cutting"
+}

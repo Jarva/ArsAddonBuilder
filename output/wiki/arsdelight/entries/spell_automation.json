@@ -1,0 +1,25 @@
+{
+  "id": "arsdelight:spell_automation",
+  "order": 100,
+  "icon": "farmersdelight:cutting_board",
+  "title": "Spell Automation",
+  "category": "arsdelight:category_title",
+  "pages": [
+    {
+      "title": "Spell Automation",
+      "description": "When spells hit a  cutting board, it  would simulate tools  processing items on  the cutting board  based on the spell  effect:   - Cut: Knife or Shear   - Cut + Amplify: Axe  or Knife   - Cut + Extract:",
+      "icon": "farmersdelight:cutting_board"
+    },
+    {
+      "description": "Shear only   - Break: Pickaxe   - Crush: Shovel   - Fell: Axe   Having AOE augment  will cancel cutting  board automation and  proceed with  original spell  effect."
+    },
+    {
+      "related": [
+        "ars_nouveau:glyph_break",
+        "ars_nouveau:glyph_cut",
+        "ars_nouveau:glyph_fell",
+        "ars_nouveau:glyph_crush"
+      ]
+    }
+  ]
+}

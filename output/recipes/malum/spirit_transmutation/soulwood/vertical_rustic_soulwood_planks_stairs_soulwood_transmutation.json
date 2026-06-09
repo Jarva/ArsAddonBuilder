@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "malum:vertical_rustic_runewood_planks_stairs"
+  },
+  "result": {
+    "id": "malum:vertical_rustic_soulwood_planks_stairs",
+    "count": 1
+  },
+  "group": "soulwood",
+  "type": "malum:unchained_transmutation"
+}

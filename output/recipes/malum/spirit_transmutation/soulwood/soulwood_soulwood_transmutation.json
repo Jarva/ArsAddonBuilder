@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "malum:runewood"
+  },
+  "result": {
+    "id": "malum:soulwood",
+    "count": 1
+  },
+  "group": "soulwood",
+  "type": "malum:unchained_transmutation"
+}

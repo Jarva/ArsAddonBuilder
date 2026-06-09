@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "occultism:miner_afrit_deeps"
+    },
+    {
+      "item": "occultism:miner_marid_master"
+    }
+  ],
+  "result": {
+    "stack": {
+      "id": "minecraft:deepslate_coal_ore",
+      "count": 1
+    },
+    "weight": 1000,
+    "type": "occultism:weighted_item"
+  },
+  "type": "occultism:miner"
+}

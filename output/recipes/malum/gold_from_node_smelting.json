@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "minecraft:gold_nugget",
+    "count": 6
+  },
+  "experience": 0.25,
+  "cookingtime": 200,
+  "category": "misc",
+  "ingredient": {
+    "item": "malum:gold_node"
+  },
+  "type": "minecraft:smelting"
+}

@@ -1,0 +1,24 @@
+{
+  "input": {
+    "item": "minecraft:furnace_minecart"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "minecraft:minecart",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    },
+    {
+      "stack": {
+        "id": "minecraft:furnace",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_unification:cut"
+}

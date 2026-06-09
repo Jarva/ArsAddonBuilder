@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "occultism:book_of_binding_empty",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:awakened_feather"
+    },
+    {
+      "item": "occultism:purified_ink"
+    },
+    {
+      "item": "occultism:taboo_book"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

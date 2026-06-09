@@ -8,6 +8,9 @@
           },
           {
             "item": "create:powdered_obsidian"
+          },
+          {
+            "item": "occultism:obsidian_dust"
           }
         ],
         {
@@ -55,9 +58,14 @@
       "id": "create:sturdy_sheet"
     }
   ],
-  "ingredient": {
-    "item": "create:powdered_obsidian"
-  },
+  "ingredient": [
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "occultism:obsidian_dust"
+    }
+  ],
   "transitional_item": {
     "id": "create:unprocessed_obsidian_sheet"
   },

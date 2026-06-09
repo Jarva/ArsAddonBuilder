@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "ae2:fluix_crystal"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:fluix_dust"
+    }
+  ],
+  "processing_time": 200,
+  "type": "create:milling"
+}

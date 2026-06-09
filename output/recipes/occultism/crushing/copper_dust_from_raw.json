@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "minecraft:raw_copper"
+  },
+  "result": {
+    "tag": "c:dusts/copper",
+    "count": 2,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "result": {
+    "id": "ae2:guide",
+    "count": 1
+  },
+  "type": "ae2:charger"
+}

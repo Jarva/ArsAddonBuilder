@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:cod_roll",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "farmersdelight:cod_slice"
+    },
+    {
+      "item": "farmersdelight:cod_slice"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

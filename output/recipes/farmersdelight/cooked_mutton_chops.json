@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "farmersdelight:cooked_mutton_chops",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200,
+  "category": "food",
+  "ingredient": {
+    "item": "farmersdelight:mutton_chops"
+  },
+  "type": "minecraft:smelting"
+}

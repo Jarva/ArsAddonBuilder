@@ -1,0 +1,29 @@
+{
+  "repairMaterial": {
+    "item": "minecraft:obsidian",
+    "count": 2
+  },
+  "durabilityPercentage": 0.75,
+  "validItems": [
+    "malum:tyrving"
+  ],
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 16
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:earthen",
+      "count": 8
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 4
+    }
+  ],
+  "type": "malum:spirit_repair"
+}

@@ -1,0 +1,25 @@
+{
+  "ingredients": [
+    {
+      "item": "farmersdelight:pie_crust"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "fluid": "create:flowing_chocolate"
+        },
+        {
+          "fluid": "create:chocolate"
+        }
+      ],
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:chocolate_pie"
+    }
+  ],
+  "type": "create:filling"
+}

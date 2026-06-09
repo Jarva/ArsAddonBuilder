@@ -1,0 +1,32 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "arsdelight:wilden_skewer",
+    "count": 8
+  },
+  "ingredients": [
+    [
+      {
+        "item": "arsdelight:wilden_meat"
+      },
+      {
+        "item": "arsdelight:wilden_meat_slice"
+      }
+    ],
+    [
+      {
+        "item": "farmersdelight:cabbage"
+      },
+      {
+        "item": "farmersdelight:cabbage_leaf"
+      }
+    ],
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "arsdelight:wilden_spike_powder"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -8,9 +8,17 @@
     {
       "item": "minecraft:blaze_powder"
     },
-    {
-      "item": "minecraft:slime_ball"
-    }
+    [
+      {
+        "item": "minecraft:slime_ball"
+      },
+      {
+        "item": "malum:runic_sapball"
+      },
+      {
+        "item": "malum:cursed_sapball"
+      }
+    ]
   ],
   "type": "minecraft:crafting_shapeless"
 }

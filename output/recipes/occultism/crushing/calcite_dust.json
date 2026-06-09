@@ -1,0 +1,12 @@
+{
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "item": "minecraft:calcite"
+  },
+  "result": {
+    "tag": "c:dusts/calcite",
+    "count": 1,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

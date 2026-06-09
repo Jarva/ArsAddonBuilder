@@ -1,17 +1,37 @@
 {
   "pedestalItems": [
-    {
-      "item": "minecraft:quartz"
-    },
-    {
-      "item": "minecraft:quartz"
-    },
-    {
-      "item": "minecraft:quartz"
-    },
-    {
-      "item": "minecraft:quartz"
-    },
+    [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "malum:natural_quartz"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "malum:natural_quartz"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "malum:natural_quartz"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "malum:natural_quartz"
+      }
+    ],
     {
       "item": "minecraft:lapis_lazuli"
     },

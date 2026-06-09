@@ -1,0 +1,16 @@
+{
+  "input": {
+    "item": "malum:soulwood_planks",
+    "count": 4
+  },
+  "secondaryInput": {
+    "item": "malum:earthen_spirit",
+    "count": 32
+  },
+  "result": {
+    "id": "malum:rune_of_oaken_might",
+    "count": 1
+  },
+  "soundType": "malum:runic_workbench_shapes_wooden_rune",
+  "type": "malum:runeworking"
+}

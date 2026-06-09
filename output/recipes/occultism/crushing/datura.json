@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "occultism:datura"
+  },
+  "result": {
+    "tag": "c:seeds/datura",
+    "count": 2,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

@@ -1,0 +1,32 @@
+{
+  "result": {
+    "id": "farmersdelight:pasta_with_mutton_chop",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "experience": 1.0,
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "children": [
+        {
+          "item": "minecraft:mutton"
+        },
+        {
+          "item": "farmersdelight:mutton_chops"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "farmersdelight:raw_pasta"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

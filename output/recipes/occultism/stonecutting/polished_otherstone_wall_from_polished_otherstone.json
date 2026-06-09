@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "occultism:polished_otherstone"
+  },
+  "result": {
+    "id": "occultism:polished_otherstone_wall",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

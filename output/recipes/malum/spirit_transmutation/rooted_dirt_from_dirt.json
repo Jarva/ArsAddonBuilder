@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "minecraft:dirt"
+  },
+  "result": {
+    "id": "minecraft:rooted_dirt",
+    "count": 1
+  },
+  "group": "dirt",
+  "type": "malum:unchained_transmutation"
+}

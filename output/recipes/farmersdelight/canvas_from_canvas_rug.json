@@ -1,0 +1,17 @@
+{
+  "group": "fd_canvas",
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:canvas",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "farmersdelight:canvas_rug"
+    },
+    {
+      "item": "farmersdelight:canvas_rug"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

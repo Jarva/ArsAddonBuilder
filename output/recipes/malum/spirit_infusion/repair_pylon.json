@@ -1,0 +1,39 @@
+{
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 16
+    },
+    {
+      "type": "malum:aerial",
+      "count": 16
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    },
+    {
+      "type": "malum:infernal",
+      "count": 16
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:tainted_rock",
+      "count": 8
+    },
+    {
+      "item": "malum:twisted_rock",
+      "count": 8
+    }
+  ],
+  "input": {
+    "item": "malum:tainted_rock_item_pedestal",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:repair_pylon",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

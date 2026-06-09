@@ -1,0 +1,24 @@
+{
+  "repairMaterial": {
+    "item": "malum:soulwoven_silk",
+    "count": 2
+  },
+  "durabilityPercentage": 0.75,
+  "validItems": [
+    "malum:soul_hunter_cloak",
+    "malum:soul_hunter_robe",
+    "malum:soul_hunter_leggings",
+    "malum:soul_hunter_boots"
+  ],
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    },
+    {
+      "type": "malum:aerial",
+      "count": 8
+    }
+  ],
+  "type": "malum:spirit_repair"
+}

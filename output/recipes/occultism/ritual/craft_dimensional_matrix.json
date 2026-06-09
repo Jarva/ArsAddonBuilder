@@ -1,0 +1,31 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_dimensional_matrix",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:dimensional_matrix",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft_with_spirit_name",
+  "pentacle_id": "occultism:craft_djinni",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 150,
+  "type": "occultism:ritual"
+}

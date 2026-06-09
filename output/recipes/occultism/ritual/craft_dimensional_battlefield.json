@@ -1,0 +1,75 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_dimensional_battlefield",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:dimensional_battlefield",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:craft_afrit",
+  "ingredients": [
+    {
+      "children": [
+        {
+          "item": "occultism:otherstone"
+        },
+        {
+          "item": "occultism:otherrock"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "occultism:otherstone"
+        },
+        {
+          "item": "occultism:otherrock"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "occultism:otherstone"
+        },
+        {
+          "item": "occultism:otherrock"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "occultism:otherstone"
+        },
+        {
+          "item": "occultism:otherrock"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "item": "occultism:afrit_essence"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
+  },
+  "duration": 300,
+  "type": "occultism:ritual"
+}

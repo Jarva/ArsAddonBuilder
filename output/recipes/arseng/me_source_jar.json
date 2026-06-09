@@ -1,0 +1,25 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    [
+      {
+        "item": "ae2:cable_interface"
+      },
+      {
+        "item": "ae2:interface"
+      }
+    ]
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:source_jar"
+  },
+  "result": {
+    "id": "arseng:me_source_jar",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

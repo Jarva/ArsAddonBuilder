@@ -1,0 +1,21 @@
+{
+  "input": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    }
+  ],
+  "output": [
+    {
+      "stack": {
+        "id": "create:powdered_obsidian",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_nouveau:crush"
+}

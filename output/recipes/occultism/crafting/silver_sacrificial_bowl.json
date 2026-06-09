@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "occultism:silver_sacrificial_bowl",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:sacrificial_bowl"
+    },
+    {
+      "item": "occultism:silver_ingot"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

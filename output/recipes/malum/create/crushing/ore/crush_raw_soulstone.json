@@ -1,0 +1,18 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:raw_soulstone"
+    }
+  ],
+  "results": [
+    {
+      "id": "malum:crushed_soulstone"
+    },
+    {
+      "id": "create:experience_nugget",
+      "chance": 0.75
+    }
+  ],
+  "processing_time": 300,
+  "type": "create:crushing"
+}

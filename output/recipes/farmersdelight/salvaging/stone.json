@@ -1,0 +1,25 @@
+{
+  "tool": [
+    {
+      "action": "pickaxe_dig",
+      "type": "farmersdelight:item_ability"
+    },
+    {
+      "tag": "minecraft:pickaxes"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "minecraft:cobblestone",
+        "count": 1
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    }
+  ],
+  "type": "farmersdelight:cutting"
+}

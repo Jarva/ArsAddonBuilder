@@ -1,0 +1,40 @@
+{
+  "input": {
+    "item": "minecraft:heart_of_the_sea",
+    "count": 1
+  },
+  "result": "malum:pact_of_patience_repaid",
+  "extraInputs": [
+    {
+      "item": "minecraft:prismarine_shard",
+      "count": 8
+    },
+    {
+      "item": "minecraft:prismarine_crystals",
+      "count": 8
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "count": 8
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 32
+    },
+    {
+      "type": "malum:sacred",
+      "count": 32
+    },
+    {
+      "type": "malum:earthen",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

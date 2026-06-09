@@ -1,0 +1,35 @@
+{
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 8
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:soul_stained_steel_plating",
+      "count": 6
+    },
+    {
+      "item": "malum:soulwood_planks",
+      "count": 2
+    },
+    {
+      "tag": "malum:twisted_rock_blocks",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "malum:runewood_planks",
+    "count": 4
+  },
+  "result": {
+    "id": "malum:rite_unweaver",
+    "count": 4
+  },
+  "type": "malum:spirit_infusion"
+}

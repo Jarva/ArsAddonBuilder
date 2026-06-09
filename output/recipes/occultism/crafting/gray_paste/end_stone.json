@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "result": {
+    "id": "minecraft:end_stone",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:gray_paste"
+    },
+    {
+      "item": "occultism:crushed_end_stone"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

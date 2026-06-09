@@ -1,0 +1,32 @@
+{
+  "input": {
+    "tag": "minecraft:saplings",
+    "count": 12
+  },
+  "result": "malum:pact_of_contentedness",
+  "extraInputs": [
+    {
+      "item": "minecraft:bread",
+      "count": 8
+    },
+    {
+      "item": "minecraft:emerald",
+      "count": 4
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 16
+    },
+    {
+      "type": "malum:sacred",
+      "count": 16
+    },
+    {
+      "type": "malum:arcane",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

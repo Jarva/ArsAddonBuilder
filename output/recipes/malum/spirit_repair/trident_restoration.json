@@ -1,0 +1,20 @@
+{
+  "repairMaterial": {
+    "item": "minecraft:prismarine_crystals",
+    "count": 8
+  },
+  "validItems": [
+    "minecraft:trident"
+  ],
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    },
+    {
+      "type": "malum:arcane",
+      "count": 16
+    }
+  ],
+  "type": "malum:spirit_repair"
+}

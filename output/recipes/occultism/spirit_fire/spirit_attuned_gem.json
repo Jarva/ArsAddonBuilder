@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "id": "occultism:spirit_attuned_gem",
+    "count": 1
+  },
+  "type": "occultism:spirit_fire"
+}

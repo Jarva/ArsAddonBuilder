@@ -1,0 +1,22 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ae2:fluix_covered_dense_cable",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ae2:fluix_covered_cable"
+    },
+    {
+      "item": "ae2:fluix_covered_cable"
+    },
+    {
+      "item": "ae2:fluix_covered_cable"
+    },
+    {
+      "item": "ae2:fluix_covered_cable"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

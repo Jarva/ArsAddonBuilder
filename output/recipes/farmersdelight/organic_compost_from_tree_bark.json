@@ -1,0 +1,38 @@
+{
+  "group": "fd_organic_compost",
+  "category": "building",
+  "result": {
+    "id": "farmersdelight:organic_compost",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

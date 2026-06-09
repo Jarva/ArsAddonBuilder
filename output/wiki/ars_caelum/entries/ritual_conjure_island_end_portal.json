@@ -1,0 +1,17 @@
+{
+  "id": "ars_caelum:ritual_conjure_island_end_portal",
+  "order": 100,
+  "icon": "ars_caelum:ritual_conjure_island_end_portal",
+  "title": "Conjure Island: End Portal",
+  "category": "ars_nouveau:ritual_index",
+  "pages": [
+    {
+      "title": "Conjure Island: End Portal",
+      "description": "Creates an island  with an end portal.  This ritual requires  a full jar of Source.  NOTE: This ritual  must be performed 14  blocks away from  other blocks.",
+      "icon": "ars_caelum:ritual_conjure_island_end_portal"
+    },
+    {
+      "recipe_1": "ars_caelum:ritual_conjure_island_end_portal"
+    }
+  ]
+}

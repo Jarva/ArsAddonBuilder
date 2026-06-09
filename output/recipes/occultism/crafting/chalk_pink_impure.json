@@ -1,0 +1,22 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "occultism:chalk_pink_impure",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:chalk_white_impure"
+    },
+    {
+      "item": "occultism:demonic_meat"
+    },
+    {
+      "item": "occultism:demonic_meat"
+    },
+    {
+      "item": "occultism:demonic_meat"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

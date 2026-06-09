@@ -1,0 +1,12 @@
+{
+  "ignore_crystallize_multiplier": true,
+  "ingredient": {
+    "item": "ae2:certus_quartz_dust"
+  },
+  "result": {
+    "tag": "c:gems/certus_quartz",
+    "count": 1,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crystallize"
+}

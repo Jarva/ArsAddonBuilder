@@ -1,0 +1,30 @@
+{
+  "result": {
+    "id": "malum:arcane_charcoal",
+    "count": 1
+  },
+  "experience": 0.25,
+  "cookingtime": 200,
+  "category": "misc",
+  "ingredient": [
+    {
+      "item": "malum:runewood_log"
+    },
+    {
+      "item": "malum:stripped_runewood_log"
+    },
+    {
+      "item": "malum:runewood"
+    },
+    {
+      "item": "malum:stripped_runewood"
+    },
+    {
+      "item": "malum:revealed_runewood_log"
+    },
+    {
+      "item": "malum:exposed_runewood_log"
+    }
+  ],
+  "type": "minecraft:smelting"
+}

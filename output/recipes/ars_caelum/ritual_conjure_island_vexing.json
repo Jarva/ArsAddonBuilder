@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_caelum:ritual_conjure_island_vexing",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:purple_archwood_sapling"
+    },
+    {
+      "item": "ars_nouveau:purple_archwood_log"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

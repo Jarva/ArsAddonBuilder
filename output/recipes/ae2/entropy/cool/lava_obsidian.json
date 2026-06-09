@@ -1,0 +1,14 @@
+{
+  "mode": "cool",
+  "input": {
+    "fluid": {
+      "id": "minecraft:lava"
+    }
+  },
+  "output": {
+    "block": {
+      "id": "minecraft:obsidian"
+    }
+  },
+  "type": "ae2:entropy"
+}

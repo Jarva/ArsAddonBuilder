@@ -1,0 +1,25 @@
+{
+  "tool": [
+    {
+      "action": "knife_dig",
+      "type": "farmersdelight:item_ability"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "farmersdelight:minced_beef",
+        "count": 2
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    }
+  ],
+  "type": "farmersdelight:cutting"
+}

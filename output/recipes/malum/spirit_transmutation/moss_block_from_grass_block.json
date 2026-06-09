@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "minecraft:grass_block"
+  },
+  "result": {
+    "id": "minecraft:moss_block",
+    "count": 1
+  },
+  "group": "dirt",
+  "type": "malum:unchained_transmutation"
+}

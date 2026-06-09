@@ -1,0 +1,23 @@
+{
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 4
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:hex_ash",
+      "count": 2
+    }
+  ],
+  "input": {
+    "tag": "c:ingots/iron",
+    "count": 4
+  },
+  "result": {
+    "id": "malum:esoteric_spool",
+    "count": 4
+  },
+  "type": "malum:spirit_infusion"
+}

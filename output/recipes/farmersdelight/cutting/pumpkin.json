@@ -1,0 +1,25 @@
+{
+  "tool": [
+    {
+      "action": "knife_dig",
+      "type": "farmersdelight:item_ability"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "farmersdelight:pumpkin_slice",
+        "count": 4
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:pumpkin"
+    }
+  ],
+  "type": "farmersdelight:cutting"
+}

@@ -1,0 +1,12 @@
+{
+  "ignore_crystallize_multiplier": true,
+  "ingredient": {
+    "item": "occultism:emerald_dust"
+  },
+  "result": {
+    "tag": "c:gems/emerald",
+    "count": 1,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crystallize"
+}

@@ -1,0 +1,47 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/misc_stabilizer_tier5_dark",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:storage_stabilizer_tier5_dark",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:contact_eldritch_spirit",
+  "ingredients": [
+    {
+      "item": "minecraft:sculk_shrieker"
+    },
+    {
+      "item": "minecraft:netherite_block"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "occultism:dragonyst_dust"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:storage_stabilizer_tier4_dark"
+  },
+  "duration": 780,
+  "entity_to_sacrifice": {
+    "tag": "c:endermen",
+    "display_name": "ritual.occultism.sacrifice.endermen"
+  },
+  "type": "occultism:ritual"
+}

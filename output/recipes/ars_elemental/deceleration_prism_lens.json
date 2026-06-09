@@ -1,7 +1,12 @@
 {
-  "input": {
-    "item": "minecraft:quartz"
-  },
+  "input": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "malum:natural_quartz"
+    }
+  ],
   "output": {
     "id": "ars_elemental:deceleration_prism_lens",
     "count": 1

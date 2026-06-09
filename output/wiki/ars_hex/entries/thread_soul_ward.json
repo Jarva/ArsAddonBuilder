@@ -1,0 +1,17 @@
+{
+  "id": "ars_hex:thread_soul_ward",
+  "order": 100,
+  "icon": "ars_hex:thread_soul_ward",
+  "title": "Soul Ward",
+  "category": "ars_nouveau:armor",
+  "pages": [
+    {
+      "title": "Thread of Soul Ward",
+      "description": "Increases the Soul  Ward capacity and  integrity.",
+      "icon": "ars_hex:thread_soul_ward"
+    },
+    {
+      "recipe_1": "ars_hex:thread_soul_ward"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:hamburger",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    [
+      {
+        "item": "farmersdelight:cabbage"
+      },
+      {
+        "item": "farmersdelight:cabbage_leaf"
+      }
+    ],
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

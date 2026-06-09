@@ -1,0 +1,24 @@
+{
+  "result": {
+    "id": "arsdelight:wilden_sauce",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "experience": 0.1,
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "arsdelight:wilden_horn_powder"
+    },
+    {
+      "item": "arsdelight:wilden_spike_powder"
+    },
+    {
+      "item": "ars_nouveau:wilden_wing"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

@@ -1,0 +1,31 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_gray_paste",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:gray_paste",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:craft_djinni",
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:gray_dye"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 150,
+  "type": "occultism:ritual"
+}

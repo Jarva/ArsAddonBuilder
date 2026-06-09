@@ -5,9 +5,14 @@
     "count": 1
   },
   "ingredients": [
-    {
-      "item": "minecraft:quartz"
-    },
+    [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "malum:natural_quartz"
+      }
+    ],
     {
       "item": "minecraft:redstone"
     },

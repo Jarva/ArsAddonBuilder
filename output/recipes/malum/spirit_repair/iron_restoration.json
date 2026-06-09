@@ -1,0 +1,30 @@
+{
+  "repairMaterial": {
+    "tag": "c:ingots/iron",
+    "count": 2
+  },
+  "regex": {
+    "itemIdRegex": "iron_.+"
+  },
+  "validItems": [
+    "malum:crude_scythe",
+    "minecraft:iron_sword",
+    "minecraft:iron_shovel",
+    "minecraft:iron_pickaxe",
+    "minecraft:iron_axe",
+    "minecraft:iron_hoe",
+    "minecraft:iron_helmet",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_leggings",
+    "minecraft:iron_boots",
+    "farmersdelight:iron_knife",
+    "malum:iron_impetus"
+  ],
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 8
+    }
+  ],
+  "type": "malum:spirit_repair"
+}

@@ -1,0 +1,43 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_miner_marid_master",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:miner_marid_master",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft_miner_spirit",
+  "pentacle_id": "occultism:craft_marid",
+  "ingredients": [
+    {
+      "item": "occultism:miner_afrit_deeps"
+    },
+    {
+      "item": "occultism:iesnium_pickaxe"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "occultism:marid_essence"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_marid"
+  },
+  "duration": 510,
+  "type": "occultism:ritual"
+}

@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "occultism:othercobblerock"
+  },
+  "result": {
+    "id": "occultism:othercobblerock_slab",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

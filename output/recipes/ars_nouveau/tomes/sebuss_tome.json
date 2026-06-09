@@ -25,17 +25,6 @@
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:speed": {
-                "yMinSpeed": 0.0,
-                "yMaxSpeed": 0.01,
-                "xzMinSpeed": 0.0,
-                "xzMaxSpeed": 0.0
-              },
-              "ars_nouveau:density": {
-                "density": 1,
-                "radius": 0.05,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -49,6 +38,17 @@
                     "tintDisabled": false
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 1,
+                "radius": 0.05,
+                "spawnType": "SPHERE"
+              },
+              "ars_nouveau:speed": {
+                "yMinSpeed": 0.0,
+                "yMaxSpeed": 0.01,
+                "xzMinSpeed": 0.0,
+                "xzMaxSpeed": 0.0
               }
             },
             "type": "ars_nouveau:new_glow"
@@ -109,10 +109,6 @@
         "trailEffect": {
           "motion": {
             "propMap": {
-              "ars_nouveau:model": {
-                "resource": "ars_nouveau:empty",
-                "subPropMap": {}
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:flame",
                 "subProperties": {
@@ -126,23 +122,16 @@
                     "tintDisabled": false
                   }
                 }
+              },
+              "ars_nouveau:model": {
+                "resource": "ars_nouveau:empty",
+                "subPropMap": {}
               }
             },
             "type": "ars_nouveau:helix"
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:speed": {
-                "yMinSpeed": 0.0,
-                "yMaxSpeed": 0.0,
-                "xzMinSpeed": 0.0,
-                "xzMaxSpeed": 0.0
-              },
-              "ars_nouveau:density": {
-                "density": 200,
-                "radius": 0.6000000000000001,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:flame",
                 "subProperties": {
@@ -156,6 +145,17 @@
                     "tintDisabled": false
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 200,
+                "radius": 0.6000000000000001,
+                "spawnType": "SPHERE"
+              },
+              "ars_nouveau:speed": {
+                "yMinSpeed": 0.0,
+                "yMaxSpeed": 0.0,
+                "xzMinSpeed": 0.0,
+                "xzMaxSpeed": 0.0
               }
             },
             "type": "ars_nouveau:flame"

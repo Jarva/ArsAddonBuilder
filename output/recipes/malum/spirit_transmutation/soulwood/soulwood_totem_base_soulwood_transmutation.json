@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "malum:runewood_totem_base"
+  },
+  "result": {
+    "id": "malum:soulwood_totem_base",
+    "count": 1
+  },
+  "group": "soulwood",
+  "type": "malum:unchained_transmutation"
+}

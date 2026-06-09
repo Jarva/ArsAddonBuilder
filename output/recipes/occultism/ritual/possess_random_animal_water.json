@@ -1,0 +1,53 @@
+{
+  "entity_tag_to_summon": "occultism:random_animals_water",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/possess_random_animal_water",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:mysterious_egg_icon",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_random_animal_water\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_random_animal_water.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon",
+  "pentacle_id": "occultism:possess_foliot",
+  "ingredients": [
+    {
+      "item": "minecraft:seagrass"
+    },
+    {
+      "item": "minecraft:seagrass"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "item": "minecraft:clay"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 15,
+  "item_to_use": {
+    "item": "minecraft:snowball"
+  },
+  "type": "occultism:ritual"
+}

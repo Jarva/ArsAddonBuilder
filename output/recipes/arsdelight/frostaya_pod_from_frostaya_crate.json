@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_nouveau:frostaya_pod",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "arsdelight:frostaya_crate"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

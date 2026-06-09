@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "occultism:raw_iesnium",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "occultism:raw_iesnium_block"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

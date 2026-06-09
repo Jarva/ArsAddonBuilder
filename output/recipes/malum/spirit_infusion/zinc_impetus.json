@@ -1,0 +1,39 @@
+{
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 8
+    },
+    {
+      "type": "malum:infernal",
+      "count": 8
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 8
+    }
+  ],
+  "extraInputs": [
+    {
+      "tag": "c:gunpowders",
+      "count": 4
+    },
+    {
+      "item": "malum:cthonic_gold",
+      "count": 1
+    },
+    {
+      "tag": "c:ingots/zinc",
+      "count": 6
+    }
+  ],
+  "input": {
+    "item": "malum:alchemical_impetus",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:zinc_impetus",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

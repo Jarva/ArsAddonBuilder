@@ -1,0 +1,39 @@
+{
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 16
+    },
+    {
+      "type": "malum:arcane",
+      "count": 16
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:hex_ash",
+      "count": 8
+    },
+    {
+      "item": "malum:refined_soulstone",
+      "count": 4
+    },
+    {
+      "item": "malum:warp_flux",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "malum:alchemical_calx",
+    "count": 4
+  },
+  "result": {
+    "id": "malum:imitation_heart",
+    "count": 4
+  },
+  "type": "malum:spirit_infusion"
+}

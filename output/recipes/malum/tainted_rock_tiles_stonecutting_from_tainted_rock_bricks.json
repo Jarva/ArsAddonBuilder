@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "malum:tainted_rock_bricks"
+  },
+  "result": {
+    "id": "malum:tainted_rock_tiles",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

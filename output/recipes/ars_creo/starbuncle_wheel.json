@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_creo:starbuncle_wheel",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:starbuncle_charm"
+    },
+    {
+      "item": "create:water_wheel"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

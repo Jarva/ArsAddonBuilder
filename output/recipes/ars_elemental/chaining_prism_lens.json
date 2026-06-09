@@ -12,9 +12,14 @@
   ],
   "sourceCost": 0,
   "keepNbtOfReagent": false,
-  "reagent": {
-    "item": "minecraft:quartz"
-  },
+  "reagent": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "malum:natural_quartz"
+    }
+  ],
   "result": {
     "id": "ars_elemental:chaining_prism_lens",
     "count": 1

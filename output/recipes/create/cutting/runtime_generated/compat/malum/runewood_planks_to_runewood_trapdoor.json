@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:runewood_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "malum:runewood_trapdoor"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

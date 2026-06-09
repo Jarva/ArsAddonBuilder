@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "occultism:large_candle_cyan",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:large_candle"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

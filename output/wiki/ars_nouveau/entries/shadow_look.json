@@ -1,0 +1,15 @@
+{
+  "id": "ars_nouveau:shadow_look",
+  "order": 100,
+  "icon": "ars_nouveau:shadow_look",
+  "title": "ars_nouveau.glyph_name.shadow_look",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "ars_nouveau.glyph_name.shadow_look",
+      "description": "ars_nouveau.glyph_desc.shadow_look",
+      "icon": "ars_nouveau:shadow_look",
+      "tier": 1
+    }
+  ]
+}

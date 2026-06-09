@@ -1,0 +1,30 @@
+{
+  "input": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:red_sand"
+    }
+  ],
+  "output": [
+    {
+      "stack": {
+        "id": "minecraft:clay_ball",
+        "count": 1
+      },
+      "chance": 0.05,
+      "maxRange": 1
+    },
+    {
+      "stack": {
+        "id": "minecraft:redstone",
+        "count": 1
+      },
+      "chance": 0.05,
+      "maxRange": 1
+    }
+  ],
+  "skip_block_place": true,
+  "type": "ars_nouveau:crush"
+}

@@ -1,0 +1,18 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:iron_node"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:iron_nugget",
+      "count": 6
+    },
+    {
+      "id": "minecraft:redstone",
+      "chance": 0.75
+    }
+  ],
+  "type": "create:splashing"
+}

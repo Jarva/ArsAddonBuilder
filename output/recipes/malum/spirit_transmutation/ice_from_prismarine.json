@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "minecraft:prismarine"
+  },
+  "result": {
+    "id": "minecraft:ice",
+    "count": 1
+  },
+  "group": "mud",
+  "type": "malum:unchained_transmutation"
+}

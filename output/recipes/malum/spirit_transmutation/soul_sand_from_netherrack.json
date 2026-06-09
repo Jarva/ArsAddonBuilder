@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "minecraft:netherrack"
+  },
+  "result": {
+    "id": "minecraft:soul_sand",
+    "count": 1
+  },
+  "group": "basalt",
+  "type": "malum:unchained_transmutation"
+}

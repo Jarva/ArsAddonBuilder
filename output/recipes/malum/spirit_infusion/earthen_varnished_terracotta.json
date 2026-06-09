@@ -1,0 +1,23 @@
+{
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 2
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:alchemical_calx",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "minecraft:terracotta",
+    "count": 8
+  },
+  "result": {
+    "id": "malum:earthen_varnished_terracotta",
+    "count": 8
+  },
+  "type": "malum:spirit_infusion"
+}

@@ -1,0 +1,55 @@
+{
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 2
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 2
+    },
+    {
+      "type": "malum:earthen",
+      "count": 2
+    },
+    {
+      "type": "malum:infernal",
+      "count": 2
+    },
+    {
+      "type": "malum:arcane",
+      "count": 2
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 2
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "minecraft:redstone",
+      "count": 8
+    },
+    {
+      "tag": "malum:soulwood_planks",
+      "count": 6
+    },
+    {
+      "item": "malum:soulwood_log",
+      "count": 4
+    },
+    {
+      "item": "malum:ether",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "minecraft:copper_block",
+    "count": 4
+  },
+  "result": {
+    "id": "malum:waveform_soulwood_totem_base",
+    "count": 4
+  },
+  "type": "malum:spirit_infusion"
+}

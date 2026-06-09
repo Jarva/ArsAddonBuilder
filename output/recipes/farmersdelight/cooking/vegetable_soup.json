@@ -1,0 +1,35 @@
+{
+  "result": {
+    "id": "farmersdelight:vegetable_soup",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "experience": 1.0,
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "children": [
+        {
+          "item": "farmersdelight:cabbage"
+        },
+        {
+          "item": "farmersdelight:cabbage_leaf"
+        }
+      ],
+      "type": "neoforge:compound"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

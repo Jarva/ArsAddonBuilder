@@ -1,0 +1,16 @@
+{
+  "input": {
+    "item": "arsdelight:chimera_meat"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "arsdelight:chimera_meat_slice",
+        "count": 3
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_unification:cut"
+}

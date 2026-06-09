@@ -1,0 +1,31 @@
+{
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 8
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 8
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:runewood_planks",
+      "count": 2
+    },
+    {
+      "item": "minecraft:redstone_block",
+      "count": 1
+    }
+  ],
+  "input": {
+    "tag": "c:ingots/copper",
+    "count": 2
+  },
+  "result": {
+    "id": "malum:artificers_claw",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

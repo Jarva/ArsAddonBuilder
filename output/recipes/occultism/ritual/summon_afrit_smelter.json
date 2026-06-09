@@ -1,0 +1,42 @@
+{
+  "spirit_job_type": "occultism:smelt_tier3",
+  "entity_to_summon": "occultism:afrit",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/summon_afrit_smelter",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/afrit",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_afrit_smelter\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_afrit_smelter.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_spirit_with_job",
+  "pentacle_id": "occultism:summon_afrit",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:magma_block"
+    },
+    {
+      "item": "minecraft:red_nether_bricks"
+    },
+    {
+      "item": "minecraft:soul_campfire"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
+  },
+  "duration": 180,
+  "type": "occultism:ritual"
+}

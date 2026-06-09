@@ -1,0 +1,63 @@
+{
+  "entity_to_summon": "occultism:possessed_strong_breeze",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/wild_strong_breeze",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/wild_strong_breeze",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.wild_strong_breeze\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.wild_strong_breeze.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_wild",
+  "pentacle_id": "occultism:contact_wild_spirit",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_bulb"
+    },
+    {
+      "item": "minecraft:copper_bulb"
+    },
+    {
+      "item": "minecraft:copper_bulb"
+    },
+    {
+      "item": "minecraft:copper_bulb"
+    },
+    {
+      "item": "minecraft:tuff_bricks"
+    },
+    {
+      "item": "minecraft:tuff_bricks"
+    },
+    {
+      "item": "minecraft:tuff_bricks"
+    },
+    {
+      "item": "minecraft:tuff_bricks"
+    },
+    {
+      "item": "minecraft:breeze_rod"
+    },
+    {
+      "item": "minecraft:breeze_rod"
+    },
+    {
+      "item": "minecraft:ominous_bottle"
+    }
+  ],
+  "activation_item": {
+    "item": "minecraft:ominous_trial_key"
+  },
+  "duration": 90,
+  "entity_to_sacrifice": {
+    "tag": "occultism:humans",
+    "display_name": "ritual.occultism.sacrifice.humans"
+  },
+  "type": "occultism:ritual"
+}

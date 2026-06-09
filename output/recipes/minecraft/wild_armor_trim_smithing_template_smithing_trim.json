@@ -22,9 +22,6 @@
       "item": "minecraft:netherite_boots"
     },
     {
-      "item": "create:cardboard_boots"
-    },
-    {
       "item": "ars_nouveau:sorcerer_boots"
     },
     {
@@ -32,6 +29,18 @@
     },
     {
       "item": "ars_nouveau:battlemage_boots"
+    },
+    {
+      "item": "create:cardboard_boots"
+    },
+    {
+      "item": "ars_technica:technomancer_boots"
+    },
+    {
+      "item": "ars_technica:artificer_shoes"
+    },
+    {
+      "item": "ars_technica:machinaguard_boots"
     },
     {
       "item": "ars_elemental:air_shoes"
@@ -70,13 +79,13 @@
       "item": "ars_elemental:aqua_boots_heavy"
     },
     {
-      "item": "ars_technica:technomancer_boots"
+      "item": "malum:soul_hunter_boots"
     },
     {
-      "item": "ars_technica:artificer_shoes"
+      "item": "malum:soul_stained_steel_boots"
     },
     {
-      "item": "ars_technica:machinaguard_boots"
+      "item": "malum:malignant_stronghold_boots"
     },
     {
       "item": "minecraft:leather_leggings"
@@ -97,9 +106,6 @@
       "item": "minecraft:netherite_leggings"
     },
     {
-      "item": "create:cardboard_leggings"
-    },
-    {
       "item": "ars_nouveau:sorcerer_leggings"
     },
     {
@@ -107,6 +113,18 @@
     },
     {
       "item": "ars_nouveau:battlemage_leggings"
+    },
+    {
+      "item": "create:cardboard_leggings"
+    },
+    {
+      "item": "ars_technica:technomancer_leggings"
+    },
+    {
+      "item": "ars_technica:artificer_pants"
+    },
+    {
+      "item": "ars_technica:machinaguard_leggings"
     },
     {
       "item": "ars_elemental:air_pants"
@@ -145,13 +163,13 @@
       "item": "ars_elemental:aqua_leggings_heavy"
     },
     {
-      "item": "ars_technica:technomancer_leggings"
+      "item": "malum:soul_hunter_leggings"
     },
     {
-      "item": "ars_technica:artificer_pants"
+      "item": "malum:soul_stained_steel_leggings"
     },
     {
-      "item": "ars_technica:machinaguard_leggings"
+      "item": "malum:malignant_stronghold_leggings"
     },
     {
       "item": "minecraft:leather_chestplate"
@@ -172,9 +190,6 @@
       "item": "minecraft:netherite_chestplate"
     },
     {
-      "item": "create:cardboard_chestplate"
-    },
-    {
       "item": "ars_nouveau:sorcerer_robes"
     },
     {
@@ -182,6 +197,18 @@
     },
     {
       "item": "ars_nouveau:battlemage_robes"
+    },
+    {
+      "item": "create:cardboard_chestplate"
+    },
+    {
+      "item": "ars_technica:technomancer_chestplate"
+    },
+    {
+      "item": "ars_technica:artificer_tunic"
+    },
+    {
+      "item": "ars_technica:machinaguard_chestplate"
     },
     {
       "item": "ars_elemental:air_tunic"
@@ -220,13 +247,13 @@
       "item": "ars_elemental:aqua_chestplate"
     },
     {
-      "item": "ars_technica:technomancer_chestplate"
+      "item": "malum:soul_hunter_robe"
     },
     {
-      "item": "ars_technica:artificer_tunic"
+      "item": "malum:soul_stained_steel_chestplate"
     },
     {
-      "item": "ars_technica:machinaguard_chestplate"
+      "item": "malum:malignant_stronghold_chestplate"
     },
     {
       "item": "minecraft:leather_helmet"
@@ -250,9 +277,6 @@
       "item": "minecraft:turtle_helmet"
     },
     {
-      "item": "create:cardboard_helmet"
-    },
-    {
       "item": "ars_nouveau:sorcerer_hood"
     },
     {
@@ -260,6 +284,18 @@
     },
     {
       "item": "ars_nouveau:battlemage_hood"
+    },
+    {
+      "item": "create:cardboard_helmet"
+    },
+    {
+      "item": "ars_technica:technomancer_helmet"
+    },
+    {
+      "item": "ars_technica:artificer_cap"
+    },
+    {
+      "item": "ars_technica:machinaguard_helmet"
     },
     {
       "item": "ars_elemental:air_hood"
@@ -298,13 +334,13 @@
       "item": "ars_elemental:aqua_helmet"
     },
     {
-      "item": "ars_technica:technomancer_helmet"
+      "item": "malum:soul_hunter_cloak"
     },
     {
-      "item": "ars_technica:artificer_cap"
+      "item": "malum:soul_stained_steel_helmet"
     },
     {
-      "item": "ars_technica:machinaguard_helmet"
+      "item": "malum:malignant_stronghold_helmet"
     }
   ],
   "addition": [

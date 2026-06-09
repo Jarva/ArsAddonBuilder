@@ -1,0 +1,59 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/misc_eldritch_chalice",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:eldritch_chalice",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:contact_eldritch_spirit",
+  "ingredients": [
+    {
+      "item": "minecraft:heavy_core"
+    },
+    {
+      "item": "minecraft:bell"
+    },
+    {
+      "item": "minecraft:soul_lantern"
+    },
+    {
+      "item": "minecraft:chorus_flower"
+    },
+    {
+      "item": "minecraft:netherite_block"
+    },
+    {
+      "item": "minecraft:sponge"
+    },
+    {
+      "item": "minecraft:reinforced_deepslate"
+    },
+    {
+      "item": "minecraft:respawn_anchor"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "minecraft:end_stone_bricks"
+    },
+    {
+      "item": "minecraft:sculk_catalyst"
+    },
+    {
+      "item": "minecraft:budding_amethyst"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:dark_iesnium_sacrificial_bowl"
+  },
+  "duration": 780,
+  "entity_to_sacrifice": {
+    "tag": "c:ravagers",
+    "display_name": "ritual.occultism.sacrifice.ravager"
+  },
+  "type": "occultism:ritual"
+}

@@ -1,0 +1,163 @@
+{
+  "entity_tag_to_summon": "occultism:random_animals_special",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/possess_random_animal_special",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:mysterious_egg_icon",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_random_animal_special\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_random_animal_special.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon",
+  "pentacle_id": "occultism:possess_djinni",
+  "ingredients": [
+    {
+      "children": [
+        {
+          "item": "minecraft:white_wool"
+        },
+        {
+          "item": "minecraft:orange_wool"
+        },
+        {
+          "item": "minecraft:magenta_wool"
+        },
+        {
+          "item": "minecraft:light_blue_wool"
+        },
+        {
+          "item": "minecraft:yellow_wool"
+        },
+        {
+          "item": "minecraft:lime_wool"
+        },
+        {
+          "item": "minecraft:pink_wool"
+        },
+        {
+          "item": "minecraft:gray_wool"
+        },
+        {
+          "item": "minecraft:light_gray_wool"
+        },
+        {
+          "item": "minecraft:cyan_wool"
+        },
+        {
+          "item": "minecraft:purple_wool"
+        },
+        {
+          "item": "minecraft:blue_wool"
+        },
+        {
+          "item": "minecraft:brown_wool"
+        },
+        {
+          "item": "minecraft:green_wool"
+        },
+        {
+          "item": "minecraft:red_wool"
+        },
+        {
+          "item": "minecraft:black_wool"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:white_wool"
+        },
+        {
+          "item": "minecraft:orange_wool"
+        },
+        {
+          "item": "minecraft:magenta_wool"
+        },
+        {
+          "item": "minecraft:light_blue_wool"
+        },
+        {
+          "item": "minecraft:yellow_wool"
+        },
+        {
+          "item": "minecraft:lime_wool"
+        },
+        {
+          "item": "minecraft:pink_wool"
+        },
+        {
+          "item": "minecraft:gray_wool"
+        },
+        {
+          "item": "minecraft:light_gray_wool"
+        },
+        {
+          "item": "minecraft:cyan_wool"
+        },
+        {
+          "item": "minecraft:purple_wool"
+        },
+        {
+          "item": "minecraft:blue_wool"
+        },
+        {
+          "item": "minecraft:brown_wool"
+        },
+        {
+          "item": "minecraft:green_wool"
+        },
+        {
+          "item": "minecraft:red_wool"
+        },
+        {
+          "item": "minecraft:black_wool"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:mushroom_stem"
+        },
+        {
+          "item": "minecraft:red_mushroom_block"
+        },
+        {
+          "item": "minecraft:brown_mushroom_block"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:terracotta"
+    },
+    {
+      "item": "minecraft:bamboo_block"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "item_to_use": {
+    "item": "minecraft:wind_charge"
+  },
+  "type": "occultism:ritual"
+}

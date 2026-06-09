@@ -1,0 +1,21 @@
+{
+  "input": [
+    {
+      "item": "farmersdelight:wheat_dough"
+    },
+    {
+      "item": "create:dough"
+    }
+  ],
+  "output": [
+    {
+      "stack": {
+        "id": "farmersdelight:raw_pasta",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_unification:cut"
+}

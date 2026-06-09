@@ -1,0 +1,36 @@
+{
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 32
+    },
+    {
+      "type": "malum:wicked",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:malignant_pewter_ingot",
+      "count": 2
+    },
+    {
+      "item": "malum:void_salts",
+      "count": 8
+    }
+  ],
+  "carryOverComponentData": true,
+  "input": {
+    "item": "malum:mnemonic_hex_staff",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:erosion_scepter",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

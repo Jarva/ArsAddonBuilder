@@ -1,0 +1,34 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_stabilizer_tier2_dark",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:storage_stabilizer_tier2_dark",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:craft_djinni",
+  "ingredients": [
+    {
+      "item": "occultism:storage_stabilizer_tier1_dark"
+    },
+    {
+      "item": "occultism:silver_block"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 150,
+  "type": "occultism:ritual"
+}

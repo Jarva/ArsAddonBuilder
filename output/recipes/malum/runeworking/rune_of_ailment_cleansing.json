@@ -1,0 +1,16 @@
+{
+  "input": {
+    "item": "malum:tainted_rock",
+    "count": 4
+  },
+  "secondaryInput": {
+    "item": "malum:aqueous_spirit",
+    "count": 16
+  },
+  "result": {
+    "id": "malum:rune_of_ailment_cleansing",
+    "count": 1
+  },
+  "soundType": "malum:runic_workbench_shapes_tainted_rune",
+  "type": "malum:runeworking"
+}

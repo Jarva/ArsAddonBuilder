@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "occultism:miner_foliot_unspecialized"
+    },
+    {
+      "item": "occultism:miner_debug_unspecialized"
+    }
+  ],
+  "result": {
+    "stack": {
+      "id": "minecraft:mossy_cobblestone",
+      "count": 1
+    },
+    "weight": 3000,
+    "type": "occultism:weighted_item"
+  },
+  "type": "occultism:miner"
+}

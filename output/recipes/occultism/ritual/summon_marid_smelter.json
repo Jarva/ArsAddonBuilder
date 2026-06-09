@@ -1,0 +1,45 @@
+{
+  "spirit_job_type": "occultism:smelt_tier4",
+  "entity_to_summon": "occultism:marid",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/summon_marid_smelter",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/marid",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_marid_smelter\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_marid_smelter.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_spirit_with_job",
+  "pentacle_id": "occultism:summon_marid",
+  "ingredients": [
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "occultism:spirit_campfire"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_marid"
+  },
+  "duration": 240,
+  "type": "occultism:ritual"
+}

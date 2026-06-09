@@ -1,0 +1,25 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ars_caelum:ritual_conjure_island_geode",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:purple_archwood_log"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,24 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:fractured_zephyr_impetus"
+    }
+  ],
+  "results": [
+    {
+      "id": "malum:wind_nucleus",
+      "count": 2
+    },
+    {
+      "id": "malum:iron_node",
+      "count": 2
+    },
+    {
+      "id": "malum:iron_node",
+      "count": 2,
+      "chance": 0.5
+    }
+  ],
+  "processing_time": 600,
+  "type": "create:crushing"
+}

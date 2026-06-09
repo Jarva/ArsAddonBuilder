@@ -1,0 +1,37 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_upgrade_ritual_satchel",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:ritual_satchel_t2",
+    "count": 1
+  },
+  "ritual_type": "occultism:upgrade",
+  "pentacle_id": "occultism:craft_afrit",
+  "ingredients": [
+    {
+      "item": "occultism:ritual_satchel_t1"
+    },
+    {
+      "item": "occultism:afrit_essence"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
+  },
+  "duration": 180,
+  "type": "occultism:ritual"
+}

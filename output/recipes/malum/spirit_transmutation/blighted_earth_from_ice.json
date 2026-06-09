@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "minecraft:ice"
+  },
+  "result": {
+    "id": "malum:blighted_earth",
+    "count": 1
+  },
+  "group": "mud",
+  "type": "malum:unchained_transmutation"
+}

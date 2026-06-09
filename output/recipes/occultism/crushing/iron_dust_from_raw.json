@@ -1,0 +1,11 @@
+{
+  "ingredient": {
+    "item": "minecraft:raw_iron"
+  },
+  "result": {
+    "tag": "c:dusts/iron",
+    "count": 2,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

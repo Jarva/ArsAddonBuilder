@@ -1,0 +1,31 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_knowledge_tablet",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:knowledge_tablet",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft_with_spirit_name",
+  "pentacle_id": "occultism:craft_foliot",
+  "ingredients": [
+    {
+      "item": "occultism:otherstone_tablet"
+    },
+    {
+      "item": "occultism:research_fragment_dust"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 60,
+  "type": "occultism:ritual"
+}

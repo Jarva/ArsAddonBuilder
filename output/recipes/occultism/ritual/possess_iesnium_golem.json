@@ -1,0 +1,51 @@
+{
+  "entity_to_summon": "occultism:iesnium_golem",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/possess_iesnium_golem",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/iesnium_golem",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_iesnium_golem\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_iesnium_golem.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon",
+  "pentacle_id": "occultism:possess_marid",
+  "ingredients": [
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "occultism:marid_essence"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "occultism:soul_gem"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_marid"
+  },
+  "duration": 240,
+  "entity_to_sacrifice": {
+    "tag": "c:golems/iron",
+    "display_name": "ritual.occultism.sacrifice.iron_golem"
+  },
+  "type": "occultism:ritual"
+}

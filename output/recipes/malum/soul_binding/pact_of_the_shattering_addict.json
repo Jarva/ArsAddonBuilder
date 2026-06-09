@@ -1,0 +1,28 @@
+{
+  "input": {
+    "item": "malum:raw_soulstone",
+    "count": 12
+  },
+  "result": "malum:pact_of_the_shattering_addict",
+  "extraInputs": [
+    {
+      "item": "malum:hex_ash",
+      "count": 8
+    },
+    {
+      "item": "malum:warp_flux",
+      "count": 4
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    },
+    {
+      "type": "malum:wicked",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

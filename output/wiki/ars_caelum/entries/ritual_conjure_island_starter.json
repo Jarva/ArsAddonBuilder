@@ -1,0 +1,14 @@
+{
+  "id": "ars_caelum:ritual_conjure_island_starter",
+  "order": 100,
+  "icon": "ars_caelum:ritual_conjure_island_starter",
+  "title": "Conjure Island: Starter",
+  "category": "ars_nouveau:ritual_index",
+  "pages": [
+    {
+      "title": "Conjure Island: Starter",
+      "description": "",
+      "icon": "ars_caelum:ritual_conjure_island_starter"
+    }
+  ]
+}

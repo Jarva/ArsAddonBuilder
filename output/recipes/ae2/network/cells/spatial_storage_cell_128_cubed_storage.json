@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ae2:spatial_storage_cell_128",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ae2:item_cell_housing"
+    },
+    {
+      "item": "ae2:spatial_cell_component_128"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

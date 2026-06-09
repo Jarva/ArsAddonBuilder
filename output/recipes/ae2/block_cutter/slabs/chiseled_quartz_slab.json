@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "ae2:chiseled_quartz_block"
+  },
+  "result": {
+    "id": "ae2:chiseled_quartz_slab",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

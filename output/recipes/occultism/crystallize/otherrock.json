@@ -1,0 +1,13 @@
+{
+  "ignore_crystallize_multiplier": true,
+  "ingredient": {
+    "item": "occultism:burnt_otherrock"
+  },
+  "result": {
+    "id": "occultism:otherrock",
+    "count": 1,
+    "type": "occultism:item"
+  },
+  "min_tier": 3,
+  "type": "occultism:crystallize"
+}

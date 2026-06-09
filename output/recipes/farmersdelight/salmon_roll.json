@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:salmon_roll",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "farmersdelight:salmon_slice"
+    },
+    {
+      "item": "farmersdelight:salmon_slice"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

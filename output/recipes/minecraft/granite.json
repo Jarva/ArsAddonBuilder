@@ -8,9 +8,14 @@
     {
       "item": "minecraft:diorite"
     },
-    {
-      "item": "minecraft:quartz"
-    }
+    [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "malum:natural_quartz"
+      }
+    ]
   ],
   "type": "minecraft:crafting_shapeless"
 }

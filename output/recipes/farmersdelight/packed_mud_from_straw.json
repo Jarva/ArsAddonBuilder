@@ -1,0 +1,19 @@
+{
+  "category": "building",
+  "result": {
+    "id": "minecraft:packed_mud",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:mud"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

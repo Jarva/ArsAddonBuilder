@@ -1,0 +1,114 @@
+{
+  "ingredient": [
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "minecraft:poppy"
+    },
+    {
+      "item": "minecraft:blue_orchid"
+    },
+    {
+      "item": "minecraft:allium"
+    },
+    {
+      "item": "minecraft:azure_bluet"
+    },
+    {
+      "item": "minecraft:red_tulip"
+    },
+    {
+      "item": "minecraft:orange_tulip"
+    },
+    {
+      "item": "minecraft:white_tulip"
+    },
+    {
+      "item": "minecraft:pink_tulip"
+    },
+    {
+      "item": "minecraft:oxeye_daisy"
+    },
+    {
+      "item": "minecraft:cornflower"
+    },
+    {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "item": "minecraft:torchflower"
+    },
+    {
+      "item": "farmersdelight:wild_carrots"
+    },
+    {
+      "item": "farmersdelight:wild_potatoes"
+    },
+    {
+      "item": "farmersdelight:wild_beetroots"
+    },
+    {
+      "item": "farmersdelight:wild_cabbages"
+    },
+    {
+      "item": "farmersdelight:wild_tomatoes"
+    },
+    {
+      "item": "farmersdelight:wild_onions"
+    },
+    {
+      "item": "occultism:otherflower"
+    },
+    {
+      "item": "occultism:otherflower_natural"
+    },
+    {
+      "item": "minecraft:sunflower"
+    },
+    {
+      "item": "minecraft:lilac"
+    },
+    {
+      "item": "minecraft:peony"
+    },
+    {
+      "item": "minecraft:rose_bush"
+    },
+    {
+      "item": "minecraft:pitcher_plant"
+    },
+    {
+      "item": "farmersdelight:wild_rice"
+    },
+    {
+      "item": "minecraft:flowering_azalea_leaves"
+    },
+    {
+      "item": "minecraft:flowering_azalea"
+    },
+    {
+      "item": "minecraft:mangrove_propagule"
+    },
+    {
+      "item": "minecraft:cherry_leaves"
+    },
+    {
+      "item": "minecraft:pink_petals"
+    },
+    {
+      "item": "minecraft:chorus_flower"
+    },
+    {
+      "item": "minecraft:spore_blossom"
+    }
+  ],
+  "result": {
+    "id": "occultism:otherflower",
+    "count": 1
+  },
+  "type": "occultism:spirit_fire"
+}

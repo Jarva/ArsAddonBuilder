@@ -1,0 +1,104 @@
+{
+  "entity_tag_to_summon": "c:villagers",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/possess_villager",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:mysterious_egg_icon",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_villager\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_villager.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon",
+  "pentacle_id": "occultism:possess_djinni",
+  "ingredients": [
+    {
+      "children": [
+        {
+          "item": "minecraft:red_bed"
+        },
+        {
+          "item": "minecraft:black_bed"
+        },
+        {
+          "item": "minecraft:blue_bed"
+        },
+        {
+          "item": "minecraft:brown_bed"
+        },
+        {
+          "item": "minecraft:cyan_bed"
+        },
+        {
+          "item": "minecraft:gray_bed"
+        },
+        {
+          "item": "minecraft:green_bed"
+        },
+        {
+          "item": "minecraft:light_blue_bed"
+        },
+        {
+          "item": "minecraft:light_gray_bed"
+        },
+        {
+          "item": "minecraft:lime_bed"
+        },
+        {
+          "item": "minecraft:magenta_bed"
+        },
+        {
+          "item": "minecraft:orange_bed"
+        },
+        {
+          "item": "minecraft:pink_bed"
+        },
+        {
+          "item": "minecraft:purple_bed"
+        },
+        {
+          "item": "minecraft:white_bed"
+        },
+        {
+          "item": "minecraft:yellow_bed"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "minecraft:campfire"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:pumpkin_pie"
+        },
+        {
+          "item": "farmersdelight:apple_pie_slice"
+        },
+        {
+          "item": "farmersdelight:sweet_berry_cheesecake_slice"
+        },
+        {
+          "item": "farmersdelight:chocolate_pie_slice"
+        },
+        {
+          "item": "farmersdelight:pumpkin_pie_slice"
+        }
+      ],
+      "type": "neoforge:compound"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "item_to_use": {
+    "item": "minecraft:experience_bottle"
+  },
+  "type": "occultism:ritual"
+}

@@ -1,0 +1,32 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:mutton_wrap",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    [
+      {
+        "item": "minecraft:cooked_mutton"
+      },
+      {
+        "item": "farmersdelight:cooked_mutton_chops"
+      }
+    ],
+    [
+      {
+        "item": "farmersdelight:cabbage"
+      },
+      {
+        "item": "farmersdelight:cabbage_leaf"
+      }
+    ],
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

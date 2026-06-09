@@ -21,6 +21,30 @@
       },
       "chance": 1.0,
       "maxRange": 1
+    },
+    {
+      "stack": {
+        "id": "minecraft:gold_nugget",
+        "count": 1
+      },
+      "chance": 0.2,
+      "maxRange": 3
+    },
+    {
+      "stack": {
+        "id": "minecraft:iron_nugget",
+        "count": 1
+      },
+      "chance": 0.2,
+      "maxRange": 3
+    },
+    {
+      "stack": {
+        "id": "minecraft:raw_copper",
+        "count": 1
+      },
+      "chance": 0.2,
+      "maxRange": 1
     }
   ],
   "type": "ars_nouveau:crush"

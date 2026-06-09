@@ -1,0 +1,21 @@
+{
+  "input": [
+    {
+      "item": "minecraft:iron_ore"
+    },
+    {
+      "item": "minecraft:deepslate_iron_ore"
+    }
+  ],
+  "output": [
+    {
+      "stack": {
+        "id": "occultism:iron_dust",
+        "count": 2
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_nouveau:crush"
+}

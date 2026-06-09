@@ -1,0 +1,14 @@
+{
+  "mode": "heat",
+  "input": {
+    "block": {
+      "id": "minecraft:cobblestone"
+    }
+  },
+  "output": {
+    "block": {
+      "id": "minecraft:stone"
+    }
+  },
+  "type": "ae2:entropy"
+}

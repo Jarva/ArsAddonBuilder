@@ -1,0 +1,12 @@
+{
+  "crushing_time": 1600,
+  "ingredient": {
+    "item": "occultism:raw_iesnium_block"
+  },
+  "result": {
+    "tag": "c:dusts/iesnium",
+    "count": 18,
+    "type": "occultism:tag"
+  },
+  "type": "occultism:crushing"
+}

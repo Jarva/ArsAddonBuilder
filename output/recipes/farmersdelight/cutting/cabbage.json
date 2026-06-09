@@ -1,0 +1,25 @@
+{
+  "tool": [
+    {
+      "action": "knife_dig",
+      "type": "farmersdelight:item_ability"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "farmersdelight:cabbage_leaf",
+        "count": 2
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "farmersdelight:cabbage"
+    }
+  ],
+  "type": "farmersdelight:cutting"
+}

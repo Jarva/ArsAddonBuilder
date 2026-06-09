@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "farmersdelight:cooked_chicken_cuts",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 100,
+  "category": "food",
+  "ingredient": {
+    "item": "farmersdelight:chicken_cuts"
+  },
+  "type": "minecraft:smoking"
+}

@@ -1,0 +1,18 @@
+{
+  "ingredients": [
+    {
+      "item": "farmersdelight:wild_rice"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:rice"
+    },
+    {
+      "id": "farmersdelight:straw",
+      "chance": 0.5
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:milling"
+}

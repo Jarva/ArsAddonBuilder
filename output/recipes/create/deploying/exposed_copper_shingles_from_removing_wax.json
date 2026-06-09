@@ -21,6 +21,24 @@
       },
       {
         "item": "minecraft:iron_axe"
+      },
+      {
+        "item": "ae2:certus_quartz_axe"
+      },
+      {
+        "item": "ae2:nether_quartz_axe"
+      },
+      {
+        "item": "ae2:fluix_axe"
+      },
+      {
+        "item": "malum:soul_stained_steel_axe"
+      },
+      {
+        "item": "malum:spellweaving_axe"
+      },
+      {
+        "item": "malum:weight_of_worlds"
       }
     ]
   ],

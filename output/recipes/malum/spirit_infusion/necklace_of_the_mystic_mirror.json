@@ -1,0 +1,31 @@
+{
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 24
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:runewood_planks",
+      "count": 8
+    },
+    {
+      "item": "malum:warp_flux",
+      "count": 4
+    },
+    {
+      "item": "minecraft:ender_eye",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "malum:ornate_necklace",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:necklace_of_the_mystic_mirror",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

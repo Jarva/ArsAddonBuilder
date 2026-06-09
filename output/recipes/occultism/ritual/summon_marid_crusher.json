@@ -1,0 +1,42 @@
+{
+  "spirit_job_type": "occultism:crush_tier4",
+  "entity_to_summon": "occultism:marid",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/summon_marid_crusher",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/marid",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_marid_crusher\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_marid_crusher.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_spirit_with_job",
+  "pentacle_id": "occultism:summon_marid",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "minecraft:emerald_block"
+    },
+    {
+      "item": "minecraft:netherite_block"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_marid"
+  },
+  "duration": 240,
+  "type": "occultism:ritual"
+}

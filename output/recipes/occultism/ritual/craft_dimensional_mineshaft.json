@@ -1,0 +1,72 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/craft_dimensional_mineshaft",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:dimensional_mineshaft",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft",
+  "pentacle_id": "occultism:craft_djinni",
+  "ingredients": [
+    {
+      "children": [
+        {
+          "item": "occultism:otherstone"
+        },
+        {
+          "item": "occultism:otherrock"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "occultism:otherstone"
+        },
+        {
+          "item": "occultism:otherrock"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "occultism:otherstone"
+        },
+        {
+          "item": "occultism:otherrock"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "children": [
+        {
+          "item": "occultism:otherstone"
+        },
+        {
+          "item": "occultism:otherrock"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 150,
+  "type": "occultism:ritual"
+}

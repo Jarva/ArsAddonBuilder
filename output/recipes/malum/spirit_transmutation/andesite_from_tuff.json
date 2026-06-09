@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "minecraft:tuff"
+  },
+  "result": {
+    "id": "minecraft:andesite",
+    "count": 1
+  },
+  "group": "polished_basalt",
+  "type": "malum:unchained_transmutation"
+}

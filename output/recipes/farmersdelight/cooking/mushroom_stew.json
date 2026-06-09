@@ -1,0 +1,21 @@
+{
+  "result": {
+    "id": "minecraft:mushroom_stew",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:bowl",
+    "count": 1
+  },
+  "experience": 1.0,
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

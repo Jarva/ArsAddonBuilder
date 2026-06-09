@@ -1,0 +1,42 @@
+{
+  "entity_to_summon": "occultism:afrit_wild",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/summon_unbound_afrit",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:afrit_essence",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_unbound_afrit\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_unbound_afrit.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon",
+  "pentacle_id": "occultism:summon_unbound_afrit",
+  "ingredients": [
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "item": "occultism:iesnium_ingot"
+    },
+    {
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
+  },
+  "duration": 150,
+  "entity_to_sacrifice": {
+    "tag": "c:cows",
+    "display_name": "ritual.occultism.sacrifice.cows"
+  },
+  "type": "occultism:ritual"
+}

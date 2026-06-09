@@ -6,63 +6,63 @@
     "list": [
       {
         "item": {
-          "id": "minecraft:emerald",
-          "count": 1
-        },
-        "chance": 0.14
-      },
-      {
-        "item": {
           "id": "minecraft:gold_nugget",
           "count": 1
         },
-        "chance": 0.13833334
+        "chance": 0.15833333
       },
       {
         "item": {
           "id": "minecraft:wheat",
           "count": 1
         },
-        "chance": 0.135
-      },
-      {
-        "item": {
-          "id": "minecraft:wooden_hoe",
-          "count": 1
-        },
-        "chance": 0.135
+        "chance": 0.14333333
       },
       {
         "item": {
           "id": "minecraft:coal",
           "count": 1
         },
-        "chance": 0.108333334
+        "chance": 0.11833333
+      },
+      {
+        "item": {
+          "id": "minecraft:emerald",
+          "count": 1
+        },
+        "chance": 0.115
+      },
+      {
+        "item": {
+          "id": "minecraft:wooden_hoe",
+          "count": 1
+        },
+        "chance": 0.111666664
+      },
+      {
+        "item": {
+          "id": "minecraft:shelter_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.086666666
       },
       {
         "item": {
           "id": "minecraft:angler_pottery_sherd",
           "count": 1
         },
-        "chance": 0.08166666
+        "chance": 0.08
       },
       {
         "item": {
           "id": "minecraft:sniffer_egg",
           "count": 1
         },
-        "chance": 0.07
+        "chance": 0.06666667
       },
       {
         "item": {
           "id": "minecraft:iron_axe",
-          "count": 1
-        },
-        "chance": 0.07
-      },
-      {
-        "item": {
-          "id": "minecraft:shelter_pottery_sherd",
           "count": 1
         },
         "chance": 0.06333333
@@ -72,7 +72,7 @@
           "id": "minecraft:snort_pottery_sherd",
           "count": 1
         },
-        "chance": 0.058333334
+        "chance": 0.05666667
       }
     ],
     "weight": 150

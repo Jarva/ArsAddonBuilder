@@ -1,0 +1,17 @@
+{
+  "ingredients": [
+    {
+      "item": "farmersdelight:wild_beetroots"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:beetroot_seeds"
+    },
+    {
+      "id": "minecraft:red_dye"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:milling"
+}

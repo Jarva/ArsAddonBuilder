@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ae2:pattern_encoding_terminal",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ae2:engineering_processor"
+    },
+    {
+      "item": "ae2:crafting_terminal"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

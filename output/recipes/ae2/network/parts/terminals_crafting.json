@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ae2:crafting_terminal",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ae2:terminal"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    },
+    {
+      "item": "ae2:calculation_processor"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,24 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "ae2:storage_monitor",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "ae2:level_emitter"
+    },
+    [
+      {
+        "item": "ae2:monitor"
+      },
+      {
+        "item": "ae2:semi_dark_monitor"
+      },
+      {
+        "item": "ae2:dark_monitor"
+      }
+    ]
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

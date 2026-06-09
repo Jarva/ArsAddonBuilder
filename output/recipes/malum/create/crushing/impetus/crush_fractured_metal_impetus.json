@@ -1,0 +1,55 @@
+{
+  "ingredients": [
+    [
+      {
+        "item": "malum:fractured_iron_impetus"
+      },
+      {
+        "item": "malum:fractured_copper_impetus"
+      },
+      {
+        "item": "malum:fractured_gold_impetus"
+      },
+      {
+        "item": "malum:fractured_aluminum_impetus"
+      },
+      {
+        "item": "malum:fractured_nickel_impetus"
+      },
+      {
+        "item": "malum:fractured_silver_impetus"
+      },
+      {
+        "item": "malum:fractured_tin_impetus"
+      },
+      {
+        "item": "malum:fractured_zinc_impetus"
+      },
+      {
+        "item": "malum:fractured_osmium_impetus"
+      },
+      {
+        "item": "malum:fractured_lead_impetus"
+      },
+      {
+        "item": "malum:fractured_uranium_impetus"
+      },
+      {
+        "item": "malum:fractured_cobalt_impetus"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "id": "malum:cthonic_gold_fragment",
+      "count": 3
+    },
+    {
+      "id": "malum:cthonic_gold_fragment",
+      "count": 3,
+      "chance": 0.5
+    }
+  ],
+  "processing_time": 600,
+  "type": "create:crushing"
+}

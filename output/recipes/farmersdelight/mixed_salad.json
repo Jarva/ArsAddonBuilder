@@ -1,0 +1,27 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:mixed_salad",
+    "count": 1
+  },
+  "ingredients": [
+    [
+      {
+        "item": "farmersdelight:cabbage"
+      },
+      {
+        "item": "farmersdelight:cabbage_leaf"
+      }
+    ],
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

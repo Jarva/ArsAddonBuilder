@@ -1,0 +1,13 @@
+{
+  "result": {
+    "id": "occultism:cracked_otherstone_bricks",
+    "count": 1
+  },
+  "experience": 0.3,
+  "cookingtime": 200,
+  "category": "blocks",
+  "ingredient": {
+    "item": "occultism:otherstone_bricks"
+  },
+  "type": "minecraft:smelting"
+}

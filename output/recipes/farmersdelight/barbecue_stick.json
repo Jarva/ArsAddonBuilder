@@ -1,0 +1,48 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:barbecue_stick",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "farmersdelight:tomato"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    [
+      {
+        "item": "minecraft:cooked_beef"
+      },
+      {
+        "item": "minecraft:cooked_porkchop"
+      },
+      {
+        "item": "minecraft:cooked_chicken"
+      },
+      {
+        "item": "minecraft:cooked_rabbit"
+      },
+      {
+        "item": "minecraft:cooked_mutton"
+      },
+      {
+        "item": "farmersdelight:cooked_chicken_cuts"
+      },
+      {
+        "item": "farmersdelight:cooked_bacon"
+      },
+      {
+        "item": "farmersdelight:beef_patty"
+      },
+      {
+        "item": "farmersdelight:cooked_mutton_chops"
+      }
+    ],
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

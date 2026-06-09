@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:mechanical_weave_v2",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "malum:esoteric_spool"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

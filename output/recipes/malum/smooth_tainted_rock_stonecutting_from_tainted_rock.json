@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "malum:tainted_rock"
+  },
+  "result": {
+    "id": "malum:smooth_tainted_rock",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

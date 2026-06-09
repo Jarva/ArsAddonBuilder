@@ -1,0 +1,31 @@
+{
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 16
+    },
+    {
+      "type": "malum:earthen",
+      "count": 16
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:soul_stained_steel_plating",
+      "count": 6
+    },
+    {
+      "item": "malum:refined_soulstone",
+      "count": 4
+    }
+  ],
+  "input": {
+    "item": "malum:gilded_ring",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:ring_of_manaweaving",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

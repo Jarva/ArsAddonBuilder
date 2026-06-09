@@ -1,0 +1,24 @@
+{
+  "result": {
+    "id": "farmersdelight:apple_cider",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:glass_bottle",
+    "count": 1
+  },
+  "experience": 1.0,
+  "recipe_book_tab": "drinks",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

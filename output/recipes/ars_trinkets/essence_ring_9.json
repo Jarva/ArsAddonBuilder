@@ -1,0 +1,38 @@
+{
+  "pedestalItems": [
+    {
+      "item": "ars_trinkets:essence_9"
+    },
+    {
+      "item": "ars_trinkets:essence_9"
+    },
+    {
+      "item": "ars_trinkets:essence_9"
+    },
+    {
+      "item": "ars_trinkets:essence_9"
+    },
+    {
+      "item": "ars_trinkets:essence_9"
+    },
+    {
+      "item": "ars_trinkets:essence_9"
+    },
+    {
+      "item": "ars_trinkets:essence_9"
+    },
+    {
+      "item": "ars_trinkets:essence_9"
+    }
+  ],
+  "sourceCost": 4500,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_trinkets:essence_ring_8"
+  },
+  "result": {
+    "id": "ars_trinkets:essence_ring_9",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

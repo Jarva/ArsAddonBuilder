@@ -40,6 +40,15 @@
       },
       {
         "item": "ars_nouveau:archwood_pressure_plate"
+      },
+      {
+        "item": "occultism:otherplanks_pressure_plate"
+      },
+      {
+        "item": "malum:runewood_planks_pressure_plate"
+      },
+      {
+        "item": "malum:soulwood_planks_pressure_plate"
       }
     ],
     {

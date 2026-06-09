@@ -1,0 +1,53 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:fruit_salad",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    },
+    [
+      {
+        "item": "minecraft:sweet_berries"
+      },
+      {
+        "item": "minecraft:glow_berries"
+      },
+      {
+        "item": "ars_nouveau:sourceberry_bush"
+      },
+      {
+        "item": "create:chocolate_glazed_berries"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:sweet_berries"
+      },
+      {
+        "item": "minecraft:glow_berries"
+      },
+      {
+        "item": "ars_nouveau:sourceberry_bush"
+      },
+      {
+        "item": "create:chocolate_glazed_berries"
+      }
+    ],
+    {
+      "item": "farmersdelight:pumpkin_slice"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

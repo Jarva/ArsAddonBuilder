@@ -1,0 +1,20 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:arcane_charcoal"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:gray_dye",
+      "count": 2
+    },
+    {
+      "id": "minecraft:purple_dye",
+      "count": 2,
+      "chance": 0.1
+    }
+  ],
+  "processing_time": 100,
+  "type": "create:milling"
+}

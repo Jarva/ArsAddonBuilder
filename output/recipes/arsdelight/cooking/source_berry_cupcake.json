@@ -1,0 +1,38 @@
+{
+  "result": {
+    "id": "arsdelight:source_berry_cupcake",
+    "count": 2
+  },
+  "container": {
+    "id": "minecraft:paper",
+    "count": 1
+  },
+  "experience": 0.1,
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "arsdelight:arch_sauce"
+    },
+    {
+      "item": "ars_nouveau:sourceberry_bush"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "children": [
+        {
+          "item": "minecraft:milk_bucket"
+        },
+        {
+          "item": "farmersdelight:milk_bottle"
+        }
+      ],
+      "type": "neoforge:compound"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

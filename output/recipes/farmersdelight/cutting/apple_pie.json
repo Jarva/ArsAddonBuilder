@@ -1,0 +1,25 @@
+{
+  "tool": [
+    {
+      "action": "knife_dig",
+      "type": "farmersdelight:item_ability"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "farmersdelight:apple_pie_slice",
+        "count": 4
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "farmersdelight:apple_pie"
+    }
+  ],
+  "type": "farmersdelight:cutting"
+}

@@ -1,0 +1,28 @@
+{
+  "repairMaterial": {
+    "tag": "c:ingots/gold",
+    "count": 2
+  },
+  "regex": {
+    "itemIdRegex": "golden_.+"
+  },
+  "validItems": [
+    "minecraft:golden_sword",
+    "minecraft:golden_shovel",
+    "minecraft:golden_pickaxe",
+    "minecraft:golden_axe",
+    "minecraft:golden_hoe",
+    "minecraft:golden_helmet",
+    "minecraft:golden_chestplate",
+    "minecraft:golden_leggings",
+    "minecraft:golden_boots",
+    "farmersdelight:golden_knife"
+  ],
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "type": "malum:spirit_repair"
+}

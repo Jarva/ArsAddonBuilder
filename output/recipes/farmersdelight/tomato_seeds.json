@@ -1,0 +1,18 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:tomato_seeds",
+    "count": 1
+  },
+  "ingredients": [
+    [
+      {
+        "item": "farmersdelight:tomato"
+      },
+      {
+        "item": "farmersdelight:rotten_tomato"
+      }
+    ]
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

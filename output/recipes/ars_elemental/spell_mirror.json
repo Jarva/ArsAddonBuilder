@@ -124,12 +124,22 @@
         "item": "ars_elemental:stripped_yellow_archwood"
       }
     ],
-    {
-      "item": "minecraft:quartz"
-    },
-    {
-      "item": "minecraft:quartz"
-    },
+    [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "malum:natural_quartz"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "malum:natural_quartz"
+      }
+    ],
     {
       "item": "minecraft:gold_ingot"
     },

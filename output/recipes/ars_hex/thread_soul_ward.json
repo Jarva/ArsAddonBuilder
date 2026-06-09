@@ -1,0 +1,32 @@
+{
+  "pedestalItems": [
+    {
+      "item": "malum:rune_of_reinforcement"
+    },
+    {
+      "item": "malum:refined_soulstone"
+    },
+    {
+      "item": "malum:refined_soulstone"
+    },
+    {
+      "item": "malum:soul_stained_steel_plating"
+    },
+    {
+      "item": "malum:soul_stained_steel_plating"
+    },
+    {
+      "item": "malum:arcane_spirit"
+    }
+  ],
+  "sourceCost": 0,
+  "keepNbtOfReagent": false,
+  "reagent": {
+    "item": "ars_nouveau:blank_thread"
+  },
+  "result": {
+    "id": "ars_hex:thread_soul_ward",
+    "count": 1
+  },
+  "type": "ars_nouveau:enchanting_apparatus"
+}

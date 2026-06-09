@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:runewood_log"
+    }
+  ],
+  "results": [
+    {
+      "id": "malum:stripped_runewood_log"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

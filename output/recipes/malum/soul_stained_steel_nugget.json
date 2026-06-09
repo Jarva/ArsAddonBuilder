@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:soul_stained_steel_nugget",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "malum:soul_stained_steel_ingot"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

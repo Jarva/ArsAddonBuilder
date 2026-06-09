@@ -1,0 +1,21 @@
+{
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 1
+    },
+    {
+      "type": "malum:arcane",
+      "count": 1
+    }
+  ],
+  "input": {
+    "tag": "minecraft:stone_tool_materials",
+    "count": 16
+  },
+  "result": {
+    "id": "malum:twisted_rock",
+    "count": 16
+  },
+  "type": "malum:spirit_infusion"
+}

@@ -1,0 +1,16 @@
+{
+  "input": {
+    "item": "minecraft:blackstone"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "occultism:crushed_blackstone",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_nouveau:crush"
+}

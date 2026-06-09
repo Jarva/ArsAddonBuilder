@@ -1,0 +1,32 @@
+{
+  "input": {
+    "item": "minecraft:gunpowder",
+    "count": 12
+  },
+  "result": "malum:pact_of_the_prospector",
+  "extraInputs": [
+    {
+      "item": "minecraft:blaze_powder",
+      "count": 8
+    },
+    {
+      "item": "minecraft:raw_gold",
+      "count": 4
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:infernal",
+      "count": 16
+    },
+    {
+      "type": "malum:earthen",
+      "count": 16
+    },
+    {
+      "type": "malum:sacred",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

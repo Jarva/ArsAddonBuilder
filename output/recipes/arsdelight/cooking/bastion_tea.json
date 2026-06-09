@@ -1,0 +1,30 @@
+{
+  "result": {
+    "id": "arsdelight:bastion_tea",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:glass_bottle",
+    "count": 1
+  },
+  "experience": 0.1,
+  "recipe_book_tab": "drinks",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:bastion_pod"
+    },
+    {
+      "item": "ars_nouveau:bastion_pod"
+    },
+    {
+      "item": "arsdelight:flourishing_bark"
+    },
+    {
+      "item": "ars_nouveau:green_archwood_leaves"
+    },
+    {
+      "item": "ars_nouveau:sourceberry_bush"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

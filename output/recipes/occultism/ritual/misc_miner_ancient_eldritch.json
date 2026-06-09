@@ -1,0 +1,47 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/misc_miner_ancient_eldritch",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:miner_ancient_eldritch",
+    "count": 1
+  },
+  "ritual_type": "occultism:craft_miner_spirit",
+  "pentacle_id": "occultism:contact_eldritch_spirit",
+  "ingredients": [
+    {
+      "item": "occultism:miner_marid_master"
+    },
+    {
+      "item": "occultism:miner_marid_master"
+    },
+    {
+      "item": "occultism:miner_marid_master"
+    },
+    {
+      "item": "occultism:miner_marid_master"
+    },
+    {
+      "item": "occultism:miner_marid_master"
+    },
+    {
+      "item": "occultism:miner_marid_master"
+    },
+    {
+      "item": "occultism:miner_marid_master"
+    },
+    {
+      "item": "occultism:miner_marid_master"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:mining_dim_core"
+  },
+  "duration": 780,
+  "entity_to_sacrifice": {
+    "tag": "occultism:humans",
+    "display_name": "ritual.occultism.sacrifice.humans"
+  },
+  "type": "occultism:ritual"
+}

@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:raw_brilliance",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "malum:block_of_brilliance"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

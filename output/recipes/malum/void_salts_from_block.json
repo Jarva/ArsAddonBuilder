@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:void_salts",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "malum:block_of_void_salts"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

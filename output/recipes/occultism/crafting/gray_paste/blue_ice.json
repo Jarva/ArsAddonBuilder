@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "result": {
+    "id": "minecraft:blue_ice",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:gray_paste"
+    },
+    {
+      "item": "occultism:crushed_blue_ice"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

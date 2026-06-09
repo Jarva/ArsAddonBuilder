@@ -1,0 +1,40 @@
+{
+  "input": {
+    "item": "malum:rotting_essence",
+    "count": 16
+  },
+  "result": "malum:pact_of_the_profane_glutton",
+  "extraInputs": [
+    {
+      "item": "malum:imitation_heart",
+      "count": 8
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "count": 8
+    },
+    {
+      "item": "minecraft:spider_eye",
+      "count": 8
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 32
+    },
+    {
+      "type": "malum:wicked",
+      "count": 32
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

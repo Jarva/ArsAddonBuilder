@@ -39,7 +39,19 @@
         "item": "minecraft:wheat_seeds"
       },
       {
+        "item": "farmersdelight:cabbage_seeds"
+      },
+      {
+        "item": "farmersdelight:rice"
+      },
+      {
+        "item": "farmersdelight:tomato_seeds"
+      },
+      {
         "item": "ars_nouveau:magebloom_crop"
+      },
+      {
+        "item": "occultism:datura_seeds"
       }
     ],
     [
@@ -59,7 +71,19 @@
         "item": "minecraft:wheat_seeds"
       },
       {
+        "item": "farmersdelight:cabbage_seeds"
+      },
+      {
+        "item": "farmersdelight:rice"
+      },
+      {
+        "item": "farmersdelight:tomato_seeds"
+      },
+      {
         "item": "ars_nouveau:magebloom_crop"
+      },
+      {
+        "item": "occultism:datura_seeds"
       }
     ],
     [
@@ -79,7 +103,19 @@
         "item": "minecraft:wheat_seeds"
       },
       {
+        "item": "farmersdelight:cabbage_seeds"
+      },
+      {
+        "item": "farmersdelight:rice"
+      },
+      {
+        "item": "farmersdelight:tomato_seeds"
+      },
+      {
         "item": "ars_nouveau:magebloom_crop"
+      },
+      {
+        "item": "occultism:datura_seeds"
       }
     ]
   ],

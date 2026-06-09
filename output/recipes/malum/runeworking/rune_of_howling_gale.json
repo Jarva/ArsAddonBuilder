@@ -1,0 +1,16 @@
+{
+  "input": {
+    "item": "malum:runewood_planks",
+    "count": 4
+  },
+  "secondaryInput": {
+    "item": "malum:aerial_spirit",
+    "count": 32
+  },
+  "result": {
+    "id": "malum:rune_of_howling_gale",
+    "count": 1
+  },
+  "soundType": "malum:runic_workbench_shapes_wooden_rune",
+  "type": "malum:runeworking"
+}

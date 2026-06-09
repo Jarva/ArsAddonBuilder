@@ -1,0 +1,39 @@
+{
+  "spirit_job_type": "occultism:crush_tier1",
+  "entity_to_summon": "occultism:foliot",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/summon_foliot_crusher",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:spawn_egg/foliot",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_foliot_crusher\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_foliot_crusher.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon_spirit_with_job",
+  "pentacle_id": "occultism:summon_foliot",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "occultism:silver_ingot"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 60,
+  "type": "occultism:ritual"
+}

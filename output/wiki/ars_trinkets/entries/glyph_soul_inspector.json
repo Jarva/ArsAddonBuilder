@@ -1,0 +1,18 @@
+{
+  "id": "ars_trinkets:glyph_soul_inspector",
+  "order": 100,
+  "icon": "ars_trinkets:glyph_soul_inspector",
+  "title": "Inspect Soul",
+  "category": "ars_nouveau:glyphs_tier_one",
+  "pages": [
+    {
+      "title": "Inspect Soul",
+      "description": "Inspects the soul of the entity you are casting this spell on.",
+      "icon": "ars_trinkets:glyph_soul_inspector",
+      "tier": 1
+    },
+    {
+      "recipe_1": "ars_trinkets:glyph_soul_inspector"
+    }
+  ]
+}

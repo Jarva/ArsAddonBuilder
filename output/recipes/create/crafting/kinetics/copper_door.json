@@ -41,6 +41,33 @@
       },
       {
         "item": "ars_nouveau:archwood_door"
+      },
+      {
+        "item": "occultism:otherplanks_door"
+      },
+      {
+        "item": "malum:runewood_door"
+      },
+      {
+        "item": "malum:bolted_runewood_door"
+      },
+      {
+        "item": "malum:runewood_boards_door"
+      },
+      {
+        "item": "malum:bolted_runewood_boards_door"
+      },
+      {
+        "item": "malum:soulwood_door"
+      },
+      {
+        "item": "malum:bolted_soulwood_door"
+      },
+      {
+        "item": "malum:soulwood_boards_door"
+      },
+      {
+        "item": "malum:bolted_soulwood_boards_door"
       }
     ],
     {

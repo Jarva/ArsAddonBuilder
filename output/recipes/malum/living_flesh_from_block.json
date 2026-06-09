@@ -1,0 +1,13 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "malum:living_flesh",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "malum:block_of_living_flesh"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

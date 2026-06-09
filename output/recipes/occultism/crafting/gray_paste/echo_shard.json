@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:gray_paste"
+    },
+    {
+      "item": "occultism:echo_dust"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

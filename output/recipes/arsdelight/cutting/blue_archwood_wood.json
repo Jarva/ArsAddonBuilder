@@ -1,0 +1,26 @@
+{
+  "tool": {
+    "action": "axe_strip",
+    "type": "farmersdelight:item_ability"
+  },
+  "result": [
+    {
+      "item": {
+        "id": "ars_nouveau:stripped_blue_archwood_wood",
+        "count": 1
+      }
+    },
+    {
+      "item": {
+        "id": "arsdelight:cascading_bark",
+        "count": 1
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "ars_nouveau:blue_archwood_wood"
+    }
+  ],
+  "type": "farmersdelight:cutting"
+}

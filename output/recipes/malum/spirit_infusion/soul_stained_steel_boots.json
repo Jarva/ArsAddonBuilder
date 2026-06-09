@@ -1,0 +1,40 @@
+{
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 16
+    },
+    {
+      "type": "malum:wicked",
+      "count": 8
+    },
+    {
+      "type": "malum:arcane",
+      "count": 8
+    }
+  ],
+  "extraInputs": [
+    {
+      "item": "malum:soul_stained_steel_plating",
+      "count": 6
+    },
+    {
+      "item": "malum:refined_soulstone",
+      "count": 4
+    },
+    {
+      "item": "malum:twisted_rock",
+      "count": 8
+    }
+  ],
+  "carryOverComponentData": true,
+  "input": {
+    "item": "minecraft:iron_boots",
+    "count": 1
+  },
+  "result": {
+    "id": "malum:soul_stained_steel_boots",
+    "count": 1
+  },
+  "type": "malum:spirit_infusion"
+}

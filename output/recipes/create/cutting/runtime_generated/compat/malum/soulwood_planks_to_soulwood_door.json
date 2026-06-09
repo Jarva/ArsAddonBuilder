@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "malum:soulwood_planks"
+    }
+  ],
+  "results": [
+    {
+      "id": "malum:soulwood_door"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

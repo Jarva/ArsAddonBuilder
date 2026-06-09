@@ -1,0 +1,13 @@
+{
+  "outputCount": 6,
+  "experience": 0.25,
+  "cookingTime": 200,
+  "group": "",
+  "ingredient": {
+    "item": "malum:silver_node"
+  },
+  "output": {
+    "item": "occultism:silver_nugget"
+  },
+  "type": "malum:node_smelting"
+}

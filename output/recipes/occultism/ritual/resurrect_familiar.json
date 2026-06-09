@@ -1,0 +1,37 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/resurrect_familiar",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:resurrect_icon",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.resurrect_familiar\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.resurrect_familiar.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:resurrect_familiar",
+  "pentacle_id": "occultism:resurrect_spirit",
+  "ingredients": [
+    {
+      "item": "occultism:otherworld_essence"
+    },
+    {
+      "item": "occultism:otherworld_essence"
+    },
+    {
+      "item": "occultism:otherworld_essence"
+    },
+    {
+      "item": "occultism:otherworld_essence"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:soul_shard"
+  },
+  "duration": 15,
+  "type": "occultism:ritual"
+}

@@ -1,0 +1,12 @@
+{
+  "ingredient": {
+    "item": "occultism:miner_ancient_eldritch"
+  },
+  "result": {
+    "tag": "c:storage_blocks/raw_iesnium",
+    "count": 1,
+    "weight": 90,
+    "type": "occultism:weighted_tag"
+  },
+  "type": "occultism:miner"
+}

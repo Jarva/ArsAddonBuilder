@@ -1,0 +1,30 @@
+{
+  "result": {
+    "id": "arsdelight:mendosteen_hornbeer",
+    "count": 1
+  },
+  "container": {
+    "id": "arsdelight:chimera_horn",
+    "count": 1
+  },
+  "experience": 0.1,
+  "recipe_book_tab": "drinks",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:mendosteen_pod"
+    },
+    {
+      "item": "ars_nouveau:mendosteen_pod"
+    },
+    {
+      "item": "arsdelight:cascading_bark"
+    },
+    {
+      "item": "ars_nouveau:magebloom"
+    },
+    {
+      "item": "ars_nouveau:sourceberry_bush"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

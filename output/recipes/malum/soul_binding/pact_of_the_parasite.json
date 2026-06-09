@@ -1,0 +1,32 @@
+{
+  "input": {
+    "item": "malum:living_flesh",
+    "count": 12
+  },
+  "result": "malum:pact_of_the_parasite",
+  "extraInputs": [
+    {
+      "item": "minecraft:glistering_melon_slice",
+      "count": 4
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "count": 1
+    }
+  ],
+  "spirits": [
+    {
+      "type": "malum:sacred",
+      "count": 16
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    },
+    {
+      "type": "malum:earthen",
+      "count": 16
+    }
+  ],
+  "type": "malum:soul_binding"
+}

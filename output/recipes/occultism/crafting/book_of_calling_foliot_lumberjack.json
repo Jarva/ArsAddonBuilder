@@ -1,0 +1,27 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "occultism:book_of_calling_foliot_lumberjack",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "occultism:book_of_binding_bound_foliot"
+    },
+    [
+      {
+        "item": "minecraft:iron_axe"
+      },
+      {
+        "item": "minecraft:golden_axe"
+      },
+      {
+        "item": "minecraft:diamond_axe"
+      },
+      {
+        "item": "minecraft:netherite_axe"
+      }
+    ]
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,11 @@
+{
+  "input": {
+    "item": "minecraft:gravel"
+  },
+  "result": {
+    "id": "minecraft:sand",
+    "count": 1
+  },
+  "group": "stone",
+  "type": "malum:unchained_transmutation"
+}

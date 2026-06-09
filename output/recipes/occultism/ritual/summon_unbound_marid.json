@@ -1,0 +1,41 @@
+{
+  "entity_to_summon": "occultism:marid_unbound",
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/summon_unbound_marid",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:marid_essence",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_unbound_marid\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_unbound_marid.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:summon",
+  "pentacle_id": "occultism:summon_unbound_marid",
+  "ingredients": [
+    {
+      "item": "minecraft:conduit"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_marid"
+  },
+  "duration": 210,
+  "item_to_use": {
+    "item": "minecraft:trident"
+  },
+  "type": "occultism:ritual"
+}

@@ -1,0 +1,25 @@
+{
+  "repairMaterial": {
+    "item": "malum:mnemonic_fragment",
+    "count": 8
+  },
+  "durabilityPercentage": 0.75,
+  "validItems": [
+    "malum:mnemonic_hex_staff"
+  ],
+  "spirits": [
+    {
+      "type": "malum:eldritch",
+      "count": 8
+    },
+    {
+      "type": "malum:aerial",
+      "count": 8
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 8
+    }
+  ],
+  "type": "malum:spirit_repair"
+}

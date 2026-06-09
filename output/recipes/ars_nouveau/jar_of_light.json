@@ -20,6 +20,15 @@
     },
     [
       {
+        "item": "ae2:quartz_glass"
+      },
+      {
+        "item": "ae2:quartz_vibrant_glass"
+      },
+      {
+        "item": "minecraft:glass"
+      },
+      {
         "item": "create:tiled_glass"
       },
       {
@@ -30,9 +39,6 @@
       },
       {
         "item": "create:vertical_framed_glass"
-      },
-      {
-        "item": "minecraft:glass"
       },
       {
         "item": "minecraft:white_stained_glass"
@@ -88,6 +94,15 @@
     ],
     [
       {
+        "item": "ae2:quartz_glass"
+      },
+      {
+        "item": "ae2:quartz_vibrant_glass"
+      },
+      {
+        "item": "minecraft:glass"
+      },
+      {
         "item": "create:tiled_glass"
       },
       {
@@ -98,9 +113,6 @@
       },
       {
         "item": "create:vertical_framed_glass"
-      },
-      {
-        "item": "minecraft:glass"
       },
       {
         "item": "minecraft:white_stained_glass"

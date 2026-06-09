@@ -1,0 +1,10 @@
+{
+  "ingredient": {
+    "item": "minecraft:andesite"
+  },
+  "result": {
+    "id": "occultism:otherstone",
+    "count": 1
+  },
+  "type": "occultism:spirit_fire"
+}

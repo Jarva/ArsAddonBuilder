@@ -1,0 +1,27 @@
+{
+  "result": {
+    "id": "arsdelight:neutralized_bombegrante_jam",
+    "count": 1
+  },
+  "container": {
+    "id": "minecraft:glass_bottle",
+    "count": 1
+  },
+  "experience": 0.1,
+  "recipe_book_tab": "drinks",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:bombegranate_pod"
+    },
+    {
+      "item": "ars_nouveau:bombegranate_pod"
+    },
+    {
+      "item": "arsdelight:vexing_bark"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "type": "farmersdelight:cooking"
+}

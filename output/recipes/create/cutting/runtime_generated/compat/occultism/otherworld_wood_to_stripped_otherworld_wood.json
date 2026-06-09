@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "occultism:otherworld_wood"
+    }
+  ],
+  "results": [
+    {
+      "id": "occultism:stripped_otherworld_wood"
+    }
+  ],
+  "processing_time": 50,
+  "type": "create:cutting"
+}

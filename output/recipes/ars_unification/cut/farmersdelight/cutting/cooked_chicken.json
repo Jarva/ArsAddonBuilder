@@ -1,0 +1,24 @@
+{
+  "input": {
+    "item": "minecraft:cooked_chicken"
+  },
+  "output": [
+    {
+      "stack": {
+        "id": "farmersdelight:cooked_chicken_cuts",
+        "count": 2
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    },
+    {
+      "stack": {
+        "id": "minecraft:bone_meal",
+        "count": 1
+      },
+      "chance": 1.0,
+      "maxRange": 1
+    }
+  ],
+  "type": "ars_unification:cut"
+}

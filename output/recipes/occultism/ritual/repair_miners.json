@@ -1,0 +1,53 @@
+{
+  "ritual_dummy": {
+    "id": "occultism:ritual_dummy/repair_miners",
+    "count": 1
+  },
+  "result": {
+    "id": "occultism:repair_icon",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.repair_miners\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.repair_miners.tooltip\"}"
+      ]
+    }
+  },
+  "ritual_type": "occultism:repair",
+  "pentacle_id": "occultism:craft_afrit",
+  "ingredients": [
+    {
+      "item": "occultism:otherworld_essence"
+    },
+    {
+      "item": "occultism:otherworld_essence"
+    },
+    {
+      "item": "occultism:otherworld_essence"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    }
+  ],
+  "activation_item": [
+    {
+      "item": "occultism:miner_foliot_unspecialized"
+    },
+    {
+      "item": "occultism:miner_debug_unspecialized"
+    },
+    {
+      "item": "occultism:miner_afrit_deeps"
+    },
+    {
+      "item": "occultism:miner_marid_master"
+    },
+    {
+      "item": "occultism:miner_djinni_ores"
+    },
+    {
+      "item": "occultism:miner_ancient_eldritch"
+    }
+  ],
+  "type": "occultism:ritual"
+}

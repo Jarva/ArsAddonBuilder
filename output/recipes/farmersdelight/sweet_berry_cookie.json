@@ -1,0 +1,19 @@
+{
+  "category": "misc",
+  "result": {
+    "id": "farmersdelight:sweet_berry_cookie",
+    "count": 8
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}
