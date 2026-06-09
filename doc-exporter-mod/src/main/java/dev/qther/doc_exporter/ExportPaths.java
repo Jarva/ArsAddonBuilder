@@ -43,10 +43,6 @@ public static Path rendersBase() {
         return BASE.resolve("renders");
     }
 
-    public static Path renderedBlocksBase() {
-        return rendersBase().resolve("block");
-    }
-
     public static Path renderedItemsBase() {
         return rendersBase().resolve("item");
     }

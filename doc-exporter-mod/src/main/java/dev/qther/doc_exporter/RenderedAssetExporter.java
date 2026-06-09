@@ -2,7 +2,6 @@ package dev.qther.doc_exporter;
 
 import com.google.common.base.Stopwatch;
 import dev.qther.doc_exporter.render.OffScreenRenderer;
-import dev.qther.doc_exporter.render.RenderSpriteCollector;
 import dev.qther.doc_exporter.render.WebPExporter;
 import guideme.color.LightDarkMode;
 import guideme.document.LytSize;
@@ -25,32 +24,24 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
-import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import org.apache.commons.lang3.time.DurationFormatUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Exports fully rendered item, block and entity images for every loaded registry entry.
- *
- * <p>The block render path follows GuideME's BlockImage export strategy: create a minimal one-block scene, render it
- * through a GuideME-derived off-screen renderer, and use GuideME's animated WebP strategy when any referenced sprite
- * is animated.</p>
+ * Exports fully rendered item and entity images for every loaded registry entry.
  */
 public final class RenderedAssetExporter {
     private static final Logger LOGGER = LoggerFactory.getLogger(DocExportHelper.MODID + ":RenderedAssetExporter");
 
     private static final int ITEM_ICON_DIMENSION = 512;
     private static final int ENTITY_ICON_DIMENSION = 512;
-    private static final int BLOCK_RENDER_SCALE = 32;
     private static final float ENTITY_Y_ROTATION = -135.0f;
     private static final float ENTITY_RENDER_PADDING = 1.5f;
 
@@ -59,56 +50,14 @@ public final class RenderedAssetExporter {
 
     public static void exportAll() throws IOException {
         var sw = Stopwatch.createStarted();
-        Files.createDirectories(ExportPaths.renderedBlocksBase());
         Files.createDirectories(ExportPaths.renderedItemsBase());
         Files.createDirectories(ExportPaths.renderedEntitiesBase());
 
         int entities = exportEntities();
-        int blocks = exportBlocks();
         int items = exportItems();
 
-        LOGGER.info("Exported {} block renders, {} item renders and {} entity renders in {}", blocks, items, entities,
+        LOGGER.info("Exported {} item renders and {} entity renders in {}", items, entities,
                 DurationFormatUtils.formatDurationHMS(sw.elapsed().toMillis()));
-    }
-
-    private static int exportBlocks() {
-        int exported = 0;
-        LOGGER.info("Exporting rendered block images...");
-
-        for (Block block : BuiltInRegistries.BLOCK) {
-            if (block == Blocks.AIR) {
-                continue;
-            }
-
-            var id = BuiltInRegistries.BLOCK.getKey(block);
-            if (id == null) {
-                continue;
-            }
-
-            try {
-                var state = block.defaultBlockState();
-                var cameraSettings = new CameraSettings();
-                cameraSettings.setZoom(1.0f);
-                cameraSettings.setPerspectivePreset(PerspectivePreset.ISOMETRIC_NORTH_EAST);
-
-                var level = new GuidebookLevel();
-                var scene = new GuidebookScene(level, cameraSettings);
-                level.setBlockAndUpdate(BlockPos.ZERO, state);
-                scene.centerScene();
-
-                var lytScene = new LytGuidebookScene(ExtensionCollection.empty());
-                lytScene.setScene(scene);
-                lytScene.setInteractive(false);
-
-                var sprites = RenderSpriteCollector.getSprites(scene);
-                writeRenderedScene(idToPath(ExportPaths.renderedBlocksBase(), id), lytScene, scene, sprites);
-                exported++;
-            } catch (Throwable e) {
-                LOGGER.warn("Failed to export block render for {}", id, e);
-            }
-        }
-
-        return exported;
     }
 
     private static int exportItems() {
@@ -211,17 +160,6 @@ public final class RenderedAssetExporter {
         var camera = new Camera();
         camera.setup(level, entity, false, false, 0.0f);
         Minecraft.getInstance().getEntityRenderDispatcher().prepare(level, camera, entity);
-    }
-
-    private static void writeRenderedScene(Path basePath,
-            LytGuidebookScene lytScene,
-            GuidebookScene scene,
-            Collection<TextureAtlasSprite> sprites) throws IOException {
-        var prefSize = getPreferredSceneSize(lytScene);
-        int width = Math.max(1, prefSize.width() * BLOCK_RENDER_SCALE);
-        int height = Math.max(1, prefSize.height() * BLOCK_RENDER_SCALE);
-
-        renderSceneToIcon(basePath, scene, sprites, prefSize, width, height);
     }
 
     private static void writeRenderedEntity(Path basePath,
