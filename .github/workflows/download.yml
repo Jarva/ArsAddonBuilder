@@ -150,6 +150,9 @@ jobs:
           java: ${{ env.JAVA_VERSION }}
           xvfb: true
 
+      - name: Build tome.json
+        run: cd output && find recipes -name '*.json' -print0 | xargs -0 jq -r 'select(.type == "ars_nouveau:caster_tome") | input_filename' | jq -Rs '[split("\n")[] | select(. != "")]' > tome.json
+
       - name: Sync output to R2
         run: aws s3 sync output/ s3://ars-guide-assets --delete --size-only --no-progress --only-show-errors --endpoint-url https://fb2e8a157cc36da2700bf6655622bf89.r2.cloudflarestorage.com
         env:
