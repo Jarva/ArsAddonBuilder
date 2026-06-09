@@ -155,16 +155,16 @@
                   }
                 }
               },
-              "ars_nouveau:density": {
-                "density": 50,
-                "radius": 1.0,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:wall": {
                 "range": 1,
                 "chance": 5,
                 "num_particles": 20,
                 "direction": "south"
+              },
+              "ars_nouveau:density": {
+                "density": 50,
+                "radius": 1.0,
+                "spawnType": "SPHERE"
               }
             },
             "type": "ars_nouveau:dripping_water"
@@ -550,18 +550,6 @@
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:emitter": {
-                "rotation": {
-                  "x": -24.063683,
-                  "y": 1.428963
-                },
-                "age": 0
-              },
-              "ars_nouveau:density": {
-                "density": 10,
-                "radius": 0.05,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:big_gust",
                 "subProperties": {
@@ -575,6 +563,18 @@
                     "tintDisabled": false
                   }
                 }
+              },
+              "ars_nouveau:emitter": {
+                "rotation": {
+                  "x": -24.063683,
+                  "y": 1.428963
+                },
+                "age": 0
+              },
+              "ars_nouveau:density": {
+                "density": 10,
+                "radius": 0.05,
+                "spawnType": "SPHERE"
               }
             },
             "type": "ars_nouveau:big_gust"
@@ -614,9 +614,6 @@
       },
       "ars_nouveau:rune": {
         "propMap": {
-          "ars_nouveau:rune": {
-            "texture": "rune_water"
-          },
           "ars_nouveau:color": {
             "particleColor": {
               "id": "ars_nouveau:constant",
@@ -625,6 +622,9 @@
               "b": 255
             },
             "tintDisabled": false
+          },
+          "ars_nouveau:rune": {
+            "texture": "rune_water"
           }
         },
         "type": "ars_nouveau:rune"

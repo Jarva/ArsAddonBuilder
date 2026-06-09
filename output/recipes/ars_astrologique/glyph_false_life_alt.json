@@ -1,0 +1,22 @@
+{
+  "output": {
+    "id": "ars_astrologique:glyph_false_life",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "exp": 55,
+  "type": "ars_nouveau:glyph"
+}

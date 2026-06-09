@@ -1,0 +1,15 @@
+{
+  "id": "ars_astrologique:glyph_invigorate",
+  "order": 100,
+  "icon": "ars_astrologique:glyph_invigorate",
+  "title": "Invigorate",
+  "category": "ars_nouveau:glyphs_tier_three",
+  "pages": [
+    {
+      "title": "Invigorate",
+      "description": "Passively recovers target\u0027s hunger and saturation. While this effect is active, the target will be unable to regenerate any Mana.",
+      "icon": "ars_astrologique:glyph_invigorate",
+      "tier": 3
+    }
+  ]
+}

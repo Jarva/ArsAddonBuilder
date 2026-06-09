@@ -1,0 +1,22 @@
+{
+  "output": {
+    "id": "ars_astrologique:glyph_bless",
+    "count": 1
+  },
+  "inputs": [
+    {
+      "item": "ars_nouveau:abjuration_essence"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:glistering_melon_slice"
+    }
+  ],
+  "exp": 160,
+  "type": "ars_nouveau:glyph"
+}
