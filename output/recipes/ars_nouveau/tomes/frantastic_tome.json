@@ -25,17 +25,6 @@
         "trailEffect": {
           "particleOptions": {
             "properties": {
-              "ars_nouveau:wall": {
-                "range": 3,
-                "chance": 5,
-                "num_particles": 20,
-                "direction": "south"
-              },
-              "ars_nouveau:density": {
-                "density": 20,
-                "radius": 0.2,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -49,6 +38,17 @@
                     "tintDisabled": false
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 20,
+                "radius": 0.2,
+                "spawnType": "SPHERE"
+              },
+              "ars_nouveau:wall": {
+                "range": 3,
+                "chance": 5,
+                "num_particles": 20,
+                "direction": "south"
               }
             },
             "type": "ars_nouveau:new_glow"
@@ -61,11 +61,6 @@
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:density": {
-                "density": 10,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -79,6 +74,11 @@
                     "tintDisabled": false
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 10,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
               }
             },
             "type": "ars_nouveau:new_glow"
@@ -142,11 +142,6 @@
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:density": {
-                "density": 20,
-                "radius": 0.05,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:electric_spark",
                 "subProperties": {
@@ -160,6 +155,11 @@
                     "tintDisabled": false
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 20,
+                "radius": 0.05,
+                "spawnType": "SPHERE"
               }
             },
             "type": "ars_nouveau:electric_spark"
@@ -179,11 +179,6 @@
                 },
                 "age": 0
               },
-              "ars_nouveau:density": {
-                "density": 10,
-                "radius": 0.05,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -197,6 +192,11 @@
                     "tintDisabled": false
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 10,
+                "radius": 0.05,
+                "spawnType": "SPHERE"
               }
             },
             "type": "ars_nouveau:new_glow"
@@ -265,11 +265,6 @@
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:density": {
-                "density": 100,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -283,6 +278,11 @@
                     "tintDisabled": true
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 100,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
               }
             },
             "type": "ars_nouveau:new_glow"
@@ -302,11 +302,6 @@
                 },
                 "age": 0
               },
-              "ars_nouveau:density": {
-                "density": 5,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -320,6 +315,11 @@
                     "tintDisabled": true
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 5,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
               }
             },
             "type": "ars_nouveau:new_glow"

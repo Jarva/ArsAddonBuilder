@@ -7,10 +7,10 @@
       "type": "neoforge:components",
       "fluids": "create:potion",
       "components": {
-        "create:potion_fluid_bottle_type": "regular",
         "minecraft:potion_contents": {
           "potion": "minecraft:strength"
-        }
+        },
+        "create:potion_fluid_bottle_type": "regular"
       },
       "amount": 25
     }

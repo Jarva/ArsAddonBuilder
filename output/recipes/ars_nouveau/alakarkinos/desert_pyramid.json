@@ -6,24 +6,24 @@
     "list": [
       {
         "item": {
+          "id": "minecraft:archer_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.155
+      },
+      {
+        "item": {
           "id": "minecraft:diamond",
           "count": 1
         },
-        "chance": 0.145
+        "chance": 0.13
       },
       {
         "item": {
-          "id": "minecraft:gunpowder",
+          "id": "minecraft:tnt",
           "count": 1
         },
-        "chance": 0.14166667
-      },
-      {
-        "item": {
-          "id": "minecraft:skull_pottery_sherd",
-          "count": 1
-        },
-        "chance": 0.135
+        "chance": 0.13
       },
       {
         "item": {
@@ -34,31 +34,31 @@
       },
       {
         "item": {
-          "id": "minecraft:tnt",
+          "id": "minecraft:emerald",
           "count": 1
         },
-        "chance": 0.123333335
+        "chance": 0.125
       },
       {
         "item": {
           "id": "minecraft:prize_pottery_sherd",
           "count": 1
         },
-        "chance": 0.111666664
+        "chance": 0.123333335
       },
       {
         "item": {
-          "id": "minecraft:emerald",
+          "id": "minecraft:skull_pottery_sherd",
           "count": 1
         },
         "chance": 0.11
       },
       {
         "item": {
-          "id": "minecraft:archer_pottery_sherd",
+          "id": "minecraft:gunpowder",
           "count": 1
         },
-        "chance": 0.105
+        "chance": 0.09833334
       }
     ],
     "weight": 150

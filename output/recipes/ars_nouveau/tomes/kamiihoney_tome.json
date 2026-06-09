@@ -51,6 +51,10 @@
         "trailEffect": {
           "motion": {
             "propMap": {
+              "ars_nouveau:model": {
+                "resource": "ars_nouveau:empty",
+                "subPropMap": {}
+              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -64,21 +68,12 @@
                     "tintDisabled": false
                   }
                 }
-              },
-              "ars_nouveau:model": {
-                "resource": "ars_nouveau:empty",
-                "subPropMap": {}
               }
             },
             "type": "ars_nouveau:helix"
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:density": {
-                "density": 100,
-                "radius": 0.30000001192092896,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -92,6 +87,11 @@
                     "tintDisabled": false
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 100,
+                "radius": 0.30000001192092896,
+                "spawnType": "SPHERE"
               },
               "ars_nouveau:speed": {
                 "yMinSpeed": 0.0,
@@ -117,11 +117,6 @@
                 },
                 "age": 0
               },
-              "ars_nouveau:density": {
-                "density": 5,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -135,6 +130,11 @@
                     "tintDisabled": true
                   }
                 }
+              },
+              "ars_nouveau:density": {
+                "density": 5,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
               }
             },
             "type": "ars_nouveau:new_glow"
