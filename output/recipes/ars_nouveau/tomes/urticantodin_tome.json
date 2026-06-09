@@ -28,6 +28,11 @@
           },
           "particleOptions": {
             "properties": {
+              "ars_nouveau:density": {
+                "density": 5,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
+              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -41,11 +46,6 @@
                     "tintDisabled": true
                   }
                 }
-              },
-              "ars_nouveau:density": {
-                "density": 5,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
               }
             },
             "type": "ars_nouveau:new_glow"
@@ -96,6 +96,11 @@
           },
           "particleOptions": {
             "properties": {
+              "ars_nouveau:density": {
+                "density": 100,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
+              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -109,11 +114,6 @@
                     "tintDisabled": true
                   }
                 }
-              },
-              "ars_nouveau:density": {
-                "density": 100,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
               }
             },
             "type": "ars_nouveau:new_glow"
@@ -126,6 +126,11 @@
           },
           "particleOptions": {
             "properties": {
+              "ars_nouveau:density": {
+                "density": 5,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
+              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -139,11 +144,6 @@
                     "tintDisabled": true
                   }
                 }
-              },
-              "ars_nouveau:density": {
-                "density": 5,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
               }
             },
             "type": "ars_nouveau:new_glow"
@@ -180,26 +180,10 @@
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:particle_type": {
-                "particleType": "ars_nouveau:large_smoke",
-                "subProperties": {
-                  "ars_nouveau:color": {
-                    "particleColor": {
-                      "id": "ars_nouveau:constant",
-                      "r": 178,
-                      "g": 178,
-                      "b": 178
-                    },
-                    "tintDisabled": false
-                  },
-                  "ars_nouveau:sound": {
-                    "sound": {
-                      "sound": {
-                        "id": "ars_nouveau:pointed_dripstone_drip_water"
-                      }
-                    }
-                  }
-                }
+              "ars_nouveau:density": {
+                "density": 20,
+                "radius": 0.45,
+                "spawnType": "CUBE"
               },
               "ars_nouveau:emitter": {
                 "rotation": {
@@ -208,10 +192,26 @@
                 },
                 "age": 0
               },
-              "ars_nouveau:density": {
-                "density": 20,
-                "radius": 0.45,
-                "spawnType": "CUBE"
+              "ars_nouveau:particle_type": {
+                "particleType": "ars_nouveau:large_smoke",
+                "subProperties": {
+                  "ars_nouveau:sound": {
+                    "sound": {
+                      "sound": {
+                        "id": "ars_nouveau:pointed_dripstone_drip_water"
+                      }
+                    }
+                  },
+                  "ars_nouveau:color": {
+                    "particleColor": {
+                      "id": "ars_nouveau:constant",
+                      "r": 178,
+                      "g": 178,
+                      "b": 178
+                    },
+                    "tintDisabled": false
+                  }
+                }
               }
             },
             "type": "ars_nouveau:large_smoke"

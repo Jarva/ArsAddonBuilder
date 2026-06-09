@@ -6,73 +6,73 @@
     "list": [
       {
         "item": {
-          "id": "minecraft:gold_nugget",
-          "count": 1
-        },
-        "chance": 0.15
-      },
-      {
-        "item": {
           "id": "minecraft:wooden_hoe",
           "count": 1
         },
-        "chance": 0.14
+        "chance": 0.13166666
       },
       {
         "item": {
           "id": "minecraft:coal",
           "count": 1
         },
-        "chance": 0.125
+        "chance": 0.12666667
       },
       {
         "item": {
-          "id": "minecraft:wheat",
+          "id": "minecraft:gold_nugget",
           "count": 1
         },
-        "chance": 0.11833333
+        "chance": 0.12
       },
       {
         "item": {
           "id": "minecraft:emerald",
           "count": 1
         },
-        "chance": 0.11333334
+        "chance": 0.12
       },
       {
         "item": {
-          "id": "minecraft:explorer_pottery_sherd",
+          "id": "minecraft:wheat",
           "count": 1
         },
-        "chance": 0.07833333
-      },
-      {
-        "item": {
-          "id": "minecraft:iron_axe",
-          "count": 1
-        },
-        "chance": 0.07333333
-      },
-      {
-        "item": {
-          "id": "minecraft:blade_pottery_sherd",
-          "count": 1
-        },
-        "chance": 0.068333335
-      },
-      {
-        "item": {
-          "id": "minecraft:mourner_pottery_sherd",
-          "count": 1
-        },
-        "chance": 0.06666667
+        "chance": 0.11666667
       },
       {
         "item": {
           "id": "minecraft:plenty_pottery_sherd",
           "count": 1
         },
-        "chance": 0.06666667
+        "chance": 0.08166666
+      },
+      {
+        "item": {
+          "id": "minecraft:iron_axe",
+          "count": 1
+        },
+        "chance": 0.08
+      },
+      {
+        "item": {
+          "id": "minecraft:blade_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.08
+      },
+      {
+        "item": {
+          "id": "minecraft:explorer_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.07333333
+      },
+      {
+        "item": {
+          "id": "minecraft:mourner_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.07
       }
     ],
     "weight": 150
