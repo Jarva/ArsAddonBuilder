@@ -3,6 +3,7 @@
   "display_name": "Ars Énergistique",
   "disabled": false,
   "cf_id": 905641,
+  "color": "#00bcd4",
   "dependencies": [
     { "cf_id": 223794, "name": "ae2" }
   ]

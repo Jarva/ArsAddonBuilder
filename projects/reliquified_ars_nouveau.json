@@ -3,6 +3,7 @@
   "display_name": "Reliquified Ars Nouveau",
   "disabled": false,
   "cf_id": 1196449,
+  "color": "#d4ac0d",
   "dependencies": [
     { "cf_id": 445274, "name": "relics" },
     { "cf_id": 916747, "name": "octolib" },

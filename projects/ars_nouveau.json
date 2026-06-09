@@ -3,6 +3,7 @@
   "display_name": "Ars Nouveau",
   "disabled": false,
   "cf_id": 401955,
+  "color": "#6c3ab5",
   "dependencies": [
     {
       "cf_id": 309927,

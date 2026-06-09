@@ -3,6 +3,7 @@
   "display_name": "Ars Ocultas",
   "disabled": false,
   "cf_id": 907843,
+  "color": "#2c3e50",
   "dependencies": [
     { "cf_id": 361026, "name": "occultism" },
     { "cf_id": 538392, "name": "modonomicon" },

@@ -3,6 +3,7 @@
   "display_name": "Ars Technica",
   "disabled": false,
   "cf_id": 1096161,
+  "color": "#95a5a6",
   "dependencies": [
     { "cf_id": 328085, "name": "create" }
   ]

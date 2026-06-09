@@ -3,6 +3,7 @@
   "display_name": "Ars Creo",
   "disabled": false,
   "cf_id": 575698,
+  "color": "#f1c40f",
   "dependencies": [
     { "cf_id": 328085, "name": "create" }
   ]
