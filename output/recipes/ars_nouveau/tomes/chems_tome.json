@@ -148,13 +148,6 @@
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:dripping_water",
                 "subProperties": {
-                  "ars_nouveau:sound": {
-                    "sound": {
-                      "sound": {
-                        "id": "ars_nouveau:pointed_dripstone_drip_lava"
-                      }
-                    }
-                  },
                   "ars_nouveau:color": {
                     "particleColor": {
                       "id": "ars_nouveau:constant",
@@ -163,6 +156,13 @@
                       "b": 255
                     },
                     "tintDisabled": false
+                  },
+                  "ars_nouveau:sound": {
+                    "sound": {
+                      "sound": {
+                        "id": "ars_nouveau:pointed_dripstone_drip_lava"
+                      }
+                    }
                   }
                 }
               }
@@ -185,13 +185,6 @@
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:glow_ink",
                 "subProperties": {
-                  "ars_nouveau:sound": {
-                    "sound": {
-                      "sound": {
-                        "id": "ars_nouveau:pointed_dripstone_drip_water"
-                      }
-                    }
-                  },
                   "ars_nouveau:color": {
                     "particleColor": {
                       "id": "ars_nouveau:constant",
@@ -200,6 +193,13 @@
                       "b": 255
                     },
                     "tintDisabled": false
+                  },
+                  "ars_nouveau:sound": {
+                    "sound": {
+                      "sound": {
+                        "id": "ars_nouveau:pointed_dripstone_drip_water"
+                      }
+                    }
                   }
                 }
               }
@@ -439,13 +439,6 @@
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:warped_spore",
                 "subProperties": {
-                  "ars_nouveau:sound": {
-                    "sound": {
-                      "sound": {
-                        "id": "ars_nouveau:pointed_dripstone_drip_water"
-                      }
-                    }
-                  },
                   "ars_nouveau:color": {
                     "particleColor": {
                       "id": "ars_nouveau:constant",
@@ -454,6 +447,13 @@
                       "b": 255
                     },
                     "tintDisabled": false
+                  },
+                  "ars_nouveau:sound": {
+                    "sound": {
+                      "sound": {
+                        "id": "ars_nouveau:pointed_dripstone_drip_water"
+                      }
+                    }
                   }
                 }
               }
@@ -480,20 +480,6 @@
         "trailEffect": {
           "motion": {
             "propMap": {
-              "ars_nouveau:model": {
-                "resource": "ars_nouveau:empty",
-                "subPropMap": {
-                  "ars_nouveau:color": {
-                    "particleColor": {
-                      "id": "ars_nouveau:constant",
-                      "r": 63,
-                      "g": 186,
-                      "b": 248
-                    },
-                    "tintDisabled": false
-                  }
-                }
-              },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
@@ -505,6 +491,20 @@
                       "b": 180
                     },
                     "tintDisabled": true
+                  }
+                }
+              },
+              "ars_nouveau:model": {
+                "resource": "ars_nouveau:empty",
+                "subPropMap": {
+                  "ars_nouveau:color": {
+                    "particleColor": {
+                      "id": "ars_nouveau:constant",
+                      "r": 63,
+                      "g": 186,
+                      "b": 248
+                    },
+                    "tintDisabled": false
                   }
                 }
               }
@@ -521,13 +521,6 @@
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:ominous_spawning",
                 "subProperties": {
-                  "ars_nouveau:sound": {
-                    "sound": {
-                      "sound": {
-                        "id": "ars_nouveau:pointed_dripstone_drip_water"
-                      }
-                    }
-                  },
                   "ars_nouveau:color": {
                     "particleColor": {
                       "id": "ars_nouveau:constant",
@@ -536,6 +529,13 @@
                       "b": 255
                     },
                     "tintDisabled": false
+                  },
+                  "ars_nouveau:sound": {
+                    "sound": {
+                      "sound": {
+                        "id": "ars_nouveau:pointed_dripstone_drip_water"
+                      }
+                    }
                   }
                 }
               }
@@ -550,17 +550,17 @@
           },
           "particleOptions": {
             "properties": {
-              "ars_nouveau:density": {
-                "density": 10,
-                "radius": 0.05,
-                "spawnType": "SPHERE"
-              },
               "ars_nouveau:emitter": {
                 "rotation": {
                   "x": -24.063683,
                   "y": 1.428963
                 },
                 "age": 0
+              },
+              "ars_nouveau:density": {
+                "density": 10,
+                "radius": 0.05,
+                "spawnType": "SPHERE"
               },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:big_gust",
@@ -614,9 +614,6 @@
       },
       "ars_nouveau:rune": {
         "propMap": {
-          "ars_nouveau:rune": {
-            "texture": "rune_water"
-          },
           "ars_nouveau:color": {
             "particleColor": {
               "id": "ars_nouveau:constant",
@@ -625,6 +622,9 @@
               "b": 255
             },
             "tintDisabled": false
+          },
+          "ars_nouveau:rune": {
+            "texture": "rune_water"
           }
         },
         "type": "ars_nouveau:rune"

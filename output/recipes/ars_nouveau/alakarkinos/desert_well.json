@@ -6,202 +6,38 @@
     "list": [
       {
         "item": {
-          "id": "minecraft:brewer_pottery_sherd",
-          "count": 1
-        },
-        "chance": 0.23666666
-      },
-      {
-        "item": {
           "id": "minecraft:arms_up_pottery_sherd",
           "count": 1
         },
-        "chance": 0.235
+        "chance": 0.24666667
       },
       {
         "item": {
-          "id": "minecraft:brick",
+          "id": "minecraft:brewer_pottery_sherd",
           "count": 1
         },
-        "chance": 0.13333334
+        "chance": 0.23333333
       },
       {
         "item": {
           "id": "minecraft:stick",
           "count": 1
         },
-        "chance": 0.12666667
+        "chance": 0.15
+      },
+      {
+        "item": {
+          "id": "minecraft:brick",
+          "count": 1
+        },
+        "chance": 0.14666666
       },
       {
         "item": {
           "id": "minecraft:emerald",
           "count": 1
         },
-        "chance": 0.123333335
-      },
-      {
-        "item": {
-          "id": "minecraft:suspicious_stew",
-          "count": 1,
-          "components": {
-            "minecraft:suspicious_stew_effects": [
-              {
-                "id": "minecraft:night_vision",
-                "duration": 200
-              }
-            ]
-          }
-        },
-        "chance": 0.013333334
-      },
-      {
-        "item": {
-          "id": "minecraft:suspicious_stew",
-          "count": 1,
-          "components": {
-            "minecraft:suspicious_stew_effects": [
-              {
-                "id": "minecraft:blindness",
-                "duration": 120
-              }
-            ]
-          }
-        },
-        "chance": 0.01
-      },
-      {
-        "item": {
-          "id": "minecraft:suspicious_stew",
-          "count": 1,
-          "components": {
-            "minecraft:suspicious_stew_effects": [
-              {
-                "id": "minecraft:saturation",
-                "duration": 10
-              }
-            ]
-          }
-        },
-        "chance": 0.01
-      },
-      {
-        "item": {
-          "id": "minecraft:suspicious_stew",
-          "count": 1,
-          "components": {
-            "minecraft:suspicious_stew_effects": [
-              {
-                "id": "minecraft:jump_boost",
-                "duration": 140
-              }
-            ]
-          }
-        },
-        "chance": 0.008333334
-      },
-      {
-        "item": {
-          "id": "minecraft:suspicious_stew",
-          "count": 1,
-          "components": {
-            "minecraft:suspicious_stew_effects": [
-              {
-                "id": "minecraft:weakness"
-              }
-            ]
-          }
-        },
-        "chance": 0.008333334
-      },
-      {
-        "item": {
-          "id": "minecraft:suspicious_stew",
-          "count": 1,
-          "components": {
-            "minecraft:suspicious_stew_effects": [
-              {
-                "id": "minecraft:blindness",
-                "duration": 140
-              }
-            ]
-          }
-        },
-        "chance": 0.008333334
-      },
-      {
-        "item": {
-          "id": "minecraft:suspicious_stew",
-          "count": 1,
-          "components": {
-            "minecraft:suspicious_stew_effects": [
-              {
-                "id": "minecraft:saturation",
-                "duration": 8
-              }
-            ]
-          }
-        },
-        "chance": 0.008333334
-      },
-      {
-        "item": {
-          "id": "minecraft:suspicious_stew",
-          "count": 1,
-          "components": {
-            "minecraft:suspicious_stew_effects": [
-              {
-                "id": "minecraft:blindness",
-                "duration": 100
-              }
-            ]
-          }
-        },
-        "chance": 0.008333334
-      },
-      {
-        "item": {
-          "id": "minecraft:suspicious_stew",
-          "count": 1,
-          "components": {
-            "minecraft:suspicious_stew_effects": [
-              {
-                "id": "minecraft:jump_boost",
-                "duration": 180
-              }
-            ]
-          }
-        },
-        "chance": 0.008333334
-      },
-      {
-        "item": {
-          "id": "minecraft:suspicious_stew",
-          "count": 1,
-          "components": {
-            "minecraft:suspicious_stew_effects": [
-              {
-                "id": "minecraft:night_vision",
-                "duration": 180
-              }
-            ]
-          }
-        },
-        "chance": 0.006666667
-      },
-      {
-        "item": {
-          "id": "minecraft:suspicious_stew",
-          "count": 1,
-          "components": {
-            "minecraft:suspicious_stew_effects": [
-              {
-                "id": "minecraft:jump_boost",
-                "duration": 200
-              }
-            ]
-          }
-        },
-        "chance": 0.006666667
+        "chance": 0.10166667
       },
       {
         "item": {
@@ -216,6 +52,110 @@
             ]
           }
         },
+        "chance": 0.016666668
+      },
+      {
+        "item": {
+          "id": "minecraft:suspicious_stew",
+          "count": 1,
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:saturation",
+                "duration": 8
+              }
+            ]
+          }
+        },
+        "chance": 0.01
+      },
+      {
+        "item": {
+          "id": "minecraft:suspicious_stew",
+          "count": 1,
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:jump_boost",
+                "duration": 200
+              }
+            ]
+          }
+        },
+        "chance": 0.008333334
+      },
+      {
+        "item": {
+          "id": "minecraft:suspicious_stew",
+          "count": 1,
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:blindness",
+                "duration": 140
+              }
+            ]
+          }
+        },
+        "chance": 0.006666667
+      },
+      {
+        "item": {
+          "id": "minecraft:suspicious_stew",
+          "count": 1,
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:blindness",
+                "duration": 120
+              }
+            ]
+          }
+        },
+        "chance": 0.006666667
+      },
+      {
+        "item": {
+          "id": "minecraft:suspicious_stew",
+          "count": 1,
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:saturation",
+                "duration": 9
+              }
+            ]
+          }
+        },
+        "chance": 0.006666667
+      },
+      {
+        "item": {
+          "id": "minecraft:suspicious_stew",
+          "count": 1,
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:night_vision"
+              }
+            ]
+          }
+        },
+        "chance": 0.006666667
+      },
+      {
+        "item": {
+          "id": "minecraft:suspicious_stew",
+          "count": 1,
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:weakness",
+                "duration": 140
+              }
+            ]
+          }
+        },
         "chance": 0.005
       },
       {
@@ -225,8 +165,8 @@
           "components": {
             "minecraft:suspicious_stew_effects": [
               {
-                "id": "minecraft:poison",
-                "duration": 300
+                "id": "minecraft:blindness",
+                "duration": 100
               }
             ]
           }
@@ -254,8 +194,8 @@
           "components": {
             "minecraft:suspicious_stew_effects": [
               {
-                "id": "minecraft:saturation",
-                "duration": 7
+                "id": "minecraft:night_vision",
+                "duration": 140
               }
             ]
           }
@@ -269,28 +209,12 @@
           "components": {
             "minecraft:suspicious_stew_effects": [
               {
-                "id": "minecraft:saturation",
-                "duration": 9
+                "id": "minecraft:weakness"
               }
             ]
           }
         },
         "chance": 0.005
-      },
-      {
-        "item": {
-          "id": "minecraft:suspicious_stew",
-          "count": 1,
-          "components": {
-            "minecraft:suspicious_stew_effects": [
-              {
-                "id": "minecraft:poison",
-                "duration": 400
-              }
-            ]
-          }
-        },
-        "chance": 0.0033333334
       },
       {
         "item": {
@@ -300,7 +224,7 @@
             "minecraft:suspicious_stew_effects": [
               {
                 "id": "minecraft:night_vision",
-                "duration": 140
+                "duration": 180
               }
             ]
           }
@@ -314,27 +238,13 @@
           "components": {
             "minecraft:suspicious_stew_effects": [
               {
-                "id": "minecraft:poison",
-                "duration": 260
+                "id": "minecraft:saturation",
+                "duration": 10
               }
             ]
           }
         },
         "chance": 0.0033333334
-      },
-      {
-        "item": {
-          "id": "minecraft:suspicious_stew",
-          "count": 1,
-          "components": {
-            "minecraft:suspicious_stew_effects": [
-              {
-                "id": "minecraft:night_vision"
-              }
-            ]
-          }
-        },
-        "chance": 0.0016666667
       },
       {
         "item": {
@@ -349,7 +259,67 @@
             ]
           }
         },
-        "chance": 0.0016666667
+        "chance": 0.0033333334
+      },
+      {
+        "item": {
+          "id": "minecraft:suspicious_stew",
+          "count": 1,
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:saturation",
+                "duration": 7
+              }
+            ]
+          }
+        },
+        "chance": 0.0033333334
+      },
+      {
+        "item": {
+          "id": "minecraft:suspicious_stew",
+          "count": 1,
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:poison",
+                "duration": 380
+              }
+            ]
+          }
+        },
+        "chance": 0.0033333334
+      },
+      {
+        "item": {
+          "id": "minecraft:suspicious_stew",
+          "count": 1,
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:jump_boost",
+                "duration": 140
+              }
+            ]
+          }
+        },
+        "chance": 0.0033333334
+      },
+      {
+        "item": {
+          "id": "minecraft:suspicious_stew",
+          "count": 1,
+          "components": {
+            "minecraft:suspicious_stew_effects": [
+              {
+                "id": "minecraft:poison",
+                "duration": 240
+              }
+            ]
+          }
+        },
+        "chance": 0.0033333334
       },
       {
         "item": {
@@ -364,7 +334,7 @@
             ]
           }
         },
-        "chance": 0.0016666667
+        "chance": 0.0033333334
       },
       {
         "item": {
@@ -373,8 +343,8 @@
           "components": {
             "minecraft:suspicious_stew_effects": [
               {
-                "id": "minecraft:weakness",
-                "duration": 140
+                "id": "minecraft:poison",
+                "duration": 220
               }
             ]
           }
@@ -403,8 +373,8 @@
           "components": {
             "minecraft:suspicious_stew_effects": [
               {
-                "id": "minecraft:poison",
-                "duration": 380
+                "id": "minecraft:jump_boost",
+                "duration": 180
               }
             ]
           }
@@ -434,7 +404,7 @@
             "minecraft:suspicious_stew_effects": [
               {
                 "id": "minecraft:poison",
-                "duration": 220
+                "duration": 360
               }
             ]
           }
