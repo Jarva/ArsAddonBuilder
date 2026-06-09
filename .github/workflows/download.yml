@@ -151,7 +151,7 @@ jobs:
           xvfb: true
 
       - name: Sync output to R2
-        run: aws s3 sync output/ s3://ars-guide-assets --delete --endpoint-url https://fb2e8a157cc36da2700bf6655622bf89.r2.cloudflarestorage.com
+        run: aws s3 sync output/ s3://ars-guide-assets --delete --size-only --no-progress --only-show-errors --endpoint-url https://fb2e8a157cc36da2700bf6655622bf89.r2.cloudflarestorage.com
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
