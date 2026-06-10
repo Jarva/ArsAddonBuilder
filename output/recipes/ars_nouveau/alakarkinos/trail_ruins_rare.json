@@ -6,87 +6,87 @@
     "list": [
       {
         "item": {
-          "id": "minecraft:raiser_armor_trim_smithing_template",
+          "id": "minecraft:heart_pottery_sherd",
           "count": 1
         },
-        "chance": 0.10333333
-      },
-      {
-        "item": {
-          "id": "minecraft:danger_pottery_sherd",
-          "count": 1
-        },
-        "chance": 0.093333334
-      },
-      {
-        "item": {
-          "id": "minecraft:heartbreak_pottery_sherd",
-          "count": 1
-        },
-        "chance": 0.09
-      },
-      {
-        "item": {
-          "id": "minecraft:music_disc_relic",
-          "count": 1
-        },
-        "chance": 0.09
+        "chance": 0.10666667
       },
       {
         "item": {
           "id": "minecraft:shaper_armor_trim_smithing_template",
           "count": 1
         },
-        "chance": 0.083333336
-      },
-      {
-        "item": {
-          "id": "minecraft:heart_pottery_sherd",
-          "count": 1
-        },
-        "chance": 0.083333336
-      },
-      {
-        "item": {
-          "id": "minecraft:burn_pottery_sherd",
-          "count": 1
-        },
-        "chance": 0.08166666
-      },
-      {
-        "item": {
-          "id": "minecraft:sheaf_pottery_sherd",
-          "count": 1
-        },
-        "chance": 0.08166666
+        "chance": 0.1
       },
       {
         "item": {
           "id": "minecraft:wayfinder_armor_trim_smithing_template",
           "count": 1
         },
-        "chance": 0.07833333
+        "chance": 0.09833334
       },
       {
         "item": {
-          "id": "minecraft:howl_pottery_sherd",
+          "id": "minecraft:raiser_armor_trim_smithing_template",
           "count": 1
         },
-        "chance": 0.075
+        "chance": 0.095
       },
       {
         "item": {
-          "id": "minecraft:host_armor_trim_smithing_template",
+          "id": "minecraft:music_disc_relic",
           "count": 1
         },
-        "chance": 0.07333333
+        "chance": 0.08833333
+      },
+      {
+        "item": {
+          "id": "minecraft:heartbreak_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.08166666
+      },
+      {
+        "item": {
+          "id": "minecraft:danger_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.08
+      },
+      {
+        "item": {
+          "id": "minecraft:burn_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.08
       },
       {
         "item": {
           "id": "minecraft:friend_pottery_sherd",
           "count": 1
         },
-        "chance": 0.06666667
+        "chance": 0.07833333
+      },
+      {
+        "item": {
+          "id": "minecraft:host_armor_trim_smithing_template",
+          "count": 1
+        },
+        "chance": 0.07
+      },
+      {
+        "item": {
+          "id": "minecraft:sheaf_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.061666667
+      },
+      {
+        "item": {
+          "id": "minecraft:howl_pottery_sherd",
+          "count": 1
+        },
+        "chance": 0.06
       }
     ],
     "weight": 150

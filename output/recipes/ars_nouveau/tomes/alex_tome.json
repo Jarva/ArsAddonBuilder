@@ -3,8 +3,8 @@
   "color": {
     "id": "ars_nouveau:rainbow",
     "r": 255,
-    "g": 63,
-    "b": 0
+    "g": 0,
+    "b": 249
   },
   "sound": {
     "sound": {
@@ -36,8 +36,8 @@
     "color": {
       "id": "ars_nouveau:rainbow",
       "r": 255,
-      "g": 63,
-      "b": 0
+      "g": 0,
+      "b": 249
     }
   },
   "name": "Alex\u0027s Magnificent Mansion",
