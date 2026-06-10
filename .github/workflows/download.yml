@@ -150,8 +150,11 @@ jobs:
           java: ${{ env.JAVA_VERSION }}
           xvfb: true
 
-      - name: Build tome.json
-        run: cd output && find recipes -name '*.json' -print0 | xargs -0 jq -r 'select(.type == "ars_nouveau:caster_tome") | input_filename' | jq -Rs '[split("\n")[] | select(. != "")]' > tome.json
+      - name: Build tomes.json
+        run: cd output && find recipes -name '*.json' -print0 | xargs -0 jq -r 'select(.type == "ars_nouveau:caster_tome") | input_filename' | jq -Rs '[split("\n")[] | select(. != "")]' > tomes.json
+
+      - name: Build manifest.json
+        run: ./scripts/build-manifest.sh output manifest.json
 
       - name: Sync output to R2
         run: aws s3 sync output/ s3://ars-guide-assets --delete --size-only --no-progress --only-show-errors --endpoint-url https://fb2e8a157cc36da2700bf6655622bf89.r2.cloudflarestorage.com
@@ -159,11 +162,29 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
 
-      - name: Commit and push updated runtime resources
-        uses: Jarva/git-commit-push@main
-        with:
-          pull: true
-          commit_message: "ci: update runtime resources"
+      - name: Commit and push manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git reset
+          git add -- manifest.json
+          if git diff --cached --quiet; then
+            echo "manifest.json unchanged; skipping commit."
+            exit 0
+          fi
+
+          staged_files=$(git diff --cached --name-only)
+          if [ "$staged_files" != "manifest.json" ]; then
+            echo "::error::Unexpected staged files:"
+            echo "$staged_files"
+            exit 1
+          fi
+
+          git commit -m "ci: update generated file manifest"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
 
       - name: Compute release hash
         id: release_hash
