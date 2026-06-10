@@ -11,7 +11,7 @@ GENERATED_AT="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
 
 mkdir -p "$(dirname "$MANIFEST_PATH")"
 
-if stat -c '%s %n' "$0" >/dev/null 2>&1; then
+if stat -c '%s %n' /dev/null >/dev/null 2>&1; then
 	stat_file() {
 		xargs -0 stat -c '%s %n'
 	}
@@ -22,7 +22,7 @@ else
 fi
 
 hash_file() {
-	if sha256sum -z "$0" >/dev/null 2>&1; then
+	if command -v sha256sum >/dev/null 2>&1 && sha256sum -z /dev/null >/dev/null 2>&1; then
 		xargs -0 -n 128 sha256sum -z
 	else
 		xargs -0 -n 128 shasum -a 256
@@ -36,9 +36,18 @@ trap 'rm -f "$FILES" "$SIZES" "$HASHES"' EXIT
 
 printf 'Building manifest for %s...\n' "$OUTPUT_DIR" >&2
 
-find "$OUTPUT_DIR" -type f -print0 | LC_ALL=C sort -z >"$FILES"
-stat_file <"$FILES" >"$SIZES"
-hash_file <"$FILES" >"$HASHES"
+(
+	cd "$OUTPUT_DIR"
+
+	find . -type f -print0 |
+		LC_ALL=C sort -z |
+		while IFS= read -r -d '' file; do
+			printf '%s\0' "${file#./}"
+		done >"$FILES"
+
+	stat_file <"$FILES" >"$SIZES"
+	hash_file <"$FILES" >"$HASHES"
+)
 
 jq -n \
 	--argjson version "$VERSION" \
@@ -58,7 +67,11 @@ jq -n \
 	| {
 		version: $version,
 		generatedAt: $generatedAt,
-		files: ($files | map({path, size: $sizesByPath[.path], sha256}))
+		files: ($files | map({
+			path: .path,
+			size: $sizesByPath[.path],
+			sha256: .sha256
+		}))
 	}' \
 	>"$MANIFEST_PATH"
 
