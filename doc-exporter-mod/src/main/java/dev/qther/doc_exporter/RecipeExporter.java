@@ -2,15 +2,12 @@ package dev.qther.doc_exporter;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.mojang.serialization.JsonOps;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.RegistryOps;
+import com.google.gson.JsonParser;
+import net.minecraft.client.Minecraft;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.crafting.Recipe;
+import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.world.item.crafting.RecipeHolder;
-import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.Level;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,15 +27,21 @@ public final class RecipeExporter {
     private RecipeExporter() {}
 
     public static void exportAll(Level level) throws IOException {
-        var registryAccess = level.registryAccess();
-        RegistryOps<JsonElement> ops = registryAccess.createSerializationContext(JsonOps.INSTANCE);
         var recipeManager = level.getRecipeManager();
+
+        var server = Minecraft.getInstance().getSingleplayerServer();
+        if (server == null) {
+            LOGGER.error("No integrated server available, cannot export recipes");
+            return;
+        }
+        ResourceManager resourceManager = server.getResourceManager();
 
         for (RecipeHolder<?> holder : recipeManager.getRecipes()) {
             ResourceLocation id = holder.id();
             try {
-                JsonObject json = serializeRecipe(holder.value(), ops);
+                JsonObject json = readRawRecipeJson(id, resourceManager);
                 if (json == null) {
+                    LOGGER.warn("Cannot export recipe {} (no data pack JSON found)", id);
                     continue;
                 }
                 Path outputFile = ExportPaths.recipesBase()
@@ -55,23 +58,23 @@ public final class RecipeExporter {
                     }
                 });
             } catch (Exception e) {
-                LOGGER.error("Failed to serialize recipe {}", id, e);
+                LOGGER.error("Failed to export recipe {}", id, e);
             }
         }
     }
 
-    @SuppressWarnings("unchecked")
-    private static <T extends Recipe<?>> JsonObject serializeRecipe(T recipe, RegistryOps<JsonElement> ops) {
-        RecipeSerializer<T> serializer = (RecipeSerializer<T>) recipe.getSerializer();
-        var result = serializer.codec().codec().encodeStart(ops, recipe);
-        if (result.isError()) {
-            LOGGER.warn("Cannot encode recipe with serializer {}: {}",
-                    BuiltInRegistries.RECIPE_SERIALIZER.getKey(serializer),
-                    result.error().orElseThrow().message());
-            return null;
+    private static JsonObject readRawRecipeJson(ResourceLocation id, ResourceManager resourceManager) {
+        var fileLoc = ResourceLocation.fromNamespaceAndPath(id.getNamespace(), "recipe/" + id.getPath() + ".json");
+        try {
+            var resource = resourceManager.getResource(fileLoc);
+            if (resource.isPresent()) {
+                try (var reader = resource.get().openAsReader()) {
+                    return JsonParser.parseReader(reader).getAsJsonObject();
+                }
+            }
+        } catch (Exception e) {
+            LOGGER.debug("Could not read raw recipe JSON for {}: {}", id, e.getMessage());
         }
-        JsonObject obj = result.getOrThrow().getAsJsonObject();
-        obj.addProperty("type", BuiltInRegistries.RECIPE_SERIALIZER.getKey(serializer).toString());
-        return obj;
+        return null;
     }
 }
