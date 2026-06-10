@@ -1,19 +1,19 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "farmersdelight:honey_cookie",
-    "count": 8
-  },
   "ingredients": [
     {
       "item": "minecraft:honey_bottle"
     },
     {
-      "item": "minecraft:wheat"
+      "tag": "c:crops/wheat"
     },
     {
-      "item": "minecraft:wheat"
+      "tag": "c:crops/wheat"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 8,
+    "id": "farmersdelight:honey_cookie"
+  }
 }

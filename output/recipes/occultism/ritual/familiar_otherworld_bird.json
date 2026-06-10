@@ -1,107 +1,45 @@
 {
-  "entity_to_summon": "occultism:otherworld_bird",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/familiar_otherworld_bird",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/otherworld_bird",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.familiar_otherworld_bird\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.familiar_otherworld_bird.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon_tamed",
-  "pentacle_id": "occultism:possess_djinni",
-  "ingredients": [
-    {
-      "item": "minecraft:feather"
-    },
-    {
-      "item": "minecraft:feather"
-    },
-    {
-      "item": "minecraft:egg"
-    },
-    {
-      "children": [
-        {
-          "item": "minecraft:jungle_leaves"
-        },
-        {
-          "item": "minecraft:oak_leaves"
-        },
-        {
-          "item": "minecraft:spruce_leaves"
-        },
-        {
-          "item": "minecraft:dark_oak_leaves"
-        },
-        {
-          "item": "minecraft:acacia_leaves"
-        },
-        {
-          "item": "minecraft:birch_leaves"
-        },
-        {
-          "item": "minecraft:azalea_leaves"
-        },
-        {
-          "item": "minecraft:flowering_azalea_leaves"
-        },
-        {
-          "item": "minecraft:mangrove_leaves"
-        },
-        {
-          "item": "minecraft:cherry_leaves"
-        },
-        {
-          "item": "ars_nouveau:purple_archwood_leaves"
-        },
-        {
-          "item": "ars_nouveau:blue_archwood_leaves"
-        },
-        {
-          "item": "ars_nouveau:red_archwood_leaves"
-        },
-        {
-          "item": "ars_nouveau:green_archwood_leaves"
-        },
-        {
-          "item": "ars_elemental:yellow_archwood_leaves"
-        },
-        {
-          "item": "occultism:otherworld_leaves"
-        },
-        {
-          "item": "occultism:otherworld_leaves_natural"
-        },
-        {
-          "item": "malum:runewood_leaves"
-        },
-        {
-          "item": "malum:azure_runewood_leaves"
-        },
-        {
-          "item": "malum:soulwood_leaves"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "item": "minecraft:string"
-    }
-  ],
+  "type": "occultism:ritual",
   "activation_item": {
     "item": "occultism:book_of_binding_bound_djinni"
   },
   "duration": 90,
   "entity_to_sacrifice": {
-    "tag": "c:parrots",
-    "display_name": "ritual.occultism.sacrifice.parrots"
+    "display_name": "ritual.occultism.sacrifice.parrots",
+    "tag": "c:parrots"
   },
-  "type": "occultism:ritual"
+  "entity_to_summon": "occultism:otherworld_bird",
+  "ingredients": [
+    {
+      "tag": "c:feathers"
+    },
+    {
+      "tag": "c:feathers"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "tag": "c:strings"
+    }
+  ],
+  "pentacle_id": "occultism:possess_djinni",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.familiar_otherworld_bird\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.familiar_otherworld_bird.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/otherworld_bird"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/familiar_otherworld_bird"
+  },
+  "ritual_type": "occultism:summon_tamed"
 }

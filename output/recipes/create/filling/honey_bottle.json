@@ -1,25 +1,18 @@
 {
+  "type": "create:filling",
   "ingredients": [
     {
       "item": "minecraft:glass_bottle"
     },
     {
-      "type": "neoforge:compound",
-      "children": [
-        {
-          "fluid": "create:flowing_honey"
-        },
-        {
-          "fluid": "create:honey"
-        }
-      ],
-      "amount": 250
+      "type": "neoforge:tag",
+      "amount": 250,
+      "tag": "c:honey"
     }
   ],
   "results": [
     {
       "id": "minecraft:honey_bottle"
     }
-  ],
-  "type": "create:filling"
+  ]
 }

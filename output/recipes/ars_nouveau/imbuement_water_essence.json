@@ -1,12 +1,12 @@
 {
+  "type": "ars_nouveau:imbuement",
   "input": {
-    "item": "ars_nouveau:source_gem"
+    "tag": "c:gems/source"
   },
   "output": {
-    "id": "ars_nouveau:water_essence",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:water_essence"
   },
-  "source": 2000,
   "pedestalItems": [
     {
       "item": "minecraft:water_bucket"
@@ -18,5 +18,5 @@
       "item": "minecraft:kelp"
     }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 2000
 }

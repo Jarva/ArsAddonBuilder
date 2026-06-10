@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:stable_warp_scroll"
@@ -7,14 +9,12 @@
       "item": "minecraft:end_stone_bricks"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "minecraft:glass_bottle"
   },
   "result": {
-    "id": "ars_additions:void_protection_charm",
-    "count": 1
+    "count": 1,
+    "id": "ars_additions:void_protection_charm"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

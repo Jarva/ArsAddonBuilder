@@ -1,39 +1,31 @@
 {
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/craft_storage_remote",
-    "count": 1
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
   },
-  "result": {
-    "id": "occultism:storage_remote",
-    "count": 1
-  },
-  "ritual_type": "occultism:craft_with_spirit_name",
-  "pentacle_id": "occultism:craft_djinni",
+  "duration": 150,
   "ingredients": [
     {
       "item": "occultism:storage_remote_inert"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:quartz"
-        },
-        {
-          "item": "malum:natural_quartz"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:gems/quartz"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_djinni"
+  "pentacle_id": "occultism:craft_djinni",
+  "result": {
+    "count": 1,
+    "id": "occultism:storage_remote"
   },
-  "duration": 150,
-  "type": "occultism:ritual"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/craft_storage_remote"
+  },
+  "ritual_type": "occultism:craft_with_spirit_name"
 }

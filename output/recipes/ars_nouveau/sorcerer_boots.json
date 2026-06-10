@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
   "pedestalItems": [
     {
       "item": "ars_nouveau:magebloom_fiber"
@@ -13,14 +15,12 @@
       "item": "ars_nouveau:magebloom_fiber"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": true,
   "reagent": {
     "item": "minecraft:golden_boots"
   },
   "result": {
-    "id": "ars_nouveau:sorcerer_boots",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:sorcerer_boots"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

@@ -1,14 +1,14 @@
 {
+  "type": "occultism:miner",
   "ingredient": {
-    "item": "occultism:miner_marid_master"
+    "tag": "occultism:miners/master"
   },
   "result": {
+    "type": "occultism:weighted_item",
     "stack": {
-      "id": "occultism:iesnium_ore",
-      "count": 1
+      "count": 1,
+      "id": "occultism:iesnium_ore"
     },
-    "weight": 100,
-    "type": "occultism:weighted_item"
-  },
-  "type": "occultism:miner"
+    "weight": 100
+  }
 }

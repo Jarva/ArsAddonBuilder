@@ -1,12 +1,12 @@
 {
+  "type": "ars_nouveau:imbuement",
   "input": {
     "item": "ars_nouveau:spell_turret"
   },
   "output": {
-    "id": "ars_elemental:earth_turret",
-    "count": 1
+    "count": 1,
+    "id": "ars_elemental:earth_turret"
   },
-  "source": 5000,
   "pedestalItems": [
     {
       "item": "ars_nouveau:earth_essence"
@@ -21,5 +21,5 @@
       "item": "ars_elemental:earth_focus"
     }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 5000
 }

@@ -1,61 +1,19 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:paper",
-    "count": 1
-  },
   "ingredients": [
-    [
-      {
-        "item": "arsdelight:flourishing_bark"
-      },
-      {
-        "item": "arsdelight:vexing_bark"
-      },
-      {
-        "item": "arsdelight:cascading_bark"
-      },
-      {
-        "item": "arsdelight:blazing_bark"
-      },
-      {
-        "item": "farmersdelight:tree_bark"
-      }
-    ],
-    [
-      {
-        "item": "arsdelight:flourishing_bark"
-      },
-      {
-        "item": "arsdelight:vexing_bark"
-      },
-      {
-        "item": "arsdelight:cascading_bark"
-      },
-      {
-        "item": "arsdelight:blazing_bark"
-      },
-      {
-        "item": "farmersdelight:tree_bark"
-      }
-    ],
-    [
-      {
-        "item": "arsdelight:flourishing_bark"
-      },
-      {
-        "item": "arsdelight:vexing_bark"
-      },
-      {
-        "item": "arsdelight:cascading_bark"
-      },
-      {
-        "item": "arsdelight:blazing_bark"
-      },
-      {
-        "item": "farmersdelight:tree_bark"
-      }
-    ]
+    {
+      "tag": "farmersdelight:barks"
+    },
+    {
+      "tag": "farmersdelight:barks"
+    },
+    {
+      "tag": "farmersdelight:barks"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:paper"
+  }
 }

@@ -1,4 +1,27 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 6,
+      "tag": "c:ingots/iron"
+    },
+    {
+      "count": 4,
+      "item": "malum:warp_flux"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:gilded_ring"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:ring_of_the_hoarder"
+  },
   "spirits": [
     {
       "type": "malum:earthen",
@@ -12,28 +35,5 @@
       "type": "malum:arcane",
       "count": 16
     }
-  ],
-  "extraInputs": [
-    {
-      "tag": "c:ingots/iron",
-      "count": 6
-    },
-    {
-      "item": "malum:warp_flux",
-      "count": 4
-    },
-    {
-      "item": "minecraft:ender_pearl",
-      "count": 2
-    }
-  ],
-  "input": {
-    "item": "malum:gilded_ring",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:ring_of_the_hoarder",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

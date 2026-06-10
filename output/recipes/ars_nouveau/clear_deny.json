@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:deny_scroll",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:deny_scroll"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:deny_scroll"
+  }
 }

@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_elemental:ritual_tesla_coil",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_elemental:yellow_archwood_log"
@@ -12,17 +9,20 @@
       "item": "ars_nouveau:air_essence"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
       "item": "minecraft:lightning_rod"
     },
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:storage_blocks/source"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_elemental:ritual_tesla_coil"
+  }
 }

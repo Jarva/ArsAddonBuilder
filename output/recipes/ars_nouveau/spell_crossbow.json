@@ -1,23 +1,23 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
   "pedestalItems": [
     {
-      "item": "minecraft:gold_block"
+      "tag": "c:storage_blocks/gold"
     },
     {
       "item": "ars_nouveau:manipulation_essence"
     },
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:storage_blocks/source"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": true,
   "reagent": {
     "item": "minecraft:crossbow"
   },
   "result": {
-    "id": "ars_nouveau:spell_crossbow",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:spell_crossbow"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

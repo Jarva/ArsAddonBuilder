@@ -1,23 +1,23 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "input": {
+    "count": 8,
+    "tag": "c:glass_blocks"
+  },
+  "result": {
+    "count": 8,
+    "id": "malum:aerial_spirited_glass"
+  },
   "spirits": [
     {
       "type": "malum:aerial",
       "count": 2
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "minecraft:iron_ingot",
-      "count": 1
-    }
-  ],
-  "input": {
-    "tag": "c:glass_blocks",
-    "count": 8
-  },
-  "result": {
-    "id": "malum:aerial_spirited_glass",
-    "count": 8
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

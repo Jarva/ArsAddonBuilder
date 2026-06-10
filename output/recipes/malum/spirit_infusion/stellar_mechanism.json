@@ -1,4 +1,23 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "malum:fused_consciousness"
+    },
+    {
+      "count": 2,
+      "item": "malum:null_slate"
+    }
+  ],
+  "input": {
+    "count": 4,
+    "item": "malum:alchemical_calx"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:stellar_mechanism"
+  },
   "spirits": [
     {
       "type": "malum:aerial",
@@ -20,24 +39,5 @@
       "type": "malum:eldritch",
       "count": 16
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:fused_consciousness",
-      "count": 1
-    },
-    {
-      "item": "malum:null_slate",
-      "count": 2
-    }
-  ],
-  "input": {
-    "item": "malum:alchemical_calx",
-    "count": 4
-  },
-  "result": {
-    "id": "malum:stellar_mechanism",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

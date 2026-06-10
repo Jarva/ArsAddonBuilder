@@ -1,4 +1,27 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 8,
+      "item": "malum:refined_soulstone"
+    },
+    {
+      "count": 4,
+      "item": "malum:hex_ash"
+    },
+    {
+      "count": 2,
+      "item": "malum:soulwood_planks"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:runewood_obelisk"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:arcana_pylon"
+  },
   "spirits": [
     {
       "type": "malum:aerial",
@@ -16,28 +39,5 @@
       "type": "malum:infernal",
       "count": 8
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:refined_soulstone",
-      "count": 8
-    },
-    {
-      "item": "malum:hex_ash",
-      "count": 4
-    },
-    {
-      "item": "malum:soulwood_planks",
-      "count": 2
-    }
-  ],
-  "input": {
-    "item": "malum:runewood_obelisk",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:arcana_pylon",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

@@ -1,4 +1,23 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 6,
+      "item": "malum:runewood_planks"
+    },
+    {
+      "count": 2,
+      "item": "malum:hex_ash"
+    }
+  ],
+  "input": {
+    "count": 4,
+    "item": "malum:runewood_log"
+  },
+  "result": {
+    "count": 4,
+    "id": "malum:runewood_totem_base"
+  },
   "spirits": [
     {
       "type": "malum:aerial",
@@ -20,24 +39,5 @@
       "type": "malum:eldritch",
       "count": 2
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:runewood_planks",
-      "count": 6
-    },
-    {
-      "item": "malum:hex_ash",
-      "count": 2
-    }
-  ],
-  "input": {
-    "item": "malum:runewood_log",
-    "count": 4
-  },
-  "result": {
-    "id": "malum:runewood_totem_base",
-    "count": 4
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_nouveau:glyph_invisibility",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "ars_nouveau:abjuration_essence"
@@ -11,9 +9,11 @@
       "item": "minecraft:fermented_spider_eye"
     },
     {
-      "item": "minecraft:blaze_rod"
+      "tag": "c:rods/blaze"
     }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:glyph_invisibility"
+  }
 }

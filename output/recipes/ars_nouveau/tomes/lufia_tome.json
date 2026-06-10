@@ -1,46 +1,19 @@
 {
-  "flavour_text": "Your enemies will try to kill you. Use this, to kill them back. Cast under a targets feet to bury them. Results may vary.",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 255,
+    "b": 1,
     "g": 128,
-    "b": 1
+    "id": "ars_nouveau:constant",
+    "r": 255
   },
+  "flavour_text": "Your enemies will try to kill you. Use this, to kill them back. Cast under a targets feet to bury them. Results may vary.",
+  "name": "Lufia\u0027s Bwomp",
   "sound": {
+    "pitch": 0.5,
     "sound": {
       "id": "ars_nouveau:tempestry_family"
-    },
-    "pitch": 0.5
-  },
-  "spellData": {
-    "sound": {
-      "sound": {
-        "id": "ars_nouveau:tempestry_family"
-      },
-      "pitch": 0.5
-    },
-    "recipe": [
-      "ars_nouveau:glyph_projectile",
-      "ars_nouveau:glyph_sensitive",
-      "ars_nouveau:glyph_pierce",
-      "ars_nouveau:glyph_pierce",
-      "ars_nouveau:glyph_pierce",
-      "ars_nouveau:glyph_intangible",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_aoe"
-    ],
-    "particleTimeline": {},
-    "name": "Lufia\u0027s Bwomp",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 255,
-      "g": 128,
-      "b": 1
     }
   },
-  "name": "Lufia\u0027s Bwomp",
   "spell": [
     "ars_nouveau:glyph_projectile",
     "ars_nouveau:glyph_sensitive",
@@ -53,6 +26,33 @@
     "ars_nouveau:glyph_aoe",
     "ars_nouveau:glyph_aoe"
   ],
-  "tome_type": "ars_nouveau:caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 1,
+      "g": 128,
+      "id": "ars_nouveau:constant",
+      "r": 255
+    },
+    "name": "Lufia\u0027s Bwomp",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_sensitive",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_intangible",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe"
+    ],
+    "sound": {
+      "pitch": 0.5,
+      "sound": {
+        "id": "ars_nouveau:tempestry_family"
+      }
+    }
+  },
+  "tome_type": "ars_nouveau:caster_tome"
 }

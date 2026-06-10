@@ -1,26 +1,15 @@
 {
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:cobblestone"
-      },
-      {
-        "item": "minecraft:infested_cobblestone"
-      },
-      {
-        "item": "minecraft:mossy_cobblestone"
-      },
-      {
-        "item": "minecraft:cobbled_deepslate"
-      }
-    ]
+    {
+      "tag": "c:cobblestones"
+    }
   ],
   "results": [
     {
-      "id": "minecraft:lava",
-      "amount": 50
+      "amount": 50,
+      "id": "minecraft:lava"
     }
-  ],
-  "heat_requirement": "superheated",
-  "type": "create:mixing"
+  ]
 }

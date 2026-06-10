@@ -1,25 +1,10 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
-    [
-      {
-        "item": "minecraft:cod"
-      },
-      {
-        "item": "minecraft:cooked_cod"
-      },
-      {
-        "item": "minecraft:salmon"
-      },
-      {
-        "item": "minecraft:cooked_salmon"
-      },
-      {
-        "item": "minecraft:pufferfish"
-      },
-      {
-        "item": "minecraft:tropical_fish"
-      }
-    ],
+    {
+      "tag": "minecraft:fishes"
+    },
     {
       "item": "minecraft:wheat"
     },
@@ -29,56 +14,25 @@
     {
       "item": "minecraft:carrot"
     },
-    [
-      {
-        "item": "minecraft:beetroot_seeds"
-      },
-      {
-        "item": "minecraft:melon_seeds"
-      },
-      {
-        "item": "minecraft:pumpkin_seeds"
-      },
-      {
-        "item": "minecraft:torchflower_seeds"
-      },
-      {
-        "item": "minecraft:wheat_seeds"
-      },
-      {
-        "item": "farmersdelight:cabbage_seeds"
-      },
-      {
-        "item": "farmersdelight:rice"
-      },
-      {
-        "item": "farmersdelight:tomato_seeds"
-      },
-      {
-        "item": "ars_nouveau:magebloom_crop"
-      },
-      {
-        "item": "occultism:datura_seeds"
-      }
-    ],
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:seeds"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
+    },
+    {
+      "tag": "c:gems/source"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:drygmy_shard"
   },
   "result": {
-    "id": "ars_nouveau:drygmy_charm",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:drygmy_charm"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

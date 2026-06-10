@@ -1,32 +1,32 @@
 {
+  "type": "ars_nouveau:crush",
   "input": {
     "item": "minecraft:bone"
   },
   "output": [
     {
-      "stack": {
-        "id": "minecraft:bone_meal",
-        "count": 3
-      },
       "chance": 1.0,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 3,
+        "id": "minecraft:bone_meal"
+      }
     },
     {
-      "stack": {
-        "id": "minecraft:bone_meal",
-        "count": 1
-      },
       "chance": 0.5,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:bone_meal"
+      }
     },
     {
-      "stack": {
-        "id": "minecraft:bone_meal",
-        "count": 1
-      },
       "chance": 0.5,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:bone_meal"
+      }
     }
-  ],
-  "type": "ars_nouveau:crush"
+  ]
 }

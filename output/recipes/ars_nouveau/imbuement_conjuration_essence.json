@@ -1,12 +1,12 @@
 {
+  "type": "ars_nouveau:imbuement",
   "input": {
-    "item": "ars_nouveau:source_gem"
+    "tag": "c:gems/source"
   },
   "output": {
-    "id": "ars_nouveau:conjuration_essence",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:conjuration_essence"
   },
-  "source": 2000,
   "pedestalItems": [
     {
       "item": "ars_nouveau:wilden_horn"
@@ -18,5 +18,5 @@
       "item": "minecraft:book"
     }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 2000
 }

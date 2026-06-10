@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:copper_nugget",
-    "count": 9
-  },
   "ingredients": [
     {
-      "item": "minecraft:copper_ingot"
+      "tag": "c:ingots/copper"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 9,
+    "id": "create:copper_nugget"
+  }
 }

@@ -1,19 +1,20 @@
 {
-  "input": {
-    "item": "minecraft:feather",
-    "count": 12
-  },
-  "result": "malum:pact_of_the_windswept",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "minecraft:leather",
-      "count": 8
+      "count": 8,
+      "item": "minecraft:leather"
     },
     {
-      "item": "malum:astral_weave",
-      "count": 4
+      "count": 4,
+      "item": "malum:astral_weave"
     }
   ],
+  "input": {
+    "count": 12,
+    "item": "minecraft:feather"
+  },
+  "result": "malum:pact_of_the_windswept",
   "spirits": [
     {
       "type": "malum:aerial",
@@ -23,6 +24,5 @@
       "type": "malum:earthen",
       "count": 16
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

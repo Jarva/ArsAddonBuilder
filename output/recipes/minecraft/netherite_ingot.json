@@ -1,10 +1,7 @@
 {
-  "group": "netherite_ingot",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:netherite_ingot",
-    "count": 1
-  },
+  "group": "netherite_ingot",
   "ingredients": [
     {
       "item": "minecraft:netherite_scrap"
@@ -19,17 +16,20 @@
       "item": "minecraft:netherite_scrap"
     },
     {
-      "item": "minecraft:gold_ingot"
+      "tag": "c:ingots/gold"
     },
     {
-      "item": "minecraft:gold_ingot"
+      "tag": "c:ingots/gold"
     },
     {
-      "item": "minecraft:gold_ingot"
+      "tag": "c:ingots/gold"
     },
     {
-      "item": "minecraft:gold_ingot"
+      "tag": "c:ingots/gold"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_ingot"
+  }
 }

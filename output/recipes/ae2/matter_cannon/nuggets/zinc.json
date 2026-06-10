@@ -1,7 +1,16 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:nuggets/zinc"
+      }
+    }
+  ],
+  "type": "ae2:matter_cannon",
   "ammo": {
-    "item": "create:zinc_nugget"
+    "tag": "c:nuggets/zinc"
   },
-  "weight": 65.39,
-  "type": "ae2:matter_cannon"
+  "weight": 65.39
 }

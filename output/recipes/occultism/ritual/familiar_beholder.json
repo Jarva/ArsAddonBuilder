@@ -1,21 +1,14 @@
 {
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 90,
+  "entity_to_sacrifice": {
+    "display_name": "ritual.occultism.sacrifice.spiders",
+    "tag": "c:spiders"
+  },
   "entity_to_summon": "occultism:beholder_familiar",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/familiar_beholder",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/familiar_beholder",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.familiar_beholder\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.familiar_beholder.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon_tamed",
-  "pentacle_id": "occultism:possess_djinni",
   "ingredients": [
     {
       "item": "minecraft:spider_eye"
@@ -30,25 +23,32 @@
       "item": "minecraft:spider_eye"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "tag": "c:dusts/glowstone"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "tag": "c:dusts/glowstone"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "tag": "c:dusts/glowstone"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "tag": "c:dusts/glowstone"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_djinni"
+  "pentacle_id": "occultism:possess_djinni",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.familiar_beholder\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.familiar_beholder.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/familiar_beholder"
   },
-  "duration": 90,
-  "entity_to_sacrifice": {
-    "tag": "c:spiders",
-    "display_name": "ritual.occultism.sacrifice.spiders"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/familiar_beholder"
   },
-  "type": "occultism:ritual"
+  "ritual_type": "occultism:summon_tamed"
 }

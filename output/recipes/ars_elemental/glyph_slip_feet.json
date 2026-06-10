@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_elemental:glyph_slip_feet",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "ars_nouveau:water_essence"
@@ -17,6 +15,8 @@
       "item": "minecraft:ice"
     }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_elemental:glyph_slip_feet"
+  }
 }

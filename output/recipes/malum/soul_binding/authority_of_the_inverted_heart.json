@@ -1,23 +1,24 @@
 {
-  "input": {
-    "item": "malum:fused_consciousness",
-    "count": 1
-  },
-  "result": "malum:authority_of_the_inverted_heart",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "malum:malignant_pewter_plating",
-      "count": 16
+      "count": 16,
+      "item": "malum:malignant_pewter_plating"
     },
     {
-      "item": "malum:imitation_heart",
-      "count": 16
+      "count": 16,
+      "item": "malum:imitation_heart"
     },
     {
-      "item": "malum:mnemonic_fragment",
-      "count": 16
+      "count": 16,
+      "item": "malum:mnemonic_fragment"
     }
   ],
+  "input": {
+    "count": 1,
+    "item": "malum:fused_consciousness"
+  },
+  "result": "malum:authority_of_the_inverted_heart",
   "spirits": [
     {
       "type": "malum:sacred",
@@ -51,6 +52,5 @@
       "type": "malum:infernal",
       "count": 32
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

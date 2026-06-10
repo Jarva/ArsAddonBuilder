@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ae2:semi_dark_monitor",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ae2:dark_monitor"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ae2:semi_dark_monitor"
+  }
 }

@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:chalk_rainbow",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:chalk_void"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:chalk_rainbow"
+  }
 }

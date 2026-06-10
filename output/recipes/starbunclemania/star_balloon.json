@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:air_essence"
@@ -10,61 +12,12 @@
       "item": "ars_nouveau:magebloom_fiber"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
-  "reagent": [
-    {
-      "item": "minecraft:white_wool"
-    },
-    {
-      "item": "minecraft:orange_wool"
-    },
-    {
-      "item": "minecraft:magenta_wool"
-    },
-    {
-      "item": "minecraft:light_blue_wool"
-    },
-    {
-      "item": "minecraft:yellow_wool"
-    },
-    {
-      "item": "minecraft:lime_wool"
-    },
-    {
-      "item": "minecraft:pink_wool"
-    },
-    {
-      "item": "minecraft:gray_wool"
-    },
-    {
-      "item": "minecraft:light_gray_wool"
-    },
-    {
-      "item": "minecraft:cyan_wool"
-    },
-    {
-      "item": "minecraft:purple_wool"
-    },
-    {
-      "item": "minecraft:blue_wool"
-    },
-    {
-      "item": "minecraft:brown_wool"
-    },
-    {
-      "item": "minecraft:green_wool"
-    },
-    {
-      "item": "minecraft:red_wool"
-    },
-    {
-      "item": "minecraft:black_wool"
-    }
-  ],
-  "result": {
-    "id": "starbunclemania:star_balloon",
-    "count": 1
+  "reagent": {
+    "tag": "minecraft:wool"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "result": {
+    "count": 1,
+    "id": "starbunclemania:star_balloon"
+  },
+  "sourceCost": 0
 }

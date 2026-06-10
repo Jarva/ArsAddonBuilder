@@ -1,4 +1,36 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/silver"
+      }
+    }
+  ],
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 4,
+      "tag": "c:gunpowders"
+    },
+    {
+      "count": 1,
+      "item": "malum:cthonic_gold"
+    },
+    {
+      "count": 6,
+      "tag": "c:ingots/silver"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:alchemical_impetus"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:silver_impetus"
+  },
   "spirits": [
     {
       "type": "malum:earthen",
@@ -12,28 +44,5 @@
       "type": "malum:aqueous",
       "count": 8
     }
-  ],
-  "extraInputs": [
-    {
-      "tag": "c:gunpowders",
-      "count": 4
-    },
-    {
-      "item": "malum:cthonic_gold",
-      "count": 1
-    },
-    {
-      "tag": "c:ingots/silver",
-      "count": 6
-    }
-  ],
-  "input": {
-    "item": "malum:alchemical_impetus",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:silver_impetus",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

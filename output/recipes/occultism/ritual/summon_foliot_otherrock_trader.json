@@ -1,23 +1,10 @@
 {
-  "spirit_job_type": "occultism:trader_otherrock",
-  "spirit_max_age": 3600,
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 60,
   "entity_to_summon": "occultism:foliot",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/summon_foliot_otherrock_trader",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/foliot",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_foliot_otherrock_trader\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.summon_foliot_otherrock_trader.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon_spirit_with_job",
-  "pentacle_id": "occultism:summon_foliot",
   "ingredients": [
     {
       "item": "minecraft:deepslate"
@@ -32,9 +19,22 @@
       "item": "minecraft:magma_block"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_foliot"
+  "pentacle_id": "occultism:summon_foliot",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_foliot_otherrock_trader\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_foliot_otherrock_trader.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/foliot"
   },
-  "duration": 60,
-  "type": "occultism:ritual"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/summon_foliot_otherrock_trader"
+  },
+  "ritual_type": "occultism:summon_spirit_with_job",
+  "spirit_job_type": "occultism:trader_otherrock",
+  "spirit_max_age": 3600
 }

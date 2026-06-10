@@ -1,17 +1,17 @@
 {
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:sweeping_edge",
+  "level": 1,
   "pedestalItems": [
     {
       "item": "ars_nouveau:manipulation_essence"
     },
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:storage_blocks/source"
     },
     {
-      "item": "minecraft:lapis_block"
+      "tag": "c:storage_blocks/lapis"
     }
   ],
-  "enchantment": "minecraft:sweeping_edge",
-  "level": 1,
-  "sourceCost": 2000,
-  "type": "ars_nouveau:enchantment"
+  "sourceCost": 2000
 }

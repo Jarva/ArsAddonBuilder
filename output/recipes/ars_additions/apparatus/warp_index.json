@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:enchanters_eye"
@@ -13,14 +15,12 @@
       "item": "ars_nouveau:bookwyrm_charm"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:mundane_belt"
   },
   "result": {
-    "id": "ars_additions:warp_index",
-    "count": 1
+    "count": 1,
+    "id": "ars_additions:warp_index"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

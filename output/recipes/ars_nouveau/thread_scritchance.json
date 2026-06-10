@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "minecraft:bow"
@@ -10,14 +12,12 @@
       "item": "minecraft:quartz"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:blank_thread"
   },
   "result": {
-    "id": "ars_nouveau:thread_scritchance",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:thread_scritchance"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

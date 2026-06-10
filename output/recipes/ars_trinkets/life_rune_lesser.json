@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_trinkets:essence_ring_10"
@@ -25,14 +27,12 @@
       "item": "ars_nouveau:earth_essence"
     }
   ],
-  "sourceCost": 1000,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "minecraft:netherite_ingot"
   },
   "result": {
-    "id": "ars_trinkets:life_rune_lesser",
-    "count": 1
+    "count": 1,
+    "id": "ars_trinkets:life_rune_lesser"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 1000
 }

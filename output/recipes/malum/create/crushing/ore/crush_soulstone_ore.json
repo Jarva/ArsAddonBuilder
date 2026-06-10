@@ -1,4 +1,11 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
   "ingredients": [
     {
       "item": "malum:soulstone_ore"
@@ -18,9 +25,9 @@
     },
     {
       "id": "minecraft:cobblestone",
+      "count": 1,
       "chance": 0.125
     }
   ],
-  "processing_time": 300,
-  "type": "create:crushing"
+  "processing_time": 300
 }

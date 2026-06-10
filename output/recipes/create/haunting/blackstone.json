@@ -1,24 +1,13 @@
 {
+  "type": "create:haunting",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:cobblestone"
-      },
-      {
-        "item": "minecraft:infested_cobblestone"
-      },
-      {
-        "item": "minecraft:mossy_cobblestone"
-      },
-      {
-        "item": "minecraft:cobbled_deepslate"
-      }
-    ]
+    {
+      "tag": "c:cobblestones"
+    }
   ],
   "results": [
     {
       "id": "minecraft:blackstone"
     }
-  ],
-  "type": "create:haunting"
+  ]
 }

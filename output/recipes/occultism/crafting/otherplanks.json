@@ -1,30 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "occultism:otherplanks",
-    "count": 4
-  },
   "ingredients": [
-    [
-      {
-        "item": "occultism:otherworld_log"
-      },
-      {
-        "item": "occultism:otherworld_log_natural"
-      },
-      {
-        "item": "occultism:stripped_otherworld_log_natural"
-      },
-      {
-        "item": "occultism:otherworld_wood"
-      },
-      {
-        "item": "occultism:stripped_otherworld_log"
-      },
-      {
-        "item": "occultism:stripped_otherworld_wood"
-      }
-    ]
+    {
+      "tag": "occultism:otherworld_logs"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 4,
+    "id": "occultism:otherplanks"
+  }
 }

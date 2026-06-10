@@ -1,23 +1,24 @@
 {
-  "input": {
-    "item": "minecraft:heavy_core",
-    "count": 1
-  },
-  "result": "malum:pact_of_the_skybreaker",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "malum:astral_weave",
-      "count": 8
+      "count": 8,
+      "item": "malum:astral_weave"
     },
     {
-      "item": "malum:wind_nucleus",
-      "count": 8
+      "count": 8,
+      "item": "malum:wind_nucleus"
     },
     {
-      "item": "minecraft:phantom_membrane",
-      "count": 8
+      "count": 8,
+      "item": "minecraft:phantom_membrane"
     }
   ],
+  "input": {
+    "count": 1,
+    "item": "minecraft:heavy_core"
+  },
+  "result": "malum:pact_of_the_skybreaker",
   "spirits": [
     {
       "type": "malum:aerial",
@@ -35,6 +36,5 @@
       "type": "malum:eldritch",
       "count": 16
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

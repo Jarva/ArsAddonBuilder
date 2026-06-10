@@ -1,35 +1,23 @@
 {
-  "result": {
-    "id": "farmersdelight:baked_cod_stew",
-    "count": 1
-  },
-  "container": {
-    "id": "minecraft:bowl",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "experience": 1.0,
-  "recipe_book_tab": "meals",
   "ingredients": [
     {
-      "children": [
-        {
-          "item": "minecraft:cod"
-        },
-        {
-          "item": "farmersdelight:cod_slice"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:foods/raw_cod"
     },
     {
-      "item": "minecraft:potato"
+      "tag": "c:crops/potato"
     },
     {
-      "item": "minecraft:egg"
+      "tag": "c:eggs"
     },
     {
-      "item": "farmersdelight:tomato"
+      "tag": "c:crops/tomato"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:baked_cod_stew"
+  }
 }

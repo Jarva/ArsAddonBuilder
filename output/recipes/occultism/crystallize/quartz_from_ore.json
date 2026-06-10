@@ -1,19 +1,27 @@
 {
-  "ingredient": [
+  "neoforge:conditions": [
     {
-      "item": "minecraft:nether_quartz_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/quartz"
+      }
     },
     {
-      "item": "malum:natural_quartz_ore"
-    },
-    {
-      "item": "malum:deepslate_quartz_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gems/quartz"
+      }
     }
   ],
-  "result": {
-    "tag": "c:gems/quartz",
-    "count": 2,
-    "type": "occultism:tag"
+  "type": "occultism:crystallize",
+  "ingredient": {
+    "tag": "c:ores/quartz"
   },
-  "type": "occultism:crystallize"
+  "result": {
+    "type": "occultism:tag",
+    "count": 2,
+    "tag": "c:gems/quartz"
+  }
 }

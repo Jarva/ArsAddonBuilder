@@ -1,48 +1,20 @@
 {
-  "flavour_text": "Encases your enemies or friends in a tomb of ice. Guaranteed to leave them shocked and confused.",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 25,
+    "b": 255,
     "g": 255,
-    "b": 255
+    "id": "ars_nouveau:constant",
+    "r": 25
   },
+  "flavour_text": "Encases your enemies or friends in a tomb of ice. Guaranteed to leave them shocked and confused.",
+  "name": "Darkfira\u0027s Flash Freeze",
   "sound": {
+    "pitch": 1.9,
     "sound": {
       "id": "ars_nouveau:tempestry_family"
     },
-    "volume": 1.69,
-    "pitch": 1.9
+    "volume": 1.69
   },
-  "spellData": {
-    "sound": {
-      "sound": {
-        "id": "ars_nouveau:tempestry_family"
-      },
-      "volume": 1.69,
-      "pitch": 1.9
-    },
-    "recipe": [
-      "ars_nouveau:glyph_projectile",
-      "ars_nouveau:glyph_burst",
-      "ars_nouveau:glyph_sensitive",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_conjure_water",
-      "ars_nouveau:glyph_freeze",
-      "ars_nouveau:glyph_lightning",
-      "ars_nouveau:glyph_amplify"
-    ],
-    "particleTimeline": {},
-    "name": "Darkfira\u0027s Flash Freeze",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 25,
-      "g": 255,
-      "b": 255
-    }
-  },
-  "name": "Darkfira\u0027s Flash Freeze",
   "spell": [
     "ars_nouveau:glyph_projectile",
     "ars_nouveau:glyph_burst",
@@ -55,6 +27,34 @@
     "ars_nouveau:glyph_lightning",
     "ars_nouveau:glyph_amplify"
   ],
-  "tome_type": "ars_nouveau:caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 255,
+      "g": 255,
+      "id": "ars_nouveau:constant",
+      "r": 25
+    },
+    "name": "Darkfira\u0027s Flash Freeze",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_burst",
+      "ars_nouveau:glyph_sensitive",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_conjure_water",
+      "ars_nouveau:glyph_freeze",
+      "ars_nouveau:glyph_lightning",
+      "ars_nouveau:glyph_amplify"
+    ],
+    "sound": {
+      "pitch": 1.9,
+      "sound": {
+        "id": "ars_nouveau:tempestry_family"
+      },
+      "volume": 1.69
+    }
+  },
+  "tome_type": "ars_nouveau:caster_tome"
 }

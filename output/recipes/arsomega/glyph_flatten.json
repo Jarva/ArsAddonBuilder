@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "arsomega:glyph_flatten",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "ars_nouveau:earth_essence"
@@ -14,6 +12,8 @@
       "item": "minecraft:anvil"
     }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "arsomega:glyph_flatten"
+  }
 }

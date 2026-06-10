@@ -1,13 +1,13 @@
 {
-  "result": {
-    "id": "minecraft:gold_ingot",
-    "count": 1
-  },
-  "experience": 0.7,
-  "cookingtime": 100,
+  "type": "minecraft:blasting",
   "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
   "ingredient": {
-    "item": "occultism:gold_dust"
+    "tag": "c:dusts/gold"
   },
-  "type": "minecraft:blasting"
+  "result": {
+    "count": 1,
+    "id": "minecraft:gold_ingot"
+  }
 }

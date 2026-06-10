@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "minecraft:nautilus_shell"
@@ -25,14 +27,12 @@
       "item": "minecraft:nautilus_shell"
     }
   ],
-  "sourceCost": 10000,
-  "keepNbtOfReagent": false,
   "reagent": {
-    "item": "minecraft:diamond_block"
+    "tag": "c:storage_blocks/diamond"
   },
   "result": {
-    "id": "minecraft:heart_of_the_sea",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:heart_of_the_sea"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 10000
 }

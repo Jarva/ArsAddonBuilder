@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:brass_ingot",
-    "count": 9
-  },
   "ingredients": [
     {
-      "item": "create:brass_block"
+      "tag": "c:storage_blocks/brass"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 9,
+    "id": "create:brass_ingot"
+  }
 }

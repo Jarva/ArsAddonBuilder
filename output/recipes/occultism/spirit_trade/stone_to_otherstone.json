@@ -1,32 +1,15 @@
 {
-  "ingredient": [
-    {
-      "item": "minecraft:andesite"
-    },
-    {
-      "item": "minecraft:diorite"
-    },
-    {
-      "item": "minecraft:granite"
-    },
-    {
-      "item": "minecraft:stone"
-    },
-    {
-      "item": "minecraft:deepslate"
-    },
-    {
-      "item": "minecraft:tuff"
-    }
-  ],
-  "result": {
-    "stack": {
-      "id": "occultism:otherstone",
-      "count": 2
-    },
-    "weight": 1,
-    "type": "occultism:weighted_item"
+  "type": "occultism:spirit_trade",
+  "ingredient": {
+    "tag": "c:stones"
   },
-  "trader_id": "occultism:trader_otherstone",
-  "type": "occultism:spirit_trade"
+  "result": {
+    "type": "occultism:weighted_item",
+    "stack": {
+      "count": 2,
+      "id": "occultism:otherstone"
+    },
+    "weight": 1
+  },
+  "trader_id": "occultism:trader_otherstone"
 }

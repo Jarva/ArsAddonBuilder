@@ -1,35 +1,25 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "farmersdelight:grilled_salmon",
-    "count": 1
-  },
   "ingredients": [
-    [
-      {
-        "item": "minecraft:cooked_salmon"
-      },
-      {
-        "item": "farmersdelight:cooked_salmon_slice"
-      }
-    ],
+    {
+      "tag": "c:foods/cooked_salmon"
+    },
     {
       "item": "minecraft:sweet_berries"
     },
     {
       "item": "minecraft:bowl"
     },
-    [
-      {
-        "item": "farmersdelight:cabbage"
-      },
-      {
-        "item": "farmersdelight:cabbage_leaf"
-      }
-    ],
     {
-      "item": "farmersdelight:onion"
+      "tag": "c:crops/cabbage"
+    },
+    {
+      "tag": "c:crops/onion"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:grilled_salmon"
+  }
 }

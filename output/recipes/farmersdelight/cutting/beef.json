@@ -1,25 +1,25 @@
 {
-  "tool": [
-    {
-      "action": "knife_dig",
-      "type": "farmersdelight:item_ability"
-    },
-    {
-      "tag": "c:tools/knife"
-    }
-  ],
-  "result": [
-    {
-      "item": {
-        "id": "farmersdelight:minced_beef",
-        "count": 2
-      }
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
       "item": "minecraft:beef"
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "farmersdelight:minced_beef"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
 }

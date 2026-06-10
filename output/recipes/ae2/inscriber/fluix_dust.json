@@ -1,13 +1,13 @@
 {
+  "type": "ae2:inscriber",
   "ingredients": {
     "middle": {
-      "item": "ae2:fluix_crystal"
+      "tag": "c:gems/fluix"
     }
   },
-  "result": {
-    "id": "ae2:fluix_dust",
-    "count": 1
-  },
   "mode": "inscribe",
-  "type": "ae2:inscriber"
+  "result": {
+    "count": 1,
+    "id": "ae2:fluix_dust"
+  }
 }

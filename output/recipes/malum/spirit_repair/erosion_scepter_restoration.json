@@ -1,12 +1,10 @@
 {
-  "repairMaterial": {
-    "item": "malum:void_salts",
-    "count": 8
-  },
+  "type": "malum:spirit_repair",
   "durabilityPercentage": 0.75,
-  "validItems": [
-    "malum:erosion_scepter"
-  ],
+  "repairMaterial": {
+    "count": 8,
+    "item": "malum:void_salts"
+  },
   "spirits": [
     {
       "type": "malum:eldritch",
@@ -21,5 +19,7 @@
       "count": 16
     }
   ],
-  "type": "malum:spirit_repair"
+  "validItems": [
+    "malum:erosion_scepter"
+  ]
 }

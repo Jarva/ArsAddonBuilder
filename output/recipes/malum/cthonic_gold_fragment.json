@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "malum:cthonic_gold_fragment",
-    "count": 8
-  },
   "ingredients": [
     {
       "item": "malum:cthonic_gold"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 8,
+    "id": "malum:cthonic_gold_fragment"
+  }
 }

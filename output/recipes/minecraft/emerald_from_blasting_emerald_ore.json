@@ -1,14 +1,13 @@
 {
-  "result": {
-    "id": "minecraft:emerald",
-    "count": 1
-  },
-  "experience": 1.0,
-  "cookingtime": 100,
-  "group": "emerald",
+  "type": "minecraft:blasting",
   "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "emerald",
   "ingredient": {
     "item": "minecraft:emerald_ore"
   },
-  "type": "minecraft:blasting"
+  "result": {
+    "id": "minecraft:emerald"
+  }
 }

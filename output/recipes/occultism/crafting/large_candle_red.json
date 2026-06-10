@@ -1,16 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:large_candle_red",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:large_candle"
     },
     {
-      "item": "minecraft:red_dye"
+      "tag": "c:dyes/red"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:large_candle_red"
+  }
 }

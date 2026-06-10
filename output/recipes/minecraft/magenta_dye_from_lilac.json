@@ -1,14 +1,14 @@
 {
-  "group": "magenta_dye",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:magenta_dye",
-    "count": 2
-  },
+  "group": "magenta_dye",
   "ingredients": [
     {
       "item": "minecraft:lilac"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 2,
+    "id": "minecraft:magenta_dye"
+  }
 }

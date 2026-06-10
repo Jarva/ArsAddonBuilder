@@ -1,4 +1,7 @@
 {
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:swift_sneak",
+  "level": 3,
   "pedestalItems": [
     {
       "item": "minecraft:sculk_catalyst"
@@ -10,8 +13,5 @@
       "item": "minecraft:sculk_catalyst"
     }
   ],
-  "enchantment": "minecraft:swift_sneak",
-  "level": 3,
-  "sourceCost": 9000,
-  "type": "ars_nouveau:enchantment"
+  "sourceCost": 9000
 }

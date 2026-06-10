@@ -1,19 +1,14 @@
 {
-  "ingredient": [
-    {
-      "item": "occultism:miner_foliot_unspecialized"
-    },
-    {
-      "item": "occultism:miner_debug_unspecialized"
-    }
-  ],
-  "result": {
-    "stack": {
-      "id": "minecraft:netherrack",
-      "count": 1
-    },
-    "weight": 1000,
-    "type": "occultism:weighted_item"
+  "type": "occultism:miner",
+  "ingredient": {
+    "tag": "occultism:miners/basic_resources"
   },
-  "type": "occultism:miner"
+  "result": {
+    "type": "occultism:weighted_item",
+    "stack": {
+      "count": 1,
+      "id": "minecraft:netherrack"
+    },
+    "weight": 1000
+  }
 }

@@ -1,20 +1,20 @@
 {
-  "repairMaterial": {
-    "item": "minecraft:flint",
-    "count": 2
-  },
+  "type": "malum:spirit_repair",
   "regex": {
     "itemIdRegex": "flint_.+"
   },
-  "validItems": [
-    "minecraft:flint_and_steel",
-    "farmersdelight:flint_knife"
-  ],
+  "repairMaterial": {
+    "count": 2,
+    "item": "minecraft:flint"
+  },
   "spirits": [
     {
       "type": "malum:earthen",
       "count": 4
     }
   ],
-  "type": "malum:spirit_repair"
+  "validItems": [
+    "minecraft:flint_and_steel",
+    "farmersdelight:flint_knife"
+  ]
 }

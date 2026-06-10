@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "starbunclemania:fluid_scroll_allow",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:blank_parchment"
@@ -12,5 +9,8 @@
       "item": "ars_nouveau:water_essence"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "starbunclemania:fluid_scroll_allow"
+  }
 }

@@ -1,16 +1,16 @@
 {
+  "type": "malum:runeworking",
   "input": {
-    "item": "malum:runewood_planks",
-    "count": 4
-  },
-  "secondaryInput": {
-    "item": "malum:earthen_spirit",
-    "count": 32
+    "count": 4,
+    "item": "malum:runewood_planks"
   },
   "result": {
-    "id": "malum:rune_of_stone_ward",
-    "count": 1
+    "count": 1,
+    "id": "malum:rune_of_stone_ward"
   },
-  "soundType": "malum:runic_workbench_shapes_wooden_rune",
-  "type": "malum:runeworking"
+  "secondaryInput": {
+    "count": 32,
+    "item": "malum:earthen_spirit"
+  },
+  "soundType": "malum:runic_workbench_shapes_wooden_rune"
 }

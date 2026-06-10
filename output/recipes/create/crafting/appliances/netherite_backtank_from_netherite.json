@@ -1,16 +1,16 @@
 {
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "create:copper_backtank"
   },
   "base": {
     "item": "minecraft:netherite_chestplate"
   },
-  "addition": {
-    "item": "create:copper_backtank"
-  },
   "result": {
-    "id": "create:netherite_backtank",
-    "count": 1
+    "count": 1,
+    "id": "create:netherite_backtank"
   },
-  "type": "minecraft:smithing_transform"
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
 }

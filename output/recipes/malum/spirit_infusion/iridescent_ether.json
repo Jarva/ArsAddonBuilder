@@ -1,28 +1,28 @@
 {
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "count": 1,
+      "item": "malum:arcane_charcoal"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ether"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:iridescent_ether"
+  },
   "spirits": [
     {
       "type": "malum:aqueous",
       "count": 2
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "minecraft:prismarine_crystals",
-      "count": 1
-    },
-    {
-      "item": "malum:arcane_charcoal",
-      "count": 1
-    }
-  ],
-  "carryOverComponentData": true,
-  "input": {
-    "item": "malum:ether",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:iridescent_ether",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

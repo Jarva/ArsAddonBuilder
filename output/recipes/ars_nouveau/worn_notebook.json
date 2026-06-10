@@ -1,16 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:worn_notebook",
-    "count": 1
-  },
   "ingredients": [
     {
-      "item": "minecraft:lapis_lazuli"
+      "tag": "c:gems/lapis"
     },
     {
       "item": "minecraft:book"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:worn_notebook"
+  }
 }

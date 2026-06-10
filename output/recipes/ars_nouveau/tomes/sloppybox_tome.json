@@ -1,33 +1,14 @@
 {
-  "flavour_text": "Enough heat to melt a mountain or evaporate oceans.",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 139,
+    "b": 1,
     "g": 1,
-    "b": 1
+    "id": "ars_nouveau:constant",
+    "r": 139
   },
-  "sound": {},
-  "spellData": {
-    "sound": {},
-    "recipe": [
-      "ars_nouveau:glyph_touch",
-      "ars_nouveau:glyph_rune",
-      "ars_nouveau:glyph_smelt",
-      "ars_nouveau:glyph_pierce",
-      "ars_nouveau:glyph_pierce",
-      "ars_nouveau:glyph_pierce",
-      "ars_nouveau:glyph_pierce"
-    ],
-    "particleTimeline": {},
-    "name": "Arcane Smelt",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 139,
-      "g": 1,
-      "b": 1
-    }
-  },
+  "flavour_text": "Enough heat to melt a mountain or evaporate oceans.",
   "name": "Arcane Smelt",
+  "sound": {},
   "spell": [
     "ars_nouveau:glyph_touch",
     "ars_nouveau:glyph_rune",
@@ -37,6 +18,25 @@
     "ars_nouveau:glyph_pierce",
     "ars_nouveau:glyph_pierce"
   ],
-  "tome_type": "ars_nouveau:caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 1,
+      "g": 1,
+      "id": "ars_nouveau:constant",
+      "r": 139
+    },
+    "name": "Arcane Smelt",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_touch",
+      "ars_nouveau:glyph_rune",
+      "ars_nouveau:glyph_smelt",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce"
+    ],
+    "sound": {}
+  },
+  "tome_type": "ars_nouveau:caster_tome"
 }

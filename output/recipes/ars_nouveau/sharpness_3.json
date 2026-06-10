@@ -1,4 +1,7 @@
 {
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:sharpness",
+  "level": 3,
   "pedestalItems": [
     {
       "item": "minecraft:quartz_block"
@@ -7,14 +10,11 @@
       "item": "minecraft:quartz_block"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
-      "item": "minecraft:lapis_block"
+      "tag": "c:storage_blocks/lapis"
     }
   ],
-  "enchantment": "minecraft:sharpness",
-  "level": 3,
-  "sourceCost": 5000,
-  "type": "ars_nouveau:enchantment"
+  "sourceCost": 5000
 }

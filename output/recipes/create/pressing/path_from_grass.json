@@ -1,4 +1,5 @@
 {
+  "type": "create:pressing",
   "ingredients": [
     {
       "item": "minecraft:grass_block"
@@ -8,6 +9,5 @@
     {
       "id": "minecraft:dirt_path"
     }
-  ],
-  "type": "create:pressing"
+  ]
 }

@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_nouveau:glyph_flare",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "ars_nouveau:fire_essence"
@@ -23,6 +21,8 @@
       "item": "minecraft:blaze_rod"
     }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:glyph_flare"
+  }
 }

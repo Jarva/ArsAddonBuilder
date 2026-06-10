@@ -1,11 +1,11 @@
 {
+  "type": "malum:unchained_transmutation",
+  "group": "basalt",
   "input": {
     "item": "minecraft:soul_sand"
   },
   "result": {
-    "id": "malum:blighted_earth",
-    "count": 1
-  },
-  "group": "basalt",
-  "type": "malum:unchained_transmutation"
+    "count": 1,
+    "id": "malum:blighted_earth"
+  }
 }

@@ -1,67 +1,51 @@
 {
-  "entity_to_summon": "occultism:possessed_ghast",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/possess_ghast",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/possessed_ghast",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_ghast\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.possess_ghast.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon",
-  "pentacle_id": "occultism:possess_djinni",
-  "ingredients": [
-    {
-      "children": [
-        {
-          "item": "minecraft:soul_sand"
-        },
-        {
-          "item": "minecraft:soul_soil"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "item": "minecraft:magma_block"
-    },
-    {
-      "children": [
-        {
-          "item": "minecraft:soul_sand"
-        },
-        {
-          "item": "minecraft:soul_soil"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "item": "minecraft:magma_block"
-    },
-    {
-      "item": "minecraft:netherrack"
-    },
-    {
-      "item": "minecraft:lava_bucket"
-    },
-    {
-      "item": "minecraft:diamond"
-    }
-  ],
+  "type": "occultism:ritual",
   "activation_item": {
     "item": "occultism:book_of_binding_bound_djinni"
   },
   "duration": 60,
   "entity_to_sacrifice": {
-    "tag": "c:cows",
-    "display_name": "ritual.occultism.sacrifice.cows"
+    "display_name": "ritual.occultism.sacrifice.cows",
+    "tag": "c:cows"
   },
-  "type": "occultism:ritual"
+  "entity_to_summon": "occultism:possessed_ghast",
+  "ingredients": [
+    {
+      "tag": "minecraft:soul_fire_base_blocks"
+    },
+    {
+      "tag": "c:magma"
+    },
+    {
+      "tag": "minecraft:soul_fire_base_blocks"
+    },
+    {
+      "tag": "c:magma"
+    },
+    {
+      "tag": "c:netherracks"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "tag": "c:gems/diamond"
+    }
+  ],
+  "pentacle_id": "occultism:possess_djinni",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_ghast\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_ghast.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/possessed_ghast"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/possess_ghast"
+  },
+  "ritual_type": "occultism:summon"
 }

@@ -1,21 +1,16 @@
 {
-  "template": {
-    "item": "ae2:fluix_upgrade_smithing_template"
-  },
-  "base": [
-    {
-      "item": "ae2:certus_quartz_hoe"
-    },
-    {
-      "item": "ae2:nether_quartz_hoe"
-    }
-  ],
+  "type": "minecraft:smithing_transform",
   "addition": {
     "item": "ae2:fluix_block"
   },
-  "result": {
-    "id": "ae2:fluix_hoe",
-    "count": 1
+  "base": {
+    "tag": "ae2:quartz_hoe"
   },
-  "type": "minecraft:smithing_transform"
+  "result": {
+    "count": 1,
+    "id": "ae2:fluix_hoe"
+  },
+  "template": {
+    "item": "ae2:fluix_upgrade_smithing_template"
+  }
 }

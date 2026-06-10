@@ -1,35 +1,23 @@
 {
-  "result": {
-    "id": "farmersdelight:noodle_soup",
-    "count": 1
-  },
-  "container": {
-    "id": "minecraft:bowl",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "experience": 1.0,
-  "recipe_book_tab": "meals",
   "ingredients": [
     {
-      "item": "farmersdelight:raw_pasta"
+      "tag": "c:foods/pasta"
     },
     {
-      "item": "minecraft:egg"
+      "tag": "c:eggs"
     },
     {
       "item": "minecraft:dried_kelp"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:porkchop"
-        },
-        {
-          "item": "farmersdelight:bacon"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:foods/raw_pork"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:noodle_soup"
+  }
 }

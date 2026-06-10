@@ -1,13 +1,13 @@
 {
+  "type": "create:splashing",
   "ingredients": [
     {
-      "item": "create:wheat_flour"
+      "tag": "c:flours/wheat"
     }
   ],
   "results": [
     {
       "id": "create:dough"
     }
-  ],
-  "type": "create:splashing"
+  ]
 }

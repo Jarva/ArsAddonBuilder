@@ -1,27 +1,24 @@
 {
+  "type": "ars_nouveau:book_upgrade",
   "category": "misc",
-  "result": {
-    "id": "ars_zero:spellcasting_circlet",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_zero:dull_circlet"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "minecraft:emerald"
+      "tag": "c:gems/emerald"
     },
     {
-      "item": "minecraft:emerald"
+      "tag": "c:gems/emerald"
     },
     {
       "item": "minecraft:totem_of_undying"
@@ -33,5 +30,8 @@
       "item": "ars_nouveau:wilden_tribute"
     }
   ],
-  "type": "ars_nouveau:book_upgrade"
+  "result": {
+    "count": 1,
+    "id": "ars_zero:spellcasting_circlet"
+  }
 }

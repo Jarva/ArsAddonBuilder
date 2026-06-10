@@ -1,35 +1,23 @@
 {
-  "result": {
-    "id": "farmersdelight:onion_soup",
-    "count": 1
-  },
-  "container": {
-    "id": "minecraft:bowl",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "experience": 1.0,
-  "recipe_book_tab": "meals",
   "ingredients": [
     {
-      "item": "farmersdelight:onion"
+      "tag": "c:crops/onion"
     },
     {
-      "item": "farmersdelight:onion"
+      "tag": "c:crops/onion"
     },
     {
-      "item": "minecraft:bread"
+      "tag": "c:foods/bread"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:milk_bucket"
-        },
-        {
-          "item": "farmersdelight:milk_bottle"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:drinks/milk"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:onion_soup"
+  }
 }

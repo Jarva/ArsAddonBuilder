@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:attribute_filter",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "create:attribute_filter"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:attribute_filter"
+  }
 }

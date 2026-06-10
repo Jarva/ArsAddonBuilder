@@ -1,24 +1,8 @@
 {
-  "tool": [
-    {
-      "action": "axe_dig",
-      "type": "farmersdelight:item_ability"
-    },
-    {
-      "tag": "minecraft:axes"
-    }
-  ],
-  "result": [
-    {
-      "item": {
-        "id": "minecraft:crimson_planks",
-        "count": 1
-      },
-      "chance": 0.75
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
+      "type": "neoforge:compound",
       "children": [
         {
           "item": "minecraft:crimson_door"
@@ -47,9 +31,25 @@
         {
           "item": "farmersdelight:crimson_cabinet"
         }
-      ],
-      "type": "neoforge:compound"
+      ]
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "chance": 0.75,
+      "item": {
+        "count": 1,
+        "id": "minecraft:crimson_planks"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "axe_dig"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ]
 }

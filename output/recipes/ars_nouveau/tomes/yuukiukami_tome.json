@@ -1,31 +1,14 @@
 {
-  "flavour_text": "One of YuukiUkami’s earliest creations, this spell reflects their desire for precision and mastery. Infused with the arcane finesse of its creator, it draws minerals from the earth at a distance, as if the ores themselves were eager to join the mage’s growing legacy",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 48,
+    "b": 105,
     "g": 1,
-    "b": 105
+    "id": "ars_nouveau:constant",
+    "r": 48
   },
-  "sound": {},
-  "spellData": {
-    "sound": {},
-    "recipe": [
-      "ars_nouveau:glyph_projectile",
-      "ars_nouveau:glyph_break",
-      "ars_nouveau:glyph_amplify",
-      "ars_nouveau:glyph_extract",
-      "ars_nouveau:glyph_pickup"
-    ],
-    "particleTimeline": {},
-    "name": "Yuuki\u0027s Mineral Assimilator",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 48,
-      "g": 1,
-      "b": 105
-    }
-  },
+  "flavour_text": "One of YuukiUkami’s earliest creations, this spell reflects their desire for precision and mastery. Infused with the arcane finesse of its creator, it draws minerals from the earth at a distance, as if the ores themselves were eager to join the mage’s growing legacy",
   "name": "Yuuki\u0027s Mineral Assimilator",
+  "sound": {},
   "spell": [
     "ars_nouveau:glyph_projectile",
     "ars_nouveau:glyph_break",
@@ -33,6 +16,23 @@
     "ars_nouveau:glyph_extract",
     "ars_nouveau:glyph_pickup"
   ],
-  "tome_type": "ars_nouveau:caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 105,
+      "g": 1,
+      "id": "ars_nouveau:constant",
+      "r": 48
+    },
+    "name": "Yuuki\u0027s Mineral Assimilator",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_break",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_extract",
+      "ars_nouveau:glyph_pickup"
+    ],
+    "sound": {}
+  },
+  "tome_type": "ars_nouveau:caster_tome"
 }

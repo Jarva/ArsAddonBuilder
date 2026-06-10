@@ -1,4 +1,27 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 4,
+      "tag": "c:ingots/iron"
+    },
+    {
+      "count": 2,
+      "item": "malum:soulwood_planks"
+    },
+    {
+      "count": 1,
+      "item": "malum:malignant_lead"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:lamplighters_tongs"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:catalyst_lobber"
+  },
   "spirits": [
     {
       "type": "malum:aqueous",
@@ -12,28 +35,5 @@
       "type": "malum:eldritch",
       "count": 32
     }
-  ],
-  "extraInputs": [
-    {
-      "tag": "c:ingots/iron",
-      "count": 4
-    },
-    {
-      "item": "malum:soulwood_planks",
-      "count": 2
-    },
-    {
-      "item": "malum:malignant_lead",
-      "count": 1
-    }
-  ],
-  "input": {
-    "item": "malum:lamplighters_tongs",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:catalyst_lobber",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

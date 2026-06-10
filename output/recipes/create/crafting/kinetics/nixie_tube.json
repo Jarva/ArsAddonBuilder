@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:nixie_tube",
-    "count": 4
-  },
   "ingredients": [
     {
       "item": "create:electron_tube"
@@ -12,5 +9,8 @@
       "item": "create:electron_tube"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 4,
+    "id": "create:nixie_tube"
+  }
 }

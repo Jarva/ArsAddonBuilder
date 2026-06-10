@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:air_essence"
@@ -13,14 +15,12 @@
       "item": "minecraft:breeze_rod"
     }
   ],
-  "sourceCost": 1000,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:source_gem"
   },
   "result": {
-    "id": "ars_zero:air_filial",
-    "count": 1
+    "count": 1,
+    "id": "ars_zero:air_filial"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 1000
 }

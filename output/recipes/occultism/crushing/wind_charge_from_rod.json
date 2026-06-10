@@ -1,11 +1,11 @@
 {
+  "type": "occultism:crushing",
   "ingredient": {
-    "item": "minecraft:breeze_rod"
+    "tag": "c:rods/breeze"
   },
   "result": {
-    "id": "minecraft:wind_charge",
+    "type": "occultism:item",
     "count": 4,
-    "type": "occultism:item"
-  },
-  "type": "occultism:crushing"
+    "id": "minecraft:wind_charge"
+  }
 }

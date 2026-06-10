@@ -1,68 +1,40 @@
 {
-  "result": {
-    "id": "farmersdelight:stuffed_pumpkin_block",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "container": {
-    "id": "minecraft:pumpkin",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:pumpkin"
   },
-  "experience": 2.0,
   "cookingtime": 400,
-  "recipe_book_tab": "meals",
+  "experience": 2.0,
   "ingredients": [
     {
-      "item": "farmersdelight:rice"
+      "tag": "c:crops/rice"
     },
     {
-      "item": "farmersdelight:onion"
+      "tag": "c:crops/onion"
     },
     {
       "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:potato"
+      "tag": "c:crops/potato"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:sweet_berries"
-        },
-        {
-          "item": "minecraft:glow_berries"
-        },
-        {
-          "item": "ars_nouveau:sourceberry_bush"
-        },
-        {
-          "item": "create:chocolate_glazed_berries"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:foods/berry"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:carrot"
-        },
-        {
-          "item": "minecraft:golden_carrot"
-        },
-        {
-          "item": "minecraft:potato"
-        },
-        {
-          "item": "minecraft:beetroot"
-        },
-        {
-          "item": "farmersdelight:onion"
-        },
-        {
-          "item": "farmersdelight:tomato"
-        }
-      ],
-      "type": "neoforge:compound"
+      "type": "neoforge:difference",
+      "base": {
+        "tag": "c:foods/vegetable"
+      },
+      "subtracted": {
+        "item": "minecraft:melon_slice"
+      }
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:stuffed_pumpkin_block"
+  }
 }

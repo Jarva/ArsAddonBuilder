@@ -1,25 +1,18 @@
 {
+  "type": "create:filling",
   "ingredients": [
     {
       "item": "minecraft:apple"
     },
     {
-      "type": "neoforge:compound",
-      "children": [
-        {
-          "fluid": "create:flowing_honey"
-        },
-        {
-          "fluid": "create:honey"
-        }
-      ],
-      "amount": 250
+      "type": "neoforge:tag",
+      "amount": 250,
+      "tag": "c:honey"
     }
   ],
   "results": [
     {
       "id": "create:honeyed_apple"
     }
-  ],
-  "type": "create:filling"
+  ]
 }

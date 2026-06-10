@@ -1,25 +1,25 @@
 {
-  "tool": [
-    {
-      "action": "knife_dig",
-      "type": "farmersdelight:item_ability"
-    },
-    {
-      "tag": "c:tools/knife"
-    }
-  ],
-  "result": [
-    {
-      "item": {
-        "id": "minecraft:orange_dye",
-        "count": 2
-      }
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
       "item": "minecraft:orange_tulip"
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "minecraft:orange_dye"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
 }

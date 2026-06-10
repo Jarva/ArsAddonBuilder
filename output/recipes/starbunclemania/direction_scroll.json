@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "starbunclemania:direction_scroll",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:blank_parchment"
@@ -12,5 +9,8 @@
       "item": "minecraft:compass"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "starbunclemania:direction_scroll"
+  }
 }

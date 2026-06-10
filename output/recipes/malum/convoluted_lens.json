@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "malum:hallowed_gold_nugget"
+    },
+    "Y": {
+      "item": "malum:warp_flux"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XYX",
+    " X "
+  ],
+  "result": {
+    "count": 2,
+    "id": "malum:convoluted_lens"
+  }
+}

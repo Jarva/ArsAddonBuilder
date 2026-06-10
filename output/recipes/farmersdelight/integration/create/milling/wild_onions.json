@@ -1,4 +1,11 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
   "ingredients": [
     {
       "item": "farmersdelight:wild_onions"
@@ -6,7 +13,8 @@
   ],
   "results": [
     {
-      "id": "minecraft:magenta_dye"
+      "id": "minecraft:magenta_dye",
+      "count": 1
     },
     {
       "id": "minecraft:magenta_dye",
@@ -15,9 +23,9 @@
     },
     {
       "id": "minecraft:lime_dye",
+      "count": 1,
       "chance": 0.1
     }
   ],
-  "processing_time": 50,
-  "type": "create:milling"
+  "processing_time": 50
 }

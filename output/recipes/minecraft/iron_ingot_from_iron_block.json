@@ -1,14 +1,14 @@
 {
-  "group": "iron_ingot",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:iron_ingot",
-    "count": 9
-  },
+  "group": "iron_ingot",
   "ingredients": [
     {
       "item": "minecraft:iron_block"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 9,
+    "id": "minecraft:iron_ingot"
+  }
 }

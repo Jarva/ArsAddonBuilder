@@ -1,25 +1,25 @@
 {
-  "tool": [
-    {
-      "action": "knife_dig",
-      "type": "farmersdelight:item_ability"
-    },
-    {
-      "tag": "c:tools/knife"
-    }
-  ],
-  "result": [
-    {
-      "item": {
-        "id": "farmersdelight:kelp_roll_slice",
-        "count": 3
-      }
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
       "item": "farmersdelight:kelp_roll"
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "item": {
+        "count": 3,
+        "id": "farmersdelight:kelp_roll_slice"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
 }

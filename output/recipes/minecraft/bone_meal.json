@@ -1,14 +1,14 @@
 {
-  "group": "bonemeal",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:bone_meal",
-    "count": 3
-  },
+  "group": "bonemeal",
   "ingredients": [
     {
       "item": "minecraft:bone"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 3,
+    "id": "minecraft:bone_meal"
+  }
 }

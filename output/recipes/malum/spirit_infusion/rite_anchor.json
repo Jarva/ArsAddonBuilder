@@ -1,4 +1,31 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 8,
+      "item": "malum:refined_soulstone"
+    },
+    {
+      "count": 4,
+      "item": "malum:hex_ash"
+    },
+    {
+      "count": 2,
+      "item": "malum:soulwood_planks"
+    },
+    {
+      "count": 2,
+      "tag": "malum:tainted_rock_blocks"
+    }
+  ],
+  "input": {
+    "count": 4,
+    "item": "malum:runewood_planks"
+  },
+  "result": {
+    "count": 4,
+    "id": "malum:rite_anchor"
+  },
   "spirits": [
     {
       "type": "malum:aerial",
@@ -20,32 +47,5 @@
       "type": "malum:arcane",
       "count": 4
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:refined_soulstone",
-      "count": 8
-    },
-    {
-      "item": "malum:hex_ash",
-      "count": 4
-    },
-    {
-      "item": "malum:soulwood_planks",
-      "count": 2
-    },
-    {
-      "tag": "malum:tainted_rock_blocks",
-      "count": 2
-    }
-  ],
-  "input": {
-    "item": "malum:runewood_planks",
-    "count": 4
-  },
-  "result": {
-    "id": "malum:rite_anchor",
-    "count": 4
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

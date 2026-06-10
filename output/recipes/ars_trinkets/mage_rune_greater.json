@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_trinkets:mage_rune"
@@ -7,14 +9,12 @@
       "item": "ars_trinkets:mage_rune"
     }
   ],
-  "sourceCost": 1000,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "minecraft:netherite_block"
   },
   "result": {
-    "id": "ars_trinkets:mage_rune_greater",
-    "count": 1
+    "count": 1,
+    "id": "ars_trinkets:mage_rune_greater"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 1000
 }

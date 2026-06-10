@@ -1,13 +1,12 @@
 {
-  "result": {
-    "id": "minecraft:quartz",
-    "count": 1
-  },
-  "experience": 0.2,
-  "cookingtime": 100,
+  "type": "minecraft:blasting",
   "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
   "ingredient": {
     "item": "minecraft:nether_quartz_ore"
   },
-  "type": "minecraft:blasting"
+  "result": {
+    "id": "minecraft:quartz"
+  }
 }

@@ -1,4 +1,28 @@
 {
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "malum:fused_consciousness"
+    },
+    {
+      "count": 8,
+      "item": "malum:auric_embers"
+    },
+    {
+      "count": 4,
+      "item": "malum:malignant_pewter_plating"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:mnemonic_hex_staff"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:unwinding_chaos"
+  },
   "spirits": [
     {
       "type": "malum:wicked",
@@ -20,29 +44,5 @@
       "type": "malum:eldritch",
       "count": 32
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:fused_consciousness",
-      "count": 1
-    },
-    {
-      "item": "malum:auric_embers",
-      "count": 8
-    },
-    {
-      "item": "malum:malignant_pewter_plating",
-      "count": 4
-    }
-  ],
-  "carryOverComponentData": true,
-  "input": {
-    "item": "malum:mnemonic_hex_staff",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:unwinding_chaos",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

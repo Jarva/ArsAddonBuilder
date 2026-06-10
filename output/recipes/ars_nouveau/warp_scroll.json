@@ -1,37 +1,37 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:warp_scroll",
-    "count": 1
-  },
   "ingredients": [
     {
-      "item": "minecraft:lapis_lazuli"
+      "tag": "c:gems/lapis"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "tag": "c:gems/lapis"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "tag": "c:gems/lapis"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "tag": "c:gems/lapis"
     },
     {
       "item": "ars_nouveau:blank_parchment"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:warp_scroll"
+  }
 }

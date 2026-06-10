@@ -1,18 +1,13 @@
 {
-  "result": {
-    "id": "occultism:silver_ingot",
-    "count": 1
-  },
-  "experience": 0.7,
-  "cookingtime": 100,
+  "type": "minecraft:blasting",
   "category": "misc",
-  "ingredient": [
-    {
-      "item": "occultism:silver_ore"
-    },
-    {
-      "item": "occultism:silver_ore_deepslate"
-    }
-  ],
-  "type": "minecraft:blasting"
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "tag": "c:ores/silver"
+  },
+  "result": {
+    "count": 1,
+    "id": "occultism:silver_ingot"
+  }
 }

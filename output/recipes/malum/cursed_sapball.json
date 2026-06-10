@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "malum:cursed_sapball",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "malum:cursed_sap"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "malum:cursed_sapball"
+  }
 }

@@ -1,33 +1,14 @@
 {
-  "flavour_text": "A classic.",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 255,
+    "b": 180,
     "g": 25,
-    "b": 180
+    "id": "ars_nouveau:constant",
+    "r": 255
   },
-  "sound": {},
-  "spellData": {
-    "sound": {},
-    "recipe": [
-      "ars_nouveau:glyph_projectile",
-      "ars_nouveau:glyph_ignite",
-      "ars_nouveau:glyph_explosion",
-      "ars_nouveau:glyph_amplify",
-      "ars_nouveau:glyph_amplify",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_aoe"
-    ],
-    "particleTimeline": {},
-    "name": "Fireball!",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 255,
-      "g": 25,
-      "b": 180
-    }
-  },
+  "flavour_text": "A classic.",
   "name": "Fireball!",
+  "sound": {},
   "spell": [
     "ars_nouveau:glyph_projectile",
     "ars_nouveau:glyph_ignite",
@@ -37,6 +18,25 @@
     "ars_nouveau:glyph_aoe",
     "ars_nouveau:glyph_aoe"
   ],
-  "tome_type": "ars_nouveau:caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 180,
+      "g": 25,
+      "id": "ars_nouveau:constant",
+      "r": 255
+    },
+    "name": "Fireball!",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_ignite",
+      "ars_nouveau:glyph_explosion",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe"
+    ],
+    "sound": {}
+  },
+  "tome_type": "ars_nouveau:caster_tome"
 }

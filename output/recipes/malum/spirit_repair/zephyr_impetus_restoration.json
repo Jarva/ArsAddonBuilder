@@ -1,12 +1,10 @@
 {
-  "repairMaterial": {
-    "item": "malum:wind_nucleus",
-    "count": 4
-  },
+  "type": "malum:spirit_repair",
   "durabilityPercentage": 1.0,
-  "validItems": [
-    "malum:fractured_zephyr_impetus"
-  ],
+  "repairMaterial": {
+    "count": 4,
+    "item": "malum:wind_nucleus"
+  },
   "spirits": [
     {
       "type": "malum:arcane",
@@ -17,5 +15,7 @@
       "count": 8
     }
   ],
-  "type": "malum:spirit_repair"
+  "validItems": [
+    "malum:fractured_zephyr_impetus"
+  ]
 }

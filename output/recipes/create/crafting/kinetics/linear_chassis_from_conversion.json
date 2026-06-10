@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:linear_chassis",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "create:secondary_linear_chassis"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:linear_chassis"
+  }
 }

@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "create:waxed_exposed_copper_shingles",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "create:exposed_copper_shingles"
@@ -12,5 +9,8 @@
       "item": "minecraft:honeycomb"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:waxed_exposed_copper_shingles"
+  }
 }

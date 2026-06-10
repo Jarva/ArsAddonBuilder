@@ -1,16 +1,16 @@
 {
+  "type": "ars_nouveau:crush",
   "input": {
     "item": "minecraft:terracotta"
   },
   "output": [
     {
-      "stack": {
-        "id": "minecraft:red_sand",
-        "count": 1
-      },
       "chance": 1.0,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:red_sand"
+      }
     }
-  ],
-  "type": "ars_nouveau:crush"
+  ]
 }

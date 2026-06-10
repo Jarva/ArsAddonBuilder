@@ -1,24 +1,21 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_zero:multiphase_orb",
-    "count": 1
-  },
   "ingredients": [
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "minecraft:emerald"
+      "tag": "c:gems/emerald"
     },
     {
-      "item": "minecraft:emerald"
+      "tag": "c:gems/emerald"
     },
     {
       "item": "minecraft:totem_of_undying"
@@ -33,5 +30,8 @@
       "item": "ars_nouveau:source_gem"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_zero:multiphase_orb"
+  }
 }

@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:manipulation_essence"
@@ -25,14 +27,12 @@
       "item": "minecraft:gold_ingot"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ae2:item_cell_housing"
   },
   "result": {
-    "id": "arseng:source_cell_housing",
-    "count": 1
+    "count": 1,
+    "id": "arseng:source_cell_housing"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

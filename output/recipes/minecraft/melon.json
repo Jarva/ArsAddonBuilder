@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "minecraft:melon",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:melon_slice"
@@ -33,5 +30,8 @@
       "item": "minecraft:melon_slice"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:melon"
+  }
 }

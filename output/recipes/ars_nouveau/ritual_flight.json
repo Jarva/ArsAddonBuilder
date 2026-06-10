@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:ritual_flight",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:purple_archwood_log"
@@ -18,14 +15,17 @@
       "item": "ars_nouveau:wilden_wing"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
       "item": "minecraft:ender_pearl"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:ritual_flight"
+  }
 }

@@ -1,14 +1,9 @@
 {
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/craft_miner_afrit_deeps",
-    "count": 1
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
   },
-  "result": {
-    "id": "occultism:miner_afrit_deeps",
-    "count": 1
-  },
-  "ritual_type": "occultism:craft_miner_spirit",
-  "pentacle_id": "occultism:craft_afrit",
+  "duration": 300,
   "ingredients": [
     {
       "item": "occultism:miner_djinni_ores"
@@ -29,9 +24,14 @@
       "item": "minecraft:crying_obsidian"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_afrit"
+  "pentacle_id": "occultism:craft_afrit",
+  "result": {
+    "count": 1,
+    "id": "occultism:miner_afrit_deeps"
   },
-  "duration": 300,
-  "type": "occultism:ritual"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/craft_miner_afrit_deeps"
+  },
+  "ritual_type": "occultism:craft_miner_spirit"
 }

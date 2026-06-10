@@ -1,63 +1,29 @@
 {
-  "result": {
-    "id": "farmersdelight:chicken_soup",
-    "count": 1
-  },
-  "container": {
-    "id": "minecraft:bowl",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "experience": 1.0,
-  "recipe_book_tab": "meals",
   "ingredients": [
     {
-      "children": [
-        {
-          "item": "minecraft:chicken"
-        },
-        {
-          "item": "farmersdelight:chicken_cuts"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:foods/raw_chicken"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "c:crops/carrot"
     },
     {
-      "children": [
-        {
-          "item": "farmersdelight:cabbage"
-        },
-        {
-          "item": "farmersdelight:cabbage_leaf"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:foods/leafy_green"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:carrot"
-        },
-        {
-          "item": "minecraft:golden_carrot"
-        },
-        {
-          "item": "minecraft:potato"
-        },
-        {
-          "item": "minecraft:beetroot"
-        },
-        {
-          "item": "farmersdelight:onion"
-        },
-        {
-          "item": "farmersdelight:tomato"
-        }
-      ],
-      "type": "neoforge:compound"
+      "type": "neoforge:difference",
+      "base": {
+        "tag": "c:foods/vegetable"
+      },
+      "subtracted": {
+        "item": "minecraft:melon_slice"
+      }
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:chicken_soup"
+  }
 }

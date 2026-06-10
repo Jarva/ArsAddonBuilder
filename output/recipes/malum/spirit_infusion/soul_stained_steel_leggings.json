@@ -1,4 +1,28 @@
 {
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "count": 6,
+      "item": "malum:soul_stained_steel_plating"
+    },
+    {
+      "count": 4,
+      "item": "malum:refined_soulstone"
+    },
+    {
+      "count": 8,
+      "item": "malum:twisted_rock"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "minecraft:iron_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:soul_stained_steel_leggings"
+  },
   "spirits": [
     {
       "type": "malum:earthen",
@@ -12,29 +36,5 @@
       "type": "malum:arcane",
       "count": 8
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:soul_stained_steel_plating",
-      "count": 6
-    },
-    {
-      "item": "malum:refined_soulstone",
-      "count": 4
-    },
-    {
-      "item": "malum:twisted_rock",
-      "count": 8
-    }
-  ],
-  "carryOverComponentData": true,
-  "input": {
-    "item": "minecraft:iron_leggings",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:soul_stained_steel_leggings",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

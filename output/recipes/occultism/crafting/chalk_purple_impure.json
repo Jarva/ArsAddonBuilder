@@ -1,32 +1,22 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:chalk_purple_impure",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:chalk_white_impure"
     },
     {
-      "item": "occultism:crushed_end_stone"
+      "tag": "c:dusts/end_stone"
     },
-    [
-      {
-        "item": "create:powdered_obsidian"
-      },
-      {
-        "item": "occultism:obsidian_dust"
-      }
-    ],
-    [
-      {
-        "item": "create:powdered_obsidian"
-      },
-      {
-        "item": "occultism:obsidian_dust"
-      }
-    ]
+    {
+      "tag": "c:dusts/obsidian"
+    },
+    {
+      "tag": "c:dusts/obsidian"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:chalk_purple_impure"
+  }
 }

@@ -1,14 +1,10 @@
 {
-  "result": {
-    "id": "arsdelight:bastion_pork",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "container": {
-    "id": "minecraft:bowl",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:bowl"
   },
   "experience": 0.1,
-  "recipe_book_tab": "meals",
   "ingredients": [
     {
       "item": "ars_nouveau:bastion_pod"
@@ -17,22 +13,18 @@
       "item": "arsdelight:activated_bastion_jam"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:porkchop"
-        },
-        {
-          "item": "farmersdelight:bacon"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:foods/raw_pork"
     },
     {
-      "item": "farmersdelight:tomato"
+      "tag": "c:foods/tomato"
     },
     {
       "item": "arsdelight:wilden_sauce"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "arsdelight:bastion_pork"
+  }
 }

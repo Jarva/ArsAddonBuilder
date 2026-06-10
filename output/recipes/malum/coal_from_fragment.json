@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:coal",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "malum:coal_fragment"
@@ -30,5 +27,8 @@
       "item": "malum:coal_fragment"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:coal"
+  }
 }

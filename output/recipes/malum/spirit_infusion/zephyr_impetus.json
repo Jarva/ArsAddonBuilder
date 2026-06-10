@@ -1,4 +1,31 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 8,
+      "item": "minecraft:wind_charge"
+    },
+    {
+      "count": 6,
+      "item": "malum:iron_node"
+    },
+    {
+      "count": 4,
+      "item": "malum:wind_nucleus"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:heavy_core"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:alchemical_impetus"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:zephyr_impetus"
+  },
   "spirits": [
     {
       "type": "malum:aerial",
@@ -8,32 +35,5 @@
       "type": "malum:arcane",
       "count": 16
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "minecraft:wind_charge",
-      "count": 8
-    },
-    {
-      "item": "malum:iron_node",
-      "count": 6
-    },
-    {
-      "item": "malum:wind_nucleus",
-      "count": 4
-    },
-    {
-      "item": "minecraft:heavy_core",
-      "count": 1
-    }
-  ],
-  "input": {
-    "item": "malum:alchemical_impetus",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:zephyr_impetus",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

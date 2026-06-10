@@ -1,43 +1,15 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
   "ingredients": [
-    [
-      {
-        "item": "malum:iron_impetus"
-      },
-      {
-        "item": "malum:copper_impetus"
-      },
-      {
-        "item": "malum:gold_impetus"
-      },
-      {
-        "item": "malum:aluminum_impetus"
-      },
-      {
-        "item": "malum:nickel_impetus"
-      },
-      {
-        "item": "malum:silver_impetus"
-      },
-      {
-        "item": "malum:tin_impetus"
-      },
-      {
-        "item": "malum:zinc_impetus"
-      },
-      {
-        "item": "malum:osmium_impetus"
-      },
-      {
-        "item": "malum:lead_impetus"
-      },
-      {
-        "item": "malum:uranium_impetus"
-      },
-      {
-        "item": "malum:cobalt_impetus"
-      }
-    ]
+    {
+      "tag": "malum:metal_impetus"
+    }
   ],
   "results": [
     {
@@ -50,6 +22,5 @@
       "chance": 0.75
     }
   ],
-  "processing_time": 600,
-  "type": "create:crushing"
+  "processing_time": 600
 }

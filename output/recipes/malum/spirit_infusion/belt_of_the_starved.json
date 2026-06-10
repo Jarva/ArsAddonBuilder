@@ -1,4 +1,31 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 4,
+      "item": "minecraft:bone"
+    },
+    {
+      "count": 8,
+      "item": "malum:grim_talc"
+    },
+    {
+      "count": 4,
+      "item": "malum:rotting_essence"
+    },
+    {
+      "count": 4,
+      "item": "malum:refined_soulstone"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:gilded_belt"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:belt_of_the_starved"
+  },
   "spirits": [
     {
       "type": "malum:wicked",
@@ -12,32 +39,5 @@
       "type": "malum:arcane",
       "count": 16
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "minecraft:bone",
-      "count": 4
-    },
-    {
-      "item": "malum:grim_talc",
-      "count": 8
-    },
-    {
-      "item": "malum:rotting_essence",
-      "count": 4
-    },
-    {
-      "item": "malum:refined_soulstone",
-      "count": 4
-    }
-  ],
-  "input": {
-    "item": "malum:gilded_belt",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:belt_of_the_starved",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

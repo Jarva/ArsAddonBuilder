@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:chalk_red_impure",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:chalk_white_impure"
@@ -15,8 +12,11 @@
       "item": "minecraft:torchflower"
     },
     {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:chalk_red_impure"
+  }
 }

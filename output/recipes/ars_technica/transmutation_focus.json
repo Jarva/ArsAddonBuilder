@@ -1,7 +1,9 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
-      "item": "create:brass_ingot"
+      "tag": "c:ingots/brass"
     },
     {
       "item": "minecraft:rabbit_foot"
@@ -13,14 +15,12 @@
       "item": "minecraft:emerald"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:manipulation_essence"
   },
   "result": {
-    "id": "ars_technica:transmutation_focus",
-    "count": 1
+    "count": 1,
+    "id": "ars_technica:transmutation_focus"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

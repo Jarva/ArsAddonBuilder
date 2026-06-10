@@ -1,12 +1,12 @@
 {
+  "type": "ars_nouveau:imbuement",
   "input": {
     "item": "minecraft:copper_block"
   },
   "output": {
-    "id": "ars_trinkets:essence_1",
-    "count": 1
+    "count": 1,
+    "id": "ars_trinkets:essence_1"
   },
-  "source": 10,
   "pedestalItems": [
     {
       "item": "minecraft:copper_ingot"
@@ -15,5 +15,5 @@
       "item": "minecraft:copper_ingot"
     }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 10
 }

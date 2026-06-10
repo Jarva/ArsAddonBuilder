@@ -1,38 +1,38 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:ring_of_potential"
   },
   "result": {
-    "id": "ars_nouveau:ring_of_lesser_discount",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:ring_of_lesser_discount"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

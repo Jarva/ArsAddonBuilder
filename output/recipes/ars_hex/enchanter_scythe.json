@@ -1,206 +1,35 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "malum"
+    }
+  ],
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
   "pedestalItems": [
     {
-      "item": "minecraft:gold_block"
+      "tag": "c:storage_blocks/gold"
     },
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:storage_blocks/source"
     },
-    [
-      {
-        "item": "ars_nouveau:red_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:blue_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:purple_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:green_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:red_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:blue_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:green_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:purple_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_blue_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:stripped_blue_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_green_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:stripped_green_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_red_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:stripped_red_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_purple_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:stripped_purple_archwood_wood"
-      },
-      {
-        "item": "ars_elemental:yellow_archwood_log"
-      },
-      {
-        "item": "ars_elemental:yellow_archwood"
-      },
-      {
-        "item": "ars_elemental:stripped_yellow_archwood_log"
-      },
-      {
-        "item": "ars_elemental:stripped_yellow_archwood"
-      }
-    ],
-    [
-      {
-        "item": "ars_nouveau:red_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:blue_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:purple_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:green_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:red_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:blue_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:green_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:purple_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_blue_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:stripped_blue_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_green_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:stripped_green_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_red_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:stripped_red_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_purple_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:stripped_purple_archwood_wood"
-      },
-      {
-        "item": "ars_elemental:yellow_archwood_log"
-      },
-      {
-        "item": "ars_elemental:yellow_archwood"
-      },
-      {
-        "item": "ars_elemental:stripped_yellow_archwood_log"
-      },
-      {
-        "item": "ars_elemental:stripped_yellow_archwood"
-      }
-    ],
-    [
-      {
-        "item": "ars_nouveau:red_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:blue_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:purple_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:green_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:red_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:blue_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:green_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:purple_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_blue_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:stripped_blue_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_green_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:stripped_green_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_red_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:stripped_red_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_purple_archwood_log"
-      },
-      {
-        "item": "ars_nouveau:stripped_purple_archwood_wood"
-      },
-      {
-        "item": "ars_elemental:yellow_archwood_log"
-      },
-      {
-        "item": "ars_elemental:yellow_archwood"
-      },
-      {
-        "item": "ars_elemental:stripped_yellow_archwood_log"
-      },
-      {
-        "item": "ars_elemental:stripped_yellow_archwood"
-      }
-    ]
+    {
+      "tag": "c:logs/archwood"
+    },
+    {
+      "tag": "c:logs/archwood"
+    },
+    {
+      "tag": "c:logs/archwood"
+    }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": true,
   "reagent": {
     "item": "malum:soul_stained_steel_scythe"
   },
   "result": {
-    "id": "ars_hex:enchanter_scythe",
-    "count": 1
+    "count": 1,
+    "id": "ars_hex:enchanter_scythe"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

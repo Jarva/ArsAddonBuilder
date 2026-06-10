@@ -1,22 +1,15 @@
 {
+  "type": "create:compacting",
   "ingredients": [
     {
-      "type": "neoforge:compound",
-      "children": [
-        {
-          "fluid": "create:flowing_honey"
-        },
-        {
-          "fluid": "create:honey"
-        }
-      ],
-      "amount": 1000
+      "type": "neoforge:tag",
+      "amount": 1000,
+      "tag": "c:honey"
     }
   ],
   "results": [
     {
       "id": "minecraft:honey_block"
     }
-  ],
-  "type": "create:compacting"
+  ]
 }

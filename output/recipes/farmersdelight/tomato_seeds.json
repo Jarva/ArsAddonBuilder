@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "farmersdelight:tomato_seeds",
-    "count": 1
-  },
   "ingredients": [
     [
       {
@@ -14,5 +11,8 @@
       }
     ]
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:tomato_seeds"
+  }
 }

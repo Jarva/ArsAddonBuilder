@@ -1,23 +1,24 @@
 {
-  "input": {
-    "item": "minecraft:heart_of_the_sea",
-    "count": 1
-  },
-  "result": "malum:pact_of_tidal_affinity",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "minecraft:prismarine_shard",
-      "count": 8
+      "count": 8,
+      "item": "minecraft:prismarine_shard"
     },
     {
-      "item": "minecraft:prismarine_crystals",
-      "count": 8
+      "count": 8,
+      "item": "minecraft:prismarine_crystals"
     },
     {
-      "item": "minecraft:kelp",
-      "count": 8
+      "count": 8,
+      "item": "minecraft:kelp"
     }
   ],
+  "input": {
+    "count": 1,
+    "item": "minecraft:heart_of_the_sea"
+  },
+  "result": "malum:pact_of_tidal_affinity",
   "spirits": [
     {
       "type": "malum:aqueous",
@@ -35,6 +36,5 @@
       "type": "malum:eldritch",
       "count": 16
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

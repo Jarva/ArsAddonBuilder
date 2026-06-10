@@ -1,37 +1,22 @@
 {
-  "output": {
-    "id": "ars_nouveau:glyph_animate_block",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "ars_nouveau:conjuration_essence"
     },
-    [
-      {
-        "item": "minecraft:obsidian"
-      },
-      {
-        "item": "minecraft:crying_obsidian"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:obsidian"
-      },
-      {
-        "item": "minecraft:crying_obsidian"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:obsidian"
-      },
-      {
-        "item": "minecraft:crying_obsidian"
-      }
-    ]
+    {
+      "tag": "c:obsidians"
+    },
+    {
+      "tag": "c:obsidians"
+    },
+    {
+      "tag": "c:obsidians"
+    }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:glyph_animate_block"
+  }
 }

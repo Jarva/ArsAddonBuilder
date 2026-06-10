@@ -1,12 +1,12 @@
 {
-  "structure": {
-    "tag": "ars_additions:trial_chambers"
-  },
-  "id": "ars_additions:trial_chamber",
+  "type": "ars_additions:locate_structure",
   "augments": [
     {
       "key": "minecraft:ominous_bottle"
     }
   ],
-  "type": "ars_additions:locate_structure"
+  "id": "ars_additions:trial_chamber",
+  "structure": {
+    "tag": "ars_additions:trial_chambers"
+  }
 }

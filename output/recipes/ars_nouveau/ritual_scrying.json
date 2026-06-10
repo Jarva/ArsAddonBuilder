@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:ritual_scrying",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:purple_archwood_log"
@@ -21,8 +18,11 @@
       "item": "minecraft:glowstone"
     },
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:storage_blocks/source"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:ritual_scrying"
+  }
 }

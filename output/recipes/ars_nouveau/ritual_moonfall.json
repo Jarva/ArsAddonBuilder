@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:ritual_moonfall",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:blue_archwood_log"
@@ -12,11 +9,14 @@
       "item": "minecraft:ink_sac"
     },
     {
-      "item": "minecraft:coal_block"
+      "tag": "c:storage_blocks/coal"
     },
     {
       "item": "minecraft:clock"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:ritual_moonfall"
+  }
 }

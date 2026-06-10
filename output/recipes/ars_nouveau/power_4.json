@@ -1,32 +1,32 @@
 {
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:power",
+  "level": 4,
   "pedestalItems": [
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
       "item": "ars_nouveau:air_essence"
     },
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:storage_blocks/source"
     },
     {
-      "item": "minecraft:lapis_block"
+      "tag": "c:storage_blocks/lapis"
     },
     {
-      "item": "minecraft:lapis_block"
+      "tag": "c:storage_blocks/lapis"
     }
   ],
-  "enchantment": "minecraft:power",
-  "level": 4,
-  "sourceCost": 6500,
-  "type": "ars_nouveau:enchantment"
+  "sourceCost": 6500
 }

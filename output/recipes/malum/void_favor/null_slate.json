@@ -1,10 +1,10 @@
 {
+  "type": "malum:void_favor",
   "input": {
     "item": "malum:refined_soulstone"
   },
   "result": {
-    "id": "malum:null_slate",
-    "count": 1
-  },
-  "type": "malum:void_favor"
+    "count": 1,
+    "id": "malum:null_slate"
+  }
 }

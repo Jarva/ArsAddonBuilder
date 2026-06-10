@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:ritual_sunrise",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:red_archwood_log"
@@ -12,5 +9,8 @@
       "item": "minecraft:sunflower"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:ritual_sunrise"
+  }
 }

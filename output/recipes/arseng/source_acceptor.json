@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:source_gem_block"
@@ -25,14 +27,12 @@
       "item": "minecraft:gold_block"
     }
   ],
-  "sourceCost": 10000,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ae2:energy_acceptor"
   },
   "result": {
-    "id": "arseng:source_acceptor",
-    "count": 1
+    "count": 1,
+    "id": "arseng:source_acceptor"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 10000
 }

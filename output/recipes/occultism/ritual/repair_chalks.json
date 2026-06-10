@@ -1,20 +1,9 @@
 {
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/repair_chalks",
-    "count": 1
+  "type": "occultism:ritual",
+  "activation_item": {
+    "tag": "occultism:tools/chalk"
   },
-  "result": {
-    "id": "occultism:repair_icon",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.repair_chalks\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.repair_chalks.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:repair",
-  "pentacle_id": "occultism:craft_djinni",
+  "duration": 5,
   "ingredients": [
     {
       "item": "occultism:otherworld_essence"
@@ -29,62 +18,20 @@
       "item": "occultism:spirit_attuned_gem"
     }
   ],
-  "activation_item": [
-    {
-      "item": "occultism:chalk_gold"
+  "pentacle_id": "occultism:craft_djinni",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.repair_chalks\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.repair_chalks.tooltip\"}"
+      ]
     },
-    {
-      "item": "occultism:chalk_white"
-    },
-    {
-      "item": "occultism:chalk_red"
-    },
-    {
-      "item": "occultism:chalk_purple"
-    },
-    {
-      "item": "occultism:chalk_light_gray"
-    },
-    {
-      "item": "occultism:chalk_gray"
-    },
-    {
-      "item": "occultism:chalk_black"
-    },
-    {
-      "item": "occultism:chalk_brown"
-    },
-    {
-      "item": "occultism:chalk_orange"
-    },
-    {
-      "item": "occultism:chalk_lime"
-    },
-    {
-      "item": "occultism:chalk_green"
-    },
-    {
-      "item": "occultism:chalk_cyan"
-    },
-    {
-      "item": "occultism:chalk_light_blue"
-    },
-    {
-      "item": "occultism:chalk_blue"
-    },
-    {
-      "item": "occultism:chalk_magenta"
-    },
-    {
-      "item": "occultism:chalk_pink"
-    },
-    {
-      "item": "occultism:chalk_rainbow"
-    },
-    {
-      "item": "occultism:chalk_void"
-    }
-  ],
-  "duration": 5,
-  "type": "occultism:ritual"
+    "count": 1,
+    "id": "occultism:repair_icon"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/repair_chalks"
+  },
+  "ritual_type": "occultism:repair"
 }

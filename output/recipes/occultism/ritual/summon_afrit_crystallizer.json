@@ -1,28 +1,16 @@
 {
-  "spirit_job_type": "occultism:crystal_tier3",
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
+  },
+  "duration": 180,
   "entity_to_summon": "occultism:afrit",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/summon_afrit_crystallizer",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/afrit",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_afrit_crystallizer\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.summon_afrit_crystallizer.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon_spirit_with_job",
-  "pentacle_id": "occultism:summon_afrit",
   "ingredients": [
     {
       "item": "occultism:gray_paste"
     },
     {
-      "item": "minecraft:lapis_block"
+      "tag": "c:storage_blocks/lapis"
     },
     {
       "item": "minecraft:amethyst_block"
@@ -34,9 +22,21 @@
       "item": "minecraft:dripstone_block"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_afrit"
+  "pentacle_id": "occultism:summon_afrit",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_afrit_crystallizer\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_afrit_crystallizer.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/afrit"
   },
-  "duration": 180,
-  "type": "occultism:ritual"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/summon_afrit_crystallizer"
+  },
+  "ritual_type": "occultism:summon_spirit_with_job",
+  "spirit_job_type": "occultism:crystal_tier3"
 }

@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:conjuration_essence"
@@ -10,14 +12,12 @@
       "item": "occultism:demons_dream_essence"
     }
   ],
-  "sourceCost": 500,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:source_gem"
   },
   "result": {
-    "id": "occultism:spirit_attuned_gem",
-    "count": 1
+    "count": 1,
+    "id": "occultism:spirit_attuned_gem"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 500
 }

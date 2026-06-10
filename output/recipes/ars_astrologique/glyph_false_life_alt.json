@@ -1,8 +1,15 @@
 {
-  "output": {
-    "id": "ars_astrologique:glyph_false_life",
-    "count": 1
-  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "ars_elemental:anima_essence"
+      }
+    }
+  ],
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "minecraft:wither_skeleton_skull"
@@ -17,6 +24,8 @@
       "item": "minecraft:golden_apple"
     }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_astrologique:glyph_false_life"
+  }
 }

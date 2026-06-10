@@ -1,19 +1,20 @@
 {
-  "input": {
-    "tag": "minecraft:saplings",
-    "count": 12
-  },
-  "result": "malum:pact_of_the_lone_druid",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "minecraft:chain",
-      "count": 8
+      "count": 8,
+      "item": "minecraft:chain"
     },
     {
-      "item": "minecraft:emerald",
-      "count": 4
+      "count": 4,
+      "item": "minecraft:emerald"
     }
   ],
+  "input": {
+    "count": 12,
+    "tag": "minecraft:saplings"
+  },
+  "result": "malum:pact_of_the_lone_druid",
   "spirits": [
     {
       "type": "malum:earthen",
@@ -27,6 +28,5 @@
       "type": "malum:arcane",
       "count": 16
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

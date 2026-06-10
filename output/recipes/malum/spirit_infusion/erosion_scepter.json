@@ -1,4 +1,24 @@
 {
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "count": 2,
+      "item": "malum:malignant_pewter_ingot"
+    },
+    {
+      "count": 8,
+      "item": "malum:void_salts"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:mnemonic_hex_staff"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:erosion_scepter"
+  },
   "spirits": [
     {
       "type": "malum:aqueous",
@@ -12,25 +32,5 @@
       "type": "malum:eldritch",
       "count": 32
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:malignant_pewter_ingot",
-      "count": 2
-    },
-    {
-      "item": "malum:void_salts",
-      "count": 8
-    }
-  ],
-  "carryOverComponentData": true,
-  "input": {
-    "item": "malum:mnemonic_hex_staff",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:erosion_scepter",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

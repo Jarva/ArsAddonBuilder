@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_trinkets:mage_rune_greater"
@@ -13,14 +15,12 @@
       "item": "ars_trinkets:death_rune_greater"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:source_gem"
   },
   "result": {
-    "id": "ars_trinkets:eternity_rune",
-    "count": 1
+    "count": 1,
+    "id": "ars_trinkets:eternity_rune"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

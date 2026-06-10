@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_ingressum:ritual_plane_shift",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:purple_archwood_log"
@@ -18,5 +15,8 @@
       "item": "minecraft:ender_eye"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_ingressum:ritual_plane_shift"
+  }
 }

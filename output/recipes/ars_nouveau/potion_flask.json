@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:abjuration_essence"
@@ -7,20 +9,18 @@
       "item": "ars_nouveau:abjuration_essence"
     },
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:storage_blocks/source"
     },
     {
-      "item": "minecraft:gold_block"
+      "tag": "c:storage_blocks/gold"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "minecraft:glass_bottle"
   },
   "result": {
-    "id": "ars_nouveau:potion_flask",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:potion_flask"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

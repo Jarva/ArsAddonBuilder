@@ -1,39 +1,13 @@
 {
+  "type": "create:haunting",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:dirt"
-      },
-      {
-        "item": "minecraft:grass_block"
-      },
-      {
-        "item": "minecraft:podzol"
-      },
-      {
-        "item": "minecraft:coarse_dirt"
-      },
-      {
-        "item": "minecraft:mycelium"
-      },
-      {
-        "item": "minecraft:rooted_dirt"
-      },
-      {
-        "item": "minecraft:moss_block"
-      },
-      {
-        "item": "minecraft:mud"
-      },
-      {
-        "item": "minecraft:muddy_mangrove_roots"
-      }
-    ]
+    {
+      "tag": "minecraft:dirt"
+    }
   ],
   "results": [
     {
       "id": "minecraft:soul_soil"
     }
-  ],
-  "type": "create:haunting"
+  ]
 }

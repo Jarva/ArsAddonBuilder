@@ -1,40 +1,40 @@
 {
+  "type": "ars_nouveau:crush",
   "input": {
-    "item": "minecraft:gravel"
+    "tag": "c:gravels"
   },
   "output": [
     {
-      "stack": {
-        "id": "minecraft:sand",
-        "count": 1
-      },
       "chance": 1.0,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:sand"
+      }
     },
     {
-      "stack": {
-        "id": "minecraft:lapis_lazuli",
-        "count": 1
-      },
       "chance": 0.05,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:lapis_lazuli"
+      }
     },
     {
-      "stack": {
-        "id": "minecraft:diamond",
-        "count": 1
-      },
       "chance": 0.01,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:diamond"
+      }
     },
     {
-      "stack": {
-        "id": "minecraft:flint",
-        "count": 1
-      },
       "chance": 0.02,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:flint"
+      }
     }
-  ],
-  "type": "ars_nouveau:crush"
+  ]
 }

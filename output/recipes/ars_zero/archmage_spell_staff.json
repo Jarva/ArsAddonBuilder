@@ -1,27 +1,24 @@
 {
+  "type": "ars_zero:staff_upgrade",
   "category": "misc",
-  "result": {
-    "id": "ars_zero:archmage_spell_staff",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_zero:mage_spell_staff"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "minecraft:emerald"
+      "tag": "c:gems/emerald"
     },
     {
-      "item": "minecraft:emerald"
+      "tag": "c:gems/emerald"
     },
     {
       "item": "minecraft:totem_of_undying"
@@ -33,5 +30,8 @@
       "item": "ars_nouveau:wilden_tribute"
     }
   ],
-  "type": "ars_zero:staff_upgrade"
+  "result": {
+    "count": 1,
+    "id": "ars_zero:archmage_spell_staff"
+  }
 }

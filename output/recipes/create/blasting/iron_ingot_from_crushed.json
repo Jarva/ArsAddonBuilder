@@ -1,13 +1,13 @@
 {
-  "result": {
-    "id": "minecraft:iron_ingot",
-    "count": 1
-  },
-  "experience": 0.1,
-  "cookingtime": 100,
+  "type": "minecraft:blasting",
   "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
   "ingredient": {
     "item": "create:crushed_raw_iron"
   },
-  "type": "minecraft:blasting"
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_ingot"
+  }
 }

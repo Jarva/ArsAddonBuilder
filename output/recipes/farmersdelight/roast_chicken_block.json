@@ -1,21 +1,18 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "farmersdelight:roast_chicken_block",
-    "count": 1
-  },
   "ingredients": [
     {
-      "item": "farmersdelight:onion"
+      "tag": "c:crops/onion"
     },
     {
-      "item": "minecraft:egg"
+      "tag": "c:eggs"
     },
     {
-      "item": "minecraft:bread"
+      "tag": "c:foods/bread"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "c:crops/carrot"
     },
     {
       "item": "minecraft:cooked_chicken"
@@ -24,7 +21,7 @@
       "item": "minecraft:baked_potato"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "c:crops/carrot"
     },
     {
       "item": "minecraft:bowl"
@@ -33,5 +30,8 @@
       "item": "minecraft:baked_potato"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:roast_chicken_block"
+  }
 }

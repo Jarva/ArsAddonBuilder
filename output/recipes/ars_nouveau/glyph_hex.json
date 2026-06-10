@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_nouveau:glyph_hex",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 160,
   "inputs": [
     {
       "item": "ars_nouveau:abjuration_essence"
@@ -23,6 +21,8 @@
       "item": "minecraft:wither_rose"
     }
   ],
-  "exp": 160,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:glyph_hex"
+  }
 }

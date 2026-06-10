@@ -1,16 +1,27 @@
 {
-  "ingredient": [
+  "neoforge:conditions": [
     {
-      "item": "minecraft:redstone_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/redstone"
+      }
     },
     {
-      "item": "minecraft:deepslate_redstone_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/redstone"
+      }
     }
   ],
-  "result": {
-    "tag": "c:dusts/redstone",
-    "count": 4,
-    "type": "occultism:tag"
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:ores/redstone"
   },
-  "type": "occultism:crushing"
+  "result": {
+    "type": "occultism:tag",
+    "count": 4,
+    "tag": "c:dusts/redstone"
+  }
 }

@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:music_disc_5",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:disc_fragment_5"
@@ -33,5 +30,8 @@
       "item": "minecraft:disc_fragment_5"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:music_disc_5"
+  }
 }

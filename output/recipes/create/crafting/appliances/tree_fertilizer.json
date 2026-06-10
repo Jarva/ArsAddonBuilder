@@ -1,146 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:tree_fertilizer",
-    "count": 2
-  },
   "ingredients": [
-    [
-      {
-        "item": "minecraft:dandelion"
-      },
-      {
-        "item": "minecraft:poppy"
-      },
-      {
-        "item": "minecraft:blue_orchid"
-      },
-      {
-        "item": "minecraft:allium"
-      },
-      {
-        "item": "minecraft:azure_bluet"
-      },
-      {
-        "item": "minecraft:red_tulip"
-      },
-      {
-        "item": "minecraft:orange_tulip"
-      },
-      {
-        "item": "minecraft:white_tulip"
-      },
-      {
-        "item": "minecraft:pink_tulip"
-      },
-      {
-        "item": "minecraft:oxeye_daisy"
-      },
-      {
-        "item": "minecraft:cornflower"
-      },
-      {
-        "item": "minecraft:lily_of_the_valley"
-      },
-      {
-        "item": "minecraft:wither_rose"
-      },
-      {
-        "item": "minecraft:torchflower"
-      },
-      {
-        "item": "farmersdelight:wild_carrots"
-      },
-      {
-        "item": "farmersdelight:wild_potatoes"
-      },
-      {
-        "item": "farmersdelight:wild_beetroots"
-      },
-      {
-        "item": "farmersdelight:wild_cabbages"
-      },
-      {
-        "item": "farmersdelight:wild_tomatoes"
-      },
-      {
-        "item": "farmersdelight:wild_onions"
-      },
-      {
-        "item": "occultism:otherflower"
-      },
-      {
-        "item": "occultism:otherflower_natural"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:dandelion"
-      },
-      {
-        "item": "minecraft:poppy"
-      },
-      {
-        "item": "minecraft:blue_orchid"
-      },
-      {
-        "item": "minecraft:allium"
-      },
-      {
-        "item": "minecraft:azure_bluet"
-      },
-      {
-        "item": "minecraft:red_tulip"
-      },
-      {
-        "item": "minecraft:orange_tulip"
-      },
-      {
-        "item": "minecraft:white_tulip"
-      },
-      {
-        "item": "minecraft:pink_tulip"
-      },
-      {
-        "item": "minecraft:oxeye_daisy"
-      },
-      {
-        "item": "minecraft:cornflower"
-      },
-      {
-        "item": "minecraft:lily_of_the_valley"
-      },
-      {
-        "item": "minecraft:wither_rose"
-      },
-      {
-        "item": "minecraft:torchflower"
-      },
-      {
-        "item": "farmersdelight:wild_carrots"
-      },
-      {
-        "item": "farmersdelight:wild_potatoes"
-      },
-      {
-        "item": "farmersdelight:wild_beetroots"
-      },
-      {
-        "item": "farmersdelight:wild_cabbages"
-      },
-      {
-        "item": "farmersdelight:wild_tomatoes"
-      },
-      {
-        "item": "farmersdelight:wild_onions"
-      },
-      {
-        "item": "occultism:otherflower"
-      },
-      {
-        "item": "occultism:otherflower_natural"
-      }
-    ],
+    {
+      "tag": "minecraft:small_flowers"
+    },
+    {
+      "tag": "minecraft:small_flowers"
+    },
     [
       {
         "item": "minecraft:horn_coral"
@@ -162,5 +29,8 @@
       "item": "minecraft:bone_meal"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 2,
+    "id": "create:tree_fertilizer"
+  }
 }

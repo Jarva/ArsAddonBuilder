@@ -1,163 +1,22 @@
 {
-  "output": {
-    "id": "ars_nouveau:wololo",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 27,
   "inputs": [
     {
       "item": "ars_nouveau:abjuration_essence"
     },
-    [
-      {
-        "item": "minecraft:white_dye"
-      },
-      {
-        "item": "minecraft:orange_dye"
-      },
-      {
-        "item": "minecraft:magenta_dye"
-      },
-      {
-        "item": "minecraft:light_blue_dye"
-      },
-      {
-        "item": "minecraft:yellow_dye"
-      },
-      {
-        "item": "minecraft:lime_dye"
-      },
-      {
-        "item": "minecraft:pink_dye"
-      },
-      {
-        "item": "minecraft:gray_dye"
-      },
-      {
-        "item": "minecraft:light_gray_dye"
-      },
-      {
-        "item": "minecraft:cyan_dye"
-      },
-      {
-        "item": "minecraft:purple_dye"
-      },
-      {
-        "item": "minecraft:blue_dye"
-      },
-      {
-        "item": "minecraft:brown_dye"
-      },
-      {
-        "item": "minecraft:green_dye"
-      },
-      {
-        "item": "minecraft:red_dye"
-      },
-      {
-        "item": "minecraft:black_dye"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:white_dye"
-      },
-      {
-        "item": "minecraft:orange_dye"
-      },
-      {
-        "item": "minecraft:magenta_dye"
-      },
-      {
-        "item": "minecraft:light_blue_dye"
-      },
-      {
-        "item": "minecraft:yellow_dye"
-      },
-      {
-        "item": "minecraft:lime_dye"
-      },
-      {
-        "item": "minecraft:pink_dye"
-      },
-      {
-        "item": "minecraft:gray_dye"
-      },
-      {
-        "item": "minecraft:light_gray_dye"
-      },
-      {
-        "item": "minecraft:cyan_dye"
-      },
-      {
-        "item": "minecraft:purple_dye"
-      },
-      {
-        "item": "minecraft:blue_dye"
-      },
-      {
-        "item": "minecraft:brown_dye"
-      },
-      {
-        "item": "minecraft:green_dye"
-      },
-      {
-        "item": "minecraft:red_dye"
-      },
-      {
-        "item": "minecraft:black_dye"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:white_dye"
-      },
-      {
-        "item": "minecraft:orange_dye"
-      },
-      {
-        "item": "minecraft:magenta_dye"
-      },
-      {
-        "item": "minecraft:light_blue_dye"
-      },
-      {
-        "item": "minecraft:yellow_dye"
-      },
-      {
-        "item": "minecraft:lime_dye"
-      },
-      {
-        "item": "minecraft:pink_dye"
-      },
-      {
-        "item": "minecraft:gray_dye"
-      },
-      {
-        "item": "minecraft:light_gray_dye"
-      },
-      {
-        "item": "minecraft:cyan_dye"
-      },
-      {
-        "item": "minecraft:purple_dye"
-      },
-      {
-        "item": "minecraft:blue_dye"
-      },
-      {
-        "item": "minecraft:brown_dye"
-      },
-      {
-        "item": "minecraft:green_dye"
-      },
-      {
-        "item": "minecraft:red_dye"
-      },
-      {
-        "item": "minecraft:black_dye"
-      }
-    ]
+    {
+      "tag": "c:dyes"
+    },
+    {
+      "tag": "c:dyes"
+    },
+    {
+      "tag": "c:dyes"
+    }
   ],
-  "exp": 27,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:wololo"
+  }
 }

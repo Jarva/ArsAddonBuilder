@@ -1,15 +1,16 @@
 {
-  "input": {
-    "item": "malum:soul_stained_steel_plating",
-    "count": 12
-  },
-  "result": "malum:pact_of_the_fortress",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "malum:refined_soulstone",
-      "count": 8
+      "count": 8,
+      "item": "malum:refined_soulstone"
     }
   ],
+  "input": {
+    "count": 12,
+    "item": "malum:soul_stained_steel_plating"
+  },
+  "result": "malum:pact_of_the_fortress",
   "spirits": [
     {
       "type": "malum:arcane",
@@ -19,6 +20,5 @@
       "type": "malum:earthen",
       "count": 16
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

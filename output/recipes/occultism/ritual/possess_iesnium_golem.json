@@ -1,30 +1,23 @@
 {
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_marid"
+  },
+  "duration": 240,
+  "entity_to_sacrifice": {
+    "display_name": "ritual.occultism.sacrifice.iron_golem",
+    "tag": "c:golems/iron"
+  },
   "entity_to_summon": "occultism:iesnium_golem",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/possess_iesnium_golem",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/iesnium_golem",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_iesnium_golem\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.possess_iesnium_golem.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon",
-  "pentacle_id": "occultism:possess_marid",
   "ingredients": [
     {
-      "item": "occultism:iesnium_block"
+      "tag": "c:storage_blocks/iesnium"
     },
     {
-      "item": "occultism:iesnium_block"
+      "tag": "c:storage_blocks/iesnium"
     },
     {
-      "item": "occultism:iesnium_block"
+      "tag": "c:storage_blocks/iesnium"
     },
     {
       "item": "occultism:marid_essence"
@@ -33,19 +26,26 @@
       "item": "occultism:spirit_attuned_crystal"
     },
     {
-      "item": "minecraft:nether_star"
+      "tag": "c:nether_stars"
     },
     {
       "item": "occultism:soul_gem"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_marid"
+  "pentacle_id": "occultism:possess_marid",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_iesnium_golem\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_iesnium_golem.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/iesnium_golem"
   },
-  "duration": 240,
-  "entity_to_sacrifice": {
-    "tag": "c:golems/iron",
-    "display_name": "ritual.occultism.sacrifice.iron_golem"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/possess_iesnium_golem"
   },
-  "type": "occultism:ritual"
+  "ritual_type": "occultism:summon"
 }

@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:writable_book",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:book"
@@ -15,5 +12,8 @@
       "item": "minecraft:feather"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:writable_book"
+  }
 }

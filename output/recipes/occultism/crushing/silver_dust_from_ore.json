@@ -1,16 +1,27 @@
 {
-  "ingredient": [
+  "neoforge:conditions": [
     {
-      "item": "occultism:silver_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/silver"
+      }
     },
     {
-      "item": "occultism:silver_ore_deepslate"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/silver"
+      }
     }
   ],
-  "result": {
-    "tag": "c:dusts/silver",
-    "count": 2,
-    "type": "occultism:tag"
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:ores/silver"
   },
-  "type": "occultism:crushing"
+  "result": {
+    "type": "occultism:tag",
+    "count": 2,
+    "tag": "c:dusts/silver"
+  }
 }

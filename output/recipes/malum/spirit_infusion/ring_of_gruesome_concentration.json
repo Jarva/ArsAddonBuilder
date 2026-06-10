@@ -1,4 +1,23 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 16,
+      "item": "malum:null_slate"
+    },
+    {
+      "count": 8,
+      "item": "malum:void_salts"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ring_of_desperate_voracity"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:ring_of_gruesome_concentration"
+  },
   "spirits": [
     {
       "type": "malum:sacred",
@@ -16,24 +35,5 @@
       "type": "malum:eldritch",
       "count": 16
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:null_slate",
-      "count": 16
-    },
-    {
-      "item": "malum:void_salts",
-      "count": 8
-    }
-  ],
-  "input": {
-    "item": "malum:ring_of_desperate_voracity",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:ring_of_gruesome_concentration",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

@@ -1,12 +1,12 @@
 {
+  "type": "occultism:miner",
   "ingredient": {
-    "item": "occultism:miner_ancient_eldritch"
+    "tag": "occultism:miners/eldritch"
   },
   "result": {
-    "tag": "c:ores/netherite_scrap",
+    "type": "occultism:weighted_tag",
     "count": 9,
-    "weight": 90,
-    "type": "occultism:weighted_tag"
-  },
-  "type": "occultism:miner"
+    "tag": "c:ores/netherite_scrap",
+    "weight": 90
+  }
 }

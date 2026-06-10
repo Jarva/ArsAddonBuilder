@@ -1,32 +1,32 @@
 {
-  "pedestalItems": [
-    {
-      "item": "minecraft:emerald"
-    },
-    {
-      "item": "minecraft:emerald"
-    },
-    {
-      "item": "minecraft:diamond"
-    },
-    {
-      "item": "minecraft:diamond"
-    },
-    {
-      "item": "ars_nouveau:source_gem_block"
-    },
-    {
-      "item": "ars_nouveau:source_gem_block"
-    },
-    {
-      "item": "minecraft:lapis_block"
-    },
-    {
-      "item": "minecraft:lapis_block"
-    }
-  ],
+  "type": "ars_nouveau:enchantment",
   "enchantment": "minecraft:silk_touch",
   "level": 1,
-  "sourceCost": 9000,
-  "type": "ars_nouveau:enchantment"
+  "pedestalItems": [
+    {
+      "tag": "c:gems/emerald"
+    },
+    {
+      "tag": "c:gems/emerald"
+    },
+    {
+      "tag": "c:gems/diamond"
+    },
+    {
+      "tag": "c:gems/diamond"
+    },
+    {
+      "tag": "c:storage_blocks/source"
+    },
+    {
+      "tag": "c:storage_blocks/source"
+    },
+    {
+      "tag": "c:storage_blocks/lapis"
+    },
+    {
+      "tag": "c:storage_blocks/lapis"
+    }
+  ],
+  "sourceCost": 9000
 }

@@ -1,38 +1,38 @@
 {
-  "tool": [
-    {
-      "action": "knife_dig",
-      "type": "farmersdelight:item_ability"
-    },
-    {
-      "tag": "c:tools/knife"
-    }
-  ],
-  "result": [
-    {
-      "item": {
-        "id": "farmersdelight:onion",
-        "count": 1
-      }
-    },
-    {
-      "item": {
-        "id": "minecraft:magenta_dye",
-        "count": 2
-      }
-    },
-    {
-      "item": {
-        "id": "minecraft:lime_dye",
-        "count": 1
-      },
-      "chance": 0.1
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
       "item": "farmersdelight:wild_onions"
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "farmersdelight:onion"
+      }
+    },
+    {
+      "item": {
+        "count": 2,
+        "id": "minecraft:magenta_dye"
+      }
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "count": 1,
+        "id": "minecraft:lime_dye"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
 }

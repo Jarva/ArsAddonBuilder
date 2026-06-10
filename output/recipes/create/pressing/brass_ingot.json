@@ -1,13 +1,13 @@
 {
+  "type": "create:pressing",
   "ingredients": [
     {
-      "item": "create:brass_ingot"
+      "tag": "c:ingots/brass"
     }
   ],
   "results": [
     {
       "id": "create:brass_sheet"
     }
-  ],
-  "type": "create:pressing"
+  ]
 }

@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ae2:energy_level_emitter",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:redstone_torch"
@@ -15,5 +12,8 @@
       "item": "ae2:calculation_processor"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ae2:energy_level_emitter"
+  }
 }

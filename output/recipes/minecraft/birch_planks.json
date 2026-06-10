@@ -1,25 +1,14 @@
 {
-  "group": "planks",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "minecraft:birch_planks",
-    "count": 4
-  },
+  "group": "planks",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:birch_log"
-      },
-      {
-        "item": "minecraft:birch_wood"
-      },
-      {
-        "item": "minecraft:stripped_birch_log"
-      },
-      {
-        "item": "minecraft:stripped_birch_wood"
-      }
-    ]
+    {
+      "tag": "minecraft:birch_logs"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 4,
+    "id": "minecraft:birch_planks"
+  }
 }

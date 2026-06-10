@@ -1,14 +1,14 @@
 {
-  "group": "copper_ingot",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:copper_ingot",
-    "count": 9
-  },
+  "group": "copper_ingot",
   "ingredients": [
     {
       "item": "minecraft:waxed_copper_block"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 9,
+    "id": "minecraft:copper_ingot"
+  }
 }

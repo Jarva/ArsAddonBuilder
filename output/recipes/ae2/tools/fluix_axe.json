@@ -1,21 +1,16 @@
 {
-  "template": {
-    "item": "ae2:fluix_upgrade_smithing_template"
-  },
-  "base": [
-    {
-      "item": "ae2:certus_quartz_axe"
-    },
-    {
-      "item": "ae2:nether_quartz_axe"
-    }
-  ],
+  "type": "minecraft:smithing_transform",
   "addition": {
     "item": "ae2:fluix_block"
   },
-  "result": {
-    "id": "ae2:fluix_axe",
-    "count": 1
+  "base": {
+    "tag": "ae2:quartz_axe"
   },
-  "type": "minecraft:smithing_transform"
+  "result": {
+    "count": 1,
+    "id": "ae2:fluix_axe"
+  },
+  "template": {
+    "item": "ae2:fluix_upgrade_smithing_template"
+  }
 }

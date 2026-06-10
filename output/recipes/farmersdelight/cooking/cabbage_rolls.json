@@ -1,93 +1,31 @@
 {
-  "result": {
-    "id": "farmersdelight:cabbage_rolls",
-    "count": 1
-  },
-  "experience": 0.35,
+  "type": "farmersdelight:cooking",
   "cookingtime": 100,
+  "experience": 0.35,
   "ingredients": [
     {
-      "children": [
-        {
-          "item": "farmersdelight:cabbage"
-        },
-        {
-          "item": "farmersdelight:cabbage_leaf"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:crops/cabbage"
     },
     {
+      "type": "neoforge:compound",
       "children": [
         {
-          "item": "minecraft:beef"
+          "tag": "c:foods/raw_meat"
         },
         {
-          "item": "minecraft:porkchop"
+          "tag": "c:foods/safe_raw_fish"
         },
         {
-          "item": "minecraft:chicken"
+          "tag": "c:foods/vegetable"
         },
         {
-          "item": "minecraft:rabbit"
-        },
-        {
-          "item": "minecraft:mutton"
-        },
-        {
-          "item": "farmersdelight:chicken_cuts"
-        },
-        {
-          "item": "farmersdelight:bacon"
-        },
-        {
-          "item": "farmersdelight:minced_beef"
-        },
-        {
-          "item": "farmersdelight:mutton_chops"
-        },
-        {
-          "item": "minecraft:cod"
-        },
-        {
-          "item": "minecraft:salmon"
-        },
-        {
-          "item": "minecraft:tropical_fish"
-        },
-        {
-          "item": "farmersdelight:cod_slice"
-        },
-        {
-          "item": "farmersdelight:salmon_slice"
-        },
-        {
-          "item": "minecraft:carrot"
-        },
-        {
-          "item": "minecraft:golden_carrot"
-        },
-        {
-          "item": "minecraft:potato"
-        },
-        {
-          "item": "minecraft:beetroot"
-        },
-        {
-          "item": "farmersdelight:onion"
-        },
-        {
-          "item": "farmersdelight:tomato"
-        },
-        {
-          "item": "minecraft:brown_mushroom"
-        },
-        {
-          "item": "minecraft:red_mushroom"
+          "tag": "c:mushrooms"
         }
-      ],
-      "type": "neoforge:compound"
+      ]
     }
   ],
-  "type": "farmersdelight:cooking"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:cabbage_rolls"
+  }
 }

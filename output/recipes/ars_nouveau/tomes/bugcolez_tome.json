@@ -1,40 +1,16 @@
 {
-  "flavour_text": "Their Friends are their power!",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 255,
+    "b": 180,
     "g": 25,
-    "b": 180
+    "id": "ars_nouveau:constant",
+    "r": 255
   },
+  "flavour_text": "Their Friends are their power!",
+  "name": "Pixie Pummel",
   "sound": {
     "pitch": 1.9
   },
-  "spellData": {
-    "sound": {
-      "pitch": 1.9
-    },
-    "recipe": [
-      "ars_nouveau:glyph_self",
-      "ars_nouveau:glyph_summon_vex",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time"
-    ],
-    "particleTimeline": {},
-    "name": "Pixie Pummel",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 255,
-      "g": 25,
-      "b": 180
-    }
-  },
-  "name": "Pixie Pummel",
   "spell": [
     "ars_nouveau:glyph_self",
     "ars_nouveau:glyph_summon_vex",
@@ -47,6 +23,30 @@
     "ars_nouveau:glyph_extend_time",
     "ars_nouveau:glyph_extend_time"
   ],
-  "tome_type": "ars_nouveau:caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 180,
+      "g": 25,
+      "id": "ars_nouveau:constant",
+      "r": 255
+    },
+    "name": "Pixie Pummel",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_self",
+      "ars_nouveau:glyph_summon_vex",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time"
+    ],
+    "sound": {
+      "pitch": 1.9
+    }
+  },
+  "tome_type": "ars_nouveau:caster_tome"
 }

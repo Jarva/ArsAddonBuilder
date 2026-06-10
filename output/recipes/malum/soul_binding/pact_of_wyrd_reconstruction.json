@@ -1,23 +1,24 @@
 {
-  "input": {
-    "item": "minecraft:blaze_powder",
-    "count": 16
-  },
-  "result": "malum:pact_of_wyrd_reconstruction",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "malum:imitation_flesh",
-      "count": 8
+      "count": 8,
+      "item": "malum:imitation_flesh"
     },
     {
-      "item": "minecraft:rotten_flesh",
-      "count": 8
+      "count": 8,
+      "item": "minecraft:rotten_flesh"
     },
     {
-      "item": "minecraft:ghast_tear",
-      "count": 8
+      "count": 8,
+      "item": "minecraft:ghast_tear"
     }
   ],
+  "input": {
+    "count": 16,
+    "item": "minecraft:blaze_powder"
+  },
+  "result": "malum:pact_of_wyrd_reconstruction",
   "spirits": [
     {
       "type": "malum:sacred",
@@ -35,6 +36,5 @@
       "type": "malum:earthen",
       "count": 16
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

@@ -1,59 +1,15 @@
 {
+  "type": "create:crushing",
   "ingredients": [
-    [
-      {
-        "item": "create:cut_diorite"
-      },
-      {
-        "item": "create:cut_diorite_stairs"
-      },
-      {
-        "item": "create:cut_diorite_wall"
-      },
-      {
-        "item": "create:polished_cut_diorite"
-      },
-      {
-        "item": "create:polished_cut_diorite_stairs"
-      },
-      {
-        "item": "create:polished_cut_diorite_wall"
-      },
-      {
-        "item": "create:cut_diorite_bricks"
-      },
-      {
-        "item": "create:cut_diorite_brick_stairs"
-      },
-      {
-        "item": "create:cut_diorite_brick_wall"
-      },
-      {
-        "item": "create:small_diorite_bricks"
-      },
-      {
-        "item": "create:small_diorite_brick_stairs"
-      },
-      {
-        "item": "create:small_diorite_brick_wall"
-      },
-      {
-        "item": "create:layered_diorite"
-      },
-      {
-        "item": "create:diorite_pillar"
-      },
-      {
-        "item": "minecraft:diorite"
-      }
-    ]
-  ],
-  "results": [
     {
-      "id": "minecraft:quartz",
-      "chance": 0.25
+      "tag": "create:stone_types/diorite"
     }
   ],
   "processing_time": 350,
-  "type": "create:crushing"
+  "results": [
+    {
+      "chance": 0.25,
+      "id": "minecraft:quartz"
+    }
+  ]
 }

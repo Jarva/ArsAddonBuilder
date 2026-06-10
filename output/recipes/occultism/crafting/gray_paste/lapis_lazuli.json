@@ -1,16 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:lapis_lazuli",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:gray_paste"
     },
     {
-      "item": "occultism:lapis_dust"
+      "tag": "c:dusts/lapis"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:lapis_lazuli"
+  }
 }

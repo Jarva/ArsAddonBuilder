@@ -1,17 +1,17 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
   "pedestalItems": [
     {
       "item": "ars_nouveau:warp_scroll"
     }
   ],
-  "sourceCost": 1000,
-  "keepNbtOfReagent": true,
   "reagent": {
     "item": "ars_nouveau:warp_scroll"
   },
   "result": {
-    "id": "ars_nouveau:warp_scroll",
-    "count": 2
+    "count": 2,
+    "id": "ars_nouveau:warp_scroll"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 1000
 }

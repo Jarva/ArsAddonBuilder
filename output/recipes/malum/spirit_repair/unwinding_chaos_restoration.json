@@ -1,12 +1,10 @@
 {
-  "repairMaterial": {
-    "item": "malum:auric_embers",
-    "count": 8
-  },
+  "type": "malum:spirit_repair",
   "durabilityPercentage": 0.75,
-  "validItems": [
-    "malum:unwinding_chaos"
-  ],
+  "repairMaterial": {
+    "count": 8,
+    "item": "malum:auric_embers"
+  },
   "spirits": [
     {
       "type": "malum:eldritch",
@@ -21,5 +19,7 @@
       "count": 32
     }
   ],
-  "type": "malum:spirit_repair"
+  "validItems": [
+    "malum:unwinding_chaos"
+  ]
 }

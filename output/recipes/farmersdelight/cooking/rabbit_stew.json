@@ -1,25 +1,22 @@
 {
-  "result": {
-    "id": "minecraft:rabbit_stew",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "container": {
-    "id": "minecraft:bowl",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:bowl"
   },
   "experience": 1.0,
-  "recipe_book_tab": "meals",
   "ingredients": [
     {
-      "item": "minecraft:potato"
+      "tag": "c:crops/potato"
     },
     {
       "item": "minecraft:rabbit"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "c:crops/carrot"
     },
     {
+      "type": "neoforge:compound",
       "children": [
         {
           "item": "minecraft:brown_mushroom"
@@ -27,9 +24,12 @@
         {
           "item": "minecraft:red_mushroom"
         }
-      ],
-      "type": "neoforge:compound"
+      ]
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "minecraft:rabbit_stew"
+  }
 }

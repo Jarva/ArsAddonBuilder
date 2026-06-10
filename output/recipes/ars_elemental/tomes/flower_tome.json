@@ -1,34 +1,34 @@
 {
-  "flavour_text": "May the venom become the seed of a flower that will blossom in undeath.",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 50,
+    "b": 55,
     "g": 250,
-    "b": 55
+    "id": "ars_nouveau:constant",
+    "r": 50
   },
-  "sound": {},
-  "spellData": {
-    "sound": {},
-    "recipe": [
-      "ars_nouveau:glyph_touch",
-      "ars_elemental:glyph_envenom",
-      "ars_elemental:glyph_poison_spores"
-    ],
-    "particleTimeline": {},
-    "name": "Poison Blossom",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 50,
-      "g": 250,
-      "b": 55
-    }
-  },
+  "flavour_text": "May the venom become the seed of a flower that will blossom in undeath.",
   "name": "Poison Blossom",
+  "sound": {},
   "spell": [
     "ars_nouveau:glyph_touch",
     "ars_elemental:glyph_envenom",
     "ars_elemental:glyph_poison_spores"
   ],
-  "tome_type": "ars_elemental:earth_caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 55,
+      "g": 250,
+      "id": "ars_nouveau:constant",
+      "r": 50
+    },
+    "name": "Poison Blossom",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_touch",
+      "ars_elemental:glyph_envenom",
+      "ars_elemental:glyph_poison_spores"
+    ],
+    "sound": {}
+  },
+  "tome_type": "ars_elemental:earth_caster_tome"
 }

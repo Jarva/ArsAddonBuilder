@@ -1,33 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:red_sbed",
-    "count": 1
-  },
   "ingredients": [
-    [
-      {
-        "item": "ars_nouveau:red_sbed"
-      },
-      {
-        "item": "ars_nouveau:green_sbed"
-      },
-      {
-        "item": "ars_nouveau:yellow_sbed"
-      },
-      {
-        "item": "ars_nouveau:blue_sbed"
-      },
-      {
-        "item": "ars_nouveau:orange_sbed"
-      },
-      {
-        "item": "ars_nouveau:purple_sbed"
-      }
-    ],
     {
-      "item": "minecraft:red_dye"
+      "tag": "ars_nouveau:summon_bed"
+    },
+    {
+      "tag": "c:dyes/red"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:red_sbed"
+  }
 }

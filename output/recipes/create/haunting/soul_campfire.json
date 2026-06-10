@@ -1,4 +1,5 @@
 {
+  "type": "create:haunting",
   "ingredients": [
     {
       "item": "minecraft:campfire"
@@ -8,6 +9,5 @@
     {
       "id": "minecraft:soul_campfire"
     }
-  ],
-  "type": "create:haunting"
+  ]
 }

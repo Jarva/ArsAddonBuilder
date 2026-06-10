@@ -1,16 +1,16 @@
 {
+  "type": "malum:runeworking",
   "input": {
-    "item": "malum:soulwood_planks",
-    "count": 4
-  },
-  "secondaryInput": {
-    "item": "malum:aerial_spirit",
-    "count": 32
+    "count": 4,
+    "item": "malum:soulwood_planks"
   },
   "result": {
-    "id": "malum:rune_of_sky_tether",
-    "count": 1
+    "count": 1,
+    "id": "malum:rune_of_sky_tether"
   },
-  "soundType": "malum:runic_workbench_shapes_wooden_rune",
-  "type": "malum:runeworking"
+  "secondaryInput": {
+    "count": 32,
+    "item": "malum:aerial_spirit"
+  },
+  "soundType": "malum:runic_workbench_shapes_wooden_rune"
 }

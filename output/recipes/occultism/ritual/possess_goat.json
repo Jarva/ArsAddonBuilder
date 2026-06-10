@@ -1,21 +1,14 @@
 {
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_marid"
+  },
+  "duration": 240,
+  "entity_to_sacrifice": {
+    "display_name": "ritual.occultism.sacrifice.humans",
+    "tag": "occultism:humans"
+  },
   "entity_to_summon": "occultism:mercy_goat",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/possess_goat",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:cruelty_essence",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_goat\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.possess_goat.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon",
-  "pentacle_id": "occultism:possess_marid",
   "ingredients": [
     {
       "item": "minecraft:pointed_dripstone"
@@ -48,119 +41,26 @@
       "item": "minecraft:armadillo_scute"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:white_wool"
-        },
-        {
-          "item": "minecraft:orange_wool"
-        },
-        {
-          "item": "minecraft:magenta_wool"
-        },
-        {
-          "item": "minecraft:light_blue_wool"
-        },
-        {
-          "item": "minecraft:yellow_wool"
-        },
-        {
-          "item": "minecraft:lime_wool"
-        },
-        {
-          "item": "minecraft:pink_wool"
-        },
-        {
-          "item": "minecraft:gray_wool"
-        },
-        {
-          "item": "minecraft:light_gray_wool"
-        },
-        {
-          "item": "minecraft:cyan_wool"
-        },
-        {
-          "item": "minecraft:purple_wool"
-        },
-        {
-          "item": "minecraft:blue_wool"
-        },
-        {
-          "item": "minecraft:brown_wool"
-        },
-        {
-          "item": "minecraft:green_wool"
-        },
-        {
-          "item": "minecraft:red_wool"
-        },
-        {
-          "item": "minecraft:black_wool"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "minecraft:wool"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:white_wool"
-        },
-        {
-          "item": "minecraft:orange_wool"
-        },
-        {
-          "item": "minecraft:magenta_wool"
-        },
-        {
-          "item": "minecraft:light_blue_wool"
-        },
-        {
-          "item": "minecraft:yellow_wool"
-        },
-        {
-          "item": "minecraft:lime_wool"
-        },
-        {
-          "item": "minecraft:pink_wool"
-        },
-        {
-          "item": "minecraft:gray_wool"
-        },
-        {
-          "item": "minecraft:light_gray_wool"
-        },
-        {
-          "item": "minecraft:cyan_wool"
-        },
-        {
-          "item": "minecraft:purple_wool"
-        },
-        {
-          "item": "minecraft:blue_wool"
-        },
-        {
-          "item": "minecraft:brown_wool"
-        },
-        {
-          "item": "minecraft:green_wool"
-        },
-        {
-          "item": "minecraft:red_wool"
-        },
-        {
-          "item": "minecraft:black_wool"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "minecraft:wool"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_marid"
+  "pentacle_id": "occultism:possess_marid",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_goat\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_goat.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:cruelty_essence"
   },
-  "duration": 240,
-  "entity_to_sacrifice": {
-    "tag": "occultism:humans",
-    "display_name": "ritual.occultism.sacrifice.humans"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/possess_goat"
   },
-  "type": "occultism:ritual"
+  "ritual_type": "occultism:summon"
 }

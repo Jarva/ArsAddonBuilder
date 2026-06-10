@@ -1,61 +1,36 @@
 {
-  "result": {
-    "id": "farmersdelight:dumplings",
-    "count": 2
-  },
+  "type": "farmersdelight:cooking",
   "experience": 1.0,
   "ingredients": [
     {
-      "children": [
-        {
-          "item": "farmersdelight:wheat_dough"
-        },
-        {
-          "item": "create:dough"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:foods/dough"
     },
     {
-      "children": [
-        {
-          "item": "farmersdelight:cabbage"
-        },
-        {
-          "item": "farmersdelight:cabbage_leaf"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:crops/cabbage"
     },
     {
-      "item": "farmersdelight:onion"
+      "tag": "c:crops/onion"
     },
     {
+      "type": "neoforge:compound",
       "children": [
         {
-          "item": "minecraft:chicken"
+          "tag": "c:foods/raw_chicken"
         },
         {
-          "item": "farmersdelight:chicken_cuts"
+          "tag": "c:foods/raw_pork"
         },
         {
-          "item": "minecraft:porkchop"
-        },
-        {
-          "item": "farmersdelight:bacon"
-        },
-        {
-          "item": "minecraft:beef"
-        },
-        {
-          "item": "farmersdelight:minced_beef"
+          "tag": "c:foods/raw_beef"
         },
         {
           "item": "minecraft:brown_mushroom"
         }
-      ],
-      "type": "neoforge:compound"
+      ]
     }
   ],
-  "type": "farmersdelight:cooking"
+  "result": {
+    "count": 2,
+    "id": "farmersdelight:dumplings"
+  }
 }

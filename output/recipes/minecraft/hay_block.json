@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "minecraft:hay_block",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:wheat"
@@ -33,5 +30,8 @@
       "item": "minecraft:wheat"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:hay_block"
+  }
 }

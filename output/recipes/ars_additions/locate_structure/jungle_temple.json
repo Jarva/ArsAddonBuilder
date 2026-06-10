@@ -1,12 +1,12 @@
 {
-  "structure": {
-    "tag": "ars_additions:jungle_temple"
-  },
-  "id": "ars_additions:jungle_temple",
+  "type": "ars_additions:locate_structure",
   "augments": [
     {
       "key": "minecraft:mossy_cobblestone"
     }
   ],
-  "type": "ars_additions:locate_structure"
+  "id": "ars_additions:jungle_temple",
+  "structure": {
+    "tag": "ars_additions:jungle_temple"
+  }
 }

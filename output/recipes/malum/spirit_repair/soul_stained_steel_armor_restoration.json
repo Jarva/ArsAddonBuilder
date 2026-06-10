@@ -1,15 +1,10 @@
 {
-  "repairMaterial": {
-    "item": "malum:soul_stained_steel_plating",
-    "count": 3
-  },
+  "type": "malum:spirit_repair",
   "durabilityPercentage": 0.75,
-  "validItems": [
-    "malum:soul_stained_steel_helmet",
-    "malum:soul_stained_steel_chestplate",
-    "malum:soul_stained_steel_leggings",
-    "malum:soul_stained_steel_boots"
-  ],
+  "repairMaterial": {
+    "count": 3,
+    "item": "malum:soul_stained_steel_plating"
+  },
   "spirits": [
     {
       "type": "malum:wicked",
@@ -24,5 +19,10 @@
       "count": 4
     }
   ],
-  "type": "malum:spirit_repair"
+  "validItems": [
+    "malum:soul_stained_steel_helmet",
+    "malum:soul_stained_steel_chestplate",
+    "malum:soul_stained_steel_leggings",
+    "malum:soul_stained_steel_boots"
+  ]
 }

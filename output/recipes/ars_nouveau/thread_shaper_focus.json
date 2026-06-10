@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:shapers_focus"
@@ -10,14 +12,12 @@
       "item": "ars_nouveau:manipulation_essence"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:blank_thread"
   },
   "result": {
-    "id": "ars_nouveau:thread_shaper_focus",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:thread_shaper_focus"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

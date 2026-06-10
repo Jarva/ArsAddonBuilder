@@ -1,18 +1,24 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "starbunclemania"
+    }
+  ],
+  "type": "create:mixing",
+  "heat_requirement": "heated",
   "ingredients": [
     {
       "item": "minecraft:amethyst_shard"
     },
     {
-      "item": "ars_nouveau:greater_experience_gem"
+      "tag": "c:consumables/experience_12"
     }
   ],
   "results": [
     {
-      "id": "sauce:source_fluid",
-      "amount": 1000
+      "amount": 1000,
+      "id": "starbunclemania:source_fluid"
     }
-  ],
-  "heat_requirement": "heated",
-  "type": "create:mixing"
+  ]
 }

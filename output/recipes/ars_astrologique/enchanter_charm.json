@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
   "pedestalItems": [
     {
       "item": "ars_nouveau:arcanist_hood"
@@ -13,14 +15,12 @@
       "item": "minecraft:book"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": true,
   "reagent": {
     "item": "ars_astrologique:enchanter_scroll"
   },
   "result": {
-    "id": "ars_astrologique:enchanter_charm",
-    "count": 1
+    "count": 1,
+    "id": "ars_astrologique:enchanter_charm"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

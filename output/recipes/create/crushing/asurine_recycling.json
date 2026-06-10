@@ -1,63 +1,19 @@
 {
+  "type": "create:crushing",
   "ingredients": [
-    [
-      {
-        "item": "create:cut_asurine"
-      },
-      {
-        "item": "create:cut_asurine_stairs"
-      },
-      {
-        "item": "create:cut_asurine_wall"
-      },
-      {
-        "item": "create:polished_cut_asurine"
-      },
-      {
-        "item": "create:polished_cut_asurine_stairs"
-      },
-      {
-        "item": "create:polished_cut_asurine_wall"
-      },
-      {
-        "item": "create:cut_asurine_bricks"
-      },
-      {
-        "item": "create:cut_asurine_brick_stairs"
-      },
-      {
-        "item": "create:cut_asurine_brick_wall"
-      },
-      {
-        "item": "create:small_asurine_bricks"
-      },
-      {
-        "item": "create:small_asurine_brick_stairs"
-      },
-      {
-        "item": "create:small_asurine_brick_wall"
-      },
-      {
-        "item": "create:layered_asurine"
-      },
-      {
-        "item": "create:asurine_pillar"
-      },
-      {
-        "item": "create:asurine"
-      }
-    ]
-  ],
-  "results": [
     {
-      "id": "create:crushed_raw_zinc",
-      "chance": 0.3
-    },
-    {
-      "id": "create:zinc_nugget",
-      "chance": 0.3
+      "tag": "create:stone_types/asurine"
     }
   ],
   "processing_time": 250,
-  "type": "create:crushing"
+  "results": [
+    {
+      "chance": 0.3,
+      "id": "create:crushed_raw_zinc"
+    },
+    {
+      "chance": 0.3,
+      "id": "create:zinc_nugget"
+    }
+  ]
 }

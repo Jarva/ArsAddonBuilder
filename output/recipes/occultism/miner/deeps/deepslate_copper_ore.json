@@ -1,19 +1,14 @@
 {
-  "ingredient": [
-    {
-      "item": "occultism:miner_afrit_deeps"
-    },
-    {
-      "item": "occultism:miner_marid_master"
-    }
-  ],
-  "result": {
-    "stack": {
-      "id": "minecraft:deepslate_copper_ore",
-      "count": 1
-    },
-    "weight": 584,
-    "type": "occultism:weighted_item"
+  "type": "occultism:miner",
+  "ingredient": {
+    "tag": "occultism:miners/deeps"
   },
-  "type": "occultism:miner"
+  "result": {
+    "type": "occultism:weighted_item",
+    "stack": {
+      "count": 1,
+      "id": "minecraft:deepslate_copper_ore"
+    },
+    "weight": 584
+  }
 }

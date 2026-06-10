@@ -1,4 +1,19 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 4,
+      "item": "malum:refined_soulstone"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:soul_stained_steel_ingot"
+  },
   "spirits": [
     {
       "type": "malum:wicked",
@@ -12,20 +27,5 @@
       "type": "malum:arcane",
       "count": 1
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:refined_soulstone",
-      "count": 4
-    }
-  ],
-  "input": {
-    "item": "minecraft:iron_ingot",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:soul_stained_steel_ingot",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

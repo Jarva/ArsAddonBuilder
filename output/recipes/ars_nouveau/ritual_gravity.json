@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:ritual_gravity",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:green_archwood_log"
@@ -21,5 +18,8 @@
       "item": "minecraft:anvil"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:ritual_gravity"
+  }
 }

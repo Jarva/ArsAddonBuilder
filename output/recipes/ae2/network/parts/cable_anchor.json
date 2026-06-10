@@ -1,31 +1,15 @@
 {
-  "result": {
-    "id": "ae2:cable_anchor",
-    "count": 4
-  },
+  "type": "ae2:quartz_cutting",
   "ingredients": [
-    [
-      {
-        "item": "ae2:certus_quartz_cutting_knife"
-      },
-      {
-        "item": "ae2:nether_quartz_cutting_knife"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:copper_ingot"
-      },
-      {
-        "item": "minecraft:iron_ingot"
-      },
-      {
-        "item": "minecraft:gold_ingot"
-      },
-      {
-        "item": "create:brass_ingot"
-      }
-    ]
+    {
+      "tag": "ae2:knife"
+    },
+    {
+      "tag": "ae2:metal_ingots"
+    }
   ],
-  "type": "ae2:quartz_cutting"
+  "result": {
+    "count": 4,
+    "id": "ae2:cable_anchor"
+  }
 }

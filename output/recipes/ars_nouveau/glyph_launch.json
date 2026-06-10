@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_nouveau:glyph_launch",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 27,
   "inputs": [
     {
       "item": "ars_nouveau:air_essence"
@@ -17,6 +15,8 @@
       "item": "minecraft:rabbit_hide"
     }
   ],
-  "exp": 27,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:glyph_launch"
+  }
 }

@@ -1,21 +1,14 @@
 {
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
+  },
+  "duration": 90,
+  "entity_to_sacrifice": {
+    "display_name": "ritual.occultism.sacrifice.cubemob",
+    "tag": "occultism:cubemob"
+  },
   "entity_to_summon": "occultism:possessed_shulker",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/possess_shulker",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/possessed_shulker",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_shulker\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.possess_shulker.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon",
-  "pentacle_id": "occultism:possess_afrit",
   "ingredients": [
     {
       "item": "minecraft:dragon_breath"
@@ -24,19 +17,26 @@
       "item": "minecraft:purple_glazed_terracotta"
     },
     {
-      "item": "minecraft:end_stone"
+      "tag": "c:end_stones"
     },
     {
       "item": "minecraft:purple_glazed_terracotta"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_afrit"
+  "pentacle_id": "occultism:possess_afrit",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_shulker\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_shulker.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/possessed_shulker"
   },
-  "duration": 90,
-  "entity_to_sacrifice": {
-    "tag": "occultism:cubemob",
-    "display_name": "ritual.occultism.sacrifice.cubemob"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/possess_shulker"
   },
-  "type": "occultism:ritual"
+  "ritual_type": "occultism:summon"
 }

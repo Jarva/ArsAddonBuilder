@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:track_signal",
-    "count": 4
-  },
   "ingredients": [
     {
       "item": "create:railway_casing"
@@ -12,5 +9,8 @@
       "item": "create:electron_tube"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 4,
+    "id": "create:track_signal"
+  }
 }

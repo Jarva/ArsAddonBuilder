@@ -1,37 +1,14 @@
 {
-  "flavour_text": "Stay away!",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 255,
+    "b": 180,
     "g": 25,
-    "b": 180
+    "id": "ars_nouveau:constant",
+    "r": 255
   },
-  "sound": {},
-  "spellData": {
-    "sound": {},
-    "recipe": [
-      "ars_nouveau:glyph_self",
-      "ars_nouveau:glyph_orbit",
-      "ars_nouveau:glyph_gust",
-      "ars_nouveau:glyph_amplify",
-      "ars_nouveau:glyph_amplify",
-      "ars_nouveau:glyph_amplify",
-      "ars_nouveau:glyph_amplify",
-      "ars_nouveau:glyph_amplify",
-      "ars_nouveau:glyph_amplify",
-      "ars_nouveau:glyph_amplify",
-      "ars_nouveau:glyph_amplify"
-    ],
-    "particleTimeline": {},
-    "name": "Uni\u0027s Windshield",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 255,
-      "g": 25,
-      "b": 180
-    }
-  },
+  "flavour_text": "Stay away!",
   "name": "Uni\u0027s Windshield",
+  "sound": {},
   "spell": [
     "ars_nouveau:glyph_self",
     "ars_nouveau:glyph_orbit",
@@ -45,6 +22,29 @@
     "ars_nouveau:glyph_amplify",
     "ars_nouveau:glyph_amplify"
   ],
-  "tome_type": "ars_nouveau:caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 180,
+      "g": 25,
+      "id": "ars_nouveau:constant",
+      "r": 255
+    },
+    "name": "Uni\u0027s Windshield",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_self",
+      "ars_nouveau:glyph_orbit",
+      "ars_nouveau:glyph_gust",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify"
+    ],
+    "sound": {}
+  },
+  "tome_type": "ars_nouveau:caster_tome"
 }

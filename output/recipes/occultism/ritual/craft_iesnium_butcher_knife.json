@@ -1,34 +1,34 @@
 {
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/craft_iesnium_butcher_knife",
-    "count": 1
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
   },
-  "result": {
-    "id": "occultism:iesnium_butcher_knife",
-    "count": 1
-  },
-  "ritual_type": "occultism:craft_with_spirit_name",
-  "pentacle_id": "occultism:craft_afrit",
+  "duration": 300,
   "ingredients": [
     {
       "item": "occultism:butcher_knife"
     },
     {
-      "item": "occultism:iesnium_ingot"
+      "tag": "c:ingots/iesnium"
     },
     {
       "item": "occultism:afrit_essence"
     },
     {
-      "item": "occultism:iesnium_ingot"
+      "tag": "c:ingots/iesnium"
     },
     {
-      "item": "occultism:netherite_dust"
+      "tag": "c:dusts/netherite"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_afrit"
+  "pentacle_id": "occultism:craft_afrit",
+  "result": {
+    "count": 1,
+    "id": "occultism:iesnium_butcher_knife"
   },
-  "duration": 300,
-  "type": "occultism:ritual"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/craft_iesnium_butcher_knife"
+  },
+  "ritual_type": "occultism:craft_with_spirit_name"
 }

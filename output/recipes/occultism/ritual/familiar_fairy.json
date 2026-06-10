@@ -1,21 +1,14 @@
 {
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 90,
+  "entity_to_sacrifice": {
+    "display_name": "ritual.occultism.sacrifice.horses",
+    "tag": "c:horses"
+  },
   "entity_to_summon": "occultism:fairy_familiar",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/familiar_fairy",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/familiar_fairy",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.familiar_fairy\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.familiar_fairy.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon_tamed",
-  "pentacle_id": "occultism:possess_djinni",
   "ingredients": [
     {
       "item": "minecraft:golden_apple"
@@ -27,25 +20,32 @@
       "item": "minecraft:ghast_tear"
     },
     {
-      "item": "minecraft:gunpowder"
+      "tag": "c:gunpowders"
     },
     {
-      "item": "minecraft:gunpowder"
+      "tag": "c:gunpowders"
     },
     {
-      "item": "minecraft:gunpowder"
+      "tag": "c:gunpowders"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "tag": "c:buckets/milk"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_djinni"
+  "pentacle_id": "occultism:possess_djinni",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.familiar_fairy\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.familiar_fairy.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/familiar_fairy"
   },
-  "duration": 90,
-  "entity_to_sacrifice": {
-    "tag": "c:horses",
-    "display_name": "ritual.occultism.sacrifice.horses"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/familiar_fairy"
   },
-  "type": "occultism:ritual"
+  "ritual_type": "occultism:summon_tamed"
 }

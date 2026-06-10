@@ -1,16 +1,27 @@
 {
-  "ingredient": [
+  "neoforge:conditions": [
     {
-      "item": "minecraft:emerald_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/emerald"
+      }
     },
     {
-      "item": "minecraft:deepslate_emerald_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/emerald"
+      }
     }
   ],
-  "result": {
-    "tag": "c:dusts/emerald",
-    "count": 3,
-    "type": "occultism:tag"
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:ores/emerald"
   },
-  "type": "occultism:crushing"
+  "result": {
+    "type": "occultism:tag",
+    "count": 3,
+    "tag": "c:dusts/emerald"
+  }
 }

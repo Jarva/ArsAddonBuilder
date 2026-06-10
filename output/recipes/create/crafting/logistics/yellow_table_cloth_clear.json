@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:yellow_table_cloth",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "create:yellow_table_cloth"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:yellow_table_cloth"
+  }
 }

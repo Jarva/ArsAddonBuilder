@@ -1,10 +1,10 @@
 {
+  "type": "minecraft:stonecutting",
   "ingredient": {
     "item": "ars_nouveau:sourcestone"
   },
   "result": {
-    "id": "ars_nouveau:smooth_sourcestone",
-    "count": 1
-  },
-  "type": "minecraft:stonecutting"
+    "count": 1,
+    "id": "ars_nouveau:smooth_sourcestone"
+  }
 }

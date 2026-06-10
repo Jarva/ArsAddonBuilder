@@ -1,13 +1,13 @@
 {
-  "result": {
-    "id": "malum:blazing_quartz",
-    "count": 1
-  },
-  "experience": 0.25,
-  "cookingtime": 200,
+  "type": "minecraft:smelting",
   "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.25,
   "ingredient": {
     "item": "malum:blazing_quartz_ore"
   },
-  "type": "minecraft:smelting"
+  "result": {
+    "count": 1,
+    "id": "malum:blazing_quartz"
+  }
 }

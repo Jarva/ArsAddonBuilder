@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_trinkets:essence_7"
@@ -25,14 +27,12 @@
       "item": "ars_trinkets:essence_7"
     }
   ],
-  "sourceCost": 3500,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_trinkets:essence_lotus_6"
   },
   "result": {
-    "id": "ars_trinkets:essence_lotus_7",
-    "count": 1
+    "count": 1,
+    "id": "ars_trinkets:essence_lotus_7"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 3500
 }

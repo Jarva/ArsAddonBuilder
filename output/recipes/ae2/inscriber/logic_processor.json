@@ -1,19 +1,19 @@
 {
+  "type": "ae2:inscriber",
   "ingredients": {
-    "top": {
-      "item": "ae2:printed_logic_processor"
+    "bottom": {
+      "item": "ae2:printed_silicon"
     },
     "middle": {
       "item": "minecraft:redstone"
     },
-    "bottom": {
-      "item": "ae2:printed_silicon"
+    "top": {
+      "item": "ae2:printed_logic_processor"
     }
   },
-  "result": {
-    "id": "ae2:logic_processor",
-    "count": 1
-  },
   "mode": "press",
-  "type": "ae2:inscriber"
+  "result": {
+    "count": 1,
+    "id": "ae2:logic_processor"
+  }
 }

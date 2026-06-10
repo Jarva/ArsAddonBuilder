@@ -1,19 +1,27 @@
 {
-  "ingredient": [
+  "neoforge:conditions": [
     {
-      "item": "minecraft:gold_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/gold"
+      }
     },
     {
-      "item": "minecraft:nether_gold_ore"
-    },
-    {
-      "item": "minecraft:deepslate_gold_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/gold"
+      }
     }
   ],
-  "result": {
-    "tag": "c:dusts/gold",
-    "count": 2,
-    "type": "occultism:tag"
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:ores/gold"
   },
-  "type": "occultism:crushing"
+  "result": {
+    "type": "occultism:tag",
+    "count": 2,
+    "tag": "c:dusts/gold"
+  }
 }

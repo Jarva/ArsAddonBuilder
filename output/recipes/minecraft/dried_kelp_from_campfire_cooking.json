@@ -1,13 +1,12 @@
 {
-  "result": {
-    "id": "minecraft:dried_kelp",
-    "count": 1
-  },
-  "experience": 0.1,
-  "cookingtime": 600,
+  "type": "minecraft:campfire_cooking",
   "category": "food",
+  "cookingtime": 600,
+  "experience": 0.1,
   "ingredient": {
     "item": "minecraft:kelp"
   },
-  "type": "minecraft:campfire_cooking"
+  "result": {
+    "id": "minecraft:dried_kelp"
+  }
 }

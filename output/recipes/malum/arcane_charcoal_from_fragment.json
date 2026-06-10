@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "malum:arcane_charcoal",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "malum:arcane_charcoal_fragment"
@@ -30,5 +27,8 @@
       "item": "malum:arcane_charcoal_fragment"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "malum:arcane_charcoal"
+  }
 }

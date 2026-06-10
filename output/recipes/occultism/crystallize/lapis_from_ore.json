@@ -1,16 +1,27 @@
 {
-  "ingredient": [
+  "neoforge:conditions": [
     {
-      "item": "minecraft:lapis_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/lapis"
+      }
     },
     {
-      "item": "minecraft:deepslate_lapis_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gems/lapis"
+      }
     }
   ],
-  "result": {
-    "tag": "c:gems/lapis",
-    "count": 6,
-    "type": "occultism:tag"
+  "type": "occultism:crystallize",
+  "ingredient": {
+    "tag": "c:ores/lapis"
   },
-  "type": "occultism:crystallize"
+  "result": {
+    "type": "occultism:tag",
+    "count": 6,
+    "tag": "c:gems/lapis"
+  }
 }

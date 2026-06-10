@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "farmersdelight:tomato",
-    "count": 9
-  },
   "ingredients": [
     {
       "item": "farmersdelight:tomato_crate"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 9,
+    "id": "farmersdelight:tomato"
+  }
 }

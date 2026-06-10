@@ -1,86 +1,48 @@
 {
-  "entity_to_summon": "occultism:demonic_wife",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/summon_demonic_wife",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/demonic_wife",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_demonic_wife\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.summon_demonic_wife.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon_tamed",
-  "pentacle_id": "occultism:summon_djinni",
-  "ingredients": [
-    {
-      "item": "minecraft:gold_ingot"
-    },
-    {
-      "item": "minecraft:diamond"
-    },
-    {
-      "item": "minecraft:gunpowder"
-    },
-    {
-      "item": "minecraft:porkchop"
-    },
-    {
-      "children": [
-        {
-          "item": "minecraft:diamond_sword"
-        },
-        {
-          "item": "minecraft:stone_sword"
-        },
-        {
-          "item": "minecraft:golden_sword"
-        },
-        {
-          "item": "minecraft:netherite_sword"
-        },
-        {
-          "item": "minecraft:wooden_sword"
-        },
-        {
-          "item": "minecraft:iron_sword"
-        },
-        {
-          "item": "ae2:certus_quartz_sword"
-        },
-        {
-          "item": "ae2:nether_quartz_sword"
-        },
-        {
-          "item": "ae2:fluix_sword"
-        },
-        {
-          "item": "ars_nouveau:enchanters_sword"
-        },
-        {
-          "item": "malum:soul_stained_steel_sword"
-        },
-        {
-          "item": "malum:tyrving"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    }
-  ],
+  "type": "occultism:ritual",
   "activation_item": {
     "item": "occultism:book_of_binding_bound_djinni"
   },
   "duration": 120,
   "entity_to_sacrifice": {
-    "tag": "c:chickens",
-    "display_name": "ritual.occultism.sacrifice.chicken"
+    "display_name": "ritual.occultism.sacrifice.chicken",
+    "tag": "c:chickens"
   },
-  "type": "occultism:ritual"
+  "entity_to_summon": "occultism:demonic_wife",
+  "ingredients": [
+    {
+      "tag": "c:ingots/gold"
+    },
+    {
+      "tag": "c:gems/diamond"
+    },
+    {
+      "tag": "c:gunpowders"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "tag": "minecraft:swords"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "pentacle_id": "occultism:summon_djinni",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_demonic_wife\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_demonic_wife.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/demonic_wife"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/summon_demonic_wife"
+  },
+  "ritual_type": "occultism:summon_tamed"
 }

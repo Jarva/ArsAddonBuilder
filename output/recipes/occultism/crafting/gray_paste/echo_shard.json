@@ -1,16 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:echo_shard",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:gray_paste"
     },
     {
-      "item": "occultism:echo_dust"
+      "tag": "c:dusts/echo"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:echo_shard"
+  }
 }

@@ -1,12 +1,12 @@
 {
+  "type": "ars_nouveau:imbuement",
   "input": {
     "item": "ars_nouveau:wilden_tribute"
   },
   "output": {
-    "id": "ars_elemental:mark_of_mastery",
-    "count": 5
+    "count": 5,
+    "id": "ars_elemental:mark_of_mastery"
   },
-  "source": 10000,
   "pedestalItems": [
     {
       "item": "ars_nouveau:earth_essence"
@@ -33,5 +33,5 @@
       "item": "sauce:anima_essence"
     }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 10000
 }

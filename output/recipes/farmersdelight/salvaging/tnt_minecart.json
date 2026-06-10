@@ -1,31 +1,34 @@
 {
-  "tool": [
-    {
-      "action": "hoe_dig",
-      "type": "farmersdelight:item_ability"
-    },
-    {
-      "tag": "minecraft:hoes"
-    }
-  ],
-  "result": [
-    {
-      "item": {
-        "id": "minecraft:minecart",
-        "count": 1
-      }
-    },
-    {
-      "item": {
-        "id": "minecraft:tnt",
-        "count": 1
-      }
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
       "item": "minecraft:tnt_minecart"
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:minecart"
+      }
+    },
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:tnt"
+      }
+    }
+  ],
+  "sound": {
+    "sound_id": "minecraft:block.metal.break"
+  },
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "hoe_dig"
+    },
+    {
+      "tag": "minecraft:hoes"
+    }
+  ]
 }

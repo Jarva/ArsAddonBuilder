@@ -1,4 +1,14 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "environmental"
+      }
+    }
+  ],
+  "type": "create:pressing",
   "ingredients": [
     [
       {
@@ -22,6 +32,5 @@
     {
       "id": "minecraft:dirt_path"
     }
-  ],
-  "type": "create:pressing"
+  ]
 }

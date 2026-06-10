@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "malum:tainted_rock"
+    },
+    "X": {
+      "tag": "malum:runewood_planks"
+    },
+    "Y": {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    "Z": {
+      "item": "malum:cthonic_gold"
+    }
+  },
+  "pattern": [
+    "YZY",
+    "XXX",
+    "WXW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "malum:soulbinding_brazier"
+  }
+}

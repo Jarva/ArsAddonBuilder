@@ -1,23 +1,24 @@
 {
-  "input": {
-    "item": "malum:fused_consciousness",
-    "count": 1
-  },
-  "result": "malum:authority_of_the_gleeful_target",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "malum:malignant_pewter_plating",
-      "count": 16
+      "count": 16,
+      "item": "malum:malignant_pewter_plating"
     },
     {
-      "item": "malum:imitation_flesh",
-      "count": 16
+      "count": 16,
+      "item": "malum:imitation_flesh"
     },
     {
-      "item": "malum:void_salts",
-      "count": 16
+      "count": 16,
+      "item": "malum:void_salts"
     }
   ],
+  "input": {
+    "count": 1,
+    "item": "malum:fused_consciousness"
+  },
+  "result": "malum:authority_of_the_gleeful_target",
   "spirits": [
     {
       "type": "malum:sacred",
@@ -51,6 +52,5 @@
       "type": "malum:infernal",
       "count": 32
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

@@ -1,26 +1,28 @@
 {
-  "ingredient": [
+  "neoforge:conditions": [
     {
-      "item": "occultism:miner_foliot_unspecialized"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "occultism:miners/ores"
+      }
     },
     {
-      "item": "occultism:miner_debug_unspecialized"
-    },
-    {
-      "item": "occultism:miner_afrit_deeps"
-    },
-    {
-      "item": "occultism:miner_marid_master"
-    },
-    {
-      "item": "occultism:miner_djinni_ores"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/zinc"
+      }
     }
   ],
-  "result": {
-    "tag": "c:ores/zinc",
-    "count": 1,
-    "weight": 186,
-    "type": "occultism:weighted_tag"
+  "type": "occultism:miner",
+  "ingredient": {
+    "tag": "occultism:miners/ores"
   },
-  "type": "occultism:miner"
+  "result": {
+    "type": "occultism:weighted_tag",
+    "count": 1,
+    "tag": "c:ores/zinc",
+    "weight": 186
+  }
 }

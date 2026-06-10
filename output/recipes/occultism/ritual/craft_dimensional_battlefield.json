@@ -1,16 +1,12 @@
 {
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/craft_dimensional_battlefield",
-    "count": 1
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
   },
-  "result": {
-    "id": "occultism:dimensional_battlefield",
-    "count": 1
-  },
-  "ritual_type": "occultism:craft",
-  "pentacle_id": "occultism:craft_afrit",
+  "duration": 300,
   "ingredients": [
     {
+      "type": "neoforge:compound",
       "children": [
         {
           "item": "occultism:otherstone"
@@ -18,10 +14,10 @@
         {
           "item": "occultism:otherrock"
         }
-      ],
-      "type": "neoforge:compound"
+      ]
     },
     {
+      "type": "neoforge:compound",
       "children": [
         {
           "item": "occultism:otherstone"
@@ -29,10 +25,10 @@
         {
           "item": "occultism:otherrock"
         }
-      ],
-      "type": "neoforge:compound"
+      ]
     },
     {
+      "type": "neoforge:compound",
       "children": [
         {
           "item": "occultism:otherstone"
@@ -40,10 +36,10 @@
         {
           "item": "occultism:otherrock"
         }
-      ],
-      "type": "neoforge:compound"
+      ]
     },
     {
+      "type": "neoforge:compound",
       "children": [
         {
           "item": "occultism:otherstone"
@@ -51,14 +47,13 @@
         {
           "item": "occultism:otherrock"
         }
-      ],
-      "type": "neoforge:compound"
+      ]
     },
     {
-      "item": "minecraft:netherite_ingot"
+      "tag": "c:ingots/netherite"
     },
     {
-      "item": "occultism:iesnium_block"
+      "tag": "c:storage_blocks/iesnium"
     },
     {
       "item": "occultism:spirit_attuned_crystal"
@@ -67,9 +62,14 @@
       "item": "occultism:afrit_essence"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_afrit"
+  "pentacle_id": "occultism:craft_afrit",
+  "result": {
+    "count": 1,
+    "id": "occultism:dimensional_battlefield"
   },
-  "duration": 300,
-  "type": "occultism:ritual"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/craft_dimensional_battlefield"
+  },
+  "ritual_type": "occultism:craft"
 }

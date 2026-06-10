@@ -1,19 +1,19 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:sconce",
-    "count": 1
-  },
   "ingredients": [
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     },
     {
-      "item": "minecraft:gold_nugget"
+      "tag": "c:nuggets/gold"
     },
     {
-      "item": "minecraft:gold_nugget"
+      "tag": "c:nuggets/gold"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:sconce"
+  }
 }

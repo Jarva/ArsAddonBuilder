@@ -1,4 +1,13 @@
 {
+  "type": "malum:spirit_focusing",
+  "durabilityCost": 2,
+  "input": {
+    "item": "malum:iron_impetus"
+  },
+  "result": {
+    "count": 3,
+    "id": "malum:iron_node"
+  },
   "spirits": [
     {
       "type": "malum:earthen",
@@ -9,14 +18,5 @@
       "count": 2
     }
   ],
-  "time": 900,
-  "durabilityCost": 2,
-  "input": {
-    "item": "malum:iron_impetus"
-  },
-  "result": {
-    "id": "malum:iron_node",
-    "count": 3
-  },
-  "type": "malum:spirit_focusing"
+  "time": 900
 }

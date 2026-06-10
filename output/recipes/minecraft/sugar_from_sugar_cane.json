@@ -1,14 +1,14 @@
 {
-  "group": "sugar",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:sugar",
-    "count": 1
-  },
+  "group": "sugar",
   "ingredients": [
     {
       "item": "minecraft:sugar_cane"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:sugar"
+  }
 }

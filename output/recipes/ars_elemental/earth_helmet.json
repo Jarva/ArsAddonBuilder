@@ -1,4 +1,5 @@
 {
+  "type": "sauce:armor_upgrade",
   "pedestalItems": [
     {
       "item": "ars_elemental:mark_of_mastery"
@@ -13,13 +14,12 @@
       "item": "ars_nouveau:earth_essence"
     }
   ],
-  "sourceCost": 7000,
   "reagent": {
     "item": "ars_nouveau:battlemage_hood"
   },
   "result": {
-    "id": "ars_elemental:earth_helmet",
-    "count": 1
+    "count": 1,
+    "id": "ars_elemental:earth_helmet"
   },
-  "type": "sauce:armor_upgrade"
+  "sourceCost": 7000
 }

@@ -1,23 +1,23 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 2,
+      "item": "malum:hex_ash"
+    }
+  ],
+  "input": {
+    "count": 4,
+    "tag": "c:ingots/iron"
+  },
+  "result": {
+    "count": 4,
+    "id": "malum:esoteric_spool"
+  },
   "spirits": [
     {
       "type": "malum:arcane",
       "count": 4
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:hex_ash",
-      "count": 2
-    }
-  ],
-  "input": {
-    "tag": "c:ingots/iron",
-    "count": 4
-  },
-  "result": {
-    "id": "malum:esoteric_spool",
-    "count": 4
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

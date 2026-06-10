@@ -1,12 +1,12 @@
 {
+  "type": "ars_nouveau:imbuement",
   "input": {
-    "item": "minecraft:lapis_lazuli"
+    "tag": "c:gems/lapis"
   },
   "output": {
-    "id": "ars_nouveau:source_gem",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:source_gem"
   },
-  "source": 500,
   "pedestalItems": [],
-  "type": "ars_nouveau:imbuement"
+  "source": 500
 }

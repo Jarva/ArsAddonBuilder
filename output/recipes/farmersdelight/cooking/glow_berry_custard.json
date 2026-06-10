@@ -1,34 +1,22 @@
 {
-  "result": {
-    "id": "farmersdelight:glow_berry_custard",
-    "count": 1
-  },
-  "container": {
-    "id": "minecraft:glass_bottle",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "experience": 1.0,
   "ingredients": [
     {
       "item": "minecraft:glow_berries"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:milk_bucket"
-        },
-        {
-          "item": "farmersdelight:milk_bottle"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:drinks/milk"
     },
     {
-      "item": "minecraft:egg"
+      "tag": "c:eggs"
     },
     {
       "item": "minecraft:sugar"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:glow_berry_custard"
+  }
 }

@@ -1,4 +1,5 @@
 {
+  "type": "ars_ingressum:planar_attuning",
   "pedestal_items": [
     {
       "item": "minecraft:dirt"
@@ -11,6 +12,5 @@
     }
   ],
   "dimension": "minecraft:overworld",
-  "source": 2000,
-  "type": "ars_ingressum:planar_attuning"
+  "source": 2000
 }

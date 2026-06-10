@@ -1,12 +1,28 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/amethyst"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gems/amethyst"
+      }
+    }
+  ],
+  "type": "occultism:crystallize",
   "ignore_crystallize_multiplier": true,
   "ingredient": {
-    "item": "occultism:amethyst_dust"
+    "tag": "c:dusts/amethyst"
   },
   "result": {
-    "tag": "c:gems/amethyst",
+    "type": "occultism:tag",
     "count": 1,
-    "type": "occultism:tag"
-  },
-  "type": "occultism:crystallize"
+    "tag": "c:gems/amethyst"
+  }
 }

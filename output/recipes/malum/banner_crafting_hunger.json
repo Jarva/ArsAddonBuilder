@@ -1,15 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "malum:soulwoven_banner",
-    "count": 1,
-    "components": {
-      "malum:soulwoven_banner_pattern": {
-        "type": "malum:hunger",
-        "texture": "malum:textures/block/banners/soulwoven_banner_hunger.png"
-      }
-    }
-  },
   "ingredients": [
     {
       "item": "malum:soulwoven_banner"
@@ -18,5 +9,14 @@
       "item": "malum:rotting_essence"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "components": {
+      "malum:soulwoven_banner_pattern": {
+        "type": "malum:hunger",
+        "texture": "malum:textures/block/banners/soulwoven_banner_hunger.png"
+      }
+    },
+    "count": 1,
+    "id": "malum:soulwoven_banner"
+  }
 }

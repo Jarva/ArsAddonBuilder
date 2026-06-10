@@ -1,29 +1,19 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "farmersdelight:stuffed_potato",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:baked_potato"
     },
-    [
-      {
-        "item": "minecraft:cooked_beef"
-      },
-      {
-        "item": "farmersdelight:beef_patty"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:milk_bucket"
-      },
-      {
-        "item": "farmersdelight:milk_bottle"
-      }
-    ]
+    {
+      "tag": "c:foods/cooked_beef"
+    },
+    {
+      "tag": "c:drinks/milk"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:stuffed_potato"
+  }
 }

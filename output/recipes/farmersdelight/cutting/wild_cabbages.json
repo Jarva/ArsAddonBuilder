@@ -1,32 +1,32 @@
 {
-  "tool": [
-    {
-      "action": "knife_dig",
-      "type": "farmersdelight:item_ability"
-    },
-    {
-      "tag": "c:tools/knife"
-    }
-  ],
-  "result": [
-    {
-      "item": {
-        "id": "farmersdelight:cabbage_seeds",
-        "count": 1
-      }
-    },
-    {
-      "item": {
-        "id": "minecraft:yellow_dye",
-        "count": 2
-      },
-      "chance": 0.5
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
       "item": "farmersdelight:wild_cabbages"
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "farmersdelight:cabbage_seeds"
+      }
+    },
+    {
+      "chance": 0.5,
+      "item": {
+        "count": 2,
+        "id": "minecraft:yellow_dye"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "knife_dig"
+    },
+    {
+      "tag": "c:tools/knife"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
-  "id": "ars_additions:fall_prevention_charm",
-  "item": "ars_additions:fall_prevention_charm",
+  "type": "ars_additions:charm_charging",
   "costPerDamage": 20,
-  "type": "ars_additions:charm_charging"
+  "id": "ars_additions:fall_prevention_charm",
+  "item": "ars_additions:fall_prevention_charm"
 }

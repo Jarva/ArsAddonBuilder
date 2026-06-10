@@ -1,12 +1,12 @@
 {
-  "structure": {
-    "tag": "ars_additions:end_city"
-  },
-  "id": "ars_additions:end_city",
+  "type": "ars_additions:locate_structure",
   "augments": [
     {
       "key": "minecraft:purpur_block"
     }
   ],
-  "type": "ars_additions:locate_structure"
+  "id": "ars_additions:end_city",
+  "structure": {
+    "tag": "ars_additions:end_city"
+  }
 }

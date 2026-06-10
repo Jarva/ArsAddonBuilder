@@ -1,29 +1,39 @@
 {
-  "flavour_text": "Even the book is burning hot! You might need to use this spell with caution if you don\u0027t want your item to burn!",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 255,
+    "b": 180,
     "g": 25,
-    "b": 180
+    "id": "ars_nouveau:constant",
+    "r": 255
   },
+  "flavour_text": "Even the book is burning hot! You might need to use this spell with caution if you don\u0027t want your item to burn!",
+  "name": "Sebuss\u0027s Very Hot Smelt",
   "sound": {},
+  "spell": [
+    "ars_nouveau:glyph_projectile",
+    "ars_nouveau:glyph_smelt",
+    "ars_nouveau:glyph_aoe",
+    "ars_nouveau:glyph_sensitive",
+    "ars_nouveau:glyph_ignite"
+  ],
   "spellData": {
-    "sound": {},
-    "recipe": [
-      "ars_nouveau:glyph_projectile",
-      "ars_nouveau:glyph_smelt",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_sensitive",
-      "ars_nouveau:glyph_ignite"
-    ],
+    "color": {
+      "b": 180,
+      "g": 25,
+      "id": "ars_nouveau:constant",
+      "r": 255
+    },
+    "name": "Sebuss\u0027s Very Hot Smelt",
     "particleTimeline": {
       "ars_nouveau:light": {
+        "type": "ars_nouveau:light",
         "onResolvingEffect": {
           "motion": {
-            "propMap": {},
-            "type": "ars_nouveau:light"
+            "type": "ars_nouveau:light",
+            "propMap": {}
           },
           "particleOptions": {
+            "type": "ars_nouveau:new_glow",
             "properties": {
               "ars_nouveau:density": {
                 "density": 1,
@@ -35,67 +45,124 @@
                 "subProperties": {
                   "ars_nouveau:color": {
                     "particleColor": {
-                      "id": "ars_nouveau:constant",
-                      "r": 50,
+                      "b": 255,
                       "g": 255,
-                      "b": 255
+                      "id": "ars_nouveau:constant",
+                      "r": 50
                     },
                     "tintDisabled": false
                   }
                 }
               },
               "ars_nouveau:speed": {
-                "yMinSpeed": 0.0,
-                "yMaxSpeed": 0.01,
+                "xzMaxSpeed": 0.0,
                 "xzMinSpeed": 0.0,
-                "xzMaxSpeed": 0.0
+                "yMaxSpeed": 0.01,
+                "yMinSpeed": 0.0
               }
-            },
-            "type": "ars_nouveau:new_glow"
+            }
           }
-        },
-        "type": "ars_nouveau:light"
+        }
       },
       "ars_nouveau:mageblock": {
+        "type": "ars_nouveau:mageblock",
         "propMap": {
           "ars_nouveau:color": {
             "particleColor": {
-              "id": "ars_nouveau:constant",
-              "r": 127,
+              "b": 127,
               "g": 127,
-              "b": 127
+              "id": "ars_nouveau:constant",
+              "r": 127
             },
             "tintDisabled": false
           }
-        },
-        "type": "ars_nouveau:mageblock"
+        }
       },
       "ars_nouveau:projectile": {
+        "type": "ars_nouveau:projectile",
+        "castSound": {
+          "sound": {
+            "sound": {
+              "id": "ars_nouveau:fire_family_2"
+            }
+          }
+        },
         "flairEffect": {
           "particleOptions": {
+            "type": "ars_nouveau:new_glow",
             "properties": {
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:new_glow",
                 "subProperties": {
                   "ars_nouveau:color": {
                     "particleColor": {
-                      "id": "ars_nouveau:constant",
-                      "r": 255,
+                      "b": 180,
                       "g": 25,
-                      "b": 180
+                      "id": "ars_nouveau:constant",
+                      "r": 255
                     },
                     "tintDisabled": true
                   }
                 }
               }
-            },
-            "type": "ars_nouveau:new_glow"
+            }
           }
         },
-        "castSound": {
-          "sound": {
-            "sound": {
-              "id": "ars_nouveau:fire_family_2"
+        "onResolvingEffect": {
+          "motion": {
+            "type": "ars_nouveau:burst",
+            "propMap": {}
+          },
+          "particleOptions": {
+            "type": "ars_nouveau:new_glow",
+            "properties": {
+              "ars_nouveau:density": {
+                "density": 5,
+                "radius": 0.10000000149011612,
+                "spawnType": "SPHERE"
+              },
+              "ars_nouveau:emitter": {
+                "age": 0,
+                "rotation": {
+                  "x": -29.06898,
+                  "y": 2.5588632
+                }
+              },
+              "ars_nouveau:particle_type": {
+                "particleType": "ars_nouveau:new_glow",
+                "subProperties": {
+                  "ars_nouveau:color": {
+                    "particleColor": {
+                      "b": 255,
+                      "g": 255,
+                      "id": "ars_nouveau:constant",
+                      "r": 50
+                    },
+                    "tintDisabled": false
+                  }
+                }
+              }
+            }
+          }
+        },
+        "onSpawnEffect": {
+          "particleOptions": {
+            "type": "ars_nouveau:new_glow",
+            "properties": {
+              "ars_nouveau:particle_type": {
+                "particleType": "ars_nouveau:new_glow",
+                "subProperties": {
+                  "ars_nouveau:color": {
+                    "particleColor": {
+                      "b": 180,
+                      "g": 25,
+                      "id": "ars_nouveau:constant",
+                      "r": 255
+                    },
+                    "tintDisabled": true
+                  }
+                }
+              }
             }
           }
         },
@@ -108,6 +175,7 @@
         },
         "trailEffect": {
           "motion": {
+            "type": "ars_nouveau:helix",
             "propMap": {
               "ars_nouveau:model": {
                 "resource": "ars_nouveau:empty",
@@ -118,19 +186,19 @@
                 "subProperties": {
                   "ars_nouveau:color": {
                     "particleColor": {
-                      "id": "ars_nouveau:constant",
-                      "r": 50,
+                      "b": 255,
                       "g": 255,
-                      "b": 255
+                      "id": "ars_nouveau:constant",
+                      "r": 50
                     },
                     "tintDisabled": false
                   }
                 }
               }
-            },
-            "type": "ars_nouveau:helix"
+            }
           },
           "particleOptions": {
+            "type": "ars_nouveau:flame",
             "properties": {
               "ars_nouveau:density": {
                 "density": 200,
@@ -142,121 +210,62 @@
                 "subProperties": {
                   "ars_nouveau:color": {
                     "particleColor": {
-                      "id": "ars_nouveau:constant",
-                      "r": 50,
+                      "b": 255,
                       "g": 255,
-                      "b": 255
+                      "id": "ars_nouveau:constant",
+                      "r": 50
                     },
                     "tintDisabled": false
                   }
                 }
               },
               "ars_nouveau:speed": {
-                "yMinSpeed": 0.0,
-                "yMaxSpeed": 0.0,
+                "xzMaxSpeed": 0.0,
                 "xzMinSpeed": 0.0,
-                "xzMaxSpeed": 0.0
+                "yMaxSpeed": 0.0,
+                "yMinSpeed": 0.0
               }
-            },
-            "type": "ars_nouveau:flame"
+            }
           }
-        },
-        "onResolvingEffect": {
-          "motion": {
-            "propMap": {},
-            "type": "ars_nouveau:burst"
-          },
-          "particleOptions": {
-            "properties": {
-              "ars_nouveau:density": {
-                "density": 5,
-                "radius": 0.10000000149011612,
-                "spawnType": "SPHERE"
-              },
-              "ars_nouveau:particle_type": {
-                "particleType": "ars_nouveau:new_glow",
-                "subProperties": {
-                  "ars_nouveau:color": {
-                    "particleColor": {
-                      "id": "ars_nouveau:constant",
-                      "r": 50,
-                      "g": 255,
-                      "b": 255
-                    },
-                    "tintDisabled": false
-                  }
-                }
-              },
-              "ars_nouveau:emitter": {
-                "rotation": {
-                  "x": -29.06898,
-                  "y": 2.5588632
-                },
-                "age": 0
-              }
-            },
-            "type": "ars_nouveau:new_glow"
-          }
-        },
-        "onSpawnEffect": {
-          "particleOptions": {
-            "properties": {
-              "ars_nouveau:particle_type": {
-                "particleType": "ars_nouveau:new_glow",
-                "subProperties": {
-                  "ars_nouveau:color": {
-                    "particleColor": {
-                      "id": "ars_nouveau:constant",
-                      "r": 255,
-                      "g": 25,
-                      "b": 180
-                    },
-                    "tintDisabled": true
-                  }
-                }
-              }
-            },
-            "type": "ars_nouveau:new_glow"
-          }
-        },
-        "type": "ars_nouveau:projectile"
+        }
       },
       "ars_nouveau:touch": {
+        "type": "ars_nouveau:touch",
         "onResolvingEffect": {
           "motion": {
-            "propMap": {},
-            "type": "ars_nouveau:burst"
+            "type": "ars_nouveau:burst",
+            "propMap": {}
           },
           "particleOptions": {
+            "type": "ars_nouveau:enchant",
             "properties": {
               "ars_nouveau:density": {
                 "density": 5,
                 "radius": 0.10000000149011612,
                 "spawnType": "SPHERE"
+              },
+              "ars_nouveau:emitter": {
+                "age": 0,
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0
+                }
               },
               "ars_nouveau:particle_type": {
                 "particleType": "ars_nouveau:enchant",
                 "subProperties": {
                   "ars_nouveau:color": {
                     "particleColor": {
-                      "id": "ars_nouveau:constant",
-                      "r": 132,
+                      "b": 1,
                       "g": 66,
-                      "b": 1
+                      "id": "ars_nouveau:constant",
+                      "r": 132
                     },
                     "tintDisabled": false
                   }
                 }
-              },
-              "ars_nouveau:emitter": {
-                "rotation": {
-                  "x": 0.0,
-                  "y": 0.0
-                },
-                "age": 0
               }
-            },
-            "type": "ars_nouveau:enchant"
+            }
           }
         },
         "resolveSound": {
@@ -265,40 +274,31 @@
               "id": "ars_nouveau:empty"
             }
           }
-        },
-        "type": "ars_nouveau:touch"
+        }
       },
       "ars_nouveau:wololo": {
+        "type": "ars_nouveau:wololo",
         "propMap": {
           "ars_nouveau:color": {
             "particleColor": {
-              "id": "ars_nouveau:constant",
-              "r": 255,
+              "b": 50,
               "g": 50,
-              "b": 50
+              "id": "ars_nouveau:constant",
+              "r": 255
             },
             "tintDisabled": false
           }
-        },
-        "type": "ars_nouveau:wololo"
+        }
       }
     },
-    "name": "Sebuss\u0027s Very Hot Smelt",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 255,
-      "g": 25,
-      "b": 180
-    }
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_smelt",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_sensitive",
+      "ars_nouveau:glyph_ignite"
+    ],
+    "sound": {}
   },
-  "name": "Sebuss\u0027s Very Hot Smelt",
-  "spell": [
-    "ars_nouveau:glyph_projectile",
-    "ars_nouveau:glyph_smelt",
-    "ars_nouveau:glyph_aoe",
-    "ars_nouveau:glyph_sensitive",
-    "ars_nouveau:glyph_ignite"
-  ],
-  "tome_type": "ars_nouveau:caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "tome_type": "ars_nouveau:caster_tome"
 }

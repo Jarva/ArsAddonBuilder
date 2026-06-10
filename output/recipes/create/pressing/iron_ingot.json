@@ -1,13 +1,13 @@
 {
+  "type": "create:pressing",
   "ingredients": [
     {
-      "item": "minecraft:iron_ingot"
+      "tag": "c:ingots/iron"
     }
   ],
   "results": [
     {
       "id": "create:iron_sheet"
     }
-  ],
-  "type": "create:pressing"
+  ]
 }

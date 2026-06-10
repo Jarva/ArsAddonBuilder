@@ -1,4 +1,23 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 2,
+      "tag": "c:gems/prismarine"
+    },
+    {
+      "count": 2,
+      "item": "malum:refined_soulstone"
+    }
+  ],
+  "input": {
+    "count": 4,
+    "item": "malum:alchemical_calx"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:prismatic_focus_lens"
+  },
   "spirits": [
     {
       "type": "malum:aqueous",
@@ -8,24 +27,5 @@
       "type": "malum:arcane",
       "count": 4
     }
-  ],
-  "extraInputs": [
-    {
-      "tag": "c:gems/prismarine",
-      "count": 2
-    },
-    {
-      "item": "malum:refined_soulstone",
-      "count": 2
-    }
-  ],
-  "input": {
-    "item": "malum:alchemical_calx",
-    "count": 4
-  },
-  "result": {
-    "id": "malum:prismatic_focus_lens",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

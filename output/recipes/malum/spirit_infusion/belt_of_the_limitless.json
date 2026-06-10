@@ -1,4 +1,31 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "malum:fused_consciousness"
+    },
+    {
+      "count": 16,
+      "item": "malum:void_salts"
+    },
+    {
+      "count": 8,
+      "item": "malum:null_slate"
+    },
+    {
+      "count": 4,
+      "item": "malum:mnemonic_fragment"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:belt_of_the_magebane"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:belt_of_the_limitless"
+  },
   "spirits": [
     {
       "type": "malum:sacred",
@@ -12,32 +39,5 @@
       "type": "malum:eldritch",
       "count": 32
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:fused_consciousness",
-      "count": 1
-    },
-    {
-      "item": "malum:void_salts",
-      "count": 16
-    },
-    {
-      "item": "malum:null_slate",
-      "count": 8
-    },
-    {
-      "item": "malum:mnemonic_fragment",
-      "count": 4
-    }
-  ],
-  "input": {
-    "item": "malum:belt_of_the_magebane",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:belt_of_the_limitless",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

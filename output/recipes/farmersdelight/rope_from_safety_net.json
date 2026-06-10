@@ -1,14 +1,14 @@
 {
-  "group": "fd_rope",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "farmersdelight:rope",
-    "count": 4
-  },
+  "group": "fd_rope",
   "ingredients": [
     {
       "item": "farmersdelight:safety_net"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 4,
+    "id": "farmersdelight:rope"
+  }
 }

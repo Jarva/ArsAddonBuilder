@@ -1,72 +1,13 @@
 {
-  "output": {
-    "id": "ars_nouveau:glyph_touch",
-    "count": 1
-  },
-  "inputs": [
-    [
-      {
-        "item": "minecraft:oak_button"
-      },
-      {
-        "item": "minecraft:spruce_button"
-      },
-      {
-        "item": "minecraft:birch_button"
-      },
-      {
-        "item": "minecraft:jungle_button"
-      },
-      {
-        "item": "minecraft:acacia_button"
-      },
-      {
-        "item": "minecraft:dark_oak_button"
-      },
-      {
-        "item": "minecraft:crimson_button"
-      },
-      {
-        "item": "minecraft:warped_button"
-      },
-      {
-        "item": "minecraft:mangrove_button"
-      },
-      {
-        "item": "minecraft:bamboo_button"
-      },
-      {
-        "item": "minecraft:cherry_button"
-      },
-      {
-        "item": "ars_nouveau:archwood_button"
-      },
-      {
-        "item": "occultism:otherplanks_button"
-      },
-      {
-        "item": "malum:runewood_planks_button"
-      },
-      {
-        "item": "malum:soulwood_planks_button"
-      },
-      {
-        "item": "minecraft:stone_button"
-      },
-      {
-        "item": "minecraft:polished_blackstone_button"
-      },
-      {
-        "item": "occultism:otherstone_button"
-      },
-      {
-        "item": "malum:tainted_rock_button"
-      },
-      {
-        "item": "malum:twisted_rock_button"
-      }
-    ]
-  ],
+  "type": "ars_nouveau:glyph",
   "exp": 27,
-  "type": "ars_nouveau:glyph"
+  "inputs": [
+    {
+      "tag": "minecraft:buttons"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:glyph_touch"
+  }
 }

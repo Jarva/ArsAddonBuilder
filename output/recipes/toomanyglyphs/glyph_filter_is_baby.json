@@ -1,13 +1,13 @@
 {
-  "output": {
-    "id": "toomanyglyphs:glyph_filter_is_baby",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
-      "item": "minecraft:egg"
+      "tag": "c:eggs"
     }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "toomanyglyphs:glyph_filter_is_baby"
+  }
 }

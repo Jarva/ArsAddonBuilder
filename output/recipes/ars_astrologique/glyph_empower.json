@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_astrologique:glyph_empower",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "ars_nouveau:abjuration_essence"
@@ -20,6 +18,8 @@
       "item": "minecraft:blaze_rod"
     }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_astrologique:glyph_empower"
+  }
 }

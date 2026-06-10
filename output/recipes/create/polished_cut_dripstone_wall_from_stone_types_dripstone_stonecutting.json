@@ -1,54 +1,10 @@
 {
-  "ingredient": [
-    {
-      "item": "create:cut_dripstone"
-    },
-    {
-      "item": "create:cut_dripstone_stairs"
-    },
-    {
-      "item": "create:cut_dripstone_wall"
-    },
-    {
-      "item": "create:polished_cut_dripstone"
-    },
-    {
-      "item": "create:polished_cut_dripstone_stairs"
-    },
-    {
-      "item": "create:polished_cut_dripstone_wall"
-    },
-    {
-      "item": "create:cut_dripstone_bricks"
-    },
-    {
-      "item": "create:cut_dripstone_brick_stairs"
-    },
-    {
-      "item": "create:cut_dripstone_brick_wall"
-    },
-    {
-      "item": "create:small_dripstone_bricks"
-    },
-    {
-      "item": "create:small_dripstone_brick_stairs"
-    },
-    {
-      "item": "create:small_dripstone_brick_wall"
-    },
-    {
-      "item": "create:layered_dripstone"
-    },
-    {
-      "item": "create:dripstone_pillar"
-    },
-    {
-      "item": "minecraft:dripstone_block"
-    }
-  ],
-  "result": {
-    "id": "create:polished_cut_dripstone_wall",
-    "count": 1
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "create:stone_types/dripstone"
   },
-  "type": "minecraft:stonecutting"
+  "result": {
+    "count": 1,
+    "id": "create:polished_cut_dripstone_wall"
+  }
 }

@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "minecraft:ender_eye"
@@ -7,14 +9,12 @@
       "item": "ars_nouveau:source_gem_block"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "minecraft:clock"
   },
   "result": {
-    "id": "ars_controle:temporal_stability_sensor",
-    "count": 1
+    "count": 1,
+    "id": "ars_controle:temporal_stability_sensor"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

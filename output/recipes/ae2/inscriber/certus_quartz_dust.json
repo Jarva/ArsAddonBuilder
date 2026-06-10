@@ -1,18 +1,13 @@
 {
+  "type": "ae2:inscriber",
   "ingredients": {
-    "middle": [
-      {
-        "item": "ae2:certus_quartz_crystal"
-      },
-      {
-        "item": "ae2:charged_certus_quartz_crystal"
-      }
-    ]
-  },
-  "result": {
-    "id": "ae2:certus_quartz_dust",
-    "count": 1
+    "middle": {
+      "tag": "c:gems/certus_quartz"
+    }
   },
   "mode": "inscribe",
-  "type": "ae2:inscriber"
+  "result": {
+    "count": 1,
+    "id": "ae2:certus_quartz_dust"
+  }
 }

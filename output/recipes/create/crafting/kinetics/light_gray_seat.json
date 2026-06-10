@@ -1,102 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "create:light_gray_seat",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:light_gray_wool"
     },
-    [
-      {
-        "item": "minecraft:oak_slab"
-      },
-      {
-        "item": "minecraft:spruce_slab"
-      },
-      {
-        "item": "minecraft:birch_slab"
-      },
-      {
-        "item": "minecraft:jungle_slab"
-      },
-      {
-        "item": "minecraft:acacia_slab"
-      },
-      {
-        "item": "minecraft:dark_oak_slab"
-      },
-      {
-        "item": "minecraft:crimson_slab"
-      },
-      {
-        "item": "minecraft:warped_slab"
-      },
-      {
-        "item": "minecraft:mangrove_slab"
-      },
-      {
-        "item": "minecraft:bamboo_slab"
-      },
-      {
-        "item": "minecraft:cherry_slab"
-      },
-      {
-        "item": "ars_nouveau:archwood_slab"
-      },
-      {
-        "item": "occultism:otherplanks_slab"
-      },
-      {
-        "item": "malum:runewood_boards_slab"
-      },
-      {
-        "item": "malum:vertical_runewood_boards_slab"
-      },
-      {
-        "item": "malum:runewood_planks_slab"
-      },
-      {
-        "item": "malum:rustic_runewood_planks_slab"
-      },
-      {
-        "item": "malum:vertical_runewood_planks_slab"
-      },
-      {
-        "item": "malum:vertical_rustic_runewood_planks_slab"
-      },
-      {
-        "item": "malum:runewood_tiles_slab"
-      },
-      {
-        "item": "malum:rustic_runewood_tiles_slab"
-      },
-      {
-        "item": "malum:soulwood_boards_slab"
-      },
-      {
-        "item": "malum:vertical_soulwood_boards_slab"
-      },
-      {
-        "item": "malum:soulwood_planks_slab"
-      },
-      {
-        "item": "malum:rustic_soulwood_planks_slab"
-      },
-      {
-        "item": "malum:vertical_soulwood_planks_slab"
-      },
-      {
-        "item": "malum:vertical_rustic_soulwood_planks_slab"
-      },
-      {
-        "item": "malum:soulwood_tiles_slab"
-      },
-      {
-        "item": "malum:rustic_soulwood_tiles_slab"
-      }
-    ]
+    {
+      "tag": "minecraft:wooden_slabs"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:light_gray_seat"
+  }
 }

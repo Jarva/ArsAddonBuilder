@@ -1,4 +1,28 @@
 {
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "count": 16,
+      "item": "malum:twisted_rock"
+    },
+    {
+      "count": 8,
+      "item": "malum:soulwood_planks"
+    },
+    {
+      "count": 1,
+      "item": "malum:paracausal_flame"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:soul_stained_steel_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:tyrving"
+  },
   "spirits": [
     {
       "type": "malum:wicked",
@@ -12,29 +36,5 @@
       "type": "malum:eldritch",
       "count": 16
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:twisted_rock",
-      "count": 16
-    },
-    {
-      "item": "malum:soulwood_planks",
-      "count": 8
-    },
-    {
-      "item": "malum:paracausal_flame",
-      "count": 1
-    }
-  ],
-  "carryOverComponentData": true,
-  "input": {
-    "item": "malum:soul_stained_steel_sword",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:tyrving",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

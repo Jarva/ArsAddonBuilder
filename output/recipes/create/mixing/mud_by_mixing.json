@@ -1,26 +1,19 @@
 {
+  "type": "create:mixing",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:dirt"
-      },
-      {
-        "item": "minecraft:coarse_dirt"
-      },
-      {
-        "item": "minecraft:rooted_dirt"
-      }
-    ],
+    {
+      "type": "neoforge:block_tag",
+      "tag": "minecraft:convertable_to_mud"
+    },
     {
       "type": "neoforge:single",
-      "fluid": "minecraft:water",
-      "amount": 250
+      "amount": 250,
+      "fluid": "minecraft:water"
     }
   ],
   "results": [
     {
       "id": "minecraft:mud"
     }
-  ],
-  "type": "create:mixing"
+  ]
 }

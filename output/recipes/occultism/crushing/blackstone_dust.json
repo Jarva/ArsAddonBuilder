@@ -1,12 +1,12 @@
 {
+  "type": "occultism:crushing",
   "ignore_crushing_multiplier": true,
   "ingredient": {
     "item": "minecraft:blackstone"
   },
   "result": {
-    "tag": "c:dusts/blackstone",
+    "type": "occultism:tag",
     "count": 1,
-    "type": "occultism:tag"
-  },
-  "type": "occultism:crushing"
+    "tag": "c:dusts/blackstone"
+  }
 }

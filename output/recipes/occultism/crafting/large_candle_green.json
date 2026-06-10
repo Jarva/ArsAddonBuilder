@@ -1,16 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:large_candle_green",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:large_candle"
     },
     {
-      "item": "minecraft:green_dye"
+      "tag": "c:dyes/green"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:large_candle_green"
+  }
 }

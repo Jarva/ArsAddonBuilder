@@ -1,11 +1,27 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:raw_materials/gold"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/gold"
+      }
+    }
+  ],
+  "type": "occultism:crushing",
   "ingredient": {
-    "item": "minecraft:raw_gold"
+    "tag": "c:raw_materials/gold"
   },
   "result": {
-    "tag": "c:dusts/gold",
+    "type": "occultism:tag",
     "count": 2,
-    "type": "occultism:tag"
-  },
-  "type": "occultism:crushing"
+    "tag": "c:dusts/gold"
+  }
 }

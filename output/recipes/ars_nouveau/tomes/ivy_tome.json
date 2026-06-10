@@ -1,36 +1,14 @@
 {
-  "flavour_text": "Now you never have to be lonely again! You will always have a friend with you! Feel free to change their name to whatever you want! :D",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 255,
+    "b": 180,
     "g": 105,
-    "b": 180
+    "id": "ars_nouveau:constant",
+    "r": 255
   },
-  "sound": {},
-  "spellData": {
-    "sound": {},
-    "recipe": [
-      "ars_nouveau:glyph_touch",
-      "ars_nouveau:glyph_animate_block",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_name"
-    ],
-    "particleTimeline": {},
-    "name": "Ivy",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 255,
-      "g": 105,
-      "b": 180
-    }
-  },
+  "flavour_text": "Now you never have to be lonely again! You will always have a friend with you! Feel free to change their name to whatever you want! :D",
   "name": "Ivy",
+  "sound": {},
   "spell": [
     "ars_nouveau:glyph_touch",
     "ars_nouveau:glyph_animate_block",
@@ -43,6 +21,28 @@
     "ars_nouveau:glyph_extend_time",
     "ars_nouveau:glyph_name"
   ],
-  "tome_type": "ars_nouveau:caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 180,
+      "g": 105,
+      "id": "ars_nouveau:constant",
+      "r": 255
+    },
+    "name": "Ivy",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_touch",
+      "ars_nouveau:glyph_animate_block",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_name"
+    ],
+    "sound": {}
+  },
+  "tome_type": "ars_nouveau:caster_tome"
 }

@@ -1,13 +1,22 @@
 {
-  "outputCount": 6,
-  "experience": 0.25,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:nuggets/zinc"
+      }
+    }
+  ],
+  "type": "malum:node_smelting",
   "cookingTime": 200,
+  "experience": 0.25,
   "group": "",
   "ingredient": {
     "item": "malum:zinc_node"
   },
   "output": {
-    "item": "create:zinc_nugget"
+    "tag": "c:nuggets/zinc"
   },
-  "type": "malum:node_smelting"
+  "outputCount": 6
 }

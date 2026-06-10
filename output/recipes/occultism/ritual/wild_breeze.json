@@ -1,21 +1,14 @@
 {
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "minecraft:trial_key"
+  },
+  "duration": 90,
+  "entity_to_sacrifice": {
+    "display_name": "ritual.occultism.sacrifice.humans",
+    "tag": "occultism:humans"
+  },
   "entity_to_summon": "occultism:possessed_breeze",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/wild_breeze",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/wild_breeze",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.wild_breeze\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.wild_breeze.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon_wild",
-  "pentacle_id": "occultism:contact_wild_spirit",
   "ingredients": [
     {
       "item": "minecraft:copper_bulb"
@@ -42,13 +35,20 @@
       "item": "minecraft:tuff_bricks"
     }
   ],
-  "activation_item": {
-    "item": "minecraft:trial_key"
+  "pentacle_id": "occultism:contact_wild_spirit",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.wild_breeze\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.wild_breeze.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/wild_breeze"
   },
-  "duration": 90,
-  "entity_to_sacrifice": {
-    "tag": "occultism:humans",
-    "display_name": "ritual.occultism.sacrifice.humans"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/wild_breeze"
   },
-  "type": "occultism:ritual"
+  "ritual_type": "occultism:summon_wild"
 }

@@ -1,4 +1,5 @@
 {
+  "type": "create:haunting",
   "ingredients": [
     {
       "item": "minecraft:deepslate"
@@ -8,6 +9,5 @@
     {
       "id": "minecraft:infested_deepslate"
     }
-  ],
-  "type": "create:haunting"
+  ]
 }

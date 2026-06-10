@@ -1,10 +1,7 @@
 {
-  "group": "waxed_exposed_copper_grate",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "minecraft:waxed_exposed_copper_grate",
-    "count": 1
-  },
+  "group": "waxed_exposed_copper_grate",
   "ingredients": [
     {
       "item": "minecraft:exposed_copper_grate"
@@ -13,5 +10,8 @@
       "item": "minecraft:honeycomb"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:waxed_exposed_copper_grate"
+  }
 }

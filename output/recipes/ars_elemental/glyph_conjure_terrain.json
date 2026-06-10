@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_elemental:glyph_conjure_terrain",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 27,
   "inputs": [
     {
       "item": "ars_nouveau:earth_essence"
@@ -11,6 +9,8 @@
       "item": "minecraft:dirt"
     }
   ],
-  "exp": 27,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_elemental:glyph_conjure_terrain"
+  }
 }

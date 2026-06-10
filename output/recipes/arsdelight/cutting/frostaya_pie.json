@@ -1,48 +1,19 @@
 {
-  "tool": [
-    {
-      "item": "farmersdelight:flint_knife"
-    },
-    {
-      "item": "farmersdelight:iron_knife"
-    },
-    {
-      "item": "farmersdelight:diamond_knife"
-    },
-    {
-      "item": "farmersdelight:golden_knife"
-    },
-    {
-      "item": "farmersdelight:netherite_knife"
-    },
-    {
-      "item": "occultism:butcher_knife"
-    },
-    {
-      "item": "occultism:iesnium_butcher_knife"
-    },
-    {
-      "item": "arsdelight:enchanters_knife"
-    },
-    {
-      "item": "malum:soul_stained_steel_knife"
-    },
-    {
-      "item": "malum:sundering_anchor"
-    }
-  ],
-  "result": [
-    {
-      "item": {
-        "id": "arsdelight:frostaya_pie_slice",
-        "count": 4
-      }
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
       "item": "arsdelight:frostaya_pie"
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "item": {
+        "count": 4,
+        "id": "arsdelight:frostaya_pie_slice"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
 }

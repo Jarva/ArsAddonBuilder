@@ -1,25 +1,9 @@
 {
-  "result": {
-    "id": "farmersdelight:hot_cocoa",
-    "count": 1
-  },
-  "container": {
-    "id": "minecraft:glass_bottle",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "experience": 1.0,
-  "recipe_book_tab": "drinks",
   "ingredients": [
     {
-      "children": [
-        {
-          "item": "minecraft:milk_bucket"
-        },
-        {
-          "item": "farmersdelight:milk_bottle"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:drinks/milk"
     },
     {
       "item": "minecraft:sugar"
@@ -31,5 +15,9 @@
       "item": "minecraft:cocoa_beans"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "drinks",
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:hot_cocoa"
+  }
 }

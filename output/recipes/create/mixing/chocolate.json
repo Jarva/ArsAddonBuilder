@@ -1,4 +1,6 @@
 {
+  "type": "create:mixing",
+  "heat_requirement": "heated",
   "ingredients": [
     {
       "item": "minecraft:sugar"
@@ -7,24 +9,15 @@
       "item": "minecraft:cocoa_beans"
     },
     {
-      "type": "neoforge:compound",
-      "children": [
-        {
-          "fluid": "minecraft:milk"
-        },
-        {
-          "fluid": "minecraft:flowing_milk"
-        }
-      ],
-      "amount": 250
+      "type": "neoforge:tag",
+      "amount": 250,
+      "tag": "c:milk"
     }
   ],
   "results": [
     {
-      "id": "create:chocolate",
-      "amount": 250
+      "amount": 250,
+      "id": "create:chocolate"
     }
-  ],
-  "heat_requirement": "heated",
-  "type": "create:mixing"
+  ]
 }

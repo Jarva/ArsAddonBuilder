@@ -1,23 +1,24 @@
 {
-  "input": {
-    "item": "minecraft:blaze_powder",
-    "count": 16
-  },
-  "result": "malum:pact_of_the_blastweaver",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "minecraft:tnt",
-      "count": 8
+      "count": 8,
+      "item": "minecraft:tnt"
     },
     {
-      "item": "minecraft:fire_charge",
-      "count": 8
+      "count": 8,
+      "item": "minecraft:fire_charge"
     },
     {
-      "item": "minecraft:gunpowder",
-      "count": 8
+      "count": 8,
+      "item": "minecraft:gunpowder"
     }
   ],
+  "input": {
+    "count": 16,
+    "item": "minecraft:blaze_powder"
+  },
+  "result": "malum:pact_of_the_blastweaver",
   "spirits": [
     {
       "type": "malum:arcane",
@@ -35,6 +36,5 @@
       "type": "malum:aqueous",
       "count": 16
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

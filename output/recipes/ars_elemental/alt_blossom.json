@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:spore_blossom",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_elemental:spore_blossom_up"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:spore_blossom"
+  }
 }

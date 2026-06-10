@@ -1,4 +1,27 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 8,
+      "item": "malum:hex_ash"
+    },
+    {
+      "count": 4,
+      "item": "malum:warp_flux"
+    },
+    {
+      "count": 2,
+      "tag": "c:obsidians/crying"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ether"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:paracausal_flame"
+  },
   "spirits": [
     {
       "type": "malum:arcane",
@@ -8,28 +31,5 @@
       "type": "malum:eldritch",
       "count": 8
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:hex_ash",
-      "count": 8
-    },
-    {
-      "item": "malum:warp_flux",
-      "count": 4
-    },
-    {
-      "tag": "c:obsidians/crying",
-      "count": 2
-    }
-  ],
-  "input": {
-    "item": "malum:ether",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:paracausal_flame",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

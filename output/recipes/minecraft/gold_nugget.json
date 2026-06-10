@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:gold_nugget",
-    "count": 9
-  },
   "ingredients": [
     {
       "item": "minecraft:gold_ingot"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 9,
+    "id": "minecraft:gold_nugget"
+  }
 }

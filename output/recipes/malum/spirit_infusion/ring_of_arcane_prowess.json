@@ -1,27 +1,27 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 4,
+      "item": "malum:raw_brilliance"
+    },
+    {
+      "count": 4,
+      "item": "malum:alchemical_calx"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:gilded_ring"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:ring_of_arcane_prowess"
+  },
   "spirits": [
     {
       "type": "malum:arcane",
       "count": 32
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:raw_brilliance",
-      "count": 4
-    },
-    {
-      "item": "malum:alchemical_calx",
-      "count": 4
-    }
-  ],
-  "input": {
-    "item": "malum:gilded_ring",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:ring_of_arcane_prowess",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

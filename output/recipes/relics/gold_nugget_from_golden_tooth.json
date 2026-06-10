@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:gold_nugget",
-    "count": 3
-  },
   "ingredients": [
     {
       "item": "relics:golden_tooth"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "id": "minecraft:gold_nugget",
+    "count": 3
+  }
 }

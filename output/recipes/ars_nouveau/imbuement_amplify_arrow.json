@@ -1,20 +1,12 @@
 {
-  "input": [
-    {
-      "item": "minecraft:arrow"
-    },
-    {
-      "item": "minecraft:tipped_arrow"
-    },
-    {
-      "item": "minecraft:spectral_arrow"
-    }
-  ],
-  "output": {
-    "id": "ars_nouveau:amplify_arrow",
-    "count": 1
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "tag": "minecraft:arrows"
   },
-  "source": 100,
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:amplify_arrow"
+  },
   "pedestalItems": [
     {
       "item": "ars_nouveau:source_gem"
@@ -23,8 +15,8 @@
       "item": "ars_nouveau:air_essence"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 100
 }

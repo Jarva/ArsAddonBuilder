@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:bombegranate_pod",
-    "count": 9
-  },
   "ingredients": [
     {
       "item": "arsdelight:bombegrante_crate"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 9,
+    "id": "ars_nouveau:bombegranate_pod"
+  }
 }

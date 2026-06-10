@@ -1,50 +1,42 @@
 {
-  "spirit_job_type": "occultism:crush_tier3",
-  "entity_to_summon": "occultism:afrit",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/summon_afrit_crusher",
-    "count": 1
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
   },
+  "duration": 180,
+  "entity_to_summon": "occultism:afrit",
+  "ingredients": [
+    {
+      "tag": "c:dusts/iesnium"
+    },
+    {
+      "tag": "c:dusts/emerald"
+    },
+    {
+      "tag": "c:dusts/lapis"
+    },
+    {
+      "tag": "c:dusts/amethyst"
+    },
+    {
+      "tag": "c:dusts/obsidian"
+    }
+  ],
+  "pentacle_id": "occultism:summon_afrit",
   "result": {
-    "id": "occultism:spawn_egg/afrit",
-    "count": 1,
     "components": {
       "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_afrit_crusher\"}",
       "minecraft:lore": [
         "{\"translate\":\"item.occultism.ritual_dummy.summon_afrit_crusher.tooltip\"}"
       ]
-    }
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/afrit"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/summon_afrit_crusher"
   },
   "ritual_type": "occultism:summon_spirit_with_job",
-  "pentacle_id": "occultism:summon_afrit",
-  "ingredients": [
-    {
-      "item": "occultism:iesnium_dust"
-    },
-    {
-      "item": "occultism:emerald_dust"
-    },
-    {
-      "item": "occultism:lapis_dust"
-    },
-    {
-      "item": "occultism:amethyst_dust"
-    },
-    {
-      "children": [
-        {
-          "item": "create:powdered_obsidian"
-        },
-        {
-          "item": "occultism:obsidian_dust"
-        }
-      ],
-      "type": "neoforge:compound"
-    }
-  ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_afrit"
-  },
-  "duration": 180,
-  "type": "occultism:ritual"
+  "spirit_job_type": "occultism:crush_tier3"
 }

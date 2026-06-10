@@ -1,16 +1,27 @@
 {
-  "ingredient": [
+  "neoforge:conditions": [
     {
-      "item": "minecraft:iron_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/iron"
+      }
     },
     {
-      "item": "minecraft:deepslate_iron_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/iron"
+      }
     }
   ],
-  "result": {
-    "tag": "c:dusts/iron",
-    "count": 2,
-    "type": "occultism:tag"
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:ores/iron"
   },
-  "type": "occultism:crushing"
+  "result": {
+    "type": "occultism:tag",
+    "count": 2,
+    "tag": "c:dusts/iron"
+  }
 }

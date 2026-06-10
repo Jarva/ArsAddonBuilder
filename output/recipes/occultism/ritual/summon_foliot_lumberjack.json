@@ -1,16 +1,10 @@
 {
-  "spirit_job_type": "occultism:lumberjack",
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 60,
   "entity_to_summon": "occultism:foliot",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/summon_foliot_lumberjack",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:book_of_calling_foliot_lumberjack",
-    "count": 1
-  },
-  "ritual_type": "occultism:summon_spirit_with_job",
-  "pentacle_id": "occultism:summon_foliot",
   "ingredients": [
     {
       "item": "occultism:otherworld_sapling"
@@ -25,50 +19,18 @@
       "item": "minecraft:spruce_sapling"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:diamond_axe"
-        },
-        {
-          "item": "minecraft:stone_axe"
-        },
-        {
-          "item": "minecraft:golden_axe"
-        },
-        {
-          "item": "minecraft:netherite_axe"
-        },
-        {
-          "item": "minecraft:wooden_axe"
-        },
-        {
-          "item": "minecraft:iron_axe"
-        },
-        {
-          "item": "ae2:certus_quartz_axe"
-        },
-        {
-          "item": "ae2:nether_quartz_axe"
-        },
-        {
-          "item": "ae2:fluix_axe"
-        },
-        {
-          "item": "malum:soul_stained_steel_axe"
-        },
-        {
-          "item": "malum:spellweaving_axe"
-        },
-        {
-          "item": "malum:weight_of_worlds"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "minecraft:axes"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_foliot"
+  "pentacle_id": "occultism:summon_foliot",
+  "result": {
+    "count": 1,
+    "id": "occultism:book_of_calling_foliot_lumberjack"
   },
-  "duration": 60,
-  "type": "occultism:ritual"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/summon_foliot_lumberjack"
+  },
+  "ritual_type": "occultism:summon_spirit_with_job",
+  "spirit_job_type": "occultism:lumberjack"
 }

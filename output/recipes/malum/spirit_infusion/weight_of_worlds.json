@@ -1,4 +1,20 @@
 {
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "count": 2,
+      "item": "malum:malignant_pewter_ingot"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:soul_stained_steel_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:weight_of_worlds"
+  },
   "spirits": [
     {
       "type": "malum:earthen",
@@ -12,21 +28,5 @@
       "type": "malum:eldritch",
       "count": 32
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:malignant_pewter_ingot",
-      "count": 2
-    }
-  ],
-  "carryOverComponentData": true,
-  "input": {
-    "item": "malum:soul_stained_steel_axe",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:weight_of_worlds",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

@@ -1,5 +1,11 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "starbunclemania:fluid_sourcelink",
   "fluid": "create:chocolate",
-  "mb_to_source_ratio": 0.5,
-  "type": "starbunclemania:fluid_sourcelink"
+  "mb_to_source_ratio": 0.5
 }

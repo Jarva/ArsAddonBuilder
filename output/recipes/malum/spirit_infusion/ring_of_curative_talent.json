@@ -1,4 +1,27 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 4,
+      "item": "malum:living_flesh"
+    },
+    {
+      "count": 4,
+      "item": "malum:alchemical_calx"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:gilded_ring"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:ring_of_curative_talent"
+  },
   "spirits": [
     {
       "type": "malum:sacred",
@@ -8,28 +31,5 @@
       "type": "malum:arcane",
       "count": 16
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:living_flesh",
-      "count": 4
-    },
-    {
-      "item": "malum:alchemical_calx",
-      "count": 4
-    },
-    {
-      "item": "minecraft:ghast_tear",
-      "count": 1
-    }
-  ],
-  "input": {
-    "item": "malum:gilded_ring",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:ring_of_curative_talent",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "farmersdelight:melon_juice",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:melon_slice"
@@ -24,5 +21,8 @@
       "item": "minecraft:glass_bottle"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:melon_juice"
+  }
 }

@@ -1,4 +1,19 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 8,
+      "item": "malum:refined_soulstone"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ornate_ring"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:ring_of_esoteric_spoils"
+  },
   "spirits": [
     {
       "type": "malum:wicked",
@@ -12,20 +27,5 @@
       "type": "malum:eldritch",
       "count": 8
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:refined_soulstone",
-      "count": 8
-    }
-  ],
-  "input": {
-    "item": "malum:ornate_ring",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:ring_of_esoteric_spoils",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

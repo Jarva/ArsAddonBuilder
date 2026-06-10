@@ -1,14 +1,10 @@
 {
-  "result": {
-    "id": "arsdelight:frostaya_hornbeer",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "container": {
-    "id": "arsdelight:chimera_horn",
-    "count": 1
+    "count": 1,
+    "id": "arsdelight:chimera_horn"
   },
   "experience": 0.1,
-  "recipe_book_tab": "drinks",
   "ingredients": [
     {
       "item": "ars_nouveau:frostaya_pod"
@@ -26,5 +22,9 @@
       "item": "ars_nouveau:sourceberry_bush"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "drinks",
+  "result": {
+    "count": 1,
+    "id": "arsdelight:frostaya_hornbeer"
+  }
 }

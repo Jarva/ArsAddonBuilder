@@ -1,24 +1,24 @@
 {
+  "type": "ars_nouveau:crush",
   "input": {
     "item": "minecraft:blaze_rod"
   },
   "output": [
     {
-      "stack": {
-        "id": "minecraft:blaze_powder",
-        "count": 3
-      },
       "chance": 1.0,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 3,
+        "id": "minecraft:blaze_powder"
+      }
     },
     {
-      "stack": {
-        "id": "minecraft:blaze_powder",
-        "count": 1
-      },
       "chance": 0.5,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:blaze_powder"
+      }
     }
-  ],
-  "type": "ars_nouveau:crush"
+  ]
 }

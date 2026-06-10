@@ -1,4 +1,31 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 8,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 6,
+      "tag": "malum:runewood_planks"
+    },
+    {
+      "count": 4,
+      "item": "malum:runewood_log"
+    },
+    {
+      "count": 2,
+      "item": "malum:ether"
+    }
+  ],
+  "input": {
+    "count": 4,
+    "item": "minecraft:copper_block"
+  },
+  "result": {
+    "count": 4,
+    "id": "malum:waveform_runewood_totem_base"
+  },
   "spirits": [
     {
       "type": "malum:aerial",
@@ -24,32 +51,5 @@
       "type": "malum:eldritch",
       "count": 2
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "minecraft:redstone",
-      "count": 8
-    },
-    {
-      "tag": "malum:runewood_planks",
-      "count": 6
-    },
-    {
-      "item": "malum:runewood_log",
-      "count": 4
-    },
-    {
-      "item": "malum:ether",
-      "count": 2
-    }
-  ],
-  "input": {
-    "item": "minecraft:copper_block",
-    "count": 4
-  },
-  "result": {
-    "id": "malum:waveform_runewood_totem_base",
-    "count": 4
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

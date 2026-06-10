@@ -1,12 +1,28 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/certus_quartz"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gems/certus_quartz"
+      }
+    }
+  ],
+  "type": "occultism:crystallize",
   "ignore_crystallize_multiplier": true,
   "ingredient": {
-    "item": "ae2:certus_quartz_dust"
+    "tag": "c:dusts/certus_quartz"
   },
   "result": {
-    "tag": "c:gems/certus_quartz",
+    "type": "occultism:tag",
     "count": 1,
-    "type": "occultism:tag"
-  },
-  "type": "occultism:crystallize"
+    "tag": "c:gems/certus_quartz"
+  }
 }

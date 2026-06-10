@@ -1,12 +1,28 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gems/amethyst"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/amethyst"
+      }
+    }
+  ],
+  "type": "occultism:crushing",
   "ignore_crushing_multiplier": true,
   "ingredient": {
-    "item": "minecraft:amethyst_shard"
+    "tag": "c:gems/amethyst"
   },
   "result": {
-    "tag": "c:dusts/amethyst",
+    "type": "occultism:tag",
     "count": 1,
-    "type": "occultism:tag"
-  },
-  "type": "occultism:crushing"
+    "tag": "c:dusts/amethyst"
+  }
 }

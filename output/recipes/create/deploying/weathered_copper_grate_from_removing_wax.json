@@ -1,52 +1,17 @@
 {
+  "type": "create:deploying",
   "ingredients": [
     {
       "item": "minecraft:waxed_weathered_copper_grate"
     },
-    [
-      {
-        "item": "minecraft:diamond_axe"
-      },
-      {
-        "item": "minecraft:stone_axe"
-      },
-      {
-        "item": "minecraft:golden_axe"
-      },
-      {
-        "item": "minecraft:netherite_axe"
-      },
-      {
-        "item": "minecraft:wooden_axe"
-      },
-      {
-        "item": "minecraft:iron_axe"
-      },
-      {
-        "item": "ae2:certus_quartz_axe"
-      },
-      {
-        "item": "ae2:nether_quartz_axe"
-      },
-      {
-        "item": "ae2:fluix_axe"
-      },
-      {
-        "item": "malum:soul_stained_steel_axe"
-      },
-      {
-        "item": "malum:spellweaving_axe"
-      },
-      {
-        "item": "malum:weight_of_worlds"
-      }
-    ]
+    {
+      "tag": "minecraft:axes"
+    }
   ],
+  "keep_held_item": true,
   "results": [
     {
       "id": "minecraft:weathered_copper_grate"
     }
-  ],
-  "keep_held_item": true,
-  "type": "create:deploying"
+  ]
 }

@@ -1,14 +1,13 @@
 {
-  "result": {
-    "id": "minecraft:lapis_lazuli",
-    "count": 1
-  },
-  "experience": 0.2,
-  "cookingtime": 100,
-  "group": "lapis_lazuli",
+  "type": "minecraft:blasting",
   "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "lapis_lazuli",
   "ingredient": {
     "item": "minecraft:deepslate_lapis_ore"
   },
-  "type": "minecraft:blasting"
+  "result": {
+    "id": "minecraft:lapis_lazuli"
+  }
 }

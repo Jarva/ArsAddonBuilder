@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "malum:ancient_weave",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "malum:esoteric_spool"
@@ -12,5 +9,8 @@
       "item": "malum:blighted_gunk"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "malum:ancient_weave"
+  }
 }

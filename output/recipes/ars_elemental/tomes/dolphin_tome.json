@@ -1,31 +1,14 @@
 {
-  "flavour_text": "Summon two rideable Dolphins for a short time.",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 50,
+    "b": 250,
     "g": 50,
-    "b": 250
+    "id": "ars_nouveau:constant",
+    "r": 50
   },
-  "sound": {},
-  "spellData": {
-    "sound": {},
-    "recipe": [
-      "ars_nouveau:glyph_self",
-      "ars_nouveau:glyph_summon_steed",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time"
-    ],
-    "particleTimeline": {},
-    "name": "Poseidon\u0027s Steed",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 50,
-      "g": 50,
-      "b": 250
-    }
-  },
+  "flavour_text": "Summon two rideable Dolphins for a short time.",
   "name": "Poseidon\u0027s Steed",
+  "sound": {},
   "spell": [
     "ars_nouveau:glyph_self",
     "ars_nouveau:glyph_summon_steed",
@@ -33,6 +16,23 @@
     "ars_nouveau:glyph_extend_time",
     "ars_nouveau:glyph_extend_time"
   ],
-  "tome_type": "ars_elemental:water_caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 250,
+      "g": 50,
+      "id": "ars_nouveau:constant",
+      "r": 50
+    },
+    "name": "Poseidon\u0027s Steed",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_self",
+      "ars_nouveau:glyph_summon_steed",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time"
+    ],
+    "sound": {}
+  },
+  "tome_type": "ars_elemental:water_caster_tome"
 }

@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_additions:ritual_locate_structure",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:purple_archwood_log"
@@ -12,11 +9,14 @@
       "item": "minecraft:compass"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     },
     {
       "item": "ars_additions:wayfinder"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_additions:ritual_locate_structure"
+  }
 }

@@ -1,39 +1,39 @@
 {
-  "spirit_job_type": "occultism:night_time",
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 60,
   "entity_to_summon": "occultism:djinni",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/summon_djinni_night_time",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/djinni",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_djinni_night_time\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.summon_djinni_night_time.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon_spirit_with_job",
-  "pentacle_id": "occultism:summon_djinni",
   "ingredients": [
     {
-      "item": "minecraft:gunpowder"
+      "tag": "c:gunpowders"
     },
     {
       "item": "minecraft:rotten_flesh"
     },
     {
-      "item": "minecraft:bone"
+      "tag": "c:bones"
     },
     {
-      "item": "minecraft:black_dye"
+      "tag": "c:dyes/black"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_djinni"
+  "pentacle_id": "occultism:summon_djinni",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_djinni_night_time\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_djinni_night_time.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/djinni"
   },
-  "duration": 60,
-  "type": "occultism:ritual"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/summon_djinni_night_time"
+  },
+  "ritual_type": "occultism:summon_spirit_with_job",
+  "spirit_job_type": "occultism:night_time"
 }

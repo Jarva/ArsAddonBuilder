@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:alakarkinos_token"
@@ -19,14 +21,12 @@
       "item": "ars_nouveau:manipulation_essence"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:blank_thread"
   },
   "result": {
-    "id": "ars_additions:thread_reach",
-    "count": 1
+    "count": 1,
+    "id": "ars_additions:thread_reach"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

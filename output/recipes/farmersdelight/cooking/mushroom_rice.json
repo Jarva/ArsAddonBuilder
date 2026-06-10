@@ -1,14 +1,6 @@
 {
-  "result": {
-    "id": "farmersdelight:mushroom_rice",
-    "count": 1
-  },
-  "container": {
-    "id": "minecraft:bowl",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "experience": 1.0,
-  "recipe_book_tab": "meals",
   "ingredients": [
     {
       "item": "minecraft:brown_mushroom"
@@ -17,9 +9,10 @@
       "item": "minecraft:red_mushroom"
     },
     {
-      "item": "farmersdelight:rice"
+      "tag": "c:crops/rice"
     },
     {
+      "type": "neoforge:compound",
       "children": [
         {
           "item": "minecraft:carrot"
@@ -27,9 +20,12 @@
         {
           "item": "minecraft:potato"
         }
-      ],
-      "type": "neoforge:compound"
+      ]
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:mushroom_rice"
+  }
 }

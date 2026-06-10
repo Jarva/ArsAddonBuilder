@@ -1,4 +1,23 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 16,
+      "item": "malum:null_slate"
+    },
+    {
+      "count": 8,
+      "item": "malum:mnemonic_fragment"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ring_of_manaweaving"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:ring_of_echoing_arcana"
+  },
   "spirits": [
     {
       "type": "malum:aqueous",
@@ -16,24 +35,5 @@
       "type": "malum:eldritch",
       "count": 16
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:null_slate",
-      "count": 16
-    },
-    {
-      "item": "malum:mnemonic_fragment",
-      "count": 8
-    }
-  ],
-  "input": {
-    "item": "malum:ring_of_manaweaving",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:ring_of_echoing_arcana",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

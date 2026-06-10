@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_zero:select_effect",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 27,
   "inputs": [
     {
       "item": "ars_nouveau:magebloom_fiber"
@@ -17,6 +15,8 @@
       "item": "ars_nouveau:source_gem"
     }
   ],
-  "exp": 27,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_zero:select_effect"
+  }
 }

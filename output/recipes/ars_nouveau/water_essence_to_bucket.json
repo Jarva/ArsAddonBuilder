@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:water_bucket",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:water_essence"
@@ -12,5 +9,8 @@
       "item": "minecraft:bucket"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:water_bucket"
+  }
 }

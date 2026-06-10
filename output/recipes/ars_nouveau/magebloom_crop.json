@@ -1,55 +1,26 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
-  "reagent": [
-    {
-      "item": "minecraft:beetroot_seeds"
-    },
-    {
-      "item": "minecraft:melon_seeds"
-    },
-    {
-      "item": "minecraft:pumpkin_seeds"
-    },
-    {
-      "item": "minecraft:torchflower_seeds"
-    },
-    {
-      "item": "minecraft:wheat_seeds"
-    },
-    {
-      "item": "farmersdelight:cabbage_seeds"
-    },
-    {
-      "item": "farmersdelight:rice"
-    },
-    {
-      "item": "farmersdelight:tomato_seeds"
-    },
-    {
-      "item": "ars_nouveau:magebloom_crop"
-    },
-    {
-      "item": "occultism:datura_seeds"
-    }
-  ],
-  "result": {
-    "id": "ars_nouveau:magebloom_crop",
-    "count": 1
+  "reagent": {
+    "tag": "c:seeds"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:magebloom_crop"
+  },
+  "sourceCost": 0
 }

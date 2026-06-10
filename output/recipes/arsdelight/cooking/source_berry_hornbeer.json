@@ -1,14 +1,10 @@
 {
-  "result": {
-    "id": "arsdelight:source_berry_hornbeer",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "container": {
-    "id": "arsdelight:chimera_horn",
-    "count": 1
+    "count": 1,
+    "id": "arsdelight:chimera_horn"
   },
   "experience": 0.1,
-  "recipe_book_tab": "drinks",
   "ingredients": [
     {
       "item": "ars_nouveau:sourceberry_bush"
@@ -20,25 +16,15 @@
       "item": "ars_nouveau:sourceberry_bush"
     },
     {
-      "children": [
-        {
-          "item": "arsdelight:flourishing_bark"
-        },
-        {
-          "item": "arsdelight:vexing_bark"
-        },
-        {
-          "item": "arsdelight:cascading_bark"
-        },
-        {
-          "item": "arsdelight:blazing_bark"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "arsdelight:barks"
     },
     {
       "item": "ars_nouveau:magebloom"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "drinks",
+  "result": {
+    "count": 1,
+    "id": "arsdelight:source_berry_hornbeer"
+  }
 }

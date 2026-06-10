@@ -1,5 +1,5 @@
 {
+  "type": "starbunclemania:fluid_sourcelink",
   "fluid": "sauce:source_fluid",
-  "mb_to_source_ratio": 0.9,
-  "type": "starbunclemania:fluid_sourcelink"
+  "mb_to_source_ratio": 0.9
 }

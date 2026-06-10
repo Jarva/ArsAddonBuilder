@@ -1,46 +1,30 @@
 {
-  "result": {
-    "id": "arsdelight:wilden_stew",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "container": {
-    "id": "minecraft:bowl",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:bowl"
   },
   "experience": 0.1,
-  "recipe_book_tab": "meals",
   "ingredients": [
     {
-      "children": [
-        {
-          "item": "arsdelight:wilden_meat"
-        },
-        {
-          "item": "arsdelight:wilden_meat_slice"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "arsdelight:raw_wilden_meat"
     },
     {
-      "item": "farmersdelight:tomato"
+      "tag": "c:foods/tomato"
     },
     {
-      "item": "farmersdelight:onion"
+      "tag": "c:foods/onion"
     },
     {
-      "children": [
-        {
-          "item": "farmersdelight:cabbage"
-        },
-        {
-          "item": "farmersdelight:cabbage_leaf"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:foods/cabbage"
     },
     {
       "item": "arsdelight:wilden_horn_powder"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "arsdelight:wilden_stew"
+  }
 }

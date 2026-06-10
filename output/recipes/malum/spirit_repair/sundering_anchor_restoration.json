@@ -1,12 +1,10 @@
 {
-  "repairMaterial": {
-    "item": "malum:living_flesh",
-    "count": 8
-  },
+  "type": "malum:spirit_repair",
   "durabilityPercentage": 0.75,
-  "validItems": [
-    "malum:sundering_anchor"
-  ],
+  "repairMaterial": {
+    "count": 8,
+    "item": "malum:living_flesh"
+  },
   "spirits": [
     {
       "type": "malum:eldritch",
@@ -21,5 +19,7 @@
       "count": 32
     }
   ],
-  "type": "malum:spirit_repair"
+  "validItems": [
+    "malum:sundering_anchor"
+  ]
 }

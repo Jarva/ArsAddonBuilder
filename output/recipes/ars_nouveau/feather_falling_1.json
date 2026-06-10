@@ -1,28 +1,20 @@
 {
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:feather_falling",
+  "level": 1,
   "pedestalItems": [
     {
       "item": "ars_nouveau:air_essence"
     },
-    [
-      {
-        "item": "minecraft:slime_ball"
-      },
-      {
-        "item": "malum:runic_sapball"
-      },
-      {
-        "item": "malum:cursed_sapball"
-      }
-    ],
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:slime_balls"
     },
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:storage_blocks/source"
+    },
+    {
+      "tag": "c:storage_blocks/source"
     }
   ],
-  "enchantment": "minecraft:feather_falling",
-  "level": 1,
-  "sourceCost": 2000,
-  "type": "ars_nouveau:enchantment"
+  "sourceCost": 2000
 }

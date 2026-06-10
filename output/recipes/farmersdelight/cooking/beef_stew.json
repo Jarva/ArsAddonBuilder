@@ -1,32 +1,20 @@
 {
-  "result": {
-    "id": "farmersdelight:beef_stew",
-    "count": 1
-  },
-  "container": {
-    "id": "minecraft:bowl",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "experience": 1.0,
-  "recipe_book_tab": "meals",
   "ingredients": [
     {
-      "children": [
-        {
-          "item": "minecraft:beef"
-        },
-        {
-          "item": "farmersdelight:minced_beef"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:foods/raw_beef"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "c:crops/carrot"
     },
     {
-      "item": "minecraft:potato"
+      "tag": "c:crops/potato"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:beef_stew"
+  }
 }

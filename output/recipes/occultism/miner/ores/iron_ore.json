@@ -1,26 +1,12 @@
 {
-  "ingredient": [
-    {
-      "item": "occultism:miner_foliot_unspecialized"
-    },
-    {
-      "item": "occultism:miner_debug_unspecialized"
-    },
-    {
-      "item": "occultism:miner_afrit_deeps"
-    },
-    {
-      "item": "occultism:miner_marid_master"
-    },
-    {
-      "item": "occultism:miner_djinni_ores"
-    }
-  ],
-  "result": {
-    "tag": "c:ores/iron",
-    "count": 1,
-    "weight": 750,
-    "type": "occultism:weighted_tag"
+  "type": "occultism:miner",
+  "ingredient": {
+    "tag": "occultism:miners/ores"
   },
-  "type": "occultism:miner"
+  "result": {
+    "type": "occultism:weighted_tag",
+    "count": 1,
+    "tag": "c:ores/iron",
+    "weight": 750
+  }
 }

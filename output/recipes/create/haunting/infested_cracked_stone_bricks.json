@@ -1,4 +1,5 @@
 {
+  "type": "create:haunting",
   "ingredients": [
     {
       "item": "minecraft:cracked_stone_bricks"
@@ -8,6 +9,5 @@
     {
       "id": "minecraft:infested_cracked_stone_bricks"
     }
-  ],
-  "type": "create:haunting"
+  ]
 }

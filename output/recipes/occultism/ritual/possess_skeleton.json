@@ -1,42 +1,42 @@
 {
-  "entity_to_summon": "occultism:possessed_skeleton",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/possess_skeleton",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/possessed_skeleton",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_skeleton\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.possess_skeleton.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon",
-  "pentacle_id": "occultism:possess_foliot",
-  "ingredients": [
-    {
-      "item": "minecraft:bone"
-    },
-    {
-      "item": "minecraft:bone"
-    },
-    {
-      "item": "minecraft:bone"
-    },
-    {
-      "item": "minecraft:bone"
-    }
-  ],
+  "type": "occultism:ritual",
   "activation_item": {
     "item": "occultism:book_of_binding_bound_foliot"
   },
   "duration": 15,
   "entity_to_sacrifice": {
-    "tag": "c:chickens",
-    "display_name": "ritual.occultism.sacrifice.chicken"
+    "display_name": "ritual.occultism.sacrifice.chicken",
+    "tag": "c:chickens"
   },
-  "type": "occultism:ritual"
+  "entity_to_summon": "occultism:possessed_skeleton",
+  "ingredients": [
+    {
+      "tag": "c:bones"
+    },
+    {
+      "tag": "c:bones"
+    },
+    {
+      "tag": "c:bones"
+    },
+    {
+      "tag": "c:bones"
+    }
+  ],
+  "pentacle_id": "occultism:possess_foliot",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_skeleton\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_skeleton.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/possessed_skeleton"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/possess_skeleton"
+  },
+  "ritual_type": "occultism:summon"
 }

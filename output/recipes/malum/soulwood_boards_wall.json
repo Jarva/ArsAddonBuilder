@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "tag": "malum:soulwood_boards"
+    },
+    "Y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "XYX",
+    "XYX"
+  ],
+  "result": {
+    "count": 6,
+    "id": "malum:soulwood_boards_wall"
+  }
+}

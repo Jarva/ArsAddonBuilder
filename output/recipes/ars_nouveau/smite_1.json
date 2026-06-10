@@ -1,4 +1,7 @@
 {
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:smite",
+  "level": 1,
   "pedestalItems": [
     {
       "item": "minecraft:bone_block"
@@ -7,14 +10,11 @@
       "item": "minecraft:bone_block"
     },
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:storage_blocks/source"
     },
     {
-      "item": "minecraft:lapis_block"
+      "tag": "c:storage_blocks/lapis"
     }
   ],
-  "enchantment": "minecraft:smite",
-  "level": 1,
-  "sourceCost": 2000,
-  "type": "ars_nouveau:enchantment"
+  "sourceCost": 2000
 }

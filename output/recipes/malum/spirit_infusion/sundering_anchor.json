@@ -1,4 +1,32 @@
 {
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "malum:fused_consciousness"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:nautilus_shell"
+    },
+    {
+      "count": 8,
+      "item": "malum:living_flesh"
+    },
+    {
+      "count": 4,
+      "item": "malum:malignant_pewter_plating"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:soul_stained_steel_knife"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:sundering_anchor"
+  },
   "spirits": [
     {
       "type": "malum:sacred",
@@ -20,33 +48,5 @@
       "type": "malum:eldritch",
       "count": 32
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:fused_consciousness",
-      "count": 1
-    },
-    {
-      "item": "minecraft:nautilus_shell",
-      "count": 8
-    },
-    {
-      "item": "malum:living_flesh",
-      "count": 8
-    },
-    {
-      "item": "malum:malignant_pewter_plating",
-      "count": 4
-    }
-  ],
-  "carryOverComponentData": true,
-  "input": {
-    "item": "malum:soul_stained_steel_knife",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:sundering_anchor",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

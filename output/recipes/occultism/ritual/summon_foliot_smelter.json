@@ -1,33 +1,13 @@
 {
-  "spirit_job_type": "occultism:smelt_tier1",
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 60,
   "entity_to_summon": "occultism:foliot",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/summon_foliot_smelter",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/foliot",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_foliot_smelter\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.summon_foliot_smelter.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon_spirit_with_job",
-  "pentacle_id": "occultism:summon_foliot",
   "ingredients": [
     {
-      "children": [
-        {
-          "item": "minecraft:coal"
-        },
-        {
-          "item": "minecraft:charcoal"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "minecraft:coals"
     },
     {
       "item": "minecraft:furnace"
@@ -36,9 +16,21 @@
       "item": "minecraft:campfire"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_foliot"
+  "pentacle_id": "occultism:summon_foliot",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_foliot_smelter\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.summon_foliot_smelter.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/foliot"
   },
-  "duration": 60,
-  "type": "occultism:ritual"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/summon_foliot_smelter"
+  },
+  "ritual_type": "occultism:summon_spirit_with_job",
+  "spirit_job_type": "occultism:smelt_tier1"
 }

@@ -1,13 +1,12 @@
 {
-  "result": {
-    "id": "minecraft:baked_potato",
-    "count": 1
-  },
-  "experience": 0.35,
-  "cookingtime": 600,
+  "type": "minecraft:campfire_cooking",
   "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
   "ingredient": {
     "item": "minecraft:potato"
   },
-  "type": "minecraft:campfire_cooking"
+  "result": {
+    "id": "minecraft:baked_potato"
+  }
 }

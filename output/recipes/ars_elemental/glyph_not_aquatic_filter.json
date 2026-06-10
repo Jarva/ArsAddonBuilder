@@ -1,33 +1,16 @@
 {
-  "output": {
-    "id": "ars_elemental:glyph_not_aquatic_filter",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 27,
   "inputs": [
     {
       "item": "ars_nouveau:deny_scroll"
     },
-    [
-      {
-        "item": "minecraft:cod"
-      },
-      {
-        "item": "minecraft:cooked_cod"
-      },
-      {
-        "item": "minecraft:salmon"
-      },
-      {
-        "item": "minecraft:cooked_salmon"
-      },
-      {
-        "item": "minecraft:pufferfish"
-      },
-      {
-        "item": "minecraft:tropical_fish"
-      }
-    ]
+    {
+      "tag": "minecraft:fishes"
+    }
   ],
-  "exp": 27,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_elemental:glyph_not_aquatic_filter"
+  }
 }

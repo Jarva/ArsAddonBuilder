@@ -1,42 +1,37 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:rose_quartz",
-    "count": 1
-  },
   "ingredients": [
-    [
-      {
-        "item": "minecraft:quartz"
-      },
-      {
-        "item": "malum:natural_quartz"
-      }
-    ],
     {
-      "item": "minecraft:redstone"
+      "tag": "c:gems/quartz"
     },
     {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     },
     {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     },
     {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     },
     {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     },
     {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     },
     {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     },
     {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:dusts/redstone"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:rose_quartz"
+  }
 }

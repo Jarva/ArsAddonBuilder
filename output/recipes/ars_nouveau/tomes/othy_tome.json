@@ -1,32 +1,14 @@
 {
-  "flavour_text": "Swarm your enemies with bladed spirits.",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 255,
+    "b": 255,
     "g": 255,
-    "b": 255
+    "id": "ars_nouveau:constant",
+    "r": 255
   },
-  "sound": {},
-  "spellData": {
-    "sound": {},
-    "recipe": [
-      "ars_nouveau:glyph_self",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_summon_decoy",
-      "ars_nouveau:glyph_blink",
-      "ars_nouveau:glyph_amplify",
-      "ars_nouveau:glyph_amplify"
-    ],
-    "particleTimeline": {},
-    "name": "Othy\u0027s Misdirection",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 255,
-      "g": 255,
-      "b": 255
-    }
-  },
+  "flavour_text": "Swarm your enemies with bladed spirits.",
   "name": "Othy\u0027s Misdirection",
+  "sound": {},
   "spell": [
     "ars_nouveau:glyph_self",
     "ars_nouveau:glyph_extend_time",
@@ -35,6 +17,24 @@
     "ars_nouveau:glyph_amplify",
     "ars_nouveau:glyph_amplify"
   ],
-  "tome_type": "ars_nouveau:caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 255,
+      "g": 255,
+      "id": "ars_nouveau:constant",
+      "r": 255
+    },
+    "name": "Othy\u0027s Misdirection",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_self",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_summon_decoy",
+      "ars_nouveau:glyph_blink",
+      "ars_nouveau:glyph_amplify",
+      "ars_nouveau:glyph_amplify"
+    ],
+    "sound": {}
+  },
+  "tome_type": "ars_nouveau:caster_tome"
 }

@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "minecraft:observer"
@@ -7,20 +9,18 @@
       "item": "minecraft:spyglass"
     },
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:storage_blocks/source"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "minecraft:ender_eye"
   },
   "result": {
-    "id": "ars_nouveau:scryers_oculus",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:scryers_oculus"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_elemental:glyph_arc_projectile",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "minecraft:arrow"
@@ -17,6 +15,8 @@
       "item": "minecraft:ender_pearl"
     }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_elemental:glyph_arc_projectile"
+  }
 }

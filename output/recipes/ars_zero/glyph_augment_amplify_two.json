@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_zero:augment_amplify_two",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 100,
   "inputs": [
     {
       "item": "minecraft:diamond_block"
@@ -20,6 +18,8 @@
       "item": "ars_nouveau:conjuration_essence"
     }
   ],
-  "exp": 100,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_zero:augment_amplify_two"
+  }
 }

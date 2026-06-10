@@ -1,17 +1,17 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
   "pedestalItems": [
     {
       "item": "ars_elemental:mark_of_mastery"
     }
   ],
-  "sourceCost": 5000,
-  "keepNbtOfReagent": true,
   "reagent": {
     "item": "ars_elemental:lesser_fire_focus"
   },
   "result": {
-    "id": "ars_elemental:fire_focus",
-    "count": 1
+    "count": 1,
+    "id": "ars_elemental:fire_focus"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 5000
 }

@@ -1,22 +1,22 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:chalk_light_gray_impure",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:chalk_white_impure"
     },
     {
-      "item": "occultism:silver_dust"
+      "tag": "c:dusts/silver"
     },
     {
-      "item": "occultism:iron_dust"
+      "tag": "c:dusts/iron"
     },
     {
-      "item": "occultism:crushed_calcite"
+      "tag": "c:dusts/calcite"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:chalk_light_gray_impure"
+  }
 }

@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "create:polished_cut_dripstone",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "create:polished_cut_dripstone_slab"
@@ -12,5 +9,8 @@
       "item": "create:polished_cut_dripstone_slab"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:polished_cut_dripstone"
+  }
 }

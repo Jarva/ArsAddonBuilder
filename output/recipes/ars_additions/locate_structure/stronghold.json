@@ -1,8 +1,5 @@
 {
-  "structure": {
-    "tag": "ars_additions:stronghold"
-  },
-  "id": "ars_additions:stronghold",
+  "type": "ars_additions:locate_structure",
   "augments": [
     {
       "key": "minecraft:ender_eye"
@@ -41,5 +38,8 @@
       "key": "minecraft:ender_eye"
     }
   ],
-  "type": "ars_additions:locate_structure"
+  "id": "ars_additions:stronghold",
+  "structure": {
+    "tag": "ars_additions:stronghold"
+  }
 }

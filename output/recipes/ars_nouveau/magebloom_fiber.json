@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:magebloom_fiber",
-    "count": 4
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:magebloom"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 4,
+    "id": "ars_nouveau:magebloom_fiber"
+  }
 }

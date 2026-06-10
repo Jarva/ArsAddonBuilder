@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ae2:pattern_provider",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ae2:cable_pattern_provider"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ae2:pattern_provider"
+  }
 }

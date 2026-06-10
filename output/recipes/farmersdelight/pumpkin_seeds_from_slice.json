@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:pumpkin_seeds",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "farmersdelight:pumpkin_slice"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:pumpkin_seeds"
+  }
 }

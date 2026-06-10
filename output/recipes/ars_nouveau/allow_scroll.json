@@ -1,33 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:allow_scroll",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:blank_parchment"
     },
-    [
-      {
-        "item": "ae2:sky_stone_chest"
-      },
-      {
-        "item": "ae2:smooth_sky_stone_chest"
-      },
-      {
-        "item": "minecraft:ender_chest"
-      },
-      {
-        "item": "minecraft:trapped_chest"
-      },
-      {
-        "item": "minecraft:chest"
-      },
-      {
-        "item": "ars_nouveau:archwood_chest"
-      }
-    ]
+    {
+      "tag": "c:chests"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:allow_scroll"
+  }
 }

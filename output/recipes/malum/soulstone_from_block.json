@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "malum:refined_soulstone",
-    "count": 9
-  },
   "ingredients": [
     {
       "item": "malum:block_of_soulstone"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 9,
+    "id": "malum:refined_soulstone"
+  }
 }

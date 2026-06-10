@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_elemental:glyph_geyser",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "ars_nouveau:fire_essence"
@@ -17,6 +15,8 @@
       "item": "minecraft:wind_charge"
     }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_elemental:glyph_geyser"
+  }
 }

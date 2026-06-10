@@ -1,4 +1,11 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:splashing",
   "ingredients": [
     {
       "item": "malum:iron_node"
@@ -13,6 +20,5 @@
       "id": "minecraft:redstone",
       "chance": 0.75
     }
-  ],
-  "type": "create:splashing"
+  ]
 }

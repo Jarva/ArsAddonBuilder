@@ -1,4 +1,12 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "malum"
+    }
+  ],
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "malum:rune_of_reinforcement"
@@ -19,14 +27,12 @@
       "item": "malum:arcane_spirit"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:blank_thread"
   },
   "result": {
-    "id": "ars_hex:thread_soul_ward",
-    "count": 1
+    "count": 1,
+    "id": "ars_hex:thread_soul_ward"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

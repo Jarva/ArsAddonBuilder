@@ -1,4 +1,13 @@
 {
+  "type": "malum:spirit_infusion",
+  "input": {
+    "count": 4,
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": {
+    "count": 2,
+    "id": "malum:living_flesh"
+  },
   "spirits": [
     {
       "type": "malum:sacred",
@@ -8,14 +17,5 @@
       "type": "malum:wicked",
       "count": 2
     }
-  ],
-  "input": {
-    "item": "minecraft:rotten_flesh",
-    "count": 4
-  },
-  "result": {
-    "id": "malum:living_flesh",
-    "count": 2
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

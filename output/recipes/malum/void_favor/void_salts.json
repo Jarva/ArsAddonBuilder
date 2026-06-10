@@ -1,10 +1,10 @@
 {
+  "type": "malum:void_favor",
   "input": {
     "item": "malum:hex_ash"
   },
   "result": {
-    "id": "malum:void_salts",
-    "count": 1
-  },
-  "type": "malum:void_favor"
+    "count": 1,
+    "id": "malum:void_salts"
+  }
 }

@@ -1,19 +1,20 @@
 {
-  "input": {
-    "item": "malum:refined_soulstone",
-    "count": 12
-  },
-  "result": "malum:pact_of_the_reaper",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "malum:grim_talc",
-      "count": 4
+      "count": 4,
+      "item": "malum:grim_talc"
     },
     {
-      "item": "malum:hex_ash",
-      "count": 4
+      "count": 4,
+      "item": "malum:hex_ash"
     }
   ],
+  "input": {
+    "count": 12,
+    "item": "malum:refined_soulstone"
+  },
+  "result": "malum:pact_of_the_reaper",
   "spirits": [
     {
       "type": "malum:wicked",
@@ -27,6 +28,5 @@
       "type": "malum:infernal",
       "count": 16
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

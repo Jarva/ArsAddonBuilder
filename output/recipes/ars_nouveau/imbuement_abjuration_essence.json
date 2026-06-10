@@ -1,12 +1,12 @@
 {
+  "type": "ars_nouveau:imbuement",
   "input": {
-    "item": "ars_nouveau:source_gem"
+    "tag": "c:gems/source"
   },
   "output": {
-    "id": "ars_nouveau:abjuration_essence",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:abjuration_essence"
   },
-  "source": 2000,
   "pedestalItems": [
     {
       "item": "minecraft:fermented_spider_eye"
@@ -18,5 +18,5 @@
       "item": "minecraft:milk_bucket"
     }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 2000
 }

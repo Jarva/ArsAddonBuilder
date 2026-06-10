@@ -1,4 +1,7 @@
 {
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "ars_additions:spellweave",
+  "level": 1,
   "pedestalItems": [
     {
       "item": "ars_nouveau:blank_thread"
@@ -28,8 +31,5 @@
       "item": "minecraft:lapis_block"
     }
   ],
-  "enchantment": "ars_additions:spellweave",
-  "level": 1,
-  "sourceCost": 10000,
-  "type": "ars_nouveau:enchantment"
+  "sourceCost": 10000
 }

@@ -1,14 +1,10 @@
 {
-  "result": {
-    "id": "arsdelight:mendosteen_chicken",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "container": {
-    "id": "minecraft:bowl",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:bowl"
   },
   "experience": 0.1,
-  "recipe_book_tab": "meals",
   "ingredients": [
     {
       "item": "ars_nouveau:mendosteen_pod"
@@ -17,30 +13,18 @@
       "item": "arsdelight:activated_mendosteen_jam"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:chicken"
-        },
-        {
-          "item": "farmersdelight:chicken_cuts"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:foods/raw_chicken"
     },
     {
-      "children": [
-        {
-          "item": "farmersdelight:cabbage"
-        },
-        {
-          "item": "farmersdelight:cabbage_leaf"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:foods/cabbage"
     },
     {
       "item": "arsdelight:wilden_sauce"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "arsdelight:mendosteen_chicken"
+  }
 }

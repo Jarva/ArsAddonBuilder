@@ -1,32 +1,22 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "farmersdelight:chicken_sandwich",
-    "count": 1
-  },
   "ingredients": [
     {
-      "item": "minecraft:bread"
+      "tag": "c:foods/bread"
     },
-    [
-      {
-        "item": "minecraft:cooked_chicken"
-      },
-      {
-        "item": "farmersdelight:cooked_chicken_cuts"
-      }
-    ],
-    [
-      {
-        "item": "farmersdelight:cabbage"
-      },
-      {
-        "item": "farmersdelight:cabbage_leaf"
-      }
-    ],
     {
-      "item": "minecraft:carrot"
+      "tag": "c:foods/cooked_chicken"
+    },
+    {
+      "tag": "c:foods/leafy_green"
+    },
+    {
+      "tag": "c:crops/carrot"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:chicken_sandwich"
+  }
 }

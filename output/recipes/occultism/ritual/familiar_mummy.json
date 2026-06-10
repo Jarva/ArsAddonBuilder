@@ -1,276 +1,54 @@
 {
-  "entity_to_summon": "occultism:mummy_familiar",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/familiar_mummy",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/familiar_mummy",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.familiar_mummy\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.familiar_mummy.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon_tamed",
-  "pentacle_id": "occultism:possess_djinni",
-  "ingredients": [
-    {
-      "children": [
-        {
-          "item": "minecraft:slime_ball"
-        },
-        {
-          "item": "malum:runic_sapball"
-        },
-        {
-          "item": "malum:cursed_sapball"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "children": [
-        {
-          "item": "minecraft:slime_ball"
-        },
-        {
-          "item": "malum:runic_sapball"
-        },
-        {
-          "item": "malum:cursed_sapball"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "item": "minecraft:paper"
-    },
-    {
-      "item": "minecraft:paper"
-    },
-    {
-      "children": [
-        {
-          "item": "minecraft:white_wool"
-        },
-        {
-          "item": "minecraft:orange_wool"
-        },
-        {
-          "item": "minecraft:magenta_wool"
-        },
-        {
-          "item": "minecraft:light_blue_wool"
-        },
-        {
-          "item": "minecraft:yellow_wool"
-        },
-        {
-          "item": "minecraft:lime_wool"
-        },
-        {
-          "item": "minecraft:pink_wool"
-        },
-        {
-          "item": "minecraft:gray_wool"
-        },
-        {
-          "item": "minecraft:light_gray_wool"
-        },
-        {
-          "item": "minecraft:cyan_wool"
-        },
-        {
-          "item": "minecraft:purple_wool"
-        },
-        {
-          "item": "minecraft:blue_wool"
-        },
-        {
-          "item": "minecraft:brown_wool"
-        },
-        {
-          "item": "minecraft:green_wool"
-        },
-        {
-          "item": "minecraft:red_wool"
-        },
-        {
-          "item": "minecraft:black_wool"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "children": [
-        {
-          "item": "minecraft:white_wool"
-        },
-        {
-          "item": "minecraft:orange_wool"
-        },
-        {
-          "item": "minecraft:magenta_wool"
-        },
-        {
-          "item": "minecraft:light_blue_wool"
-        },
-        {
-          "item": "minecraft:yellow_wool"
-        },
-        {
-          "item": "minecraft:lime_wool"
-        },
-        {
-          "item": "minecraft:pink_wool"
-        },
-        {
-          "item": "minecraft:gray_wool"
-        },
-        {
-          "item": "minecraft:light_gray_wool"
-        },
-        {
-          "item": "minecraft:cyan_wool"
-        },
-        {
-          "item": "minecraft:purple_wool"
-        },
-        {
-          "item": "minecraft:blue_wool"
-        },
-        {
-          "item": "minecraft:brown_wool"
-        },
-        {
-          "item": "minecraft:green_wool"
-        },
-        {
-          "item": "minecraft:red_wool"
-        },
-        {
-          "item": "minecraft:black_wool"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "children": [
-        {
-          "item": "minecraft:white_wool"
-        },
-        {
-          "item": "minecraft:orange_wool"
-        },
-        {
-          "item": "minecraft:magenta_wool"
-        },
-        {
-          "item": "minecraft:light_blue_wool"
-        },
-        {
-          "item": "minecraft:yellow_wool"
-        },
-        {
-          "item": "minecraft:lime_wool"
-        },
-        {
-          "item": "minecraft:pink_wool"
-        },
-        {
-          "item": "minecraft:gray_wool"
-        },
-        {
-          "item": "minecraft:light_gray_wool"
-        },
-        {
-          "item": "minecraft:cyan_wool"
-        },
-        {
-          "item": "minecraft:purple_wool"
-        },
-        {
-          "item": "minecraft:blue_wool"
-        },
-        {
-          "item": "minecraft:brown_wool"
-        },
-        {
-          "item": "minecraft:green_wool"
-        },
-        {
-          "item": "minecraft:red_wool"
-        },
-        {
-          "item": "minecraft:black_wool"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "children": [
-        {
-          "item": "minecraft:white_wool"
-        },
-        {
-          "item": "minecraft:orange_wool"
-        },
-        {
-          "item": "minecraft:magenta_wool"
-        },
-        {
-          "item": "minecraft:light_blue_wool"
-        },
-        {
-          "item": "minecraft:yellow_wool"
-        },
-        {
-          "item": "minecraft:lime_wool"
-        },
-        {
-          "item": "minecraft:pink_wool"
-        },
-        {
-          "item": "minecraft:gray_wool"
-        },
-        {
-          "item": "minecraft:light_gray_wool"
-        },
-        {
-          "item": "minecraft:cyan_wool"
-        },
-        {
-          "item": "minecraft:purple_wool"
-        },
-        {
-          "item": "minecraft:blue_wool"
-        },
-        {
-          "item": "minecraft:brown_wool"
-        },
-        {
-          "item": "minecraft:green_wool"
-        },
-        {
-          "item": "minecraft:red_wool"
-        },
-        {
-          "item": "minecraft:black_wool"
-        }
-      ],
-      "type": "neoforge:compound"
-    }
-  ],
+  "type": "occultism:ritual",
   "activation_item": {
     "item": "occultism:book_of_binding_bound_djinni"
   },
   "duration": 90,
   "entity_to_sacrifice": {
-    "tag": "c:llamas",
-    "display_name": "ritual.occultism.sacrifice.llamas"
+    "display_name": "ritual.occultism.sacrifice.llamas",
+    "tag": "c:llamas"
   },
-  "type": "occultism:ritual"
+  "entity_to_summon": "occultism:mummy_familiar",
+  "ingredients": [
+    {
+      "tag": "c:slime_balls"
+    },
+    {
+      "tag": "c:slime_balls"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
+  "pentacle_id": "occultism:possess_djinni",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.familiar_mummy\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.familiar_mummy.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/familiar_mummy"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/familiar_mummy"
+  },
+  "ritual_type": "occultism:summon_tamed"
 }

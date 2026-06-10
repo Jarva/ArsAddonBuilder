@@ -1,23 +1,24 @@
 {
-  "input": {
-    "item": "malum:imitation_heart",
-    "count": 8
-  },
-  "result": "malum:pact_of_the_berserker",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "malum:living_flesh",
-      "count": 16
+      "count": 16,
+      "item": "malum:living_flesh"
     },
     {
-      "item": "malum:grim_talc",
-      "count": 16
+      "count": 16,
+      "item": "malum:grim_talc"
     },
     {
-      "item": "minecraft:rotten_flesh",
-      "count": 16
+      "count": 16,
+      "item": "minecraft:rotten_flesh"
     }
   ],
+  "input": {
+    "count": 8,
+    "item": "malum:imitation_heart"
+  },
+  "result": "malum:pact_of_the_berserker",
   "spirits": [
     {
       "type": "malum:wicked",
@@ -35,6 +36,5 @@
       "type": "malum:eldritch",
       "count": 16
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

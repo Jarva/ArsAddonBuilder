@@ -1,31 +1,31 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 4,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 2,
+      "item": "malum:wind_nucleus"
+    },
+    {
+      "count": 2,
+      "tag": "malum:runewood_planks"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "minecraft:copper_block"
+  },
+  "result": {
+    "count": 4,
+    "id": "malum:wind_tunnel"
+  },
   "spirits": [
     {
       "type": "malum:aerial",
       "count": 8
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "minecraft:redstone",
-      "count": 4
-    },
-    {
-      "item": "malum:wind_nucleus",
-      "count": 2
-    },
-    {
-      "tag": "malum:runewood_planks",
-      "count": 2
-    }
-  ],
-  "input": {
-    "item": "minecraft:copper_block",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:wind_tunnel",
-    "count": 4
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

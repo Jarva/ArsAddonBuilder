@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_zero:temporal_context_form",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 27,
   "inputs": [
     {
       "item": "minecraft:clock"
@@ -14,6 +12,8 @@
       "item": "minecraft:repeater"
     }
   ],
-  "exp": 27,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_zero:temporal_context_form"
+  }
 }

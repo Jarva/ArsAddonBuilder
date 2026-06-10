@@ -1,67 +1,43 @@
 {
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/craft_soul_gem",
-    "count": 1
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
   },
-  "result": {
-    "id": "occultism:soul_gem",
-    "count": 1
-  },
-  "ritual_type": "occultism:craft",
-  "pentacle_id": "occultism:craft_djinni",
+  "duration": 150,
   "ingredients": [
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
-      "item": "minecraft:copper_ingot"
+      "tag": "c:ingots/copper"
     },
     {
-      "item": "occultism:silver_ingot"
+      "tag": "c:ingots/silver"
     },
     {
-      "item": "minecraft:gold_ingot"
+      "tag": "c:ingots/gold"
     },
     {
       "item": "occultism:fragile_soul_gem"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:soul_sand"
-        },
-        {
-          "item": "minecraft:soul_soil"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "minecraft:soul_fire_base_blocks"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:soul_sand"
-        },
-        {
-          "item": "minecraft:soul_soil"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "minecraft:soul_fire_base_blocks"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:soul_sand"
-        },
-        {
-          "item": "minecraft:soul_soil"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "minecraft:soul_fire_base_blocks"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_djinni"
+  "pentacle_id": "occultism:craft_djinni",
+  "result": {
+    "count": 1,
+    "id": "occultism:soul_gem"
   },
-  "duration": 150,
-  "type": "occultism:ritual"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/craft_soul_gem"
+  },
+  "ritual_type": "occultism:craft"
 }

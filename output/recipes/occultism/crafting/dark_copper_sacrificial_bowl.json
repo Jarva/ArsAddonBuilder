@@ -1,16 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:dark_copper_sacrificial_bowl",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:dark_sacrificial_bowl"
     },
     {
-      "item": "minecraft:copper_ingot"
+      "tag": "c:ingots/copper"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:dark_copper_sacrificial_bowl"
+  }
 }

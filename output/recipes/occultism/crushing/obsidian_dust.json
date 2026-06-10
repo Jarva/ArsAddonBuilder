@@ -1,17 +1,12 @@
 {
+  "type": "occultism:crushing",
   "ignore_crushing_multiplier": true,
-  "ingredient": [
-    {
-      "item": "minecraft:obsidian"
-    },
-    {
-      "item": "minecraft:crying_obsidian"
-    }
-  ],
-  "result": {
-    "tag": "c:dusts/obsidian",
-    "count": 1,
-    "type": "occultism:tag"
+  "ingredient": {
+    "tag": "c:obsidians"
   },
-  "type": "occultism:crushing"
+  "result": {
+    "type": "occultism:tag",
+    "count": 1,
+    "tag": "c:dusts/obsidian"
+  }
 }

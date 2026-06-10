@@ -1,25 +1,14 @@
 {
-  "group": "planks",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "minecraft:warped_planks",
-    "count": 4
-  },
+  "group": "planks",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:warped_stem"
-      },
-      {
-        "item": "minecraft:stripped_warped_stem"
-      },
-      {
-        "item": "minecraft:warped_hyphae"
-      },
-      {
-        "item": "minecraft:stripped_warped_hyphae"
-      }
-    ]
+    {
+      "tag": "minecraft:warped_stems"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 4,
+    "id": "minecraft:warped_planks"
+  }
 }

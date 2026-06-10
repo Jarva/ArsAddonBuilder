@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:manipulation_essence"
@@ -13,14 +15,12 @@
       "item": "ars_technica:transmutation_focus"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:spell_turret"
   },
   "result": {
-    "id": "ars_technica:transmutation_turret",
-    "count": 1
+    "count": 1,
+    "id": "ars_technica:transmutation_turret"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

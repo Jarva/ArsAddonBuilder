@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "malum:blazing_quartz",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "malum:blazing_quartz_fragment"
@@ -30,5 +27,8 @@
       "item": "malum:blazing_quartz_fragment"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "malum:blazing_quartz"
+  }
 }

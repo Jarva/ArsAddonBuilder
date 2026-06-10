@@ -1,11 +1,22 @@
 {
-  "repairMaterial": {
-    "tag": "c:gems/diamond",
-    "count": 2
-  },
+  "type": "malum:spirit_repair",
   "regex": {
     "itemIdRegex": "diamond_.+"
   },
+  "repairMaterial": {
+    "count": 2,
+    "tag": "c:gems/diamond"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 16
+    },
+    {
+      "type": "malum:earthen",
+      "count": 16
+    }
+  ],
   "validItems": [
     "minecraft:diamond_sword",
     "minecraft:diamond_shovel",
@@ -17,16 +28,5 @@
     "minecraft:diamond_leggings",
     "minecraft:diamond_boots",
     "farmersdelight:diamond_knife"
-  ],
-  "spirits": [
-    {
-      "type": "malum:arcane",
-      "count": 16
-    },
-    {
-      "type": "malum:earthen",
-      "count": 16
-    }
-  ],
-  "type": "malum:spirit_repair"
+  ]
 }

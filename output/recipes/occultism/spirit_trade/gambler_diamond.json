@@ -1,59 +1,15 @@
 {
-  "ingredient": [
-    {
-      "item": "ae2:certus_quartz_crystal"
-    },
-    {
-      "item": "ae2:charged_certus_quartz_crystal"
-    },
-    {
-      "item": "ae2:fluix_crystal"
-    },
-    {
-      "item": "minecraft:amethyst_shard"
-    },
-    {
-      "item": "minecraft:diamond"
-    },
-    {
-      "item": "minecraft:emerald"
-    },
-    {
-      "item": "minecraft:lapis_lazuli"
-    },
-    {
-      "item": "minecraft:prismarine_crystals"
-    },
-    {
-      "item": "minecraft:quartz"
-    },
-    {
-      "item": "malum:natural_quartz"
-    },
-    {
-      "item": "ars_nouveau:source_gem"
-    },
-    {
-      "item": "occultism:spirit_attuned_gem"
-    },
-    {
-      "item": "malum:refined_soulstone"
-    },
-    {
-      "item": "malum:blazing_quartz"
-    },
-    {
-      "item": "malum:raw_brilliance"
-    }
-  ],
-  "result": {
-    "stack": {
-      "id": "minecraft:diamond",
-      "count": 1
-    },
-    "weight": 1,
-    "type": "occultism:weighted_item"
+  "type": "occultism:spirit_trade",
+  "ingredient": {
+    "tag": "c:gems"
   },
-  "trader_id": "occultism:gambler",
-  "type": "occultism:spirit_trade"
+  "result": {
+    "type": "occultism:weighted_item",
+    "stack": {
+      "count": 1,
+      "id": "minecraft:diamond"
+    },
+    "weight": 1
+  },
+  "trader_id": "occultism:gambler"
 }

@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "arsomega:glyph_propagate_missile",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "ars_nouveau:manipulation_essence"
@@ -11,6 +9,8 @@
       "item": "arsomega:glyph_missile"
     }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "arsomega:glyph_propagate_missile"
+  }
 }

@@ -1,9 +1,6 @@
 {
+  "type": "ars_nouveau:potion_flask",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:potion_flask_extend_time",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:potion_flask_extend_time"
@@ -12,5 +9,8 @@
       "item": "minecraft:potion"
     }
   ],
-  "type": "ars_nouveau:potion_flask"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:potion_flask_extend_time"
+  }
 }

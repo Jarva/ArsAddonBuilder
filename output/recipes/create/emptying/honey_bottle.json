@@ -1,4 +1,5 @@
 {
+  "type": "create:emptying",
   "ingredients": [
     {
       "item": "minecraft:honey_bottle"
@@ -9,9 +10,8 @@
       "id": "minecraft:glass_bottle"
     },
     {
-      "id": "create:honey",
-      "amount": 250
+      "amount": 250,
+      "id": "create:honey"
     }
-  ],
-  "type": "create:emptying"
+  ]
 }

@@ -1,16 +1,16 @@
 {
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "minecraft:andesite"
     },
     {
-      "item": "create:zinc_nugget"
+      "tag": "c:nuggets/zinc"
     }
   ],
   "results": [
     {
       "id": "create:andesite_alloy"
     }
-  ],
-  "type": "create:mixing"
+  ]
 }

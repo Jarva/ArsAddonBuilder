@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:flower_banner_pattern",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:paper"
@@ -12,5 +9,8 @@
       "item": "minecraft:oxeye_daisy"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:flower_banner_pattern"
+  }
 }

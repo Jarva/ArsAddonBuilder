@@ -1,26 +1,26 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     },
     {
-      "item": "minecraft:gold_nugget"
+      "tag": "c:nuggets/gold"
     },
     {
-      "item": "minecraft:gold_nugget"
+      "tag": "c:nuggets/gold"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "minecraft:saddle"
   },
   "result": {
-    "id": "starbunclemania:star_saddle",
-    "count": 1
+    "count": 1,
+    "id": "starbunclemania:star_saddle"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

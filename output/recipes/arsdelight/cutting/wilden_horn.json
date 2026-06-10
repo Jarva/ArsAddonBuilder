@@ -1,48 +1,19 @@
 {
-  "tool": [
-    {
-      "item": "minecraft:diamond_shovel"
-    },
-    {
-      "item": "minecraft:stone_shovel"
-    },
-    {
-      "item": "minecraft:golden_shovel"
-    },
-    {
-      "item": "minecraft:netherite_shovel"
-    },
-    {
-      "item": "minecraft:wooden_shovel"
-    },
-    {
-      "item": "minecraft:iron_shovel"
-    },
-    {
-      "item": "ae2:certus_quartz_shovel"
-    },
-    {
-      "item": "ae2:nether_quartz_shovel"
-    },
-    {
-      "item": "ae2:fluix_shovel"
-    },
-    {
-      "item": "malum:soul_stained_steel_shovel"
-    }
-  ],
-  "result": [
-    {
-      "item": {
-        "id": "arsdelight:wilden_horn_powder",
-        "count": 1
-      }
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
       "item": "ars_nouveau:wilden_horn"
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "arsdelight:wilden_horn_powder"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "minecraft:shovels"
+  }
 }

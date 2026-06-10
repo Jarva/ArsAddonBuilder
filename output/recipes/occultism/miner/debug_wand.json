@@ -1,14 +1,14 @@
 {
+  "type": "occultism:miner",
   "ingredient": {
     "item": "occultism:debug_wand"
   },
   "result": {
+    "type": "occultism:weighted_item",
     "stack": {
-      "id": "occultism:otherstone",
-      "count": 1
+      "count": 1,
+      "id": "occultism:otherstone"
     },
-    "weight": 200,
-    "type": "occultism:weighted_item"
-  },
-  "type": "occultism:miner"
+    "weight": 200
+  }
 }

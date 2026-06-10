@@ -1,16 +1,16 @@
 {
+  "type": "ars_nouveau:dispel_entity",
   "entity": "minecraft:blaze",
-  "loot_table": "minecraft:entities/blaze",
   "loot_conditions": [
     {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
       "predicate": {
         "flags": {
           "is_on_fire": true
         }
-      },
-      "entity": "this",
-      "condition": "minecraft:entity_properties"
+      }
     }
   ],
-  "type": "ars_nouveau:dispel_entity"
+  "loot_table": "minecraft:entities/blaze"
 }

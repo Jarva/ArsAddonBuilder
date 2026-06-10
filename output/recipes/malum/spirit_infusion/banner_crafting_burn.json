@@ -1,23 +1,23 @@
 {
-  "spirits": [
-    {
-      "type": "malum:infernal",
-      "count": 1
-    }
-  ],
+  "type": "malum:spirit_infusion",
   "input": {
-    "item": "malum:soulwoven_banner",
-    "count": 1
+    "count": 1,
+    "item": "malum:soulwoven_banner"
   },
   "result": {
-    "id": "malum:soulwoven_banner",
-    "count": 1,
     "components": {
       "malum:soulwoven_banner_pattern": {
         "type": "malum:burn",
         "texture": "malum:textures/block/banners/soulwoven_banner_burn.png"
       }
-    }
+    },
+    "count": 1,
+    "id": "malum:soulwoven_banner"
   },
-  "type": "malum:spirit_infusion"
+  "spirits": [
+    {
+      "type": "malum:infernal",
+      "count": 1
+    }
+  ]
 }

@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:crafting_blueprint",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:painting"
@@ -12,5 +9,8 @@
       "item": "minecraft:crafting_table"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:crafting_blueprint"
+  }
 }

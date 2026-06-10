@@ -1,14 +1,10 @@
 {
-  "result": {
-    "id": "arsdelight:bombegrante_steak",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "container": {
-    "id": "minecraft:bowl",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:bowl"
   },
   "experience": 0.1,
-  "recipe_book_tab": "meals",
   "ingredients": [
     {
       "item": "ars_nouveau:bombegranate_pod"
@@ -17,15 +13,7 @@
       "item": "arsdelight:neutralized_bombegrante_jam"
     },
     {
-      "children": [
-        {
-          "item": "minecraft:beef"
-        },
-        {
-          "item": "farmersdelight:minced_beef"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:foods/raw_beef"
     },
     {
       "item": "minecraft:potato"
@@ -34,5 +22,9 @@
       "item": "arsdelight:wilden_sauce"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "arsdelight:bombegrante_steak"
+  }
 }

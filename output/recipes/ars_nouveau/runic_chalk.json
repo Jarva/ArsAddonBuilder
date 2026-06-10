@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:runic_chalk",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:manipulation_essence"
@@ -15,5 +12,8 @@
       "item": "ars_nouveau:magebloom_fiber"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:runic_chalk"
+  }
 }

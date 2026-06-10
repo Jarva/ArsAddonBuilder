@@ -1,23 +1,24 @@
 {
-  "input": {
-    "item": "malum:rotting_essence",
-    "count": 16
-  },
-  "result": "malum:pact_of_the_profane_ascetic",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "malum:imitation_flesh",
-      "count": 8
+      "count": 8,
+      "item": "malum:imitation_flesh"
     },
     {
-      "item": "minecraft:rotten_flesh",
-      "count": 8
+      "count": 8,
+      "item": "minecraft:rotten_flesh"
     },
     {
-      "item": "malum:grim_talc",
-      "count": 8
+      "count": 8,
+      "item": "malum:grim_talc"
     }
   ],
+  "input": {
+    "count": 16,
+    "item": "malum:rotting_essence"
+  },
+  "result": "malum:pact_of_the_profane_ascetic",
   "spirits": [
     {
       "type": "malum:earthen",
@@ -35,6 +36,5 @@
       "type": "malum:eldritch",
       "count": 16
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

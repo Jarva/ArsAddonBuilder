@@ -1,24 +1,8 @@
 {
-  "tool": [
-    {
-      "action": "axe_dig",
-      "type": "farmersdelight:item_ability"
-    },
-    {
-      "tag": "minecraft:axes"
-    }
-  ],
-  "result": [
-    {
-      "item": {
-        "id": "minecraft:cherry_planks",
-        "count": 1
-      },
-      "chance": 0.75
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
+      "type": "neoforge:compound",
       "children": [
         {
           "item": "minecraft:cherry_door"
@@ -50,9 +34,25 @@
         {
           "item": "farmersdelight:cherry_cabinet"
         }
-      ],
-      "type": "neoforge:compound"
+      ]
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "chance": 0.75,
+      "item": {
+        "count": 1,
+        "id": "minecraft:cherry_planks"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "axe_dig"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ]
 }

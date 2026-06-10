@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "malum:grim_talc"
+    },
+    "\u0026": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "pattern": [
+    "\u0026\u0026\u0026",
+    "\u0026#\u0026",
+    "\u0026\u0026\u0026"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:zombie_head"
+  }
+}

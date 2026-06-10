@@ -1,48 +1,48 @@
 {
-  "entity_to_summon": "occultism:deer_familiar",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/familiar_deer",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:spawn_egg/familiar_deer",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.familiar_deer\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.familiar_deer.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon_tamed",
-  "pentacle_id": "occultism:possess_foliot",
-  "ingredients": [
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "item": "minecraft:stick"
-    },
-    {
-      "item": "minecraft:string"
-    },
-    {
-      "item": "minecraft:string"
-    }
-  ],
+  "type": "occultism:ritual",
   "activation_item": {
     "item": "occultism:book_of_binding_bound_foliot"
   },
   "duration": 45,
   "entity_to_sacrifice": {
-    "tag": "c:cows",
-    "display_name": "ritual.occultism.sacrifice.cows"
+    "display_name": "ritual.occultism.sacrifice.cows",
+    "tag": "c:cows"
   },
-  "type": "occultism:ritual"
+  "entity_to_summon": "occultism:deer_familiar",
+  "ingredients": [
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "tag": "c:rods/wooden"
+    },
+    {
+      "tag": "c:strings"
+    },
+    {
+      "tag": "c:strings"
+    }
+  ],
+  "pentacle_id": "occultism:possess_foliot",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.familiar_deer\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.familiar_deer.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/familiar_deer"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/familiar_deer"
+  },
+  "ritual_type": "occultism:summon_tamed"
 }

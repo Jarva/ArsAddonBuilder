@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "farmersdelight:rice_roll_medley_block",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "farmersdelight:kelp_roll_slice"
@@ -33,5 +30,8 @@
       "item": "farmersdelight:cod_roll"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:rice_roll_medley_block"
+  }
 }

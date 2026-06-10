@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_caelum:ritual_conjure_island_village",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:green_archwood_sapling"
@@ -18,14 +15,17 @@
       "item": "minecraft:amethyst_block"
     },
     {
-      "item": "minecraft:diamond_block"
+      "tag": "c:storage_blocks/diamond"
     },
     {
       "item": "ars_nouveau:blue_archwood_log"
     },
     {
-      "item": "minecraft:blaze_rod"
+      "tag": "c:rods/blaze"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_caelum:ritual_conjure_island_village"
+  }
 }

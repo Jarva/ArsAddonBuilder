@@ -1,21 +1,14 @@
 {
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "duration": 60,
+  "entity_to_sacrifice": {
+    "display_name": "ritual.occultism.sacrifice.chicken",
+    "tag": "c:chickens"
+  },
   "entity_to_summon": "occultism:possessed_bee",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/possess_bee",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:cursed_honey",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_bee\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.possess_bee.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon",
-  "pentacle_id": "occultism:possess_djinni",
   "ingredients": [
     {
       "item": "minecraft:honeycomb"
@@ -30,13 +23,20 @@
       "item": "minecraft:honeycomb_block"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_djinni"
+  "pentacle_id": "occultism:possess_djinni",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_bee\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_bee.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:cursed_honey"
   },
-  "duration": 60,
-  "entity_to_sacrifice": {
-    "tag": "c:chickens",
-    "display_name": "ritual.occultism.sacrifice.chicken"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/possess_bee"
   },
-  "type": "occultism:ritual"
+  "ritual_type": "occultism:summon"
 }

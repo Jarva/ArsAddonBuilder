@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:gearshift",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "create:andesite_casing"
@@ -12,8 +9,11 @@
       "item": "create:cogwheel"
     },
     {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:gearshift"
+  }
 }

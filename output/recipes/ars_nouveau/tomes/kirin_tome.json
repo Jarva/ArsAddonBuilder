@@ -1,36 +1,36 @@
 {
-  "flavour_text": "Heroes are so straightforward, so easily befuddled...",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 25,
+    "b": 255,
     "g": 255,
-    "b": 255
+    "id": "ars_nouveau:constant",
+    "r": 25
   },
-  "sound": {},
-  "spellData": {
-    "sound": {},
-    "recipe": [
-      "ars_nouveau:glyph_self",
-      "ars_nouveau:glyph_summon_decoy",
-      "ars_nouveau:glyph_blink",
-      "ars_nouveau:glyph_amplify"
-    ],
-    "particleTimeline": {},
-    "name": "KirinDave\u0027s Sinister Switch",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 25,
-      "g": 255,
-      "b": 255
-    }
-  },
+  "flavour_text": "Heroes are so straightforward, so easily befuddled...",
   "name": "KirinDave\u0027s Sinister Switch",
+  "sound": {},
   "spell": [
     "ars_nouveau:glyph_self",
     "ars_nouveau:glyph_summon_decoy",
     "ars_nouveau:glyph_blink",
     "ars_nouveau:glyph_amplify"
   ],
-  "tome_type": "ars_nouveau:caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 255,
+      "g": 255,
+      "id": "ars_nouveau:constant",
+      "r": 25
+    },
+    "name": "KirinDave\u0027s Sinister Switch",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_self",
+      "ars_nouveau:glyph_summon_decoy",
+      "ars_nouveau:glyph_blink",
+      "ars_nouveau:glyph_amplify"
+    ],
+    "sound": {}
+  },
+  "tome_type": "ars_nouveau:caster_tome"
 }

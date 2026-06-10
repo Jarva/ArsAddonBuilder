@@ -1,54 +1,10 @@
 {
-  "ingredient": [
-    {
-      "item": "create:cut_ochrum"
-    },
-    {
-      "item": "create:cut_ochrum_stairs"
-    },
-    {
-      "item": "create:cut_ochrum_wall"
-    },
-    {
-      "item": "create:polished_cut_ochrum"
-    },
-    {
-      "item": "create:polished_cut_ochrum_stairs"
-    },
-    {
-      "item": "create:polished_cut_ochrum_wall"
-    },
-    {
-      "item": "create:cut_ochrum_bricks"
-    },
-    {
-      "item": "create:cut_ochrum_brick_stairs"
-    },
-    {
-      "item": "create:cut_ochrum_brick_wall"
-    },
-    {
-      "item": "create:small_ochrum_bricks"
-    },
-    {
-      "item": "create:small_ochrum_brick_stairs"
-    },
-    {
-      "item": "create:small_ochrum_brick_wall"
-    },
-    {
-      "item": "create:layered_ochrum"
-    },
-    {
-      "item": "create:ochrum_pillar"
-    },
-    {
-      "item": "create:ochrum"
-    }
-  ],
-  "result": {
-    "id": "create:cut_ochrum_brick_stairs",
-    "count": 1
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "create:stone_types/ochrum"
   },
-  "type": "minecraft:stonecutting"
+  "result": {
+    "count": 1,
+    "id": "create:cut_ochrum_brick_stairs"
+  }
 }

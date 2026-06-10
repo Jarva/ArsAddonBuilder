@@ -1,21 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "minecraft:granite",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:diorite"
     },
-    [
-      {
-        "item": "minecraft:quartz"
-      },
-      {
-        "item": "malum:natural_quartz"
-      }
-    ]
+    {
+      "tag": "c:gems/quartz"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:granite"
+  }
 }

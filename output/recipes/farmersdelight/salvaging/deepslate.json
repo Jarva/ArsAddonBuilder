@@ -1,25 +1,25 @@
 {
-  "tool": [
-    {
-      "action": "pickaxe_dig",
-      "type": "farmersdelight:item_ability"
-    },
-    {
-      "tag": "minecraft:pickaxes"
-    }
-  ],
-  "result": [
-    {
-      "item": {
-        "id": "minecraft:cobbled_deepslate",
-        "count": 1
-      }
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
       "item": "minecraft:deepslate"
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:cobbled_deepslate"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "pickaxe_dig"
+    },
+    {
+      "tag": "minecraft:pickaxes"
+    }
+  ]
 }

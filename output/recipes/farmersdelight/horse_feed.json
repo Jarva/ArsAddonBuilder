@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "farmersdelight:horse_feed",
-    "count": 1
-  },
   "ingredients": [
     [
       {
@@ -23,5 +20,8 @@
       "item": "minecraft:golden_carrot"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:horse_feed"
+  }
 }

@@ -1,7 +1,9 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
-      "item": "minecraft:gold_ingot"
+      "tag": "c:ingots/gold"
     },
     {
       "item": "minecraft:piston"
@@ -10,17 +12,15 @@
       "item": "minecraft:slime_block"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:manipulation_essence"
   },
   "result": {
-    "id": "ars_nouveau:shapers_focus",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:shapers_focus"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

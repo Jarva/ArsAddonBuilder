@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "minecraft:totem_of_undying"
@@ -13,14 +15,12 @@
       "item": "ars_nouveau:abjuration_essence"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:blank_thread"
   },
   "result": {
-    "id": "ars_nouveau:thread_undying",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:thread_undying"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

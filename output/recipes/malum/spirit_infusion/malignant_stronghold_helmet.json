@@ -1,4 +1,24 @@
 {
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "count": 8,
+      "item": "malum:soulwoven_silk"
+    },
+    {
+      "count": 3,
+      "item": "malum:malignant_pewter_plating"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:soul_stained_steel_helmet"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:malignant_stronghold_helmet"
+  },
   "spirits": [
     {
       "type": "malum:earthen",
@@ -16,25 +36,5 @@
       "type": "malum:eldritch",
       "count": 16
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:soulwoven_silk",
-      "count": 8
-    },
-    {
-      "item": "malum:malignant_pewter_plating",
-      "count": 3
-    }
-  ],
-  "carryOverComponentData": true,
-  "input": {
-    "item": "malum:soul_stained_steel_helmet",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:malignant_stronghold_helmet",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

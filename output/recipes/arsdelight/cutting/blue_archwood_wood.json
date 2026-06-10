@@ -1,26 +1,29 @@
 {
-  "tool": {
-    "action": "axe_strip",
-    "type": "farmersdelight:item_ability"
-  },
-  "result": [
-    {
-      "item": {
-        "id": "ars_nouveau:stripped_blue_archwood_wood",
-        "count": 1
-      }
-    },
-    {
-      "item": {
-        "id": "arsdelight:cascading_bark",
-        "count": 1
-      }
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
       "item": "ars_nouveau:blue_archwood_wood"
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ars_nouveau:stripped_blue_archwood_wood"
+      }
+    },
+    {
+      "item": {
+        "count": 1,
+        "id": "arsdelight:cascading_bark"
+      }
+    }
+  ],
+  "sound": {
+    "sound_id": "minecraft:item.axe.strip"
+  },
+  "tool": {
+    "type": "farmersdelight:item_ability",
+    "action": "axe_strip"
+  }
 }

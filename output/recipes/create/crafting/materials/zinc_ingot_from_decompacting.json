@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:zinc_ingot",
-    "count": 9
-  },
   "ingredients": [
     {
-      "item": "create:zinc_block"
+      "tag": "c:storage_blocks/zinc"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 9,
+    "id": "create:zinc_ingot"
+  }
 }

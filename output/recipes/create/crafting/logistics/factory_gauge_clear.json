@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:factory_gauge",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "create:factory_gauge"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:factory_gauge"
+  }
 }

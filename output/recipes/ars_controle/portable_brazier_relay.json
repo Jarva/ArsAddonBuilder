@@ -1,10 +1,12 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
       "item": "minecraft:popped_chorus_fruit"
@@ -25,14 +27,12 @@
       "item": "ars_nouveau:wilden_tribute"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:brazier_relay"
   },
   "result": {
-    "id": "ars_controle:portable_brazier_relay",
-    "count": 1
+    "count": 1,
+    "id": "ars_controle:portable_brazier_relay"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

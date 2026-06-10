@@ -1,42 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:book_of_calling_foliot_farmer",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:book_of_binding_bound_foliot"
     },
-    [
-      {
-        "item": "minecraft:wheat_seeds"
-      },
-      {
-        "item": "minecraft:potato"
-      },
-      {
-        "item": "minecraft:carrot"
-      },
-      {
-        "item": "minecraft:beetroot_seeds"
-      },
-      {
-        "item": "minecraft:torchflower_seeds"
-      },
-      {
-        "item": "minecraft:pitcher_pod"
-      },
-      {
-        "item": "farmersdelight:cabbage_seeds"
-      },
-      {
-        "item": "farmersdelight:tomato_seeds"
-      },
-      {
-        "item": "farmersdelight:onion"
-      }
-    ]
+    {
+      "tag": "minecraft:villager_plantable_seeds"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:book_of_calling_foliot_farmer"
+  }
 }

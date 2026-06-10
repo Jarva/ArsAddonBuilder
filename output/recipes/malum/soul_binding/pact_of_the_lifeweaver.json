@@ -1,23 +1,24 @@
 {
-  "input": {
-    "item": "malum:imitation_flesh",
-    "count": 8
-  },
-  "result": "malum:pact_of_the_lifeweaver",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "minecraft:golden_carrot",
-      "count": 4
+      "count": 4,
+      "item": "minecraft:golden_carrot"
     },
     {
-      "item": "minecraft:golden_apple",
-      "count": 4
+      "count": 4,
+      "item": "minecraft:golden_apple"
     },
     {
-      "item": "minecraft:glistering_melon_slice",
-      "count": 4
+      "count": 4,
+      "item": "minecraft:glistering_melon_slice"
     }
   ],
+  "input": {
+    "count": 8,
+    "item": "malum:imitation_flesh"
+  },
+  "result": "malum:pact_of_the_lifeweaver",
   "spirits": [
     {
       "type": "malum:sacred",
@@ -35,6 +36,5 @@
       "type": "malum:eldritch",
       "count": 16
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

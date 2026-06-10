@@ -1,19 +1,20 @@
 {
-  "input": {
-    "item": "malum:living_flesh",
-    "count": 12
-  },
-  "result": "malum:pact_of_defiance",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "minecraft:golden_carrot",
-      "count": 4
+      "count": 4,
+      "item": "minecraft:golden_carrot"
     },
     {
-      "item": "minecraft:golden_apple",
-      "count": 1
+      "count": 1,
+      "item": "minecraft:golden_apple"
     }
   ],
+  "input": {
+    "count": 12,
+    "item": "malum:living_flesh"
+  },
+  "result": "malum:pact_of_defiance",
   "spirits": [
     {
       "type": "malum:sacred",
@@ -23,6 +24,5 @@
       "type": "malum:infernal",
       "count": 16
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

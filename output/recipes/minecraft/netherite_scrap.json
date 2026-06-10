@@ -1,13 +1,12 @@
 {
-  "result": {
-    "id": "minecraft:netherite_scrap",
-    "count": 1
-  },
-  "experience": 2.0,
-  "cookingtime": 200,
+  "type": "minecraft:smelting",
   "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
   "ingredient": {
     "item": "minecraft:ancient_debris"
   },
-  "type": "minecraft:smelting"
+  "result": {
+    "id": "minecraft:netherite_scrap"
+  }
 }

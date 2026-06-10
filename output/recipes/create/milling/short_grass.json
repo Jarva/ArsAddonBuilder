@@ -1,15 +1,15 @@
 {
+  "type": "create:milling",
   "ingredients": [
     {
       "item": "minecraft:short_grass"
     }
   ],
+  "processing_time": 50,
   "results": [
     {
-      "id": "minecraft:wheat_seeds",
-      "chance": 0.25
+      "chance": 0.25,
+      "id": "minecraft:wheat_seeds"
     }
-  ],
-  "processing_time": 50,
-  "type": "create:milling"
+  ]
 }

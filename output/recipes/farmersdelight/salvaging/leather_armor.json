@@ -1,23 +1,8 @@
 {
-  "tool": [
-    {
-      "action": "shears_dig",
-      "type": "farmersdelight:item_ability"
-    },
-    {
-      "tag": "c:tools/shear"
-    }
-  ],
-  "result": [
-    {
-      "item": {
-        "id": "minecraft:leather",
-        "count": 1
-      }
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
+      "type": "neoforge:compound",
       "children": [
         {
           "item": "minecraft:leather_helmet"
@@ -31,9 +16,24 @@
         {
           "item": "minecraft:leather_boots"
         }
-      ],
-      "type": "neoforge:compound"
+      ]
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:leather"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "shears_dig"
+    },
+    {
+      "tag": "c:tools/shear"
+    }
+  ]
 }

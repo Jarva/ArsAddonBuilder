@@ -1,4 +1,5 @@
 {
+  "type": "sauce:armor_upgrade",
   "pedestalItems": [
     {
       "item": "ars_elemental:mark_of_mastery"
@@ -13,13 +14,12 @@
       "item": "ars_nouveau:air_essence"
     }
   ],
-  "sourceCost": 7000,
   "reagent": {
     "item": "ars_nouveau:battlemage_leggings"
   },
   "result": {
-    "id": "ars_elemental:air_leggings_heavy",
-    "count": 1
+    "count": 1,
+    "id": "ars_elemental:air_leggings_heavy"
   },
-  "type": "sauce:armor_upgrade"
+  "sourceCost": 7000
 }

@@ -1,11 +1,11 @@
 {
+  "type": "malum:unchained_transmutation",
+  "group": "stone",
   "input": {
     "item": "minecraft:cobblestone"
   },
   "result": {
-    "id": "minecraft:gravel",
-    "count": 1
-  },
-  "group": "stone",
-  "type": "malum:unchained_transmutation"
+    "count": 1,
+    "id": "minecraft:gravel"
+  }
 }

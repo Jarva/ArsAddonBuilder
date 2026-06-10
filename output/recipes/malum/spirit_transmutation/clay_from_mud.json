@@ -1,11 +1,11 @@
 {
+  "type": "malum:unchained_transmutation",
+  "group": "mud",
   "input": {
     "item": "minecraft:mud"
   },
   "result": {
-    "id": "minecraft:clay",
-    "count": 1
-  },
-  "group": "mud",
-  "type": "malum:unchained_transmutation"
+    "count": 1,
+    "id": "minecraft:clay"
+  }
 }

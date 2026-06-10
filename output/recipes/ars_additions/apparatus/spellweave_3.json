@@ -1,10 +1,13 @@
 {
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "ars_additions:spellweave",
+  "level": 3,
   "pedestalItems": [
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "tag": "c:ender_pearls"
     },
     {
       "item": "minecraft:chorus_fruit"
@@ -25,8 +28,5 @@
       "item": "minecraft:lapis_block"
     }
   ],
-  "enchantment": "ars_additions:spellweave",
-  "level": 3,
-  "sourceCost": 30000,
-  "type": "ars_nouveau:enchantment"
+  "sourceCost": 30000
 }

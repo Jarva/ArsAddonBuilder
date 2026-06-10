@@ -1,5 +1,5 @@
 {
-  "upgraded_block": "ae2:crafting_accelerator",
+  "type": "ae2:crafting_unit_transform",
   "upgrade_item": "ae2:engineering_processor",
-  "type": "ae2:crafting_unit_transform"
+  "upgraded_block": "ae2:crafting_accelerator"
 }

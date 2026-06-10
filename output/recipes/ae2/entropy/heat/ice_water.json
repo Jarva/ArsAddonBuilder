@@ -1,14 +1,14 @@
 {
-  "mode": "heat",
+  "type": "ae2:entropy",
   "input": {
     "block": {
       "id": "minecraft:ice"
     }
   },
+  "mode": "heat",
   "output": {
     "fluid": {
       "id": "minecraft:water"
     }
-  },
-  "type": "ae2:entropy"
+  }
 }

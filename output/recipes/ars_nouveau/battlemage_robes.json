@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
   "pedestalItems": [
     {
       "item": "ars_nouveau:magebloom_fiber"
@@ -13,14 +15,12 @@
       "item": "ars_nouveau:magebloom_fiber"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": true,
   "reagent": {
     "item": "minecraft:diamond_chestplate"
   },
   "result": {
-    "id": "ars_nouveau:battlemage_robes",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:battlemage_robes"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

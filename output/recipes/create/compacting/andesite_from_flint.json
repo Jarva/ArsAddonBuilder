@@ -1,4 +1,5 @@
 {
+  "type": "create:compacting",
   "ingredients": [
     {
       "item": "minecraft:flint"
@@ -11,14 +12,13 @@
     },
     {
       "type": "neoforge:single",
-      "fluid": "minecraft:lava",
-      "amount": 100
+      "amount": 100,
+      "fluid": "minecraft:lava"
     }
   ],
   "results": [
     {
       "id": "minecraft:andesite"
     }
-  ],
-  "type": "create:compacting"
+  ]
 }

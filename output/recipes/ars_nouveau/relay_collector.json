@@ -1,94 +1,26 @@
 {
-  "pedestalItems": [
-    [
-      {
-        "item": "ae2:sky_stone_chest"
-      },
-      {
-        "item": "ae2:smooth_sky_stone_chest"
-      },
-      {
-        "item": "minecraft:ender_chest"
-      },
-      {
-        "item": "minecraft:trapped_chest"
-      },
-      {
-        "item": "minecraft:chest"
-      },
-      {
-        "item": "ars_nouveau:archwood_chest"
-      }
-    ],
-    [
-      {
-        "item": "ae2:sky_stone_chest"
-      },
-      {
-        "item": "ae2:smooth_sky_stone_chest"
-      },
-      {
-        "item": "minecraft:ender_chest"
-      },
-      {
-        "item": "minecraft:trapped_chest"
-      },
-      {
-        "item": "minecraft:chest"
-      },
-      {
-        "item": "ars_nouveau:archwood_chest"
-      }
-    ],
-    [
-      {
-        "item": "ae2:sky_stone_chest"
-      },
-      {
-        "item": "ae2:smooth_sky_stone_chest"
-      },
-      {
-        "item": "minecraft:ender_chest"
-      },
-      {
-        "item": "minecraft:trapped_chest"
-      },
-      {
-        "item": "minecraft:chest"
-      },
-      {
-        "item": "ars_nouveau:archwood_chest"
-      }
-    ],
-    [
-      {
-        "item": "ae2:sky_stone_chest"
-      },
-      {
-        "item": "ae2:smooth_sky_stone_chest"
-      },
-      {
-        "item": "minecraft:ender_chest"
-      },
-      {
-        "item": "minecraft:trapped_chest"
-      },
-      {
-        "item": "minecraft:chest"
-      },
-      {
-        "item": "ars_nouveau:archwood_chest"
-      }
-    ]
-  ],
-  "sourceCost": 0,
+  "type": "ars_nouveau:enchanting_apparatus",
   "keepNbtOfReagent": false,
+  "pedestalItems": [
+    {
+      "tag": "c:chests"
+    },
+    {
+      "tag": "c:chests"
+    },
+    {
+      "tag": "c:chests"
+    },
+    {
+      "tag": "c:chests"
+    }
+  ],
   "reagent": {
     "item": "ars_nouveau:relay"
   },
   "result": {
-    "id": "ars_nouveau:relay_collector",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:relay_collector"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

@@ -1,21 +1,22 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:chest_minecart",
-    "count": 1
-  },
   "ingredients": [
-    [
-      {
-        "item": "minecraft:chest"
+    {
+      "type": "neoforge:difference",
+      "base": {
+        "tag": "c:chests/wooden"
       },
-      {
-        "item": "ars_nouveau:archwood_chest"
+      "subtracted": {
+        "tag": "c:chests/trapped"
       }
-    ],
+    },
     {
       "item": "minecraft:minecart"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:chest_minecart"
+  }
 }

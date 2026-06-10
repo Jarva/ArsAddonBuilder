@@ -1,20 +1,12 @@
 {
-  "input": [
-    {
-      "item": "minecraft:arrow"
-    },
-    {
-      "item": "minecraft:tipped_arrow"
-    },
-    {
-      "item": "minecraft:spectral_arrow"
-    }
-  ],
-  "output": {
-    "id": "ars_nouveau:pierce_arrow",
-    "count": 1
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "tag": "minecraft:arrows"
   },
-  "source": 100,
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:pierce_arrow"
+  },
   "pedestalItems": [
     {
       "item": "ars_nouveau:source_gem"
@@ -26,5 +18,5 @@
       "item": "ars_nouveau:wilden_spike"
     }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 100
 }

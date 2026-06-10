@@ -1,24 +1,13 @@
 {
-  "output": {
-    "id": "toomanyglyphs:glyph_filter_block",
-    "count": 1
-  },
-  "inputs": [
-    [
-      {
-        "item": "minecraft:cobblestone"
-      },
-      {
-        "item": "minecraft:infested_cobblestone"
-      },
-      {
-        "item": "minecraft:mossy_cobblestone"
-      },
-      {
-        "item": "minecraft:cobbled_deepslate"
-      }
-    ]
-  ],
+  "type": "ars_nouveau:glyph",
   "exp": 27,
-  "type": "ars_nouveau:glyph"
+  "inputs": [
+    {
+      "tag": "c:cobblestones"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "toomanyglyphs:glyph_filter_block"
+  }
 }

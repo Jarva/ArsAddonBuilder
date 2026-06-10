@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "starbunclemania:fluid_scroll_deny",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:blank_parchment"
@@ -11,20 +8,12 @@
     {
       "item": "ars_nouveau:water_essence"
     },
-    [
-      {
-        "item": "minecraft:cobblestone"
-      },
-      {
-        "item": "minecraft:infested_cobblestone"
-      },
-      {
-        "item": "minecraft:mossy_cobblestone"
-      },
-      {
-        "item": "minecraft:cobbled_deepslate"
-      }
-    ]
+    {
+      "tag": "c:cobblestones"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "starbunclemania:fluid_scroll_deny"
+  }
 }

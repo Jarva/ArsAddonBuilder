@@ -1,13 +1,13 @@
 {
-  "result": {
-    "id": "farmersdelight:fried_egg",
-    "count": 1
-  },
-  "experience": 0.35,
-  "cookingtime": 600,
+  "type": "minecraft:campfire_cooking",
   "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
   "ingredient": {
     "item": "minecraft:egg"
   },
-  "type": "minecraft:campfire_cooking"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:fried_egg"
+  }
 }

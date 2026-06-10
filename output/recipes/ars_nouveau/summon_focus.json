@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:wilden_horn"
@@ -13,17 +15,15 @@
       "item": "ars_nouveau:wilden_tribute"
     },
     {
-      "item": "minecraft:gold_ingot"
+      "tag": "c:ingots/gold"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
-    "item": "ars_nouveau:source_gem_block"
+    "tag": "c:storage_blocks/source"
   },
   "result": {
-    "id": "ars_nouveau:summon_focus",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:summon_focus"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

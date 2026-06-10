@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:sequenced_gearshift",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "create:brass_casing"
@@ -15,5 +12,8 @@
       "item": "create:electron_tube"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:sequenced_gearshift"
+  }
 }

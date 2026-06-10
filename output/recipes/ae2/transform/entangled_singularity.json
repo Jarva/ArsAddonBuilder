@@ -1,18 +1,18 @@
 {
+  "type": "ae2:transform",
+  "circumstance": {
+    "type": "explosion"
+  },
   "ingredients": [
     {
       "item": "ae2:singularity"
     },
     {
-      "item": "ae2:ender_dust"
+      "tag": "c:dusts/ender_pearl"
     }
   ],
   "result": {
-    "id": "ae2:quantum_entangled_singularity",
-    "count": 2
-  },
-  "circumstance": {
-    "type": "explosion"
-  },
-  "type": "ae2:transform"
+    "count": 2,
+    "id": "ae2:quantum_entangled_singularity"
+  }
 }

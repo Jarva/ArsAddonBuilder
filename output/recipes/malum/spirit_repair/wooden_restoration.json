@@ -1,20 +1,12 @@
 {
-  "repairMaterial": {
-    "tag": "minecraft:planks",
-    "count": 4
-  },
+  "type": "malum:spirit_repair",
   "regex": {
     "itemIdRegex": "wooden_.+"
   },
-  "validItems": [
-    "minecraft:bow",
-    "minecraft:crossbow",
-    "minecraft:wooden_sword",
-    "minecraft:wooden_shovel",
-    "minecraft:wooden_pickaxe",
-    "minecraft:wooden_axe",
-    "minecraft:wooden_hoe"
-  ],
+  "repairMaterial": {
+    "count": 4,
+    "tag": "minecraft:planks"
+  },
   "spirits": [
     {
       "type": "malum:sacred",
@@ -25,5 +17,13 @@
       "count": 4
     }
   ],
-  "type": "malum:spirit_repair"
+  "validItems": [
+    "minecraft:bow",
+    "minecraft:crossbow",
+    "minecraft:wooden_sword",
+    "minecraft:wooden_shovel",
+    "minecraft:wooden_pickaxe",
+    "minecraft:wooden_axe",
+    "minecraft:wooden_hoe"
+  ]
 }

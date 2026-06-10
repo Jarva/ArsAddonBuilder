@@ -1,34 +1,34 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:netherite_dust",
-    "count": 1
-  },
   "ingredients": [
     {
-      "item": "occultism:netherite_scrap_dust"
+      "tag": "c:dusts/netherite_scrap"
     },
     {
-      "item": "occultism:netherite_scrap_dust"
+      "tag": "c:dusts/netherite_scrap"
     },
     {
-      "item": "occultism:netherite_scrap_dust"
+      "tag": "c:dusts/netherite_scrap"
     },
     {
-      "item": "occultism:netherite_scrap_dust"
+      "tag": "c:dusts/netherite_scrap"
     },
     {
-      "item": "occultism:gold_dust"
+      "tag": "c:dusts/gold"
     },
     {
-      "item": "occultism:gold_dust"
+      "tag": "c:dusts/gold"
     },
     {
-      "item": "occultism:gold_dust"
+      "tag": "c:dusts/gold"
     },
     {
-      "item": "occultism:gold_dust"
+      "tag": "c:dusts/gold"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:netherite_dust"
+  }
 }

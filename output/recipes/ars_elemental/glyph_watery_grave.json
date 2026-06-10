@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_elemental:glyph_watery_grave",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "minecraft:kelp"
@@ -14,6 +12,8 @@
       "item": "ars_nouveau:water_essence"
     }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_elemental:glyph_watery_grave"
+  }
 }

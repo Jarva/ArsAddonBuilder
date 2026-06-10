@@ -1,12 +1,12 @@
 {
+  "type": "ars_nouveau:imbuement",
   "input": {
     "item": "ars_trinkets:essence_6"
   },
   "output": {
-    "id": "ars_trinkets:essence_7",
-    "count": 1
+    "count": 1,
+    "id": "ars_trinkets:essence_7"
   },
-  "source": 300,
   "pedestalItems": [
     {
       "item": "ars_trinkets:essence_6"
@@ -18,5 +18,5 @@
       "item": "ars_trinkets:essence_6"
     }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 300
 }

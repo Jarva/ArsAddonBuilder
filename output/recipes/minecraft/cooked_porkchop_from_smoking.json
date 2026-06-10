@@ -1,13 +1,12 @@
 {
-  "result": {
-    "id": "minecraft:cooked_porkchop",
-    "count": 1
-  },
-  "experience": 0.35,
-  "cookingtime": 100,
+  "type": "minecraft:smoking",
   "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
   "ingredient": {
     "item": "minecraft:porkchop"
   },
-  "type": "minecraft:smoking"
+  "result": {
+    "id": "minecraft:cooked_porkchop"
+  }
 }

@@ -1,16 +1,16 @@
 {
+  "type": "ars_nouveau:crush",
   "input": {
     "item": "minecraft:allium"
   },
   "output": [
     {
-      "stack": {
-        "id": "minecraft:magenta_dye",
-        "count": 2
-      },
       "chance": 1.0,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 2,
+        "id": "minecraft:magenta_dye"
+      }
     }
-  ],
-  "type": "ars_nouveau:crush"
+  ]
 }

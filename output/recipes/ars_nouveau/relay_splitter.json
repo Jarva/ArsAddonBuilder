@@ -1,58 +1,38 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
-    [
-      {
-        "item": "minecraft:quartz"
-      },
-      {
-        "item": "malum:natural_quartz"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:quartz"
-      },
-      {
-        "item": "malum:natural_quartz"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:quartz"
-      },
-      {
-        "item": "malum:natural_quartz"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:quartz"
-      },
-      {
-        "item": "malum:natural_quartz"
-      }
-    ],
     {
-      "item": "minecraft:lapis_lazuli"
+      "tag": "c:gems/quartz"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "tag": "c:gems/quartz"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "tag": "c:gems/quartz"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "tag": "c:gems/quartz"
+    },
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "tag": "c:gems/lapis"
+    },
+    {
+      "tag": "c:gems/lapis"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:relay"
   },
   "result": {
-    "id": "ars_nouveau:relay_splitter",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:relay_splitter"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

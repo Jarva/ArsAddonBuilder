@@ -1,9 +1,8 @@
 {
-  "output": {
-    "id": "minecraft:creeper_head",
-    "count": 1
-  },
-  "mob": "minecraft:creeper",
+  "type": "ars_elemental:head_cut",
   "drop_chance": 10,
-  "type": "ars_elemental:head_cut"
+  "mob": "minecraft:creeper",
+  "output": {
+    "id": "minecraft:creeper_head"
+  }
 }

@@ -1,73 +1,60 @@
 {
-  "sequence": [
-    {
-      "ingredients": [
-        [
-          {
-            "item": "create:unprocessed_obsidian_sheet"
-          },
-          {
-            "item": "create:powdered_obsidian"
-          },
-          {
-            "item": "occultism:obsidian_dust"
-          }
-        ],
-        {
-          "type": "neoforge:single",
-          "fluid": "minecraft:lava",
-          "amount": 500
-        }
-      ],
-      "results": [
-        {
-          "id": "create:unprocessed_obsidian_sheet"
-        }
-      ],
-      "type": "create:filling"
-    },
-    {
-      "ingredients": [
-        {
-          "item": "create:unprocessed_obsidian_sheet"
-        }
-      ],
-      "results": [
-        {
-          "id": "create:unprocessed_obsidian_sheet"
-        }
-      ],
-      "type": "create:pressing"
-    },
-    {
-      "ingredients": [
-        {
-          "item": "create:unprocessed_obsidian_sheet"
-        }
-      ],
-      "results": [
-        {
-          "id": "create:unprocessed_obsidian_sheet"
-        }
-      ],
-      "type": "create:pressing"
-    }
-  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:dusts/obsidian"
+  },
   "results": [
     {
       "id": "create:sturdy_sheet"
     }
   ],
-  "ingredient": [
+  "sequence": [
     {
-      "item": "create:powdered_obsidian"
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create:unprocessed_obsidian_sheet"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 500,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:unprocessed_obsidian_sheet"
+        }
+      ]
     },
     {
-      "item": "occultism:obsidian_dust"
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:unprocessed_obsidian_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:unprocessed_obsidian_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:unprocessed_obsidian_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:unprocessed_obsidian_sheet"
+        }
+      ]
     }
   ],
   "transitional_item": {
     "id": "create:unprocessed_obsidian_sheet"
-  },
-  "type": "create:sequenced_assembly"
+  }
 }

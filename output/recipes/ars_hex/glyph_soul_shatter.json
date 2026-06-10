@@ -1,8 +1,12 @@
 {
-  "output": {
-    "id": "ars_hex:glyph_soul_shatter",
-    "count": 1
-  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "malum"
+    }
+  ],
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "ars_nouveau:manipulation_essence"
@@ -14,6 +18,8 @@
       "item": "malum:soul_stained_steel_sword"
     }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_hex:glyph_soul_shatter"
+  }
 }

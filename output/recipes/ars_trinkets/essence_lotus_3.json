@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_trinkets:essence_3"
@@ -25,14 +27,12 @@
       "item": "ars_trinkets:essence_3"
     }
   ],
-  "sourceCost": 1500,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "minecraft:sunflower"
   },
   "result": {
-    "id": "ars_trinkets:essence_lotus_3",
-    "count": 1
+    "count": 1,
+    "id": "ars_trinkets:essence_lotus_3"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 1500
 }

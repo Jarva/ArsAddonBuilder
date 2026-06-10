@@ -1,16 +1,16 @@
 {
+  "type": "ars_nouveau:crush",
   "input": {
     "item": "minecraft:white_tulip"
   },
   "output": [
     {
-      "stack": {
-        "id": "minecraft:light_gray_dye",
-        "count": 2
-      },
       "chance": 1.0,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 2,
+        "id": "minecraft:light_gray_dye"
+      }
     }
-  ],
-  "type": "ars_nouveau:crush"
+  ]
 }

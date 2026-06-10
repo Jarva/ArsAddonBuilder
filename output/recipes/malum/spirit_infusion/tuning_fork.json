@@ -1,4 +1,23 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 2,
+      "item": "malum:runewood_planks"
+    },
+    {
+      "count": 2,
+      "item": "malum:refined_soulstone"
+    }
+  ],
+  "input": {
+    "count": 2,
+    "tag": "c:ingots/iron"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:tuning_fork"
+  },
   "spirits": [
     {
       "type": "malum:arcane",
@@ -8,24 +27,5 @@
       "type": "malum:aqueous",
       "count": 8
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:runewood_planks",
-      "count": 2
-    },
-    {
-      "item": "malum:refined_soulstone",
-      "count": 2
-    }
-  ],
-  "input": {
-    "tag": "c:ingots/iron",
-    "count": 2
-  },
-  "result": {
-    "id": "malum:tuning_fork",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

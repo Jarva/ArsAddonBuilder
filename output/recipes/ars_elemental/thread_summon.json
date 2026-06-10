@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:conjuration_essence"
@@ -9,37 +11,19 @@
     {
       "item": "minecraft:echo_shard"
     },
-    [
-      {
-        "item": "ars_nouveau:wilden_horn"
-      },
-      {
-        "item": "ars_nouveau:wilden_spike"
-      },
-      {
-        "item": "ars_nouveau:wilden_wing"
-      }
-    ],
-    [
-      {
-        "item": "ars_nouveau:wilden_horn"
-      },
-      {
-        "item": "ars_nouveau:wilden_spike"
-      },
-      {
-        "item": "ars_nouveau:wilden_wing"
-      }
-    ]
+    {
+      "tag": "ars_nouveau:wilden_drop"
+    },
+    {
+      "tag": "ars_nouveau:wilden_drop"
+    }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:blank_thread"
   },
   "result": {
-    "id": "ars_elemental:thread_summon",
-    "count": 1
+    "count": 1,
+    "id": "ars_elemental:thread_summon"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

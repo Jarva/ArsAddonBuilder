@@ -1,22 +1,22 @@
 {
-  "output": {
-    "id": "ars_nouveau:glyph_redstone_signal",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 27,
   "inputs": [
     {
       "item": "ars_nouveau:manipulation_essence"
     },
     {
-      "item": "minecraft:redstone_block"
+      "tag": "c:storage_blocks/redstone"
     },
     {
-      "item": "minecraft:redstone_block"
+      "tag": "c:storage_blocks/redstone"
     },
     {
-      "item": "minecraft:redstone_block"
+      "tag": "c:storage_blocks/redstone"
     }
   ],
-  "exp": 27,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:glyph_redstone_signal"
+  }
 }

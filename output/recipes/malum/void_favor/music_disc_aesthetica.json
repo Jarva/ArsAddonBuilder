@@ -1,10 +1,10 @@
 {
+  "type": "malum:void_favor",
   "input": {
     "item": "malum:music_disc_arcane_elegy"
   },
   "result": {
-    "id": "malum:music_disc_aesthetica",
-    "count": 1
-  },
-  "type": "malum:void_favor"
+    "count": 1,
+    "id": "malum:music_disc_aesthetica"
+  }
 }

@@ -1,7 +1,16 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:nuggets/copper"
+      }
+    }
+  ],
+  "type": "ae2:matter_cannon",
   "ammo": {
-    "item": "create:copper_nugget"
+    "tag": "c:nuggets/copper"
   },
-  "weight": 63.546,
-  "type": "ae2:matter_cannon"
+  "weight": 63.546
 }

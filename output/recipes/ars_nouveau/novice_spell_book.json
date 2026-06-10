@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:novice_spell_book",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:book"
@@ -21,5 +18,8 @@
       "item": "minecraft:iron_sword"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:novice_spell_book"
+  }
 }

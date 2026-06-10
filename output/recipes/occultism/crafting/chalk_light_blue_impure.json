@@ -1,22 +1,22 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:chalk_light_blue_impure",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:chalk_white_impure"
     },
     {
-      "item": "occultism:crushed_ice"
+      "tag": "c:dusts/ice"
     },
     {
-      "item": "occultism:crushed_packed_ice"
+      "tag": "c:dusts/packed_ice"
     },
     {
-      "item": "occultism:crushed_blue_ice"
+      "tag": "c:dusts/blue_ice"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:chalk_light_blue_impure"
+  }
 }

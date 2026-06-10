@@ -1,13 +1,13 @@
 {
-  "result": {
-    "id": "malum:natural_quartz",
-    "count": 1
-  },
-  "experience": 0.25,
-  "cookingtime": 100,
+  "type": "minecraft:blasting",
   "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.25,
   "ingredient": {
     "item": "malum:natural_quartz_ore"
   },
-  "type": "minecraft:blasting"
+  "result": {
+    "count": 1,
+    "id": "malum:natural_quartz"
+  }
 }

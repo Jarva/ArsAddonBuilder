@@ -1,30 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "malum:soulwood_planks_button",
-    "count": 1
-  },
   "ingredients": [
-    [
-      {
-        "item": "malum:soulwood_planks"
-      },
-      {
-        "item": "malum:vertical_soulwood_planks"
-      },
-      {
-        "item": "malum:rustic_soulwood_planks"
-      },
-      {
-        "item": "malum:vertical_rustic_soulwood_planks"
-      },
-      {
-        "item": "malum:soulwood_tiles"
-      },
-      {
-        "item": "malum:rustic_soulwood_tiles"
-      }
-    ]
+    {
+      "tag": "malum:soulwood_planks"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "malum:soulwood_planks_button"
+  }
 }

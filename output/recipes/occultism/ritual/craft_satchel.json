@@ -1,45 +1,34 @@
 {
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/craft_satchel",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:satchel",
-    "count": 1
-  },
-  "ritual_type": "occultism:craft_with_spirit_name",
-  "pentacle_id": "occultism:craft_foliot",
-  "ingredients": [
-    {
-      "children": [
-        {
-          "item": "minecraft:chest"
-        },
-        {
-          "item": "minecraft:trapped_chest"
-        },
-        {
-          "item": "ars_nouveau:archwood_chest"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "item": "minecraft:leather"
-    },
-    {
-      "item": "minecraft:leather"
-    },
-    {
-      "item": "minecraft:string"
-    },
-    {
-      "item": "occultism:silver_ingot"
-    }
-  ],
+  "type": "occultism:ritual",
   "activation_item": {
     "item": "occultism:book_of_binding_bound_foliot"
   },
   "duration": 60,
-  "type": "occultism:ritual"
+  "ingredients": [
+    {
+      "tag": "c:chests/wooden"
+    },
+    {
+      "tag": "c:leathers"
+    },
+    {
+      "tag": "c:leathers"
+    },
+    {
+      "tag": "c:strings"
+    },
+    {
+      "tag": "c:ingots/silver"
+    }
+  ],
+  "pentacle_id": "occultism:craft_foliot",
+  "result": {
+    "count": 1,
+    "id": "occultism:satchel"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/craft_satchel"
+  },
+  "ritual_type": "occultism:craft_with_spirit_name"
 }

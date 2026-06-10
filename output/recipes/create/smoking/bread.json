@@ -1,13 +1,13 @@
 {
-  "result": {
-    "id": "minecraft:bread",
-    "count": 1
-  },
-  "experience": 0.0,
-  "cookingtime": 100,
+  "type": "minecraft:smoking",
   "category": "food",
+  "cookingtime": 100,
+  "experience": 0.0,
   "ingredient": {
     "item": "create:dough"
   },
-  "type": "minecraft:smoking"
+  "result": {
+    "count": 1,
+    "id": "minecraft:bread"
+  }
 }

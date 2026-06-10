@@ -1,42 +1,16 @@
 {
-  "spirit_job_type": "occultism:cleaner",
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 60,
   "entity_to_summon": "occultism:foliot",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/summon_foliot_cleaner",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:book_of_calling_foliot_cleaner",
-    "count": 1
-  },
-  "ritual_type": "occultism:summon_spirit_with_job",
-  "pentacle_id": "occultism:summon_foliot",
   "ingredients": [
     {
       "item": "occultism:brush"
     },
     {
-      "children": [
-        {
-          "item": "ae2:sky_stone_chest"
-        },
-        {
-          "item": "ae2:smooth_sky_stone_chest"
-        },
-        {
-          "item": "minecraft:ender_chest"
-        },
-        {
-          "item": "minecraft:trapped_chest"
-        },
-        {
-          "item": "minecraft:chest"
-        },
-        {
-          "item": "ars_nouveau:archwood_chest"
-        }
-      ],
-      "type": "neoforge:compound"
+      "tag": "c:chests"
     },
     {
       "item": "minecraft:dispenser"
@@ -45,9 +19,15 @@
       "item": "minecraft:hopper"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_foliot"
+  "pentacle_id": "occultism:summon_foliot",
+  "result": {
+    "count": 1,
+    "id": "occultism:book_of_calling_foliot_cleaner"
   },
-  "duration": 60,
-  "type": "occultism:ritual"
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/summon_foliot_cleaner"
+  },
+  "ritual_type": "occultism:summon_spirit_with_job",
+  "spirit_job_type": "occultism:cleaner"
 }

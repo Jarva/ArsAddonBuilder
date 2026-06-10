@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_nouveau:glyph_slowfall",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "ars_nouveau:air_essence"
@@ -20,12 +18,14 @@
       "item": "minecraft:feather"
     },
     {
-      "item": "minecraft:blaze_rod"
+      "tag": "c:rods/blaze"
     },
     {
-      "item": "minecraft:nether_wart"
+      "tag": "c:crops/nether_wart"
     }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:glyph_slowfall"
+  }
 }

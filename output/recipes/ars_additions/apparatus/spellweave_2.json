@@ -1,10 +1,13 @@
 {
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "ars_additions:spellweave",
+  "level": 2,
   "pedestalItems": [
     {
-      "item": "minecraft:blaze_rod"
+      "tag": "c:rods/blaze"
     },
     {
-      "item": "minecraft:blaze_rod"
+      "tag": "c:rods/blaze"
     },
     {
       "item": "minecraft:diamond_block"
@@ -19,8 +22,5 @@
       "item": "ars_nouveau:source_gem_block"
     }
   ],
-  "enchantment": "ars_additions:spellweave",
-  "level": 2,
-  "sourceCost": 20000,
-  "type": "ars_nouveau:enchantment"
+  "sourceCost": 20000
 }

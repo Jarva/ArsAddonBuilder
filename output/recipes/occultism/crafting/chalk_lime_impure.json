@@ -1,30 +1,22 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:chalk_lime_impure",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:chalk_white_impure"
     },
     {
-      "item": "occultism:research_fragment_dust"
+      "tag": "c:dusts/research"
     },
     {
-      "item": "occultism:emerald_dust"
+      "tag": "c:dusts/emerald"
     },
-    [
-      {
-        "item": "minecraft:slime_ball"
-      },
-      {
-        "item": "malum:runic_sapball"
-      },
-      {
-        "item": "malum:cursed_sapball"
-      }
-    ]
+    {
+      "tag": "c:slime_balls"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:chalk_lime_impure"
+  }
 }

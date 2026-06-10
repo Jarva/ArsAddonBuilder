@@ -1,11 +1,27 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/netherite_scrap"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/netherite_scrap"
+      }
+    }
+  ],
+  "type": "occultism:crushing",
   "ingredient": {
-    "item": "minecraft:ancient_debris"
+    "tag": "c:ores/netherite_scrap"
   },
   "result": {
-    "tag": "c:dusts/netherite_scrap",
+    "type": "occultism:tag",
     "count": 2,
-    "type": "occultism:tag"
-  },
-  "type": "occultism:crushing"
+    "tag": "c:dusts/netherite_scrap"
+  }
 }

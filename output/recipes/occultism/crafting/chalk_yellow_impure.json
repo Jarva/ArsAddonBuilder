@@ -1,22 +1,22 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:chalk_yellow_impure",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:chalk_white_impure"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "tag": "c:dusts/glowstone"
     },
     {
-      "item": "occultism:gold_dust"
+      "tag": "c:dusts/gold"
     },
     {
-      "item": "occultism:gold_dust"
+      "tag": "c:dusts/gold"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:chalk_yellow_impure"
+  }
 }

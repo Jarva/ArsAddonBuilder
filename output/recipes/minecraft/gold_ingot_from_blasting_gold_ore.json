@@ -1,14 +1,13 @@
 {
-  "result": {
-    "id": "minecraft:gold_ingot",
-    "count": 1
-  },
-  "experience": 1.0,
-  "cookingtime": 100,
-  "group": "gold_ingot",
+  "type": "minecraft:blasting",
   "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "gold_ingot",
   "ingredient": {
     "item": "minecraft:gold_ore"
   },
-  "type": "minecraft:blasting"
+  "result": {
+    "id": "minecraft:gold_ingot"
+  }
 }

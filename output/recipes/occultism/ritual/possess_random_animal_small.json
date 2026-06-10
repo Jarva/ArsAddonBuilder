@@ -1,39 +1,28 @@
 {
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_foliot"
+  },
+  "duration": 15,
   "entity_tag_to_summon": "occultism:random_animals_small",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/possess_random_animal_small",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:mysterious_egg_icon",
-    "count": 1,
-    "components": {
-      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_random_animal_small\"}",
-      "minecraft:lore": [
-        "{\"translate\":\"item.occultism.ritual_dummy.possess_random_animal_small.tooltip\"}"
-      ]
-    }
-  },
-  "ritual_type": "occultism:summon",
-  "pentacle_id": "occultism:possess_foliot",
   "ingredients": [
     {
-      "item": "minecraft:feather"
+      "tag": "c:feathers"
     },
     {
-      "item": "minecraft:feather"
+      "tag": "c:feathers"
     },
     {
-      "item": "minecraft:string"
+      "tag": "c:strings"
     },
     {
-      "item": "minecraft:string"
+      "tag": "c:strings"
     },
     {
-      "item": "minecraft:iron_nugget"
+      "tag": "c:nuggets/iron"
     },
     {
-      "item": "minecraft:iron_nugget"
+      "tag": "c:nuggets/iron"
     },
     {
       "item": "minecraft:sugar"
@@ -42,12 +31,23 @@
       "item": "minecraft:sugar"
     }
   ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_foliot"
-  },
-  "duration": 15,
   "item_to_use": {
     "item": "minecraft:egg"
   },
-  "type": "occultism:ritual"
+  "pentacle_id": "occultism:possess_foliot",
+  "result": {
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.possess_random_animal_small\"}",
+      "minecraft:lore": [
+        "{\"translate\":\"item.occultism.ritual_dummy.possess_random_animal_small.tooltip\"}"
+      ]
+    },
+    "count": 1,
+    "id": "occultism:mysterious_egg_icon"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/possess_random_animal_small"
+  },
+  "ritual_type": "occultism:summon"
 }

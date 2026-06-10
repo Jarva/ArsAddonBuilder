@@ -1,10 +1,7 @@
 {
-  "group": "bed",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "minecraft:yellow_bed",
-    "count": 1
-  },
+  "group": "bed",
   "ingredients": [
     {
       "item": "minecraft:yellow_dye"
@@ -57,5 +54,8 @@
       }
     ]
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:yellow_bed"
+  }
 }

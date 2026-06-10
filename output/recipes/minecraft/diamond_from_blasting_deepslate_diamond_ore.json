@@ -1,14 +1,13 @@
 {
-  "result": {
-    "id": "minecraft:diamond",
-    "count": 1
-  },
-  "experience": 1.0,
-  "cookingtime": 100,
-  "group": "diamond",
+  "type": "minecraft:blasting",
   "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "diamond",
   "ingredient": {
     "item": "minecraft:deepslate_diamond_ore"
   },
-  "type": "minecraft:blasting"
+  "result": {
+    "id": "minecraft:diamond"
+  }
 }

@@ -1,18 +1,27 @@
 {
-  "ingredients": [
+  "neoforge:conditions": [
     {
-      "item": "occultism:raw_silver"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:raw_materials/silver"
+      }
     }
   ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/silver"
+    }
+  ],
+  "processing_time": 400,
   "results": [
     {
       "id": "create:crushed_raw_silver"
     },
     {
-      "id": "create:experience_nugget",
-      "chance": 0.75
+      "chance": 0.75,
+      "id": "create:experience_nugget"
     }
-  ],
-  "processing_time": 400,
-  "type": "create:crushing"
+  ]
 }

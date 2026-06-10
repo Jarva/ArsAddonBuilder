@@ -1,4 +1,5 @@
 {
+  "type": "create:splashing",
   "ingredients": [
     {
       "item": "minecraft:ice"
@@ -8,6 +9,5 @@
     {
       "id": "minecraft:packed_ice"
     }
-  ],
-  "type": "create:splashing"
+  ]
 }

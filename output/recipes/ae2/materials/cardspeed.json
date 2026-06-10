@@ -1,16 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ae2:speed_card",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ae2:advanced_card"
     },
     {
-      "item": "ae2:fluix_crystal"
+      "tag": "ae2:all_fluix"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ae2:speed_card"
+  }
 }

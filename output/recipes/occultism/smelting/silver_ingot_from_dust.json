@@ -1,13 +1,13 @@
 {
-  "result": {
-    "id": "occultism:silver_ingot",
-    "count": 1
-  },
-  "experience": 0.7,
-  "cookingtime": 200,
+  "type": "minecraft:smelting",
   "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
   "ingredient": {
-    "item": "occultism:silver_dust"
+    "tag": "c:dusts/silver"
   },
-  "type": "minecraft:smelting"
+  "result": {
+    "count": 1,
+    "id": "occultism:silver_ingot"
+  }
 }

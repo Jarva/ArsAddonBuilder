@@ -1,94 +1,25 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:ritual_animal_summon",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_nouveau:purple_archwood_log"
     },
-    [
-      {
-        "item": "ars_nouveau:drygmy_shard"
-      },
-      {
-        "item": "ars_nouveau:starbuncle_shards"
-      },
-      {
-        "item": "ars_nouveau:wixie_shards"
-      },
-      {
-        "item": "ars_nouveau:whirlisprig_shards"
-      },
-      {
-        "item": "ars_nouveau:alakarkinos_token"
-      },
-      {
-        "item": "ars_elemental:siren_shards"
-      },
-      {
-        "item": "ars_elemental:flashjack_shards"
-      },
-      {
-        "item": "ars_astrologique:enchanter_scroll"
-      }
-    ],
-    [
-      {
-        "item": "ars_nouveau:drygmy_shard"
-      },
-      {
-        "item": "ars_nouveau:starbuncle_shards"
-      },
-      {
-        "item": "ars_nouveau:wixie_shards"
-      },
-      {
-        "item": "ars_nouveau:whirlisprig_shards"
-      },
-      {
-        "item": "ars_nouveau:alakarkinos_token"
-      },
-      {
-        "item": "ars_elemental:siren_shards"
-      },
-      {
-        "item": "ars_elemental:flashjack_shards"
-      },
-      {
-        "item": "ars_astrologique:enchanter_scroll"
-      }
-    ],
-    [
-      {
-        "item": "ars_nouveau:drygmy_shard"
-      },
-      {
-        "item": "ars_nouveau:starbuncle_shards"
-      },
-      {
-        "item": "ars_nouveau:wixie_shards"
-      },
-      {
-        "item": "ars_nouveau:whirlisprig_shards"
-      },
-      {
-        "item": "ars_nouveau:alakarkinos_token"
-      },
-      {
-        "item": "ars_elemental:siren_shards"
-      },
-      {
-        "item": "ars_elemental:flashjack_shards"
-      },
-      {
-        "item": "ars_astrologique:enchanter_scroll"
-      }
-    ],
+    {
+      "tag": "ars_nouveau:magic_shards"
+    },
+    {
+      "tag": "ars_nouveau:magic_shards"
+    },
+    {
+      "tag": "ars_nouveau:magic_shards"
+    },
     {
       "item": "minecraft:lapis_block"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:ritual_animal_summon"
+  }
 }

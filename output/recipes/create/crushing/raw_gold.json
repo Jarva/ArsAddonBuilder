@@ -1,19 +1,19 @@
 {
+  "type": "create:crushing",
   "ingredients": [
     {
-      "item": "minecraft:raw_gold"
+      "tag": "c:raw_materials/gold"
     }
   ],
+  "processing_time": 400,
   "results": [
     {
       "id": "create:crushed_raw_gold"
     },
     {
-      "id": "create:experience_nugget",
+      "chance": 0.75,
       "count": 2,
-      "chance": 0.75
+      "id": "create:experience_nugget"
     }
-  ],
-  "processing_time": 400,
-  "type": "create:crushing"
+  ]
 }

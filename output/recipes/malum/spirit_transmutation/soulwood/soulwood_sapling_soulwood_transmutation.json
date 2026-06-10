@@ -1,11 +1,11 @@
 {
+  "type": "malum:unchained_transmutation",
+  "group": "soulwood",
   "input": {
     "item": "malum:runewood_sapling"
   },
   "result": {
-    "id": "malum:soulwood_sapling",
-    "count": 1
-  },
-  "group": "soulwood",
-  "type": "malum:unchained_transmutation"
+    "count": 1,
+    "id": "malum:soulwood_sapling"
+  }
 }

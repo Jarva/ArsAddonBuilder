@@ -1,4 +1,7 @@
 {
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "ars_elemental:mirror_shield",
+  "level": 2,
   "pedestalItems": [
     {
       "item": "ars_nouveau:air_essence"
@@ -16,8 +19,5 @@
       "item": "ars_elemental:spell_mirror"
     }
   ],
-  "enchantment": "ars_elemental:mirror_shield",
-  "level": 2,
-  "sourceCost": 5000,
-  "type": "ars_nouveau:enchantment"
+  "sourceCost": 5000
 }

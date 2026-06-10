@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "minecraft:ghast_tear"
@@ -10,14 +12,12 @@
       "item": "minecraft:emerald"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:blank_thread"
   },
   "result": {
-    "id": "ars_nouveau:thread_cheap_damage",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:thread_cheap_damage"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

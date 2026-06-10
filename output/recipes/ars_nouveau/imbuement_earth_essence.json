@@ -1,77 +1,22 @@
 {
+  "type": "ars_nouveau:imbuement",
   "input": {
-    "item": "ars_nouveau:source_gem"
+    "tag": "c:gems/source"
   },
   "output": {
-    "id": "ars_nouveau:earth_essence",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:earth_essence"
   },
-  "source": 2000,
   "pedestalItems": [
     {
-      "item": "minecraft:iron_ingot"
+      "tag": "c:ingots/iron"
     },
-    [
-      {
-        "item": "minecraft:beetroot_seeds"
-      },
-      {
-        "item": "minecraft:melon_seeds"
-      },
-      {
-        "item": "minecraft:pumpkin_seeds"
-      },
-      {
-        "item": "minecraft:torchflower_seeds"
-      },
-      {
-        "item": "minecraft:wheat_seeds"
-      },
-      {
-        "item": "farmersdelight:cabbage_seeds"
-      },
-      {
-        "item": "farmersdelight:rice"
-      },
-      {
-        "item": "farmersdelight:tomato_seeds"
-      },
-      {
-        "item": "ars_nouveau:magebloom_crop"
-      },
-      {
-        "item": "occultism:datura_seeds"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:dirt"
-      },
-      {
-        "item": "minecraft:grass_block"
-      },
-      {
-        "item": "minecraft:podzol"
-      },
-      {
-        "item": "minecraft:coarse_dirt"
-      },
-      {
-        "item": "minecraft:mycelium"
-      },
-      {
-        "item": "minecraft:rooted_dirt"
-      },
-      {
-        "item": "minecraft:moss_block"
-      },
-      {
-        "item": "minecraft:mud"
-      },
-      {
-        "item": "minecraft:muddy_mangrove_roots"
-      }
-    ]
+    {
+      "tag": "c:seeds"
+    },
+    {
+      "tag": "minecraft:dirt"
+    }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 2000
 }

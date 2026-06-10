@@ -1,4 +1,23 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 8,
+      "item": "malum:astral_weave"
+    },
+    {
+      "count": 8,
+      "item": "malum:refined_brilliance"
+    }
+  ],
+  "input": {
+    "count": 6,
+    "item": "malum:alchemical_calx"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:resonance_tuner"
+  },
   "spirits": [
     {
       "type": "malum:earthen",
@@ -8,24 +27,5 @@
       "type": "malum:aerial",
       "count": 16
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:astral_weave",
-      "count": 8
-    },
-    {
-      "item": "malum:refined_brilliance",
-      "count": 8
-    }
-  ],
-  "input": {
-    "item": "malum:alchemical_calx",
-    "count": 6
-  },
-  "result": {
-    "id": "malum:resonance_tuner",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

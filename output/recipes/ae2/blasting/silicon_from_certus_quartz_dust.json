@@ -1,13 +1,13 @@
 {
-  "result": {
-    "id": "ae2:silicon",
-    "count": 1
-  },
-  "experience": 0.35,
-  "cookingtime": 100,
+  "type": "minecraft:blasting",
   "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.35,
   "ingredient": {
-    "item": "ae2:certus_quartz_dust"
+    "tag": "c:dusts/certus_quartz"
   },
-  "type": "minecraft:blasting"
+  "result": {
+    "count": 1,
+    "id": "ae2:silicon"
+  }
 }

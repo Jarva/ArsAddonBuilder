@@ -1,17 +1,12 @@
 {
-  "input": [
-    {
-      "item": "minecraft:quartz"
-    },
-    {
-      "item": "malum:natural_quartz"
-    }
-  ],
-  "output": {
-    "id": "ars_elemental:acceleration_prism_lens",
-    "count": 1
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "tag": "c:gems/quartz"
   },
-  "source": 2000,
+  "output": {
+    "count": 1,
+    "id": "ars_elemental:acceleration_prism_lens"
+  },
   "pedestalItems": [
     {
       "item": "ars_nouveau:manipulation_essence"
@@ -20,5 +15,5 @@
       "item": "ars_nouveau:glyph_accelerate"
     }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 2000
 }

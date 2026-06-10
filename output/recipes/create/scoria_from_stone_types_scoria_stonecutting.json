@@ -1,54 +1,10 @@
 {
-  "ingredient": [
-    {
-      "item": "create:cut_scoria"
-    },
-    {
-      "item": "create:cut_scoria_stairs"
-    },
-    {
-      "item": "create:cut_scoria_wall"
-    },
-    {
-      "item": "create:polished_cut_scoria"
-    },
-    {
-      "item": "create:polished_cut_scoria_stairs"
-    },
-    {
-      "item": "create:polished_cut_scoria_wall"
-    },
-    {
-      "item": "create:cut_scoria_bricks"
-    },
-    {
-      "item": "create:cut_scoria_brick_stairs"
-    },
-    {
-      "item": "create:cut_scoria_brick_wall"
-    },
-    {
-      "item": "create:small_scoria_bricks"
-    },
-    {
-      "item": "create:small_scoria_brick_stairs"
-    },
-    {
-      "item": "create:small_scoria_brick_wall"
-    },
-    {
-      "item": "create:layered_scoria"
-    },
-    {
-      "item": "create:scoria_pillar"
-    },
-    {
-      "item": "create:scoria"
-    }
-  ],
-  "result": {
-    "id": "create:scoria",
-    "count": 1
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "create:stone_types/scoria"
   },
-  "type": "minecraft:stonecutting"
+  "result": {
+    "count": 1,
+    "id": "create:scoria"
+  }
 }

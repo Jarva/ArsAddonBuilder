@@ -1,98 +1,98 @@
 {
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/misc_stabilized_storage",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:storage_controller_stabilized",
-    "count": 1
-  },
-  "ritual_type": "occultism:upgrade",
-  "pentacle_id": "occultism:contact_eldritch_spirit",
-  "ingredients": [
-    {
-      "item": "occultism:storage_controller"
-    },
-    {
-      "children": [
-        {
-          "item": "occultism:storage_stabilizer_tier5"
-        },
-        {
-          "item": "occultism:storage_stabilizer_tier5_dark"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "children": [
-        {
-          "item": "occultism:storage_stabilizer_tier5"
-        },
-        {
-          "item": "occultism:storage_stabilizer_tier5_dark"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "children": [
-        {
-          "item": "occultism:storage_stabilizer_tier5"
-        },
-        {
-          "item": "occultism:storage_stabilizer_tier5_dark"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "children": [
-        {
-          "item": "occultism:storage_stabilizer_tier5"
-        },
-        {
-          "item": "occultism:storage_stabilizer_tier5_dark"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "children": [
-        {
-          "item": "occultism:storage_stabilizer_tier5"
-        },
-        {
-          "item": "occultism:storage_stabilizer_tier5_dark"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "children": [
-        {
-          "item": "occultism:storage_stabilizer_tier5"
-        },
-        {
-          "item": "occultism:storage_stabilizer_tier5_dark"
-        }
-      ],
-      "type": "neoforge:compound"
-    },
-    {
-      "item": "occultism:echo_dust"
-    },
-    {
-      "item": "occultism:echo_dust"
-    }
-  ],
+  "type": "occultism:ritual",
   "activation_item": {
     "item": "minecraft:calibrated_sculk_sensor"
   },
   "duration": 780,
   "entity_to_sacrifice": {
-    "tag": "c:shulkers",
-    "display_name": "ritual.occultism.sacrifice.shulker"
+    "display_name": "ritual.occultism.sacrifice.shulker",
+    "tag": "c:shulkers"
   },
-  "type": "occultism:ritual"
+  "ingredients": [
+    {
+      "item": "occultism:storage_controller"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "occultism:storage_stabilizer_tier5"
+        },
+        {
+          "item": "occultism:storage_stabilizer_tier5_dark"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "occultism:storage_stabilizer_tier5"
+        },
+        {
+          "item": "occultism:storage_stabilizer_tier5_dark"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "occultism:storage_stabilizer_tier5"
+        },
+        {
+          "item": "occultism:storage_stabilizer_tier5_dark"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "occultism:storage_stabilizer_tier5"
+        },
+        {
+          "item": "occultism:storage_stabilizer_tier5_dark"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "occultism:storage_stabilizer_tier5"
+        },
+        {
+          "item": "occultism:storage_stabilizer_tier5_dark"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "occultism:storage_stabilizer_tier5"
+        },
+        {
+          "item": "occultism:storage_stabilizer_tier5_dark"
+        }
+      ]
+    },
+    {
+      "tag": "c:dusts/echo"
+    },
+    {
+      "tag": "c:dusts/echo"
+    }
+  ],
+  "pentacle_id": "occultism:contact_eldritch_spirit",
+  "result": {
+    "count": 1,
+    "id": "occultism:storage_controller_stabilized"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/misc_stabilized_storage"
+  },
+  "ritual_type": "occultism:upgrade"
 }

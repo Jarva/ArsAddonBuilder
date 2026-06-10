@@ -1,16 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:dough",
-    "count": 1
-  },
   "ingredients": [
     {
-      "item": "create:wheat_flour"
+      "tag": "c:flours/wheat"
     },
     {
       "item": "minecraft:water_bucket"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:dough"
+  }
 }

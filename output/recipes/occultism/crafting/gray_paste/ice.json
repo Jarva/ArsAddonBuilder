@@ -1,16 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "minecraft:ice",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:gray_paste"
     },
     {
-      "item": "occultism:crushed_ice"
+      "tag": "c:dusts/ice"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:ice"
+  }
 }

@@ -1,16 +1,16 @@
 {
+  "type": "create:item_application",
   "ingredients": [
     {
       "item": "create:brass_casing"
     },
     {
-      "item": "create:sturdy_sheet"
+      "tag": "c:plates/obsidian"
     }
   ],
   "results": [
     {
       "id": "create:railway_casing"
     }
-  ],
-  "type": "create:item_application"
+  ]
 }

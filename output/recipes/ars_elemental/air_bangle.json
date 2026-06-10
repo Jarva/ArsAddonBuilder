@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:air_essence"
@@ -13,14 +15,12 @@
       "item": "ars_nouveau:air_essence"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_elemental:base_bangle"
   },
   "result": {
-    "id": "ars_elemental:air_bangle",
-    "count": 1
+    "count": 1,
+    "id": "ars_elemental:air_bangle"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

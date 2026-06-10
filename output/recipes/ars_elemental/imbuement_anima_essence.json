@@ -1,12 +1,12 @@
 {
+  "type": "ars_nouveau:imbuement",
   "input": {
-    "item": "ars_nouveau:source_gem"
+    "tag": "c:gems/source"
   },
   "output": {
-    "id": "sauce:anima_essence",
-    "count": 1
+    "count": 1,
+    "id": "sauce:anima_essence"
   },
-  "source": 3000,
   "pedestalItems": [
     {
       "item": "minecraft:wither_skeleton_skull"
@@ -18,5 +18,5 @@
       "item": "minecraft:golden_apple"
     }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 3000
 }

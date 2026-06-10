@@ -1,25 +1,12 @@
 {
-  "repairMaterial": {
-    "tag": "c:ingots/netherite",
-    "count": 1
-  },
+  "type": "malum:spirit_repair",
   "regex": {
     "itemIdRegex": "netherite_.+"
   },
-  "validItems": [
-    "minecraft:netherite_sword",
-    "minecraft:netherite_shovel",
-    "minecraft:netherite_pickaxe",
-    "minecraft:netherite_axe",
-    "minecraft:netherite_hoe",
-    "minecraft:netherite_helmet",
-    "minecraft:netherite_chestplate",
-    "minecraft:netherite_leggings",
-    "minecraft:netherite_boots",
-    "farmersdelight:netherite_knife",
-    "create:netherite_diving_helmet",
-    "create:netherite_diving_boots"
-  ],
+  "repairMaterial": {
+    "count": 1,
+    "tag": "c:ingots/netherite"
+  },
   "spirits": [
     {
       "type": "malum:infernal",
@@ -34,5 +21,16 @@
       "count": 16
     }
   ],
-  "type": "malum:spirit_repair"
+  "validItems": [
+    "minecraft:netherite_sword",
+    "minecraft:netherite_shovel",
+    "minecraft:netherite_pickaxe",
+    "minecraft:netherite_axe",
+    "minecraft:netherite_hoe",
+    "minecraft:netherite_helmet",
+    "minecraft:netherite_chestplate",
+    "minecraft:netherite_leggings",
+    "minecraft:netherite_boots",
+    "farmersdelight:netherite_knife"
+  ]
 }

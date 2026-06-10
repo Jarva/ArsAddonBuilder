@@ -1,4 +1,19 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 2,
+      "item": "malum:hallowed_gold_ingot"
+    }
+  ],
+  "input": {
+    "count": 2,
+    "item": "malum:runewood_planks"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:runewood_obelisk"
+  },
   "spirits": [
     {
       "type": "malum:aerial",
@@ -8,20 +23,5 @@
       "type": "malum:sacred",
       "count": 8
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:hallowed_gold_ingot",
-      "count": 2
-    }
-  ],
-  "input": {
-    "item": "malum:runewood_planks",
-    "count": 2
-  },
-  "result": {
-    "id": "malum:runewood_obelisk",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

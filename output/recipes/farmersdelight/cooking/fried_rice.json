@@ -1,27 +1,23 @@
 {
-  "result": {
-    "id": "farmersdelight:fried_rice",
-    "count": 1
-  },
-  "container": {
-    "id": "minecraft:bowl",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "experience": 1.0,
-  "recipe_book_tab": "meals",
   "ingredients": [
     {
-      "item": "farmersdelight:rice"
+      "tag": "c:crops/rice"
     },
     {
-      "item": "minecraft:egg"
+      "tag": "c:eggs"
     },
     {
-      "item": "minecraft:carrot"
+      "tag": "c:crops/carrot"
     },
     {
-      "item": "farmersdelight:onion"
+      "tag": "c:crops/onion"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:fried_rice"
+  }
 }

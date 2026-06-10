@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_nouveau:glyph_grow",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 55,
   "inputs": [
     {
       "item": "ars_nouveau:earth_essence"
@@ -22,103 +20,18 @@
     {
       "item": "minecraft:bone_block"
     },
-    [
-      {
-        "item": "minecraft:beetroot_seeds"
-      },
-      {
-        "item": "minecraft:melon_seeds"
-      },
-      {
-        "item": "minecraft:pumpkin_seeds"
-      },
-      {
-        "item": "minecraft:torchflower_seeds"
-      },
-      {
-        "item": "minecraft:wheat_seeds"
-      },
-      {
-        "item": "farmersdelight:cabbage_seeds"
-      },
-      {
-        "item": "farmersdelight:rice"
-      },
-      {
-        "item": "farmersdelight:tomato_seeds"
-      },
-      {
-        "item": "ars_nouveau:magebloom_crop"
-      },
-      {
-        "item": "occultism:datura_seeds"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:beetroot_seeds"
-      },
-      {
-        "item": "minecraft:melon_seeds"
-      },
-      {
-        "item": "minecraft:pumpkin_seeds"
-      },
-      {
-        "item": "minecraft:torchflower_seeds"
-      },
-      {
-        "item": "minecraft:wheat_seeds"
-      },
-      {
-        "item": "farmersdelight:cabbage_seeds"
-      },
-      {
-        "item": "farmersdelight:rice"
-      },
-      {
-        "item": "farmersdelight:tomato_seeds"
-      },
-      {
-        "item": "ars_nouveau:magebloom_crop"
-      },
-      {
-        "item": "occultism:datura_seeds"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:beetroot_seeds"
-      },
-      {
-        "item": "minecraft:melon_seeds"
-      },
-      {
-        "item": "minecraft:pumpkin_seeds"
-      },
-      {
-        "item": "minecraft:torchflower_seeds"
-      },
-      {
-        "item": "minecraft:wheat_seeds"
-      },
-      {
-        "item": "farmersdelight:cabbage_seeds"
-      },
-      {
-        "item": "farmersdelight:rice"
-      },
-      {
-        "item": "farmersdelight:tomato_seeds"
-      },
-      {
-        "item": "ars_nouveau:magebloom_crop"
-      },
-      {
-        "item": "occultism:datura_seeds"
-      }
-    ]
+    {
+      "tag": "c:seeds"
+    },
+    {
+      "tag": "c:seeds"
+    },
+    {
+      "tag": "c:seeds"
+    }
   ],
-  "exp": 55,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_nouveau:glyph_grow"
+  }
 }

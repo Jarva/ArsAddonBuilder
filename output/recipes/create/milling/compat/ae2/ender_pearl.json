@@ -1,14 +1,20 @@
 {
-  "ingredients": [
+  "neoforge:conditions": [
     {
-      "item": "minecraft:ender_pearl"
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
     }
   ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:ender_pearls"
+    }
+  ],
+  "processing_time": 100,
   "results": [
     {
       "id": "ae2:ender_dust"
     }
-  ],
-  "processing_time": 100,
-  "type": "create:milling"
+  ]
 }

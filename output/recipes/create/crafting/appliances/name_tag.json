@@ -1,19 +1,19 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:name_tag",
-    "count": 1
-  },
   "ingredients": [
     {
-      "item": "minecraft:black_dye"
+      "tag": "c:dyes/black"
     },
     {
-      "item": "minecraft:string"
+      "tag": "c:strings"
     },
     {
       "item": "create:cardboard"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:name_tag"
+  }
 }

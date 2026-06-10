@@ -1,51 +1,40 @@
 {
-  "input": [
-    {
-      "item": "minecraft:cobblestone"
-    },
-    {
-      "item": "minecraft:infested_cobblestone"
-    },
-    {
-      "item": "minecraft:mossy_cobblestone"
-    },
-    {
-      "item": "minecraft:cobbled_deepslate"
-    }
-  ],
+  "type": "ars_nouveau:crush",
+  "input": {
+    "tag": "c:cobblestones"
+  },
   "output": [
     {
-      "stack": {
-        "id": "minecraft:gravel",
-        "count": 1
-      },
       "chance": 1.0,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:gravel"
+      }
     },
     {
-      "stack": {
-        "id": "minecraft:gold_nugget",
-        "count": 1
-      },
       "chance": 0.2,
-      "maxRange": 3
+      "maxRange": 3,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:gold_nugget"
+      }
     },
     {
-      "stack": {
-        "id": "minecraft:iron_nugget",
-        "count": 1
-      },
       "chance": 0.2,
-      "maxRange": 3
+      "maxRange": 3,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:iron_nugget"
+      }
     },
     {
-      "stack": {
-        "id": "minecraft:raw_copper",
-        "count": 1
-      },
       "chance": 0.2,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:raw_copper"
+      }
     }
-  ],
-  "type": "ars_nouveau:crush"
+  ]
 }

@@ -1,55 +1,9 @@
 {
+  "type": "create:item_application",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:stripped_acacia_wood"
-      },
-      {
-        "item": "minecraft:stripped_birch_wood"
-      },
-      {
-        "item": "minecraft:stripped_cherry_wood"
-      },
-      {
-        "item": "minecraft:stripped_dark_oak_wood"
-      },
-      {
-        "item": "minecraft:stripped_jungle_wood"
-      },
-      {
-        "item": "minecraft:stripped_mangrove_wood"
-      },
-      {
-        "item": "minecraft:stripped_oak_wood"
-      },
-      {
-        "item": "minecraft:stripped_spruce_wood"
-      },
-      {
-        "item": "minecraft:stripped_crimson_hyphae"
-      },
-      {
-        "item": "minecraft:stripped_warped_hyphae"
-      },
-      {
-        "item": "ars_nouveau:stripped_blue_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_green_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_red_archwood_wood"
-      },
-      {
-        "item": "ars_nouveau:stripped_purple_archwood_wood"
-      },
-      {
-        "item": "malum:stripped_runewood"
-      },
-      {
-        "item": "malum:stripped_soulwood"
-      }
-    ],
+    {
+      "tag": "c:stripped_woods"
+    },
     {
       "item": "create:andesite_alloy"
     }
@@ -58,6 +12,5 @@
     {
       "id": "create:andesite_casing"
     }
-  ],
-  "type": "create:item_application"
+  ]
 }

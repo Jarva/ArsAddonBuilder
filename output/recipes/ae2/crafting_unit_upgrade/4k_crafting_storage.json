@@ -1,5 +1,5 @@
 {
-  "upgraded_block": "ae2:4k_crafting_storage",
+  "type": "ae2:crafting_unit_transform",
   "upgrade_item": "ae2:cell_component_4k",
-  "type": "ae2:crafting_unit_transform"
+  "upgraded_block": "ae2:4k_crafting_storage"
 }

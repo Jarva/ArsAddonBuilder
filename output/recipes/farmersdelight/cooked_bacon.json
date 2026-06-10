@@ -1,13 +1,13 @@
 {
-  "result": {
-    "id": "farmersdelight:cooked_bacon",
-    "count": 1
-  },
-  "experience": 0.35,
-  "cookingtime": 200,
+  "type": "minecraft:smelting",
   "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
   "ingredient": {
     "item": "farmersdelight:bacon"
   },
-  "type": "minecraft:smelting"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:cooked_bacon"
+  }
 }

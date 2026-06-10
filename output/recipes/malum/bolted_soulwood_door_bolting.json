@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "malum:bolted_soulwood_door",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "malum:soulwood_door"
@@ -12,5 +9,8 @@
       "item": "minecraft:iron_nugget"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "malum:bolted_soulwood_door"
+  }
 }

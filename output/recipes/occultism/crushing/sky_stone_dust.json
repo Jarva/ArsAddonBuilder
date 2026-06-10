@@ -1,23 +1,28 @@
 {
-  "ignore_crushing_multiplier": true,
-  "ingredient": [
+  "neoforge:conditions": [
     {
-      "item": "ae2:sky_stone_block"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:sky_stones"
+      }
     },
     {
-      "item": "ae2:smooth_sky_stone_block"
-    },
-    {
-      "item": "ae2:sky_stone_brick"
-    },
-    {
-      "item": "ae2:sky_stone_small_brick"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/sky_stone"
+      }
     }
   ],
-  "result": {
-    "tag": "c:dusts/sky_stone",
-    "count": 1,
-    "type": "occultism:tag"
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "tag": "c:sky_stones"
   },
-  "type": "occultism:crushing"
+  "result": {
+    "type": "occultism:tag",
+    "count": 1,
+    "tag": "c:dusts/sky_stone"
+  }
 }

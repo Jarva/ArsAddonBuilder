@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:air_essence"
@@ -19,14 +21,12 @@
       "item": "minecraft:prismarine_shard"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "minecraft:soul_sand"
   },
   "result": {
-    "id": "ars_elemental:water_upstream",
-    "count": 1
+    "count": 1,
+    "id": "ars_elemental:water_upstream"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

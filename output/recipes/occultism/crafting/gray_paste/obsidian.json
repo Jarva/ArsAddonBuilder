@@ -1,21 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "minecraft:obsidian",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:gray_paste"
     },
-    [
-      {
-        "item": "create:powdered_obsidian"
-      },
-      {
-        "item": "occultism:obsidian_dust"
-      }
-    ]
+    {
+      "tag": "c:dusts/obsidian"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:obsidian"
+  }
 }

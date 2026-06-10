@@ -1,4 +1,5 @@
 {
+  "type": "create:compacting",
   "ingredients": [
     {
       "item": "minecraft:snow_block"
@@ -32,6 +33,5 @@
     {
       "id": "minecraft:ice"
     }
-  ],
-  "type": "create:compacting"
+  ]
 }

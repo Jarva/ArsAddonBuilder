@@ -1,8 +1,15 @@
 {
-  "output": {
-    "id": "ars_astrologique:glyph_invigorate",
-    "count": 1
-  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:item_exists",
+        "item": "ars_elemental:anima_essence"
+      }
+    }
+  ],
+  "type": "ars_nouveau:glyph",
+  "exp": 160,
   "inputs": [
     {
       "item": "minecraft:cooked_beef"
@@ -20,6 +27,8 @@
       "item": "minecraft:golden_carrot"
     }
   ],
-  "exp": 160,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_astrologique:glyph_invigorate"
+  }
 }

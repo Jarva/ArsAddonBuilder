@@ -1,78 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:framed_glass_door",
-    "count": 1
-  },
   "ingredients": [
-    [
-      {
-        "item": "minecraft:oak_door"
-      },
-      {
-        "item": "minecraft:spruce_door"
-      },
-      {
-        "item": "minecraft:birch_door"
-      },
-      {
-        "item": "minecraft:jungle_door"
-      },
-      {
-        "item": "minecraft:acacia_door"
-      },
-      {
-        "item": "minecraft:dark_oak_door"
-      },
-      {
-        "item": "minecraft:crimson_door"
-      },
-      {
-        "item": "minecraft:warped_door"
-      },
-      {
-        "item": "minecraft:mangrove_door"
-      },
-      {
-        "item": "minecraft:bamboo_door"
-      },
-      {
-        "item": "minecraft:cherry_door"
-      },
-      {
-        "item": "ars_nouveau:archwood_door"
-      },
-      {
-        "item": "occultism:otherplanks_door"
-      },
-      {
-        "item": "malum:runewood_door"
-      },
-      {
-        "item": "malum:bolted_runewood_door"
-      },
-      {
-        "item": "malum:runewood_boards_door"
-      },
-      {
-        "item": "malum:bolted_runewood_boards_door"
-      },
-      {
-        "item": "malum:soulwood_door"
-      },
-      {
-        "item": "malum:bolted_soulwood_door"
-      },
-      {
-        "item": "malum:soulwood_boards_door"
-      },
-      {
-        "item": "malum:bolted_soulwood_boards_door"
-      }
-    ],
+    {
+      "tag": "minecraft:wooden_doors"
+    },
     {
       "item": "create:framed_glass"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:framed_glass_door"
+  }
 }

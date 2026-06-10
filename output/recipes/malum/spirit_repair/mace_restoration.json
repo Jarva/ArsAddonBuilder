@@ -1,11 +1,9 @@
 {
+  "type": "malum:spirit_repair",
   "repairMaterial": {
-    "item": "minecraft:wind_charge",
-    "count": 8
+    "count": 8,
+    "item": "minecraft:wind_charge"
   },
-  "validItems": [
-    "minecraft:mace"
-  ],
   "spirits": [
     {
       "type": "malum:aerial",
@@ -16,5 +14,7 @@
       "count": 16
     }
   ],
-  "type": "malum:spirit_repair"
+  "validItems": [
+    "minecraft:mace"
+  ]
 }

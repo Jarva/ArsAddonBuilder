@@ -1,16 +1,16 @@
 {
+  "type": "ars_nouveau:crush",
   "input": {
     "item": "minecraft:sandstone"
   },
   "output": [
     {
-      "stack": {
-        "id": "minecraft:sand",
-        "count": 1
-      },
       "chance": 1.0,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 1,
+        "id": "minecraft:sand"
+      }
     }
-  ],
-  "type": "ars_nouveau:crush"
+  ]
 }

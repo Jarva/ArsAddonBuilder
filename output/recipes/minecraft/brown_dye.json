@@ -1,14 +1,14 @@
 {
-  "group": "brown_dye",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:brown_dye",
-    "count": 1
-  },
+  "group": "brown_dye",
   "ingredients": [
     {
       "item": "minecraft:cocoa_beans"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:brown_dye"
+  }
 }

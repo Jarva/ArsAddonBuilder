@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_trinkets:warrior_rune_lesser"
@@ -7,14 +9,12 @@
       "item": "ars_trinkets:warrior_rune_lesser"
     }
   ],
-  "sourceCost": 1000,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "minecraft:netherite_block"
   },
   "result": {
-    "id": "ars_trinkets:warrior_rune",
-    "count": 1
+    "count": 1,
+    "id": "ars_trinkets:warrior_rune"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 1000
 }

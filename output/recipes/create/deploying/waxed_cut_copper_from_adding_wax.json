@@ -1,4 +1,5 @@
 {
+  "type": "create:deploying",
   "ingredients": [
     {
       "item": "minecraft:cut_copper"
@@ -7,11 +8,10 @@
       "item": "minecraft:honeycomb_block"
     }
   ],
+  "keep_held_item": true,
   "results": [
     {
       "id": "minecraft:waxed_cut_copper"
     }
-  ],
-  "keep_held_item": true,
-  "type": "create:deploying"
+  ]
 }

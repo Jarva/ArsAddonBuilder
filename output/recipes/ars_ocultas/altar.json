@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "occultism:silver_ingot"
@@ -25,14 +27,12 @@
       "item": "ars_nouveau:sourcestone"
     }
   ],
-  "sourceCost": 5000,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "occultism:golden_sacrificial_bowl"
   },
   "result": {
-    "id": "ars_ocultas:altar",
-    "count": 1
+    "count": 1,
+    "id": "ars_ocultas:altar"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 5000
 }

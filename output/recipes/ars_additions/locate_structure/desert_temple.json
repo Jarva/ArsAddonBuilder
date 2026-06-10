@@ -1,12 +1,12 @@
 {
-  "structure": {
-    "tag": "ars_additions:desert_temple"
-  },
-  "id": "ars_additions:desert_temple",
+  "type": "ars_additions:locate_structure",
   "augments": [
     {
       "key": "minecraft:sandstone"
     }
   ],
-  "type": "ars_additions:locate_structure"
+  "id": "ars_additions:desert_temple",
+  "structure": {
+    "tag": "ars_additions:desert_temple"
+  }
 }

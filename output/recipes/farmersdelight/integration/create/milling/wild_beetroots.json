@@ -1,4 +1,11 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
   "ingredients": [
     {
       "item": "farmersdelight:wild_beetroots"
@@ -6,12 +13,13 @@
   ],
   "results": [
     {
-      "id": "minecraft:beetroot_seeds"
+      "id": "minecraft:beetroot_seeds",
+      "count": 1
     },
     {
-      "id": "minecraft:red_dye"
+      "id": "minecraft:red_dye",
+      "count": 1
     }
   ],
-  "processing_time": 50,
-  "type": "create:milling"
+  "processing_time": 50
 }

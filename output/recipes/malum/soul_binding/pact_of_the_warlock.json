@@ -1,19 +1,20 @@
 {
-  "input": {
-    "item": "malum:refined_soulstone",
-    "count": 12
-  },
-  "result": "malum:pact_of_the_warlock",
+  "type": "malum:soul_binding",
   "extraInputs": [
     {
-      "item": "malum:arcane_charcoal",
-      "count": 4
+      "count": 4,
+      "item": "malum:arcane_charcoal"
     },
     {
-      "item": "malum:hex_ash",
-      "count": 4
+      "count": 4,
+      "item": "malum:hex_ash"
     }
   ],
+  "input": {
+    "count": 12,
+    "item": "malum:refined_soulstone"
+  },
+  "result": "malum:pact_of_the_warlock",
   "spirits": [
     {
       "type": "malum:wicked",
@@ -23,6 +24,5 @@
       "type": "malum:aqueous",
       "count": 16
     }
-  ],
-  "type": "malum:soul_binding"
+  ]
 }

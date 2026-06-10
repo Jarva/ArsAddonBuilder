@@ -1,22 +1,23 @@
 {
-  "group": "chest_boat",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:dark_oak_chest_boat",
-    "count": 1
-  },
+  "group": "chest_boat",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:chest"
+    {
+      "type": "neoforge:difference",
+      "base": {
+        "tag": "c:chests/wooden"
       },
-      {
-        "item": "ars_nouveau:archwood_chest"
+      "subtracted": {
+        "tag": "c:chests/trapped"
       }
-    ],
+    },
     {
       "item": "minecraft:dark_oak_boat"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:dark_oak_chest_boat"
+  }
 }

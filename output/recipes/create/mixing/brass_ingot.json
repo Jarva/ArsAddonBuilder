@@ -1,18 +1,18 @@
 {
+  "type": "create:mixing",
+  "heat_requirement": "heated",
   "ingredients": [
     {
-      "item": "minecraft:copper_ingot"
+      "tag": "c:ingots/copper"
     },
     {
-      "item": "create:zinc_ingot"
+      "tag": "c:ingots/zinc"
     }
   ],
   "results": [
     {
-      "id": "create:brass_ingot",
-      "count": 2
+      "count": 2,
+      "id": "create:brass_ingot"
     }
-  ],
-  "heat_requirement": "heated",
-  "type": "create:mixing"
+  ]
 }

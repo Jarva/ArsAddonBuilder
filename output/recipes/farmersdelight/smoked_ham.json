@@ -1,13 +1,13 @@
 {
-  "result": {
-    "id": "farmersdelight:smoked_ham",
-    "count": 1
-  },
-  "experience": 0.35,
-  "cookingtime": 200,
+  "type": "minecraft:smoking",
   "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
   "ingredient": {
     "item": "farmersdelight:ham"
   },
-  "type": "minecraft:smoking"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:smoked_ham"
+  }
 }

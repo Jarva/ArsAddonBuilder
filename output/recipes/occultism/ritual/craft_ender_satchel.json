@@ -1,37 +1,37 @@
 {
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/craft_ender_satchel",
-    "count": 1
-  },
-  "result": {
-    "id": "occultism:ender_satchel",
-    "count": 1
-  },
-  "ritual_type": "occultism:craft_with_spirit_name",
-  "pentacle_id": "occultism:craft_djinni",
-  "ingredients": [
-    {
-      "item": "minecraft:ender_chest"
-    },
-    {
-      "item": "minecraft:leather"
-    },
-    {
-      "item": "minecraft:leather"
-    },
-    {
-      "item": "minecraft:string"
-    },
-    {
-      "item": "occultism:silver_ingot"
-    },
-    {
-      "item": "minecraft:gold_ingot"
-    }
-  ],
+  "type": "occultism:ritual",
   "activation_item": {
     "item": "occultism:book_of_binding_bound_djinni"
   },
   "duration": 150,
-  "type": "occultism:ritual"
+  "ingredients": [
+    {
+      "tag": "c:chests/ender"
+    },
+    {
+      "tag": "c:leathers"
+    },
+    {
+      "tag": "c:leathers"
+    },
+    {
+      "tag": "c:strings"
+    },
+    {
+      "tag": "c:ingots/silver"
+    },
+    {
+      "tag": "c:ingots/gold"
+    }
+  ],
+  "pentacle_id": "occultism:craft_djinni",
+  "result": {
+    "count": 1,
+    "id": "occultism:ender_satchel"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/craft_ender_satchel"
+  },
+  "ritual_type": "occultism:craft_with_spirit_name"
 }

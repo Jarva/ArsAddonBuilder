@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_trinkets:glyph_aura",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 160,
   "inputs": [
     {
       "item": "ars_nouveau:glyph_self"
@@ -17,6 +15,8 @@
       "item": "minecraft:netherite_block"
     }
   ],
-  "exp": 160,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_trinkets:glyph_aura"
+  }
 }

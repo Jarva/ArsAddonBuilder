@@ -1,12 +1,9 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_nouveau:archwood_sconce",
-    "count": 1
-  },
   "ingredients": [
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "c:gems/source"
     },
     {
       "item": "ars_nouveau:archwood_planks"
@@ -15,5 +12,8 @@
       "item": "ars_nouveau:archwood_planks"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_nouveau:archwood_sconce"
+  }
 }

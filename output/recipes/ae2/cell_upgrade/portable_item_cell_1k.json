@@ -1,22 +1,22 @@
 {
+  "type": "ae2:storage_cell_disassembly",
   "cell": "ae2:portable_item_cell_1k",
   "cell_disassembly_items": [
     {
-      "id": "ae2:chest",
-      "count": 1
+      "count": 1,
+      "id": "ae2:chest"
     },
     {
-      "id": "ae2:energy_cell",
-      "count": 1
+      "count": 1,
+      "id": "ae2:energy_cell"
     },
     {
-      "id": "ae2:item_cell_housing",
-      "count": 1
+      "count": 1,
+      "id": "ae2:item_cell_housing"
     },
     {
-      "id": "ae2:cell_component_1k",
-      "count": 1
+      "count": 1,
+      "id": "ae2:cell_component_1k"
     }
-  ],
-  "type": "ae2:storage_cell_disassembly"
+  ]
 }

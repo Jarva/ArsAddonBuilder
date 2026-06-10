@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:storage_stabilizer_tier0_dark",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "occultism:otherstone_pedestal_silver"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:storage_stabilizer_tier0_dark"
+  }
 }

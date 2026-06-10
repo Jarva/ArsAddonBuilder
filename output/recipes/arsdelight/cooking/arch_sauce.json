@@ -1,14 +1,10 @@
 {
-  "result": {
-    "id": "arsdelight:arch_sauce",
-    "count": 1
-  },
+  "type": "farmersdelight:cooking",
   "container": {
-    "id": "minecraft:bowl",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:bowl"
   },
   "experience": 0.1,
-  "recipe_book_tab": "meals",
   "ingredients": [
     {
       "item": "arsdelight:neutralized_frostaya_jam"
@@ -26,5 +22,9 @@
       "item": "ars_nouveau:sourceberry_bush"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "arsdelight:arch_sauce"
+  }
 }

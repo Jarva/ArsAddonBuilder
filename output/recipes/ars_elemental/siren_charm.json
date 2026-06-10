@@ -1,86 +1,35 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "minecraft:prismarine_shard"
     },
-    [
-      {
-        "item": "minecraft:cod"
-      },
-      {
-        "item": "minecraft:cooked_cod"
-      },
-      {
-        "item": "minecraft:salmon"
-      },
-      {
-        "item": "minecraft:cooked_salmon"
-      },
-      {
-        "item": "minecraft:pufferfish"
-      },
-      {
-        "item": "minecraft:tropical_fish"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:cod"
-      },
-      {
-        "item": "minecraft:cooked_cod"
-      },
-      {
-        "item": "minecraft:salmon"
-      },
-      {
-        "item": "minecraft:cooked_salmon"
-      },
-      {
-        "item": "minecraft:pufferfish"
-      },
-      {
-        "item": "minecraft:tropical_fish"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:cod"
-      },
-      {
-        "item": "minecraft:cooked_cod"
-      },
-      {
-        "item": "minecraft:salmon"
-      },
-      {
-        "item": "minecraft:cooked_salmon"
-      },
-      {
-        "item": "minecraft:pufferfish"
-      },
-      {
-        "item": "minecraft:tropical_fish"
-      }
-    ],
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "minecraft:fishes"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "minecraft:fishes"
     },
     {
-      "item": "ars_nouveau:source_gem"
+      "tag": "minecraft:fishes"
+    },
+    {
+      "tag": "c:gems/source"
+    },
+    {
+      "tag": "c:gems/source"
+    },
+    {
+      "tag": "c:gems/source"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_elemental:siren_shards"
   },
   "result": {
-    "id": "ars_elemental:siren_charm",
-    "count": 1
+    "count": 1,
+    "id": "ars_elemental:siren_charm"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

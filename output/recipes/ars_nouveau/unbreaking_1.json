@@ -1,20 +1,20 @@
 {
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:unbreaking",
+  "level": 1,
   "pedestalItems": [
     {
       "item": "ars_nouveau:abjuration_essence"
     },
     {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:storage_blocks/source"
     },
     {
-      "item": "minecraft:lapis_block"
+      "tag": "c:storage_blocks/lapis"
     }
   ],
-  "enchantment": "minecraft:unbreaking",
-  "level": 1,
-  "sourceCost": 2000,
-  "type": "ars_nouveau:enchantment"
+  "sourceCost": 2000
 }

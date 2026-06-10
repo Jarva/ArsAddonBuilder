@@ -1,21 +1,17 @@
 {
-  "result": {
-    "id": "farmersdelight:tomato_sauce",
-    "count": 1
-  },
-  "container": {
-    "id": "minecraft:bowl",
-    "count": 1
-  },
-  "experience": 0.35,
+  "type": "farmersdelight:cooking",
   "cookingtime": 100,
+  "experience": 0.35,
   "ingredients": [
     {
-      "item": "farmersdelight:tomato"
+      "tag": "c:crops/tomato"
     },
     {
-      "item": "farmersdelight:tomato"
+      "tag": "c:crops/tomato"
     }
   ],
-  "type": "farmersdelight:cooking"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:tomato_sauce"
+  }
 }

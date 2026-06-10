@@ -1,8 +1,5 @@
 {
-  "structure": {
-    "tag": "ars_additions:woodland_mansion"
-  },
-  "id": "ars_additions:woodland_mansion",
+  "type": "ars_additions:locate_structure",
   "augments": [
     {
       "key": "minecraft:brown_mushroom"
@@ -11,5 +8,8 @@
       "key": "minecraft:red_mushroom"
     }
   ],
-  "type": "ars_additions:locate_structure"
+  "id": "ars_additions:woodland_mansion",
+  "structure": {
+    "tag": "ars_additions:woodland_mansion"
+  }
 }

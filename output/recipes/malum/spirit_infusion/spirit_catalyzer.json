@@ -1,4 +1,27 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 4,
+      "item": "malum:tainted_rock"
+    },
+    {
+      "count": 1,
+      "item": "malum:ether"
+    },
+    {
+      "count": 4,
+      "item": "malum:twisted_rock"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:twisted_rock_item_pedestal"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:spirit_catalyzer"
+  },
   "spirits": [
     {
       "type": "malum:infernal",
@@ -8,28 +31,5 @@
       "type": "malum:aerial",
       "count": 8
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:tainted_rock",
-      "count": 4
-    },
-    {
-      "item": "malum:ether",
-      "count": 1
-    },
-    {
-      "item": "malum:twisted_rock",
-      "count": 4
-    }
-  ],
-  "input": {
-    "item": "malum:twisted_rock_item_pedestal",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:spirit_catalyzer",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

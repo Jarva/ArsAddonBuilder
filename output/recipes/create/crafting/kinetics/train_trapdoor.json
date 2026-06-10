@@ -1,78 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:train_trapdoor",
-    "count": 1
-  },
   "ingredients": [
-    [
-      {
-        "item": "minecraft:acacia_trapdoor"
-      },
-      {
-        "item": "minecraft:birch_trapdoor"
-      },
-      {
-        "item": "minecraft:dark_oak_trapdoor"
-      },
-      {
-        "item": "minecraft:jungle_trapdoor"
-      },
-      {
-        "item": "minecraft:oak_trapdoor"
-      },
-      {
-        "item": "minecraft:spruce_trapdoor"
-      },
-      {
-        "item": "minecraft:crimson_trapdoor"
-      },
-      {
-        "item": "minecraft:warped_trapdoor"
-      },
-      {
-        "item": "minecraft:mangrove_trapdoor"
-      },
-      {
-        "item": "minecraft:bamboo_trapdoor"
-      },
-      {
-        "item": "minecraft:cherry_trapdoor"
-      },
-      {
-        "item": "ars_nouveau:archwood_trapdoor"
-      },
-      {
-        "item": "occultism:otherplanks_trapdoor"
-      },
-      {
-        "item": "malum:runewood_trapdoor"
-      },
-      {
-        "item": "malum:bolted_runewood_trapdoor"
-      },
-      {
-        "item": "malum:runewood_boards_trapdoor"
-      },
-      {
-        "item": "malum:bolted_runewood_boards_trapdoor"
-      },
-      {
-        "item": "malum:soulwood_trapdoor"
-      },
-      {
-        "item": "malum:bolted_soulwood_trapdoor"
-      },
-      {
-        "item": "malum:soulwood_boards_trapdoor"
-      },
-      {
-        "item": "malum:bolted_soulwood_boards_trapdoor"
-      }
-    ],
+    {
+      "tag": "minecraft:wooden_trapdoors"
+    },
     {
       "item": "create:railway_casing"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:train_trapdoor"
+  }
 }

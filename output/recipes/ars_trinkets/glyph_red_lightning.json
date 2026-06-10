@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_trinkets:glyph_red_lightning",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 160,
   "inputs": [
     {
       "item": "ars_nouveau:glyph_lightning"
@@ -26,6 +24,8 @@
       "item": "ars_trinkets:essence_10"
     }
   ],
-  "exp": 160,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_trinkets:glyph_red_lightning"
+  }
 }

@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "starbunclemania:fluid_scroll_deny",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "starbunclemania:fluid_scroll_deny"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "starbunclemania:fluid_scroll_deny"
+  }
 }

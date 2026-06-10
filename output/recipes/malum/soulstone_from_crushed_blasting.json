@@ -1,13 +1,13 @@
 {
-  "result": {
-    "id": "malum:refined_soulstone",
-    "count": 2
-  },
-  "experience": 0.25,
-  "cookingtime": 100,
+  "type": "minecraft:blasting",
   "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
   "ingredient": {
     "item": "malum:crushed_soulstone"
   },
-  "type": "minecraft:blasting"
+  "result": {
+    "count": 2,
+    "id": "malum:refined_soulstone"
+  }
 }

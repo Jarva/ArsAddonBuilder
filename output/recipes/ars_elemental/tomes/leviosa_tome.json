@@ -1,34 +1,14 @@
 {
-  "flavour_text": "Way worse than being shulked, wind feels sharp today.",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 255,
+    "b": 26,
     "g": 255,
-    "b": 26
+    "id": "ars_nouveau:constant",
+    "r": 255
   },
-  "sound": {},
-  "spellData": {
-    "sound": {},
-    "recipe": [
-      "ars_nouveau:glyph_projectile",
-      "ars_nouveau:glyph_launch",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_extend_time",
-      "ars_nouveau:glyph_delay",
-      "ars_nouveau:glyph_wind_shear",
-      "ars_nouveau:glyph_delay",
-      "ars_nouveau:glyph_wind_shear"
-    ],
-    "particleTimeline": {},
-    "name": "Shulkium Leviosa",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 255,
-      "g": 255,
-      "b": 26
-    }
-  },
+  "flavour_text": "Way worse than being shulked, wind feels sharp today.",
   "name": "Shulkium Leviosa",
+  "sound": {},
   "spell": [
     "ars_nouveau:glyph_projectile",
     "ars_nouveau:glyph_launch",
@@ -39,6 +19,26 @@
     "ars_nouveau:glyph_delay",
     "ars_nouveau:glyph_wind_shear"
   ],
-  "tome_type": "ars_elemental:air_caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 26,
+      "g": 255,
+      "id": "ars_nouveau:constant",
+      "r": 255
+    },
+    "name": "Shulkium Leviosa",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_projectile",
+      "ars_nouveau:glyph_launch",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_extend_time",
+      "ars_nouveau:glyph_delay",
+      "ars_nouveau:glyph_wind_shear",
+      "ars_nouveau:glyph_delay",
+      "ars_nouveau:glyph_wind_shear"
+    ],
+    "sound": {}
+  },
+  "tome_type": "ars_elemental:air_caster_tome"
 }

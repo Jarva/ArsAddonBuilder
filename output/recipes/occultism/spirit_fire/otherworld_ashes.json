@@ -1,27 +1,10 @@
 {
-  "ingredient": [
-    {
-      "item": "occultism:otherworld_log"
-    },
-    {
-      "item": "occultism:otherworld_log_natural"
-    },
-    {
-      "item": "occultism:stripped_otherworld_log_natural"
-    },
-    {
-      "item": "occultism:otherworld_wood"
-    },
-    {
-      "item": "occultism:stripped_otherworld_log"
-    },
-    {
-      "item": "occultism:stripped_otherworld_wood"
-    }
-  ],
-  "result": {
-    "id": "occultism:otherworld_ashes",
-    "count": 1
+  "type": "occultism:spirit_fire",
+  "ingredient": {
+    "tag": "occultism:otherworld_logs"
   },
-  "type": "occultism:spirit_fire"
+  "result": {
+    "count": 1,
+    "id": "occultism:otherworld_ashes"
+  }
 }

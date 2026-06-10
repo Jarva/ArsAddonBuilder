@@ -1,11 +1,11 @@
 {
+  "type": "malum:unchained_transmutation",
+  "group": "basalt",
   "input": {
     "item": "minecraft:basalt"
   },
   "result": {
-    "id": "minecraft:magma_block",
-    "count": 1
-  },
-  "group": "basalt",
-  "type": "malum:unchained_transmutation"
+    "count": 1,
+    "id": "minecraft:magma_block"
+  }
 }

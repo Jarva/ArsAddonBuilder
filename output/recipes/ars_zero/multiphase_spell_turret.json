@@ -1,16 +1,16 @@
 {
+  "type": "ars_nouveau:imbuement",
   "input": {
     "item": "ars_nouveau:basic_spell_turret"
   },
   "output": {
-    "id": "ars_zero:multiphase_spell_turret",
-    "count": 1
+    "count": 1,
+    "id": "ars_zero:multiphase_spell_turret"
   },
-  "source": 5000,
   "pedestalItems": [
     {
       "item": "ars_zero:multiphase_orb"
     }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 5000
 }

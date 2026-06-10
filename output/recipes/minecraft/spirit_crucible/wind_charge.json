@@ -1,4 +1,13 @@
 {
+  "type": "malum:spirit_focusing",
+  "durabilityCost": 1,
+  "input": {
+    "item": "malum:zephyr_impetus"
+  },
+  "result": {
+    "count": 4,
+    "id": "minecraft:wind_charge"
+  },
   "spirits": [
     {
       "type": "malum:aerial",
@@ -13,14 +22,5 @@
       "count": 2
     }
   ],
-  "time": 2700,
-  "durabilityCost": 1,
-  "input": {
-    "item": "malum:zephyr_impetus"
-  },
-  "result": {
-    "id": "minecraft:wind_charge",
-    "count": 4
-  },
-  "type": "malum:spirit_focusing"
+  "time": 2700
 }

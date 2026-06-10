@@ -1,4 +1,11 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
   "ingredients": [
     {
       "item": "malum:raw_soulstone"
@@ -6,13 +13,13 @@
   ],
   "results": [
     {
-      "id": "malum:crushed_soulstone"
+      "id": "malum:crushed_soulstone",
+      "count": 1
     },
     {
       "id": "create:experience_nugget",
       "chance": 0.75
     }
   ],
-  "processing_time": 300,
-  "type": "create:crushing"
+  "processing_time": 300
 }

@@ -1,11 +1,11 @@
 {
+  "type": "occultism:crushing",
   "ingredient": {
-    "item": "minecraft:blaze_rod"
+    "tag": "c:rods/blaze"
   },
   "result": {
-    "id": "minecraft:blaze_powder",
+    "type": "occultism:item",
     "count": 4,
-    "type": "occultism:item"
-  },
-  "type": "occultism:crushing"
+    "id": "minecraft:blaze_powder"
+  }
 }

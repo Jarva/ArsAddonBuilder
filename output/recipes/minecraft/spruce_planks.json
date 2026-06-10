@@ -1,25 +1,14 @@
 {
-  "group": "planks",
+  "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "result": {
-    "id": "minecraft:spruce_planks",
-    "count": 4
-  },
+  "group": "planks",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:spruce_log"
-      },
-      {
-        "item": "minecraft:spruce_wood"
-      },
-      {
-        "item": "minecraft:stripped_spruce_log"
-      },
-      {
-        "item": "minecraft:stripped_spruce_wood"
-      }
-    ]
+    {
+      "tag": "minecraft:spruce_logs"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 4,
+    "id": "minecraft:spruce_planks"
+  }
 }

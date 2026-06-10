@@ -1,16 +1,16 @@
 {
+  "type": "ars_nouveau:crush",
   "input": {
     "item": "minecraft:lilac"
   },
   "output": [
     {
-      "stack": {
-        "id": "minecraft:magenta_dye",
-        "count": 4
-      },
       "chance": 1.0,
-      "maxRange": 1
+      "maxRange": 1,
+      "stack": {
+        "count": 4,
+        "id": "minecraft:magenta_dye"
+      }
     }
-  ],
-  "type": "ars_nouveau:crush"
+  ]
 }

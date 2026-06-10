@@ -1,18 +1,6 @@
 {
-  "reagent": [
-    {
-      "item": "ars_nouveau:novice_spell_book"
-    },
-    {
-      "item": "ars_nouveau:apprentice_spell_book"
-    },
-    {
-      "item": "ars_nouveau:archmage_spell_book"
-    },
-    {
-      "item": "ars_nouveau:creative_spell_book"
-    }
-  ],
+  "type": "ars_elemental:netherite_upgrade",
+  "keepNbtOfReagent": true,
   "pedestalItems": [
     {
       "item": "minecraft:netherite_ingot"
@@ -30,6 +18,8 @@
       "item": "ars_nouveau:air_essence"
     }
   ],
-  "sourceCost": 2000,
-  "type": "ars_elemental:netherite_upgrade"
+  "reagent": {
+    "tag": "ars_nouveau:spellbook"
+  },
+  "sourceCost": 2000
 }

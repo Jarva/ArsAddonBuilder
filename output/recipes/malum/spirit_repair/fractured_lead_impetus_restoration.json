@@ -1,12 +1,10 @@
 {
-  "repairMaterial": {
-    "item": "malum:cthonic_gold_fragment",
-    "count": 2
-  },
+  "type": "malum:spirit_repair",
   "durabilityPercentage": 1.0,
-  "validItems": [
-    "malum:fractured_lead_impetus"
-  ],
+  "repairMaterial": {
+    "count": 2,
+    "item": "malum:cthonic_gold_fragment"
+  },
   "spirits": [
     {
       "type": "malum:aqueous",
@@ -17,5 +15,7 @@
       "count": 8
     }
   ],
-  "type": "malum:spirit_repair"
+  "validItems": [
+    "malum:fractured_lead_impetus"
+  ]
 }

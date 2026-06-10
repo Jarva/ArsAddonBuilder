@@ -1,18 +1,13 @@
 {
-  "result": {
-    "id": "create:zinc_ingot",
-    "count": 1
-  },
-  "experience": 1.0,
-  "cookingtime": 100,
+  "type": "minecraft:blasting",
   "category": "misc",
-  "ingredient": [
-    {
-      "item": "create:zinc_ore"
-    },
-    {
-      "item": "create:deepslate_zinc_ore"
-    }
-  ],
-  "type": "minecraft:blasting"
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredient": {
+    "tag": "c:ores/zinc"
+  },
+  "result": {
+    "count": 1,
+    "id": "create:zinc_ingot"
+  }
 }

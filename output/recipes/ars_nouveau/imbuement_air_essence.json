@@ -1,12 +1,12 @@
 {
+  "type": "ars_nouveau:imbuement",
   "input": {
-    "item": "ars_nouveau:source_gem"
+    "tag": "c:gems/source"
   },
   "output": {
-    "id": "ars_nouveau:air_essence",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:air_essence"
   },
-  "source": 2000,
   "pedestalItems": [
     {
       "item": "minecraft:feather"
@@ -14,17 +14,9 @@
     {
       "item": "ars_nouveau:wilden_wing"
     },
-    [
-      {
-        "item": "minecraft:arrow"
-      },
-      {
-        "item": "minecraft:tipped_arrow"
-      },
-      {
-        "item": "minecraft:spectral_arrow"
-      }
-    ]
+    {
+      "tag": "minecraft:arrows"
+    }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 2000
 }

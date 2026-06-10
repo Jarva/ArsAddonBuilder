@@ -1,9 +1,6 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_zero:novice_spell_staff",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "ars_zero:archwood_rod"
@@ -21,5 +18,8 @@
       "item": "minecraft:iron_sword"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_zero:novice_spell_staff"
+  }
 }

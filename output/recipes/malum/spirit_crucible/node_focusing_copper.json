@@ -1,4 +1,13 @@
 {
+  "type": "malum:spirit_focusing",
+  "durabilityCost": 2,
+  "input": {
+    "item": "malum:copper_impetus"
+  },
+  "result": {
+    "count": 3,
+    "id": "malum:copper_node"
+  },
   "spirits": [
     {
       "type": "malum:earthen",
@@ -9,14 +18,5 @@
       "count": 2
     }
   ],
-  "time": 900,
-  "durabilityCost": 2,
-  "input": {
-    "item": "malum:copper_impetus"
-  },
-  "result": {
-    "id": "malum:copper_node",
-    "count": 3
-  },
-  "type": "malum:spirit_focusing"
+  "time": 900
 }

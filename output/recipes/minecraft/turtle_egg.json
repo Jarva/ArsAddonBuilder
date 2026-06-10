@@ -1,16 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "minecraft:turtle_egg",
-    "count": 1
-  },
   "ingredients": [
     {
-      "item": "minecraft:egg"
+      "tag": "c:eggs"
     },
     {
       "item": "ars_nouveau:conjuration_essence"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "minecraft:turtle_egg"
+  }
 }

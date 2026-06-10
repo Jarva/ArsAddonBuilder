@@ -1,32 +1,32 @@
 {
-  "tool": [
-    {
-      "action": "shovel_dig",
-      "type": "farmersdelight:item_ability"
-    },
-    {
-      "tag": "minecraft:shovels"
-    }
-  ],
-  "result": [
-    {
-      "item": {
-        "id": "minecraft:gravel",
-        "count": 1
-      }
-    },
-    {
-      "item": {
-        "id": "minecraft:flint",
-        "count": 1
-      },
-      "chance": 0.1
-    }
-  ],
+  "type": "farmersdelight:cutting",
   "ingredients": [
     {
       "item": "minecraft:gravel"
     }
   ],
-  "type": "farmersdelight:cutting"
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:gravel"
+      }
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "count": 1,
+        "id": "minecraft:flint"
+      }
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:item_ability",
+      "action": "shovel_dig"
+    },
+    {
+      "tag": "minecraft:shovels"
+    }
+  ]
 }

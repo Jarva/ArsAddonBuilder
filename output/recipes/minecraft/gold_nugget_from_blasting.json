@@ -1,11 +1,8 @@
 {
-  "result": {
-    "id": "minecraft:gold_nugget",
-    "count": 1
-  },
-  "experience": 0.1,
-  "cookingtime": 100,
+  "type": "minecraft:blasting",
   "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
   "ingredient": [
     {
       "item": "minecraft:golden_pickaxe"
@@ -38,5 +35,7 @@
       "item": "minecraft:golden_horse_armor"
     }
   ],
-  "type": "minecraft:blasting"
+  "result": {
+    "id": "minecraft:gold_nugget"
+  }
 }

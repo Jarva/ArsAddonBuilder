@@ -1,4 +1,23 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 4,
+      "item": "malum:refined_soulstone"
+    },
+    {
+      "count": 2,
+      "item": "malum:hex_ash"
+    }
+  ],
+  "input": {
+    "count": 4,
+    "item": "malum:alchemical_calx"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:alchemical_impetus"
+  },
   "spirits": [
     {
       "type": "malum:arcane",
@@ -8,24 +27,5 @@
       "type": "malum:earthen",
       "count": 4
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:refined_soulstone",
-      "count": 4
-    },
-    {
-      "item": "malum:hex_ash",
-      "count": 2
-    }
-  ],
-  "input": {
-    "item": "malum:alchemical_calx",
-    "count": 4
-  },
-  "result": {
-    "id": "malum:alchemical_impetus",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

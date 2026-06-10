@@ -1,76 +1,25 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ars_caelum:ritual_elder_summon",
-    "count": 1
-  },
   "ingredients": [
-    [
-      {
-        "item": "minecraft:cod"
-      },
-      {
-        "item": "minecraft:cooked_cod"
-      },
-      {
-        "item": "minecraft:salmon"
-      },
-      {
-        "item": "minecraft:cooked_salmon"
-      },
-      {
-        "item": "minecraft:pufferfish"
-      },
-      {
-        "item": "minecraft:tropical_fish"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:cod"
-      },
-      {
-        "item": "minecraft:cooked_cod"
-      },
-      {
-        "item": "minecraft:salmon"
-      },
-      {
-        "item": "minecraft:cooked_salmon"
-      },
-      {
-        "item": "minecraft:pufferfish"
-      },
-      {
-        "item": "minecraft:tropical_fish"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:cod"
-      },
-      {
-        "item": "minecraft:cooked_cod"
-      },
-      {
-        "item": "minecraft:salmon"
-      },
-      {
-        "item": "minecraft:cooked_salmon"
-      },
-      {
-        "item": "minecraft:pufferfish"
-      },
-      {
-        "item": "minecraft:tropical_fish"
-      }
-    ],
+    {
+      "tag": "minecraft:fishes"
+    },
+    {
+      "tag": "minecraft:fishes"
+    },
+    {
+      "tag": "minecraft:fishes"
+    },
     {
       "item": "ars_nouveau:blue_archwood_log"
     },
     {
-      "item": "minecraft:blaze_rod"
+      "tag": "c:rods/blaze"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ars_caelum:ritual_elder_summon"
+  }
 }

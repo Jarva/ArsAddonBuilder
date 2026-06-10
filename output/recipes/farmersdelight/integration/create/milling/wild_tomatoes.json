@@ -1,4 +1,11 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
   "ingredients": [
     {
       "item": "farmersdelight:wild_tomatoes"
@@ -6,12 +13,13 @@
   ],
   "results": [
     {
-      "id": "farmersdelight:tomato_seeds"
+      "id": "farmersdelight:tomato_seeds",
+      "count": 1
     },
     {
-      "id": "minecraft:green_dye"
+      "id": "minecraft:green_dye",
+      "count": 1
     }
   ],
-  "processing_time": 50,
-  "type": "create:milling"
+  "processing_time": 50
 }

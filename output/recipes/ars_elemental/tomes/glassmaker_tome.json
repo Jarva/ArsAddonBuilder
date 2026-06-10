@@ -1,36 +1,14 @@
 {
-  "flavour_text": "Encase yourself in glass.",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 255,
+    "b": 26,
     "g": 255,
-    "b": 26
+    "id": "ars_nouveau:constant",
+    "r": 255
   },
-  "sound": {},
-  "spellData": {
-    "sound": {},
-    "recipe": [
-      "ars_nouveau:glyph_underfoot",
-      "ars_elemental:glyph_conjure_terrain",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_pierce",
-      "ars_nouveau:glyph_pierce",
-      "ars_nouveau:glyph_pierce",
-      "ars_nouveau:glyph_crush",
-      "ars_nouveau:glyph_smelt"
-    ],
-    "particleTimeline": {},
-    "name": "Safety Jar",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 255,
-      "g": 255,
-      "b": 26
-    }
-  },
+  "flavour_text": "Encase yourself in glass.",
   "name": "Safety Jar",
+  "sound": {},
   "spell": [
     "ars_nouveau:glyph_underfoot",
     "ars_elemental:glyph_conjure_terrain",
@@ -43,6 +21,28 @@
     "ars_nouveau:glyph_crush",
     "ars_nouveau:glyph_smelt"
   ],
-  "tome_type": "ars_elemental:manipulation_caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 26,
+      "g": 255,
+      "id": "ars_nouveau:constant",
+      "r": 255
+    },
+    "name": "Safety Jar",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_underfoot",
+      "ars_elemental:glyph_conjure_terrain",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_crush",
+      "ars_nouveau:glyph_smelt"
+    ],
+    "sound": {}
+  },
+  "tome_type": "ars_elemental:manipulation_caster_tome"
 }

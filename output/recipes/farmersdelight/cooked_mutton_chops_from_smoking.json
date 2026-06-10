@@ -1,13 +1,13 @@
 {
-  "result": {
-    "id": "farmersdelight:cooked_mutton_chops",
-    "count": 1
-  },
-  "experience": 0.35,
-  "cookingtime": 100,
+  "type": "minecraft:smoking",
   "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
   "ingredient": {
     "item": "farmersdelight:mutton_chops"
   },
-  "type": "minecraft:smoking"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:cooked_mutton_chops"
+  }
 }

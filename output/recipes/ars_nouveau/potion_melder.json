@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:abjuration_essence"
@@ -7,32 +9,30 @@
       "item": "ars_nouveau:abjuration_essence"
     },
     {
-      "item": "minecraft:gold_block"
+      "tag": "c:storage_blocks/gold"
     },
     {
-      "item": "minecraft:gold_block"
+      "tag": "c:storage_blocks/gold"
     },
     {
-      "item": "minecraft:blaze_rod"
+      "tag": "c:rods/blaze"
     },
     {
-      "item": "minecraft:blaze_rod"
+      "tag": "c:rods/blaze"
     },
     {
-      "item": "minecraft:blaze_rod"
+      "tag": "c:rods/blaze"
     },
     {
-      "item": "minecraft:blaze_rod"
+      "tag": "c:rods/blaze"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:potion_jar"
   },
   "result": {
-    "id": "ars_nouveau:potion_melder",
-    "count": 1
+    "count": 1,
+    "id": "ars_nouveau:potion_melder"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 0
 }

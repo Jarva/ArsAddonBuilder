@@ -1,13 +1,13 @@
 {
-  "output": {
-    "id": "toomanyglyphs:glyph_filter_animal",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 27,
   "inputs": [
     {
       "item": "minecraft:beef"
     }
   ],
-  "exp": 27,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "toomanyglyphs:glyph_filter_animal"
+  }
 }

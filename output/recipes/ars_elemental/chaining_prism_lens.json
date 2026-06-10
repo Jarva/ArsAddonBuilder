@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "ars_nouveau:manipulation_essence"
@@ -10,19 +12,12 @@
       "item": "ars_nouveau:blank_parchment"
     }
   ],
-  "sourceCost": 0,
-  "keepNbtOfReagent": false,
-  "reagent": [
-    {
-      "item": "minecraft:quartz"
-    },
-    {
-      "item": "malum:natural_quartz"
-    }
-  ],
-  "result": {
-    "id": "ars_elemental:chaining_prism_lens",
-    "count": 1
+  "reagent": {
+    "tag": "c:gems/quartz"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "result": {
+    "count": 1,
+    "id": "ars_elemental:chaining_prism_lens"
+  },
+  "sourceCost": 0
 }

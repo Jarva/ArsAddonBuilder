@@ -1,16 +1,27 @@
 {
-  "ingredient": [
+  "neoforge:conditions": [
     {
-      "item": "minecraft:diamond_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/diamond"
+      }
     },
     {
-      "item": "minecraft:deepslate_diamond_ore"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gems/diamond"
+      }
     }
   ],
-  "result": {
-    "tag": "c:gems/diamond",
-    "count": 2,
-    "type": "occultism:tag"
+  "type": "occultism:crystallize",
+  "ingredient": {
+    "tag": "c:ores/diamond"
   },
-  "type": "occultism:crystallize"
+  "result": {
+    "type": "occultism:tag",
+    "count": 2,
+    "tag": "c:gems/diamond"
+  }
 }

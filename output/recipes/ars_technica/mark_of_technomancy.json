@@ -1,4 +1,6 @@
 {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
   "pedestalItems": [
     {
       "item": "create:precision_mechanism"
@@ -10,29 +12,27 @@
       "item": "ars_nouveau:manipulation_essence"
     },
     {
-      "item": "minecraft:iron_ingot"
+      "tag": "c:ingots/iron"
     },
     {
-      "item": "minecraft:copper_ingot"
+      "tag": "c:ingots/copper"
     },
     {
-      "item": "create:brass_sheet"
+      "tag": "c:plates/brass"
     },
     {
-      "item": "create:zinc_ingot"
+      "tag": "c:ingots/zinc"
     },
     {
-      "item": "create:golden_sheet"
+      "tag": "c:plates/gold"
     }
   ],
-  "sourceCost": 10000,
-  "keepNbtOfReagent": false,
   "reagent": {
     "item": "ars_nouveau:wilden_tribute"
   },
   "result": {
-    "id": "ars_technica:mark_of_technomancy",
-    "count": 5
+    "count": 5,
+    "id": "ars_technica:mark_of_technomancy"
   },
-  "type": "ars_nouveau:enchanting_apparatus"
+  "sourceCost": 10000
 }

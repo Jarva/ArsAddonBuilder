@@ -1,4 +1,7 @@
 {
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "ars_nouveau:mana_regen",
+  "level": 3,
   "pedestalItems": [
     {
       "item": "ars_nouveau:sourceberry_bush"
@@ -16,17 +19,14 @@
       "item": "ars_nouveau:abjuration_essence"
     },
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:storage_blocks/source"
     },
     {
-      "item": "ars_nouveau:source_gem_block"
+      "tag": "c:storage_blocks/source"
     },
     {
-      "item": "minecraft:lapis_block"
+      "tag": "c:storage_blocks/lapis"
     }
   ],
-  "enchantment": "ars_nouveau:mana_regen",
-  "level": 3,
-  "sourceCost": 5000,
-  "type": "ars_nouveau:enchantment"
+  "sourceCost": 5000
 }

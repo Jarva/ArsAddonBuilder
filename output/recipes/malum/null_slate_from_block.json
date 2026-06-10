@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "malum:null_slate",
-    "count": 9
-  },
   "ingredients": [
     {
       "item": "malum:block_of_null_slate"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 9,
+    "id": "malum:null_slate"
+  }
 }

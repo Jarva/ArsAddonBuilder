@@ -1,21 +1,13 @@
 {
+  "type": "create:haunting",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:sand"
-      },
-      {
-        "item": "minecraft:red_sand"
-      },
-      {
-        "item": "minecraft:suspicious_sand"
-      }
-    ]
+    {
+      "tag": "minecraft:sand"
+    }
   ],
   "results": [
     {
       "id": "minecraft:soul_sand"
     }
-  ],
-  "type": "create:haunting"
+  ]
 }

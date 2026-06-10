@@ -1,4 +1,19 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "malum:blazing_quartz"
+    }
+  ],
+  "input": {
+    "count": 4,
+    "item": "minecraft:glowstone_dust"
+  },
+  "result": {
+    "count": 2,
+    "id": "malum:ether"
+  },
   "spirits": [
     {
       "type": "malum:infernal",
@@ -8,20 +23,5 @@
       "type": "malum:arcane",
       "count": 1
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:blazing_quartz",
-      "count": 1
-    }
-  ],
-  "input": {
-    "item": "minecraft:glowstone_dust",
-    "count": 4
-  },
-  "result": {
-    "id": "malum:ether",
-    "count": 2
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

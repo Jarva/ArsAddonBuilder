@@ -1,4 +1,23 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 8,
+      "item": "malum:blazing_quartz"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:prismarine_crystals"
+    }
+  ],
+  "input": {
+    "count": 6,
+    "item": "malum:alchemical_calx"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:caustic_catalyst"
+  },
   "spirits": [
     {
       "type": "malum:aqueous",
@@ -8,24 +27,5 @@
       "type": "malum:infernal",
       "count": 16
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:blazing_quartz",
-      "count": 8
-    },
-    {
-      "item": "minecraft:prismarine_crystals",
-      "count": 8
-    }
-  ],
-  "input": {
-    "item": "malum:alchemical_calx",
-    "count": 6
-  },
-  "result": {
-    "id": "malum:caustic_catalyst",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

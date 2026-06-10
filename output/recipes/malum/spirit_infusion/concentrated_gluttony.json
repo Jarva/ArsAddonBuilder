@@ -1,4 +1,19 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 1,
+      "item": "malum:rotting_essence"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "minecraft:honey_bottle"
+  },
+  "result": {
+    "count": 2,
+    "id": "malum:concentrated_gluttony"
+  },
   "spirits": [
     {
       "type": "malum:aqueous",
@@ -12,20 +27,5 @@
       "type": "malum:wicked",
       "count": 2
     }
-  ],
-  "extraInputs": [
-    {
-      "item": "malum:rotting_essence",
-      "count": 1
-    }
-  ],
-  "input": {
-    "item": "minecraft:honey_bottle",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:concentrated_gluttony",
-    "count": 2
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

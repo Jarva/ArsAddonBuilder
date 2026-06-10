@@ -1,34 +1,14 @@
 {
-  "flavour_text": "Builds a small hut around the user.",
+  "type": "ars_nouveau:caster_tome",
   "color": {
-    "id": "ars_nouveau:constant",
-    "r": 255,
+    "b": 180,
     "g": 25,
-    "b": 180
+    "id": "ars_nouveau:constant",
+    "r": 255
   },
-  "sound": {},
-  "spellData": {
-    "sound": {},
-    "recipe": [
-      "ars_nouveau:glyph_underfoot",
-      "ars_nouveau:glyph_phantom_block",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_aoe",
-      "ars_nouveau:glyph_pierce",
-      "ars_nouveau:glyph_pierce",
-      "ars_nouveau:glyph_pierce"
-    ],
-    "particleTimeline": {},
-    "name": "Xacris\u0027 Tiny Hut",
-    "color": {
-      "id": "ars_nouveau:constant",
-      "r": 255,
-      "g": 25,
-      "b": 180
-    }
-  },
+  "flavour_text": "Builds a small hut around the user.",
   "name": "Xacris\u0027 Tiny Hut",
+  "sound": {},
   "spell": [
     "ars_nouveau:glyph_underfoot",
     "ars_nouveau:glyph_phantom_block",
@@ -39,6 +19,26 @@
     "ars_nouveau:glyph_pierce",
     "ars_nouveau:glyph_pierce"
   ],
-  "tome_type": "ars_nouveau:caster_tome",
-  "type": "ars_nouveau:caster_tome"
+  "spellData": {
+    "color": {
+      "b": 180,
+      "g": 25,
+      "id": "ars_nouveau:constant",
+      "r": 255
+    },
+    "name": "Xacris\u0027 Tiny Hut",
+    "particleTimeline": {},
+    "recipe": [
+      "ars_nouveau:glyph_underfoot",
+      "ars_nouveau:glyph_phantom_block",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_aoe",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce",
+      "ars_nouveau:glyph_pierce"
+    ],
+    "sound": {}
+  },
+  "tome_type": "ars_nouveau:caster_tome"
 }

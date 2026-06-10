@@ -1,16 +1,16 @@
 {
+  "type": "malum:runeworking",
   "input": {
-    "item": "malum:null_slate",
-    "count": 4
-  },
-  "secondaryInput": {
-    "item": "malum:aqueous_spirit",
-    "count": 16
+    "count": 4,
+    "item": "malum:null_slate"
   },
   "result": {
-    "id": "malum:rune_of_twinned_duration",
-    "count": 1
+    "count": 1,
+    "id": "malum:rune_of_twinned_duration"
   },
-  "soundType": "malum:runic_workbench_shapes_void_rune",
-  "type": "malum:runeworking"
+  "secondaryInput": {
+    "count": 16,
+    "item": "malum:aqueous_spirit"
+  },
+  "soundType": "malum:runic_workbench_shapes_void_rune"
 }

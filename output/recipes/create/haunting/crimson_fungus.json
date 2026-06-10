@@ -1,4 +1,5 @@
 {
+  "type": "create:haunting",
   "ingredients": [
     {
       "item": "minecraft:red_mushroom"
@@ -8,6 +9,5 @@
     {
       "id": "minecraft:crimson_fungus"
     }
-  ],
-  "type": "create:haunting"
+  ]
 }

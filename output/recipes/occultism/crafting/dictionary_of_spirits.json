@@ -1,21 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "occultism:dictionary_of_spirits",
-    "count": 1
-  },
   "ingredients": [
     {
-      "item": "occultism:datura_seeds"
+      "tag": "c:seeds/datura"
     },
-    [
-      {
-        "item": "occultism:dictionary_of_spirits"
-      },
-      {
-        "item": "minecraft:book"
-      }
-    ]
+    {
+      "tag": "c:books"
+    }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "occultism:dictionary_of_spirits"
+  }
 }

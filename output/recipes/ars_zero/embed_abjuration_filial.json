@@ -1,23 +1,12 @@
 {
-  "reagent": [
-    {
-      "item": "ars_zero:novice_spell_staff"
-    },
-    {
-      "item": "ars_zero:mage_spell_staff"
-    },
-    {
-      "item": "ars_zero:archmage_spell_staff"
-    },
-    {
-      "item": "ars_zero:creative_spell_staff"
-    }
-  ],
+  "type": "ars_zero:staff_filial",
   "pedestalItems": [
     {
       "item": "ars_zero:abjuration_filial"
     }
   ],
-  "sourceCost": 500,
-  "type": "ars_zero:staff_filial"
+  "reagent": {
+    "tag": "ars_zero:filial_staff_input"
+  },
+  "sourceCost": 500
 }

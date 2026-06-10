@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "malum:soul_stained_steel_ingot",
-    "count": 9
-  },
   "ingredients": [
     {
       "item": "malum:block_of_soul_stained_steel"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 9,
+    "id": "malum:soul_stained_steel_ingot"
+  }
 }

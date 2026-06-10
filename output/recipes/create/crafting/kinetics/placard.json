@@ -1,16 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "create:placard",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:item_frame"
     },
     {
-      "item": "create:brass_sheet"
+      "tag": "c:plates/brass"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "create:placard"
+  }
 }

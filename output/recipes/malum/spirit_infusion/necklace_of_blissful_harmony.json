@@ -1,4 +1,31 @@
 {
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 6,
+      "tag": "c:ingots/iron"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "count": 2,
+      "item": "malum:astral_weave"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:diamond"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ornate_necklace"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:necklace_of_blissful_harmony"
+  },
   "spirits": [
     {
       "type": "malum:aqueous",
@@ -12,32 +39,5 @@
       "type": "malum:eldritch",
       "count": 8
     }
-  ],
-  "extraInputs": [
-    {
-      "tag": "c:ingots/iron",
-      "count": 6
-    },
-    {
-      "item": "minecraft:phantom_membrane",
-      "count": 4
-    },
-    {
-      "item": "malum:astral_weave",
-      "count": 2
-    },
-    {
-      "item": "minecraft:diamond",
-      "count": 2
-    }
-  ],
-  "input": {
-    "item": "malum:ornate_necklace",
-    "count": 1
-  },
-  "result": {
-    "id": "malum:necklace_of_blissful_harmony",
-    "count": 1
-  },
-  "type": "malum:spirit_infusion"
+  ]
 }

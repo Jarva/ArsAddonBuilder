@@ -1,8 +1,6 @@
 {
-  "output": {
-    "id": "ars_elemental:glyph_homing_projectile",
-    "count": 1
-  },
+  "type": "ars_nouveau:glyph",
+  "exp": 160,
   "inputs": [
     {
       "item": "minecraft:nether_star"
@@ -17,6 +15,8 @@
       "item": "minecraft:ender_eye"
     }
   ],
-  "exp": 160,
-  "type": "ars_nouveau:glyph"
+  "output": {
+    "count": 1,
+    "id": "ars_elemental:glyph_homing_projectile"
+  }
 }

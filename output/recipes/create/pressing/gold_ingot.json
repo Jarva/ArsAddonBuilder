@@ -1,13 +1,13 @@
 {
+  "type": "create:pressing",
   "ingredients": [
     {
-      "item": "minecraft:gold_ingot"
+      "tag": "c:ingots/gold"
     }
   ],
   "results": [
     {
       "id": "create:golden_sheet"
     }
-  ],
-  "type": "create:pressing"
+  ]
 }

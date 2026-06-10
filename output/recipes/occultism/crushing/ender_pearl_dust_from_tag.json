@@ -1,12 +1,28 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ender_pearls"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/ender_pearl"
+      }
+    }
+  ],
+  "type": "occultism:crushing",
   "ignore_crushing_multiplier": true,
   "ingredient": {
-    "item": "minecraft:ender_pearl"
+    "tag": "c:ender_pearls"
   },
   "result": {
-    "tag": "c:dusts/ender_pearl",
+    "type": "occultism:tag",
     "count": 1,
-    "type": "occultism:tag"
-  },
-  "type": "occultism:crushing"
+    "tag": "c:dusts/ender_pearl"
+  }
 }

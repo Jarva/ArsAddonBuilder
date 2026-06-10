@@ -1,12 +1,12 @@
 {
+  "type": "ars_nouveau:imbuement",
   "input": {
     "item": "ars_trinkets:essence_4"
   },
   "output": {
-    "id": "ars_trinkets:essence_5",
-    "count": 1
+    "count": 1,
+    "id": "ars_trinkets:essence_5"
   },
-  "source": 160,
   "pedestalItems": [
     {
       "item": "ars_trinkets:essence_4"
@@ -33,5 +33,5 @@
       "item": "minecraft:amethyst_block"
     }
   ],
-  "type": "ars_nouveau:imbuement"
+  "source": 160
 }

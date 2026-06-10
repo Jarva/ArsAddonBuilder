@@ -1,24 +1,24 @@
 {
+  "type": "create:crushing",
   "ingredients": [
     {
       "item": "minecraft:prismarine_crystals"
     }
   ],
+  "processing_time": 150,
   "results": [
     {
       "id": "minecraft:quartz"
     },
     {
-      "id": "minecraft:quartz",
+      "chance": 0.5,
       "count": 2,
-      "chance": 0.5
+      "id": "minecraft:quartz"
     },
     {
-      "id": "minecraft:glowstone_dust",
+      "chance": 0.1,
       "count": 2,
-      "chance": 0.1
+      "id": "minecraft:glowstone_dust"
     }
-  ],
-  "processing_time": 150,
-  "type": "create:crushing"
+  ]
 }

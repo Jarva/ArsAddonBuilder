@@ -1,40 +1,40 @@
 {
-  "spirit_job_type": "occultism:clear_weather",
-  "spirit_max_age": 15,
-  "entity_to_summon": "occultism:djinni",
-  "ritual_dummy": {
-    "id": "occultism:ritual_dummy/summon_djinni_clear_weather",
-    "count": 1
+  "type": "occultism:ritual",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
   },
+  "duration": 60,
+  "entity_to_summon": "occultism:djinni",
+  "ingredients": [
+    {
+      "tag": "c:crops/beetroot"
+    },
+    {
+      "tag": "c:crops/carrot"
+    },
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "tag": "c:crops/wheat"
+    }
+  ],
+  "pentacle_id": "occultism:summon_djinni",
   "result": {
-    "id": "occultism:spawn_egg/djinni",
-    "count": 1,
     "components": {
       "minecraft:item_name": "{\"translate\":\"item.occultism.ritual_dummy.summon_djinni_clear_weather\"}",
       "minecraft:lore": [
         "{\"translate\":\"item.occultism.ritual_dummy.summon_djinni_clear_weather.tooltip\"}"
       ]
-    }
+    },
+    "count": 1,
+    "id": "occultism:spawn_egg/djinni"
+  },
+  "ritual_dummy": {
+    "count": 1,
+    "id": "occultism:ritual_dummy/summon_djinni_clear_weather"
   },
   "ritual_type": "occultism:summon_spirit_with_job",
-  "pentacle_id": "occultism:summon_djinni",
-  "ingredients": [
-    {
-      "item": "minecraft:beetroot"
-    },
-    {
-      "item": "minecraft:carrot"
-    },
-    {
-      "item": "minecraft:potato"
-    },
-    {
-      "item": "minecraft:wheat"
-    }
-  ],
-  "activation_item": {
-    "item": "occultism:book_of_binding_bound_djinni"
-  },
-  "duration": 60,
-  "type": "occultism:ritual"
+  "spirit_job_type": "occultism:clear_weather",
+  "spirit_max_age": 15
 }

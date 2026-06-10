@@ -1,16 +1,16 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "ae2:fluix_upgrade_smithing_template",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "minecraft:paper"
     },
     {
-      "item": "ae2:fluix_crystal"
+      "tag": "c:gems/fluix"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "ae2:fluix_upgrade_smithing_template"
+  }
 }

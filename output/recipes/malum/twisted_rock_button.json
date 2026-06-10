@@ -1,13 +1,13 @@
 {
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "malum:twisted_rock_button",
-    "count": 1
-  },
   "ingredients": [
     {
       "item": "malum:twisted_rock"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "malum:twisted_rock_button"
+  }
 }

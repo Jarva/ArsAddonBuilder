@@ -1,14 +1,14 @@
 {
-  "group": "fd_rice",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "result": {
-    "id": "farmersdelight:rice",
-    "count": 1
-  },
+  "group": "fd_rice",
   "ingredients": [
     {
       "item": "farmersdelight:rice_panicle"
     }
   ],
-  "type": "minecraft:crafting_shapeless"
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:rice"
+  }
 }
