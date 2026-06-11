@@ -8,6 +8,7 @@ build
 /run/
 
 **/.cache/
+**/__pycache__/
 
 # Debug output from texture diagnostics
 /output/debug/

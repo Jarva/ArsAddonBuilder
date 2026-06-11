@@ -4,6 +4,17 @@ Ars Addon Builder downloads pre-built mod JARs from CurseForge and runs a headle
 
 The workflow runs daily and can also be triggered manually.
 
+## Generated assets
+
+- Manifest: https://assets.ars.guide/manifest.json
+- Book: https://assets.ars.guide/manifests/book.json
+- Language: https://assets.ars.guide/manifests/lang.json
+- Projects: https://assets.ars.guide/manifests/projects.json
+- Recipes: https://assets.ars.guide/manifests/recipes.json
+- Render: https://assets.ars.guide/manifests/render.json
+- Tags: https://assets.ars.guide/manifests/tags.json
+- Tomes: https://assets.ars.guide/manifests/tomes.json
+
 ## Adding a new project
 
 - Create a file in `./projects` matching your project name. Example: `ars_artifice.json`
