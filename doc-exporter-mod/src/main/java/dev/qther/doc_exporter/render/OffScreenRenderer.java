@@ -75,9 +75,17 @@ public class OffScreenRenderer implements AutoCloseable {
         return sprites.stream().anyMatch(s -> ((AnimatedTextureAccessor) s.contents()).getAnimatedTexture() != null);
     }
 
+    public int getAnimationDurationTicks(Collection<TextureAtlasSprite> sprites) {
+        return sprites.stream()
+                .filter(OffScreenRenderer::isAnimated)
+                .mapToInt(OffScreenRenderer::getAnimationDurationTicks)
+                .max()
+                .orElse(0);
+    }
+
     public byte[] captureAsWebp(Runnable r, Collection<TextureAtlasSprite> sprites, WebPExporter.Format format) {
         var animatedSprites = sprites.stream()
-                .filter(sprite -> ((AnimatedTextureAccessor) sprite.contents()).getAnimatedTexture() != null)
+                .filter(OffScreenRenderer::isAnimated)
                 .toList();
 
         if (animatedSprites.isEmpty()) {
@@ -87,10 +95,7 @@ public class OffScreenRenderer implements AutoCloseable {
         // This is an oversimplification. Not all animated textures may have the same loop frequency,
         // but the greatest common divisor could be so inconvenient that we are essentially looping forever.
         var maxTime = animatedSprites.stream()
-                .mapToInt(s -> ((AnimatedTextureFramesAccessor) ((AnimatedTextureAccessor) s.contents()).getAnimatedTexture())
-                        .getFrames().stream()
-                        .mapToInt(value -> ((FrameInfoAccessor) value).getTime())
-                        .sum())
+                .mapToInt(OffScreenRenderer::getAnimationDurationTicks)
                 .max()
                 .orElse(0);
 
@@ -122,6 +127,22 @@ public class OffScreenRenderer implements AutoCloseable {
 
             return webpWriter.finish();
         }
+    }
+
+    private static boolean isAnimated(TextureAtlasSprite sprite) {
+        return ((AnimatedTextureAccessor) sprite.contents()).getAnimatedTexture() != null;
+    }
+
+    private static int getAnimationDurationTicks(TextureAtlasSprite sprite) {
+        var animation = ((AnimatedTextureAccessor) sprite.contents()).getAnimatedTexture();
+        if (animation == null) {
+            return 0;
+        }
+
+        return ((AnimatedTextureFramesAccessor) animation)
+                .getFrames().stream()
+                .mapToInt(value -> ((FrameInfoAccessor) value).getTime())
+                .sum();
     }
 
     private void renderToBuffer(Runnable r) {

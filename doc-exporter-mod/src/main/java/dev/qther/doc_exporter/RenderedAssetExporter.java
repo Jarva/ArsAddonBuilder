@@ -42,6 +42,7 @@ public final class RenderedAssetExporter {
 
     private static final int ITEM_ICON_DIMENSION = 512;
     private static final int ENTITY_ICON_DIMENSION = 512;
+    private static final int MAX_ANIMATED_RENDER_TICKS = 20 * 10;
     private static final float ENTITY_Y_ROTATION = -135.0f;
     private static final float ENTITY_RENDER_PADDING = 1.5f;
 
@@ -210,7 +211,8 @@ public final class RenderedAssetExporter {
             boolean withAlpha) throws IOException {
         String extension;
         byte[] content;
-        if (renderer.isAnimated(sprites)) {
+        var animationDurationTicks = renderer.getAnimationDurationTicks(sprites);
+        if (animationDurationTicks > 0 && animationDurationTicks <= MAX_ANIMATED_RENDER_TICKS) {
             extension = ".webp";
             content = renderer.captureAsWebp(renderRunnable, sprites,
                     withAlpha ? WebPExporter.Format.LOSSLESS_ALPHA : WebPExporter.Format.LOSSLESS);
