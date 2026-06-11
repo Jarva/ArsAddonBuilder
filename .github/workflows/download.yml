@@ -106,7 +106,7 @@ jobs:
       - name: Download mod JAR from CurseForge
         env:
           CF_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
-        run: ./scripts/download-cf.sh "${{ matrix.file }}"
+        run: python3 scripts/download_cf.py "${{ matrix.file }}"
 
       - name: Upload mod JARs
         uses: actions/upload-artifact@v4
@@ -151,40 +151,42 @@ jobs:
           xvfb: true
 
       - name: Build tomes.json
-        run: cd output && find recipes -name '*.json' -print0 | xargs -0 jq -r 'select(.type == "ars_nouveau:caster_tome") | input_filename' | jq -Rs '[split("\n")[] | select(. != "")]' > tomes.json
+        run: python3 scripts/build_tomes.py output output/manifests/tomes.json
+
+      - name: Move glyphs.json
+        run: |
+          mkdir -p output/manifests
+          mv output/glyphs.json output/manifests/glyphs.json
+
+      - name: Build book.json
+        run: python3 scripts/build_book.py output output/manifests/book.json
+
+      - name: Build render.json
+        run: python3 scripts/build_render_manifest.py output output/manifests/render.json
+
+      - name: Build tags.json
+        run: python3 scripts/build_tags_manifest.py output output/manifests/tags.json
+
+      - name: Build lang.json
+        run: python3 scripts/build_lang_manifest.py output output/manifests/lang.json
+
+      - name: Build recipes.json
+        run: python3 scripts/build_recipes.py output output/manifests/recipes.json
+
+      - name: Copy project configs
+        run: cp -R projects output/projects
+
+      - name: Build projects.json
+        run: python3 scripts/build_project_manifest.py output output/manifests/projects.json
 
       - name: Build manifest.json
-        run: ./scripts/build-manifest.sh output manifest.json
+        run: python3 scripts/build_manifest.py output output/manifest.json
 
       - name: Sync output to R2
         run: aws s3 sync output/ s3://ars-guide-assets --delete --size-only --no-progress --only-show-errors --endpoint-url https://fb2e8a157cc36da2700bf6655622bf89.r2.cloudflarestorage.com
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-
-      - name: Commit and push manifest
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git reset
-          git add -- manifest.json
-          if git diff --cached --quiet; then
-            echo "manifest.json unchanged; skipping commit."
-            exit 0
-          fi
-
-          staged_files=$(git diff --cached --name-only)
-          if [ "$staged_files" != "manifest.json" ]; then
-            echo "::error::Unexpected staged files:"
-            echo "$staged_files"
-            exit 1
-          fi
-
-          git commit -m "ci: update generated file manifest"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
 
       - name: Compute release hash
         id: release_hash
