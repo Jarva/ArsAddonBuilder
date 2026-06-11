@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/project.schema.json",
   "mod_id": "starbunclemania",
   "display_name": "Starbunclemania",
   "disabled": false,

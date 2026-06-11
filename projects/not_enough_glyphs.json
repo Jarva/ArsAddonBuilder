@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/project.schema.json",
   "mod_id": "not_enough_glyphs",
   "display_name": "Not Enough Glyphs",
   "disabled": false,

@@ -1,0 +1,23 @@
+name: Validate Projects
+
+on:
+  pull_request:
+    paths:
+      - "projects/**/*.json"
+      - "schemas/project.schema.json"
+      - ".github/workflows/validate-projects.yml"
+  push:
+    paths:
+      - "projects/**/*.json"
+      - "schemas/project.schema.json"
+      - ".github/workflows/validate-projects.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate project files
+        run: npx --yes ajv-cli validate --spec=draft2020 -s schemas/project.schema.json -d "projects/*.json"

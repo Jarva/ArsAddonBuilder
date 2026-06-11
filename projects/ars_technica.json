@@ -1,10 +1,14 @@
 {
+  "$schema": "../schemas/project.schema.json",
   "mod_id": "ars_technica",
   "display_name": "Ars Technica",
   "disabled": false,
   "cf_id": 1096161,
   "color": "#95a5a6",
   "dependencies": [
-    { "cf_id": 328085, "name": "create" }
+    {
+      "cf_id": 328085,
+      "name": "create"
+    }
   ]
 }

@@ -21,16 +21,20 @@ The workflow runs daily and can also be triggered manually.
 - Fill out the following JSON:
 ```json
 {
+  "$schema": "../schemas/project.schema.json",
   "mod_id": "ars_artifice",
   "display_name": "Ars Artifice",
   "disabled": false,
   "cf_id": 123456,
+  "color": "#6c3ab5",
   "dependencies": []
 }
 ```
+- `$schema` -- local JSON Schema reference for editor validation
 - `mod_id` -- the Minecraft mod ID (from `neoforge.mods.toml`)
 - `display_name` -- human-readable name
 - `cf_id` -- CurseForge project ID
+- `color` -- hex color used by consumers when displaying this project
 - `disabled` -- set to `true` to skip this project
 - `dependencies` -- array of CurseForge dependencies not already covered by another project, e.g. `[{ "cf_id": 328085, "name": "create" }]`
 - The mod must have direct downloads enabled on CurseForge.

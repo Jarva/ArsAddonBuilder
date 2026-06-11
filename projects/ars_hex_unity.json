@@ -1,11 +1,18 @@
 {
+  "$schema": "../schemas/project.schema.json",
   "mod_id": "ars_hex_unity",
   "display_name": "Ars Hex Unity",
   "disabled": false,
   "cf_id": 1357380,
   "color": "#8e44ad",
   "dependencies": [
-    { "cf_id": 484064, "name": "malum" },
-    { "cf_id": 616457, "name": "lodestone" }
+    {
+      "cf_id": 484064,
+      "name": "malum"
+    },
+    {
+      "cf_id": 616457,
+      "name": "lodestone"
+    }
   ]
 }

@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/project.schema.json",
   "mod_id": "ars_caelum",
   "display_name": "Ars Caelum",
   "disabled": false,

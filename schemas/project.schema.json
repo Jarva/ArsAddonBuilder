@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://assets.ars.guide/schemas/project.schema.json",
+  "title": "Ars Addon Builder Project",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "mod_id",
+    "display_name",
+    "disabled",
+    "cf_id",
+    "color",
+    "dependencies"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "mod_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "display_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "disabled": {
+      "type": "boolean"
+    },
+    "cf_id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "color": {
+      "type": "string",
+      "pattern": "^#[0-9a-fA-F]{6}$"
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "cf_id",
+          "name"
+        ],
+        "properties": {
+          "cf_id": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

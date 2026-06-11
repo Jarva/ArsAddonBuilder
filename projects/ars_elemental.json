@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/project.schema.json",
   "mod_id": "ars_elemental",
   "display_name": "Ars Elemental",
   "disabled": false,

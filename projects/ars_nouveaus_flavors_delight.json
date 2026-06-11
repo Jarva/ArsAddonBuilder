@@ -1,10 +1,14 @@
 {
+  "$schema": "../schemas/project.schema.json",
   "mod_id": "arsdelight",
   "display_name": "Ars Nouveau's Flavors & Delight",
   "disabled": false,
   "cf_id": 1131668,
   "color": "#d35400",
   "dependencies": [
-    { "cf_id": 398521, "name": "farmers_delight" }
+    {
+      "cf_id": 398521,
+      "name": "farmers_delight"
+    }
   ]
 }
