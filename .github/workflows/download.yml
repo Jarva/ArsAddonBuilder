@@ -182,6 +182,13 @@ jobs:
       - name: Build manifest.json
         run: python3 scripts/build_manifest.py output output/manifest.json
 
+      - name: Optimize PNGs
+        run: |
+          curl -LO https://github.com/oxipng/oxipng/releases/download/v10.1.1/oxipng-10.1.1-x86_64-unknown-linux-gnu.tar.gz
+          tar -xvzf oxipng-10.1.1-x86_64-unknown-linux-gnu.tar.gz
+          oxipng-10.1.1-x86_64-unknown-linux-gnu/oxipng -o max --fast --strip safe --alpha -r output
+          rm -rf oxipng-10.1.1-x86_64-unknown-linux-gnu
+
       - name: Sync output to R2
         run: aws s3 sync output/ s3://ars-guide-assets --delete --size-only --no-progress --only-show-errors --endpoint-url https://fb2e8a157cc36da2700bf6655622bf89.r2.cloudflarestorage.com
         env:
