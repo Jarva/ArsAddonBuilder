@@ -186,7 +186,7 @@ jobs:
         run: |
           curl -LO https://github.com/oxipng/oxipng/releases/download/v10.1.1/oxipng-10.1.1-x86_64-unknown-linux-gnu.tar.gz
           tar -xvzf oxipng-10.1.1-x86_64-unknown-linux-gnu.tar.gz
-          oxipng-10.1.1-x86_64-unknown-linux-gnu/oxipng --fast -s $(find -name '*.png')
+          oxipng-10.1.1-x86_64-unknown-linux-gnu/oxipng -o max -s $(find -name '*.png')
           rm -rf oxipng-10.1.1-x86_64-unknown-linux-gnu
 
       - name: Sync output to R2
