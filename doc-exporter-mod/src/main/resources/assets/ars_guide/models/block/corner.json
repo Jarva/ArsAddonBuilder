@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "ars_guide:block/small_cube",
   "textures": {
-    "all": "ars_guide:block/corner"
+    "all": "minecraft:block/light_gray_concrete"
   }
 }

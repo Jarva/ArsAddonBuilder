@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "ars_guide:block/small_cube",
   "textures": {
-    "all": "ars_guide:block/z_axis"
+    "all": "minecraft:block/blue_concrete"
   }
 }
