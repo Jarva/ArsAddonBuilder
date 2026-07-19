@@ -43,6 +43,7 @@ public class DocExportHelper {
     public static final ExecutorService executor = Executors.newCachedThreadPool();
 
     public DocExportHelper(IEventBus modEventBus, ModContainer modContainer) {
+        GuideBlocks.register(modEventBus);
         NeoForge.EVENT_BUS.addListener(EventPriority.LOWEST, this::postTick);
     }
 

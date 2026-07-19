@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ars_guide:block/z_axis"
+    }
+  }
+}
