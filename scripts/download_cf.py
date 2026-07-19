@@ -51,8 +51,8 @@ def request_json(url: str, api_key: str) -> tuple[int, dict | None, str]:
         return error.code, parsed, body
 
 
-def download_file(url: str, destination: Path) -> None:
-    request = urllib.request.Request(url)
+def download_file(url: str, destination: Path, api_key: str) -> None:
+    request = urllib.request.Request(url, headers={"x-api-key": api_key})
     with urllib.request.urlopen(request, timeout=120) as response:
         destination.write_bytes(response.read())
 
@@ -102,7 +102,7 @@ def download_cf_file(mod_id: int, label: str, api_key: str, mods_dir: Path) -> b
         return False
 
     print(f"Downloading {label}: {filename} (file ID {file_id})")
-    download_file(download_url, mods_dir / filename)
+    download_file(download_url, mods_dir / filename, api_key)
     print(f"Downloaded {filename}")
     return True
 
