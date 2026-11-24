@@ -1,0 +1,9 @@
+{
+  "$schema": "../schemas/project.schema.json",
+  "mod_id": "adamsarsplus",
+  "display_name": "Adams Ars Plus",
+  "disabled": false,
+  "cf_id": 1011093,
+  "color": "#b53a3a",
+  "dependencies": []
+}
